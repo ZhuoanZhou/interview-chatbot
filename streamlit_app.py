@@ -12,6 +12,7 @@ Required Streamlit Secrets:
 """
 
 import asyncio
+import hashlib
 import io
 import json
 import os
@@ -368,6 +369,8 @@ if "phase" not in st.session_state:
         drive_config=None,
         session_saved=False,
         last_audio_hash=None,   # dedup guard for audio recorder
+        user_draft="",          # text currently in the input box
+        show_recorder=False,    # whether the audio recorder is visible
     )
 
 
@@ -489,41 +492,87 @@ elif not session.session_in_progress:
             st.caption(f"(Note: auto-save encountered an issue: {msg})")
 
 else:
-    # --- Audio recorder ---
-    audio = st.audio_input("🎤 Record your response (or type below)", key="audio_recorder")
-    if audio is not None:
-        import hashlib
-        audio_bytes = audio.read()
-        audio_hash = hashlib.md5(audio_bytes).hexdigest()
-        if audio_hash != st.session_state.last_audio_hash:
-            st.session_state.last_audio_hash = audio_hash
-            with st.spinner("Transcribing..."):
-                transcript = _transcribe(audio_bytes)
-            if transcript:
-                st.session_state.chat.append({"role": "user", "content": transcript})
-                with st.chat_message("user"):
-                    st.write(transcript)
-                async def _submit_audio(text=transcript):
-                    session.user.add_user_message(text)
-                asyncio.run_coroutine_threadsafe(
-                    _submit_audio(), st.session_state.loop
-                ).result(timeout=10)
-                st.session_state.waiting = True
-                st.rerun()
-            else:
-                st.warning("Could not transcribe audio. Please try again or type your response.")
+    # ------------------------------------------------------------------ #
+    # Input area: large textbox + round mic button side by side            #
+    # ------------------------------------------------------------------ #
+    st.markdown("""
+    <style>
+    /* Taller, rounded text area */
+    div[data-testid="stTextArea"] textarea {
+        min-height: 120px !important;
+        font-size: 1.05rem !important;
+        line-height: 1.65 !important;
+        border-radius: 14px !important;
+        padding: 14px 18px !important;
+        resize: none !important;
+    }
+    /* Round mic button */
+    div[data-testid="stColumn"]:last-of-type div[data-testid="stBaseButton-secondary"] > button,
+    div[data-testid="stColumn"]:last-of-type button {
+        border-radius: 50% !important;
+        width: 56px !important;
+        height: 56px !important;
+        min-height: 56px !important;
+        padding: 0 !important;
+        font-size: 1.5rem !important;
+        margin-top: 2px !important;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 
-    # --- Text input ---
-    prompt = st.chat_input("...or type your response")
-    if prompt:
-        st.session_state.chat.append({"role": "user", "content": prompt})
+    col_text, col_mic = st.columns([11, 1])
 
-        async def _submit(text=prompt):
-            session.user.add_user_message(text)
+    with col_text:
+        user_text = st.text_area(
+            "response",
+            key="user_draft",
+            height=130,
+            placeholder="Type your response here, or click 🎤 to speak...",
+            label_visibility="collapsed",
+        )
 
-        asyncio.run_coroutine_threadsafe(
-            _submit(), st.session_state.loop
-        ).result(timeout=10)
+    with col_mic:
+        is_recording = st.session_state.show_recorder
+        if st.button("⏹️" if is_recording else "🎤",
+                     key="btn_mic",
+                     help="Stop recording" if is_recording else "Record your response"):
+            st.session_state.show_recorder = not is_recording
+            st.rerun()
 
-        st.session_state.waiting = True
-        st.rerun()
+    # Audio recorder — appears below the input when active
+    if st.session_state.show_recorder:
+        audio = st.audio_input("", key="audio_recorder", label_visibility="collapsed")
+        if audio is not None:
+            audio_bytes = audio.read()
+            audio_hash = hashlib.md5(audio_bytes).hexdigest()
+            if audio_hash != st.session_state.last_audio_hash:
+                st.session_state.last_audio_hash = audio_hash
+                with st.spinner("Transcribing..."):
+                    transcript = _transcribe(audio_bytes)
+                if transcript:
+                    st.session_state.user_draft = transcript
+                    st.session_state.show_recorder = False
+                    st.rerun()
+                else:
+                    st.warning("Could not transcribe. Please try again or type your response.")
+
+    # Send button
+    send_col, _ = st.columns([2, 9])
+    with send_col:
+        send_clicked = st.button("Send →", type="primary", use_container_width=True)
+
+    if send_clicked:
+        prompt = (st.session_state.get("user_draft") or "").strip()
+        if prompt:
+            st.session_state.user_draft = ""
+            st.session_state.chat.append({"role": "user", "content": prompt})
+
+            async def _submit(text=prompt):
+                session.user.add_user_message(text)
+
+            asyncio.run_coroutine_threadsafe(
+                _submit(), st.session_state.loop
+            ).result(timeout=10)
+
+            st.session_state.waiting = True
+            st.rerun()
