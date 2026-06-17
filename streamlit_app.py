@@ -59,6 +59,7 @@ if not os.getenv("OPENAI_API_KEY"):
 
 # --- SparkMe imports -------------------------------------------------------
 from src.interview_session.interview_session import InterviewSession
+from src.interview_session.session_models import Message, MessageType
 
 
 # ==========================================================================
@@ -202,6 +203,12 @@ def _do_save(user_id, chat, config):
         logs_drive = _get_or_create_folder("logs", pfolder, svc)
         _upload_dir_tree(logs_user_dir, logs_drive, svc)
 
+    # Upload data files (memory bank, question bank) for resume continuity
+    data_user_dir = os.path.join("data", user_id)
+    if os.path.isdir(data_user_dir):
+        data_drive = _get_or_create_folder("data", pfolder, svc)
+        _upload_dir_tree(data_user_dir, data_drive, svc)
+
     # Update the researcher's participant log in the root folder
     _update_participants_log(user_id, root, svc)
 
@@ -303,6 +310,25 @@ def restore_from_drive(participant_id, config):
             with open(local_path, "wb") as f:
                 f.write(_download_bytes(latest_id, svc))
 
+        # Restore data files (memory bank, question bank) so topic memory carries over
+        q_data = (
+            f"name='data' and '{pfolder}' in parents "
+            "and mimeType='application/vnd.google-apps.folder' and trashed=false"
+        )
+        data_folders = svc.files().list(q=q_data, fields="files(id)").execute().get("files", [])
+        if data_folders:
+            data_drive_id = data_folders[0]["id"]
+            local_data_dir = os.path.join("data", participant_id)
+            os.makedirs(local_data_dir, exist_ok=True)
+            data_files_list = svc.files().list(
+                q=f"'{data_drive_id}' in parents and trashed=false",
+                fields="files(id, name)",
+            ).execute().get("files", [])
+            for df in data_files_list:
+                local_file = os.path.join(local_data_dir, df["name"])
+                with open(local_file, "wb") as f:
+                    f.write(_download_bytes(df["id"], svc))
+
         return chat, True
 
     except Exception:
@@ -336,7 +362,7 @@ def _run_bg(session, loop):
     loop.run_until_complete(session.run())
 
 
-def _create_session(user_id):
+def _create_session(user_id, previous_chat=None):
     loop = asyncio.new_event_loop()
     session = InterviewSession(
         interaction_mode="api",
@@ -348,6 +374,23 @@ def _create_session(user_id):
             "initial_user_portrait_path": os.getenv("USER_PORTRAIT_PATH", "data/configs/user_portrait.json"),
         },
     )
+
+    # For returning participants: inject previous conversation into SparkMe's
+    # internal chat_history BEFORE run() starts.  The interviewer reads this
+    # list when generating its first message, so it will produce a natural
+    # continuation ("Welcome back…") instead of a fresh introduction.
+    if previous_chat:
+        for msg in previous_chat:
+            role = "Interviewer" if msg["role"] == "assistant" else "User"
+            session.chat_history.append(Message(
+                id=str(uuid.uuid4()),
+                type=MessageType.CONVERSATION,
+                role=role,
+                content=msg["content"],
+                timestamp=datetime.now(),
+                metadata={},
+            ))
+
     threading.Thread(target=_run_bg, args=(session, loop), daemon=True).start()
     return session, loop
 
@@ -419,7 +462,7 @@ if st.session_state.phase == "id_entry":
                     chat, found = restore_from_drive(pid, cfg)
                 if found:
                     with st.spinner("Resuming your session..."):
-                        session, loop = _create_session(pid)
+                        session, loop = _create_session(pid, previous_chat=chat)
                     st.session_state.update(
                         user_id=pid,
                         drive_config=cfg,
