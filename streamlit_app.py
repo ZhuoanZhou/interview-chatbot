@@ -4,9 +4,11 @@ Run locally:   streamlit run streamlit_app.py
 Deploy:        push to GitHub -> connect Streamlit Community Cloud
 
 Required Streamlit Secrets:
-  OPENAI_API_KEY           -- your OpenAI key
-  GDRIVE_FOLDER_ID         -- ID of the Google Drive folder to save sessions into
-  [google_service_account] -- service account credentials (see deployment guide)
+  OPENAI_API_KEY        -- your OpenAI key
+  GDRIVE_FOLDER_ID      -- ID of the Google Drive folder to save sessions into
+  GDRIVE_CLIENT_ID      -- OAuth 2.0 client ID (Desktop app type)
+  GDRIVE_CLIENT_SECRET  -- OAuth 2.0 client secret
+  GDRIVE_REFRESH_TOKEN  -- long-lived refresh token (run get_refresh_token.py once)
 """
 
 import asyncio
@@ -66,19 +68,29 @@ def _get_drive_config():
     try:
         return {
             "folder_id": st.secrets.get("GDRIVE_FOLDER_ID", ""),
-            "service_account": dict(st.secrets.get("google_service_account", {})),
+            "client_id": st.secrets.get("GDRIVE_CLIENT_ID", ""),
+            "client_secret": st.secrets.get("GDRIVE_CLIENT_SECRET", ""),
+            "refresh_token": st.secrets.get("GDRIVE_REFRESH_TOKEN", ""),
         }
     except Exception:
-        return {"folder_id": "", "service_account": {}}
+        return {"folder_id": "", "client_id": "", "client_secret": "", "refresh_token": ""}
 
 
 def _make_service(config):
+    """Build a Drive service authenticated as the real user via OAuth refresh token."""
     from googleapiclient.discovery import build
-    from google.oauth2.service_account import Credentials
-    creds = Credentials.from_service_account_info(
-        config["service_account"],
+    from google.oauth2.credentials import Credentials
+    from google.auth.transport.requests import Request
+
+    creds = Credentials(
+        token=None,
+        refresh_token=config["refresh_token"],
+        client_id=config["client_id"],
+        client_secret=config["client_secret"],
+        token_uri="https://oauth2.googleapis.com/token",
         scopes=["https://www.googleapis.com/auth/drive"],
     )
+    creds.refresh(Request())
     return build("drive", "v3", credentials=creds, cache_discovery=False)
 
 
@@ -141,7 +153,7 @@ def _latest_agenda_path(user_id):
 
 def _do_save(user_id, chat, config):
     """Core Drive save: chat history + latest session agenda. Returns (ok, message)."""
-    if not config.get("folder_id") or not config.get("service_account"):
+    if not config.get("folder_id") or not config.get("refresh_token"):
         return False, "Drive not configured."
     svc = _make_service(config)
     root = config["folder_id"]
@@ -222,7 +234,7 @@ def restore_from_drive(participant_id, config):
     picks up the existing session state automatically on InterviewSession init.
     """
     try:
-        if not config.get("folder_id") or not config.get("service_account"):
+        if not config.get("folder_id") or not config.get("refresh_token"):
             return [], False
         svc = _make_service(config)
         root = config["folder_id"]

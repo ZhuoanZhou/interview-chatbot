@@ -214,3 +214,7 @@ data/*/
 
 # Streamlit local secrets (contains API keys and credentials)
 .streamlit/
+
+# OAuth helper files (contain credentials — never commit)
+client_secrets.json
+get_refresh_token.py
