@@ -23,6 +23,7 @@ from datetime import datetime
 
 import streamlit as st
 from dotenv import load_dotenv
+from streamlit_mic_recorder import mic_recorder
 
 # Load .env for local dev; Streamlit Cloud injects secrets as env vars
 load_dotenv(override=True)
@@ -370,7 +371,6 @@ if "phase" not in st.session_state:
         session_saved=False,
         last_audio_hash=None,   # dedup guard for audio recorder
         user_draft="",          # text currently in the input box
-        show_recorder=False,    # whether the audio recorder is visible
     )
 
 
@@ -498,11 +498,10 @@ elif not session.session_in_progress:
 
 else:
     # ------------------------------------------------------------------ #
-    # Input area: large textbox + round mic button side by side            #
+    # Input area: large textbox + mic button (record/stop toggle)          #
     # ------------------------------------------------------------------ #
     st.markdown("""
     <style>
-    /* Taller, rounded text area */
     div[data-testid="stTextArea"] textarea {
         min-height: 120px !important;
         font-size: 1.05rem !important;
@@ -511,24 +510,13 @@ else:
         padding: 14px 18px !important;
         resize: none !important;
     }
-    /* Round mic button */
-    div[data-testid="stColumn"]:last-of-type div[data-testid="stBaseButton-secondary"] > button,
-    div[data-testid="stColumn"]:last-of-type button {
-        border-radius: 50% !important;
-        width: 56px !important;
-        height: 56px !important;
-        min-height: 56px !important;
-        padding: 0 !important;
-        font-size: 1.5rem !important;
-        margin-top: 2px !important;
-    }
     </style>
     """, unsafe_allow_html=True)
 
-    col_text, col_mic = st.columns([11, 1])
+    col_text, col_mic = st.columns([10, 1])
 
     with col_text:
-        user_text = st.text_area(
+        st.text_area(
             "response",
             key="user_draft",
             height=130,
@@ -537,29 +525,29 @@ else:
         )
 
     with col_mic:
-        is_recording = st.session_state.show_recorder
-        if st.button("⏹️" if is_recording else "🎤",
-                     key="btn_mic",
-                     help="Stop recording" if is_recording else "Record your response"):
-            st.session_state.show_recorder = not is_recording
-            st.rerun()
+        # mic_recorder shows a single button that toggles between
+        # 🎤 (start) and ⏹️ (stop); returns audio bytes when stopped.
+        audio = mic_recorder(
+            start_prompt="🎤",
+            stop_prompt="⏹️",
+            just_once=True,       # fire only once per recording
+            use_container_width=True,
+            key="mic",
+        )
 
-    # Audio recorder — appears below the input when active
-    if st.session_state.show_recorder:
-        audio = st.audio_input("", key="audio_recorder", label_visibility="collapsed")
-        if audio is not None:
-            audio_bytes = audio.read()
-            audio_hash = hashlib.md5(audio_bytes).hexdigest()
-            if audio_hash != st.session_state.last_audio_hash:
-                st.session_state.last_audio_hash = audio_hash
-                with st.spinner("Transcribing..."):
-                    transcript = _transcribe(audio_bytes)
-                if transcript:
-                    st.session_state._pending_draft = transcript
-                    st.session_state.show_recorder = False
-                    st.rerun()
-                else:
-                    st.warning("Could not transcribe. Please try again or type your response.")
+    # Handle new recording
+    if audio:
+        audio_bytes = audio["bytes"]
+        audio_hash = hashlib.md5(audio_bytes).hexdigest()
+        if audio_hash != st.session_state.last_audio_hash:
+            st.session_state.last_audio_hash = audio_hash
+            with st.spinner("Transcribing..."):
+                transcript = _transcribe(audio_bytes)
+            if transcript:
+                st.session_state._pending_draft = transcript
+                st.rerun()
+            else:
+                st.warning("Could not transcribe. Please try again or type your response.")
 
     # Send button
     send_col, _ = st.columns([2, 9])
