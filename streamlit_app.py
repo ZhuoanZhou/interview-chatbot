@@ -22,6 +22,26 @@ from dotenv import load_dotenv
 # Load .env for local dev; Streamlit Cloud injects secrets as env vars
 load_dotenv(override=True)
 
+# SparkMe reads many env vars at import time. Set defaults so the app works
+# on Streamlit Cloud without requiring every variable in Streamlit Secrets.
+os.environ.setdefault("LOGS_DIR", "logs")
+os.environ.setdefault("DATA_DIR", "data")
+os.environ.setdefault("USER_AGENT_PROFILES_DIR", "data/sample_user_profiles")
+os.environ.setdefault("INTERVIEW_PLAN_PATH", "data/configs/topics.json")
+os.environ.setdefault("USER_PORTRAIT_PATH", "data/configs/user_portrait.json")
+os.environ.setdefault("MODEL_NAME", "gpt-4.1-mini")
+os.environ.setdefault("AGENDA_MANAGER_MODEL_NAME", "gpt-4.1-mini")
+os.environ.setdefault("EXPLORATION_PLANNER_MODEL_NAME", "gpt-4.1-mini")
+os.environ.setdefault("EMBEDDING_BACKEND", "openai")
+os.environ.setdefault("MAX_EVENTS_LEN", "10")
+os.environ.setdefault("MAX_CONSIDERATION_ITERATIONS", "4")
+os.environ.setdefault("USE_BASELINE_PROMPT", "false")
+os.environ.setdefault("EVAL_MODE", "false")
+os.environ.setdefault("COMPLETION_METRIC", "minimum_threshold")
+os.environ.setdefault("SESSION_TIMEOUT_MINUTES", "10")
+os.environ.setdefault("MEMORY_THRESHOLD_FOR_UPDATE", "10")
+os.environ.setdefault("EXPLORATION_PLANNER_GAMMA", "0")
+
 # --- Guard: OpenAI key must be present ------------------------------------
 if not os.getenv("OPENAI_API_KEY"):
     st.error(
