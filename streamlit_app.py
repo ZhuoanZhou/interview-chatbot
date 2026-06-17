@@ -308,6 +308,24 @@ def restore_from_drive(participant_id, config):
 
 
 # ==========================================================================
+# Whisper transcription
+# ==========================================================================
+
+def _transcribe(audio_bytes):
+    """Send audio bytes to OpenAI Whisper API and return the transcript text."""
+    try:
+        import openai
+        client = openai.OpenAI()
+        result = client.audio.transcriptions.create(
+            model="whisper-1",
+            file=("recording.wav", io.BytesIO(audio_bytes), "audio/wav"),
+        )
+        return result.text.strip()
+    except Exception as e:
+        return ""
+
+
+# ==========================================================================
 # SparkMe session management
 # ==========================================================================
 
@@ -349,6 +367,7 @@ if "phase" not in st.session_state:
         waiting=False,
         drive_config=None,
         session_saved=False,
+        last_audio_hash=None,   # dedup guard for audio recorder
     )
 
 
@@ -470,12 +489,37 @@ elif not session.session_in_progress:
             st.caption(f"(Note: auto-save encountered an issue: {msg})")
 
 else:
-    prompt = st.chat_input("Type your response...")
+    # --- Audio recorder ---
+    audio = st.audio_input("🎤 Record your response (or type below)", key="audio_recorder")
+    if audio is not None:
+        import hashlib
+        audio_bytes = audio.read()
+        audio_hash = hashlib.md5(audio_bytes).hexdigest()
+        if audio_hash != st.session_state.last_audio_hash:
+            st.session_state.last_audio_hash = audio_hash
+            with st.spinner("Transcribing..."):
+                transcript = _transcribe(audio_bytes)
+            if transcript:
+                st.session_state.chat.append({"role": "user", "content": transcript})
+                with st.chat_message("user"):
+                    st.write(transcript)
+                async def _submit_audio(text=transcript):
+                    session.user.add_user_message(text)
+                asyncio.run_coroutine_threadsafe(
+                    _submit_audio(), st.session_state.loop
+                ).result(timeout=10)
+                st.session_state.waiting = True
+                st.rerun()
+            else:
+                st.warning("Could not transcribe audio. Please try again or type your response.")
+
+    # --- Text input ---
+    prompt = st.chat_input("...or type your response")
     if prompt:
         st.session_state.chat.append({"role": "user", "content": prompt})
 
-        async def _submit():
-            session.user.add_user_message(prompt)
+        async def _submit(text=prompt):
+            session.user.add_user_message(text)
 
         asyncio.run_coroutine_threadsafe(
             _submit(), st.session_state.loop
