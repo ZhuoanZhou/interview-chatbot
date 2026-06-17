@@ -520,14 +520,19 @@ else:
         padding: 14px 18px !important;
         resize: none !important;
     }
-    /* Send button — same height and font as mic recorder button */
+    /* Send button */
     div[data-testid="stButton"] button[kind="primaryFormSubmit"],
     div[data-testid="stButton"] button[kind="primary"] {
         font-size: 1rem !important;
-        height: 46px !important;
+        height: 60px !important;
         padding: 0 1.2rem !important;
         border-radius: 8px !important;
         width: 100% !important;
+    }
+    /* Mic recorder iframe — taller so the button is larger */
+    [data-testid="stColumn"]:first-child iframe {
+        height: 60px !important;
+        min-height: 60px !important;
     }
     </style>
     """, unsafe_allow_html=True)
@@ -541,11 +546,8 @@ else:
         label_visibility="collapsed",
     )
 
-    # Send (left-aligned) and Mic (right-aligned) below the text area
-    send_col, spacer_col, mic_col = st.columns([2, 6, 2])
-
-    with send_col:
-        send_clicked = st.button("Send →", type="primary", use_container_width=True)
+    # Mic (left-aligned) and Send (right-aligned) below the text area
+    mic_col, spacer_col, send_col = st.columns([3, 5, 2])
 
     with mic_col:
         audio = mic_recorder(
@@ -555,6 +557,9 @@ else:
             use_container_width=True,
             key="mic",
         )
+
+    with send_col:
+        send_clicked = st.button("Send →", type="primary", use_container_width=True)
 
     # Handle new recording
     if audio:
