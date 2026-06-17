@@ -393,9 +393,37 @@ def _create_session(user_id, previous_chat=None):
                 if len(body) > 300:
                     body = body[:300] + "..."
                 turns.append(f" - {prefix}: {body}")
-            session.session_agenda.last_meeting_summary = (
-                "Previous session transcript:\n" + "\n".join(turns[:30])
-            )
+            summary = "Previous session transcript:\n" + "\n".join(turns[:30])
+
+            # Append covered subtopics from the restored session agenda so the
+            # AgendaManager knows which subtopics are already done and won't
+            # re-evaluate or re-ask about them in the new session.
+            _, agenda_path = _latest_agenda_path(user_id)
+            if agenda_path and os.path.exists(agenda_path):
+                try:
+                    with open(agenda_path) as f:
+                        agenda = json.load(f)
+                    covered_lines = []
+                    topic_dict = (
+                        agenda.get("interview_topic_manager", {})
+                              .get("core_topic_dict", {})
+                    )
+                    for topic in topic_dict.values():
+                        for sub_id, sub in topic.get("required_subtopics", {}).items():
+                            if sub.get("is_covered") and sub.get("final_summary"):
+                                covered_lines.append(
+                                    f" - {sub_id} ({sub['description']}): {sub['final_summary']}"
+                                )
+                    if covered_lines:
+                        summary += (
+                            "\n\nSubtopics already fully covered in previous sessions"
+                            " (do NOT revisit these):\n"
+                            + "\n".join(covered_lines)
+                        )
+                except Exception:
+                    pass  # If parsing fails, fall back to transcript-only summary
+
+            session.session_agenda.last_meeting_summary = summary
 
     threading.Thread(target=_run_bg, args=(session, loop), daemon=True).start()
     return session, loop
