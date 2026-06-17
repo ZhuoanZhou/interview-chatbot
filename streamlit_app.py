@@ -469,12 +469,13 @@ if st.session_state.phase == "id_entry":
                 if found:
                     with st.spinner("Resuming your session..."):
                         session, loop = _create_session(pid, previous_chat=chat)
-                    # If the participant's last turn was from *them*, SparkMe will
-                    # still generate an opening message internally (we can't stop it),
-                    # but we should silently discard it — the participant should speak
-                    # next, not the chatbot.
-                    last_role = chat[-1]["role"] if chat else "assistant"
-                    skip_first = last_role == "user"
+                    # If the chatbot was the last to speak, SparkMe will still
+                    # generate a continuation message internally (we can't stop it),
+                    # but we should silently discard it — the chatbot already asked
+                    # something, so just show the history and let the participant reply.
+                    # If the participant was last to speak, we DO want SparkMe's response.
+                    last_role = chat[-1]["role"] if chat else "user"
+                    skip_first = last_role == "assistant"
                     st.session_state.update(
                         user_id=pid,
                         drive_config=cfg,
@@ -522,22 +523,25 @@ with st.sidebar:
 new_msgs = session.user.get_and_clear_messages()
 if new_msgs:
     if st.session_state.get("skip_first_bot_msg"):
-        # Returning participant whose last turn was from them: discard SparkMe's
-        # automatic opening message so we don't add an unwanted chatbot turn.
+        # Chatbot was last to speak: discard SparkMe's automatic continuation
+        # message so the participant just sees their history and the input box.
         st.session_state.skip_first_bot_msg = False
         new_msgs = new_msgs[1:]
     for m in new_msgs:
         st.session_state.chat.append({"role": "assistant", "content": m["content"]})
-    st.session_state.waiting = False
-    # Persist session_agenda.json so the next session can restore agenda state.
-    # SparkMe only saves snapshot files during a session, never session_agenda.json,
-    # so we must write it explicitly here before the Drive upload.
-    try:
-        session.session_agenda.save()
-    except Exception:
-        pass
-    # Non-blocking save after every interviewer turn
-    save_async(user_id, st.session_state.chat, cfg)
+    # Only stop waiting if we actually received real messages (not just discarded one).
+    # If new_msgs is empty after discarding, leave waiting as-is so the
+    # polling loop keeps running if the user has already sent a message.
+    if new_msgs:
+        st.session_state.waiting = False
+    if new_msgs:
+        # Persist session_agenda.json so the next session can restore agenda state.
+        try:
+            session.session_agenda.save()
+        except Exception:
+            pass
+        # Non-blocking save after every interviewer turn
+        save_async(user_id, st.session_state.chat, cfg)
 
 # Render chat history
 for msg in st.session_state.chat:
