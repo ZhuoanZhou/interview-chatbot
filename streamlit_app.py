@@ -448,6 +448,11 @@ user_id = st.session_state.user_id
 session  = st.session_state.session
 cfg      = st.session_state.drive_config
 
+# Apply any pending draft (transcript or clear) BEFORE the text_area renders.
+# We can't set a widget key after the widget renders, so we use a bridge variable.
+if "_pending_draft" in st.session_state:
+    st.session_state.user_draft = st.session_state.pop("_pending_draft")
+
 # Sidebar: show participant ID as a persistent reminder
 with st.sidebar:
     st.markdown("### Your Participant ID")
@@ -550,7 +555,7 @@ else:
                 with st.spinner("Transcribing..."):
                     transcript = _transcribe(audio_bytes)
                 if transcript:
-                    st.session_state.user_draft = transcript
+                    st.session_state._pending_draft = transcript
                     st.session_state.show_recorder = False
                     st.rerun()
                 else:
@@ -564,7 +569,7 @@ else:
     if send_clicked:
         prompt = (st.session_state.get("user_draft") or "").strip()
         if prompt:
-            st.session_state.user_draft = ""
+            st.session_state._pending_draft = ""   # clear box on next run
             st.session_state.chat.append({"role": "user", "content": prompt})
 
             async def _submit(text=prompt):
