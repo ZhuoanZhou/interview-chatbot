@@ -10,6 +10,8 @@ Required Streamlit Secrets:
 """
 
 import asyncio
+import io
+import json
 import os
 import threading
 import time
@@ -22,8 +24,8 @@ from dotenv import load_dotenv
 # Load .env for local dev; Streamlit Cloud injects secrets as env vars
 load_dotenv(override=True)
 
-# SparkMe reads many env vars at import time. Set defaults so the app works
-# on Streamlit Cloud without requiring every variable in Streamlit Secrets.
+# SparkMe reads many env vars at import time.
+# Set defaults so the app works without adding every variable to Streamlit Secrets.
 os.environ.setdefault("LOGS_DIR", "logs")
 os.environ.setdefault("DATA_DIR", "data")
 os.environ.setdefault("USER_AGENT_PROFILES_DIR", "data/sample_user_profiles")
@@ -47,7 +49,7 @@ if not os.getenv("OPENAI_API_KEY"):
     st.error(
         "**OPENAI_API_KEY is not set.**\n\n"
         "- **Local:** add `OPENAI_API_KEY=sk-...` to your `.env` file.\n"
-        "- **Streamlit Cloud:** Settings -> Secrets."
+        "- **Streamlit Cloud:** Settings → Secrets."
     )
     st.stop()
 
@@ -55,92 +57,228 @@ if not os.getenv("OPENAI_API_KEY"):
 from src.interview_session.interview_session import InterviewSession
 
 
-# --- Google Drive helpers --------------------------------------------------
+# ==========================================================================
+# Google Drive helpers
+# ==========================================================================
 
-def _drive_service():
-    """Build a Google Drive API client from Streamlit secrets."""
+def _get_drive_config():
+    """Capture Drive credentials from Streamlit secrets (call in main thread only)."""
+    try:
+        return {
+            "folder_id": st.secrets.get("GDRIVE_FOLDER_ID", ""),
+            "service_account": dict(st.secrets.get("google_service_account", {})),
+        }
+    except Exception:
+        return {"folder_id": "", "service_account": {}}
+
+
+def _make_service(config):
     from googleapiclient.discovery import build
     from google.oauth2.service_account import Credentials
-
     creds = Credentials.from_service_account_info(
-        dict(st.secrets["google_service_account"]),
+        config["service_account"],
         scopes=["https://www.googleapis.com/auth/drive"],
     )
     return build("drive", "v3", credentials=creds, cache_discovery=False)
 
 
-def _upload_directory(local_dir, parent_folder_id, service):
-    """Upload every file inside local_dir (recursively) to a Drive folder.
-    Returns the number of files uploaded."""
-    from googleapiclient.http import MediaFileUpload
-
-    count = 0
-    if not os.path.exists(local_dir):
-        return count
-
-    for root, _dirs, files in os.walk(local_dir):
-        for filename in files:
-            filepath = os.path.join(root, filename)
-            # Flatten the relative path into the filename so it is readable in Drive
-            rel = os.path.relpath(filepath, local_dir).replace(os.sep, "__")
-            service.files().create(
-                body={"name": rel, "parents": [parent_folder_id]},
-                media_body=MediaFileUpload(filepath, resumable=False),
-            ).execute()
-            count += 1
-
-    return count
+def _get_or_create_folder(name, parent_id, svc):
+    """Return the Drive folder ID for name under parent_id, creating it if needed."""
+    q = (
+        f"name='{name}' and '{parent_id}' in parents "
+        "and mimeType='application/vnd.google-apps.folder' and trashed=false"
+    )
+    results = svc.files().list(q=q, fields="files(id)").execute().get("files", [])
+    if results:
+        return results[0]["id"]
+    return svc.files().create(
+        body={"name": name, "mimeType": "application/vnd.google-apps.folder", "parents": [parent_id]},
+        fields="id",
+    ).execute()["id"]
 
 
-def upload_session_to_drive(user_id):
-    """Upload all logs and data for this session to Google Drive.
-
-    Creates a subfolder named session_{user_id}_{timestamp} inside the
-    folder pointed to by GDRIVE_FOLDER_ID.
-
-    Files uploaded:
-      logs/{user_id}/  -- chat transcript, execution log, token usage
-      data/{user_id}/  -- memory bank, question bank (AI internal notes)
-
-    Returns (success: bool, message: str).
-    """
-    folder_id = st.secrets.get("GDRIVE_FOLDER_ID", "")
-    if not folder_id:
-        return False, "GDRIVE_FOLDER_ID not found in Streamlit Secrets."
-
-    try:
-        service = _drive_service()
-
-        # Create a per-session subfolder so sessions never overwrite each other
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        subfolder = service.files().create(
-            body={
-                "name": f"session_{user_id}_{timestamp}",
-                "mimeType": "application/vnd.google-apps.folder",
-                "parents": [folder_id],
-            },
-            fields="id",
+def _upsert_bytes(name, data, folder_id, svc):
+    """Upload bytes as name into folder_id, overwriting any existing file."""
+    from googleapiclient.http import MediaIoBaseUpload
+    q = f"name='{name}' and '{folder_id}' in parents and trashed=false"
+    existing = svc.files().list(q=q, fields="files(id)").execute().get("files", [])
+    media = MediaIoBaseUpload(io.BytesIO(data), mimetype="application/octet-stream")
+    if existing:
+        svc.files().update(fileId=existing[0]["id"], media_body=media).execute()
+    else:
+        svc.files().create(
+            body={"name": name, "parents": [folder_id]},
+            media_body=media,
         ).execute()
-        subfolder_id = subfolder["id"]
 
-        n = _upload_directory(f"logs/{user_id}", subfolder_id, service)
-        n += _upload_directory(f"data/{user_id}", subfolder_id, service)
 
-        return True, f"Session saved -- {n} files uploaded to Google Drive."
+def _download_bytes(file_id, svc):
+    """Download a Drive file and return its bytes."""
+    from googleapiclient.http import MediaIoBaseDownload
+    buf = io.BytesIO()
+    dl = MediaIoBaseDownload(buf, svc.files().get_media(fileId=file_id))
+    done = False
+    while not done:
+        _, done = dl.next_chunk()
+    return buf.getvalue()
 
+
+def _latest_agenda_path(user_id):
+    """Return (session_num, local_path) for the highest-numbered session_agenda.json, or (None, None)."""
+    base = os.path.join("logs", user_id, "execution_logs")
+    if not os.path.exists(base):
+        return None, None
+    dirs = [d for d in os.listdir(base) if d.startswith("session_") and os.path.isdir(os.path.join(base, d))]
+    if not dirs:
+        return None, None
+    dirs.sort(key=lambda d: int(d.split("_")[1]), reverse=True)
+    for d in dirs:
+        path = os.path.join(base, d, "session_agenda.json")
+        if os.path.exists(path):
+            return int(d.split("_")[1]), path
+    return None, None
+
+
+def _do_save(user_id, chat, config):
+    """Core Drive save: chat history + latest session agenda. Returns (ok, message)."""
+    if not config.get("folder_id") or not config.get("service_account"):
+        return False, "Drive not configured."
+    svc = _make_service(config)
+    root = config["folder_id"]
+
+    # Per-participant subfolder
+    pfolder = _get_or_create_folder(f"participant_{user_id}", root, svc)
+
+    # Chat history
+    _upsert_bytes(
+        "chat_history.json",
+        json.dumps(chat, ensure_ascii=False, indent=2).encode("utf-8"),
+        pfolder, svc,
+    )
+
+    # Latest session agenda (enables resume)
+    session_num, agenda_path = _latest_agenda_path(user_id)
+    if agenda_path:
+        with open(agenda_path, "rb") as f:
+            _upsert_bytes(f"session_agenda_s{session_num}.json", f.read(), pfolder, svc)
+
+    # Update the researcher's participant log in the root folder
+    _update_participants_log(user_id, root, svc)
+
+    return True, "Saved."
+
+
+def _update_participants_log(user_id, root_folder_id, svc):
+    """Maintain participants_log.json in the root Drive folder."""
+    try:
+        q = f"name='participants_log.json' and '{root_folder_id}' in parents and trashed=false"
+        existing = svc.files().list(q=q, fields="files(id)").execute().get("files", [])
+        if existing:
+            data = json.loads(_download_bytes(existing[0]["id"], svc).decode("utf-8"))
+        else:
+            data = {}
+
+        if user_id not in data:
+            data[user_id] = {
+                "first_seen": datetime.utcnow().isoformat() + "Z",
+                "last_seen": datetime.utcnow().isoformat() + "Z",
+                "status": "in_progress",
+                "turns": 0,
+            }
+        else:
+            data[user_id]["last_seen"] = datetime.utcnow().isoformat() + "Z"
+            data[user_id]["turns"] = data[user_id].get("turns", 0) + 1
+
+        _upsert_bytes(
+            "participants_log.json",
+            json.dumps(data, ensure_ascii=False, indent=2).encode("utf-8"),
+            root_folder_id, svc,
+        )
+    except Exception:
+        pass  # log errors silently; don't disrupt the interview
+
+
+def save_async(user_id, chat, config):
+    """Fire-and-forget background save (called after each interviewer turn)."""
+    threading.Thread(
+        target=lambda: _do_save(user_id, chat, config),
+        daemon=True,
+    ).start()
+
+
+def save_sync(user_id, chat, config):
+    """Blocking save (called at session end). Returns (ok, message)."""
+    try:
+        return _do_save(user_id, chat, config)
     except Exception as e:
-        return False, f"{type(e).__name__}: {e}"
+        return False, str(e)
 
 
-# --- Background async session runner --------------------------------------
+def restore_from_drive(participant_id, config):
+    """
+    Download a returning participant's data from Drive.
+    Returns (chat_history: list, found: bool).
+    Side-effect: writes session_agenda file to the local filesystem so SparkMe
+    picks up the existing session state automatically on InterviewSession init.
+    """
+    try:
+        if not config.get("folder_id") or not config.get("service_account"):
+            return [], False
+        svc = _make_service(config)
+        root = config["folder_id"]
+
+        # Find participant subfolder
+        q = (
+            f"name='participant_{participant_id}' and '{root}' in parents "
+            "and mimeType='application/vnd.google-apps.folder' and trashed=false"
+        )
+        folders = svc.files().list(q=q, fields="files(id)").execute().get("files", [])
+        if not folders:
+            return [], False
+        pfolder = folders[0]["id"]
+
+        # List files in the folder
+        files = {
+            f["name"]: f["id"]
+            for f in svc.files().list(
+                q=f"'{pfolder}' in parents and trashed=false",
+                fields="files(id, name)",
+            ).execute().get("files", [])
+        }
+
+        # Download chat history for UI display
+        chat = []
+        if "chat_history.json" in files:
+            chat = json.loads(_download_bytes(files["chat_history.json"], svc).decode("utf-8"))
+
+        # Restore latest session_agenda so SparkMe resumes the existing session
+        agenda_files = [(n, fid) for n, fid in files.items() if n.startswith("session_agenda_s")]
+        if agenda_files:
+            # Sort by session number (session_agenda_sN.json)
+            agenda_files.sort(key=lambda x: int(x[0].replace("session_agenda_s", "").replace(".json", "")))
+            latest_name, latest_id = agenda_files[-1]
+            session_num = int(latest_name.replace("session_agenda_s", "").replace(".json", ""))
+            local_path = os.path.join("logs", participant_id, "execution_logs", f"session_{session_num}", "session_agenda.json")
+            os.makedirs(os.path.dirname(local_path), exist_ok=True)
+            with open(local_path, "wb") as f:
+                f.write(_download_bytes(latest_id, svc))
+
+        return chat, True
+
+    except Exception:
+        return [], False
+
+
+# ==========================================================================
+# SparkMe session management
+# ==========================================================================
 
 def _run_bg(session, loop):
     asyncio.set_event_loop(loop)
     loop.run_until_complete(session.run())
 
 
-def _create_session():
-    user_id = f"web_{uuid.uuid4().hex[:8]}"
+def _create_session(user_id):
     loop = asyncio.new_event_loop()
     session = InterviewSession(
         interaction_mode="api",
@@ -149,86 +287,155 @@ def _create_session():
             "interview_description": "Understanding the impact of AI in the workforce",
             "interview_plan_path": os.getenv("INTERVIEW_PLAN_PATH", "data/configs/topics.json"),
             "interview_evaluation": os.getenv("COMPLETION_METRIC", "minimum_threshold"),
-            "initial_user_portrait_path": os.getenv(
-                "USER_PORTRAIT_PATH", "data/configs/user_portrait.json"
-            ),
+            "initial_user_portrait_path": os.getenv("USER_PORTRAIT_PATH", "data/configs/user_portrait.json"),
         },
     )
     threading.Thread(target=_run_bg, args=(session, loop), daemon=True).start()
-    return session, loop, user_id
+    return session, loop
 
 
-# --- Page config ----------------------------------------------------------
-st.set_page_config(
-    page_title="SparkMe Interview",
-    page_icon="mic",
-    layout="centered",
-)
+# ==========================================================================
+# Page setup
+# ==========================================================================
+
+st.set_page_config(page_title="SparkMe Interview", page_icon="mic", layout="centered")
 st.title("SparkMe Interview")
 
-
-# --- Per-user session state -----------------------------------------------
-# Each browser tab gets its own Streamlit session, so participants are isolated.
-
-if "session" not in st.session_state:
-    with st.spinner("Starting interview session..."):
-        session, loop, user_id = _create_session()
-
-    st.session_state.session  = session
-    st.session_state.loop     = loop
-    st.session_state.user_id  = user_id
-    st.session_state.chat     = []      # list of {"role": "assistant"|"user", "content": str}
-    st.session_state.waiting  = True    # waiting for the interviewer's first message
-    st.session_state.uploaded = False   # whether the Drive upload has already run
+if "phase" not in st.session_state:
+    st.session_state.update(
+        phase="id_entry",   # "id_entry" | "active"
+        user_id=None,
+        session=None,
+        loop=None,
+        chat=[],
+        waiting=False,
+        drive_config=None,
+        session_saved=False,
+    )
 
 
-# --- Poll for new interviewer messages ------------------------------------
-session = st.session_state.session
+# ==========================================================================
+# Phase: participant ID entry
+# ==========================================================================
+
+if st.session_state.phase == "id_entry":
+
+    st.markdown("### Welcome")
+    st.info(
+        "After clicking **Start**, you will be given a **Participant ID**.  \n"
+        "Please **write it down** -- you will need it to continue the interview "
+        "later if you close the browser or need a break."
+    )
+
+    tab_new, tab_return = st.tabs(["New participant", "Returning participant"])
+
+    with tab_new:
+        st.markdown("Click the button to begin a new interview session.")
+        if st.button("Start interview →", type="primary", key="btn_new"):
+            user_id = "P-" + uuid.uuid4().hex[:6].upper()
+            cfg = _get_drive_config()
+            with st.spinner("Starting your session..."):
+                session, loop = _create_session(user_id)
+            st.session_state.update(
+                user_id=user_id,
+                drive_config=cfg,
+                session=session,
+                loop=loop,
+                waiting=True,
+                phase="active",
+            )
+            st.rerun()
+
+    with tab_return:
+        st.markdown("Enter the Participant ID you received when you started.")
+        pid_input = st.text_input("Participant ID (e.g. P-ABC123):", key="pid_input")
+        if st.button("Resume interview →", key="btn_return"):
+            pid = pid_input.strip().upper()
+            if not pid:
+                st.warning("Please enter your Participant ID.")
+            else:
+                cfg = _get_drive_config()
+                with st.spinner(f"Looking up session for {pid}..."):
+                    chat, found = restore_from_drive(pid, cfg)
+                if found:
+                    with st.spinner("Resuming your session..."):
+                        session, loop = _create_session(pid)
+                    st.session_state.update(
+                        user_id=pid,
+                        drive_config=cfg,
+                        chat=chat,
+                        session=session,
+                        loop=loop,
+                        waiting=True,
+                        phase="active",
+                    )
+                    st.rerun()
+                else:
+                    st.error(
+                        f"No session found for **{pid}**.  \n"
+                        "Please double-check your ID and try again.  \n"
+                        "If you have not started before, use the **New participant** tab."
+                    )
+
+    st.stop()
+
+
+# ==========================================================================
+# Phase: active interview
+# ==========================================================================
+
+user_id = st.session_state.user_id
+session  = st.session_state.session
+cfg      = st.session_state.drive_config
+
+# Sidebar: show participant ID as a persistent reminder
+with st.sidebar:
+    st.markdown("### Your Participant ID")
+    st.code(user_id, language=None)
+    st.caption(
+        "Keep this ID safe. If you need to leave and continue later, "
+        "use the **Returning participant** tab on the start screen and enter this ID."
+    )
+
+# Poll for new interviewer messages
 new_msgs = session.user.get_and_clear_messages()
 if new_msgs:
     for m in new_msgs:
         st.session_state.chat.append({"role": "assistant", "content": m["content"]})
     st.session_state.waiting = False
+    # Non-blocking save after every interviewer turn
+    save_async(user_id, st.session_state.chat, cfg)
 
-
-# --- Render chat history --------------------------------------------------
+# Render chat history
 for msg in st.session_state.chat:
     with st.chat_message(msg["role"]):
         st.write(msg["content"])
 
-
-# --- State machine --------------------------------------------------------
+# --- State machine ---
 
 if st.session_state.waiting:
-    # Interviewer is generating -- show typing indicator and auto-refresh
     with st.chat_message("assistant"):
         with st.spinner("Thinking..."):
             time.sleep(0.8)
     st.rerun()
 
 elif not session.session_in_progress:
-    # Session ended -- thank participant and upload data to Drive
-    st.success("The interview has ended. Thank you for participating!")
+    st.success("The interview has ended. Thank you for your time!")
 
-    if not st.session_state.uploaded:
+    if not st.session_state.session_saved:
         with st.spinner("Saving your session to Google Drive..."):
-            ok, message = upload_session_to_drive(st.session_state.user_id)
-        st.session_state.uploaded = True
-
+            ok, msg = save_sync(user_id, st.session_state.chat, cfg)
+        st.session_state.session_saved = True
         if ok:
-            st.info(f"Saved: {message}")
+            st.info(f"Session saved. Your Participant ID was **`{user_id}`**.")
         else:
-            # Show a quiet note rather than alarming the participant
-            st.caption(f"(Auto-save note: {message})")
+            st.caption(f"(Note: auto-save encountered an issue: {msg})")
 
 else:
-    # Active session -- show text input
     prompt = st.chat_input("Type your response...")
     if prompt:
         st.session_state.chat.append({"role": "user", "content": prompt})
 
-        # Inject the message into the session's event loop.
-        # Required because add_message_to_chat_history() calls asyncio.create_task() internally.
         async def _submit():
             session.user.add_user_message(prompt)
 
