@@ -1,0 +1,503 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master's Degree in Finance",
+          "Completed undergraduate studies in Economics",
+          "Attended executive workshops on financial risk management",
+          "Participated in a certification program for leadership in banking"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Current job title: Finance Department Manager",
+          "Acts as head of the finance department at a major bank",
+          "Directly supervises a team of approximately 250 employees",
+          "Responsible for overseeing financial analysis, liquidity management, and departmental budgeting"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the finance and insurance sector",
+          "Employed at a large commercial banking institution",
+          "Specializes in financial management within the banking industry"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works for a company with over 1,000 employees",
+          "Finance department alone comprises more than 250 staff",
+          "Corporate environment is structured and process-driven",
+          "Collaborates with other large departments such as compliance and operations"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Operates within the retail and corporate banking segment",
+          "Provides financial services including loans, deposits, and insurance products",
+          "Serves both individual and business clients",
+          "Focuses on liquidity management and risk assessment for the organization"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 6-10 years of experience in current managerial role",
+          "Started current position in early-to-mid 2010s",
+          "Has held progressively senior roles within the same bank"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Senior-level manager within the organization",
+          "Considered part of the upper-middle management tier",
+          "Reports directly to executive leadership (e.g., CFO or COO)",
+          "Participates in strategic planning and policy decisions"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Evaluates organizational finances and cash flow daily",
+          "Performs statistical analysis using R software on financial data",
+          "Supervises and mentors a team of 250 finance professionals",
+          "Prepares and reviews departmental financial reports and budgets",
+          "Oversees liquidity management to ensure the bank meets regulatory standards"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends about 40% of time on data analysis and reporting",
+          "Allocates 30% to team management and supervision",
+          "Dedicates 20% to meetings with other departments and senior executives",
+          "Reserves 10% for process improvements and technology adoption"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has significant decision-making authority over departmental budgets and spending",
+          "Sets financial analysis methodologies and workflow processes",
+          "Approves exceptions and outlier adjustments in financial data",
+          "Consults with executive leadership for major strategic decisions but acts independently on operational matters"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Interpreting financial ratios and liquidity metrics",
+          "Mentoring and coaching team members",
+          "Using R to automate standard data queries",
+          "Drafting concise finance summaries for executive review"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Identifying and resolving data discrepancies in large datasets",
+          "Managing cross-departmental projects with conflicting priorities",
+          "Implementing new regulatory requirements under tight deadlines",
+          "Handling exceptional cases and financial outliers that require nuanced judgment"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Routine generation of monthly financial reports",
+          "Reconciling daily transaction records",
+          "Flagging duplicate or missing data in datasets",
+          "Automated calculation of standard financial ratios"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys solving complex financial puzzles and outlier analysis",
+          "Finds team leadership and mentoring rewarding",
+          "Considers manual data cleaning tedious",
+          "Prefers strategic planning over routine compliance reporting"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Time-consuming manual data validation before analysis",
+          "Occasional software integration issues between R and legacy systems",
+          "Difficulty tracking changes when multiple users edit the same dataset",
+          "Cumbersome approval processes for new tool adoption"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Productivity is highest when working on tasks that align with analytical strengths",
+          "Finds greater enjoyment in tasks that also offer learning opportunities",
+          "Repetitive tasks tend to reduce engagement and overall productivity",
+          "Skill mastery in R and data analysis tools directly improves speed and accuracy"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Proactive in staying updated with finance and analytics software",
+          "Views technology adoption as crucial for competitive advantage",
+          "Has a generally positive attitude toward experimenting with new tools"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new software, especially when it improves workflow",
+          "Regularly updates skills through online resources and webinars",
+          "Actively seeks feedback from peers about new tech solutions"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate several hours per month to tech training",
+          "Encourages team participation in internal tech upskilling sessions",
+          "Prioritizes training that is immediately applicable to daily work"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by desire to increase efficiency and accuracy",
+          "Occasionally hindered by high workload during peak reporting periods",
+          "Evaluates the relevance of new tools before investing heavily in training"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often share best practices and encourage tech adoption",
+          "Management supports technology pilots and provides budget for new tools",
+          "Team consensus influences which tools are ultimately adopted department-wide"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses R software daily for statistical data analysis and reporting",
+          "Relies on internal banking systems for transaction data extraction",
+          "Employs Microsoft Excel for ad hoc calculations and data visualization",
+          "Accesses ChatGPT and other LLMs for code assistance and data checking"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Microsoft Excel for financial modeling and quick data checks",
+          "Corporate email system for internal communication",
+          "Bank\u2019s proprietary finance management platform for core operations",
+          "PowerPoint for preparing executive presentations"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient in R and Excel, both industry standards for finance analytics",
+          "Familiar with SQL for database queries",
+          "Basic working knowledge of SAP or similar ERP systems commonly used in banking"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasional data formatting issues when exporting from internal banking systems to R",
+          "Limited direct integration between R and legacy finance management software",
+          "Manual steps sometimes required to synchronize data between Excel and bank\u2019s core systems"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Comfortable with concepts like regression, clustering, and outlier detection",
+          "Understands key AI/ML terms such as training data, model accuracy, and prompt engineering",
+          "Able to interpret basic results from machine learning models used in finance"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT and other OpenAI LLMs daily",
+          "Occasionally leverages automated anomaly detection features in R",
+          "Tests new AI-powered plugins for data cleaning in R environment"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies LLMs daily to generate R code and debug scripts",
+          "Uses AI for rapid identification of missing or duplicate values in datasets",
+          "Employs AI chatbots to validate data imports and assist with documentation"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI successfully reduced time spent on code debugging by 30%",
+          "Once, an AI-generated script introduced a subtle error, highlighting the need for manual review",
+          "ChatGPT flagged data anomalies that manual checks initially missed",
+          "Learned that clearly defined prompts yield more accurate AI responses"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Access to in-house training sessions on AI-assisted analytics",
+          "Peers often share tips and recommended prompts for LLMs",
+          "Internal documentation provides guidelines for responsible AI use"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI tools for complex tasks",
+          "Uses independent AI queries for quick code assistance",
+          "Combines both modes depending on task urgency and complexity"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for technical and data tasks",
+          "Occasionally leverages AI as an advisor when exploring new analytical methods",
+          "Retains ultimate decision-making authority, treating AI as a support tool"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to experimenting with new AI-driven processes",
+          "Evaluates new workflows for impact on accuracy and efficiency",
+          "Advocates for gradual adoption to allow team adaptation"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces like ChatGPT for exploring ideas and troubleshooting",
+          "Uses command-based input in R for direct data manipulation",
+          "Finds conversational AI especially helpful during knowledge transfer and team training"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Critical financial reviews and outlier resolution require deep industry knowledge",
+          "AI assists with technical tasks but judgment relies on banking experience",
+          "Domain expertise is essential for regulatory compliance and policy decisions"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Moderate trust in AI for data cleaning and preliminary analysis",
+          "Always reviews AI-generated outputs before accepting for critical decisions",
+          "Trust increases with transparent AI logic and reproducible results"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI automation for repetitive data validation and cleaning",
+          "Retains human oversight for strategic analysis and interpretation",
+          "Combines AI speed with human judgment for best outcomes"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "High automation acceptable for well-defined, repeatable tasks",
+          "Feels threatened if automation encroaches on nuanced analytical or leadership responsibilities",
+          "Requires manual override and audit trails for automated processes"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "AI enhances the value of analytical and critical thinking skills",
+          "Reduces the need for manual data entry and cleaning",
+          "Increases the importance of prompt engineering and data interpretation"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing proficiency in writing effective AI prompts",
+          "Monitoring and auditing AI output for accuracy",
+          "Training team members on responsible AI use"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Minimal concern about AI replacing leadership or strategic analysis functions",
+          "Acknowledges that some junior-level data tasks are at risk of automation",
+          "Believes core managerial responsibilities remain secure in the near term"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Manual review is always performed before finalizing AI-generated reports",
+          "Organizational policy mandates human approval for financial decisions",
+          "Routinely implements spot checks on AI outputs"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has recently formalized guidelines for AI tool use",
+          "Team is encouraged to document AI-driven changes for transparency",
+          "AI adoption is increasingly integrated into staff training programs"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will drive significant efficiency gains in banking and finance",
+          "Anticipates AI will reshape workforce skills requirements industry-wide",
+          "Expects increased reliance on AI for regulatory compliance and fraud detection"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports transparent AI systems with explainable outputs",
+          "Cautious about potential bias and data privacy concerns",
+          "Believes in balancing automation with human oversight to mitigate ethical risks"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Sees value in AI tools that can automatically reconcile complex datasets from multiple sources",
+          "Would benefit from AI capable of generating real-time regulatory compliance checks",
+          "Desires more robust AI explainability features for model outputs"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects further automation of routine analysis and reporting tasks",
+          "Anticipates greater emphasis on strategic decision-making and team leadership",
+          "Foresees the need for continuous upskilling in AI literacy and data governance"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Establish comprehensive training programs for AI literacy",
+          "Implement clear policies for responsible AI and data usage",
+          "Encourage cross-departmental collaboration on AI projects",
+          "Develop internal resources for prompt engineering and model validation"
+        ]
+      }
+    ]
+  }
+]

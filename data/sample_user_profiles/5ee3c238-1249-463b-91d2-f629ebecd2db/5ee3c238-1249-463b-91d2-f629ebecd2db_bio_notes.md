@@ -1,0 +1,249 @@
+# Biographical Notes
+
+- Anticipates some shift towards data literacy and technology adaptation
+- Prefers to retain full responsibility for technical decisions
+- Always reviews AI-generated outputs before sharing externally
+- Believes AI is more reliable for factual lookups than for nuanced engineering advice
+- Checks email via Microsoft Outlook as the primary communication tool
+- Prefers to work independently and consult AI tools as needed
+- Accepts high automation for tasks with clear, objective criteria (e.g., document formatting)
+- Trusts AI-generated drafts for routine communication but always reviews before sending
+- Coordinating with field teams on standard design questions is comfortable
+- Lack of seamless integration between RFIs tracked in Excel and project management systems
+- Desires better AI-powered integration between design and project management software
+- Holds a Bachelor’s Degree in Civil Engineering from a state university
+- Prefers clarity and control in interface interactions
+- Obtained OSHA 30-hour safety certification
+- Generally prefers simple command-based interfaces for repeatable tasks
+- Does not rely on AI for design validation or code compliance checks
+- Enjoys on-site field walks to directly observe project progress
+- Joined current company 4 years ago after working at a larger firm
+- Finds step-by-step AI collaboration more useful for unfamiliar tasks
+- Enjoyment increases when collaborating with field teams and seeing project impact
+- Sees potential for AI to streamline RFI tracking and response workflows
+- Experienced a case where AI misunderstood project-specific terminology, leading to confusion
+- Peers sometimes share tips or use cases for LLMs via internal chat
+- Participates in local trivia nights and often leads a team of engineers
+- Focuses on mid- to large-scale commercial and public infrastructure projects
+- Occasionally supports transportation and public works projects
+- Loves to bake bread on weekends and brings fresh loaves into the office
+- Has a collection of rubber ducks on desk for debugging companionship
+- Thinks data privacy and security should be top priorities in AI system design
+- Team has discussed potential AI use cases but not adopted any company-wide
+- Expects routine documentation tasks to become more automated
+- Has a habit of labeling office drawers with witty engineering puns
+- No formal AI policy, but informal experimentation is encouraged
+- Recognizes the use of large language models (LLMs) for text generation tasks
+- AI-generated emails usually require manual editing for technical accuracy
+- Projects primarily involve commercial and municipal developments
+- Has read about AI applications in construction and engineering
+- Enjoys making themed playlists to match different project moods
+- Works at a company with approximately 120 employees
+- AutoCAD Civil 3D is essential for creating and editing civil layouts
+- Has a habit of naming office supplies, including pens and staplers
+- Decorates the desk seasonally with handmade crafts or themed ornaments
+- Supports automation that is transparent and offers manual override options
+- Supports keeping humans in the loop for final approvals
+- Has a secret talent for juggling and occasionally entertains team at gatherings
+- Company is cautiously exploring AI in limited, non-critical areas
+- Has a habit of doodling futuristic cityscapes during conference calls
+- Higher skill level in design review leads to faster, more confident decision-making
+- Coordinating among multiple stakeholders with conflicting priorities
+- Responsible for answering RFIs and ensuring design integrity during construction
+- Applies AI tools occasionally for quick information retrieval from large documents
+- No formal company-wide AI training program currently in place
+- Occasional version compatibility issues when sharing files with external partners
+- Occasionally organizes weekend hiking trips for colleagues to unwind outside work
+- Regularly interfaces with the architecture, engineering, and construction (AEC) industry
+- Familiar with PDF editing and document control software
+- Least enjoys administrative paperwork and timesheet entry
+- Identifying missing information in legacy project documents can be complex
+- Collects quirky bookmarks from library visits and client site trips
+- Occasionally uses ChatGPT or similar LLMs to draft technical emails
+- Has a tradition of writing handwritten postcards to friends during holidays
+- Values practical training over theoretical instruction
+- Occasional informal knowledge sharing about AI tools among colleagues
+- Believes AI will be used for continuous monitoring and flagging of project issues
+- Generating standard email responses to common field questions could be automated
+- Has some experience with BIM platforms like Revit for coordination
+- Supports developing clear guidelines for responsible AI use
+- Role involves overseeing civil design projects from concept to construction
+- Favorite office snack is a rotating selection of international spicy chips
+- Company culture emphasizes communication between office and field teams
+- Owns a vintage typewriter and occasionally types letters as a hobby
+- Prefers gradual integration of AI features rather than abrupt workflow changes
+- Supports the use of AI as a supplement, not a replacement, for checks
+- Has spent the last 7 years in a senior or lead engineer capacity
+- Attends project coordination meetings with architects and engineers
+- Organizes monthly book club focusing on sci-fi novels
+- Delays in receiving complete information from contractors slow down responses
+- Management encouragement is important for allocating time to training
+- Believes AI could reduce errors in documentation and design coordination
+- Learned to always double-check AI outputs, especially in technical contexts
+- Has an elaborate coffee mug tree on the desk for different drink types
+- Answers Requests for Information (RFIs) from contractors and field crews
+- Has used AI to suggest improvements in email tone and clarity
+- Generally open to adopting new tools that offer clear benefits
+- Brings homemade cookies to team meetings every Friday
+- Keeps a jar of colorful push pins and rearranges office corkboard daily
+- No regular use of AI for core engineering calculations or design
+- Answering standard RFIs using existing documentation feels routine
+- Envisions a future where AI flags issues but engineers approve final actions
+- Sees less value in rote documentation skills as automation improves
+- Not overly concerned about AI replacing core engineering functions
+- Always eats lunch at exactly 12:30 PM
+- Spends approximately 35% of time reviewing and updating designs
+- Watches industry trends but feels job security is strong in current role
+- Has experimented with AI-powered PDF search features in Bluebeam
+- Prepares technical responses and updates to design documents as needed
+- Company has a collaborative, team-based environment
+- Routine checks for missing sheet references or detail callouts in drawings
+- Skills in prompt engineering and AI tool configuration are emerging
+- Learning to review and validate AI-generated content is becoming important
+- Practices calligraphy and uses handwritten notes for meeting agendas
+- About 25% of work hours are dedicated to answering RFIs and technical queries
+- Willing to use AI suggestions as a starting point but relies on human oversight
+- Occasionally uses project management tools such as Procore
+- Willing to invest time in training if tool improves workflow efficiency
+- Manual tracking of RFIs in spreadsheets is inefficient and error-prone
+- Maintains a rotating playlist of 80’s rock music for focused work sessions
+- Often represents the company in meetings with clients and contractors
+- Performs regular field walks to observe construction progress
+- Has a vintage pocket watch inherited from a grandparent displayed on desk
+- Accesses project files and documents via SharePoint or internal servers
+- Collects vintage coffee mugs from client cities visited
+- Worries about bias or errors in AI-generated technical documents
+- Prefers short, targeted tutorials over lengthy formal courses
+- Keeps a travel journal with hand-drawn maps from business trip destinations
+- Has a collection of rare hot sauces kept in a mini fridge under the desk
+- Works as a Senior Civil Engineer at a mid-sized engineering consultancy
+- Has a quirky mug that changes color when filled with hot beverages
+- Recognizes risks of over-reliance on AI without human expertise
+- Allocates 10% of time to field inspections and site walks
+- May be reluctant to switch tools if current ones meet core needs
+- Relies on online tutorials and vendor documentation for learning about AI features
+- Open to automated error-checking but not to fully automated design approvals
+- Believes AI will enhance the need for critical thinking and oversight skills
+- Once completed a 3-day silent meditation retreat
+- Brews different flavored teas depending on the season and mood
+- Sees AI as helpful for non-critical, support functions
+- Wants company to invest in pilot programs for AI-assisted document review
+- Thinks AI will gradually become a standard tool in engineering practice
+- Some routine documentation tasks can be addressed without deep domain expertise
+- Likes to experiment with gourmet coffee blends using a French press at work
+- Multiple software tools lack seamless integration, requiring duplicate data entry
+- Enjoys puzzle-solving and keeps a Rubik’s cube and brain teasers handy
+- Recommends providing targeted training on AI tools relevant to engineering
+- Resolving RFIs that require major design revisions or impact multiple disciplines
+- Keeps a whiteboard by the desk filled with motivational quotes and comic strips
+- Sees AI as having significant potential to improve efficiency in construction projects
+- Motivated by potential time savings and error reduction
+- Has over 10 years of experience as a civil engineer
+- Uses AI primarily as a quick reference or drafting assistant
+- Reviewing shop drawings and design submittals is straightforward
+- Empowered to clarify design intent and answer most RFIs without escalation
+- Makes recommendations on construction methods based on field conditions
+- Less likely to prioritize training during peak project deadlines
+- Cautious about fully automating tasks that require engineering judgment
+- Considers automation threatening if it bypasses critical human checks in design
+- AI tools have helped catch minor missing references in large drawing sets
+- Maintains an indoor herb garden on the office windowsill for fresh tea garnishes
+- Relies on Bluebeam for real-time design annotation and collaboration
+- Barriers include high workload and tight project schedules
+- Skeptical of tools that don't integrate with existing systems
+- Early career included site engineer and design engineer roles
+- Has attended several industry workshops on updated building codes
+- Proficient in Bluebeam, AutoCAD Civil 3D, and Microsoft Office suite
+- Copying data between design software and administrative tools is time-consuming
+- Keeps a mini basketball hoop on the back of the office door for quick breaks
+- Suggests involving end-users in evaluating and selecting new AI technologies
+- Thinks some clerical and documentation roles may be reduced over time
+- Believes transparency and accountability are critical in AI adoption
+- Commutes by bicycle even in winter
+- Wants AI that can learn from company-specific terminology and project history
+- Believes human expertise should drive all technical decision-making
+- Rarely relies on AI for continuous, ongoing project support
+- Does not fully trust AI for technical calculations or regulatory compliance
+- Most productive and engaged when working on technical design challenges
+- Has a standing desk that's never been lowered in 3 years
+- Ensuring constructability in field conditions that differ from original assumptions
+- Views AI more as a tool than a collaborator in design tasks
+- Expects technical judgment and communication to remain core competencies
+- Is an avid birdwatcher and shares photos of local species spotted during lunch walks
+- Participates in hiring decisions for engineering staff
+- Future policy direction depends on demonstrated benefits and risk assessment
+- Likes to surprise coworkers with small origami gifts taped to their monitors
+- Resolving RFIs often involves tacit understanding of site-specific constraints
+- Firm offers civil engineering consulting services to contractors and developers
+- Requires more time to learn entirely new categories of software
+- Roughly 20% of workday is spent in meetings (internal and with clients/contractors)
+- Enjoys photography and decorates the office with black-and-white cityscape prints
+- Wears novelty socks featuring bridges or construction themes on Fridays
+- Understands basic concepts like natural language processing and machine learning
+- Reluctant to be an early adopter unless tool is strongly recommended by trusted colleagues
+- Has attended several vendor-led workshops for key engineering software
+- Logging and tracking incoming RFIs and their responses is highly repetitive
+- Uses Excel spreadsheets to track project progress and manage RFIs
+- Prefers AI automation for repetitive, documentation-heavy tasks
+- Employed in the construction and civil infrastructure sector
+- Anticipates spending more time on oversight and quality control
+- Design adjustments depend on experience with construction methods
+- Finds conversational interfaces useful for brainstorming or drafting
+- Acts as a primary point of contact for field engineers and contractors
+- Market segment includes site development, utilities, and roadway design
+- Practices origami and folds cranes to leave on coworkers’ desks as surprises
+- Clients include municipal governments, private developers, and general contractors
+- Would value AI tools that automatically flag missing or inconsistent drawing details
+- Tedious or repetitive tasks lower motivation and may reduce attention to detail
+- Can explain the difference between rule-based automation and AI-driven tools
+- Has a pet cactus named 'Spike' that has survived more than 5 years
+- Office is decorated with posters from 1990s tech conferences
+- Team-wide adoption helps ensure compatibility and consistency
+- Treats AI as an assistant for drafting and information retrieval tasks
+- Design document version control can be challenging on large projects
+- More likely to adopt AI for administrative or documentation tasks
+- Supports partial automation for information retrieval, with manual review
+- Learned to play ukulele during pandemic lockdown
+- Open to experimenting with AI workflows if they offer clear value
+- Keeps a small Zen garden on the windowsill for stress relief
+- Major design changes require review by project manager or principal engineer
+- Prefers handwritten journals over digital notes to capture ideas and inspirations
+- Bluebeam and AutoCAD exports sometimes require manual adjustments
+- Is an amateur puzzle enthusiast who collects vintage mechanical puzzles
+- Many daily tasks require detailed knowledge of local building codes and standards
+- Tested AI-driven document review tools for identifying missing drawing details
+- Uses Bluebeam Revu daily for drawing markups and document review
+- Holds a senior-level engineering position
+- Completed coursework in structural analysis, materials science, and construction management
+- Is known for an impressive collection of novelty coffee stirrers
+- Responsibility for data quality and process oversight is increasing
+- Relevance to daily tasks is a key factor in willingness to learn
+- Manual approval is required for any client-facing communication or design changes
+- Drafting markups in Bluebeam for minor clarifications is second nature
+- Office plant is named Gerald and receives daily motivational talks
+- Has significant autonomy to resolve routine design issues independently
+- Predicts engineers will focus on complex problem-solving and less on clerical work
+- May need to train or mentor others in effective AI use
+- Believes tasks requiring domain expertise are less at risk
+- Appreciates the option to switch between modes depending on context
+- Engineering department consists of around 25 professionals
+- Reviews and checks civil design drawings for completeness and accuracy
+- Finds interface consistency across tools improves adaptation
+- Finds project kickoff meetings and early design brainstorming energizing
+- Prefers hands-on learning and experimenting with software features
+- Directly mentors junior engineers and interns
+- No fully automated processes in place for critical engineering tasks
+- Regularly utilizes AutoCAD Civil 3D for design and drafting work
+- Comparing as-built drawings to design documents for discrepancies is data-heavy
+- Peers' positive experiences influence openness to new tools
+- The remaining 10% covers administrative tasks and professional development
+- Adapts quickly to updates in familiar platforms like Bluebeam or AutoCAD
+- Comfortable asking peers for tips when adopting new workflows
+- Hosts an annual chili cook-off among coworkers each fall
+- Conducts field inspections with tablet-based digital forms
+- Uses LLMs a few times per month to help draft or review project communications
+- Participated in a senior capstone project focused on bridge design
+- Has a collection of quirky enamel pins on the laptop bag
+- Feels that responding to repetitive RFIs can become tedious
+- Once built a detailed LEGO model of a famous bridge on a weekend
+- Has a collection of themed socks inspired by famous landmarks and engineering feats

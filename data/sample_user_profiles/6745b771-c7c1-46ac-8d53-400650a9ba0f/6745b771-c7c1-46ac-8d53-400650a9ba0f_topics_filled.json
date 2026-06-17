@@ -1,0 +1,497 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s degree, likely in Education or a science-related field",
+          "Completed coursework in pedagogy, curriculum development, and adolescent psychology",
+          "Has participated in multiple professional development trainings since entering the field",
+          "Attends annual or semi-annual workshops focused on latest teaching methods and technology"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Works as a Postsecondary Education Administrator with a focus on classroom instruction and curriculum implementation",
+          "Executes lesson plans across high school subjects, including biology, chemistry, and career exploration",
+          "Handles both short-term and long-term teaching assignments as needed",
+          "Collaborates with other teachers and staff on curriculum review and best practices"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Employed in the education sector, specifically serving secondary/high school level",
+          "Operates within public or private school systems, depending on assignment",
+          "Works directly within academic administration and classroom instruction"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works in a medium-to-large high school setting with several hundred to over a thousand students",
+          "Environment is collaborative, involving frequent interaction with teaching staff and administrative personnel",
+          "Facilities typically include science labs, classrooms, and shared technology resources"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Part of the K-12 education market segment, focusing on secondary education",
+          "Engages with both general education and STEM-focused curriculum",
+          "Supports a diverse student population with varying academic needs"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 3-5 years of experience in current or similar educational roles",
+          "Began working in education administration and classroom teaching in late 20s",
+          "Experience includes both direct instruction and administrative collaboration"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Occupies an early to mid-career role, not yet at the senior or lead administrator level",
+          "Often works under the guidance of department heads or senior administrators",
+          "Acts as a peer collaborator with other teachers and staff"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Plans and executes lesson plans for high school students",
+          "Takes daily attendance and manages classroom logistics",
+          "Uses AI tools to brainstorm content ideas and ensure alignment with state standards",
+          "Provides classroom management using a trauma-informed approach"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 60-70% of time on direct classroom instruction and student engagement",
+          "Allocates 15-20% of time to lesson planning and material preparation",
+          "Dedicates 10% of time to administrative tasks such as submitting attendance and grading",
+          "Spends 5-10% collaborating with colleagues and attending professional development"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has moderate autonomy in adapting or supplementing lesson plans provided by the department",
+          "Can independently select teaching methods and classroom management strategies",
+          "Major curricular changes or policy decisions require departmental approval",
+          "Responsible for real-time decisions regarding classroom issues and student needs"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Engaging students in classroom discussions comes naturally",
+          "Taking attendance and managing basic classroom logistics are routine",
+          "Creating visual materials using Canva is straightforward and enjoyable",
+          "Utilizing Google Docs and Google Classroom for material distribution is intuitive"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Differentiating instruction for students with diverse learning needs is challenging",
+          "Developing lesson plans from scratch for unfamiliar subjects requires significant effort",
+          "Integrating new educational technologies or platforms can be complex initially",
+          "Managing large classes with behavioral challenges tests classroom management skills"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Grading short quizzes and diagnostic assessments is repetitive and often automated",
+          "Taking and submitting daily attendance is a routine, data-heavy task",
+          "Compiling weekly lesson materials and organizing folders can be streamlined with automation"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys interactive activities like Kahoot! and group discussions with students",
+          "Finds brainstorming lesson ideas with AI tools both engaging and productive",
+          "Considers administrative paperwork and repetitive grading to be tedious",
+          "Prefers creative tasks such as designing visuals over routine data entry"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Switching between multiple digital platforms can cause workflow disruptions",
+          "Occasional internet connectivity issues impact access to online resources",
+          "Manual entry of grades or attendance is time-consuming",
+          "Collaboration with colleagues is sometimes slowed by inconsistent technology adoption"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Feels most productive and creative when working on tasks that are enjoyable, such as lesson design",
+          "Skill level is highest in areas that are also most enjoyable, like using digital tools for classroom management",
+          "Tedious tasks lead to lower engagement and slower completion rates",
+          "Learning new tools that improve workflow increases both enjoyment and productivity"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Has a positive attitude towards adopting new technologies that improve teaching effectiveness",
+          "Views tech learning as essential for staying current in education",
+          "Enjoys experimenting with new software and features",
+          "Sees technology as a way to make classroom management and lesson planning easier"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Considers themselves adaptable to new teaching platforms and tools",
+          "Usually requires minimal time to get comfortable with updates or changes",
+          "Learns most effectively through hands-on practice and peer demonstrations"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Regularly participates in paid professional development and tech trainings",
+          "Willing to dedicate after-school hours to learning new tools if they are relevant",
+          "Prefers concise, practical training sessions to lengthy theoretical ones"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the prospect of saving time and improving teaching quality",
+          "Workload can occasionally be a barrier to taking on additional tech training",
+          "Relevance to daily teaching tasks is a key factor in deciding to learn new tools"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers who share positive experiences with new tools encourage adoption",
+          "Departmental recommendations carry weight in decisions to try new technologies",
+          "Collaborative staff culture increases openness to tech experimentation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Google Docs and Google Drive daily for lesson planning and material sharing",
+          "Employs Google Classroom to post assignments and communicate with students",
+          "Utilizes ChatGPT and Claude for content brainstorming and logistics planning",
+          "Relies on QR code generators to provide student access to digital material"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Google Sheets is used to track work hours and ensure accurate payment",
+          "Canva is frequently used to design visuals and infographics for lessons",
+          "Kahoot! is used for creating interactive quizzes and student assessments"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Comfortable with core Google Workspace tools: Docs, Sheets, Slides, Classroom, and Drive",
+          "Has experience with QR code technology and online quiz platforms",
+          "Aware of and occasionally uses other EdTech resources as needed"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces issues integrating Google Classroom with non-Google apps",
+          "Switching files between different formats (e.g., PDF, Slides) can cause minor compatibility problems",
+          "QR codes sometimes fail to link correctly if folder permissions are not set properly"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic AI terms such as large language models, prompts, and outputs",
+          "Has a practical grasp of how LLMs generate text and provide suggestions",
+          "Keeps updated on AI trends through professional development and self-guided learning"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT (OpenAI) for lesson brainstorming and planning",
+          "Uses Claude (Anthropic) for generating examples and research avenues",
+          "Experiments with 'Pro' versions of AI models to compare features and performance"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies AI tools every week for lesson planning and logistics",
+          "Uses AI to adapt lesson content to specific state standards",
+          "Employs AI to draft letters of recommendation for students"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used ChatGPT to generate creative warm-up activities that engaged students",
+          "Noticed that AI sometimes provides inaccurate or overly generic examples, requiring manual review",
+          "Found Claude helpful for brainstorming research projects but less effective for detailed grading rubrics",
+          "Learned to cross-check AI-generated content for alignment with curriculum and accuracy"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Participates in school-sponsored professional development sessions covering new EdTech, including AI",
+          "Peers occasionally share AI usage tips and prompt ideas during staff meetings",
+          "Relies on self-guided exploration for advanced AI features not covered by formal training"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers a collaborative approach, iteratively refining AI outputs for lesson planning",
+          "Often starts with a broad prompt and narrows down outputs in conversation with the model",
+          "Uses AI as a brainstorming partner rather than a one-time answer generator"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Treats AI models as assistants that provide starting points and inspiration",
+          "Retains final editorial control and reviews all AI-generated content before use",
+          "Sees AI as a supportive tool rather than a direct collaborator or replacement"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to experimenting with AI-driven workflows that save time and improve lesson quality",
+          "Willing to try new AI features if they integrate well with existing tools",
+          "Evaluates new workflows on their ability to enhance student engagement and learning"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces that allow for clarification and iteration",
+          "Finds natural language prompts more intuitive than rigid command syntax",
+          "Appreciates AI systems that can contextualize follow-up questions and build on previous responses"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Lesson planning and classroom management often draw on tacit knowledge of student needs and school culture",
+          "AI tools are used for inspiration but require human expertise for contextual adaptation",
+          "Grading and student feedback depend heavily on understanding individual learning profiles"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Generally trusts AI for brainstorming and generating draft materials, but not for final content",
+          "Always reviews AI outputs for accuracy and appropriateness before classroom use",
+          "Relies on human judgment for sensitive communications and critical feedback"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive or time-consuming tasks like quiz generation",
+          "Believes humans should control final lesson content and student assessments",
+          "Sees greatest value in hybrid workflows combining AI efficiency with human oversight"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for administrative tasks (e.g., attendance, grading) if accuracy is ensured",
+          "Views automation of direct instruction or personalized feedback as potentially threatening to quality",
+          "Supports automation only when there is a clear mechanism for manual review and correction"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the importance of critical thinking and adaptability",
+          "Sees some routine skills (e.g., drafting basic materials) as less crucial due to automation",
+          "Views interpersonal and classroom management skills as irreplaceable by AI"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing skills in prompt engineering to get optimal AI outputs",
+          "Taking responsibility for validating AI-generated content for alignment with standards",
+          "Learning to integrate AI tools into curriculum planning and student engagement strategies"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mildly concerned about AI replacing repetitive administrative tasks",
+          "Does not feel threatened regarding core teaching or interpersonal responsibilities",
+          "Believes meaningful instruction and mentorship cannot be fully automated"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always manually reviews AI-generated lesson materials before classroom use",
+          "School policies require human oversight for grading and critical feedback",
+          "Has the option to edit or reject any AI output as needed"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Notices a gradual increase in encouragement to experiment with AI tools",
+          "Sees more professional development sessions covering AI each year",
+          "Departmental discussions on responsible AI use are becoming more common"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI has the potential to significantly improve educational efficiency and personalization",
+          "Is optimistic about AI assisting educators but cautious about overreliance",
+          "Recognizes AI's potential to reduce administrative burdens across industries"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes ethical use of AI requires transparency and human oversight",
+          "Worries about potential bias in AI-generated materials if not carefully reviewed",
+          "Supports clear guidelines to prevent misuse or over-dependence on AI"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would like more robust AI tools for differentiated instruction tailored to individual students",
+          "Desires AI integrations that can seamlessly connect all EdTech platforms used in schools",
+          "Sees value in AI tools that better support classroom management and student engagement analytics"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine administrative tasks to become increasingly automated",
+          "Foresees a greater emphasis on educators' roles as facilitators and mentors",
+          "Predicts increased demand for skills in AI tool evaluation and classroom integration"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Recommends ongoing, targeted training on AI tools for all staff",
+          "Supports creation of clear policies outlining acceptable AI use in curriculum and assessment",
+          "Advocates for regular review and updates of AI tools to ensure alignment with educational standards"
+        ]
+      }
+    ]
+  }
+]

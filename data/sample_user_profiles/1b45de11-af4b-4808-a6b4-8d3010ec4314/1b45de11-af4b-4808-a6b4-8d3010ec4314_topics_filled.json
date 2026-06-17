@@ -1,0 +1,522 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master\u2019s Degree, completed in their late 60s.",
+          "Graduate studies focused on finance, accounting, or a closely related field.",
+          "Participated in training sessions on ERP and accounting software as part of ongoing education.",
+          "Completed professional development courses in financial reporting and compliance.",
+          "Attended seminars on AI in finance during Master\u2019s program."
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Current job title: Accountant in the finance department at Osage.",
+          "Responsible for managing financial reporting, budgeting, and compliance tasks.",
+          "Prepares financial statements and analyzes financial spreadsheets.",
+          "Handles data reconciliation and reporting using accounting software.",
+          "Frequently collaborates with colleagues on compliance and financial analysis."
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the finance industry, specifically in financial accounting and reporting.",
+          "Sector focus includes finance law, architecture of financial services, and investments.",
+          "Role centers on compliance and financial management within a corporate setting."
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at Osage, a mid-sized organization with a structured finance department.",
+          "The finance team consists of multiple accountants, analysts, and compliance officers.",
+          "Work environment is collaborative but process-driven, with an emphasis on accuracy and compliance.",
+          "Company utilizes a mix of traditional and AI-powered financial tools."
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Osage operates in the financial services sector, providing financial management and reporting solutions.",
+          "Market segment includes corporate finance, compliance, and financial analysis services.",
+          "Clients and stakeholders include internal business units and external auditors."
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 1-2 years of experience as an accountant at Osage.",
+          "Transitioned into this finance role after completing advanced education.",
+          "Relatively new to the accounting field, but brings strong academic background."
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Currently serves at an entry to mid-level professional capacity.",
+          "Not in a managerial or executive position, but handles core responsibilities independently.",
+          "Provides input for process improvements, especially regarding automation and AI."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Prepares and reviews financial statements in accordance with compliance standards.",
+          "Conducts budgeting and forecasting through data analysis and spreadsheet management.",
+          "Performs data reconciliation and adjustment using ERP and accounting software.",
+          "Analyzes revenue and expense data to support decision-making.",
+          "Participates in compliance audits and prepares necessary documentation."
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends roughly 40% of time on financial reporting and statement preparation.",
+          "Budgeting and forecasting occupy about 25% of daily workload.",
+          "Data reconciliation and adjustment take up approximately 20% of time.",
+          "The remaining 15% is split between compliance tasks and ad-hoc analysis."
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Works independently on routine financial reporting and analysis tasks.",
+          "Makes recommendations for adjustments based on data findings but requires managerial approval for major changes.",
+          "Has autonomy to manage daily workflow and prioritize tasks.",
+          "Collaborates with senior colleagues on compliance and high-stakes reporting."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Data entry and spreadsheet analysis using Microsoft Excel are performed with high confidence.",
+          "Generating routine monthly financial statements is straightforward due to established templates.",
+          "Reconciling accounts using ERP system is mastered through repetition.",
+          "Using QuickBooks for transaction tracking is considered simple and intuitive."
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Interpreting new compliance regulations can require extensive research.",
+          "Handling complex audits with multiple data sources is demanding.",
+          "Ensuring accuracy in large-scale data reconciliation across systems is challenging.",
+          "Forecasting scenarios that involve unusual or volatile revenue streams feels complex."
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Routine data reconciliation across accounts is highly repetitive.",
+          "Compiling monthly financial report data from multiple sources is data-heavy and time-consuming.",
+          "Generating standardized compliance documentation is suitable for automation.",
+          "Flagging transaction anomalies could be streamlined with AI."
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys financial analysis that provides actionable insights for the business.",
+          "Finds satisfaction in solving reconciliation discrepancies.",
+          "Prefers interactive forecasting over repetitive data entry.",
+          "Tedious tasks include manual data consolidation and preparing standard compliance forms."
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual data entry increases the risk of errors and slows down processes.",
+          "Switching between incompatible systems creates workflow bottlenecks.",
+          "Lack of real-time data integration between ERP and accounting tools delays reconciliation.",
+          "Duplicate data validation across platforms adds unnecessary steps."
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Tasks where technical proficiency is high tend to be more enjoyable.",
+          "Higher productivity is observed during financial analysis, which is both engaging and skill-aligned.",
+          "Monotonous, low-skill tasks are less enjoyable and may reduce overall motivation.",
+          "Learning new tools for complex tasks can be frustrating initially, but satisfaction increases with mastery."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally open to adopting new technologies that enhance workflow.",
+          "Sees value in learning tools that automate repetitive tasks.",
+          "Approaches new software with cautious optimism.",
+          "Motivated by the tangible benefits of automation and AI in daily work."
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts to new tools with moderate speed, leveraging prior experience in Excel and ERP systems.",
+          "Requires hands-on practice to become fully comfortable with unfamiliar interfaces.",
+          "Finds detailed tutorials and peer support helpful in mastering new systems."
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate time each month to learn updates in accounting or AI tools.",
+          "Prefers practical, task-focused training sessions over theoretical ones.",
+          "Balancing training with workload can be a challenge, but sees it as necessary for staying current."
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential for increased efficiency and accuracy.",
+          "High current workload can limit time available for training.",
+          "Perceived relevance to core responsibilities is a key factor in prioritizing which tools to learn.",
+          "Unclear organizational support for training can be a barrier."
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers sharing positive experiences with new tools increases willingness to try them.",
+          "Management endorsement is crucial for adoption of AI tools.",
+          "Collaborative learning sessions with colleagues boost confidence in using new technologies.",
+          "A culture of innovation within the department encourages experimentation with automation."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses an ERP system daily for financial data management and reporting.",
+          "Relies on Microsoft Excel for data analysis, spreadsheet creation, and visualization.",
+          "QuickBooks is used for transaction tracking and accounting entries.",
+          "AI-powered financial tools, such as Kiva, assist with forecasting and compliance."
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Microsoft Excel is essential for ad-hoc data analysis.",
+          "QuickBooks supports day-to-day accounting operations.",
+          "Email and shared drives are used for document management and collaboration.",
+          "Traditional calculators and printed reference materials are occasionally used for quick checks."
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient with major accounting platforms like QuickBooks and Excel.",
+          "Comfortable navigating ERP systems commonly used in finance departments.",
+          "Has basic exposure to compliance auditing software.",
+          "Familiar with AI-enhanced financial analysis tools."
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally experiences data transfer issues between ERP and Excel.",
+          "Manual export/import is sometimes needed due to lack of seamless integration.",
+          "AI tools like Kiva require additional setup to synchronize with legacy accounting systems.",
+          "Duplicate data entry can occur when systems are not fully integrated."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic AI concepts such as machine learning, automation, and data modeling.",
+          "Familiar with the role of AI in anomaly detection and forecasting.",
+          "Can explain the difference between rule-based automation and learning-based AI.",
+          "Has read introductory articles on LLMs and AI in finance."
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses Kiva, an AI-powered financial tool, for forecasting and compliance.",
+          "Employs compliance auditing software with embedded AI features.",
+          "Occasionally uses LLM-based assistants for drafting reports or analyzing financial data.",
+          "Tests new AI modules within the ERP system as they are rolled out."
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Engages with AI tools daily for data reconciliation and anomaly detection.",
+          "Uses AI for generating initial drafts of financial statements.",
+          "Relies on AI features for compliance checks and regulatory reporting.",
+          "Applies AI for expense and revenue forecasting on a weekly basis."
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI successfully flagged a recurring data entry error that had gone unnoticed.",
+          "An AI-generated report once misclassified several transactions, requiring manual correction.",
+          "Learned to always review AI-suggested adjustments before finalizing reports.",
+          "Found that AI accelerates routine tasks but still needs human oversight for complex cases."
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Organization provides introductory webinars on new AI tools.",
+          "Peer-to-peer coaching is common for sharing AI tips and workflows.",
+          "There is limited formal training, making self-study and experimentation important.",
+          "Internal documentation covers basic troubleshooting for AI-powered features."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI for complex tasks.",
+          "Often begins tasks independently, then checks or augments work with AI suggestions.",
+          "Values the ability to intervene and adjust AI-generated outputs as needed."
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI as an assistant that helps with routine and data-heavy tasks.",
+          "Leverages AI as an advisor for compliance checks and data-driven insights.",
+          "Treats AI as a co-worker for automating repetitive processes but retains final decision authority."
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to experimenting with new AI workflows that increase efficiency.",
+          "Willing to adapt processes if AI tools demonstrate clear value.",
+          "Requires some initial demonstration of reliability before fully integrating AI-driven workflows."
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Finds conversational AI interfaces more intuitive for complex queries.",
+          "Prefers command-based interfaces for batch processing or specific data retrieval.",
+          "Uses both styles depending on the task context and urgency."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Financial reporting and compliance often require nuanced understanding of regulations.",
+          "Judgment-based tasks, such as interpreting ambiguous data, depend on domain expertise.",
+          "AI is most trusted with standardized tasks rather than those needing contextual knowledge."
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for initial data reconciliation and anomaly detection.",
+          "Always reviews AI-generated financial statements before submission.",
+          "Has moderate trust in AI for compliance checks, but verifies critical outputs.",
+          "Less likely to rely on AI for final decisions in high-stakes or ambiguous situations."
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI automation for repetitive and data-heavy processes.",
+          "Favors human review for tasks involving interpretation or regulatory compliance.",
+          "Sees optimal workflow as AI handling 60-70% of routine work, with humans reviewing and finalizing."
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "High automation is acceptable when outputs are verifiable and tasks are low-risk.",
+          "Feels threatened by automation replacing judgment-intensive roles.",
+          "Supports automation as long as override and audit trails are available.",
+          "Accepts automation for standardized compliance tasks but prefers manual control for exceptions."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the need for analytical and oversight skills.",
+          "Routine data entry and reconciliation skills are becoming less critical.",
+          "Interpreting complex financial data remains a valuable human skill.",
+          "Adaptability and tech proficiency are increasingly important."
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning to audit and validate AI outputs is a new skill area.",
+          "Understanding AI decision logic and tuning parameters is becoming relevant.",
+          "Needs competency in integrating AI tools with existing accounting systems.",
+          "Responsible for staying updated on AI-driven compliance changes."
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mildly concerned about AI automating repetitive accounting tasks.",
+          "Believes that oversight and interpretation roles are less likely to be replaced.",
+          "Sees opportunity for upskilling to remain relevant as AI adoption grows."
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Manual review of AI-generated reports is standard practice.",
+          "ERP systems allow for human overrides of AI-suggested adjustments.",
+          "Regular audits ensure that automated processes remain accurate."
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has formalized guidelines for integrating AI into workflows.",
+          "Recent policy updates emphasize human review of AI outputs.",
+          "Team is encouraged to suggest improvements for AI tool implementation.",
+          "There is an ongoing review process for AI effectiveness and fairness."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Views AI as a major driver of efficiency and accuracy in finance.",
+          "Believes AI will transform routine accounting processes industry-wide.",
+          "Recognizes the potential for AI to reduce human error and increase transparency.",
+          "Cautious about unintended consequences, such as job displacement."
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes transparency in AI decision-making is essential.",
+          "Worries about potential bias in AI-driven compliance checks.",
+          "Values regular audits and clear accountability for AI outputs.",
+          "Supports ethical guidelines for responsible AI adoption."
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires seamless integration between AI tools and legacy accounting software.",
+          "Would benefit from AI-powered real-time compliance monitoring.",
+          "Seeks more transparent AI logic explanations for audit purposes.",
+          "Wishes for AI features that simplify regulatory updates."
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine tasks to be almost fully automated by AI.",
+          "Foresees a shift toward oversight, analysis, and exception management.",
+          "Predicts greater emphasis on interpreting AI outputs and addressing edge cases.",
+          "Anticipates more collaboration with data scientists and AI specialists."
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Invest in ongoing training for staff on AI tools and best practices.",
+          "Establish clear policies for human oversight of AI-driven processes.",
+          "Encourage cross-functional collaboration between finance and IT for AI integration.",
+          "Regularly review and update AI tools to ensure compliance and transparency.",
+          "Foster a culture of ethical AI use and open feedback on automation impacts."
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,534 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a high school diploma as highest completed formal education",
+          "Received on-the-job training in petroleum engineering practices after entering the field",
+          "Completed internal company training modules on drilling and production technology",
+          "Attended industry workshops focused on reservoir engineering and field operations",
+          "Obtained safety certifications required for field work (e.g., H2S awareness, first aid)"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Petroleum Engineer",
+          "Role involves designing and optimizing extraction methods for oil & gas reservoirs",
+          "Responsible for analyzing geological and production data to support decisions",
+          "Works directly with field teams and multidisciplinary colleagues to plan operations",
+          "Contributes to technology evaluation and continuous improvement initiatives"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the upstream oil and gas sector",
+          "Industry focus on extraction of hydrocarbons from underground reservoirs",
+          "Engages with both engineering and operations segments of the energy industry",
+          "Participates in projects aligned with energy production and resource management"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed by a mid-sized oil & gas company with several hundred employees",
+          "Work environment includes both office-based data analysis and periodic field visits",
+          "Collaborates within small project teams as well as larger, cross-functional groups",
+          "Company emphasizes safety, efficiency, and adoption of new technology"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Business segment: Upstream oil and gas exploration and production",
+          "Company operates in both mature and developing fields",
+          "Focuses on maximizing recovery from existing assets as well as new development",
+          "Serves primarily regional markets but may supply global energy companies"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 1-2 years of experience as a petroleum engineer",
+          "Joined the current company shortly after completing high school",
+          "Experience includes both project-based and ongoing operational assignments"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds an entry-level engineering position",
+          "Not yet in a supervisory or management role",
+          "Participates mainly as a team member, occasionally leading minor initiatives",
+          "Still developing expertise and expanding responsibilities"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Analyzes well and reservoir data to assess performance and identify optimization opportunities",
+          "Develops drilling and production plans based on technical analysis",
+          "Oversees field operations to ensure safety and efficiency",
+          "Collaborates with multidisciplinary teams (geologists, field engineers, production staff)",
+          "Prepares reports and communicates findings to stakeholders"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 40% of time on data analysis and performance assessment",
+          "Devotes 30% to planning and coordinating field operations",
+          "Allocates 20% to meetings, reporting, and cross-team communication",
+          "Uses the remaining 10% for technology reviews, software evaluation, and continuous improvement"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Makes independent decisions on routine analysis and reporting tasks",
+          "Contributes recommendations to operational or technical decisions but requires supervisor approval for major changes",
+          "Collaborates closely with senior engineers and field leads for critical interventions",
+          "Has some discretion in selecting analysis methods or software tools"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Comfortable using Excel for data analysis, production tracking, and routine calculations",
+          "Finds basic production monitoring and decline curve analysis straightforward",
+          "Regularly manages well data entry and validation with minimal supervision",
+          "Preparation of standard reports and basic dashboards feels intuitive"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Running advanced reservoir simulations (e.g., with Eclipse or CMG) is challenging due to technical depth",
+          "Interpreting complex geological or petrophysical datasets can be intimidating",
+          "Coordinating multi-team field operations under time constraints is demanding",
+          "Evaluating and integrating new technologies requires significant learning"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Cleaning and validating large volumes of production and pressure data is repetitive",
+          "Routine report generation and dashboard updates are time-consuming",
+          "Monitoring real-time well performance metrics is data-heavy and could be automated",
+          "Regularly imports and formats data from SCADA/PI systems, a process prone to manual errors"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys problem-solving tasks like optimizing production or troubleshooting well issues",
+          "Finds cross-team collaboration and field visits engaging",
+          "Considers repetitive data cleaning and manual report formatting tedious",
+          "Prefers tasks involving technology evaluation or continuous improvement initiatives"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual data entry and validation are prone to human error and slow down analysis",
+          "Lack of seamless integration between analysis tools (e.g., Petrel and Excel) creates extra steps",
+          "Delays in obtaining updated field data can bottleneck decision-making",
+          "Formatting data for different software platforms adds unnecessary complexity"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Feels most productive and engaged when working on tasks that match current skill level",
+          "Enjoyment increases when learning new technologies or solving technical challenges",
+          "Repetitive or overly manual tasks reduce both motivation and productivity",
+          "Gains confidence and efficiency as experience with analysis tools grows"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally open and enthusiastic about adopting new work technologies",
+          "Views new software as opportunities to improve efficiency and productivity",
+          "Sees upskilling as important for career progression in a technical field",
+          "Eager to experiment with tools that promise automation or data insights"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Considers self to be a quick learner when it comes to digital tools",
+          "Able to pick up new software features with minimal formal training",
+          "Occasionally needs support for complex simulation or modeling software",
+          "Adapts workflows based on industry trends and team recommendations"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate personal and work time to tech training if directly relevant",
+          "Participates in company-offered workshops and tutorials for new tools",
+          "Prefers hands-on learning over lengthy theoretical courses",
+          "Prioritizes training that addresses current bottlenecks or pain points"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by potential for increased efficiency and reduced manual workload",
+          "Main barrier is balancing training time with urgent project deadlines",
+          "Interest is highest when tech is directly applicable to daily tasks",
+          "Occasionally hesitant if new tech seems disconnected from field realities"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often recommend new software or share tips for better workflows",
+          "Management encourages use of automation and data-driven tools",
+          "Team culture favors early adoption and experimentation with new technologies",
+          "Success stories from colleagues increase willingness to try new tools"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Microsoft Excel daily for data analysis, decline curve analysis, and production tracking",
+          "Frequently employs Petrel and Techlog for geological interpretation and reservoir modeling",
+          "Regularly relies on PI System or SCADA platforms for real-time production data",
+          "Applies Prosper, GAP, and MBAL for nodal analysis and integrated production system modeling"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "AutoCAD and Civil 3D are used occasionally for reviewing facility layouts and well site plans",
+          "Power BI and Spotfire are essential for building and sharing performance dashboards",
+          "WellView and OpenWells are used for well data management and reporting",
+          "Basic communication platforms (e.g., email, Teams) are critical for team coordination"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient with widely used petroleum engineering software like Eclipse, CMG, and tNavigator",
+          "Familiar with standard workflows for integrating well logs and reservoir simulations",
+          "Aware of best practices for data management in upstream operations",
+          "Has used both legacy and newer versions of core industry tools"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces challenges transferring data between Petrel, Excel, and simulation software",
+          "Manual reformatting required when moving datasets from SCADA to analysis platforms",
+          "Limited direct integration between PI System and some proprietary modeling tools",
+          "Frequent need to export/import files increases risk of data inconsistency"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic concepts such as machine learning, predictive analytics, and anomaly detection",
+          "Comfortable discussing supervised and unsupervised learning in practical terms",
+          "Familiar with terminology like model training, validation, and data labeling",
+          "Has a working knowledge of how AI can be applied to time series production data"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses large language models (LLMs) for drafting reports, summarizing findings, and code generation",
+          "Employs AI features in Power BI and Spotfire for automated trend detection",
+          "Occasionally uses Python-based AI/ML tools for custom data analysis",
+          "Experiments with built-in AI modules in reservoir simulation software for scenario prediction"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies LLMs daily to accelerate report writing and automate documentation",
+          "Uses AI-powered anomaly detection weekly to flag unusual production trends",
+          "Employs machine learning models to forecast well performance under different scenarios",
+          "Relies on AI tools to auto-generate data visualizations and suggest operational improvements"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used LLM to automate decline curve analysis report drafts, saving hours per week",
+          "AI-driven anomaly detection once flagged a sensor error as a real production drop, highlighting need for human oversight",
+          "Automated data cleaning scripts reduced manual workload but required careful validation to avoid data loss",
+          "Initial attempts to use generic ML models for production prediction underperformed until tailored with domain data"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company offers periodic internal training sessions on AI and data analytics",
+          "Peers frequently share tips and best practices for AI tool integration",
+          "Online documentation and tutorials are made available for self-paced learning",
+          "Mentorship from more experienced colleagues helps accelerate AI adoption"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI for complex analyses or unfamiliar workflows",
+          "Uses AI independently for routine document drafting and data cleaning",
+          "Appreciates interactive guidance when exploring new features or tools",
+          "Switches between modes depending on task complexity and urgency"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for automating repetitive or data-heavy tasks",
+          "Leverages AI as an advisor for scenario modeling and operational recommendations",
+          "Occasionally treats AI as a co-worker, especially when iteratively refining analyses",
+          "Retains final decision-making authority, using AI as a support tool"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to experimenting with AI-driven workflows that promise efficiency gains",
+          "Actively seeks out opportunities to automate routine reporting and monitoring",
+          "Willing to pilot new AI features and provide feedback to tool developers",
+          "Prefers gradual integration of AI into established processes to minimize disruption"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming, troubleshooting, or generating text",
+          "Uses command-based interfaces for structured data analysis or when scripting in Python",
+          "Finds natural language queries helpful for exploring new AI features",
+          "Adapts communication style to the context and intended outcome"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many tasks require practical field experience and understanding of reservoir behavior",
+          "Tacit knowledge is critical for interpreting ambiguous data or troubleshooting anomalies",
+          "Some decisions, such as recommending interventions, depend on hard-to-codify expertise",
+          "Relies on a combination of software outputs and personal judgment for key calls"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for automating routine tasks and initial data analysis",
+          "Exercises caution and reviews AI-generated outputs before making critical decisions",
+          "Cross-verifies AI recommendations with domain knowledge and team input",
+          "Greater trust in AI for well-defined, structured problems than for novel cases"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive, data-heavy, or time-consuming tasks",
+          "Believes humans should retain oversight on recommendations affecting safety or production",
+          "Seeks a partnership where AI augments decision-making, not replaces it",
+          "Supports automation for routine reporting but values manual review for critical analyses"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for standardized, low-risk processes like data cleaning",
+          "Wary of full automation for complex field operations or safety-critical tasks",
+          "Automation is acceptable when override and manual intervention options are available",
+          "Feels threatened if automation obscures reasoning or lacks transparency"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Feels AI enhances technical analysis skills by enabling deeper data exploration",
+          "Sees risk of reduced value for basic data processing or routine reporting skills",
+          "Believes hands-on field knowledge becomes even more important in an AI-driven environment",
+          "Anticipates new emphasis on data interpretation and cross-disciplinary skills"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing skills in AI tool customization and prompt engineering for LLMs",
+          "Becoming more involved in data validation and quality assurance for AI inputs",
+          "Learning basic Python scripting to automate and tune AI workflows",
+          "Taking on informal roles as an AI advocate or peer resource in the team"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mildly concerned about automation of routine reporting and monitoring tasks",
+          "Does not feel immediate threat to core engineering responsibilities",
+          "Believes human oversight is essential for safety, troubleshooting, and complex judgment",
+          "Sees AI as a tool to augment, not eliminate, engineering roles"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always reviews AI-generated reports before distribution",
+          "Manual validation steps are built into key workflows (e.g., production forecasts)",
+          "Company policy requires human sign-off for operational changes proposed by AI",
+          "Can revert to traditional analysis tools if AI outputs are questionable"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Notices a shift toward more open discussion of AI opportunities and risks",
+          "Company increasingly encourages experimentation with AI-based solutions",
+          "Team policies still emphasize human review and accountability for critical tasks",
+          "Growing focus on training and upskilling related to AI"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will significantly increase efficiency and safety in oil and gas operations",
+          "Anticipates AI-driven optimization leading to more sustainable resource extraction",
+          "Recognizes potential for job transformation but not widespread displacement in the near term",
+          "Sees AI as a catalyst for innovation across the energy industry"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports transparent and explainable AI models to maintain trust",
+          "Concerned about biases and errors if AI is not properly validated",
+          "Believes ethical guidelines are needed to govern AI use in safety-critical environments",
+          "Values human oversight to mitigate unintended consequences"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would benefit from AI-driven real-time optimization of choke settings and lift equipment",
+          "Desires seamless integration of AI analytics across all production and reservoir tools",
+          "Sees value in advanced predictive maintenance AI for field equipment",
+          "Wishes for more intuitive, domain-aware AI assistants for technical troubleshooting"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine data analysis and reporting to become near-fully automated",
+          "Foresees a shift toward more strategic, cross-disciplinary engineering roles",
+          "Anticipates increased focus on interpreting and validating AI outputs",
+          "Believes AI will enable faster, more accurate decision-making in field operations"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Advocates for ongoing AI training and upskilling opportunities for all staff",
+          "Recommends piloting AI solutions in low-risk workflows before wider rollout",
+          "Supports investment in robust data infrastructure and integration platforms",
+          "Wants clear policies for human oversight and accountability in AI-driven decisions"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,509 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master\u2019s Degree",
+          "Completed graduate-level coursework in computer science or information technology",
+          "Participated in additional online courses on web administration and cybersecurity",
+          "Has training in web server management and network security",
+          "Attended workshops on emerging web technologies"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Current job title is Web Administrator",
+          "Role involves maintaining, updating, and securing organization\u2019s websites",
+          "Handles both technical and content-related aspects of web management",
+          "Provides technical support and troubleshooting for web-related issues"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the technology sector",
+          "Supports an organization with a strong digital presence",
+          "Industry emphasizes cybersecurity and online services"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Organization employs approximately 100-500 people",
+          "Works in a collaborative IT team environment",
+          "Company encourages continuous learning and tech adoption"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Organization operates in the online services or digital infrastructure segment",
+          "Provides web-based products or information to clients",
+          "Targets both B2B and B2C users through its websites"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 6-10 years of professional experience as a Web Administrator",
+          "Started in the current field directly after completing Master\u2019s education",
+          "Progressed from junior to mid-senior level during tenure"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Considered a mid-level to senior professional",
+          "Frequently consulted for expertise and best practices in web administration",
+          "Leads or mentors junior administrators when needed"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Maintains and updates organization website content",
+          "Ensures all software and plugins are up to date",
+          "Manages and monitors web servers for performance and uptime",
+          "Implements security measures and monitors for cyber threats",
+          "Troubleshoots and resolves technical issues related to website operations"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends roughly 40% of time on content and plugin updates",
+          "Devotes about 30% to monitoring and maintaining web servers",
+          "Allocates 20% to cybersecurity tasks and threat response",
+          "Spends 10% on user support and incident troubleshooting"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates with a high degree of autonomy in daily activities",
+          "Authorized to implement technical changes and updates independently",
+          "Consults with IT leadership for major infrastructure or security decisions",
+          "Makes real-time decisions during downtime or cyber incidents"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Routine content updates and plugin installations are straightforward",
+          "Monitoring website uptime via dashboards is efficient and familiar",
+          "Basic troubleshooting for minor user-reported issues is handled quickly"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Responding to sophisticated cyber attacks requires advanced knowledge",
+          "Diagnosing intermittent server outages can be complex",
+          "Integrating new technologies into legacy systems presents difficulties",
+          "Coordinating large-scale website migrations involves intricate planning"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Regular software and plugin update checks are repetitive",
+          "Reviewing server logs for anomalies is data-intensive",
+          "Scheduling and posting prepared website content is ideal for automation",
+          "Routine security scans can be efficiently automated"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys implementing new security features and tools",
+          "Finds diagnosing and resolving complex website errors engaging",
+          "Considers repetitive content updates and documentation somewhat tedious",
+          "Prefers tasks that involve learning and applying new technologies"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual tracking of update schedules can be error-prone",
+          "Interoperability issues between content management and server tools cause delays",
+          "Resolving unexpected compatibility problems after updates is time-consuming",
+          "Lack of real-time collaboration features in some platforms slows incident response"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Productivity is highest when working on tasks that match advanced skill areas, such as security",
+          "Enjoys tasks more when they offer opportunities to learn or innovate",
+          "Finds repetitive tasks less engaging, but automation increases overall productivity",
+          "Skill development in AI and automation tools has improved job satisfaction"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Highly positive attitude towards adopting new technologies",
+          "Views tech learning as essential to staying effective in the role",
+          "Eager to experiment with and implement new web administration tools"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Considers self very adaptable to new software platforms",
+          "Quickly picks up on changes to workflows and interfaces",
+          "Frequently pilots new solutions before wider team adoption"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Regularly allocates personal and professional development time for tech training",
+          "Attends webinars and online courses on relevant topics",
+          "Participates in knowledge-sharing sessions within the IT team"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the need to improve efficiency and security",
+          "Occasional high workload can limit time available for deep training",
+          "Prefers learning technologies with clear, direct relevance to core responsibilities",
+          "Management support for training reduces barriers significantly"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often recommend new tools and share best practices",
+          "Management actively encourages adoption of productivity-enhancing technologies",
+          "Team culture is open to experimentation and iterative improvements"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses WordPress and Drupal as primary content management systems",
+          "Monitors servers using tools like Nagios and New Relic",
+          "Performs code and site updates via Git and GitHub",
+          "Utilizes ChatGPT and other LLMs daily for scripting and troubleshooting"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on SSH and command-line tools for server management",
+          "Uses cPanel or Plesk for web hosting administration",
+          "Employs Jira for issue tracking and workflow management",
+          "Leverages Google Workspace for documentation and collaboration"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient with Linux-based web servers",
+          "Experienced with MySQL or PostgreSQL databases",
+          "Familiar with SSL/TLS certificate management",
+          "Has experience with cloud hosting platforms such as AWS or DigitalOcean"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally encounters incompatibility between older plugins and updated CMS versions",
+          "Some monitoring tools do not fully integrate with content management dashboards",
+          "Manual data transfers are sometimes needed due to lack of API integration",
+          "Works to streamline workflows by identifying and resolving integration bottlenecks"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic concepts such as natural language processing, machine learning, and neural networks",
+          "Can explain supervised versus unsupervised learning in lay terms",
+          "Keeps up to date with AI advancements relevant to web technologies",
+          "Regularly reads industry articles about AI and automation"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT and GPT-4 for code generation and troubleshooting",
+          "Employs OpenAI API for automating content creation and moderation",
+          "Utilizes AI-powered security tools such as CrowdStrike or Darktrace",
+          "Tests and evaluates new AI-driven plugins within the CMS environment"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies LLMs daily for script writing and documentation assistance",
+          "Uses AI for real-time security threat detection and alerting",
+          "Automates routine content scheduling and posting using AI",
+          "Employs AI chatbots for initial user support queries on the website"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI successfully detected and flagged a brute force attack before escalation",
+          "LLM-generated scripts reduced manual workload by 30% in a recent update cycle",
+          "Experienced a false positive in AI-powered security monitoring, leading to unnecessary downtime",
+          "Learned the importance of manual review and validation of AI outputs"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Organization provides periodic AI training workshops for IT staff",
+          "Peers share AI usage tips and troubleshooting guides in a shared repository",
+          "Access to online courses and documentation is encouraged and reimbursed",
+          "Team Slack channel is used to discuss new AI features and best practices"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI tools for complex problem-solving",
+          "Uses AI independently for repetitive or standard tasks",
+          "Adopts a hybrid approach depending on task criticality"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI as a powerful assistant that augments work",
+          "Sometimes treats AI as a co-worker, especially for brainstorming solutions",
+          "Relies on AI as an advisor when exploring new technologies or security threats",
+          "Maintains final human oversight on all critical decisions"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to adopting and experimenting with AI-driven workflows",
+          "Actively seeks out new AI integrations to improve productivity",
+          "Encourages team members to try AI-supported processes"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for idea generation and troubleshooting",
+          "Uses command-based AI interfaces for automated scripts and batch processes",
+          "Selects interface style based on task complexity and required precision"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many tasks, such as security configuration, require deep domain expertise",
+          "Custom server setups are guided by both explicit and tacit organizational knowledge",
+          "Relies on institutional experience when evaluating AI recommendations"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "High trust in AI for automating routine and well-defined tasks",
+          "Exercises caution and manual review for security-critical or high-impact decisions",
+          "Trust is reinforced by positive past experiences with AI outputs"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers human control over AI for final approval on security matters",
+          "Advocates for full automation in routine maintenance and monitoring tasks",
+          "Supports a balanced, collaborative approach for complex troubleshooting"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation when tasks are low-risk and repeatable",
+          "Finds high automation threatening when it bypasses manual checks for critical processes",
+          "Believes transparency and override options are essential for trust"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "AI enhances the importance of analytical and problem-solving skills",
+          "Reduces time spent on routine tasks but increases demand for oversight and validation skills",
+          "Elevates the need for continuous learning and adaptability"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developed proficiency in prompt engineering for LLMs",
+          "Became responsible for monitoring AI-generated outputs and security alerts",
+          "Learning to evaluate and integrate AI plugins into existing workflows",
+          "Takes on training peers in effective AI tool usage"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Some concern about routine maintenance tasks being fully automated",
+          "Believes core responsibilities requiring human judgment remain secure",
+          "Views AI as a complement rather than a full replacement for the role"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Manual approval steps are in place for all critical website changes",
+          "Regularly reviews AI-flagged issues before implementing fixes",
+          "Organization requires human sign-off for major updates and security actions"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company is increasingly proactive about integrating AI into workflows",
+          "Team guidelines now include best practices for safe AI usage",
+          "Policies mandate transparency and documentation for AI-driven processes"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will continue to transform the tech industry and workflow efficiency",
+          "Anticipates AI will raise the bar for security standards across organizations",
+          "Recognizes potential for both positive disruption and unintended consequences"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports transparent and explainable AI in all workplace applications",
+          "Believes data privacy and bias mitigation are critical ethical concerns",
+          "Advocates for clear guidelines on AI responsibility and accountability"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires more robust AI-driven integration between disparate web tools",
+          "Wants AI that can autonomously resolve complex, multi-system incidents",
+          "Seeks better AI-powered predictive analytics for server performance and security"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects the role to shift towards oversight of AI-automated processes",
+          "Foresees more time dedicated to strategic planning and less on manual tasks",
+          "Anticipates ongoing need for human expertise in managing and validating AI systems"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement continuous training programs focused on AI best practices",
+          "Establish clear policies for responsible and transparent AI use",
+          "Invest in research and pilot projects to explore advanced AI capabilities",
+          "Foster a company culture that supports ethical and collaborative AI adoption"
+        ]
+      }
+    ]
+  }
+]

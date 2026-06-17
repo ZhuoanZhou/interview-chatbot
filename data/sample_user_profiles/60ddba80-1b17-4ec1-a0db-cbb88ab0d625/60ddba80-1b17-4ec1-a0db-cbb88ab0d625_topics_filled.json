@@ -1,0 +1,532 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Attended college for two years but did not complete a degree",
+          "Took coursework in communications and business administration",
+          "Participated in employer-provided sales and telemarketing training workshops",
+          "Completed several online courses on customer service and CRM software",
+          "Has over a decade of on-the-job training in telemarketing best practices"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Senior Telemarketer",
+          "Role involves conducting cold and warm calls to generate and qualify leads",
+          "Responsible for scheduling appointments and documenting all interactions",
+          "Acts as a first point of contact for potential clients, answering initial inquiries",
+          "Provides daily recaps and reports to supervisors and clients"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works primarily in the marketing and sales sector",
+          "Supports clients across various industries, including real estate and small businesses",
+          "Focuses on B2B and B2C outreach campaigns",
+          "Industry segment is lead generation and appointment setting services"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Currently employed at a small to mid-sized marketing services firm",
+          "Typical team size is between 10 and 30 employees",
+          "Work environment is remote and collaborative, utilizing digital communication tools",
+          "Regularly interacts with both internal team members and external clients via Slack and email"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Specializes in outsourced telemarketing and lead qualification services",
+          "Serves a variety of small and mid-sized business clients",
+          "Market segment includes real estate, professional services, and local retailers",
+          "Business is project-based, often supporting short- and long-term client campaigns"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has more than 10 years of experience in telemarketing roles",
+          "With current employer for approximately 5 years",
+          "Has steadily progressed from entry-level caller to senior telemarketer",
+          "Has handled thousands of calls and appointments over career"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds a senior individual contributor role",
+          "Often mentors junior callers on best practices",
+          "Considered a subject matter expert in lead handling within the team",
+          "Involved in refining scripts and suggesting process improvements"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Performs cold and warm outbound calls to potential leads daily",
+          "Documents call outcomes and lead status in CRM systems",
+          "Schedules appointments and follow-ups using Calendly and Google Calendar",
+          "Responds to incoming queries from leads via phone or email",
+          "Provides end-of-day recaps and updates to clients and supervisors"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends roughly 60% of work hours making or receiving calls",
+          "Allocates about 20% of time documenting call outcomes and updating CRMs",
+          "Devotes 10% of time to scheduling and managing appointments",
+          "Spends another 10% on daily recaps, internal communications, and follow-up questions"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Works independently in executing daily call lists and follow-ups",
+          "Has discretion to adjust call scripts and responses based on lead engagement",
+          "Can schedule appointments directly without supervisor approval",
+          "Escalates only unusual or high-stakes client situations to management"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Engaging in warm calls with receptive leads is natural and straightforward",
+          "Documenting basic call information in CRM systems is routine",
+          "Scheduling appointments using Calendly or Google Calendar is quick and familiar",
+          "Providing daily recaps and status updates has become second nature"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Handling objections and rejections during cold calls can be difficult",
+          "Managing multiple client preferences and varying campaign requirements adds complexity",
+          "Ensuring data accuracy when transferring notes between systems can be challenging",
+          "Addressing in-depth or technical questions from leads occasionally requires additional research"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Entering call outcomes and lead information into multiple platforms is repetitive",
+          "Sending standardized follow-up emails and appointment confirmations could be automated",
+          "Compiling daily recap reports follows a templated, data-heavy process",
+          "Updating lead status in CRMs after each call is repetitive and suitable for workflow automation"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Most enjoys engaging conversations with interested leads and setting appointments",
+          "Finds satisfaction in successfully handling challenging objections",
+          "Feels tedious when repeatedly entering data or updating multiple CRMs",
+          "Least enjoys sending generic follow-up emails and compiling daily reports"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Switching between different software platforms slows down workflow",
+          "Occasional duplicate data entry is required due to lack of integrations",
+          "Inconsistent data formats from different clients require manual cleanup",
+          "Delays can occur when waiting for client responses on follow-up questions"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Is most productive and efficient when engaged in conversations with interested leads",
+          "High skill level in call handling leads to greater enjoyment and confidence",
+          "Productivity drops during repetitive or administrative tasks, which are less enjoyable",
+          "Enjoys mentoring peers, which reinforces both skills and job satisfaction"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open to adopting new tools that clearly improve workflow or efficiency",
+          "Prefers hands-on, practical learning over theoretical instruction",
+          "Has a positive attitude towards experimenting with new software features",
+          "Willing to provide feedback on new tool rollouts to management"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Considers self adaptable with moderate learning curve for new platforms",
+          "Comfortable self-training using online tutorials and help documentation",
+          "Occasionally seeks help from colleagues when encountering technical issues"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to spend several hours per month on tech upskilling if relevant to the job",
+          "Prefers training that fits into existing workflow rather than lengthy seminars",
+          "Values short, focused sessions or video tutorials over long-form courses"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated to learn new tech when it directly reduces workload or errors",
+          "Main barrier is lack of time during peak calling periods",
+          "Less inclined to learn tools perceived as only marginally helpful"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers\u2019 positive experiences with new tools encourage adoption",
+          "Management\u2019s endorsement and training offerings increase willingness to try new tech",
+          "Occasionally acts as an early adopter and shares feedback with the team"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses GoHighLevel for call management and lead tracking",
+          "Utilizes Jabr headset for making and receiving calls",
+          "Regularly works in HubSpot and Zoho CRMs to document interactions",
+          "Employs Calendly and Google Calendar for appointment scheduling",
+          "Relies on Slack and Trello for team communication and task management"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Google Sheets is used daily for updating lead lists and tracking call metrics",
+          "Microsoft Office tools (Word, Excel) are used for composing reports and organizing data",
+          "MailChimp is used for email campaigns and automated follow-ups",
+          "JotForm is utilized for collecting lead information and responses"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Experienced in using multiple CRM platforms, including HubSpot and Zoho",
+          "Comfortable with calendar and scheduling tools like Calendly and Google Workspace",
+          "Understands integration tools such as Zapier for automating workflows",
+          "Has basic familiarity with email marketing platforms like MailChimp"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces integration challenges between GoHighLevel and HubSpot",
+          "Manual data transfers are sometimes required due to lack of direct sync",
+          "Zapier is used to automate some, but not all, data flows between systems",
+          "Duplicate entries can occur when syncing leads across multiple platforms"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands the basics of how large language models (LLMs) generate text",
+          "Familiar with AI concepts such as natural language processing and automation",
+          "Has read articles or completed brief tutorials explaining AI in sales and marketing",
+          "Can explain the general differences between rule-based automation and AI-driven tools"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT for drafting call scripts and responding to common lead questions",
+          "Employs GoHighLevel\u2019s AI-enhanced features for lead scoring and follow-up reminders",
+          "Occasionally leverages AI-based suggestions within HubSpot CRM",
+          "Has tested AI-powered email response tools integrated with MailChimp"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses ChatGPT 2-3 times per week to generate or refine outreach copy",
+          "Employs AI features in CRMs for prioritizing leads and scheduling follow-ups",
+          "Occasionally uses AI to summarize call notes or automate standard email replies",
+          "AI is not used for making final decisions about lead qualification"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "ChatGPT successfully generated a script that improved response rate by 10%",
+          "An AI-suggested lead prioritization once flagged a valuable lead that was missed manually",
+          "Experienced an AI-generated email response that failed to address a client\u2019s key concern",
+          "Learned to always review and edit AI outputs before sending to clients"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Organization provides occasional webinars on AI tool updates",
+          "Peers share tips and best practices for AI usage in team Slack channels",
+          "Formal training is limited; most learning is self-initiated or peer-driven",
+          "Documentation for AI features is available but not always up-to-date"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers to use AI independently for drafting and idea generation",
+          "Occasionally uses step-by-step collaboration when testing new AI workflows",
+          "Appreciates AI suggestions but retains control over final outputs",
+          "Finds it helpful when AI provides clear, actionable recommendations"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for routine and repetitive tasks",
+          "Treats AI as an advisor for generating script ideas and handling objections",
+          "Does not see AI as a true co-worker but as a tool to augment productivity",
+          "Prefers to maintain the final say in all client-facing communications"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to experimenting with new AI workflows that promise efficiency gains",
+          "Willing to try AI-driven scheduling or note-taking features if easy to integrate",
+          "Prefers incremental adoption over wholesale workflow changes",
+          "More receptive to AI workflows that require minimal extra training"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational AI interfaces (e.g., ChatGPT) for brainstorming and drafting",
+          "Finds command-based interfaces useful for specific, repeatable tasks",
+          "Values the ability to clarify or refine requests in a conversational format",
+          "Adapts interface preference based on the complexity of the task"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Cold calling and objection handling require nuanced communication skills",
+          "Lead qualification often depends on subtle cues and experience-based judgment",
+          "Routine scheduling and data entry rely less on tacit knowledge",
+          "Script customization for different markets draws on years of industry experience"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI outputs for routine copywriting and data summarization tasks",
+          "Always reviews AI-generated responses for accuracy and tone before use",
+          "Does not rely on AI for final lead qualification or client commitments",
+          "Has moderate trust in AI suggestions, with preference for human oversight"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI automation for repetitive data entry and scheduling",
+          "Believes human skills are essential for persuasion and objection handling",
+          "Supports a hybrid approach where AI prepares drafts and humans finalize outputs",
+          "Wants AI to handle background tasks, freeing up time for meaningful conversations"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for administrative or templated communications",
+          "Finds high automation threatening if it risks losing the personal touch with leads",
+          "Automation is acceptable if clear review and override mechanisms are present",
+          "Prefers gradual automation adoption with regular feedback opportunities"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Sees AI as reducing the need for manual data entry but enhancing the value of communication skills",
+          "Believes objection handling and persuasion remain critical and less impacted by AI",
+          "Views AI as making technical tool proficiency more important than before",
+          "Thinks adaptability and oversight skills are increasingly valuable"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing skills in prompt engineering for AI tools like ChatGPT",
+          "Learning to critically review and edit AI-generated outputs",
+          "Becoming more involved in workflow automation setup and troubleshooting",
+          "Occasionally tasked with training peers on effective AI tool usage"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mildly concerned about automation replacing administrative tasks",
+          "Believes core calling and relationship-building aspects are less at risk",
+          "Feels secure in overall role due to emphasis on human communication",
+          "Watches AI developments but is not overly worried about immediate job loss"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always manually reviews AI-generated emails and scripts before sending",
+          "CRMs allow for easy editing and correction of AI-suggested updates",
+          "Team has informal guidelines for checking AI outputs before client delivery",
+          "Manual override is standard practice for any automated scheduling or messaging"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has become more open to piloting AI tools over the past two years",
+          "Policies now encourage experimentation with AI for specific workflow enhancements",
+          "Management requires human review before client-facing AI outputs are sent",
+          "Team culture supports sharing AI tips and evaluating tool effectiveness"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will increase efficiency in many routine business processes",
+          "Expects AI to reshape some roles while creating new opportunities in sales and marketing",
+          "Sees potential for AI to improve data analysis and lead targeting",
+          "Is cautious about over-reliance on AI for human-centric tasks"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes AI should not replace authentic human interaction in sales",
+          "Is concerned about AI making incorrect recommendations if not closely monitored",
+          "Wants transparent disclosure when AI is involved in customer communications",
+          "Supports responsible AI use that augments rather than replaces humans"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would benefit from smarter AI-integrated scheduling that reduces manual steps",
+          "Desires an AI tool that can accurately summarize call recordings into actionable notes",
+          "Wishes for seamless AI-driven data syncing between all CRM systems",
+          "Seeks an AI assistant that can flag unusual lead behavior or follow-up needs"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine data entry and scheduling to be highly automated",
+          "Believes human callers will focus more on complex conversations and relationship building",
+          "Anticipates needing to supervise and refine AI-generated outputs more closely",
+          "Foresees increased collaboration between human agents and AI in campaign strategy"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Advocates for more structured training on AI tool usage and best practices",
+          "Wants regular feedback channels for evaluating AI effectiveness and risks",
+          "Recommends phased rollout of new AI features with user input",
+          "Supports maintaining strong human oversight, especially for client interactions"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,536 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master\u2019s Degree in English, Technical Communication, or a related field",
+          "Completed undergraduate studies in English, Journalism, or Communication",
+          "Participated in specialized workshops on technical writing and editing",
+          "Undertook ongoing professional development in document management and compliance",
+          "Received on-the-job training in proofreading standards and technical documentation"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Current job title is Proofreader and Copy Marker",
+          "Performs the role of a technical writer focused on simplifying complex information",
+          "Responsible for reviewing, editing, and composing technical documents and policies",
+          "Acts as a reviewer and auditor for internal and external documentation",
+          "Collaborates with staff to develop and refine technical procedures and processes"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works primarily in the technical writing sector",
+          "Supports industries such as manufacturing, compliance, and business operations",
+          "Frequently engages with technical processes in regulated environments",
+          "Documents policies and procedures for non-technical audiences across sectors"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works for a medium-sized organization with 100\u2013500 employees",
+          "Company structure includes cross-functional teams involved in policy and process development",
+          "Work environment is collaborative, with both internal and external stakeholders",
+          "Remote and office-based work settings are common, depending on project needs"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Operates within business services focused on documentation and compliance",
+          "Serves clients in manufacturing, technology, and regulated industries",
+          "Market segment emphasizes clear communication and regulatory adherence",
+          "Business specializes in technical documentation for internal and client use"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has over 10 years of experience as a proofreader, copy marker, and technical writer",
+          "Spent multiple years in progressively responsible documentation roles",
+          "Experience includes both hands-on writing and supervisory editing tasks",
+          "Tenure reflects deep familiarity with organizational processes and documentation cycles"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds a senior-level or lead technical writer position",
+          "Recognized as a subject matter expert in policy and procedure documentation",
+          "Frequently mentors junior writers and reviewers",
+          "Participates in decision-making about documentation standards and workflows"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Reviews and edits technical documents for clarity and accuracy",
+          "Writes and simplifies complex procedures into easy-to-understand instructions",
+          "Collaborates with staff to develop and update policies and processes",
+          "Conducts audits and multiple review cycles on documentation",
+          "Coordinates with legal and compliance teams to ensure adherence to standards"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 40% of time editing and proofreading documents",
+          "Devotes 30% to drafting new technical materials and policies",
+          "Allocates about 20% to meetings and collaborative development with staff",
+          "Uses remaining 10% for audits, administrative tasks, and process improvement"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Exercises significant autonomy in editing and document structuring",
+          "Makes independent decisions on language, clarity, and compliance within guidelines",
+          "Consults with management or legal for major changes or sensitive policies",
+          "Provides recommendations on workflow improvements and process changes"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Proofreading for grammar and spelling errors comes naturally",
+          "Simplifying technical jargon for a general audience is an area of strength",
+          "Formatting documents according to organizational standards is routine",
+          "Identifying inconsistencies in policy language is intuitive"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Interpreting ambiguous policy intent requires deep expertise",
+          "Negotiating document changes with multiple stakeholders can be complex",
+          "Ensuring compliance with overlapping regulations is challenging",
+          "Balancing clarity with legal precision in documentation is demanding"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Initial grammar and spell-check passes are repetitive and could be automated",
+          "Basic formatting and style consistency checks are data-heavy and repetitive",
+          "Compiling revision histories and audit trails could benefit from automation",
+          "Routine document comparisons for version control are suitable for automation"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys collaborating with colleagues to clarify and structure information",
+          "Finds satisfaction in simplifying complex content for broader audiences",
+          "Considers repetitive formatting and tracking changes tedious",
+          "Least enjoys manual data entry or updating document metadata"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Multiple review cycles can slow down document completion",
+          "Inconsistent client software and formats disrupt workflow",
+          "Manual tracking of document versions is time-consuming",
+          "Coordinating feedback from large teams can cause delays"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Productivity is highest when working on tasks that leverage writing and editing skills",
+          "Enjoyment increases with tasks that allow for creative simplification of content",
+          "Skill level reduces time spent on basic proofreading, increasing overall throughput",
+          "Complex collaboration is less enjoyable but necessary for high-quality outcomes"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open but cautious about adopting new technology",
+          "Prefers tools that integrate well with existing workflows",
+          "Evaluates new software for usability and relevance before adoption",
+          "Skeptical of tools that disrupt established writing practices"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts to new software when it provides clear benefits",
+          "Has successfully transitioned to new versions of office productivity tools",
+          "Requires structured training or documentation to maximize new tool adoption",
+          "Prefers gradual transitions to minimize workflow disruption"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to invest time in training if tool is relevant to core job functions",
+          "Prioritizes learning essential features over advanced or niche capabilities",
+          "Attends internal workshops or webinars when available",
+          "Reluctant to spend time on tools with unclear benefits"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by efficiency improvements and reduced manual work",
+          "Barriers include high workload and tight project deadlines",
+          "Skeptical of technology that feels tangential to primary responsibilities",
+          "Peer recommendations can increase motivation to learn new tools"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers\u2019 positive experiences can encourage adoption of new tools",
+          "Management endorsement is important for formal tool rollouts",
+          "Collaborative teams often pilot new technologies before full adoption",
+          "Sometimes resistant if change is perceived as top-down without user input"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Microsoft Word daily for document creation and editing",
+          "Employs Microsoft Publisher for layout and formatting tasks",
+          "Relies on Microsoft Teams for communication and team collaboration",
+          "Tracks project status and workflow using Monday.com",
+          "Occasionally adapts to client-specified software platforms"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Utilizes basic word processing tools as primary work environment",
+          "Depends on version control features within office software",
+          "Makes use of email for document sharing and feedback",
+          "Employs shared drives or cloud storage for document management"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Highly proficient with Microsoft Office suite",
+          "Experienced with standard project management tools like Monday.com",
+          "Familiar with document collaboration platforms such as Teams and SharePoint",
+          "Adapts quickly to client-mandated document management systems"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces formatting issues when moving documents between platforms",
+          "Client-specific tools may lack integration with preferred office software",
+          "Version control is sometimes complicated by multiple file storage locations",
+          "Manual transfers between project management and document systems are common"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic AI concepts such as natural language processing and machine learning",
+          "Comfortable with terminology like 'large language model' and 'chatbot'",
+          "Knows limitations and potential biases of AI-generated content",
+          "Has experience using AI tools for fact-checking and information retrieval"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses Google Gemini chatbot for occasional fact-checking",
+          "Has experimented with OpenAI\u2019s ChatGPT for reference purposes",
+          "May have tried Microsoft Copilot when integrated into Office applications",
+          "Does not use AI tools as a primary writing assistant"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses AI tools every week, primarily for quick fact-checking",
+          "May consult AI chatbots when needing a second opinion on technical facts",
+          "Rarely uses AI for actual document drafting or editing",
+          "Prefers traditional search engines for most research unless AI is more convenient"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI chatbots have been useful for quickly summarizing unfamiliar technical topics",
+          "Experienced occasional inaccuracies or hallucinations in AI-generated responses",
+          "Learned to always cross-verify AI-provided facts with authoritative sources",
+          "Found that AI tools are less reliable for nuanced or organization-specific content"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Limited formal AI training provided by the organization",
+          "Occasional peer sharing of tips and best practices for AI tools",
+          "Most AI learning is self-directed or ad hoc",
+          "No standardized AI usage policy or resource hub within the team"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers to work independently and consult AI only for specific queries",
+          "Does not rely on AI as a constant collaborator during writing",
+          "Uses AI as an occasional reference tool, not a co-author",
+          "Values personal writing style and control over document tone"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an informational assistant or research tool",
+          "Does not treat AI as a creative co-worker or collaborator",
+          "Uses AI to supplement, not replace, personal expertise",
+          "Maintains final editorial authority over AI-influenced content"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Cautiously open to AI-driven workflows if they clearly improve efficiency",
+          "Prefers incremental adoption rather than radical workflow changes",
+          "Resistant to AI tools that override or obscure user control",
+          "Prioritizes workflows that preserve individual writing voice and judgment"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Leans toward conversational interfaces for occasional queries",
+          "Finds command-based interfaces efficient for specific, repeatable tasks",
+          "Values clear, direct interactions with minimal ambiguity",
+          "Does not engage in extended back-and-forth with AI tools"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many writing and editing tasks depend on deep domain and organizational knowledge",
+          "Tacit understanding of company-specific language and context is essential",
+          "AI tools often lack awareness of internal policies and nuanced requirements",
+          "Personal judgment is critical for interpreting ambiguous situations"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for surface-level fact-checking and general research",
+          "Does not fully trust AI outputs for critical policy decisions or final document versions",
+          "Always verifies AI-provided information before including in official documents",
+          "Prefers human review for sensitive or legally binding materials"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI for repetitive, low-level checks (e.g., spelling, initial formatting)",
+          "Retains human oversight for interpretation, structuring, and final editing",
+          "Advocates for a human-in-the-loop approach to quality assurance",
+          "Views AI as a support tool, not a replacement for core expertise"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for routine, formulaic tasks with minimal risk",
+          "Deems automation threatening when it could introduce errors in sensitive content",
+          "Uncomfortable with automation that bypasses human review for policy documents",
+          "Open to automation if override and manual correction are always possible"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI may reduce demand for basic proofreading but not for advanced editing",
+          "Views nuanced writing and contextual judgment as increasingly valuable",
+          "Sees opportunity for skills enhancement in guiding and overseeing AI outputs",
+          "Considers communication and collaboration skills essential despite automation"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Requires ability to evaluate and validate AI-generated content",
+          "Needs to learn prompt engineering for effective AI interactions",
+          "Responsible for training peers on safe, effective AI use",
+          "Involved in developing guidelines for responsible AI adoption within documentation"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mildly concerned about automation of routine editing and formatting",
+          "Not worried about AI replacing complex writing, interpretation, or policy development",
+          "Confidence in the need for human oversight and contextual understanding",
+          "Watches industry trends but feels secure in specialized expertise"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Manual review is always performed before document finalization",
+          "AI-generated content is subject to human verification and editing",
+          "Prefers tools that allow easy rollback or undo of AI-suggested changes",
+          "No mandatory AI automation; user discretion is respected in current workflow"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Organization has not yet formalized policies for AI use in documentation",
+          "Team discusses AI adoption informally and shares best practices",
+          "No pressure to use AI tools for writing or editing",
+          "Policy changes, if any, are expected to focus on responsible and optional AI use"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Acknowledges AI can increase efficiency in many industries",
+          "Believes AI poses risks if over-relied on or unregulated",
+          "Recognizes AI's potential to democratize access to information",
+          "Cautious about AI\u2019s impact on employment in repetitive task roles"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes AI should always be transparent about its involvement in work products",
+          "Worries about the risk of bias and misinformation in AI outputs",
+          "Supports clear ethical standards for AI use in documentation and communication",
+          "Advocates for maintaining human accountability in decision-making"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires AI tools that reliably check for policy compliance and regulatory accuracy",
+          "Wishes for AI features that adapt to organization-specific language and tone",
+          "Would benefit from smarter AI-driven version control and document comparison",
+          "Seeks AI assistants that integrate seamlessly with preferred document platforms"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects automation of routine editing and formatting to increase",
+          "Foresees greater emphasis on oversight, training, and guidance of AI tools",
+          "Anticipates more time spent on complex writing and collaboration tasks",
+          "Believes human expertise will remain essential for context-sensitive documentation"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Recommends developing clear guidelines for responsible AI use",
+          "Advocates for regular training on AI capabilities and limitations",
+          "Wants to ensure human review remains mandatory for critical documents",
+          "Encourages pilot programs to evaluate AI tools before widespread adoption"
+        ]
+      }
+    ]
+  }
+]

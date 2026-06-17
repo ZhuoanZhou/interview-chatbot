@@ -1,0 +1,500 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Completed some college coursework but did not obtain a degree",
+          "Took courses related to media production and broadcasting technology",
+          "Received on-the-job training in broadcast engineering and master control operations",
+          "Participated in internal workshops on new broadcast systems"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Current job title is Manager of Programming and Master Control",
+          "Responsible for making and automating broadcast schedules",
+          "Leads a team of four master control operators",
+          "Assigns directors to meetings and oversees live broadcasts"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the broadcast media industry",
+          "Specializes in television and live broadcasting",
+          "Focuses on technical operations within the media sector"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works at a mid-sized broadcast station",
+          "Manages a small team within a larger operations department",
+          "Company environment is fast-paced and often deals with live, time-sensitive content",
+          "Collaborates regularly with other departments such as engineering and programming"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Operates in the live television broadcasting segment",
+          "Focuses on master control operations and programming management",
+          "Serves regional or local broadcast markets"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has more than 10 years of total experience in broadcasting roles",
+          "Been in the current managerial role for several years",
+          "Has previously served as a master control operator before moving into management"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds a mid-to-senior management position within the technical operations team",
+          "Acts as both a team manager and an operational expert",
+          "Regularly makes decisions affecting both staff and broadcast continuity"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Creates, maintains, and automates daily and weekly broadcast schedules",
+          "Manages master control operations and oversees live broadcast transitions",
+          "Supervises a team of four, handling scheduling, leave requests, and training",
+          "Communicates with other departments for programming and technical needs"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 40% of time on scheduling and automation",
+          "Around 30% of time dedicated to team management and administrative tasks",
+          "Roughly 20% of time operating master control board directly",
+          "About 10% of time communicating and coordinating with other departments"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has full autonomy to create and adjust broadcast schedules",
+          "Responsible for approving leave and setting shifts for the master control team",
+          "Can implement new tools and automation processes with departmental approval",
+          "Makes quick decisions in live broadcast scenarios to ensure continuous transmission"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Creating standard weekly schedules is routine and efficient",
+          "Training new staff on master control procedures comes naturally",
+          "Operating the master control board during regular programming is second nature",
+          "Communicating with the team about daily priorities is straightforward"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Handling real-time troubleshooting during live broadcasts is demanding",
+          "Coordinating last-minute schedule changes due to unexpected events is complex",
+          "Integrating new automation software with legacy systems can be challenging",
+          "Managing simultaneous requests from multiple departments requires multitasking"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Generating and updating daily and holiday schedules is highly repetitive",
+          "Logging and tracking broadcast records for compliance is data-intensive",
+          "Assigning regular shift rotations can be efficiently automated",
+          "Compiling playback logs for audit purposes is suitable for automation"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Solving live broadcast challenges is the most engaging part of the job",
+          "Implementing new technologies and training the team is enjoyable",
+          "Manual data entry for logs and reports feels tedious",
+          "Routine paperwork and administrative approvals are less interesting"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual schedule adjustments can be time-consuming, especially during holidays",
+          "Legacy systems sometimes fail to integrate with newer AI tools",
+          "Redundant data entry between Protrack and other systems causes inefficiency",
+          "Lack of real-time communication tools leads to delays during emergencies"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Tasks that leverage expertise, like troubleshooting live issues, are both enjoyable and productive",
+          "High skill tasks tend to yield higher job satisfaction and efficiency",
+          "Repetitive low-skill tasks reduce engagement and overall productivity",
+          "Learning new tools increases enjoyment and streamlines workflow"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally open and positive about adopting new technologies",
+          "Views new tools as a way to enhance productivity and reduce manual work",
+          "Enjoys exploring automation options for routine processes"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to software with intuitive interfaces",
+          "Occasionally needs extra time for tools with steep learning curves",
+          "Relies on hands-on experimentation to learn new systems"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate several hours each month to tech training",
+          "Attends vendor webinars and internal workshops when available",
+          "Prioritizes training that directly improves team workflow"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential to reduce repetitive work and errors",
+          "Workload spikes can limit available time for learning",
+          "Most likely to learn new tech when it directly impacts daily tasks"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers\u2019 positive experiences with new tools increase willingness to try",
+          "Management support and encouragement are key for adoption",
+          "Team buy-in often determines how quickly new tools are integrated"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Protrack for scheduling and tracking broadcast assets",
+          "Employs Circle Broadcast AI software for automating schedule creation",
+          "Relies on in-house systems for logging and compliance records",
+          "Accesses internal communication tools to coordinate with other departments"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Uses physical master control switchboards for live broadcast operations",
+          "Employs Microsoft Excel for ad-hoc scheduling and data analysis",
+          "Relies on intercom and radio systems for real-time team communication"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Experienced with broadcast automation systems and playout servers",
+          "Familiar with both analog and digital signal monitoring equipment",
+          "Regularly works with interstitial and b-roll management tools",
+          "Knowledgeable about FCC compliance and logging standards"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces challenges integrating AI scheduling with legacy Protrack system",
+          "Manual data transfer between Protrack and compliance logging is sometimes required",
+          "Some broadcast automation features are not fully compatible with older equipment"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic AI terms such as automation, machine learning, and natural language processing",
+          "Recognizes the difference between rule-based automation and AI-driven decision-making",
+          "Has practical, work-related knowledge of AI scheduling and workflow tools"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses Circle Broadcast for AI-driven schedule automation",
+          "Tests new AI scheduling modules as they are released",
+          "Familiar with other AI tools being piloted in the department"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses Circle Broadcast daily to generate and update programming schedules",
+          "Applies AI for automating regular weekend and holiday scheduling tasks",
+          "Leverages AI to assign directors and optimize shift coverage"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI scheduling reduced manual input time during holiday breaks by over 30%",
+          "Initial AI rollout sometimes failed to account for live event overrides, requiring manual correction",
+          "Successful AI integration led to more consistent shift assignments and fewer scheduling errors",
+          "Learned the importance of double-checking AI-generated schedules before finalization"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Participated in vendor-led training sessions on Circle Broadcast",
+          "Relies on peer support within the master control team for troubleshooting AI issues",
+          "Organization provides online documentation and helpdesk support for AI tools"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers to set initial parameters and let AI generate schedules independently",
+          "Uses step-by-step collaboration for complex or non-standard scheduling scenarios",
+          "Reviews AI outputs before final approval, blending autonomy with oversight"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Treats AI as an assistant for routine scheduling tasks",
+          "Acts as a supervisor, reviewing and approving AI-generated work",
+          "Relies on AI as a co-worker during high-volume scheduling periods"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to adopting AI-driven workflows that save time",
+          "Encourages team members to experiment with new AI features",
+          "Actively seeks feedback on how AI tools impact daily tasks"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Finds command-based interfaces more efficient for technical scheduling tasks",
+          "Open to conversational AI interfaces if they improve ease-of-use",
+          "Prefers clear, direct instructions when interacting with AI tools"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many scheduling decisions require deep understanding of live broadcast priorities",
+          "Tacit knowledge of team strengths and local broadcast nuances influences assignments",
+          "AI tools need customization to accommodate unique operational workflows"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI to handle routine and repetitive scheduling tasks",
+          "Carefully reviews AI outputs for critical live events and non-standard scenarios",
+          "Maintains manual oversight for high-impact or high-risk scheduling decisions"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle 70-80% of routine scheduling and data entry",
+          "Reserves final approval and exception handling for human review",
+          "Sees value in AI-human collaboration, especially during high-pressure periods"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for predictable, low-risk scheduling periods",
+          "Finds full automation risky for live or special event programming",
+          "Believes some human oversight is always necessary for quality assurance"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the value of technical and supervisory skills by removing repetitive work",
+          "Sees a reduced need for manual scheduling skills but increased need for oversight and troubleshooting",
+          "Feels that communication and problem-solving abilities remain essential"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developed competency in configuring and training AI scheduling tools",
+          "Now responsible for troubleshooting and validating AI outputs",
+          "Provides team training on how to use and adapt to new AI-driven processes"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Some concern that routine scheduling tasks may be fully automated",
+          "Confident that human oversight and live event management cannot be fully replaced",
+          "Believes that leadership and cross-department coordination will remain human-driven"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Maintains manual override options for all AI-generated schedules",
+          "Regularly reviews AI decisions before implementation",
+          "Can revert to manual scheduling in case of AI failures or special circumstances"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has become more open to integrating AI into core operations",
+          "New policies require all AI outputs to be reviewed by a human manager",
+          "Regular team meetings now include discussions on AI tool performance and issues"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will significantly increase efficiency in broadcasting and media industries",
+          "Expects AI to drive new standards in automation and data management",
+          "Recognizes both opportunities (productivity) and challenges (job displacement) from AI adoption"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports responsible AI use with clear accountability for errors",
+          "Worries about potential loss of jobs if AI adoption is unchecked",
+          "Believes transparency and human oversight are essential for ethical AI deployment"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would benefit from AI tools that dynamically adjust for unexpected live events",
+          "Needs better integration between AI scheduling and compliance reporting systems",
+          "Desires more intuitive AI interfaces for non-technical users"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects most routine scheduling to be fully automated",
+          "Foresees a shift towards managing AI systems and ensuring broadcast quality",
+          "Believes roles will evolve to focus more on oversight, troubleshooting, and cross-departmental coordination"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Recommends regular training sessions to keep staff updated on AI features",
+          "Advocates for gradual, transparent AI adoption with clear feedback channels",
+          "Suggests investing in AI tools that are customizable to the broadcast environment",
+          "Supports establishing clear guidelines for human oversight of all AI-driven processes"
+        ]
+      }
+    ]
+  }
+]

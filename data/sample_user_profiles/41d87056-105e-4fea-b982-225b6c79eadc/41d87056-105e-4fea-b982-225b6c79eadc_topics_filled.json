@@ -1,0 +1,536 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s Degree, completed at age 22",
+          "Major likely in Criminal Justice, Public Administration, or a related field",
+          "Received additional on-the-job training specific to emergency dispatch procedures",
+          "Attended mandatory state-level certification for 911 operators",
+          "Participated in regular continuing education courses for dispatchers"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Emergency Dispatcher (also known as 911 Operator or Telecommunicator)",
+          "Responsible for answering emergency calls and dispatching police, fire, EMS, and rescue units",
+          "Handles administrative calls as well as 911 emergencies",
+          "Runs background checks, vehicle records, and criminal histories as part of role",
+          "Acts as a communication hub between the public and emergency services"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the Public Safety and Emergency Services sector",
+          "Employed by a government or municipal agency",
+          "Role is central to law enforcement, fire, and medical emergency operations",
+          "Contributes directly to public safety infrastructure"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works at a medium-sized emergency communications center",
+          "Team consists of approximately 10\u201330 dispatchers across shifts",
+          "Operates in a 24/7 high-pressure environment",
+          "Workplace features multiple workstations with specialized equipment"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Government-operated emergency communications center",
+          "Serves local city or county jurisdiction(s)",
+          "Supports police, fire, EMS, and rescue units",
+          "Handles both emergency and non-emergency public safety calls"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 3\u20135 years of experience as an emergency dispatcher",
+          "Started in the role shortly after completing college",
+          "Has worked in the same center since entry into the profession",
+          "Accumulated experience across multiple types of emergency situations"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Considered early-to-mid career, not entry-level",
+          "Holds a full-time, line dispatcher position",
+          "May act as a peer mentor to newer hires",
+          "Not yet in a supervisory or lead dispatcher role"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Answers incoming 911 and administrative phone calls",
+          "Dispatches and coordinates police, fire, EMS, and rescue units",
+          "Operates and logs incidents in the CAD (Computer-Aided Dispatch) system",
+          "Runs background and license checks via NCIC",
+          "Maintains ongoing radio communication with field units",
+          "Documents call details and actions taken for each incident"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 40% of shift answering phones",
+          "Allocates about 30% of time managing radio traffic and dispatching units",
+          "Devotes about 20% of time to entering and updating CAD records",
+          "Uses remaining 10% for running checks, messaging officers, and administrative duties"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates independently during most calls and dispatch scenarios",
+          "Decides which emergency units to send based on call details and protocol",
+          "Exercises judgment when prioritizing simultaneous emergencies",
+          "Consults supervisors only for highly unusual or escalated situations",
+          "Has authority to initiate backup or additional resources as needed"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Answering and triaging straightforward emergency calls",
+          "Dispatching routine incidents such as traffic stops or minor accidents",
+          "Logging call information into CAD during or immediately after calls",
+          "Using Solicom and CAD software interfaces for standard operations"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Handling emotionally charged or high-stress emergency calls",
+          "Extracting accurate information from confused or distressed callers",
+          "Coordinating simultaneous multi-agency responses (e.g., police and EMS)",
+          "Running detailed background checks with limited or unclear information"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Entering routine details into the CAD system for each call",
+          "Running standard license, vehicle, and firearms checks via NCIC",
+          "Documenting officer status updates and location changes",
+          "Transferring non-emergency administrative calls"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Finds engaging: solving complex dispatch scenarios or critical emergencies",
+          "Feels rewarded by successfully helping callers in distress",
+          "Enjoys the fast-paced, unpredictable nature of emergency response",
+          "Finds entering repetitive data or handling routine administrative calls tedious"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Dealing with callers who provide excessive or irrelevant information",
+          "Navigating multiple software systems that may not always integrate smoothly",
+          "Limited search capabilities in NCIC when only partial information is available",
+          "Time pressure when handling overlapping calls and radio traffic"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Most productive and accurate when highly engaged with urgent calls",
+          "Enjoyment increases with skill mastery, especially in high-stress scenarios",
+          "Tedious, repetitive tasks can feel draining and reduce perceived productivity",
+          "Prefers work that balances challenge with the opportunity to help others"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open to using new technologies that improve workflow efficiency",
+          "Has a positive attitude toward digital tools and software",
+          "Values hands-on training for effective learning",
+          "Seeks practical relevance before adopting new systems"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Considers self quick to learn new dispatch and communication tools",
+          "Regularly adapts to updates in CAD and phone systems",
+          "Confident navigating multi-system workstations",
+          "Occasionally needs refreshers for infrequently used functions"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to attend mandatory and optional training sessions",
+          "Prefers short, focused training modules over lengthy seminars",
+          "Will invest time if new tools directly reduce manual workload",
+          "Values peer-led training or shadowing for practical learning"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by clear demonstrations of improved speed or accuracy",
+          "Workload during busy shifts can be a barrier to extra training",
+          "Skeptical of tech perceived as redundant or overly complicated",
+          "Peer recommendations influence willingness to learn new tools"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers who embrace new tech make adoption easier and more appealing",
+          "Management support and clear communication increase willingness",
+          "Relies on experienced colleagues for practical tips during rollout",
+          "Team consensus plays a role in tool acceptance"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Solicom for integrating phone systems and managing emergency/admin calls",
+          "Operates CAD (Computer-Aided Dispatch) system for call logging and resource tracking",
+          "Accesses NCIC for running driver\u2019s licenses, tags, guns, and articles checks",
+          "Utilizes radio dispatch hardware and messaging features in CAD"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on multi-line phone consoles and headsets",
+          "Uses dedicated radio hardware for communication with field units",
+          "Employs manual call logs and printed reference materials as backups",
+          "Keeps quick-access directories for agency and county contacts"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Experienced with industry-standard CAD/dispatch software",
+          "Trained in use of NCIC for national database searches",
+          "Familiar with standard radio communication protocols",
+          "Understands security and privacy standards for public safety data"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally experiences lag or mismatches between Solicom and CAD data",
+          "NCIC queries sometimes require manual entry due to lack of integration",
+          "Switching between multiple platforms can slow response during high call volume",
+          "Integration with neighboring county systems can be inconsistent"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Regularly uses large language models (LLMs) outside of work for personal purposes",
+          "Understands basic AI/ML terminology such as 'model,' 'training,' and 'prompt'",
+          "Aware of general AI capabilities, especially in language and text analysis",
+          "Follows news and updates on AI trends relevant to professional and personal life"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Has not used AI tools, including LLMs, for any work-related activities",
+          "Primary dispatch and records systems do not currently include AI-driven features",
+          "No AI-based transcription or voice analytics in current workflow"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs regularly outside of work for general information and learning",
+          "No work-related AI tool usage to date",
+          "Sees potential for AI in automating routine data entry or information retrieval tasks",
+          "Currently relies on human judgment and standard software for all critical functions"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Has not experienced AI successes or failures in the context of daily dispatch work",
+          "Personal AI use has shown that LLMs can be helpful for drafting text or summarizing info",
+          "Skeptical about AI's ability to handle high-emotion, high-stakes emergency calls effectively",
+          "Recognizes that AI can sometimes misunderstand nuance or urgency in human communication"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal organizational training on AI tools provided to dispatchers",
+          "Peers have not widely adopted or discussed AI use in the workplace",
+          "Occasional informal discussions about AI trends, but no hands-on exposure",
+          "Would consider training if AI tools were introduced to dispatch workflow"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers independent decision-making during urgent calls",
+          "Would favor step-by-step AI assistance for routine or repetitive tasks",
+          "Values autonomy in critical scenarios where human judgment is paramount",
+          "Open to AI collaboration if it increases speed without impeding workflow"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI best suited as an assistant for background checks and record retrieval",
+          "Prefers AI in a supportive, non-decision-making role",
+          "Would utilize AI as a co-worker for data-heavy tasks but not for caller triage",
+          "Unlikely to delegate high-stakes decisions to AI without human oversight"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Willing to try AI-driven workflow enhancements if proven to be reliable",
+          "Open to pilot programs or controlled rollouts before full adoption",
+          "Requires clear demonstration of AI\u2019s benefit to consider workflow changes",
+          "Resistant to replacing core human judgment with automation in emergencies"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Familiar and comfortable with conversational AI interfaces from personal LLM use",
+          "Would prefer concise, command-based AI input for rapid task execution",
+          "Recognizes value in both conversational and command-based modes depending on context",
+          "In high-stress situations, efficiency outweighs interface style"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many tasks require reading caller emotions and discerning unspoken urgency",
+          "Dispatch decisions often depend on local protocols and nuanced context",
+          "Accurate triage demands experience with human behavior under stress",
+          "Knowledge of local geography and agency procedures is critical"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Low trust in AI for making critical, time-sensitive dispatch decisions",
+          "Cautiously open to AI handling background checks and data entry",
+          "Requires human verification of any AI-generated recommendations",
+          "Believes AI could assist but not replace core responsibilities"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI automation for repetitive, data-driven tasks (e.g., license checks)",
+          "Human intervention necessary for caller triage and resource prioritization",
+          "Envisions hybrid workflows where AI augments but does not supplant dispatchers",
+          "Manual override is essential for any automated process"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for backend administrative processing",
+          "Finds high automation threatening for direct caller interaction or critical dispatch",
+          "Automation must not delay or complicate urgent response actions",
+          "Transparency and clear override options mitigate perceived threats"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes core interpersonal and crisis management skills will remain essential",
+          "Expects some technical skills (data entry, record management) may become less critical",
+          "Anticipates need for new skills in operating and supervising AI systems",
+          "Views adaptability as increasingly important in evolving environments"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning to interpret and validate AI-generated suggestions",
+          "Developing troubleshooting skills for AI-integrated dispatch systems",
+          "Becoming familiar with ethical guidelines for AI use in public safety",
+          "Potential responsibility for training peers on new AI tools"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Minimal concern about full replacement due to human judgment demands",
+          "Some concern about automation of data entry and administrative duties",
+          "Sees AI as a tool to assist rather than fully replace dispatchers",
+          "Wary of job reduction if AI advances without appropriate checks"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Believes manual checks are non-negotiable for critical decisions",
+          "Would only accept AI-driven processes with robust override features",
+          "Prefers systems that highlight but do not automatically act on AI suggestions",
+          "Supports clear audit trails for AI-influenced actions"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "No significant policy changes on AI adoption observed to date",
+          "Management has not formally introduced AI initiatives in dispatch operations",
+          "Team discussions on AI are informal and speculative",
+          "Would expect formal policy updates if AI tools are piloted or deployed"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Sees AI as beneficial in many industries for efficiency and data handling",
+          "Skeptical about AI\u2019s ability to replace human empathy and judgment in emergency services",
+          "Believes AI can enhance but not fully automate public safety roles",
+          "Supports responsible and transparent AI integration"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Values transparency and explainability in AI recommendations",
+          "Worried about potential bias or error in AI-driven decisions",
+          "Believes human oversight is necessary to prevent ethical lapses",
+          "Concerned about privacy and data security in AI-enabled dispatch systems"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Automated transcription and summarization of calls for CAD entry",
+          "AI-powered search for incomplete or partial information in databases",
+          "Real-time caller sentiment analysis as an assistive tool",
+          "Predictive analytics for resource deployment during peak periods"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects gradual adoption of AI for support tasks, not core dispatch",
+          "Foresees increased need for training in supervising AI systems",
+          "Believes human dispatchers will remain essential for complex emergencies",
+          "Anticipates more hybrid workflows blending manual and automated processes"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Pilot AI tools in low-risk, high-volume tasks before wider rollout",
+          "Provide comprehensive training and clear documentation for any new AI systems",
+          "Establish guidelines for human oversight and intervention in AI-driven workflows",
+          "Solicit dispatcher feedback before and during AI deployment"
+        ]
+      }
+    ]
+  }
+]

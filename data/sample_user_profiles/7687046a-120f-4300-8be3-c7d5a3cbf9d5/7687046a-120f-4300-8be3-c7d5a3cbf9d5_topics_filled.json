@@ -1,0 +1,508 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds an Associate Degree, completed at age 17",
+          "Studied in a program focused on game design, programming, and digital art",
+          "Participated in several game development workshops and online courses",
+          "Learned foundational programming concepts during formal education"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Primary role is Video Game Designer, working as an independent developer",
+          "Responsible for end-to-end game creation: design, programming, art, and sound",
+          "Regularly participates in game jams and hobbyist game development communities",
+          "Often acts as a solo developer, handling all aspects of game projects"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Operates within the video game development sector",
+          "Active in the independent (indie) game development community",
+          "Participates in the technology and digital entertainment industry"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Primarily operates as a solo developer or in very small teams during game jams",
+          "Occasionally collaborates with other indie developers for short-term projects",
+          "Works remotely, often from a home office or shared workspace"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Focuses on indie game development, targeting jam competitions and online game portals",
+          "Develops games for PC and web-based platforms",
+          "Engages primarily in non-commercial, portfolio-building projects"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 6-10 years of experience in video game development",
+          "Began designing and programming games as a teenager",
+          "Has participated in dozens of game jams and development challenges"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Considered an early-career professional with advanced hobbyist experience",
+          "Possesses mid-level proficiency due to multi-year hands-on practice",
+          "Acts as a lead or sole contributor on most projects"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Designs and implements game mechanics and features",
+          "Creates pixel art assets using Pyxel Edit",
+          "Codes gameplay systems in Godot, primarily using GDScript or C#",
+          "Produces basic sound effects with JFXR and sources royalty-free music",
+          "Handles game testing, debugging, and final polish before submissions"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 50-60% of project time on programming tasks",
+          "Dedicates 25-30% of time to creating and refining art assets",
+          "Allocates about 5-10% of time to sound design and integration",
+          "Reserves remaining time for level design, bug fixing, and polish"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Exercises full creative and technical autonomy on projects",
+          "Decides on game concepts, mechanics, visual style, and release criteria",
+          "Independently manages schedules, priorities, and resource allocation",
+          "Occasionally collaborates with peers for feedback or specific assets"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Rapid prototyping of simple mechanics is highly intuitive",
+          "Setting up basic character controllers and platforming movement feels natural",
+          "Creating placeholder assets to quickly visualize gameplay comes easily",
+          "Iterative playtesting and quick debugging are comfortable routines"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Implementing advanced gameplay systems or novel mechanics can be complex",
+          "Integrating new engine features or third-party plugins may be challenging",
+          "Balancing gameplay difficulty and pacing requires careful iteration",
+          "Optimizing performance for larger or more complex projects can be difficult"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Importing and organizing large numbers of art or audio assets is repetitive",
+          "Applying similar code fixes across multiple scripts could be automated",
+          "Testing edge cases or doing regression tests is data-heavy and repetitive",
+          "Audio normalization and batch asset resizing are suitable for automation"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Designing new game ideas and mechanics is highly engaging",
+          "Creating custom art and seeing the game take visual shape is rewarding",
+          "Bug fixing or asset renaming feels tedious and less enjoyable",
+          "Repetitive setup tasks (e.g., menu configuration) are considered boring"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Debugging obscure engine errors without clear documentation is a pain point",
+          "Switching between tools (e.g., art editor to engine) can disrupt workflow",
+          "Lack of integrated asset pipeline causes inefficiencies",
+          "Manual sound effect tweaking can be time-consuming for minor improvements"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Enjoyment is highest when skill level matches the challenge, boosting productivity",
+          "Proficient tasks are completed faster and with more satisfaction",
+          "Complex, skill-stretching tasks are enjoyable but may slow progress",
+          "Repetitive or low-skill tasks lower engagement and can decrease productivity"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Eager to explore new engines and tools that enhance workflow",
+          "Regularly follows updates in game development technology",
+          "Sees learning new tech as valuable for creative growth",
+          "Prefers hands-on experimentation to formal training"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new software, proven by switching engines multiple times",
+          "Comfortable with trial-and-error to learn new features",
+          "Can integrate new workflow tools into existing processes with minimal friction"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to invest time in learning tech that has clear relevance to projects",
+          "Prefers short, focused tutorials or documentation over lengthy courses",
+          "Allocates learning time based on upcoming jam requirements or project needs"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential to enhance productivity or creative output",
+          "Barriers include tight jam deadlines and balancing multiple project tasks",
+          "Unlikely to pursue tools that do not integrate easily with current workflow"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peer recommendations from online communities can prompt adoption of tools",
+          "No formal management structure; tool adoption is self-directed",
+          "Participates in forums where tool trends and reviews are discussed"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Godot Engine as the primary game development platform",
+          "Utilizes Pyxel Edit for creating and editing pixel art assets",
+          "Employs Visual Studio Code for coding, especially when working with C#",
+          "Relies on JFXR to generate retro-inspired sound effects"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Godot Engine handles most development aspects: scripting, scene setup, asset management",
+          "Pyxel Edit is essential for sprite and tilemap creation",
+          "Visual Studio Code offers advanced code editing and debugging features",
+          "JFXR is used for quick, simple sound effect creation"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Has experience with multiple engines, including Unity and GameMaker Studio",
+          "Understands core principles of 2D and 3D game engines",
+          "Familiar with scripting languages such as GDScript, C#, and basic Python",
+          "Keeps up to date with major updates in Godot, Unity, and other tools"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally encounters file compatibility issues moving assets between Pyxel Edit and Godot",
+          "Manual import/export process for art and sound assets can be cumbersome",
+          "Different scripting languages across engines require context switching",
+          "Lack of automated asset pipeline sometimes leads to redundant work"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic AI concepts such as machine learning, LLMs, and generative models",
+          "Comfortable discussing prompt engineering and AI-assisted coding",
+          "Familiar with terms like datasets, training, inference, and model outputs",
+          "Has read articles and documentation about AI applications in game development"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT for coding assistance and rubber duck debugging",
+          "Has experimented with Stable Diffusion and DALL-E for concept art generation",
+          "Occasionally leverages Copilot in Visual Studio Code for code suggestions",
+          "Has tested various AI-powered sound generators but prefers manual tweaking"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs regularly for troubleshooting code and brainstorming ideas",
+          "Applies AI tools occasionally for generating placeholder art or sound assets",
+          "Employs AI as a quick reference for error explanations or code syntax",
+          "AI tools are not a daily necessity but are valuable for specific tasks"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI has successfully spotted subtle bugs in code snippets pasted into ChatGPT",
+          "Generated AI art often requires significant manual adjustment to fit project style",
+          "AI code suggestions sometimes misunderstand game logic, needing careful review",
+          "Learned that AI excels at brainstorming but rarely provides final, ready-to-use solutions"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal organizational training; learning is self-directed",
+          "Leverages online tutorials and community forums for AI tool tips",
+          "Peers in online communities share experiences and recommended prompts",
+          "Participates in Discord groups where AI adoption is discussed"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers independent problem-solving but uses AI for 'rubber ducky' style debugging",
+          "Engages with AI tools for step-by-step troubleshooting on complex issues",
+          "Likes to experiment first, then consult AI if stuck"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Treats AI as a responsive assistant or advisor rather than a co-worker",
+          "Uses AI for brainstorming and troubleshooting, not for core creative decisions",
+          "Sees AI as a support tool to accelerate problem resolution"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to integrating AI where it speeds up or simplifies tasks",
+          "Cautious about over-reliance, prefers to maintain personal skill development",
+          "Willing to experiment with AI features in new tools if they add clear value"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces (like ChatGPT) for general ideation and support",
+          "Uses command-based tools for repeatable, technical tasks (e.g., Copilot code suggestions)",
+          "Finds conversational AI more intuitive for brainstorming and debugging discussions"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Game design choices often depend on personal experience and 'feel', not just technical rules",
+          "Art and sound asset creation require a unique creative vision that is hard to automate",
+          "Balancing gameplay and level design is guided by intuition built over years of practice"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI to assist with code debugging and syntax suggestions",
+          "Skeptical of AI-generated creative assets without manual review",
+          "Relies on personal judgment for final design and gameplay decisions",
+          "Cross-checks AI outputs before integrating into projects"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers majority human input for creative and design tasks",
+          "Uses AI automation for repetitive or troubleshooting tasks",
+          "Sees AI as an accelerator, not a replacement, for core responsibilities"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "High automation is acceptable for asset conversion, code linting, or batch processing",
+          "Would find high automation threatening if it replaced creative design or decision-making",
+          "Supports automation for tedious or error-prone steps, but not for vision-driven work"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Sees AI as enhancing productivity but not replacing core creative skills",
+          "Believes programming and design intuition remain essential regardless of AI adoption",
+          "AI may reduce time spent on routine troubleshooting, freeing up focus for higher-level work"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Prompt engineering and effective AI query design are new valuable skills",
+          "Assessing and curating AI-generated content is now a relevant responsibility",
+          "Understanding AI tool limitations and ethical considerations is increasingly important"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Not highly concerned about AI replacing the creative or vision-driven aspects of the role",
+          "Recognizes that some repetitive coding or asset generation tasks may be automated",
+          "Believes unique personal style and decision-making cannot be fully replaced by AI"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always reviews and edits AI-generated code and assets before use",
+          "Manually tests and validates changes suggested or made by AI",
+          "Prefers to keep final approval and curation in human hands"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "As an independent developer, self-determines AI tool adoption policies",
+          "Observes increasing openness to AI in online development communities",
+          "Notes growing discussions about ethical and effective AI use among peers"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Views AI as a powerful tool with potential to democratize creative work",
+          "Believes AI will accelerate development cycles and lower technical barriers",
+          "Recognizes possible risks of over-reliance and homogenization of creative output",
+          "Sees responsible AI integration as key to balancing benefits and drawbacks"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports using AI as an assistant, not a replacement, for uniquely human work",
+          "Concerned about potential for misuse, such as plagiarism or over-automation",
+          "Believes transparency and user control are essential in ethical AI adoption"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires smarter asset management and automatic pipeline integration",
+          "Wishes for AI that can better align with personal art style preferences",
+          "Would benefit from AI capable of providing actionable, context-aware game design feedback"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects more seamless AI assistance in prototyping and iteration phases",
+          "Anticipates growth in the importance of curation and creative direction skills",
+          "Believes technical barriers to entry will drop, with focus shifting to unique vision and design"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Encourage experimentation with AI tools while maintaining human oversight",
+          "Provide resources and community support for learning advanced AI features",
+          "Establish best practices for ethical and effective AI integration in creative workflows"
+        ]
+      }
+    ]
+  }
+]

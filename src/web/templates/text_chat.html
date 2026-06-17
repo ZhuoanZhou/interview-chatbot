@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Text Chat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <div class="chat-container">
+      <div id="chat-box">
+        <!-- Chat messages will appear here -->
+      </div>
+      <form id="chat-form">
+        <textarea id="chat-input" placeholder="Type your message..." required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <script>
+      let sessionToken = localStorage.getItem('session_token') || null;
+      let seenMessageIds = new Set(); // Track which messages we've already displayed
+      let currentAudio = null; // Track currently playing audio
+
+      const chatBox = document.getElementById("chat-box");
+
+      function scrollToBottom() {
+        chatBox.scrollTop = chatBox.scrollHeight;
+      }
+
+      function appendMessage(role, text, messageId) {
+        // Skip if we've already shown this message
+        if (messageId && seenMessageIds.has(messageId)) {
+          return false;
+        }
+        
+        if (messageId) {
+          seenMessageIds.add(messageId);
+        }
+
+        const isUser = role === 'user';
+        const className = isUser ? 'user' : 'bot';
+        const imgUrl = isUser 
+          ? "https://e7.pngegg.com/pngimages/178/595/png-clipart-user-profile-computer-icons-login-user-avatars-monochrome-black-thumbnail.png"
+          : "https://uploads-ssl.webflow.com/64e02bd14ada8a57fa327cbe/64e445ced8cf185ffb9bb1b9_Rex%20Small_.png";
+        
+        chatBox.innerHTML += `
+          <div class="message ${className}" data-msg-id="${messageId || ''}">
+            <img src="${imgUrl}" alt="${role}">
+            <p>${text.replace(/\n/g, '<br>')}</p>
+          </div>`;
+        scrollToBottom();
+        return true;
+      }
+
+      // Stop any currently playing audio
+      function stopCurrentAudio() {
+        if (currentAudio) {
+          currentAudio.pause();
+          currentAudio.currentTime = 0;
+          currentAudio = null;
+        }
+      }
+
+      // Play audio with retry logic for 202 responses
+      async function playMessageAudio(messageId, retries = 5) {
+        if (!messageId) return;
+
+        for (let i = 0; i < retries; i++) {
+          try {
+            const response = await fetch(`/api/get-voice-response?session_token=${sessionToken}&message_id=${messageId}`);
+            
+            if (response.status === 202) {
+              // Audio still being generated, wait and retry
+              await new Promise(resolve => setTimeout(resolve, 1000));
+              continue;
+            }
+
+            if (!response.ok) {
+              console.warn(`TTS fetch failed for message ${messageId}: ${response.status}`);
+              return;
+            }
+
+            const blob = await response.blob();
+            const audioUrl = URL.createObjectURL(blob);
+            
+            // Stop any previously playing audio
+            stopCurrentAudio();
+            
+            currentAudio = new Audio(audioUrl);
+            currentAudio.play().catch(e => console.warn('Audio play failed:', e));
+            
+            // Clean up audio when done
+            currentAudio.onended = () => {
+              URL.revokeObjectURL(audioUrl);
+              currentAudio = null;
+            };
+            
+            return; // Success, exit retry loop
+          } catch (error) {
+            console.warn(`TTS attempt ${i + 1} failed:`, error);
+            if (i === retries - 1) {
+              console.error('All TTS retry attempts failed');
+            }
+          }
+        }
+      }
+
+      window.onload = async function() {
+        try {
+          console.log("Starting session...");
+          const response = await fetch('/api/start-session', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ 
+              user_id: "web_guest", 
+              enable_voice_input: false, 
+              enable_voice_output: true  // Enable voice output
+            })
+          });
+          const data = await response.json();
+            
+          if (data.success) {
+            sessionToken = data.session_token;
+            localStorage.setItem('session_token', sessionToken);
+            console.log("Session started. Token:", sessionToken);
+            // Start polling for new messages
+            pollForMessages(); // Call immediately once
+            setInterval(pollForMessages, 1500);
+          } else {
+            alert("Failed to start session: " + data.error);
+          }
+        } catch (error) {
+          console.error("Error starting session:", error);
+        }
+      };
+
+      if (sessionToken) {
+        console.log('Restored session token from localStorage', sessionToken);
+        pollForMessages();
+        setInterval(pollForMessages, 1500);
+      }
+
+      async function pollForMessages() {
+        if (!sessionToken) return;
+
+        try {
+          const response = await fetch(`/api/get-messages?session_token=${sessionToken}`);
+          
+          if (response.status === 400) {
+            const err = await response.json();
+            console.warn('Session invalid on server:', err);
+            localStorage.removeItem('session_token');
+            sessionToken = null;
+            window.onload();
+            return;
+          }
+
+          const data = await response.json();
+
+          if (data.success && data.messages && data.messages.length > 0) {
+            data.messages.forEach(msg => {
+              // Show interviewer messages
+              if (msg.role === 'Interviewer' || msg.role === 'assistant') {
+                const wasNew = appendMessage('bot', msg.content, msg.id);
+                
+                // Only play audio for newly displayed messages
+                if (wasNew && msg.id) {
+                  playMessageAudio(msg.id);
+                }
+              }
+              // Also show user messages if they come through (shouldn't normally)
+              else if (msg.role === 'User' || msg.role === 'user') {
+                appendMessage('user', msg.content, msg.id);
+              }
+            });
+          }
+
+          // Check if session ended
+          if (data.session_completed) {
+            console.log("Session completed");
+            // Optionally show UI indicating session end
+          }
+        } catch (error) {
+          console.error("Polling error:", error);
+        }
+      }
+
+      document.getElementById('chat-form').onsubmit = async function(event) {
+        event.preventDefault();
+        
+        if (!sessionToken) {
+          alert("Session not initialized yet. Please wait.");
+          return;
+        }
+
+        const input = document.getElementById('chat-input');
+        const text = input.value.trim();
+        
+        if (!text) return;
+        
+        input.value = '';
+
+        // Stop any currently playing audio when user sends a message
+        stopCurrentAudio();
+
+        // Show user message immediately (generate a temporary ID)
+        const tempMsgId = 'user-' + Date.now();
+        appendMessage('user', text, tempMsgId);
+
+        try {
+          const response = await fetch('/api/send-message', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ 
+              session_token: sessionToken,
+              message: text,
+              type: "CONVERSATION"
+            }),
+          });
+
+          const result = await response.json();
+          
+          if (!result.success) {
+            console.error('Message send failed:', result);
+            if (result.session_completed) {
+              alert('Session has ended');
+            }
+          }
+        } catch (error) {
+          console.error('Error sending message:', error);
+        }
+      };
+
+      document.getElementById('chat-input').addEventListener('keydown', function(event) {
+        if (event.key === 'Enter' && !event.shiftKey) {
+          event.preventDefault();
+          document.getElementById('chat-form').dispatchEvent(new Event('submit'));
+        }
+      });
+    </script>
+  </body>
+</html>

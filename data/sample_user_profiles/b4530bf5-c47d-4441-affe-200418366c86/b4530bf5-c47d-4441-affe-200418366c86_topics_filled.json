@@ -1,0 +1,497 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master\u2019s Degree in Business Administration with a focus on marketing",
+          "Undergraduate degree in Marketing from a recognized university",
+          "Completed coursework in consumer behavior, data analytics, and supply chain management",
+          "Participated in workshops on retail merchandising and sales optimization"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Purchasing Agent (Store Marketer)",
+          "Responsible for promoting products and increasing customer traffic in a retail store environment",
+          "Role includes reviewing sales data, planning in-store promotions, and optimizing product displays",
+          "Collaborates with team members to implement marketing and purchasing strategies"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the retail industry, specifically within a consumer goods store",
+          "Focuses on brick-and-mortar retail operations rather than wholesale or farm products",
+          "Operates in a competitive, customer-facing environment"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-sized retail store with approximately 50-100 employees",
+          "Company culture emphasizes teamwork and adaptability",
+          "Store serves a diverse urban/suburban customer base"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Retail business selling consumer goods such as apparel, electronics, or home products",
+          "Targets a broad market segment, catering to local walk-in customers",
+          "Competes with both local and chain retailers in the area"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 1-2 years of experience as a purchasing agent and marketer in the current role",
+          "Began current position shortly after completing Master's degree",
+          "Still considered early-career in the field"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds an entry-level to early-mid career position",
+          "Acts as an individual contributor with some influence over marketing decisions",
+          "Reports to a store manager or marketing supervisor"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Analyzes daily and weekly sales data to identify product trends",
+          "Designs and implements in-store displays and merchandising layouts",
+          "Plans and coordinates promotional campaigns and discounts",
+          "Monitors inventory levels and works with suppliers as needed",
+          "Collaborates with store staff to ensure marketing initiatives are executed effectively"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends roughly 35% of time analyzing sales and customer data",
+          "Devotes about 30% to designing and updating in-store displays",
+          "Allocates 20% to planning promotions and marketing strategies",
+          "Remaining 15% involves meetings, supplier communication, and administrative tasks"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has moderate autonomy in designing displays and recommending promotions",
+          "Final approval for major campaigns or large purchases rests with management",
+          "Empowered to suggest changes based on sales data analysis",
+          "Limited budgetary authority; works within guidelines set by store leadership"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Quickly interprets basic sales data and identifies underperforming products",
+          "Enjoys brainstorming new marketing ideas or display concepts",
+          "Finds it straightforward to coordinate simple in-store promotions",
+          "Comfortable interacting with team members to implement routine tasks"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Advanced data analysis, such as predicting long-term sales trends, is challenging",
+          "Designing multi-channel marketing campaigns requires significant planning",
+          "Negotiating terms with new suppliers can be complex due to limited experience",
+          "Managing multiple promotions simultaneously while tracking effectiveness is demanding"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Manually compiling weekly sales reports is repetitive and time-consuming",
+          "Tracking inventory levels and flagging low-stock items could be automated",
+          "Routine updates to product pricing in the system are data-heavy and suitable for automation"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Finds designing creative in-store displays highly enjoyable",
+          "Enjoys analyzing customer trends to develop targeted promotions",
+          "Considers repetitive administrative tasks, like data entry, tedious",
+          "Least enjoys manual inventory checks and paperwork"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Data from different systems doesn\u2019t always sync, causing delays in reporting",
+          "Manual reporting increases risk of human error",
+          "Lack of automated tools for inventory and sales tracking slows workflow",
+          "Limited real-time customer insights hinder rapid response to trends"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Feels more productive and creative when working on tasks that match personal strengths, like display design",
+          "Enjoyment is highest when learning new marketing strategies and seeing direct results",
+          "Productivity drops during highly repetitive or manual data tasks",
+          "Skill level increases with exposure to new tools and marketing techniques"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally open and curious about new technologies that can improve work efficiency",
+          "Sees tech adoption as necessary for career growth in retail marketing",
+          "Appreciates tools that have clear, immediate benefits"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new software if given adequate training",
+          "Occasionally needs time to adjust to major system changes",
+          "Comfortable experimenting with new apps, especially if they relate to marketing analytics"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate several hours a month to tech training",
+          "Prefers short, focused tutorials over lengthy courses",
+          "Prioritizes learning technology that directly improves day-to-day tasks"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential to save time and reduce manual work",
+          "High workloads sometimes limit the ability to participate in training",
+          "Less likely to engage with tech perceived as irrelevant to current responsibilities"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers who share positive experiences with new tools increase willingness to adopt",
+          "Management encouragement is a strong motivator for tech adoption",
+          "Team collaboration on tool rollouts makes the transition easier"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses POS (Point of Sale) system to track sales and inventory",
+          "Relies on Microsoft Excel for compiling and analyzing sales reports",
+          "Occasionally uses Canva or Adobe Spark to design promotional materials",
+          "Accesses store\u2019s internal database for product and supplier information"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Smartphone or tablet for quick communication and on-the-go access to sales data",
+          "Physical planograms and display guides for in-store merchandising",
+          "Email and internal messaging platforms for team coordination"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Familiar with retail inventory management software (e.g., Lightspeed, Vend)",
+          "Understands key functions of CRM (Customer Relationship Management) systems",
+          "Aware of industry-standard marketing platforms like Mailchimp for email campaigns"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "POS system does not always integrate seamlessly with inventory management software",
+          "Occasional data export/import errors between Excel and store database",
+          "Manual re-entry of sales figures is sometimes required due to lack of integration"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic AI concepts such as machine learning and natural language processing",
+          "Has read introductory articles on how AI analyzes large data sets",
+          "Familiar with terms like 'predictive analytics' and 'chatbot'"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Occasionally uses ChatGPT to generate marketing copy or brainstorm ideas",
+          "Has tried Google Analytics\u2019 AI-driven insights for customer trend analysis",
+          "Tested Jasper AI for creating social media content drafts"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses AI tools around 2-3 times per month, mainly for content generation and data insights",
+          "Relies on LLMs for specific tasks such as writing promotional emails or ad copy",
+          "Occasionally leverages AI to quickly summarize customer feedback"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used ChatGPT to generate creative taglines that boosted campaign response",
+          "Experienced off-target results when relying on AI for highly localized promotions",
+          "Learned that AI suggestions work best when paired with human context and oversight"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal AI training provided by the company yet",
+          "Peers occasionally share tips or best practices informally",
+          "Self-taught through online tutorials and experimentation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI tools to maintain control over outputs",
+          "Uses AI as a brainstorming partner rather than a fully autonomous agent",
+          "Finds value in iterative feedback loops with AI suggestions"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Sees AI as an assistant or advisor for creative and data-driven tasks",
+          "Uses AI to augment\u2014not replace\u2014existing decision-making processes",
+          "Occasionally treats AI as a 'co-worker' for brainstorming sessions"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to experimenting with new AI-driven processes, especially if they save time",
+          "Prefers to see clear evidence of AI benefits before fully adopting",
+          "Appreciates gradual integration of AI into existing workflows"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces like chatbots for idea generation and Q&A",
+          "Finds command-based interfaces efficient for structured, repetitive tasks",
+          "Values flexibility to switch between interface styles depending on the task"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many decisions, such as local promotion design, require in-depth understanding of the store\u2019s customer base",
+          "Tacit knowledge of customer preferences guides display and product placement choices",
+          "AI outputs often need to be adapted for local context and store culture"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Moderate trust in AI for routine content generation and data analysis",
+          "Prefers to double-check AI outputs before implementing major changes",
+          "Relies on personal judgment for high-stakes or customer-facing decisions"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI automation for repetitive data tasks and basic content generation",
+          "Believes human oversight is essential for strategy and customer engagement",
+          "Supports hybrid workflows where AI handles groundwork and humans make final decisions"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "High automation is acceptable for back-office processes with clear, objective rules",
+          "Feels threatened if AI were to automate creative or relationship-driven tasks",
+          "Wants the option to intervene or override automated outputs when needed"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances data analysis skills by automating basic processing",
+          "Sees creative and interpersonal skills becoming more valuable as AI adoption grows",
+          "Worries that basic reporting skills may become less critical over time"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing skills in prompt engineering for AI content generation",
+          "Learning to interpret and validate AI-generated insights for local application",
+          "Increasing responsibility for integrating AI tools into daily workflow"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mild concern about automation of repetitive reporting and data entry tasks",
+          "Does not feel immediate threat to overall role due to emphasis on creativity and customer understanding",
+          "Stays informed about AI developments to remain adaptable"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always reviews AI-generated content before public release",
+          "Manual data checks are standard practice for sales reporting",
+          "Prefers systems that allow human intervention at key decision points"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company is beginning to explore AI tools but lacks formal policies",
+          "Team discussions about AI adoption have increased in the past year",
+          "No mandatory AI use yet, but management encourages experimentation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Sees AI as a major driver of change in retail and marketing over the next decade",
+          "Believes AI will create new job categories as well as automate existing tasks",
+          "Cautiously optimistic about AI\u2019s potential to improve customer experience"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes transparency in AI decision-making is important for trust",
+          "Worries about potential for bias in AI-driven customer analytics",
+          "Supports responsible use of AI with clear human oversight"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would benefit from AI tools that can analyze hyper-local customer sentiment in real time",
+          "Desires seamless integration between AI analytics and existing POS/inventory systems",
+          "Wants more intuitive AI interfaces for non-technical staff"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects more time will be spent on strategy and creative problem-solving",
+          "Predicts many manual reporting tasks will be fully automated",
+          "Believes the role will require ongoing learning and adaptation to new AI tools"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Introduce formal AI training sessions for staff at all levels",
+          "Pilot AI tools in non-critical workflows before full-scale rollout",
+          "Create feedback channels for staff to report issues and suggest AI improvements",
+          "Set clear guidelines on responsible and ethical AI use"
+        ]
+      }
+    ]
+  }
+]

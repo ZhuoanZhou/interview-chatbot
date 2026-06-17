@@ -1,0 +1,491 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master\u2019s Degree, completed at age 22",
+          "Degree focused on finance, business, or a related quantitative field",
+          "Undergraduate studies included coursework in economics and data analysis",
+          "Participated in extracurriculars such as university investment clubs"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Current title: Investment Fund Manager at OpenCore Ventures",
+          "Role centers on sourcing and evaluating open source projects for investment",
+          "Acts as an advisor to portfolio company founders",
+          "Responsible for operational oversight of portfolio companies"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works at the intersection of venture capital and open source technology",
+          "Primary industry: Venture-backed technology investment",
+          "Focus on early-stage startups built around open source projects"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "OpenCore Ventures is a small-to-mid-size firm with under 50 employees",
+          "Operates in a highly collaborative, startup-like environment",
+          "Lean teams with interns supporting research-heavy workflows"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Invests in and incubates companies based on open source software projects",
+          "Market segment: Early-stage tech startups and software infrastructure",
+          "Business model involves both funding and operational support"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 3-5 years of professional experience in investment management",
+          "Joined OpenCore Ventures shortly after completing Master\u2019s degree",
+          "Current role held for approximately 2-3 years"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Works at an early-career to mid-level manager position",
+          "Directly manages interns and supports founders in an advisory capacity",
+          "Acts as a primary point of contact for open source project outreach"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Researches emerging and existing open source projects for investment potential",
+          "Conducts outreach to open source contributors and project authors",
+          "Advises founders on company formation and go-to-market strategy",
+          "Oversees operational processes for portfolio companies (e.g., scaling, hiring)"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends roughly 50% of time on research and due diligence",
+          "Around 20% devoted to outreach and networking with open source communities",
+          "Approximately 20% advising founders and supporting portfolio operations",
+          "Remainder on administrative tasks and fund operations"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has significant autonomy in identifying and researching investment opportunities",
+          "Final investment decisions made collaboratively with senior partners",
+          "Independently manages research interns and their workflows"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Quickly identifies promising projects on platforms like GitHub and Hacker News",
+          "Comfortable using LLMs to generate boilerplate research documents",
+          "Efficiently coordinates team communications via Slack"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Assessing the commercial viability of highly technical open source projects",
+          "Building trust and rapport with diverse open source contributors",
+          "Helping founders navigate scaling challenges and community management"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Collecting contributor names and engagement analytics from project repositories",
+          "Generating preliminary research templates using OpenAI's API",
+          "Data enrichment tasks using tools like Clay"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys deep dives into new open source projects and emerging communities",
+          "Finds strategic advising and founder mentorship highly engaging",
+          "Considers repetitive data gathering and template filling tedious"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "AI-generated research sometimes contains hallucinations, requiring manual review",
+          "Integrating data across multiple tools (e.g., HubSpot, Google Drive) can be clunky",
+          "Manual data entry for project analytics is time-consuming"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Productivity is highest when working on research and strategic advising, which are also the most enjoyable",
+          "Skill level in using automation tools increases enjoyment by reducing busywork",
+          "Tedious or repetitive tasks are less enjoyable, even when performed efficiently"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Highly enthusiastic about adopting new tech that increases efficiency",
+          "Actively seeks out and experiments with emerging tools, especially in AI",
+          "Encourages team members to share new tool discoveries"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new software platforms and workflow changes",
+          "Able to integrate multiple new tools into daily work with minimal friction",
+          "Regularly updates processes as new technologies become available"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Invests time in self-directed learning and online tutorials for new tools",
+          "Prefers hands-on experimentation over lengthy formal training",
+          "Participates in webinars or workshops when relevant to immediate job needs"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by direct productivity gains and process improvements",
+          "Occasional barrier: high workload can limit time for deep learning of complex tools",
+          "Less likely to explore tools without clear relevance to open source or investment tasks"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers and leaders at OpenCore Ventures encourage experimentation with new technologies",
+          "Team culture values sharing and collective vetting of new tools",
+          "Management supports tool adoption if it streamlines core workflows"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Slack for real-time team and project communications",
+          "HubSpot for managing research pipelines and contributor outreach",
+          "Google Drive for document collaboration and storage",
+          "Carta for cap table management",
+          "Asana for project management and task tracking"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Greenhouse for recruiting and applicant tracking",
+          "Clay for data enrichment of leads and contacts",
+          "Loom for recording video demos and walkthroughs"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient with venture capital and startup operations tools (Carta, HubSpot)",
+          "Regularly uses GitHub to investigate open source project activity",
+          "Familiar with integration between project management and communication platforms"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasional friction when syncing data between HubSpot and Google Drive",
+          "Manual effort required to consolidate analytics across platforms",
+          "Some limitations in automating workflows between Asana and Slack"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic concepts such as large language models, training data, and prompt engineering",
+          "Can distinguish between supervised and unsupervised learning at a high level",
+          "Keeps up with major AI trends relevant to investment and open source"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Daily use of OpenAI\u2019s API for auto-generating research document drafts",
+          "Occasionally leverages AI-powered features in HubSpot (e.g., email categorization)",
+          "Uses Clay\u2019s AI-driven enrichment for contact and contributor data"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs every day to produce boilerplate research on new projects",
+          "Applies AI to automate repetitive data gathering and enrichment tasks",
+          "Relies on AI outputs as starting points, then reviews for accuracy"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI-generated research templates increase speed by 30-40% over manual drafting",
+          "Has encountered hallucinated facts in LLM outputs, requiring careful human review",
+          "Successful AI use has allowed scaling research capacity to more projects simultaneously"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal in-house AI training program; relies on peer knowledge sharing",
+          "Team members frequently share prompts and best practices for LLM use",
+          "Occasionally seeks guidance from more technical colleagues on optimizing AI workflows"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers independent use of AI for initial drafts, followed by manual refinement",
+          "Uses AI as a first-pass assistant rather than a real-time collaborator",
+          "Occasionally works iteratively with AI when prompts require tuning"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Treats AI primarily as an assistant to automate repetitive or data-heavy steps",
+          "Relies on human judgment for final decisions and nuanced analysis",
+          "Views AI as a tool for scaling capacity, not as a substitute for expertise"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Very open to integrating new AI tools and automations into daily work",
+          "Advocates for experimentation with emerging AI features",
+          "Comfortable adjusting workflows to incorporate AI-driven efficiencies"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and content generation",
+          "Uses command-based prompts for structured, repeatable tasks",
+          "Finds hybrid interfaces (e.g., guided chat with advanced settings) most flexible"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Assessing project viability often requires nuanced understanding of open source communities",
+          "Some tasks, like founder advising, depend on soft skills and industry experience",
+          "Routine data collection is less reliant on domain expertise and more suitable for automation"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for generating initial research drafts, but always verifies outputs",
+          "Does not rely solely on AI for investment or strategic decisions",
+          "Recognizes that AI can miss context or misinterpret technical signals"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Favors AI automation for repetitive, structured information gathering",
+          "Prefers human analysis for complex or high-stakes decisions",
+          "Sees value in blended workflows: AI for speed, humans for quality control"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "High automation is acceptable for low-impact, low-risk data tasks",
+          "Would be concerned if AI were used to make final investment decisions without oversight",
+          "Prefers to retain human oversight on tasks involving judgment or interpersonal interaction"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "AI enhances research and data analysis skills by increasing throughput",
+          "Soft skills such as networking and founder advising remain critical and irreplaceable",
+          "Routine administrative skills have become less central due to automation"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Prompt engineering and effective query formulation have become valuable",
+          "Ability to critically review and edit AI outputs is now essential",
+          "Increased need to understand data sources and model limitations"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Minimal concern about AI replacing the core investment manager role",
+          "Recognizes that some research tasks may become fully automated over time",
+          "Sees AI as a tool for amplification, not replacement"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Manual review and editing are built into all AI-augmented workflows",
+          "Organizational process requires human sign-off on investment decisions",
+          "Team culture encourages skepticism and double-checking of AI-generated facts"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "AI adoption is increasing, with a bias toward responsible implementation",
+          "Company encourages experimentation but expects accountability for outputs",
+          "No blanket automation: human oversight remains a policy requirement"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will fundamentally reshape research and due diligence in venture capital",
+          "Anticipates greater access to information and more efficient market analysis",
+          "Sees potential for AI to democratize startup funding and reduce barriers for founders"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Concerned about AI hallucinations and the risk of propagating false information",
+          "Supports transparent use of AI, with clear disclosure to stakeholders",
+          "Believes human judgment should remain central in ethical decision-making"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would benefit from AI that can reliably assess open source community health",
+          "Desires better multi-tool integration and automated workflow chaining",
+          "Wants more explainable AI outputs for due diligence transparency"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects research tasks to become almost fully automated, freeing time for strategic work",
+          "Foresees a shift toward more high-touch founder advising and relationship building",
+          "Anticipates the need to develop new skills in AI oversight and prompt design"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement structured review processes for AI-generated outputs",
+          "Invest in internal AI literacy and upskilling programs",
+          "Prioritize development of custom AI tools tailored to open source investment workflows",
+          "Establish guidelines for ethical and transparent AI deployment"
+        ]
+      }
+    ]
+  }
+]

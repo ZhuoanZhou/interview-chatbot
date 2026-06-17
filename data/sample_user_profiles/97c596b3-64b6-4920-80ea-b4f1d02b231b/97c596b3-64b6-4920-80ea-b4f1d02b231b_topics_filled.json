@@ -1,0 +1,500 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master\u2019s Degree",
+          "Completed graduate studies in nonprofit management, public administration, or a related field",
+          "Attended fundraising and grant writing workshops throughout career",
+          "Participated in ongoing professional development seminars for fundraising professionals"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Current job title: Senior Fundraising Manager",
+          "Responsible for developing and implementing fundraising strategies",
+          "Oversees donor relations, grant proposals, and campaign planning",
+          "Acts as a liaison between donors and program teams"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the nonprofit sector",
+          "Focuses on social impact and charitable organizations",
+          "Experience includes education, health, and/or human services causes"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Organization employs approximately 50-150 staff members",
+          "Works in a collaborative, mission-driven environment",
+          "Small to medium-sized nonprofit with a close-knit team culture"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Organization operates as a registered 501(c)(3) nonprofit",
+          "Primary funding comes from individual donors, grants, and corporate partnerships",
+          "Focuses on community engagement and social good initiatives"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has over 10 years of experience in fundraising roles",
+          "Served in a senior fundraising capacity for at least 7 years",
+          "Held prior related roles in donor relations and development"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Occupies a senior-level management position",
+          "Acts as a mentor to junior fundraising staff",
+          "Frequently involved in strategic decision-making and planning"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Builds and maintains relationships with donors and sponsors",
+          "Writes and edits grant proposals and funding applications",
+          "Plans and executes fundraising campaigns and events",
+          "Manages donor database and tracks contributions",
+          "Collaborates with program teams to communicate impact"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 40% of time on donor outreach and stewardship",
+          "Devotes 25% of work week to grant writing and research",
+          "Allocates 15% to campaign/event planning and execution",
+          "Uses 10% for team meetings and internal collaboration",
+          "Reserves 10% for administrative and reporting tasks"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has significant autonomy in strategizing and prioritizing fundraising activities",
+          "Authorized to make decisions regarding outreach methods and communication style",
+          "Consults with executive leadership for major campaign direction and budget approvals",
+          "Empowered to negotiate donor agreements within set guidelines"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Engaging in one-on-one conversations with long-term donors",
+          "Drafting personalized thank-you notes and stewardship updates",
+          "Sharing impact stories and organizational successes",
+          "Identifying donor interests from CRM data"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Coordinating large-scale fundraising events with multiple stakeholders",
+          "Writing highly competitive grant proposals with strict criteria",
+          "Managing major donor relationships with complex expectations",
+          "Analyzing large datasets to identify giving patterns and trends"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Updating donor records and contact details in CRM systems",
+          "Generating routine fundraising reports and donation summaries",
+          "Researching preliminary grant opportunities",
+          "Segmenting email lists for targeted communications"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Finds donor relationship building and storytelling highly rewarding",
+          "Enjoys strategic planning sessions with the fundraising team",
+          "Considers manual data entry and list-cleaning tedious",
+          "Prefers interactive tasks over repetitive administrative work"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual data entry and cleanup in CRM can be time-consuming",
+          "Difficulty in integrating data across multiple platforms",
+          "Grant research is often repetitive and labor-intensive",
+          "Preparing individualized reports for major donors can be resource-intensive"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Productivity is highest when working on relationship-driven tasks",
+          "Enjoyment and proficiency are closely linked in donor communication activities",
+          "Less skilled or tedious tasks, such as data cleanup, tend to reduce engagement",
+          "Prefers to automate or delegate repetitive tasks to focus on high-impact activities"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open and proactive in exploring new technologies for fundraising",
+          "Views tech adoption as necessary for staying effective and competitive",
+          "Embraces digital transformation in the nonprofit sector"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new CRM features and updates",
+          "Comfortable experimenting with new digital marketing platforms",
+          "Regularly seeks out webinars and tutorials for the latest tools"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Allocates time monthly for tech skill development",
+          "Willing to invest in formal training if it improves fundraising results",
+          "Encourages team to participate in ongoing technology training"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by potential to save time and improve donor engagement",
+          "Main barrier is balancing tech learning with high workload periods",
+          "Adopts new tools if they directly support fundraising goals"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers\u2019 positive experiences with tech influence adoption decisions",
+          "Management support for digital innovation encourages experimentation",
+          "Participates in team discussions before implementing new tools"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Salesforce or Raiser\u2019s Edge CRM daily to manage donor data",
+          "Relies on email marketing tools like Mailchimp weekly for communications",
+          "Utilizes Google Workspace for collaboration and document sharing",
+          "Leverages LLM-based tools for drafting communications and reports"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Spreadsheets (Excel/Google Sheets) for tracking campaign metrics",
+          "Video conferencing platforms (Zoom, Teams) for meetings",
+          "Document editing tools (Word, Google Docs) for proposal drafts"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient with major nonprofit CRMs, including Salesforce and Raiser\u2019s Edge",
+          "Experienced in using Constant Contact and Mailchimp for donor outreach",
+          "Comfortable with major productivity and collaboration suites"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces challenges syncing CRM data with email marketing platforms",
+          "Manual data transfers required between spreadsheets and CRM",
+          "Desires better integration between donor database and reporting tools"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic AI and machine learning concepts such as natural language processing",
+          "Aware of how LLMs generate text and analyze data",
+          "Familiar with AI-driven segmentation and audience targeting"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses OpenAI\u2019s GPT-based tools for drafting donor communications",
+          "Employs AI-powered features in CRM systems for donor insights",
+          "Leverages AI tools for automating grant research and summarization"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs daily to brainstorm and draft emails, letters, and reports",
+          "Applies AI tools weekly for segmenting donor lists and analyzing giving trends",
+          "Utilizes AI for initial screening of grant opportunities several times per month"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI-generated thank you letters have increased donor response rates",
+          "AI sometimes misinterprets nuanced donor relationships, requiring manual review",
+          "AI-based grant research significantly reduced time spent on opportunity identification",
+          "Over-reliance on AI can lead to less personalized donor communications"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Participated in internal training sessions on AI tools for fundraising",
+          "Shares best practices for AI use with colleagues during team meetings",
+          "Can access online tutorials and vendor-provided resources as needed"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers starting independently with AI drafts, then customizes output",
+          "Occasionally collaborates with AI in real time for brainstorming sessions",
+          "Uses AI as a first-pass tool, followed by manual refinement"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an efficient digital assistant",
+          "Sometimes treats AI as a brainstorming partner for campaign ideas",
+          "Relies on AI for support in research and drafting, but retains final decision control"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to experimenting with new AI-driven features in core fundraising tools",
+          "Advocates for AI adoption if it increases efficiency or donor impact",
+          "Willing to pilot new AI workflows before recommending broader rollout"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for drafting and editing text",
+          "Finds chat-based AI tools more intuitive for brainstorming",
+          "Uses command-based interfaces for data analysis or report generation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Major donor stewardship relies heavily on nuanced, relationship-based knowledge",
+          "Grant writing requires understanding of specific funder preferences and priorities",
+          "Some aspects of donor segmentation can be standardized, but personalization is key"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for drafting and data summarization, but always reviews output",
+          "Prefers to verify AI-generated content for sensitive donor communications",
+          "Reluctant to delegate final decision-making to AI for high-stakes proposals"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI automation for repetitive or data-heavy tasks like list segmentation",
+          "Maintains human oversight for personalized outreach and strategic planning",
+          "Sees AI as a tool to augment, not replace, professional judgment"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for administrative data processing",
+          "Finds automation threatening if it risks losing donor relationship quality",
+          "Supports automation as long as manual review and customization remain possible"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the value of strategic and relationship-building skills",
+          "Views writing and communication skills as even more important when refining AI drafts",
+          "Sees basic administrative skills as less critical due to automation"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developed skills in prompt engineering for effective AI use",
+          "Takes responsibility for evaluating and selecting appropriate AI tools",
+          "Monitors AI output quality and ensures alignment with organizational voice"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Low concern about AI replacing core donor relationship activities",
+          "Acknowledges some administrative tasks may be fully automated in future",
+          "Comfortable with evolving role focused on strategy and oversight"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always reviews AI-generated donor communications before sending",
+          "Has final approval authority over automated grant application drafts",
+          "Regularly checks AI-segmented donor lists for errors or misclassification"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Organization has become more open to piloting AI tools in the last 2 years",
+          "Policies now encourage responsible AI use with human oversight",
+          "Regularly discusses AI-related best practices in team meetings"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Sees AI as a force multiplier for positive change in the nonprofit sector",
+          "Believes AI will make fundraising more efficient and accessible",
+          "Cautiously optimistic about AI\u2019s role in reducing administrative burden"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports ethical guidelines for transparency and donor privacy in AI use",
+          "Wary of AI-generated content lacking authenticity or cultural sensitivity",
+          "Advocates for clear boundaries on automated decision-making"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires smarter AI-driven donor segmentation and personalization tools",
+          "Wishes for AI that can automatically draft impact reports using real-time data",
+          "Seeks better integration between AI tools and existing CRMs"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Anticipates spending more time on strategy and major donor engagement",
+          "Expects routine communications and reporting to be handled largely by AI",
+          "Believes new job functions will emerge around AI tool oversight and optimization"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement regular training on AI best practices for fundraising staff",
+          "Establish clear guidelines for ethical AI use and content review",
+          "Invest in unified platforms that seamlessly integrate AI with core systems",
+          "Encourage pilot projects to evaluate new AI-driven fundraising solutions"
+        ]
+      }
+    ]
+  }
+]

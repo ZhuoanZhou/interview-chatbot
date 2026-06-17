@@ -1,0 +1,509 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s Degree from an accredited university",
+          "Completed coursework in business administration, accounting, and finance",
+          "Participated in workshops on customer communication and negotiation",
+          "Received on-the-job training in collections and invoicing processes"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Bill and Account Collector",
+          "Responsible for managing customer accounts and collecting overdue payments",
+          "Regularly generates and reviews aging reports to identify delinquent accounts",
+          "Applies received payments to customer accounts in QuickBooks"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the family-owned services sector",
+          "Business operates in B2B and B2C markets",
+          "Industry involves logistics, invoicing, and account management"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Company is small, family-owned with under 20 employees",
+          "Tight-knit and collaborative office environment",
+          "Employees often cover multiple roles and responsibilities"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Company serves a wide range of customers with recurring billing needs",
+          "Focuses on regular invoicing and collections for services rendered",
+          "Market segment includes small to medium-sized businesses and individuals"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 3-5 years of experience in the bill and account collections role",
+          "Started immediately after completing bachelor\u2019s degree",
+          "Progressed from entry-level to experienced collector within the company"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds an early-career, experienced role (not entry-level, not managerial)",
+          "Acts as the primary collections contact for the business",
+          "Trusted with significant responsibility and autonomy in collections process"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Reviews and inputs invoices into QuickBooks at the start of each workday",
+          "Generates and analyzes 30-day aging reports to identify overdue accounts",
+          "Calls customers with past due balances to request payment updates",
+          "Documents call outcomes and customer commitments in QuickBooks and Excel",
+          "Applies received payments to the correct customer accounts"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 60% of the day making collection calls",
+          "About 20% of time is dedicated to inputting and reconciling invoices",
+          "Roughly 10% of the day is spent on reporting and data entry in Excel",
+          "The remaining 10% involves internal communication and administrative tasks"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates with significant autonomy in contacting customers and arranging payments",
+          "Decides on the frequency and prioritization of collection calls",
+          "Follows company guidelines but adapts approach based on customer response",
+          "Escalates only especially problematic accounts to management"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Reviewing and compiling aging reports in QuickBooks is routine and efficient",
+          "Entering invoices and applying payments in the system is straightforward",
+          "Communicating with regular, reliable customers feels natural",
+          "Using Excel for organizing customer data is second nature"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Handling difficult customer conversations, especially with unresponsive clients",
+          "Reconciling payments when customers pay multiple invoices in a single transaction",
+          "Resolving disputes about invoice accuracy or service issues",
+          "Tracking down missing or misapplied payments"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Compiling daily lists of overdue accounts from aging reports",
+          "Entering invoice data into QuickBooks from paper or email sources",
+          "Sending follow-up reminder emails to customers with similar content",
+          "Updating payment status notes after each customer interaction"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys successfully collecting overdue payments and closing accounts",
+          "Finds satisfaction in resolving customer issues and building rapport",
+          "Considers repetitive data entry and manual payment application tedious",
+          "Dislikes having to chase persistently delinquent customers repeatedly"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual tracking of customer notes can lead to missed information",
+          "Switching between Excel and QuickBooks is time-consuming",
+          "Lack of integration between systems requires duplicate data entry",
+          "Following up with customers who are consistently late is frustrating"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Feels more productive when handling familiar accounts or straightforward payments",
+          "Enjoys conversations that lead to payment commitments",
+          "Skill at negotiating directly impacts collection success rates",
+          "Productivity drops when dealing with complex disputes or unclear payment histories"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open and positive about exploring new technologies that streamline collections",
+          "Enjoys experimenting with new software features when time permits",
+          "Sees technology as a way to make daily tasks more efficient"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to updates in QuickBooks, Excel, and related tools",
+          "Comfortable learning new digital processes through hands-on use",
+          "Prefers intuitive, user-friendly interfaces for rapid adoption"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate time for training if the tool promises clear efficiency gains",
+          "Prefers short, targeted training sessions over lengthy courses",
+          "Values learning from colleagues or online tutorials"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential to automate repetitive tasks",
+          "Sometimes high daily workload limits time available for tech training",
+          "More inclined to learn tech that directly relates to daily responsibilities",
+          "Occasionally hesitant if new tools seem overly complex or unfamiliar"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers\u2019 positive experiences with new tools increase personal interest",
+          "Management encouragement is important for investing time in new tech",
+          "Collaborative environment fosters knowledge-sharing about software tips",
+          "Occasionally acts as an early adopter and helps train others"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses QuickBooks daily as the main ERP and accounting system",
+          "Regularly utilizes Microsoft Excel to track payments and customer notes",
+          "Drafts collection letters and communication in Microsoft Word",
+          "Occasionally uses LLM-based tools for drafting collection emails"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "QuickBooks is the central tool for invoicing and payment tracking",
+          "Excel is essential for monitoring customer payment history and aging reports",
+          "Relies on phone and email for customer communication",
+          "Physical documents received from drivers are processed manually"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Highly proficient with QuickBooks and Microsoft Office suite",
+          "Understands the basics of other accounting packages but uses QuickBooks exclusively at work",
+          "Familiar with common communication tools like Outlook for email correspondence"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "QuickBooks and Excel require manual data transfer, leading to redundant entry",
+          "No direct integration between email and accounting software, increasing workload",
+          "Notes are sometimes lost when moving between systems",
+          "Would benefit from automated syncing between Excel and QuickBooks"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands the basics of large language models (LLMs) and their applications",
+          "Familiar with AI terms like 'prompt', 'training data', and 'automation'",
+          "Recognizes the difference between conversational AI and traditional rule-based software",
+          "Keeps up with popular AI developments through online articles"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT weekly to draft collection emails and customer follow-ups",
+          "Has experimented with Microsoft Copilot in Word for drafting letters",
+          "Occasionally uses Grammarly\u2019s AI features for professional communications"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies LLMs at least once a week for email drafting and template creation",
+          "Uses AI to summarize customer communication notes before calls",
+          "Employs AI to generate professional language for sensitive collection scenarios"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used ChatGPT to draft a collection template that led to quicker customer responses",
+          "AI-generated emails sometimes required editing for tone and accuracy",
+          "Learned that AI suggestions are helpful but should be reviewed for context",
+          "Once received an AI-generated letter that misstated invoice details, highlighting the need for manual checks"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal AI training provided by company, but informal peer sharing is common",
+          "Self-taught in using AI tools through online tutorials and experimentation",
+          "Occasionally discusses AI tool tips with co-workers"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers using AI as an independent assistant for quick, one-off tasks",
+          "Occasionally leverages AI for collaborative, step-by-step drafting of complex emails",
+          "Finds value in both modes depending on task complexity"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Primarily treats AI as an assistant for writing and organizing notes",
+          "Views AI as an advisor for communication strategy in sensitive cases",
+          "Does not rely on AI for final decisions, but appreciates its suggestions"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Very open to integrating more AI into daily routines if it saves time",
+          "Eager to try new AI features that automate repetitive tasks",
+          "Would welcome AI-driven workflow changes, especially for data entry and reporting"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and drafting communications",
+          "Uses command-based prompts for straightforward tasks like summarizing notes",
+          "Finds conversational AI more intuitive for less structured tasks"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Collections work often requires understanding customer history and payment patterns",
+          "Tacit knowledge of customer personalities can influence call strategy",
+          "Certain negotiation techniques are learned through experience, not easily automated",
+          "AI can assist with templates but not replace nuanced customer interactions"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for drafting standard communications and summarizing notes",
+          "Reviews all AI-generated content before sending to customers",
+          "Does not delegate critical financial decisions or final customer responses to AI",
+          "Confidence in AI increases with simpler, well-defined tasks"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive data entry and basic email drafting",
+          "Believes human oversight is necessary for customer negotiations and payment disputes",
+          "Seeks automation for reporting but manual review for exceptions"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for routine, low-risk tasks like reminders or data transfer",
+          "Feels automation is threatening if it removes the personal touch from customer calls",
+          "Prefers to retain control over exception handling and dispute resolution"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes communication and negotiation skills remain critical despite automation",
+          "Views AI as enhancing efficiency, not replacing core interpersonal abilities",
+          "Sees technical proficiency becoming increasingly important"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning to craft effective AI prompts is a new skill",
+          "Responsible for verifying AI-generated outputs for accuracy and appropriateness",
+          "Anticipates future need to manage AI-driven workflows and exceptions"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Some concern about automation of data entry and basic communication",
+          "Not worried about AI replacing roles that require customer relationship management",
+          "Believes there will always be a need for human judgment in collections"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always reviews AI-generated communications before sending",
+          "Maintains manual control over payment application and dispute handling",
+          "Prefers systems that allow for easy human override of automated actions"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company currently has no formal AI policies, but informal use is accepted",
+          "Management encourages experimentation with AI for productivity",
+          "Anticipates future guidelines as AI use becomes more common"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will streamline repetitive business processes across industries",
+          "Expects AI to improve efficiency but raise ethical questions about employment",
+          "Sees potential for AI to improve customer service standards",
+          "Thinks rapid AI adoption will reshape many clerical and administrative roles"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports transparent use of AI with clear human oversight",
+          "Worries about AI bias and lack of accountability in automated decisions",
+          "Believes employees should be notified when AI is used in customer communications",
+          "Emphasizes the importance of data privacy when using AI tools"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would benefit from AI that automatically syncs and updates notes across QuickBooks and Excel",
+          "Desires an AI assistant that schedules and prioritizes collection calls based on customer history",
+          "Wants AI that can detect at-risk accounts and suggest proactive actions"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine collections and data entry to be mostly automated",
+          "Foresees a shift toward exception handling and customer relationship management",
+          "Believes technical and analytical skills will become more important",
+          "Anticipates spending less time on repetitive tasks and more on strategy"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Wants company to provide formal AI training and best practices",
+          "Recommends piloting new AI tools for workflow integration",
+          "Advocates for clear policies on data privacy and employee oversight",
+          "Supports regular feedback sessions to evaluate AI tool effectiveness"
+        ]
+      }
+    ]
+  }
+]

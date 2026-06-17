@@ -1,0 +1,493 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s degree, completed at age 20",
+          "Undergraduate major was likely in Mechanical Engineering, Computer Science, or a related STEM field",
+          "Received foundational training in numerical methods and algorithm design during university studies",
+          "Completed coursework involving programming in languages such as C++",
+          "Participated in a senior project or research experience focusing on computational modeling"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Computer Numerically Controlled (CNC) Tool Operator",
+          "Role involves developing and implementing new numerical algorithms for physical modeling",
+          "Responsible for validating and proving properties of numerical algorithms",
+          "Engages in reading and extending academic research papers related to numerical computation"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works within the manufacturing/advanced engineering sector",
+          "Role is at the intersection of applied mathematics, software development, and physical modeling",
+          "Operates in an environment where computational research and practical implementation overlap"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Likely employed by a university research group, R&D department, or small to mid-sized tech-oriented company",
+          "Works in a team-based environment with mentorship from a supervising professor or senior engineer",
+          "Collaborates primarily with a small group of researchers or engineers"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Business focus is on computational modeling, simulation, and numerical algorithm development",
+          "Operates in a niche segment dealing with scientific computing for engineering applications",
+          "Primary clients or stakeholders are academic groups, engineering departments, or manufacturing firms needing advanced computation"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has been in the current role for less than 1 year",
+          "Started position shortly after completing undergraduate studies",
+          "Early-career professional, still building foundational expertise in applied computational work"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Entry-level position, typical for recent graduates",
+          "Works under supervision but is developing autonomy on research and implementation tasks",
+          "Not yet in a managerial or lead role, but beginning to take initiative in technical problem-solving"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Reads recent academic papers to stay updated on advances in numerical computation",
+          "Identifies potential extensions or improvements to existing numerical algorithms",
+          "Designs and implements new algorithms in C++ and Julia",
+          "Documents and tests code components to verify correctness and efficiency",
+          "Collaborates with a supervising professor for guidance and feedback"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 40% of time reading and analyzing research papers",
+          "Roughly 35% of time is dedicated to planning and designing new algorithms",
+          "Around 25% is spent coding, testing, and integrating software components"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has moderate autonomy in selecting which research extensions to pursue",
+          "Makes independent decisions about algorithm design and coding approaches",
+          "Receives direction on high-level research topics from supervising professor",
+          "Consults with peers or supervisor for critical decisions or novel problems"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Skimming abstracts and conclusions to quickly assess paper relevance",
+          "Writing code for algorithmic components after thorough planning",
+          "Using Archive and paper search tools to locate relevant literature"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Proving mathematical properties or correctness of novel algorithms",
+          "Integrating multiple complex code modules into a cohesive solution",
+          "Extending research into unexplored or highly technical areas"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Reading and summarizing multiple academic papers with similar content",
+          "Unit testing code for standard edge cases across different implementations",
+          "Formatting and documenting code for consistency"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys creative aspects such as designing new algorithms or solving complex numerical problems",
+          "Finds deep dives into novel research topics particularly engaging",
+          "Considers routine code maintenance and documentation more tedious",
+          "Repetitive testing and paperwork are least preferred"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Difficulty in quickly extracting key insights from dense academic papers",
+          "Time-consuming manual coding for functions with clear specifications",
+          "Occasional lack of clarity in research paper methods requiring repeated readings",
+          "Manual integration and debugging of code modules can be cumbersome"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Generally most productive when working on algorithm design, which is also most enjoyable",
+          "Skill level is highest in coding and literature review, supporting higher productivity in these areas",
+          "Tedious or repetitive tasks can lower both enjoyment and motivation, slightly reducing productivity"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open and curious about adopting new programming tools or libraries",
+          "Sees technological learning as essential for staying effective in the role",
+          "Positively motivated by opportunities to improve workflow with tech"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new programming environments such as Julia notebooks",
+          "Comfortable exploring new code editors and research databases",
+          "Willing to experiment with new tools if they offer clear workflow benefits"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate personal time to learning high-impact technologies",
+          "Prefers hands-on experimentation over formal training sessions",
+          "May prioritize tech training if it is directly relevant to current projects"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by direct relevance of new technology to current research or coding tasks",
+          "Workload and time constraints can limit ability to explore unrelated tools",
+          "Preference for tech with strong community support and good documentation"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Supervising professor\u2019s recommendations strongly influence tool adoption",
+          "Peers\u2019 positive experiences with new tools encourage exploration",
+          "Open discussions with colleagues can accelerate willingness to try emerging technologies"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Regularly uses Archive (arXiv) for discovering and downloading research papers",
+          "Codes primarily in C++ and Julia for algorithm implementation",
+          "Utilizes Visual Studio Code for editing and debugging C++ code",
+          "Employs Pluto and Quarto notebooks for interactive Julia development"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on version control systems such as Git for code management",
+          "Uses LaTeX or Markdown for documenting research and code",
+          "Employs paper-based note-taking and planning for algorithm design"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Familiar with best practices in C++ and Julia coding standards",
+          "Experienced with interactive coding environments like Pluto notebooks",
+          "Aware of standard research tools for literature review and citation management"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces compatibility issues when sharing code between C++ and Julia environments",
+          "Has to manually transfer results or data between different software platforms",
+          "Not all interactive notebooks integrate seamlessly with version control or documentation tools"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Has a basic to intermediate understanding of AI/ML concepts from self-study and academic exposure",
+          "Recognizes core terms such as 'language model', 'automation', and 'summarization'",
+          "Has used AI tools primarily for text-based summarization and code generation"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Has used large language models (LLMs) such as ChatGPT occasionally for research tasks",
+          "May have experimented with Copilot for code suggestions within Visual Studio Code",
+          "Has not yet adopted specialized AI platforms for scientific computing"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses AI tools occasionally, mainly for paper summarization or extracting key points",
+          "Sometimes applies AI assistants for generating code snippets or boilerplate functions",
+          "Explores AI-driven literature search to speed up paper discovery"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used LLMs to quickly summarize dense academic abstracts, saving reading time",
+          "Experienced inaccurate or overly generic code suggestions from AI, requiring careful review",
+          "Learned that AI-generated content must always be double-checked for technical accuracy"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal AI training provided by the organization to date",
+          "Relies on online tutorials and peer advice for learning AI tool usage",
+          "Occasionally shares tips and findings about AI tools with colleagues"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers to tackle problem-solving independently, using AI tools as on-demand assistants",
+          "Values step-by-step collaboration with AI for complex or unfamiliar coding tasks",
+          "Switches between independent work and AI collaboration depending on task complexity"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as a smart assistant for summarization and code generation",
+          "Occasionally treats AI as an advisor for brainstorming algorithm extensions",
+          "Does not rely on AI as a full co-worker, preferring to retain human oversight"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to integrating more AI-driven features if they enhance productivity",
+          "Willing to redesign workflows to incorporate AI for repetitive or data-intensive tasks",
+          "Prefers gradual adoption of AI tools, with time to evaluate their reliability"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Finds conversational interfaces intuitive for summarization or brainstorming tasks",
+          "Prefers command-based interfaces when generating code or running specific functions",
+          "Switches interface preference based on the nature of the task and needed precision"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Algorithm design and proof tasks require deep domain expertise not easily replaced by AI",
+          "Paper analysis often depends on understanding nuanced context beyond surface-level content",
+          "Combining research insights with practical coding involves tacit knowledge from education and experience"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for preliminary summarization and code scaffolding, but always reviews output",
+          "Does not rely on AI for critical research conclusions or mathematical proofs",
+          "Maintains a healthy skepticism toward AI-generated technical content"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI automation for repetitive summarization and formatting tasks",
+          "Retains human control for creative, analytical, and decision-intensive work",
+          "Sees value in hybrid workflows where AI augments but does not replace human input"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for well-defined, low-risk tasks (e.g., code formatting)",
+          "Views automation as threatening if it encroaches on core analytical or research responsibilities",
+          "Desires clear override options whenever AI is applied to critical or creative tasks"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the value of domain expertise by offloading rote tasks",
+          "Sees coding skill as becoming more focused on problem-solving than syntax mastery",
+          "Views research and analytical skills as remaining essential despite AI adoption"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Needs to develop prompt engineering skills for effective AI interactions",
+          "Gains responsibility for reviewing and validating AI-generated outputs",
+          "Exploring opportunities to integrate AI tools into existing workflows"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Some concern about AI automating repetitive coding or summarization tasks",
+          "Does not feel immediate threat to core research, design, or analytical responsibilities",
+          "Views AI as a tool to augment rather than replace early-career technical roles"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always manually reviews AI-generated summaries and code before use",
+          "Prefers workflows where human approval is required before finalizing AI outputs",
+          "Would not enable end-to-end AI automation without strong override controls"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "No formalized policy yet, but increasing openness to exploring AI tools",
+          "Team culture encourages experimentation with AI for productivity gains",
+          "Expects more structured guidelines for AI tool use to emerge in the near future"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Optimistic about AI\u2019s potential to accelerate scientific discovery and innovation",
+          "Sees AI as transformative for fields involving large-scale data or repetitive analysis",
+          "Believes careful integration is needed to avoid over-reliance and maintain quality"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Concerned about potential loss of critical thinking if AI is used uncritically",
+          "Believes transparency and explainability are essential for ethical AI adoption",
+          "Supports strong human oversight for AI-driven decision-making in technical work"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires reliable AI-powered summarization of academic papers highlighting novelty",
+          "Wants AI capable of implementing code from high-level functional descriptions",
+          "Seeks tools that can compare and contrast research methodologies automatically"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Anticipates more time spent on creative and analytical tasks as AI handles routine work",
+          "Expects to collaborate more closely with AI tools for literature review and coding",
+          "Foresees need to continuously update skills to effectively leverage AI advancements"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement structured training sessions on effective and ethical AI tool usage",
+          "Develop clear guidelines for when and how AI outputs should be reviewed",
+          "Encourage experimentation with new AI features while maintaining human oversight"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,548 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s degree, completed at age 22",
+          "Major was Finance, with coursework in accounting and economics",
+          "Participated in a university budgeting or financial analysis club",
+          "Completed an internship in the finance department of a midsize company",
+          "No postgraduate degrees or formal certifications yet, planning to pursue CPA or CBA in future"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Official job title: Budget Analyst",
+          "Responsible for reviewing, planning, and monitoring budgets for multiple departments",
+          "Acts as a financial liaison between project teams and finance leadership",
+          "Advises teams on budget compliance and resource allocation",
+          "Supports decision-making processes through data-driven reporting"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the finance department of a medium-large organization",
+          "Organization operates in the public sector, specifically education administration",
+          "Role involves supporting internal business units rather than external clients",
+          "Regularly interacts with both administrative and project staff",
+          "Exposure to standard finance and budgeting software common in the sector"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed in a company with approximately 1,000 employees",
+          "Finance team consists of about 20 professionals",
+          "Open office environment with hybrid remote/in-person work policy",
+          "Company culture emphasizes collaboration and data-driven decision-making",
+          "Regular cross-departmental meetings to coordinate budgeting needs"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Organization operates in the education administration sector",
+          "Focuses on internal budget management rather than direct sales or client service",
+          "Supports both operational and project-based budget needs",
+          "Market segment relies heavily on accurate forecasting and compliance",
+          "Deals with both restricted (grant) and unrestricted funds"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Less than 1 year of experience as a Budget Analyst",
+          "Started current role immediately after college graduation",
+          "Has participated in one full annual budget cycle",
+          "Previously interned in a similar finance role for 3 months"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Entry-level professional",
+          "Reports to a Senior Budget Analyst and Finance Manager",
+          "Receives mentorship and ongoing supervision",
+          "Not responsible for direct reports or staff management",
+          "Contributes to but does not lead major organizational decisions"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Reviews budget proposals submitted by departments and project teams",
+          "Analyzes spending patterns and identifies variances against planned budgets",
+          "Prepares regular and ad-hoc financial reports using Excel and BI tools",
+          "Supports forecasting and annual budget planning sessions",
+          "Communicates findings and recommendations to stakeholders"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends about 30% of time reviewing budget proposals",
+          "Allocates 20% to monitoring and analyzing budget vs. actuals",
+          "Devotes 20% to preparing and refining financial reports",
+          "15% on supporting decision-making and stakeholder communication",
+          "15% reserved for administrative tasks, documentation, and audit support"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Makes independent recommendations on budget adjustments within defined limits",
+          "Must seek managerial approval for major reallocations or exceptions",
+          "Responsible for accuracy of data analysis and initial report drafts",
+          "Consulted for input during project kickoffs but not final decision-maker",
+          "Expected to flag and escalate potential compliance issues"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Data entry and initial reconciliation in Excel feels straightforward",
+          "Identifying simple variances in budget vs. actual reports is routine",
+          "Compiling routine monthly spending reports is highly familiar",
+          "Communicating standard financial data to internal teams is comfortable",
+          "Using LLMs to draft explanatory report sections is easy and efficient"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Forecasting future budget needs with limited historical data is difficult",
+          "Interpreting ambiguous or incomplete budget proposals requires extra effort",
+          "Balancing accuracy with speed under tight deadlines is challenging",
+          "Explaining complex financial findings to non-finance stakeholders",
+          "Adapting reports for multiple audiences with varying financial literacy"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Generating recurring monthly and quarterly budget reports",
+          "Reconciling large transaction lists against budgeted amounts",
+          "Flagging standard compliance issues based on predefined rules",
+          "Compiling expense data from multiple sources into a unified format",
+          "Updating budget tracking spreadsheets with actuals"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys scenario planning and exploring what-if budget models",
+          "Finds stakeholder meetings and collaborative problem-solving engaging",
+          "Considers repetitive report formatting tedious",
+          "Routine data entry feels monotonous and time-consuming",
+          "Enjoys tasks where LLMs help automate or summarize routine work"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual data consolidation from multiple sources is slow and error-prone",
+          "Inconsistent data formats between systems require extra cleanup",
+          "Limited automation for recurring reports leads to wasted time",
+          "Delays in receiving required data from other departments",
+          "Occasional software integration issues slow down workflow"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Productivity is highest when working with familiar tools and datasets",
+          "Enjoyment increases when automation eliminates tedious steps",
+          "Feels more engaged when learning new features or analytical methods",
+          "Skill growth is fastest when tackling moderately challenging tasks",
+          "Repetitive low-skill tasks can decrease motivation and focus"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Proactively seeks out new tools to streamline financial workflows",
+          "Views tech adoption as essential for staying relevant in finance",
+          "Willing to experiment with new features in Excel, BI tools, and LLMs",
+          "Believes technology can reduce manual errors and save time"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to updates in core financial platforms",
+          "Requires minimal training to become proficient with new budgeting tools",
+          "Regularly incorporates AI-driven features into daily tasks",
+          "Comfortable troubleshooting common software issues independently"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Attends optional training sessions for new software rollouts",
+          "Spends personal time exploring AI and automation tutorials",
+          "Believes upfront training time pays off in long-term efficiency",
+          "Willing to mentor colleagues on new tech if confident in skills"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Most motivated when new tools clearly save time or improve accuracy",
+          "Major barrier is high workload during budget season, limiting training time",
+          "Prefers tech with strong documentation and peer support",
+          "More likely to learn tools recommended by finance leadership"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers regularly share tips about Excel add-ons and reporting tools",
+          "Management encourages AI adoption for routine reporting tasks",
+          "Team culture values sharing best practices for tech adoption",
+          "Positive experiences from colleagues increases openness to new platforms"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Microsoft Excel daily for data analysis and report generation",
+          "Relies on Oracle and SAP for budget management and approvals",
+          "Accesses IBM Planning Analytics for scenario modeling",
+          "Utilizes QuickBooks for tracking smaller departmental budgets",
+          "Employs Workday Adaptive Planning for organization-wide forecasting"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Google Sheets is used for collaborative budget tracking with teams",
+          "Microsoft Power BI and Looker for creating financial dashboards",
+          "Email and Slack for stakeholder communication and approvals",
+          "Planful and NetSuite for consolidating budget inputs"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Familiar with the core functionality of major ERP (Enterprise Resource Planning) systems",
+          "Trained in using Excel for advanced functions, including pivot tables and macros",
+          "Comfortable navigating BI tools for real-time analytics",
+          "Understands integration points between finance and HR systems"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally experiences data syncing delays between SAP and reporting tools",
+          "Manual export-import steps needed between Oracle and Excel for some tasks",
+          "Formatting inconsistencies occur when consolidating data from Google Sheets into Power BI",
+          "Limited automation for pushing actuals from QuickBooks into forecasting platforms"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands core AI terms like 'machine learning', 'natural language processing', and 'predictive analytics'",
+          "Has read introductory articles about how AI impacts finance and budgeting",
+          "Recognizes the difference between LLMs and rule-based automation",
+          "Can explain basic AI use cases such as data extraction and automation"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses OpenAI's GPT-4 via Microsoft Copilot for drafting reports",
+          "Leverages IBM Planning Analytics' built-in AI forecasting modules",
+          "Regularly interacts with LLMs for natural language queries in financial dashboards",
+          "Occasionally uses Google Cloud AI features for data classification"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies AI tools daily for automating raw data report generation",
+          "Uses LLMs to summarize lengthy financial documents for management",
+          "Employs predictive AI models for forecasting budget trends",
+          "Leverages AI-powered chatbots to answer common finance process questions"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully reduced report generation time by 40% using GPT-driven automation",
+          "AI-based prediction flagged a budget overrun early, allowing timely intervention",
+          "Encountered errors when LLM-generated summaries omitted key financial caveats",
+          "Learned the importance of manually reviewing AI-generated content before submission"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company provides short online tutorials for using Microsoft Copilot",
+          "Peers regularly share tips for maximizing AI tool efficiency",
+          "No formal certification required, but informal Slack channels exist for AI Q&A",
+          "Occasional lunch-and-learn sessions hosted by the IT department on AI topics"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers independent use of AI tools for routine, well-defined tasks",
+          "Seeks step-by-step collaboration with AI for unfamiliar scenarios",
+          "Often starts tasks independently but consults AI for validation or suggestions",
+          "Uses AI iteratively: drafts output, reviews, then refines with further prompts"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for automating repetitive work",
+          "Sometimes treats AI as an advisor when exploring alternative budget scenarios",
+          "Does not regard AI as a co-worker but as a tool to augment personal productivity",
+          "Relies on human judgment for final decisions, viewing AI as a support system"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to piloting new AI features, especially for data-heavy tasks",
+          "Actively seeks feedback from peers on successful AI-driven processes",
+          "Willing to adjust workflow if significant efficiency gains are demonstrated",
+          "Cautious about adopting AI for tasks that require nuanced judgment"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for querying budget data and generating summaries",
+          "Finds command-based interfaces more efficient for structured data manipulation",
+          "Uses AI chatbots for exploratory questions and clarification",
+          "Switches between modes depending on task complexity and urgency"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many budgeting tasks require context-specific understanding of organizational policies",
+          "Tacit knowledge needed to interpret ambiguous spending justifications",
+          "Automated tools often miss nuances in grant-specific or restricted fund rules",
+          "Relies on human expertise for exception handling and final approvals"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for routine reporting and data validation tasks",
+          "Less trust in AI-generated recommendations for strategic decisions",
+          "Always reviews AI-generated summaries for accuracy before sharing",
+          "Perceives AI as reliable for repetitive, rules-based processes"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle data aggregation, preliminary analysis, and routine reporting",
+          "Retains human oversight for budget approval, exception management, and stakeholder communication",
+          "Seeks a 70/30 split (AI/human) in repetitive tasks, reversed for high-stakes decisions",
+          "Believes optimal use combines AI speed with human judgment"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "High automation is acceptable for standardized, low-risk processes",
+          "Considers automation threatening if it bypasses required compliance checks",
+          "Prefers manual review when data quality or source credibility is uncertain",
+          "Supports automation as long as override and audit trails are available"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the value of analytical and interpretive skills",
+          "Routine data manipulation skills may become less critical",
+          "Communication and stakeholder management remain essential despite automation",
+          "AI frees up time to focus on higher-level problem solving and scenario planning"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing skills in prompt engineering for more effective LLM use",
+          "Learning to audit and validate AI-generated output for accuracy",
+          "Increased responsibility for integrating AI insights into actionable recommendations",
+          "Expected to provide feedback on AI tool usability and process improvement"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Limited concern about AI replacing the entire role due to need for human judgment",
+          "Some concern about automation reducing entry-level data entry opportunities",
+          "Believes core analytical and advisory tasks are less likely to be automated",
+          "Views upskilling as a way to stay relevant as AI adoption increases"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All AI-generated reports require manual review before distribution",
+          "Human approval is mandated for all budget reallocations, regardless of AI suggestions",
+          "System logs and audit trails are maintained for traceability",
+          "Can revert to manual processes if AI tools malfunction or produce unexpected results"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Recent company policy encourages responsible AI experimentation",
+          "Increased focus on data privacy and security in AI tool usage",
+          "Team is expected to report both successes and issues with AI implementation",
+          "Leadership is developing guidelines for appropriate AI/human task boundaries"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will significantly improve efficiency in finance and budgeting",
+          "Sees potential for AI to democratize access to advanced analytics",
+          "Concerns exist about AI exacerbating skill gaps if training is not prioritized",
+          "Expects most routine financial administration tasks to be automated in the future"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Advocates for transparency in AI-driven financial decisions",
+          "Believes human oversight is essential to prevent bias or errors",
+          "Supports clear explanations of how AI outputs are generated",
+          "Worries about over-reliance on AI without sufficient validation"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires seamless integration between AI tools and all major financial platforms",
+          "Wants AI models that can explain recommendations in plain language",
+          "Seeks more robust scenario planning and real-time predictive analytics",
+          "Would benefit from AI that can auto-detect and flag data anomalies before reports are generated"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Envisions a shift towards more strategic analysis and less data entry",
+          "Anticipates that AI will handle most routine compliance checks",
+          "Foresees a need for greater cross-functional collaboration around AI insights",
+          "Predicts new roles in AI oversight and finance process optimization"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement ongoing AI training programs for all finance staff",
+          "Develop clear policies for responsible AI use and oversight",
+          "Encourage pilot projects to identify best-fit AI applications",
+          "Regularly solicit employee feedback to refine AI tool adoption"
+        ]
+      }
+    ]
+  }
+]

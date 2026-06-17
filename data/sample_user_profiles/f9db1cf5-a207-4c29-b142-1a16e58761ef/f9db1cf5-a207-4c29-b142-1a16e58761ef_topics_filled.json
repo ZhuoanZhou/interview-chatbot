@@ -1,0 +1,496 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s degree",
+          "Completed undergraduate studies in English or Education, focusing on teaching methods and literature",
+          "Participated in student teaching as part of degree requirements",
+          "Attended professional development workshops for secondary education"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: AP Language Arts Teacher (11th grade)",
+          "Teaches advanced placement English Language Arts to high school juniors",
+          "Responsible for daily instruction, curriculum planning, and student assessment",
+          "Designs and evaluates essay-based assignments"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the education sector",
+          "Employed in public secondary (high school) education",
+          "Part of a school district serving diverse student populations"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works at a large public high school with approximately 1,500\u20132,000 students",
+          "Faculty consists of over 70 staff members",
+          "Environment is structured, with set schedules and established procedures"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Public secondary education, grades 9\u201312",
+          "Focuses on college preparatory and AP coursework",
+          "Serves a diverse, suburban student body"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 3\u20135 years of teaching experience in current role",
+          "Started teaching AP Language Arts shortly after graduation",
+          "Has completed at least three full academic years in the same position"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Early-career educator (entry to mid-level)",
+          "Not in a formal leadership or administrative role",
+          "Has developed expertise in AP curriculum but is not a department chair"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Teaches AP Language Arts classes to approximately 200 students daily",
+          "Designs and grades essay-based assignments",
+          "Uses Canvas and other platforms to post assignments and feedback",
+          "Leads class lectures, group activities, and discussions"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends about 60% of the day teaching in the classroom",
+          "Allocates 30% of work hours to grading papers and assignments",
+          "Devotes 10% to planning lessons, meetings, and administrative tasks",
+          "Most grading is done outside of classroom instruction hours"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has moderate autonomy in designing lesson plans and classroom activities",
+          "Follows district and AP guidelines for curriculum and assessments",
+          "Can independently choose teaching methods and grading rubrics within set parameters",
+          "Consults with department leads for major curriculum changes"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Leading classroom discussions and lectures comes naturally",
+          "Quickly develops rapport with students and manages class routines",
+          "Efficiently sets up assignments on Canvas",
+          "Facilitating group activities is comfortable and engaging"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Grading large volumes of essays accurately and fairly is challenging",
+          "Providing individualized feedback for 200 students is time-consuming",
+          "Adapting lessons for students with varying skill levels requires extra effort",
+          "Staying current with AP standards and rubrics can be complex"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Manually grading essays for grammar and structure is repetitive",
+          "Entering grades into multiple systems is data-heavy and routine",
+          "Tracking assignment submissions and late work can be automated",
+          "Checking for plagiarism and formatting issues could be handled by AI tools"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys interacting with students and witnessing their progress",
+          "Finds lesson planning for creative writing units engaging",
+          "Views repetitive grading and administrative paperwork as tedious",
+          "Enjoys group activities and lively classroom debates"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Grading 200 essays takes significant personal time, often spilling into evenings",
+          "Switching between grading platforms can be inefficient",
+          "Tracking late submissions and missing work is cumbersome",
+          "Providing high-quality feedback under time constraints is challenging"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Enjoys tasks where student interaction is high, leading to higher energy and productivity",
+          "Is skilled at lesson delivery, making classroom time both effective and enjoyable",
+          "Productivity drops during large grading cycles due to repetitive workload",
+          "Feels most productive when balancing teaching with manageable grading loads"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally open to experimenting with new educational tech",
+          "Sees value in tools that save time or enhance teaching",
+          "Curious about AI and willing to try new platforms if relevant"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to updates in Canvas or grading software",
+          "Comfortable learning through self-guided tutorials or peer demonstrations",
+          "Can adjust teaching methods to incorporate digital resources"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to spend time on training if it leads to measurable time savings",
+          "Prefers short, focused workshops to lengthy courses",
+          "More likely to invest time if the tool is widely adopted by colleagues"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential to reduce repetitive grading work",
+          "High workload during grading periods can limit time for tech adoption",
+          "Skeptical of tools that require extensive setup or don't integrate with existing systems"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers\u2019 positive experiences with new tools increase willingness to try them",
+          "Department head recommendations carry significant weight",
+          "Observes adoption trends among colleagues before fully committing"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Canvas LMS daily for posting assignments, grading, and communication",
+          "Relies on Google Docs for collaborative writing and feedback",
+          "Accesses a district-provided grading system for official record-keeping"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Employs traditional red pens or digital annotation tools for essay marking",
+          "Utilizes physical textbooks and handouts for certain lessons",
+          "Uses email for parent and student communication"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient with Canvas, which is standard in many school districts",
+          "Experienced in using Google Workspace for Education",
+          "Has used Turnitin or similar plagiarism detection tools"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Canvas and district grading system do not always sync automatically",
+          "Occasionally must enter grades manually in multiple platforms",
+          "Lack of integration between Google Docs and some grading systems increases workload"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic concepts like LLMs, prompt engineering, and AI-generated feedback",
+          "Knows that AI can assist with grammar checking and summary generation",
+          "Has a working knowledge of AI limitations and the need for human oversight"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT and similar LLM-based tools for drafting feedback or prompts",
+          "Has experimented with Grammarly or similar AI-based grammar checkers",
+          "Occasionally uses AI-assisted plagiarism detection tools"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs weekly to generate assignment prompts or model answers",
+          "Employs AI for grammar and style checks on student papers",
+          "Explores AI as a resource for lesson planning or idea generation"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI-generated essay feedback has sometimes highlighted overlooked grammar issues",
+          "Found LLMs occasionally misinterpret nuanced writing prompts",
+          "AI suggestions for lesson plans have provided time savings but require review for accuracy"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal organizational training on AI tools currently provided",
+          "Relies on peer recommendations and online resources for AI tool adoption",
+          "Occasionally shares AI tool experiences with colleagues in informal settings"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers independent use of AI tools with the option to request step-by-step guidance if needed",
+          "Finds value in being able to review and edit AI-generated outputs before implementation",
+          "Appreciates flexibility in choosing interaction depth depending on task complexity"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI as an assistant for routine or repetitive tasks",
+          "Sometimes uses AI as an advisor for brainstorming lesson ideas",
+          "Prefers to maintain final control over grading and feedback decisions"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to adopting AI-driven grading assistance if accuracy and fairness can be ensured",
+          "Willing to experiment with AI for administrative or planning tasks",
+          "Prefers gradual integration of AI tools with clear benefits"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and feedback generation",
+          "Finds command-based or form-fill interfaces more suitable for batch processing tasks",
+          "Values clear instructions and transparent outputs in any interface"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Grading AP essays requires deep understanding of AP rubrics and writing conventions",
+          "Providing nuanced feedback often depends on knowledge of individual student progress",
+          "Lesson planning incorporates tacit awareness of class dynamics and culture",
+          "AI tools are less effective at handling subjective evaluation criteria"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for grammar and surface-level feedback but reviews all AI-generated grades",
+          "Skeptical of AI's ability to fully replace human judgment in essay evaluation",
+          "Uses AI suggestions as a starting point rather than final decision"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to automate repetitive grading components (grammar, structure)",
+          "Believes synthesis and final grades should remain human-led",
+          "Sees value in AI as a collaborator rather than a replacement"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for administrative tasks (attendance, record-keeping)",
+          "Finds automation threatening if it removes personal judgment from essay grading",
+          "Requires clear override options and transparency for AI-graded submissions"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI can enhance efficiency but not replace core teaching skills",
+          "Views personal feedback and mentorship as irreplaceable by AI",
+          "Expects AI to reduce time spent on repetitive tasks, allowing focus on higher-level skills"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning to prompt and supervise AI-generated content is becoming important",
+          "Responsible for verifying the accuracy and fairness of AI outputs",
+          "Needs to communicate AI tool usage and limitations to students and parents"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Some concern about AI automating routine grading, but not core teaching",
+          "Does not fear full job replacement due to the human aspects of teaching",
+          "Monitors AI developments to stay relevant and adaptable"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always reviews AI-graded work before finalizing grades",
+          "Prefers tools that allow easy editing or override of AI suggestions",
+          "Insists on manual checks for critical assignments and assessments"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "No formal school-wide policy on AI usage yet, but growing interest among staff",
+          "Colleagues increasingly discuss AI best practices in informal meetings",
+          "Expects future guidelines on AI use for grading and feedback"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Sees AI as a tool for efficiency and innovation in education",
+          "Believes AI can help personalize learning at scale",
+          "Cautious about potential for bias or overreliance on automation"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes AI must be transparent and fair, especially in grading",
+          "Worries about data privacy and student information security",
+          "Supports ethical guidelines for AI use in education"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires AI tools that can provide context-aware feedback tailored to individual students",
+          "Wants seamless integration of AI grading tools with Canvas and other platforms",
+          "Would benefit from AI that can flag potential plagiarism or academic dishonesty more intelligently"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects grading and administrative work to become largely automated",
+          "Anticipates increased focus on coaching, mentorship, and individualized instruction",
+          "Believes teachers will need to become proficient in supervising and training AI systems"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Wants clear guidelines for responsible AI use in grading and feedback",
+          "Advocates for ongoing professional development in AI literacy",
+          "Encourages pilot programs to assess AI tool effectiveness before full rollout"
+        ]
+      }
+    ]
+  }
+]

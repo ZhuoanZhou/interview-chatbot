@@ -1,0 +1,534 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s Degree from an accredited university.",
+          "Completed undergraduate coursework in business administration, accounting, or a related field.",
+          "Took elective courses in finance and data analysis to support current role.",
+          "Participated in internship programs related to billing or finance during university.",
+          "Has completed basic on-the-job training in billing systems post-hire."
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Current job title: Bill and Account Collector.",
+          "Responsible for maintaining billing records and tracking client invoices.",
+          "Manages subcontractor billing and contract processes across multiple regions.",
+          "Prepares and reviews monthly client activity reports and compliance filings.",
+          "Coordinates with internal and external teams to ensure accurate billing and reporting."
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the professional services sector, specializing in financial compliance support.",
+          "Role is positioned at the intersection of finance, consulting, and global operations.",
+          "Frequently interacts with teams across multiple countries for client billing.",
+          "Industry focus includes multinational corporate clients and subcontractors.",
+          "Engages with compliance and reporting services as part of business operations."
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a large, multinational organization with a global footprint.",
+          "Company has multiple engagement teams distributed across regions.",
+          "Works in a hybrid environment with both in-office and remote collaboration.",
+          "Interacts regularly with colleagues in other countries, such as Australia.",
+          "Company culture emphasizes digital tools, cross-team communication, and reporting."
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Operates in the business-to-business (B2B) segment, serving corporate clients.",
+          "Provides billing, compliance, and contracting services to multinational organizations.",
+          "Market segment includes financial services, compliance consulting, and global operations.",
+          "Supports clients managing regulatory requirements and fee analysis across borders."
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 1-2 years of experience in the current Bill and Account Collector role.",
+          "Started in this role shortly after graduating from university.",
+          "Has completed at least one full annual billing cycle with multiple clients.",
+          "Has experience onboarding new clients and adjusting to changing processes over time."
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds an entry-level to early-career professional position.",
+          "Reports directly to a manager and participates in regular one-on-one meetings.",
+          "Acts as a primary point of contact for certain billing and contracting tasks.",
+          "Has some autonomy but major decisions are overseen by management."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Maintains and updates billing records for multiple clients using Excel and SAP-based tools.",
+          "Reviews, reconciles, and approves invoices from subcontracted teams in various countries.",
+          "Prepares monthly status reports for clients, often using Power BI and PowerPoint.",
+          "Drafts, manages, and sends contracts and subcontracts using Word.",
+          "Participates in daily team calls and weekly touchpoints to coordinate deliverables and status updates."
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 40% of workweek on billing and invoice management.",
+          "Allocates around 25% of time to preparing and reviewing monthly client reports.",
+          "Dedicates about 20% of time to contract creation, tracking, and compliance checks.",
+          "Reserves the remaining 15% for meetings, communications, and ad hoc requests."
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has autonomy to review and approve standard invoices within set limits.",
+          "Responsible for tracking and escalating discrepancies or compliance issues.",
+          "Major contracting and billing policy changes require manager approval.",
+          "Can independently draft client communications and routine status updates.",
+          "Works under established guidelines but exercises judgment in day-to-day billing tasks."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Updating Excel sheets with new invoice data is a routine and comfortable task.",
+          "Drafting standard client status emails using AI-assisted templates is straightforward.",
+          "Reconciling invoices against deliverables is a familiar part of the workflow.",
+          "Communicating with internal teams during regular check-ins comes naturally."
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Coordinating billing and compliance across multiple international teams can be complex.",
+          "Handling discrepancies or escalations in invoices from different countries requires careful attention.",
+          "Managing ad hoc contract changes and integrating them into billing systems is challenging.",
+          "Ensuring accurate compliance reporting with shifting client requirements can be difficult."
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Entering and updating large sets of invoice data in Excel is repetitive and data-heavy.",
+          "Generating monthly client billing reports follows a standard, repeatable process.",
+          "Tracking deliverables and progress billing percentages for multiple projects is suitable for automation.",
+          "Compiling and formatting presentation materials for recurring status meetings could be automated."
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys collaborating with global teams and problem-solving billing discrepancies.",
+          "Finds preparing visually appealing reports in Power BI to be engaging.",
+          "Considers routine data entry in Excel to be tedious over time.",
+          "Formatting long documents and repetitive contract creation is less enjoyable."
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Excel files frequently crash due to large data volumes, slowing down work.",
+          "Manual reconciliation of invoices is time-consuming and prone to human error.",
+          "Difficulty in quickly accessing accurate compliance deadlines for different countries.",
+          "Redundant data entry across multiple systems (e.g., Excel, SAP tools) leads to inefficiencies."
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Higher skill in Excel leads to faster task completion and increased enjoyment.",
+          "Feeling productive when resolving complex billing issues or automating repetitive tasks.",
+          "Enjoyment is highest when learning new tools or collaborating with diverse teams.",
+          "Productivity suffers when forced to repeat manual, low-skill data entry."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open and enthusiastic about adopting new digital tools that improve efficiency.",
+          "Actively seeks ways to integrate AI and automation into daily work.",
+          "Views technical learning as essential for staying relevant in the role."
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Quick to adapt to new software, especially when it aligns with workflow needs.",
+          "Has transitioned smoothly to using Power BI and AI-driven Excel formula tools.",
+          "Comfortable experimenting with new features and digital platforms."
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate time for tech training that promises clear efficiency gains.",
+          "Prefers hands-on, task-based learning over lengthy theoretical courses.",
+          "Prioritizes training on tools that have immediate impact on daily responsibilities."
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential of reducing manual workload and repetitive tasks.",
+          "Barriers include time constraints due to deadlines and high-volume billing cycles.",
+          "More likely to learn new tech if recommended by peers or management."
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often share AI tips, such as Excel formula prompts, increasing willingness to try new tools.",
+          "Manager encouragement and support are key factors in adopting new technology.",
+          "Team culture values shared learning and collaborative problem-solving with new tech."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Microsoft Excel daily for billing records and fee analysis.",
+          "Accesses SAP-based tools for billing and contract management.",
+          "Employs Power BI for generating and visualizing monthly client reports.",
+          "Utilizes Microsoft PowerPoint for creating client presentations.",
+          "Drafts contracts and related documents in Microsoft Word."
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on Excel spreadsheets for data entry and analysis.",
+          "Uses email (Outlook) for communication with clients and internal teams.",
+          "Employs company\u2019s Mercury system for tracking invoices and billing.",
+          "Utilizes shared network drives for document storage and version control."
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient in Microsoft Office Suite, especially Excel and Word.",
+          "Experienced with Power BI for business analytics and reporting.",
+          "Familiar with SAP-based modules for billing and contracting.",
+          "Has basic awareness of alternative billing platforms used in industry."
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces data transfer issues when moving Excel files into Power BI.",
+          "Manual input required to synchronize data between SAP tools and Excel sheets.",
+          "Formatting inconsistencies can arise when exporting reports between platforms.",
+          "Limited direct integration between Mercury system and other core tools."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic AI concepts such as machine learning, large language models, and automation.",
+          "Regularly uses AI-powered tools and is familiar with prompts and generative AI terminology.",
+          "Comfortable discussing use cases for AI in automating repetitive financial tasks.",
+          "Has explored AI\u2019s role in workflow optimization and data processing."
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses the company\u2019s proprietary AI bot for Excel formula generation.",
+          "Leverages AI-driven drafting assistants for client and team emails.",
+          "Has experimented with ChatGPT and similar LLMs for automating text tasks.",
+          "Utilizes AI features embedded in Microsoft Office for document editing."
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies AI tools weekly to generate complex Excel formulas.",
+          "Uses AI to draft and proofread emails multiple times per week.",
+          "Occasionally queries AI for compliance due dates, though accuracy varies.",
+          "Employs AI to brainstorm report content and improve visualizations."
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully automated several recurring Excel calculations using AI-generated formulas.",
+          "AI-assisted email drafting has reduced time spent on routine communications.",
+          "Encountered inaccurate compliance deadline information from AI, prompting manual verification.",
+          "Learned to double-check AI outputs for critical data, especially regulatory dates."
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company provides access to an internal AI bot and basic usage guidelines.",
+          "Peers often share practical tips and AI prompt examples during meetings.",
+          "No formal, in-depth AI training program currently in place.",
+          "Relies on self-learning and informal peer support to expand AI tool usage."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers a step-by-step, collaborative interaction with AI for complex tasks.",
+          "Uses AI independently for well-defined, routine tasks like formula generation.",
+          "Finds co-working with AI most effective for brainstorming or troubleshooting.",
+          "Values the ability to review and refine AI outputs before finalizing."
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant or productivity booster for repetitive work.",
+          "Sometimes treats AI as an advisor when exploring new reporting methods.",
+          "Prefers to retain final decision-making authority over AI-generated content.",
+          "Appreciates AI\u2019s role as a co-worker for improving efficiency, not for replacing human judgment."
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to integrating AI into more aspects of billing and reporting processes.",
+          "Willing to pilot new AI tools if they demonstrate tangible workflow improvements.",
+          "Supports experiments with automation, provided manual review remains possible.",
+          "Eager to adopt AI for compliance tracking once accuracy improves."
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational, natural-language interfaces for AI interactions.",
+          "Finds chat-style prompts easier to use than technical command-based inputs.",
+          "Appreciates follow-up suggestions and clarifications from conversational AI.",
+          "Would benefit from more guided, context-aware AI dialogues."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Invoice reconciliation requires nuanced understanding of global billing practices.",
+          "Compliance tracking depends on up-to-date, country-specific regulatory knowledge.",
+          "Drafting contracts involves applying company policies and legal standards.",
+          "Some routine billing tasks can be standardized, but exceptions require human expertise."
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for formula generation and standard email drafts.",
+          "Exercises caution and performs manual checks on AI-provided compliance dates.",
+          "Relies on human review for critical billing approvals and contract terms.",
+          "Considers AI reliable for routine, low-stakes tasks but not for final decisions."
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive data entry and formula creation.",
+          "Believes human oversight is essential for contract review and compliance reporting.",
+          "Supports a hybrid approach: AI for efficiency, humans for quality control.",
+          "Would like AI to flag anomalies but leave final decisions to staff."
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for standardized, low-risk tasks such as report formatting.",
+          "Feels threatened if core decision-making or client communication is fully automated.",
+          "Supports automation that improves speed but maintains human override options.",
+          "Prefers transparency in AI processes to ensure trust and accountability."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "AI enhances technical skills, especially in data analysis and process automation.",
+          "Reduces emphasis on manual data entry, shifting focus to quality assurance.",
+          "Increases the value of domain knowledge for interpreting AI outputs.",
+          "Promotes continuous learning to integrate new AI capabilities."
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing prompt engineering skills for effective AI tool use.",
+          "Gaining experience in validating and auditing AI-generated outputs.",
+          "Taking on responsibilities for training peers on AI adoption.",
+          "Learning to synthesize AI suggestions with business requirements."
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Minimal concern about AI replacing the overall role due to need for human oversight.",
+          "Recognizes that repetitive billing tasks are most vulnerable to automation.",
+          "Believes interpersonal skills and judgment remain irreplaceable.",
+          "Monitors industry trends for changes in job security related to AI."
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Manual review and approval are required before finalizing AI-generated invoices.",
+          "Has the ability to edit or reject AI-drafted emails and reports.",
+          "Company policy mandates human verification for all critical compliance outputs.",
+          "Override options are built into most AI-assisted workflow tools."
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company is increasingly encouraging the use of AI to boost productivity.",
+          "Policies emphasize ethical AI use and human accountability.",
+          "Team discussions now include best practices for AI tool usage.",
+          "Recent updates stress the importance of verifying AI outputs before client delivery."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will continue to drive efficiency in finance and compliance sectors.",
+          "Sees potential for AI to create new job opportunities requiring advanced skills.",
+          "Acknowledges risks of bias and over-reliance on AI in sensitive industries.",
+          "Expects widespread automation of routine business processes."
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports transparent and explainable AI systems for workplace use.",
+          "Worried about potential for inaccurate outputs without human checks.",
+          "Believes privacy and data protection must be prioritized in AI adoption.",
+          "Advocates for clear ethical guidelines on AI-assisted decision-making."
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Wants AI capable of accurately determining compliance deadlines for all client countries.",
+          "Desires more seamless integration between billing, contract, and reporting systems.",
+          "Would benefit from AI that can automatically flag billing discrepancies.",
+          "Seeks context-aware AI assistants that understand industry-specific terminology."
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects a shift towards supervising automated processes and auditing AI outputs.",
+          "Foresees reduced manual workload, with focus on exception handling and client relations.",
+          "Anticipates new roles in AI training and process optimization within the team.",
+          "Believes core analytical and communication skills will remain critical."
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement formal AI training programs tailored to billing and compliance roles.",
+          "Develop clear guidelines for human review and escalation in AI-driven workflows.",
+          "Invest in integrating AI across all major platforms used in the billing process.",
+          "Encourage open feedback channels for continuous improvement of AI tools."
+        ]
+      }
+    ]
+  }
+]

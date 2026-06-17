@@ -1,0 +1,527 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s Degree",
+          "Completed undergraduate studies in English Literature",
+          "Participated in writing workshops during university",
+          "Took elective courses in creative writing and journalism"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Staff Writer",
+          "Primary role involves researching, drafting, and editing written content",
+          "Contributes articles, essays, and reports for publication",
+          "Occasionally collaborates with editors and visual designers"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the media and publishing industry",
+          "Focuses on content creation for online and print platforms",
+          "Occasionally contributes to digital media projects"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed by a mid-sized publishing company (approx. 50-200 employees)",
+          "Work environment is collaborative but allows for independent projects",
+          "Mix of in-office and remote work options",
+          "Company culture emphasizes creativity and deadlines"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Serves general audience with focus on lifestyle and culture topics",
+          "Publishes both digital articles and occasional print magazines",
+          "Content is aimed at English-speaking adult readers"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 3-5 years of experience as a professional writer",
+          "Started in an entry-level writing role, promoted after 2 years",
+          "Has completed multiple annual review cycles in current position"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Considered mid-level within the organization",
+          "Mentors junior writers on occasion",
+          "Not in a formal management role",
+          "Has some autonomy in topic selection and workflow"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Researches assigned topics using reputable sources",
+          "Drafts original articles, essays, and reports",
+          "Edits and revises drafts based on editorial feedback",
+          "Performs fact-checking and ensures content accuracy",
+          "Analyzes images or graphics for alignment with written content"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 60% of time researching and writing",
+          "Editing and revisions take up about 20% of weekly workload",
+          "10% of time is dedicated to meetings and collaboration",
+          "The remaining 10% covers administrative tasks and email correspondence"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has autonomy in structuring research and drafting process",
+          "Selects sources and approaches for assigned topics",
+          "Final content approval requires editor sign-off",
+          "Can suggest article ideas but typically works on assigned topics"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Drafting first versions of articles comes naturally",
+          "Synthesizing information from multiple sources is a strength",
+          "Proofreading for grammar and spelling errors is straightforward",
+          "Identifying key messages and themes is intuitive"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Condensing large volumes of research into concise content can be difficult",
+          "Ensuring factual accuracy on specialized subjects is challenging",
+          "Incorporating complex visual data into articles requires extra effort",
+          "Meeting tight deadlines for multiple assignments is occasionally stressful"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Manually checking references and citations is repetitive",
+          "Formatting articles to specific style guides can be tedious",
+          "Compiling image captions and metadata could be automated",
+          "Sorting through research notes for relevant information is data-heavy"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys conceptualizing article angles and storytelling",
+          "Finds initial research and discovery process engaging",
+          "Editing for clarity and flow can be satisfying",
+          "Formatting documents and repetitive fact-checking are less enjoyable"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Switching between multiple research sources interrupts workflow",
+          "Manually updating citations is time-consuming",
+          "Waiting for editorial feedback can delay progress",
+          "Limited integration between text and visual tools causes inefficiency"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Productivity is highest when working on topics of personal interest",
+          "Skill level in writing and editing correlates with task enjoyment",
+          "Repetitive tasks decrease both engagement and output speed",
+          "Complex but interesting assignments are motivating, despite being challenging"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally indifferent toward adopting new technology unless required",
+          "Will learn new tools if they directly benefit workflow",
+          "Prefers sticking to familiar platforms unless a clear advantage is shown"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts to new software at a moderate pace",
+          "Can learn new systems with clear documentation or training",
+          "Occasionally relies on colleagues for troubleshooting"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Limited willingness to spend personal time on tech training",
+          "Attends mandatory workplace trainings but seldom pursues optional ones",
+          "Will invest time if tool is directly relevant to core writing tasks"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Main motivation is increased efficiency or reduced workload",
+          "Reluctance if new tools seem unrelated to primary tasks",
+          "Heavy workload is a barrier to learning new systems",
+          "Limited curiosity about technology outside work requirements"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Will try new tools if recommended by direct supervisor",
+          "Peers' positive experiences can increase openness to adoption",
+          "Management encouragement is more effective than peer pressure",
+          "Prefers to see proven benefits before fully committing"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Microsoft Word for drafting and editing",
+          "Employs Google Docs for collaborative writing projects",
+          "Relies on email (Outlook) for communication with editors",
+          "Occasionally uses online research databases (e.g., JSTOR, ProQuest)"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Reference managers like Zotero for organizing sources",
+          "Style guide documents (AP, Chicago Manual) for formatting",
+          "Basic photo editing software (e.g., Canva) for visuals",
+          "Spreadsheets for tracking assignments and deadlines"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient in Microsoft Office Suite",
+          "Familiar with CMS platforms (e.g., WordPress) for article publishing",
+          "Understands basics of copyright and document version control",
+          "Has moderate experience with collaborative writing tools"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces formatting issues when moving documents between Word and Google Docs",
+          "Images or graphics do not always import correctly between platforms",
+          "Citation managers sometimes fail to sync with word processors",
+          "Manual copy-paste required for publishing content in CMS due to lack of direct integration"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Has heard of large language models (LLMs) but lacks detailed knowledge",
+          "Understands AI can generate text, but not how it works technically",
+          "Familiar with the concept of AI-assisted writing tools (e.g., autocomplete)",
+          "Does not routinely follow AI industry news"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Has occasionally used ChatGPT for brainstorming ideas",
+          "Tried Grammarly\u2019s AI-powered suggestions for grammar and style",
+          "Tested Quillbot for paraphrasing some content",
+          "No regular use of advanced AI tools"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses AI tools sporadically, not as part of daily workflow",
+          "Applies ChatGPT to overcome writer\u2019s block or generate outlines",
+          "Relies on Grammarly AI for final proofreads on select pieces",
+          "Used Quillbot to rephrase awkward sentences in drafts"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI-generated outlines helped speed up initial brainstorming",
+          "AI suggestions sometimes required significant manual correction for accuracy",
+          "Once received factually incorrect info from ChatGPT, which was caught during editing",
+          "AI tools occasionally failed to capture intended writing tone"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal company training on AI tools provided",
+          "Peers occasionally share tips or best practices informally",
+          "Most knowledge comes from self-directed online research",
+          "Organization does not mandate or standardize AI tool usage"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers working independently on most writing tasks",
+          "Uses AI tools for specific steps, not full end-to-end workflows",
+          "Likes to maintain creative control over final outputs",
+          "Step-by-step AI collaboration is used only when stuck on a task"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Sees AI as a digital assistant for low-level tasks",
+          "Views AI as a brainstorming partner, not a content creator",
+          "Does not rely on AI for judgment-based decisions",
+          "AI is used for inspiration and minor edits, not major drafting"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Generally unenthusiastic about adopting AI-driven workflows",
+          "Open to new tools if they clearly improve efficiency",
+          "Skeptical of relying heavily on AI for core writing tasks",
+          "Prefers incremental adoption over radical workflow changes"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Finds conversational interfaces easier for brainstorming",
+          "Prefers simple, intuitive prompts over technical commands",
+          "Rarely uses advanced command inputs in AI tools",
+          "Would like AI tools to better understand context without explicit direction"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many writing assignments require nuanced understanding of subject matter",
+          "Tacit knowledge of audience preferences guides tone and style",
+          "Contextual interpretation of sources is often necessary",
+          "Automated tools struggle to replicate writer\u2019s voice and perspective"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for grammar and spelling suggestions but not for facts",
+          "Fact-checks all AI-generated content before use",
+          "Reluctant to rely on AI for sensitive or nuanced topics",
+          "Prefers human oversight for final drafts"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Favors AI for repetitive or administrative writing tasks",
+          "Prefers human effort for creative and analytical work",
+          "Sees value in AI as a support tool, not a replacement",
+          "Believes human judgment should always guide final content decisions"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Acceptable for automating formatting and citation tasks",
+          "Worries about automation replacing creative writing elements",
+          "High automation is threatening when it risks job uniqueness",
+          "Prefers transparency in how AI decisions are made"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes strong writing skills remain essential despite AI advances",
+          "Views research and analytical skills as increasingly important",
+          "Fears overreliance on AI could weaken critical thinking",
+          "Sees editing and fact-checking as more vital in an AI-assisted workflow"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning to prompt and evaluate AI-generated content is a new responsibility",
+          "Monitoring for plagiarism or AI-generated errors is now required",
+          "Basic understanding of AI tool limitations is necessary",
+          "Staying updated on AI's role in content creation is part of professional development"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Some concern about AI automating basic content drafting",
+          "Believes creative and analytical writing is less at risk",
+          "Feels editing roles may shift towards supervising AI outputs",
+          "Overall job security is not seen as immediately threatened"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Manual review of all AI-generated suggestions is standard practice",
+          "Edits and overrides are required for tone and factual accuracy",
+          "No automated publishing from AI; human checks are mandatory",
+          "Can reject or modify AI content without restriction"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has not issued formal AI adoption policies",
+          "AI use is permitted but not required",
+          "Peers show mixed attitudes towards AI integration",
+          "Management encourages experimentation but does not impose AI workflows"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Views AI as having mixed effects on the writing profession",
+          "Believes AI may streamline routine tasks but not replace creativity",
+          "Skeptical of claims that AI will fully automate journalism or authorship",
+          "Worries about misinformation or low-quality content generated by AI"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Concerned about potential plagiarism from AI-generated text",
+          "Believes transparency in AI use is important for ethical reasons",
+          "Worries about AI reinforcing biases in content creation",
+          "Prefers clear disclosure when AI assists in publishing"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would like AI tools that better understand and adapt to individual writing style",
+          "Desires AI features for automating citation formatting",
+          "Sees value in AI tools that can summarize complex research accurately",
+          "Prefers AI that can collaborate seamlessly within existing writing platforms"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects more routine writing tasks to become automated",
+          "Believes creative and analytical roles will remain human-centric",
+          "Forecasts increased emphasis on content curation and editing",
+          "Anticipates need for ongoing learning about AI\u2019s capabilities and limitations"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Recommends providing optional training on AI tools for writers",
+          "Suggests establishing clear guidelines for ethical AI use",
+          "Advocates for transparency in AI-generated content",
+          "Wants organization to maintain human oversight on all published work"
+        ]
+      }
+    ]
+  }
+]

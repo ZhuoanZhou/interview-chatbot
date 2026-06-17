@@ -1,0 +1,497 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master\u2019s Degree in Survey Methodology",
+          "Undergraduate degree in Sociology from a mid-sized university",
+          "Completed graduate coursework in statistics, research design, and data analysis",
+          "Participated in a capstone project focused on survey design and data visualization"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Survey Researcher",
+          "Responsible for designing, piloting, and analyzing surveys for research projects",
+          "Role includes collaborating with project stakeholders to define research questions",
+          "Involved in both the creation of survey instruments and the interpretation of collected data"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the social science research sector",
+          "Conducts survey research for academic and nonprofit organizations",
+          "Occasionally supports projects for commercial market research clients"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a small research consulting firm with approximately 25 employees",
+          "Office environment is collaborative and project-driven",
+          "Team frequently works cross-functionally with other researchers and analysts"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Specializes in customized survey research services",
+          "Clients include universities, nonprofits, and policy think tanks",
+          "Projects focus on social attitudes, program evaluation, and public opinion"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Less than 1 year of experience as a Survey Researcher",
+          "Started current position immediately after completing graduate studies",
+          "First full-time professional role in the field"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Entry-level professional",
+          "Reports to a senior survey methodologist",
+          "Works alongside other recent graduates and junior researchers"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Designs survey questionnaires based on project objectives",
+          "Conducts literature reviews and consults with project stakeholders",
+          "Coordinates and analyzes pilot tests to refine survey instruments",
+          "Performs data cleaning, analysis, and visualization of survey results",
+          "Prepares reports and presentations summarizing findings"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 40% of time on survey design and question development",
+          "About 25% of time is dedicated to data cleaning and analysis",
+          "Roughly 20% of time spent on meetings and stakeholder communication",
+          "10% involves pilot testing and troubleshooting survey instruments",
+          "5% allocated to reporting and visualization tasks"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has moderate autonomy in drafting survey questions and formats",
+          "Final survey design decisions require supervisor approval",
+          "Can independently choose tools and methods for data analysis within team guidelines",
+          "Expected to bring forward suggestions for process improvements"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Building surveys using platforms like SurveyMonkey and Google Forms is intuitive",
+          "Communicating with stakeholders to clarify project goals comes naturally",
+          "Creating basic survey visualizations and summary tables is straightforward"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Identifying question wording that avoids bias while maximizing response quality is difficult",
+          "Interpreting ambiguous or contradictory survey responses requires careful judgment",
+          "Designing surveys that work equally well across diverse respondent groups is complex",
+          "Balancing survey length with data needs can be challenging"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Transferring survey data from collection platform to spreadsheets is repetitive",
+          "Cleaning and formatting respondent data involves routine steps",
+          "Generating basic summary statistics and charts could be automated",
+          "Performing initial checks for incomplete or invalid responses is data-heavy"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Brainstorming and refining research questions is highly engaging",
+          "Collaborating with colleagues on innovative survey ideas is enjoyable",
+          "Manual data entry or cleaning feels tedious and time-consuming",
+          "Repetitive formatting of survey results for reports is less satisfying"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Discovering design flaws only after survey launch is frustrating",
+          "Switching between multiple software platforms can disrupt workflow",
+          "Manual error-checking of data is time-intensive and prone to oversight",
+          "Delays in stakeholder feedback can slow down the survey development process"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Enjoyment is highest when learning new techniques or seeing results visualized clearly",
+          "Productivity increases for tasks that match current skill set, such as using survey platforms",
+          "Feeling challenged by complex design problems can be motivating, but too much ambiguity reduces productivity",
+          "Repetitive tasks lower enjoyment but can be completed quickly with adequate tools"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open and enthusiastic about exploring new survey and analysis tools",
+          "Enjoys experimenting with productivity-enhancing software features",
+          "Views technology adoption as essential for staying current in the field"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to user-friendly platforms like Google Forms and SurveyMonkey",
+          "Requires some onboarding for more complex analytical tools",
+          "Comfortable troubleshooting basic issues independently"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate personal time to online tutorials for new tools",
+          "Seeks out short, focused training sessions over lengthy workshops",
+          "Prefers hands-on learning and immediate application in projects"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by potential to save time and improve data quality",
+          "Occasional barrier: heavy project workload limits time for self-training",
+          "Willing to learn if tool is directly relevant to daily workflow"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers frequently share tech tips that encourage faster adoption",
+          "Management supports exploring new tools, especially if they improve accuracy or efficiency",
+          "Positive team culture makes experimenting with new technologies less intimidating"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses SurveyMonkey and Google Forms for survey creation and deployment",
+          "Quadric is regularly used for more complex survey logic or branching",
+          "Spreadsheets (Google Sheets, Excel) are used for data cleaning and analysis",
+          "Data visualization is done with Google Data Studio or embedded survey tool features"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Email and calendar apps (Gmail, Google Calendar) for scheduling and communication",
+          "Slack for team communication and quick troubleshooting",
+          "Word processing software (Google Docs, MS Word) for drafting reports"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Familiar with common survey platforms such as Qualtrics and SurveyMonkey",
+          "Has some exposure to R or Python for statistical analysis, mainly through academic training",
+          "Aware of integration options between survey platforms and spreadsheets"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally experiences formatting issues when exporting data from survey platforms to spreadsheets",
+          "Manual intervention is needed to merge data from multiple sources",
+          "Limited direct integration between visualization tools and survey data platforms"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic AI concepts such as natural language processing and machine learning classification",
+          "Comfortable with terminology like 'large language models', 'training data', and 'prompt engineering'",
+          "Learned about AI applications in data analysis during graduate studies"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses OpenAI's ChatGPT for question wording suggestions and summarizing feedback",
+          "Employs Google Bard for brainstorming and quick research",
+          "Has experimented with automated data cleaning tools with AI features"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs daily to draft, revise, and optimize survey questions",
+          "Applies AI tools to synthesize stakeholder feedback into actionable changes",
+          "Occasionally uses AI for preliminary data analysis and identifying response trends"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI-generated alternative question phrasings improved pilot survey response rates",
+          "Sometimes LLMs suggest question types that are not suitable for target respondents, requiring manual adjustment",
+          "AI output occasionally overlooks nuanced research goals, highlighting the need for human review"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal AI training provided by the company, but informal peer learning is common",
+          "Peers regularly share prompt engineering tips and effective AI workflows",
+          "Self-guided experimentation with AI tools is encouraged by management"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI, especially during survey design",
+          "Finds it helpful when AI tools offer suggestions as each section is drafted",
+          "Uses independent AI interactions for quick brainstorming or troubleshooting"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for drafting and refining content",
+          "Occasionally uses AI in an advisor role for exploring new question formats",
+          "Relies on human team members for final decision-making and validation"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Very open to AI-driven workflows that increase efficiency or survey quality",
+          "Actively seeks out AI features that reduce manual, repetitive work",
+          "Wants to ensure that AI-driven changes are transparent and easily reversible if needed"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and iterative refinement",
+          "Uses command-based prompts for specific, well-defined tasks like data summarization",
+          "Finds a hybrid approach most productive, depending on the context"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Survey design often requires nuanced understanding of respondent demographics",
+          "Interpreting ambiguous results depends on knowledge of social science concepts",
+          "Adapting questions to sensitive topics involves tacit awareness of cultural norms"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI-generated suggestions for initial drafts and brainstorming",
+          "Always manually reviews AI outputs before finalizing survey instruments",
+          "Reserves critical decisions\u2014such as final question selection\u2014for human oversight"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to automate repetitive drafting, but humans to shape final survey content",
+          "Believes data cleaning can be largely automated with human spot checks",
+          "Wants humans to interpret nuanced or unexpected survey responses"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for data processing and visualization if results are auditable",
+          "Feels threatened if AI tools bypass human quality checks in survey design",
+          "Wants override options for any automated changes to survey content"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "AI enhances the importance of critical thinking and domain expertise",
+          "Routine technical skills (e.g., data cleaning) are less critical as automation improves",
+          "Strong communication and interpretation skills remain essential"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Prompt engineering and crafting effective AI queries is now a valuable skill",
+          "Ability to evaluate and validate AI outputs has become a new responsibility",
+          "Staying updated on the capabilities and limitations of AI tools is increasingly important"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Some concern that entry-level data cleaning or basic analysis tasks may be replaced by AI",
+          "Believes creative and interpretive aspects of survey research are less likely to be automated",
+          "Views AI as a tool to augment, rather than replace, the core responsibilities of the role"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always manually reviews and edits AI-generated survey content",
+          "Relies on built-in audit trails within survey platforms to track AI-driven changes",
+          "Prefers systems that allow for easy rollback of automated modifications"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Team has become more open to experimenting with new AI tools in the past year",
+          "Company encourages responsible AI use and emphasizes human oversight",
+          "No formal AI policy yet, but informal best practices are emerging among peers"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will increase efficiency and reduce human error in survey research",
+          "Expects AI to broaden access to high-quality survey design for smaller organizations",
+          "Recognizes potential risks of bias and over-automation if not carefully managed"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports using AI for routine tasks but stresses the need for transparency",
+          "Concerned about the potential for AI-generated biases in survey design",
+          "Believes ethical guidelines and human review are essential when applying AI to sensitive topics"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would benefit from real-time AI feedback on survey clarity and design best practices",
+          "Desires AI tools that can simulate respondent behavior before survey launch",
+          "Wants integrated AI-driven error detection for survey logic and branching"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Anticipates spending more time on research interpretation and less on manual data handling",
+          "Expects the role to shift towards strategic decision-making and stakeholder engagement",
+          "Predicts that prompt engineering will become a core competency for survey researchers"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Recommends providing structured training on AI tools relevant to survey research",
+          "Advocates for developing clear guidelines on when and how to apply AI in projects",
+          "Suggests piloting new AI features with small teams before large-scale rollout"
+        ]
+      }
+    ]
+  }
+]

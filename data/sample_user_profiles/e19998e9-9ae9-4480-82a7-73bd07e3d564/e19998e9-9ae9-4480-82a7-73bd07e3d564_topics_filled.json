@@ -1,0 +1,532 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Doctorate (PhD) in Computer Science, with a focus on data science and machine learning.",
+          "Completed undergraduate and master's degrees in related fields prior to PhD.",
+          "Participated in specialized workshops on statistical modeling and advanced analytics during doctoral studies.",
+          "Attended professional conferences and seminars throughout academic training.",
+          "Received formal training in research methodology and scientific publishing."
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Computer and Information Research Scientist (Data Scientist specialization).",
+          "Primary responsibilities include data science analysis, Python and SQL coding, and model development.",
+          "Regularly collaborates with cross-functional teams including product managers, UX researchers, and software engineers.",
+          "Involved in academic paper writing and patent filing as part of role.",
+          "Participates in candidate interviews and internal community events such as conferences and summits."
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the technology sector, specifically in data science and applied AI.",
+          "Involved in software product development and usage analytics.",
+          "Organization operates in a tech-driven, research-oriented environment.",
+          "Focuses on scalable data solutions and machine learning innovations."
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-to-large technology company with a significant research division.",
+          "Works in a collaborative, cross-functional team setting.",
+          "Company emphasizes innovation and internal knowledge sharing.",
+          "Office environment supports remote and hybrid work models."
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Company operates in the enterprise software and analytics market segment.",
+          "Primary business involves developing data-driven products and research solutions.",
+          "Serves both internal business units and external enterprise clients.",
+          "Focuses on leveraging machine learning to optimize product usage and user experience."
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 3-5 years of experience in the current data scientist role.",
+          "Joined the organization after completing doctoral studies.",
+          "Progressed from entry-level research scientist to more autonomous responsibilities within this time frame.",
+          "Has accumulated experience managing moderate complexity projects."
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds a mid-level to senior individual contributor position.",
+          "Leads technical efforts on assigned projects but does not have direct managerial responsibility.",
+          "Acts as a subject matter expert within the data science team.",
+          "Mentors junior colleagues and occasionally leads internal knowledge sharing sessions."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Writes and maintains Python scripts for data analysis and machine learning model development.",
+          "Runs SQL queries to extract and analyze internal product usage data.",
+          "Collaborates with software engineers to productionize models and methods.",
+          "Prepares documentation and presentation slides to communicate findings.",
+          "Works with cross-functional stakeholders such as product managers and UX researchers."
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 40% of time on coding and technical analysis (Python/SQL).",
+          "Allocates around 20% to meetings and stakeholder communications.",
+          "Dedicates 15% to documentation and writing tasks (reports, papers, patents).",
+          "Spends about 10% on preparing and delivering presentations.",
+          "Remaining 15% includes interviewing candidates, organizing events, and community contributions."
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Exercises significant autonomy in selecting and implementing analytical methods.",
+          "Makes independent decisions regarding data preparation, model selection, and initial analysis.",
+          "Collaborative decision-making on project direction with product and engineering leads.",
+          "Final technical outputs often subject to peer review and stakeholder feedback.",
+          "Responsible for prioritizing own tasks within project guidelines."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Writing and debugging Python code for data manipulation and analysis.",
+          "Running SQL queries to extract and transform data from internal databases.",
+          "Synthesizing technical findings into clear documentation.",
+          "Collaborating with engineers on implementation details."
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Developing and validating new machine learning models for novel use cases.",
+          "Designing methodologies for ambiguous or ill-defined business problems.",
+          "Negotiating priorities and technical trade-offs with non-technical stakeholders.",
+          "Preparing academic papers and patents under tight deadlines."
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Routine data cleaning and preprocessing steps on large datasets.",
+          "Regular generation of summary statistics and standard reports.",
+          "Formatting slides or documents for internal presentations.",
+          "Initial screening of candidate resumes for interviews."
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys exploratory data analysis and developing innovative models.",
+          "Finds cross-functional brainstorming sessions engaging.",
+          "Considers repetitive data formatting and documentation updates tedious.",
+          "Least enjoys administrative tasks related to event organization."
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual data wrangling for poorly structured source tables.",
+          "Integration issues between internal coding tools and documentation platforms.",
+          "Delays in receiving feedback from stakeholders or reviewers.",
+          "Lack of standardized templates for presentation and reporting."
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Feels most productive when working on technically challenging, engaging projects.",
+          "Enjoyment and skill level are highest in hands-on coding and analysis work.",
+          "Productivity drops when faced with monotonous or bureaucratic tasks.",
+          "Learns new skills fastest when the task aligns with both personal interest and business value."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Has a proactive attitude toward learning new data science tools and frameworks.",
+          "Sees technology adoption as essential to staying relevant in the field.",
+          "Open to experimenting with emerging AI/ML platforms."
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Considers self highly adaptable to new coding environments and libraries.",
+          "Typically requires minimal ramp-up time for new technical tools.",
+          "Confident in ability to transition between SQL, Python, and LLM-based tools."
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate personal time outside work hours for critical upskilling.",
+          "Prefers structured, hands-on workshops for rapid learning.",
+          "Occasionally attends internal or external webinars and seminars."
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by immediate applicability of new tech to current projects.",
+          "Workload and tight deadlines can sometimes limit time for learning.",
+          "More likely to adopt new tools if endorsed or piloted by trusted colleagues."
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers' positive experiences with new tools increase willingness to try them.",
+          "Management support and training resources accelerate adoption.",
+          "Collaborative culture encourages sharing best practices on tool usage."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses an internal coding platform for Python and SQL development as the primary work environment.",
+          "Works with Google Workspace tools (Gmail, Google Docs, Google Slides) for communications and documentation.",
+          "Employs Gemini (an LLM-based assistant) regularly for coding support and communication tasks.",
+          "Accesses internal databases for data extraction and analysis."
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on Google Docs for technical documentation and collaborative editing.",
+          "Prepares presentations with Google Slides for internal and external audiences.",
+          "Uses Gmail for daily communication with colleagues and stakeholders.",
+          "Utilizes internal source control systems for code versioning."
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient in Python, especially for data science applications (NumPy, pandas, scikit-learn).",
+          "Experienced with SQL for querying relational databases.",
+          "Familiar with industry-standard tools like Jupyter Notebooks and Git.",
+          "Understands cloud-based data storage and compute solutions."
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces challenges integrating internal coding tools with documentation platforms.",
+          "Data transfer between SQL databases and analysis environments can require manual intervention.",
+          "Formatting inconsistencies emerge when exporting between Google Slides and other formats.",
+          "Limited direct integration between LLM tools and proprietary data systems."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Highly familiar with supervised and unsupervised learning techniques.",
+          "Understands core concepts such as model training, validation, and deployment.",
+          "Conversant in terminology related to LLMs, deep learning, and data preprocessing.",
+          "Keeps current with advances in model architectures and evaluation metrics."
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses Gemini (LLM) as a daily AI assistant for coding and productivity.",
+          "Works with in-house Python-based machine learning frameworks.",
+          "Has experimented with open-source libraries such as TensorFlow and PyTorch.",
+          "Employs AI-powered features embedded in productivity tools (e.g., smart replies, document suggestions)."
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies LLMs daily for code generation, debugging, and documentation drafting.",
+          "Uses AI-based tools to synthesize data findings and generate presentation materials.",
+          "Employs machine learning models for predictive analytics and product usage analysis.",
+          "Leverages AI for initial patent or research paper draft writing."
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully automated error debugging using LLMs, reducing turnaround time.",
+          "Facilitated more effective communication with stakeholders via AI-generated slide drafts.",
+          "Encountered occasional hallucinations or factual errors from LLM-generated responses.",
+          "Learned the importance of manual review and validation when using AI-generated content."
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company provides access to internal documentation on AI tool best practices.",
+          "Peers often share tips and workflows for effective LLM usage.",
+          "Occasional internal workshops or seminars focus on advanced AI applications.",
+          "Slack channels or forums facilitate Q&A on AI tool troubleshooting."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI tools when solving complex problems.",
+          "Uses independent queries for routine coding or data tasks.",
+          "Adopts an iterative approach to refining AI-generated outputs.",
+          "Occasionally switches to independent use when under time pressure."
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI as an assistant that accelerates productivity and idea generation.",
+          "Occasionally treats LLM as an advisor for brainstorming or technical debugging.",
+          "Prefers AI to handle repetitive or tedious tasks, freeing up time for higher-level work.",
+          "Sees AI as a collaborative tool rather than a decision-maker."
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to integrating new AI-driven workflows if they demonstrate clear efficiency gains.",
+          "Early adopter of LLM-based features for document and slide generation.",
+          "Willing to pilot new AI tools and provide feedback for improvement.",
+          "Prefers workflows that balance AI automation with human oversight."
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and communication-related tasks.",
+          "Uses command-based prompts for precise coding or data manipulation.",
+          "Finds conversational UIs more accessible for less technical stakeholders.",
+          "Switches interface style based on task complexity and context."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Analytical modeling and interpretation often require deep domain understanding.",
+          "Effective stakeholder communication depends on knowledge of product context.",
+          "Patent writing involves specialized legal and technical expertise.",
+          "Cross-functional collaboration benefits from tacit knowledge of organizational processes."
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI-generated outputs for routine coding and data summarization tasks.",
+          "Maintains healthy skepticism for critical analysis or novel recommendations from AI.",
+          "Always reviews AI-generated reports and documentation before finalizing.",
+          "Relies on manual verification for high-impact deliverables."
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to automate repetitive or highly structured tasks (e.g., data cleaning, draft generation).",
+          "Values human oversight for model validation, interpretation, and stakeholder communication.",
+          "Supports hybrid workflows where AI augments but does not replace domain expertise.",
+          "Favors maintaining manual checks in all critical processes."
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for low-stakes, well-defined tasks with clear evaluation criteria.",
+          "Considers high automation threatening if it risks introducing undetected errors in critical outputs.",
+          "Willing to increase automation if override and audit mechanisms are robust.",
+          "Prefers human involvement in tasks requiring judgment, context, or creativity."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the value of domain expertise and advanced analytical skills.",
+          "Views automation as reducing the need for rote data processing.",
+          "Considers communication and interpretation skills increasingly important alongside technical skills.",
+          "Sees continuous upskilling as necessary to maintain relevance."
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing proficiency in prompt engineering for LLMs.",
+          "Learning to design and supervise AI-augmented workflows.",
+          "Responsible for evaluating AI tool outputs for accuracy and relevance.",
+          "Required to provide feedback on AI system performance and improvement."
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Moderately concerned about automation of repetitive data analysis tasks.",
+          "Confident that higher-level analytical and stakeholder-facing responsibilities will remain human-led.",
+          "Sees AI as a tool for augmentation rather than outright replacement.",
+          "Monitors industry trends for potential role shifts due to AI."
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Manual review is required for all high-impact AI-generated outputs.",
+          "Team maintains human-in-the-loop protocols for critical deliverables.",
+          "Override options are built into internal AI tools for safety.",
+          "Peer review plays a role in validating AI-driven analyses."
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has formalized guidelines for responsible AI use.",
+          "Policies emphasize transparency, validation, and ethical considerations.",
+          "Recent shift toward increased AI tool adoption in daily workflows.",
+          "Encouragement of pilot projects to assess AI impact before full rollout."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will drive major efficiency gains across industries.",
+          "Sees potential for both positive disruption and job displacement.",
+          "Anticipates increased democratization of advanced analytical capabilities.",
+          "Views responsible AI development as crucial for societal benefit."
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Concerned about transparency and explainability in AI-driven decisions.",
+          "Advocates for maintaining human accountability over automated processes.",
+          "Believes in ethical guidelines to prevent bias and misuse of AI.",
+          "Supports regular audits of AI systems to ensure fairness and accuracy."
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Wishes for AI assistants that can fully automate structured email replies and calendar management.",
+          "Desires more reliable AI-driven debugging tools integrated with coding environments.",
+          "Sees value in AI-powered conflict mediation tools for workplace communication.",
+          "Would benefit from AI that better understands organizational context and domain-specific knowledge."
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine data processing to become almost fully automated.",
+          "Foresees an increased emphasis on creative problem-solving and domain expertise.",
+          "Anticipates a shift toward supervising and auditing AI systems.",
+          "Believes communication and interpretation roles will gain prominence."
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Establish clear guidelines for responsible and ethical AI use.",
+          "Invest in ongoing training for all employees on AI tools and risks.",
+          "Promote a culture of experimentation with new AI-driven workflows.",
+          "Regularly review and update security and validation protocols for AI systems."
+        ]
+      }
+    ]
+  }
+]

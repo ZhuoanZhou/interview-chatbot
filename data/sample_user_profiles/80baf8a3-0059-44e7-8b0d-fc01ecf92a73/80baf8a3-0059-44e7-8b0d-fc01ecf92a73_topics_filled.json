@@ -1,0 +1,503 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Doctorate (PhD) in Communications",
+          "Completed undergraduate studies in Journalism and Mass Communication",
+          "Attended professional development workshops in crisis communication and media relations",
+          "Published doctoral research on the impact of digital media on public perception",
+          "Earned a certificate in Digital Marketing Strategies"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Current job title is Public Relations Specialist",
+          "Role involves managing organizational communications and media relations",
+          "Responsible for crafting press releases, social media content, and strategic messaging",
+          "Occasionally handles crisis communications and reputation management",
+          "Acts as a liaison between the organization and external stakeholders"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the public relations and communications sector",
+          "Organization operates within the broader marketing and media industry",
+          "Engages with clients and partners from a variety of industries, including nonprofit and corporate sectors"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed by a mid-sized organization with approximately 150 employees",
+          "Works within a collaborative, cross-functional communications team",
+          "Company culture emphasizes innovation, adaptability, and continuous learning"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Company specializes in strategic communications and media relations services",
+          "Serves both B2B and B2C clients, with a focus on brand reputation management",
+          "Operates in a competitive market segment with a strong emphasis on digital engagement"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 3-5 years of experience in the current public relations specialist role",
+          "Spent initial years post-PhD in junior communication roles before current position",
+          "Has developed expertise in media outreach and digital content strategy over this period"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds a mid-level specialist position within the communications team",
+          "Regularly mentors junior staff and interns on media relations best practices",
+          "Reports to the Communications Director, occasionally leads project teams"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Crafts and distributes press releases to media outlets",
+          "Maintains and builds relationships with journalists and key media contacts",
+          "Develops and executes strategic communications plans for brand reputation",
+          "Creates and schedules social media content using management platforms",
+          "Monitors media coverage and analyzes public sentiment"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends roughly 35% of time managing media relations and pitching stories",
+          "Allocates 25% of work hours to content creation for press releases and social media",
+          "Dedicates about 20% to monitoring coverage and sentiment analysis",
+          "The remaining 20% is split between strategic planning, meetings, and crisis communications"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates with moderate autonomy for day-to-day media outreach and content production",
+          "Requires management approval for high-impact press releases or crisis responses",
+          "Can independently select media contacts and pitching strategies within guidelines",
+          "Contributes to strategic campaign planning but final decisions rest with senior leadership"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Writing press releases and social media content comes naturally due to academic background",
+          "Building rapport with journalists is facilitated by strong interpersonal skills",
+          "Using graphic design tools like Canva for quick content creation is straightforward"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Managing communications during a crisis requires rapid, high-stakes decision-making",
+          "Handling negative media coverage and developing effective responses is complex",
+          "Coordinating cross-departmental strategic initiatives can be challenging due to differing priorities"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Routine media monitoring and sentiment analysis are repetitive and suited for AI automation",
+          "Compiling and formatting press coverage reports is data-heavy and time-consuming",
+          "Scheduling social media posts follows predictable patterns that can be automated"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Developing creative campaign concepts and storytelling is highly engaging",
+          "Strategizing crisis communications adds a stimulating challenge",
+          "Routine data entry and manual analytics reporting can feel tedious",
+          "Repetitive press release distribution without customization is less enjoyable"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manually tracking media coverage across multiple platforms is inefficient",
+          "Switching between disparate tools causes workflow interruptions",
+          "Limited integration between PR distribution and analytics tools leads to redundant work",
+          "Securing timely feedback on drafts from stakeholders can delay projects"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Tasks that align with writing and communication skills tend to be both enjoyable and productive",
+          "Higher enjoyment is linked to greater creativity and campaign success",
+          "Repetitive or low-skill tasks reduce motivation, potentially lowering productivity"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Highly positive and proactive about adopting new technologies",
+          "Sees learning new tools as essential for staying competitive in modern PR",
+          "Enjoys experimenting with emerging software that boosts efficiency"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new platforms, especially those that integrate with existing workflows",
+          "Often serves as an early adopter within the team for AI and analytics tools",
+          "Occasionally assists colleagues in onboarding to new systems"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Regularly attends webinars and online courses on digital communications tools",
+          "Dedicates a few hours per month to exploring updates and new features in work software",
+          "Believes that time spent on training yields significant productivity returns"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Primary motivation is to streamline repetitive tasks and improve campaign outcomes",
+          "Biggest barrier is balancing tech learning with a high workload during campaign launches",
+          "Interest in new tools depends on clear relevance to daily responsibilities"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often share recommendations for effective PR and AI tools",
+          "Management encourages digital skills development and provides resources for learning",
+          "Team culture supports experimentation with new technologies, reducing adoption hesitancy"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Meltwater and Google Alerts for media monitoring and sentiment analysis",
+          "Relies on PR Newswire and Muckrack for press release distribution and journalist outreach",
+          "Uses Canva, Grammarly, and Adobe Creative Suite for content creation",
+          "Employs Hootsuite and Sprout Social to schedule and analyze social media posts"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Utilizes Adobe Creative Suite (Photoshop, Illustrator) for high-quality graphics",
+          "Uses Google Workspace (Docs, Sheets, Drive) for collaboration and document management",
+          "Relies on Slack for team communication and project coordination"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient in using PR and media monitoring software widely adopted in the industry",
+          "Regularly experiments with new social media management and analytics platforms",
+          "Keeps current with updates in major content creation and distribution tools"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Experiences occasional challenges integrating media monitoring results with reporting tools",
+          "Some PR distribution platforms lack seamless connection to analytics dashboards",
+          "Manually consolidates data from multiple sources due to limited tool interoperability"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands core concepts such as natural language processing and sentiment analysis",
+          "Familiar with machine learning basics and their application in media monitoring",
+          "Regularly uses and discusses AI-driven tools with colleagues"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses AI-powered features in Meltwater for automated sentiment analysis",
+          "Employs Grammarly's AI for content refinement and error detection",
+          "Experiments with generative AI platforms (e.g., ChatGPT) for drafting press materials",
+          "Leverages social media platforms' AI-driven analytics for campaign assessment"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies AI tools daily for media monitoring and coverage tracking",
+          "Uses generative AI to draft and edit press releases and social media posts each day",
+          "Employs AI analytics to gauge campaign performance and public sentiment continuously",
+          "Utilizes AI chatbots for initial journalist outreach or responding to routine queries"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used AI-generated content to speed up press release drafts, saving hours weekly",
+          "AI sentiment analysis occasionally misclassifies sarcasm, highlighting the need for human review",
+          "Automated media coverage tracking improved report accuracy, but missed niche publications at times",
+          "Learned to cross-check AI outputs before finalizing critical communications"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company provides periodic workshops on using AI-powered tools in communications",
+          "Peers share tips and best practices in informal team meetings",
+          "Access to online training modules for new AI features is available on demand"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers a step-by-step collaborative approach for brainstorming and drafting content with AI",
+          "Uses independent AI outputs when time is limited or for routine tasks",
+          "Finds collaboration with AI most effective during campaign planning phases"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant that accelerates routine tasks",
+          "Occasionally treats AI as an advisor for content suggestions or analytics interpretation",
+          "Sees AI as a co-worker in repetitive data analysis, freeing time for strategic thinking"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to piloting and refining AI-driven processes",
+          "Regularly proposes workflow improvements involving AI to management",
+          "Encourages team adoption of AI for increased consistency and efficiency"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational AI interfaces for brainstorming and creative collaboration",
+          "Uses command-based AI for straightforward, repetitive tasks (e.g., scheduling posts)",
+          "Finds conversational interfaces more intuitive for nuanced content refinement"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Crafting nuanced crisis communications requires deep domain and organizational knowledge",
+          "Media relationship management depends on understanding subtle industry dynamics",
+          "Routine content creation can leverage AI, but strategic messaging relies on human expertise"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for initial drafts, sentiment analysis, and coverage reports with human review",
+          "Less trusting of AI for high-stakes or nuanced communications without oversight",
+          "Regularly validates AI-generated analytics before making major decisions"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive monitoring, reporting, and draft generation",
+          "Human oversight is essential for strategic decisions, crisis response, and message nuance",
+          "Aims for a 60/40 split: AI for routine tasks, human input for critical/creative work"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "High automation is acceptable for data aggregation and simple content generation",
+          "Feels threatened if AI is used for nuanced public statements without human review",
+          "Supports automation where it demonstrably increases accuracy or saves significant time"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "AI enhances the value of strategic thinking and creativity by freeing up time from routine tasks",
+          "Basic writing and monitoring skills are less critical due to automation",
+          "Analytical skills and adaptability have become more important with AI integration"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing prompts and reviewing AI-generated content is now a key responsibility",
+          "Increased focus on interpreting AI analytics and making data-driven decisions",
+          "Responsible for training colleagues on AI tool best practices"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mildly concerned about AI replacing basic content writing and reporting tasks",
+          "Believes core PR functions (relationship management, strategy) are less at risk",
+          "Views AI as a tool for augmentation rather than direct replacement"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All AI-generated press releases and analytics reports are manually reviewed before release",
+          "Can intervene or edit outputs at any stage in the workflow",
+          "Team follows a policy of human sign-off on communications produced with AI assistance"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has formalized guidelines for responsible AI use in PR activities",
+          "Recent policies require transparency and disclosure of AI-generated content when applicable",
+          "Team is encouraged to experiment with AI but report any major issues or failures"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will continue to transform PR by making communications more data-driven",
+          "Expects AI to democratize access to advanced analytics for smaller organizations",
+          "Acknowledges potential risks of misinformation or over-automation in public discourse",
+          "Views AI as a driver of both efficiency and new ethical challenges"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Advocates for transparency in the use of AI-generated content",
+          "Worries about bias in AI data sets affecting sentiment analysis accuracy",
+          "Supports regular audits and ethical reviews of AI-powered processes",
+          "Believes that AI should augment, not replace, human judgment in communications"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires seamless integration between media monitoring, analytics, and content creation platforms",
+          "Wants AI tools that better understand context, tone, and cultural nuances in communications",
+          "Sees value in AI-driven crisis scenario simulators for PR planning",
+          "Would benefit from smarter AI assistants that proactively suggest strategy adjustments"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects a shift toward more strategic advisory work as routine tasks become automated",
+          "Anticipates new responsibilities in AI oversight, ethical review, and prompt engineering",
+          "Foresees increased collaboration with AI systems for campaign ideation and measurement",
+          "Believes human creativity and judgment will remain central despite technological advances"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement ongoing training and upskilling programs for AI literacy",
+          "Establish clear policies for responsible and transparent AI use in communications",
+          "Invest in AI tools with proven interoperability to streamline workflows",
+          "Create a cross-functional AI ethics committee to oversee new implementations"
+        ]
+      }
+    ]
+  }
+]

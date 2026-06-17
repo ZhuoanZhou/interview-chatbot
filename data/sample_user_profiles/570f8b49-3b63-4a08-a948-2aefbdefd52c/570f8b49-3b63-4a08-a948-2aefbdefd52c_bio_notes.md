@@ -1,0 +1,290 @@
+# Biographical Notes
+
+- Values continuous review of AI's ethical implications
+- Spends about 60% of time on photo and video post-production
+- Holds a senior position within the company
+- Involved in high-level decisions about tool adoption and workflow
+- Worries about misuse of generative AI for plagiarism or deepfakes
+- Uses AI as a co-worker for first drafts but retains editorial control
+- Experience spans both hands-on editing and operational management
+- Employees often take on multiple roles due to small team size
+- Manual re-exporting needed when moving projects between editing suites
+- Appreciates flexibility to choose between interface modes
+- Always eats lunch at exactly 12:30 PM, no exceptions.
+- Slow upload/download speeds for large video files
+- Ongoing conversations about ethical and quality standards for AI use
+- Has a habit of naming their editing folders after favorite 80s movie characters.
+- Prioritizes learning tools most relevant to current workflow
+- Reluctant to adopt tools that disrupt existing workflows without clear benefit
+- High automation is threatening only when it reduces control or quality
+- Keeps a small collection of rubber ducks on the desk as ‘debugging companions.’
+- Has a collection of rare vinyl records that occasionally plays during late-night editing marathons.
+- Creative editing and experimenting with new visual effects is highly engaging
+- Keeps a miniature zen garden on the desk to help alleviate post-production stress.
+- Participated in online courses to stay current with editing software
+- Manages website content and updates using AI-generated copy
+- Responsible for implementing process improvements
+- Advanced video compositing and special effects can be time-consuming
+- Learned to play ukulele during the pandemic lockdown and occasionally performs at open mic nights.
+- Occasional pressure to keep up with industry standards
+- Maintains a detailed spreadsheet tracking all films watched during international travel leisure time.
+- Looks for smarter file organization and metadata tagging AI
+- Is fascinated by mechanical watches and rotates wearing a different vintage piece weekly.
+- Company provides media editing and post-production services
+- Has a monthly tradition of trying a new ethnic cuisine and documenting the experience with photos.
+- Keeps up with news about AI advancements in the creative industry
+- AI-generated website content is always edited before publishing
+- Accepts high automation for administrative, low-risk tasks
+- Manual metadata entry slows down workflow
+- Metadata sometimes lost when transferring files across platforms
+- Company is gradually encouraging more use of AI tools
+- Recognizes potential for job displacement in lower-skill editing roles
+- Sees value in human-AI collaboration rather than full replacement
+- Favors automation for backend and admin tasks, less so for creative editing
+- Open to trying AI features as they become more reliable
+- Leverages AI for initial creative brainstorming sessions
+- Can self-teach most new features through online resources
+- Keeps a stash of quirky socks for ‘power dressing’ on important editing deadlines.
+- Keeps a small bonsai tree on the windowsill that they’ve nurtured for over five years.
+- Switches interface style based on task complexity
+- Is passionate about urban sketching and often shares quick cityscape drawings on social media.
+- Client branding and voice require nuanced understanding not easily automated
+- Wary of automating client communication or creative decisions
+- Views AI as an assistant for routine or repetitive tasks
+- Trusted to make independent decisions on client deliverables
+- Develop clear guidelines for ethical and responsible AI use
+- Performs photo editing using Adobe Photoshop and Lightroom
+- Collects vintage coffee mugs from every client city visited during business trips.
+- Manually reviews all AI-generated content before final use
+- Many editing decisions draw on years of industry experience and aesthetic judgment
+- Always reviews and revises AI outputs before client delivery
+- Routinely switches out desk toys depending on the current mood or theme of ongoing projects.
+- Believes creative and final approval stages should remain human-driven
+- Owns a standing desk that hasn’t been lowered in over three years.
+- Managing simultaneous deadlines across multiple projects is challenging
+- Company lacks formal AI training, relies on self-directed learning
+- Mentors junior staff and interns on editing techniques
+- Skeptical of AI for highly creative or subjective tasks
+- No formal AI adoption policy yet, but open discussion is common
+- Mildly concerned about automation of basic photo and video edits
+- Relies on AI as a brainstorming partner for creative blocks
+- Occasionally attends free online webinars about creative AI tools
+- Anticipates new roles focused on AI oversight and quality control
+- Occasional compatibility issues between editing tools
+- Industry is rapidly evolving due to digital and AI advancements
+- Adapting AI-generated content to meet nuanced brand voice standards
+- Seen significant shifts in tools and workflows over career
+- Sees hybrid human-AI teams becoming standard in post-production
+- Started a tradition of themed Zoom backgrounds that change weekly to reflect team moods.
+- Occasionally finds steep learning curves with entirely new platforms
+- Makes independent decisions on editing style and quality control
+- Owns a mechanical keyboard with custom artisan keycaps themed around classic movies.
+- Engages in step-by-step collaboration with AI for complex or creative tasks
+- AI image editing in Photoshop occasionally produces unrealistic results requiring manual fixes
+- Continual learning is now more important to stay relevant
+- Feels job security is linked to ability to adapt and upskill
+- Previously held similar roles in other small media firms
+- Management encourages trial of tools that could improve productivity
+- Has a habit of doodling small cartoon characters in the margins of notebooks during brainstorming sessions.
+- Generating initial website copy drafts using AI
+- Generally proactive about exploring new editing tools and plugins
+- Organizing and archiving project files comes easily
+- Manual color grading using professional monitors
+- Less likely to invest in training for tools with unclear ROI
+- Prefers to use AI independently for drafting and then review results manually
+- Supports hybrid workflows where AI accelerates drafts, but humans refine and approve
+- Often iterates prompts to refine AI outputs
+- Prefers AI to handle repetitive or time-consuming tasks, with human oversight
+- Delegating simple tasks to AI tools when appropriate
+- Understanding AI-driven copyright and ethical issues is relevant
+- Expects to spend less time on repetitive editing and more on creative direction
+- Basic noise reduction or cropping in large photo sets
+- Time constraints from project deadlines can delay adoption
+- Tends to pilot new tools before full adoption
+- Concerned about the need for ethical guidelines and oversight
+- AI-driven video upscaling struggled with complex scenes, leading to manual intervention
+- Establish regular reviews of AI tool performance and impact
+- Occasional use of AI-powered website builders like Wix or Squarespace
+- Will only invest in learning tech that directly improves output or client satisfaction
+- Enjoys brewing specialty teas and hosts casual office tastings every other Wednesday.
+- Open discussions in team meetings about tool adoption
+- No official documentation or process for AI tool evaluation
+- Knows the difference between rule-based and learning-based automation
+- Finalizing a polished project for client delivery is satisfying
+- Works in the media production sector
+- Color grading and image selection benefit from personal style and intuition
+- Ensuring color consistency across devices and formats requires expertise
+- Ability to critically evaluate AI outputs is increasingly important
+- Motivated by desire to stay competitive and efficient
+- Sees value in adopting technology that improves efficiency or quality
+- Encourage experimentation while maintaining manual review safeguards
+- Understands basic concepts like generative AI, LLMs, and neural networks
+- Once won a pumpkin carving contest with a replica of an iconic movie camera.
+- Troubleshooting integration issues between editing software platforms
+- AI may reduce time needed for basic tasks, freeing up bandwidth for complex projects
+- Team supports responsible experimentation with new AI features
+- Occasionally supervises junior editors on larger projects
+- Has a ‘lucky’ mug that’s been replaced three times but always features a cat wearing glasses.
+- Focuses on digital content creation and post-production
+- Volunteers at an animal shelter on weekends and occasionally brings rescued pets photos to work.
+- Combines AI-generated suggestions with personal expertise
+- Makes playlists for clients’ projects that never get shared but inspire the editing mood.
+- Engages in both B2B and occasional B2C projects
+- Seeks integrated AI project management assistants
+- Tedious tasks, while easy, can decrease engagement and overall motivation
+- Prefers tools that provide clear options for manual intervention
+- Practices mindfulness meditation daily, sometimes leading short sessions for colleagues before deadlines.
+- Foresees need for ongoing upskilling to stay competitive
+- Adobe Lightroom for organizing and batch processing photos
+- Allocate budget for testing and integrating emerging AI technologies
+- Routine file management and invoicing is tedious
+- Adopted a coffee shop cat mascot who has an Instagram account run by the team.
+- Explored Canva's AI tools for rapid draft designs
+- Photo retouching and color correction are second nature after years of practice
+- Writes short speculative fiction stories inspired by daily commute observations.
+- Participates in weekend improv comedy classes to keep creative muscles flexed outside work.
+- Manages backend operations such as scheduling, invoicing, and website maintenance
+- Skill mastery leads to faster, higher-quality output and greater job satisfaction
+- Wants AI editing features that handle complex retouching with minimal artifacts
+- Repetitive batch processing of images can be dull
+- Peers often share tips about new editing plugins or AI features
+- Specialized knowledge is critical for troubleshooting and quality assurance
+- Writes gratitude notes to coworkers and sticks them on monitors stealthily once a month.
+- Team discusses AI tool tips during informal meetings
+- Peer recommendations can increase motivation to learn new tools
+- Devotes 5% to team coordination and mentoring
+- AI-generated content often requires substantial manual revision
+- Employs LLMs to generate client email drafts or social media posts
+- Training peers or clients on AI-assisted workflows is a new responsibility
+- Policies emphasize human review of all client-facing outputs
+- Job title: Senior Editor and Post-Production Manager
+- Cloud storage sync delays can create workflow bottlenecks
+- Acts as a subject matter expert for post-production processes
+- Commutes to work by bicycle year-round, even in snowy and icy conditions.
+- Collaborative, informal, and flexible work environment
+- Employed at a small media production company
+- Edits video content with Adobe Premiere Pro and After Effects
+- Decorates the office with posters from 1990s tech and film festivals.
+- Collaborating with clients on project vision is rewarding
+- Prompt engineering for AI tools is becoming a key skill
+- Advocates for clear consent and copyright policies in AI-assisted work
+- Has a secret stash of vintage candy bars that they only break out during tough edit sessions.
+- Collects concert ticket stubs and pins them on a corkboard shaped like a film reel.
+- Maintains backup copies of original files for quality assurance
+- Prefers conversational interfaces for brainstorming and copy generation
+- Primary clients are small businesses, agencies, and independent creators
+- Focuses on delivering high-quality digital assets for branding and marketing
+- Implement structured training on new AI tools for all staff
+- Traditional project management tools (e.g., Trello, Asana)
+- Treats AI as a tool, not a decision-maker for final outputs
+- Would benefit from AI that can learn and mimic personal editing style
+- Understands basics of Final Cut Pro, though not primary tool
+- Uses AI tools weekly for drafting website content
+- Has a prized collection of retro video game cartridges stored in a custom bookshelf.
+- Sees risk in automating tasks that require brand or client-specific knowledge
+- Prefers brief, targeted training over lengthy courses
+- Routine metadata entry for media organization
+- Invoicing and scheduling using QuickBooks or similar software
+- Participates annually in a local charity fun-run dressed in vintage superhero costumes.
+- Believes client expectations for turnaround and customization will increase
+- Believes core creative and client-facing work is less likely to be replaced
+- Is an avid home barista and brings their own espresso machine to the office kitchen.
+- Evaluated AI-driven video upscaling tools, but not yet in regular workflow
+- Has a tradition of hosting an annual potluck lunch where everyone must bring a dish inspired by a movie or TV show.
+- Some AI-generated copy lacks the brand nuance needed for client sites
+- Sees increased value in specialized, high-touch editing and client management skills
+- Believes AI will reshape creative workflows industry-wide
+- Open to automation if override and manual review options are available
+- Adobe Photoshop for photo editing and retouching
+- Extensive experience with Adobe Creative Cloud suite
+- Familiar with DaVinci Resolve as an alternative for video grading
+- Staying updated on new AI features and best practices is now part of the job
+- Took elective courses in photography, video editing, and communications
+- Sees opportunities to shift focus towards higher-value, less automatable work
+- Attended several industry workshops on photo and video post-production
+- Acts as main point of contact for post-production workflow questions
+- Role includes editing photos and videos for client projects
+- Believes AI enhances productivity but doesn't replace creative judgment
+- Practices origami during mental breaks, leaving small paper cranes on coworkers’ desks as surprises.
+- Brings homemade cookies to team meetings every Friday, often experimenting with new flavors.
+- Offers both photo and video post-production services
+- Has an office plant named Gerald who receives daily motivational talks.
+- Willing to adapt workflow to integrate promising AI features
+- Holds an Associate Degree from a community college
+- Finds natural language prompts more intuitive for content creation
+- Has used Adobe Photoshop's Generative Fill feature for image editing
+- Does not rely on AI for final quality control or client-facing materials
+- Organizes a monthly book club focused on classic and modern sci-fi novels.
+- Supports transparency about when AI is used in content creation
+- Occasional file compatibility issues between Adobe and non-Adobe software
+- Google Workspace for communication and file sharing
+- Open to experimenting with new AI workflows if they show productivity gains
+- Batch resizing and renaming image files
+- Occasionally tries Jasper or Copy.ai for copywriting tasks
+- Learning new techniques or tools can be enjoyable if there's a clear productivity payoff
+- Brews homemade kombucha in the office fridge, labeling flavors with punny names.
+- Consults with leadership primarily on major purchases or strategic changes
+- Tests AI-powered image enhancement tools like Topaz Labs
+- Hopes AI will democratize access to professional-quality content creation
+- Regularly reads online discussions about practical AI applications
+- Joined current company approximately 8 years ago
+- Maintains a journal of favorite fonts discovered while browsing websites.
+- Has high autonomy in managing day-to-day workflow
+- Transcribing and subtitling video content
+- Team consists of fewer than 15 employees
+- Software crashes during large file exports
+- Maintains an office mini-library of graphic novels curated over the years.
+- Monitors AI output closely for errors or off-brand content
+- Has over 10 years of experience in editing and post-production
+- Uses command-based interfaces for predictable, batch editing tasks
+- Is known for crafting elaborate themed playlists for every project kickoff meeting.
+- Allocates 20% of time to backend business management tasks
+- Prefers hands-on experimentation over formal training
+- Adobe Premiere Pro for video editing
+- Routine editing skills may become less important as automation improves
+- Prefers advisory input from AI rather than full task automation
+- Remaining 5% is spent researching new tools and technologies
+- Watches developments in AI closely to anticipate future impacts
+- Occasionally attends industry conferences for hands-on demos
+- Peers often share articles and tutorials about new AI features
+- Sometimes consults AI for specific questions mid-workflow
+- DSLR and mirrorless cameras for capturing original content
+- Selects tools and plugins best suited for each project
+- Sees AI as a major driver of efficiency and innovation in media production
+- Direct communication with company leadership is common
+- AI can save significant time on first drafts, but final edits are always necessary
+- External hard drives and RAID systems for file backup
+- Knows common file formats and codecs used in the industry
+- Completed degree in Digital Media Production
+- Has a rotating gallery of Polaroids on the office wall taken during weekend hikes.
+- Skeptical of hype, but willing to test new solutions
+- Familiar with AI terms such as 'prompt', 'model', and 'fine-tuning'
+- Has a habit of collecting unusual bookmarks from books read during travels or downtime.
+- Dedicates 10% of time to website maintenance and content updates
+- Has kept up with industry shifts towards cloud-based editing platforms
+- Willing to spend several hours per month on tutorials or webinars
+- Oversees file management and backup processes for media projects
+- AI tools are helpful for drafts but not yet a substitute for deep domain expertise
+- Handles backend business operations such as invoicing and scheduling
+- Trusts AI for generating initial drafts and routine edits
+- Uses OpenAI's ChatGPT for generating website copy and brainstorming
+- Basic website updates and copy edits are straightforward
+- Editing software allows easy reversion to pre-AI states
+- Applies AI in Photoshop for quick image clean-up and content-aware fills
+- Is known for bringing a fresh flower to place on the editing suite console every Monday morning.
+- Believes human oversight is necessary to prevent biased or inappropriate output
+- AI features in Photoshop sometimes conflict with manual edits
+- Prefers incremental adoption over radical workflow changes
+- Adapts quickly to updates in familiar software like Photoshop or Premiere
+- Open to AI-driven automation for repetitive backend tasks
+- Serves clients in advertising, marketing, and creative industries
+- Routine video trimming and sequencing is efficient
+- Cautious about over-relying on AI for critical client work
+- Enjoyment is highest when working on challenging, creative projects that use full skillset
+- Successfully used ChatGPT to generate SEO-friendly meta descriptions for web pages
+- Enjoys making handmade greeting cards for coworkers’ birthdays and milestones.
+- Desires more nuanced AI tools that better match brand voice
+- Productivity is boosted by familiarity with tools and streamlined workflows
+- Collaborative evaluation of new software before company-wide rollout
+- Company specializes in commercial and promotional media
+- Confidence comes from years of adapting to evolving media tech

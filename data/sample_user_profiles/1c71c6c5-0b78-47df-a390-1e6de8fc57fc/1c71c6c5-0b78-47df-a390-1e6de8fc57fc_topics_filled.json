@@ -1,0 +1,497 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s degree in Finance",
+          "Completed undergraduate coursework in statistics, calculus, and econometrics",
+          "Participated in a quantitative analysis certification program early in career",
+          "Attended multiple professional development workshops on financial modeling"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Current job title is Account Manager and Financial Data Analyst",
+          "Role involves managing client accounts, conducting quantitative financial analysis, and coordinating with internal teams",
+          "Responsible for both daily financial reporting and strategic client advisory",
+          "Also handles some IT coordination and purchasing responsibilities"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the financial services sector",
+          "Role focuses on quantitative analysis and data-driven decision-making within finance",
+          "Company provides financial services and analytics to a range of business clients"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-sized company with approximately 200-300 employees",
+          "Work environment is collaborative, with cross-functional interactions between finance, IT, and client service teams",
+          "Company uses both proprietary and commercial software tools"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Operates in B2B financial analytics and advisory services",
+          "Serves clients ranging from small businesses to large enterprises",
+          "Specializes in providing customized financial data analysis and reporting"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has more than 10 years of experience in quantitative finance roles",
+          "Current role as Account Manager and Financial Data Analyst held for 7 years",
+          "Has previously held related analyst and management positions in finance"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds a senior-level position with team management responsibilities",
+          "Acts as a primary point of contact for key client accounts",
+          "Contributes to high-level financial strategy and process improvement discussions"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Reads and responds to client and internal emails each morning, often using AI assistance",
+          "Prepares and analyzes daily, weekly, and monthly financial reports using Power BI and Excel",
+          "Presents data insights and recommendations to clients and internal stakeholders in meetings",
+          "Manages a small team of junior analysts, providing support and feedback"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 30% of time on financial data analysis and reporting",
+          "Client management and communication occupy around 25% of the workday",
+          "Team management and internal coordination take up about 15% of time",
+          "Administrative and IT-related tasks (including purchasing) account for the remaining 30%"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Exercises significant autonomy in choosing analytical approaches and prioritizing daily tasks",
+          "Has authority to approve certain financial transactions and purchases within set limits",
+          "Makes recommendations to management and clients on financial strategies and process improvements",
+          "Delegates routine tasks to junior staff as appropriate"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Data analysis and creating visualizations in Power BI are highly intuitive after years of experience",
+          "Formulating and sending professional emails, especially with AI assistance, feels straightforward",
+          "Reviewing routine financial transactions and reconciling reports comes naturally"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Integrating data from proprietary systems into cloud-based tools can be complex and error-prone",
+          "Managing unique client requests that require custom data analysis often presents new challenges",
+          "Ensuring data security and compliance across multiple platforms remains a significant concern",
+          "Navigating conflicting priorities between accounting, IT, and client needs can be challenging"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Extracting and consolidating raw financial data for regular reports is highly repetitive",
+          "Scheduling client meetings and reminders is handled by automated tools when possible",
+          "Routine email triage and drafting simple replies are now partially automated using LLMs",
+          "Generating standard financial statements is largely template-driven and suitable for automation"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys problem-solving and uncovering actionable insights from complex data sets",
+          "Finds client-facing meetings and presentations engaging due to the interpersonal interaction",
+          "Considers routine data entry and manual report formatting tedious",
+          "Prefers tasks that involve strategic thinking over repetitive administrative work"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Switching between multiple software systems often disrupts workflow and causes delays",
+          "Manual consolidation of data from different sources is time-consuming",
+          "Occasional data integrity issues require significant troubleshooting",
+          "Formatting inconsistencies between team members' reports can require rework"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Higher proficiency in data analysis tools directly increases both enjoyment and productivity",
+          "Finds greater satisfaction in tasks that offer opportunities for learning or creative problem-solving",
+          "Repetitive tasks, even when highly skilled at them, tend to decrease engagement over time",
+          "Delegates low-enjoyment, low-skill tasks to team members or automates them when feasible"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open and proactive about adopting new technologies that improve efficiency",
+          "Views staying current with tech as essential for maintaining competitiveness",
+          "Enjoys experimenting with new tools, especially those that automate manual processes"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new financial analysis and reporting software",
+          "Able to self-learn most new tools through documentation and hands-on trial",
+          "Occasionally relies on peer guidance for complex integrations or custom solutions"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Regularly allocates time for learning updates to Power BI and Excel features",
+          "Participates in company-sponsored training sessions when available",
+          "Willing to invest personal time in learning tools that have a clear work impact"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential to save time and reduce errors in daily workflows",
+          "High workload can sometimes delay deeper exploration of new tools",
+          "Relevance to core job functions is a key factor in prioritizing learning"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers frequently share tips on new technology, fostering a culture of experimentation",
+          "Management encourages exploring AI tools and provides budget for software trials",
+          "Team success stories with new tools increase openness to adoption"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Microsoft Power BI daily for data visualization and dashboard creation",
+          "Leverages Microsoft Excel extensively for financial modeling and analysis",
+          "Relies on Microsoft Teams for communication and scheduling",
+          "Accesses QuickBooks for accounting and financial transaction management",
+          "Utilizes proprietary financial analysis tools developed in-house"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Uses FileZilla for secure file transfers between local and cloud environments",
+          "Stores and shares documents using OneDrive and Google Cloud",
+          "Employs Outlook for email communication and calendar management"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Highly proficient in Power BI, Excel, and QuickBooks",
+          "Familiar with standard cloud storage solutions such as OneDrive and Google Cloud",
+          "Keeps up to date with new releases and features in industry-standard software"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces challenges syncing data between in-house and third-party platforms",
+          "Manual data imports/exports are sometimes required due to lack of full API integration",
+          "Formatting inconsistencies may occur when transferring files between Google Cloud and OneDrive"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic concepts such as natural language processing, machine learning, and large language models",
+          "Regularly reads about AI advancements relevant to financial analytics",
+          "Comfortable discussing AI terminology with both technical and non-technical colleagues"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT daily to draft emails and summarize lengthy communications",
+          "Occasionally employs Microsoft Copilot for document creation and meeting notes",
+          "Has experimented with AI features embedded within Power BI"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies ChatGPT multiple times per day for email triage and drafting responses",
+          "Uses AI to extract and summarize key information from client and internal communications",
+          "Leverages AI to help generate initial drafts of letters or reports for review"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully reduced time spent on email composition by over 30% using ChatGPT",
+          "Encountered minor issues where AI-generated summaries missed nuanced client requests",
+          "Learned to always review and personalize AI-generated content before sending"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company has offered several informal training sessions on ChatGPT and Copilot",
+          "Peers frequently share AI usage tips via Teams channels",
+          "No formal certification program for AI tools yet, but internal documentation is available"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers using AI tools independently for drafting or summarizing content",
+          "Occasionally uses step-by-step prompts when working through complex or ambiguous tasks",
+          "Finds it most efficient to review and edit AI outputs rather than collaborate in real time"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as a digital assistant or productivity enhancer",
+          "Uses AI as an advisor for brainstorming or generating initial ideas",
+          "Relies on personal expertise for final decision-making and client communication"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to integrating AI-driven workflows that offer measurable efficiency gains",
+          "Actively experiments with new AI features as they become available",
+          "Encourages team members to explore AI-driven process improvements"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces like ChatGPT for most AI interactions",
+          "Finds natural language prompts more intuitive than command-line or scripted interfaces",
+          "Believes conversational AI lowers the barrier for team adoption"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many tasks, especially client advisory, require deep understanding of financial concepts and client context",
+          "Relies on tacit knowledge for interpreting subtle data trends and client preferences",
+          "AI outputs often serve as a starting point, but human expertise is necessary for final recommendations"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI-generated drafts for routine communications but reviews all outputs before sending",
+          "Requires manual validation of AI-assisted financial analyses before presenting to clients",
+          "Considers AI reliable for speeding up repetitive tasks, but not for final decision-making"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers a workflow where AI automates repetitive or data-heavy steps, freeing up time for human insight",
+          "Believes human review is essential for client-facing or strategic deliverables",
+          "Supports partial automation for tasks like email triage, but not for complex financial recommendations"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "High automation is acceptable for standardized, low-risk processes such as scheduling or simple data aggregation",
+          "Would be concerned if automation replaced roles that require nuanced judgment or client relationship skills",
+          "Prefers transparent AI systems with clear override options for critical tasks"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "AI enhances the value of analytical interpretation and critical thinking skills",
+          "Routine technical skills (e.g., data entry) are becoming less central due to automation",
+          "Communication and relationship management remain highly important despite AI adoption"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing prompt engineering and AI tool customization skills",
+          "Spending more time monitoring and validating AI-generated outputs",
+          "Learning to integrate AI into client-facing workflows and presentations"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Some concern about AI automating low-level data processing tasks",
+          "Does not anticipate AI fully replacing roles that require domain expertise and interpersonal skills",
+          "Sees AI as a tool to augment, rather than replace, core analyst responsibilities"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All AI-generated outputs are reviewed and approved by a human before client delivery",
+          "Manual checks are built into workflow for financial reporting and communications",
+          "Company policy requires final sign-off on any client-facing analysis involving AI"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has become more supportive of AI experimentation in recent years",
+          "Policies now actively encourage responsible AI use and documentation of use cases",
+          "Team is encouraged to share best practices and lessons learned from AI tool adoption"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will continue to transform the financial services industry, particularly in automation and analytics",
+          "Sees potential for AI to increase access to financial expertise for smaller clients",
+          "Recognizes risks of job displacement in routine or clerical roles"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports transparency in AI decision-making and clear communication about AI use with clients",
+          "Concerned about data privacy and the potential for AI to reinforce bias in analytics",
+          "Believes human oversight is essential for ethical and responsible AI adoption"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would benefit from seamless integration of AI-generated insights into proprietary financial tools",
+          "Desires more robust AI-driven anomaly detection in financial datasets",
+          "Wants improved AI summarization features tailored for industry-specific compliance reporting"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects increased reliance on AI for baseline analysis and reporting, freeing time for strategic tasks",
+          "Anticipates a shift towards more client advisory and custom solution design",
+          "Believes prompt engineering and AI oversight will become core job functions"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Invest in comprehensive AI training for all staff, including ethical use guidelines",
+          "Establish clear standards for human review and override of AI outputs",
+          "Prioritize seamless integration of AI tools into existing proprietary and commercial systems",
+          "Encourage a culture of experimentation and knowledge-sharing around AI best practices"
+        ]
+      }
+    ]
+  }
+]

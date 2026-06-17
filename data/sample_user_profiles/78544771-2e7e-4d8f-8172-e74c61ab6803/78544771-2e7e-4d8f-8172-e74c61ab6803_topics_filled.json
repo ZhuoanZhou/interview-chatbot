@@ -1,0 +1,535 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s degree in International Relations",
+          "Completed coursework in data analysis, security studies, and political science",
+          "Participated in a university internship with a government security agency",
+          "Attended workshops on open-source intelligence (OSINT) gathering",
+          "Took online courses in cyber threat analysis"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Intelligence Analyst",
+          "Responsible for gathering, analyzing, and interpreting security-related data",
+          "Prepares intelligence briefings and risk assessment reports for decision-makers",
+          "Collaborates regularly with law enforcement and cybersecurity teams",
+          "Monitors geopolitical events and emerging threats"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the security and intelligence sector",
+          "Focuses on cyber and physical threat analysis",
+          "Engages with both public and private sector organizations",
+          "Industry overlaps with law enforcement, government, and corporate security"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-sized intelligence consultancy (~150 employees)",
+          "Organization has a hybrid work environment (remote and on-site)",
+          "Team consists of 10-12 analysts with varying specialties",
+          "Company culture emphasizes collaboration and confidentiality"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Company provides intelligence analysis services to government and corporate clients",
+          "Specializes in threat assessment and risk mitigation",
+          "Operates in the national security and critical infrastructure protection market",
+          "Serves sectors such as defense, energy, and finance"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 1-2 years of experience as an Intelligence Analyst",
+          "Joined the current organization after graduating from university",
+          "Previously completed a 6-month internship in a similar role",
+          "Experience includes both training and on-the-job learning"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Positioned at the entry to early-career level",
+          "Reports to a senior intelligence analyst or team lead",
+          "Occasionally mentors new interns or junior analysts",
+          "Contributes to team projects but does not lead major initiatives"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Collects and reviews intelligence from open sources, databases, and internal reports",
+          "Analyzes data to identify patterns, anomalies, or emerging threats",
+          "Drafts concise intelligence reports and summaries for internal and external stakeholders",
+          "Participates in cross-team meetings to discuss ongoing investigations",
+          "Keeps up-to-date with geopolitical events and security technology advancements"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends about 40% of time on data gathering and initial review",
+          "Allocates 30% of the day to in-depth data analysis and pattern recognition",
+          "Devotes 15% of time to report writing and presentation preparation",
+          "Spends 10% in meetings and collaborative discussions",
+          "Uses remaining 5% for professional development and news monitoring"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates with moderate autonomy in daily data analysis and reporting",
+          "Major intelligence findings are reviewed by a supervisor before escalation",
+          "Can independently prioritize daily tasks based on threat level and urgency",
+          "Participates in group decision-making for larger investigations"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Data collection and initial review are straightforward due to established procedures",
+          "Organizing datasets in Excel or Google Sheets comes naturally",
+          "Summarizing key findings for internal briefs is comfortable",
+          "Communicating with team members via secure messaging is routine"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Detecting subtle, non-obvious patterns in large, unstructured datasets",
+          "Synthesizing conflicting intelligence sources into a coherent narrative",
+          "Handling sensitive or time-critical incidents with incomplete information",
+          "Producing high-impact reports for senior decision-makers on short notice"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Bulk data cleaning and de-duplication in spreadsheets",
+          "Routine scanning of news feeds and alerts for specified keywords",
+          "Compiling preliminary lists of relevant incidents or entities",
+          "Formatting and templating standard intelligence reports"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys deep-dive analysis and drawing connections across data sources",
+          "Finds collaborative problem-solving sessions stimulating",
+          "Prefers preparing presentations over repetitive data entry",
+          "Considers manual data cleaning to be tedious and time-consuming",
+          "Enjoys monitoring relevant news and global events for emerging risks"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Lack of integration between data sources requires manual consolidation",
+          "Repetitive formatting of reports consumes significant time",
+          "Occasional delays due to waiting for access to restricted information",
+          "Data quality issues (e.g., inconsistent formats) slow down analysis"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Feels most productive when working on intellectually challenging analysis",
+          "Enjoyment increases when tasks match skillset, especially in pattern recognition",
+          "Repetitive, low-skill tasks are less enjoyable and sometimes reduce focus",
+          "Learning new skills (e.g., advanced OSINT techniques) boosts motivation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally enthusiastic about experimenting with new analytical tools",
+          "Views technology adoption as essential for staying relevant in the field",
+          "Finds learning new tools rewarding when they improve workflow"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new software with user-friendly interfaces",
+          "Occasionally needs time to adjust to complex or specialized platforms",
+          "Open to learning through hands-on practice and guided tutorials"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Regularly sets aside time for self-driven learning on new tools",
+          "Willing to attend webinars or workshops during less busy periods",
+          "Prioritizes training on technologies with clear relevance to daily tasks"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the promise of increased efficiency and accuracy",
+          "Heavy workload can sometimes delay adoption of new tools",
+          "More likely to invest in learning if peers or supervisors endorse a technology",
+          "Skeptical of tools that lack clear documentation or support"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peer recommendations strongly influence willingness to try new software",
+          "Management encouragement accelerates adoption of organization-approved tools",
+          "Likes exchanging tips and best practices with colleagues",
+          "More likely to pursue new tools when success stories are shared internally"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Excel and Google Sheets daily for data organization and analysis",
+          "Regularly utilizes OSINT tools such as Maltego and Shodan",
+          "Checks threat intelligence platforms like Recorded Future or Anomali each day",
+          "Prepares reports and presentations using Microsoft Word and PowerPoint",
+          "Communicates via encrypted messaging apps such as Signal"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Excel and Google Sheets for manual data entry and tracking",
+          "OSINT platforms for gathering information from public sources",
+          "i2 Analyst\u2019s Notebook for occasional link analysis and mapping",
+          "Secure corporate email for sharing sensitive documents"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Comfortable with primary threat intelligence tools recognized in the industry",
+          "Familiar with both basic and advanced features of Excel",
+          "Has working knowledge of mapping and visualization software",
+          "Regularly reads industry updates to stay informed about new tools"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Manual data transfer is needed between some OSINT tools and spreadsheets",
+          "Report formatting inconsistencies occur when moving between Word and PowerPoint",
+          "Limited automated integration between threat intelligence platforms and internal databases",
+          "Occasional compatibility issues between mapping tools and exported data formats"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands foundational terms like NLP, classification, and clustering",
+          "Familiar with the concept of large language models (LLMs)",
+          "Can explain the basics of how AI models process text data",
+          "Recognizes the difference between supervised and unsupervised learning"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT and other LLMs for drafting and summarizing reports",
+          "Employs AI-powered features in Recorded Future for automated threat detection",
+          "Occasionally tries Google Bard for rapid information synthesis",
+          "Tests internal AI chatbots for data query and extraction"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies LLMs daily for generating report drafts and summaries",
+          "Uses AI tools to scan news feeds and flag potentially relevant incidents",
+          "Employs automated entity extraction to identify key actors in datasets",
+          "Relies on AI to generate visualizations or quick data insights"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI has expedited initial draft writing, reducing turnaround time by up to 30%",
+          "Automated flagging occasionally produces false positives, requiring manual review",
+          "Learned that LLM-generated content must be carefully validated for accuracy",
+          "AI-driven data cleaning improved efficiency, but struggled with messy, unstructured inputs"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company offers occasional webinars and internal guides on AI tool usage",
+          "Peers share best practices for prompt engineering in team chats",
+          "Access to a knowledge base with AI use case examples",
+          "Mentorship from a senior analyst who specializes in AI applications"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI for complex tasks",
+          "Uses AI independently for simple, routine queries",
+          "Finds interactive, iterative prompting yields better results for nuanced analysis",
+          "Adjusts interaction style based on the task's ambiguity"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI as an assistant for drafting and automating repetitive work",
+          "Engages AI as a brainstorming partner when exploring new angles",
+          "Prefers to retain the final judgment and critical decisions",
+          "Occasionally treats AI as a co-worker for quick fact-checking"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to experimenting with AI-driven workflows if they save time",
+          "Actively seeks out pilot projects to test new AI capabilities",
+          "Evaluates new AI processes for transparency and reliability before full adoption",
+          "Advocates for a balanced approach, combining AI and human oversight"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for flexible, iterative work",
+          "Uses command-based prompts for well-defined, structured tasks",
+          "Finds conversational AI more user-friendly for brainstorming and exploration",
+          "Switches between modes depending on the complexity of the request"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many tasks, such as threat assessment, depend on context-specific expertise",
+          "Understanding geopolitical nuances requires human judgment and experience",
+          "AI outputs are most valuable when paired with analyst domain knowledge",
+          "Tacit knowledge is essential for interpreting ambiguous or incomplete data"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for routine summarization and pattern detection with review",
+          "Does not fully rely on AI outputs without manual verification for critical tasks",
+          "Confidence in AI increases when outputs are explainable and consistent",
+          "Skeptical of AI-generated insights when data sources are unclear"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Favors AI automation for repetitive data processing and initial triage",
+          "Believes human analysts should interpret and validate AI findings",
+          "Supports AI-human collaboration for complex, high-stakes analysis",
+          "Sees the best value in AI as a force multiplier, not a replacement"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation in low-risk, standardized reporting tasks",
+          "Finds high automation risky in situations with ambiguous or sensitive context",
+          "Prefers human oversight for critical incident response and decision-making",
+          "Worries that over-automation could erode vital analytical skills"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the value of analytical and critical thinking skills",
+          "Routine data processing skills may become less important due to automation",
+          "Interpersonal and communication skills remain essential for collaboration",
+          "Sees the need to upskill in areas like AI prompt engineering and data validation"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning how to frame effective prompts for LLMs is a new responsibility",
+          "Needs to interpret and audit AI-generated outputs for accuracy",
+          "Responsible for integrating AI findings into traditional analysis workflows",
+          "Staying informed about AI ethics and potential biases is increasingly important"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Anticipates some routine analysis tasks could be replaced by AI",
+          "Not concerned about AI fully replacing the analyst role due to need for judgment",
+          "Views AI as a tool to augment, not eliminate, human analysts",
+          "Mildly concerned about job changes if AI adoption accelerates rapidly"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All AI-driven outputs are reviewed by a human analyst before dissemination",
+          "Manual correction and flagging are built into report workflows",
+          "AI tools provide confidence scores to guide human review",
+          "Override mechanisms are mandated by company policy for critical decisions"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has recently updated policies to encourage responsible AI use",
+          "Mandatory training on AI ethics and usage has been introduced",
+          "Team is piloting new AI tools with oversight from management",
+          "Increased emphasis on documentation and audit trails for AI-generated reports"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will reshape intelligence analysis by increasing speed and scale",
+          "Expects AI to improve threat detection but also introduce new security risks",
+          "Sees potential for AI to democratize access to analytical capabilities",
+          "Concerns about misuse of AI for misinformation or surveillance"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes transparency in AI workflows is critical",
+          "Worries about algorithmic bias affecting analysis outcomes",
+          "Supports clear accountability for decisions involving AI outputs",
+          "Emphasizes the importance of protecting sensitive data in AI systems"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would like automated cross-referencing of multiple data sources in real time",
+          "Desires AI tools with built-in bias detection and explainability features",
+          "Sees value in smarter summarization tailored to target audiences",
+          "Prefers seamless integration of AI outputs into existing reporting platforms"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects shift toward higher-level analysis and decision-making roles",
+          "Predicts increased collaboration between analysts and AI specialists",
+          "Anticipates more focus on validating and contextualizing AI findings",
+          "Envisions routine analytical tasks becoming fully automated"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Invest in continuous training for analysts on new AI capabilities",
+          "Establish clear guidelines for responsible and ethical AI use",
+          "Regularly audit AI systems for accuracy and bias",
+          "Promote open dialogue between analysts, IT, and compliance on AI adoption"
+        ]
+      }
+    ]
+  }
+]

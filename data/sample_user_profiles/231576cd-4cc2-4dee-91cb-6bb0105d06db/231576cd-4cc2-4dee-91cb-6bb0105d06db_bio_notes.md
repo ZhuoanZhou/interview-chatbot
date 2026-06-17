@@ -1,0 +1,246 @@
+# Biographical Notes
+
+- Has a standing desk that's never been lowered in 3 years.
+- Data privacy and compliance standards are being updated for AI use
+- Switches between modes depending on the urgency and complexity of the task
+- Canva for creating visual content and infographics
+- Has a personalized mug with the phrase 'Will Manage for Snacks'.
+- Believes AI enhances efficiency, allowing focus on higher-value tasks
+- Every desk makeover involves redecorating with themed desk toys or figurines.
+- Prefers gradual integration of AI to minimize workflow disruption
+- Develops and edits emergency preparedness content
+- Relies on AI-powered grammar and spelling checks in communications
+- Using project management tools like Asana to organize tasks
+- Organizational policy mandates human sign-off for compliance content
+- Prefers starting independently, then consulting AI tools for draft refinement
+- Cautious about risks of over-reliance on AI for critical decision-making
+- Occasionally faces a learning curve with specialized healthcare tools
+- Enjoys making latte art and brings new coffee creations to work once a month.
+- No formal, in-depth AI certification program at the organization yet
+- Develops, reviews, and updates emergency management content
+- Understands the basics of health information privacy compliance platforms
+- Peers frequently share tips on using LLMs for drafting content
+- Uses command-based interfaces for quick content edits or data queries
+- Maintains a detailed journal of favorite podcasts and episode notes.
+- Always eats lunch at exactly 12:30 PM.
+- Sees AI as a major force for efficiency and scalability in healthcare management
+- Started in this position shortly after completing undergraduate education
+- Holds a Bachelor’s Degree
+- Designate clear guidelines and best practices for AI use
+- Works in the healthcare sector
+- Participates in informal peer-led tool learning sessions
+- Supports the legal team with project management and event coordination
+- Routine data entry into the company dashboard
+- Integration lags can slow down real-time emergency communications
+- Skill level increases motivation for more complex project management activities
+- Tested AI-driven email subject line generators in Constant Contact
+- Views AI as a support tool rather than a decision-maker
+- Sees technology as a means to improve workflow efficiency
+- Prefers concise, task-focused training modules
+- Peers sharing success stories encourages adoption
+- Uses step-by-step collaboration with AI for complex or unfamiliar content
+- Believes routine reporting will be mostly automated
+- Generally positive about experimenting with new tools
+- Believes personal role will evolve rather than disappear
+- Involves AI as a 'co-worker' during content development sprints
+- Willing to experiment with new AI features in familiar platforms
+- Acts as a project manager with both independent and collaborative duties
+- Found AI-generated email subject lines increased open rates for event communications
+- Desires more context-aware AI support for healthcare-specific scenarios
+- Job title: Information Technology Project Manager
+- Prefers to retain final decision-making authority over AI-generated content
+- Expected to independently prioritize daily workflow based on urgency
+- Sees ideal workflow as AI-assisted but human-approved
+- Prefers tea over coffee and has an assortment of exotic loose-leaf blends at work.
+- Peer recommendations increase willingness to try new software
+- Employs AI features for generating visual assets more efficiently
+- Relies on AI in an advisory capacity for brainstorming ideas
+- Moderate concern about automation of routine reporting and data entry
+- Familiar with cloud-based collaboration tools
+- Has a habit of naming meeting rooms after classic science fiction authors.
+- Progressed from entry-level responsibilities to mid-level project management
+- Would benefit from seamless integration of AI across all project management tools
+- Feels most productive when working on well-defined emergency projects
+- High workload can be a barrier to exploring new features
+- Manual approval required for all externally-facing documents
+- Prefers conversational AI for ideation, but command-based for repetitive tasks
+- Trusts AI for routine content drafting and data summarization
+- Considers self a quick learner with user-friendly platforms
+- Finds high automation in compliance or legal tasks potentially risky
+- Maintains a whiteboard calendar filled with doodles tracking personal goals.
+- Adapts well to updates in Microsoft 365 and Asana
+- Writes short poems about favorite tech gadgets during weekend downtime.
+- Accesses and stores documents via SharePoint
+- Roughly 10% involves technical assistance and dashboard data tasks
+- Operates with moderate autonomy in managing emergency management tasks
+- Managing simultaneous requests from different stakeholders
+- Uses an old-school flip clock on the desk as a conversation starter.
+- Adopts a 'green thumb' mission and regularly swaps office succulents with colleagues.
+- Collects quirky bookmarks from every book ever read in the office book club.
+- Operates at the intersection of healthcare, information technology, and legal compliance
+- Provides technical assistance related to healthcare emergency management
+- Experiments with homemade spice blends and shares samples at team potlucks.
+- Must manually transfer data from dashboard to reporting templates
+- Has a quirky tradition of wearing themed ties on 'Go Live' project days.
+- AI tools are helpful, but cannot fully replace domain expertise
+- Willing to dedicate time to training if it leads to time savings in daily work
+- Relies on Zoom for virtual meetings and emergency coordination
+- Has used ChatGPT for drafting and editing emergency plan content
+- Invest in secure, healthcare-specific AI solutions
+- Experience delays due to lack of real-time data integration between tools
+- Provide ongoing AI training and support for all staff
+- Involved in both ongoing operations and emergency response situations
+- Wears quirky socks featuring retro video game characters on important presentation days.
+- Participated in emergency management and project management workshops during college
+- Applies AI tools for summarizing complex legal documents
+- Wants AI-powered real-time data analysis for emergency events
+- Prefers hand-drawn mind maps for personal organization rather than digital tools.
+- Has 3-5 years of experience in current role
+- Relies on self-guided learning for most AI tool adoption
+- Enjoys urban sketching and once filled an entire sketchbook with drawings of the office neighborhood.
+- Focuses on public health preparedness and event response
+- Constant Contact for email communication and event outreach
+- Completed undergraduate degree in Information Systems Management
+- Company is gradually increasing support for AI tool adoption
+- Uses Asana for project and task management
+- Management is seeking feedback from staff on AI integration experiences
+- Employed by a medium-sized healthcare support organization
+- Sending standardized communication emails via platforms like Constant Contact
+- Utilizes Microsoft 365 suite, especially Outlook, Word, and Excel
+- Writes and sends out an annual holiday newsletter featuring humorous project anecdotes.
+- Prefers manual checks for any AI-generated document sent externally
+- Relies on in-platform tutorials for initial orientation
+- Always reviews AI-generated work before distribution
+- Supports partial automation for data entry, but not for final decision-making
+- Reports to a senior manager or director within the organization
+- Sees most value in blending human judgment with AI support
+- Collaborates closely with senior staff for strategic or legal decisions
+- Supports strong oversight to mitigate AI bias and errors
+- Finds conversational interfaces like ChatGPT intuitive for drafting and brainstorming
+- Commutes by bicycle even in winter.
+- Starts every morning with a 10-minute meditation routine at the desk.
+- Has a habit of sketching cartoon versions of team members during meetings.
+- Tacit knowledge is essential for interpreting data trends in emergency events
+- Proficient with standard office productivity suites
+- Explored Canva’s AI-powered design suggestions
+- Approximately 70% of time is dedicated to emergency management program support
+- Enjoys collaborative sessions for hazard identification and planning
+- Office plant is named Gerald and receives daily motivational talks.
+- Expects communication and project management skills to remain vital
+- Views AI primarily as an assistant for drafting and editing tasks
+- Practices origami, folding paper cranes during long conference calls.
+- Provides technical and operational support to health centers
+- Successfully used ChatGPT to draft a new section for an emergency plan template, saving hours of manual writing
+- Has a rotating cast of novelty coffee blends sourced from around the world.
+- Least enjoys administrative paperwork not directly related to emergency management
+- Company operates in healthcare emergency management services
+- Most motivated when tech directly addresses existing workflow pain points
+- Sees routine drafting and formatting skills becoming less central
+- Keeps a collection of rubber ducks on the desk for debugging companionship.
+- Managing data privacy and ethical considerations in AI use
+- Organization supports multiple health centers across the state
+- Organizes a monthly book club focusing on sci-fi novels.
+- Views automation as threatening if it bypasses human subject matter review
+- Has some awareness of potential biases in AI outputs
+- Seeks automated compliance checking for draft documents
+- Occasionally employs Microsoft Copilot features within Microsoft 365
+- Hosts an annual chili cook-off among colleagues for charity.
+- Once built a LEGO replica of their office desk setup for a charity auction.
+- Solicit employee feedback on AI adoption and effectiveness
+- Occasionally faces compatibility issues between SharePoint and Asana attachments
+- Keeps a small digital photo frame cycling through vacation snapshots.
+- Prefers AI to handle repetitive drafting and formatting tasks
+- Office is decorated with posters from 1990s tech conferences.
+- Switches between conversational and direct commands depending on the task complexity
+- Responding to real-time emergency events with shifting priorities
+- 5% of time is devoted to ad hoc tasks or cross-departmental requests
+- Developing skills in AI tool evaluation and selection
+- Less interested in tools that don’t integrate with existing systems
+- Knows how large language models (LLMs) can assist with content generation
+- Enjoys spontaneous desk chair races with coworkers during lunch breaks.
+- Concerned about data privacy in AI-driven platforms
+- Company offers occasional webinars on new AI features in Microsoft 365
+- Familiar with the idea of machine learning models for data analysis
+- Focuses on emergency management and IT project management within healthcare
+- Around 15% is spent assisting the legal team with projects and events
+- Compiling and distributing regular emergency preparedness reports
+- Learned that AI tools need careful human review before finalizing documents
+- Coordinating multi-department legal and compliance projects
+- Recognizes potential for AI to reduce administrative burden across the industry
+- Has an elaborate keychain collection, with one charm for every state visited.
+- Learning prompt engineering to guide LLM outputs
+- Attended state-level emergency planning seminars post-graduation
+- Learned to play ukulele during the pandemic lockdown.
+- Assists with company-wide data dashboard tasks and reporting
+- Has a 'no email after 7 PM' personal policy and sticks to it.
+- Has a ritual of writing handwritten thank-you notes after completing big projects.
+- Engages in legal compliance and data-driven decision making
+- Collects pins from conferences and proudly displays them on a jacket.
+- Management endorsement is important for prioritizing new tool training
+- Company has approximately 100-250 employees
+- Expecting increased use of AI for rapid emergency scenario modeling
+- Work environment is collaborative and cross-functional
+- Always reviews AI-generated outputs for compliance and accuracy
+- Open to feedback and peer suggestions on new software
+- Anticipates a shift towards more strategic planning and oversight
+- Runs a blog about retro computing hardware as a side hobby.
+- Manual consolidation of information from multiple platforms is time-consuming
+- Mentors junior staff on project workflows and tool usage
+- Enjoys experimenting with prompt variations to improve AI output
+- Company-wide data dashboard for monitoring emergency metrics
+- Finds developing new emergency exercises and plans most engaging
+- Advocates for clear human accountability for all critical outputs
+- Accepts high automation for low-risk, non-sensitive content
+- Values human oversight for compliance and stakeholder communications
+- Providing routine technical assistance to health centers
+- Has received on-the-job training in healthcare emergency preparedness
+- Appreciates clear guidelines and examples for new AI-driven routines
+- Believes in pen-and-paper brainstorming and carries a personalized leather-bound notebook everywhere.
+- Collects vintage coffee mugs from client cities visited.
+- Enjoys morning runs listening to classic rock playlists to start the day energized.
+- Has a collection of vintage travel posters decorating home office walls.
+- Has a secret stash of themed stress balls shaped like famous cartoon characters.
+- Editing and updating emergency plans using standardized templates
+- Has exposure to emergency alert and notification systems
+- Keeps a mini Zen garden on the windowsill for quick mental resets.
+- Can revert or edit AI suggestions in Microsoft 365 and Canva
+- Responsible for emergency management for health centers statewide
+- Believes transparency in AI use is essential for trust
+- Foresees need for continuous upskilling in AI-augmented workflows
+- Understands basic AI concepts like natural language processing and automation
+- Motivated to adopt technology that streamlines emergency management tasks
+- Frequent need to duplicate effort when updating content across systems
+- Open to adopting AI-driven workflows if they fit existing processes
+- Tedious, repetitive tasks reduce both engagement and perceived productivity
+- Attends mandatory company training sessions on new tools
+- Occasional miscommunication between legal and emergency management teams
+- Some content development tools do not sync automatically with Microsoft 365
+- Sometimes prioritizes urgent work over optional software trainings
+- Legal compliance projects demand awareness of state-specific policies
+- Authorized to make routine project management decisions within defined guidelines
+- Tracking project completion checklists
+- Keeps a puzzle corner on the desk with Rubik’s cubes and brain teasers for break time.
+- Microsoft Teams for internal communication
+- Policies now encourage experimentation with AI for content development
+- Is known for organizing surprise birthday parties with homemade decorations.
+- Engages with public health organizations and health centers
+- Considers repetitive data entry and report formatting tedious
+- Brings homemade cookies to team meetings every Friday.
+- Collaborative teams tend to experiment with new technologies faster
+- Keeps an old school Game Boy on the desk, occasionally challenged by coworkers during breaks.
+- Believes AI can improve emergency response times and resource allocation
+- Views critical thinking and domain expertise as more important than ever
+- Currently at a mid-level professional role
+- Emergency management tasks require nuanced understanding of healthcare regulations
+- Does not rely solely on AI for critical legal or emergency decisions
+- Coordinating meetings via Zoom and managing shared documents on SharePoint
+- Increasing responsibility for reviewing and editing AI-generated content
+- Higher enjoyment is linked to tasks that allow for problem-solving and creativity
+- Uses LLMs occasionally for specific content development tasks
+- Developing new emergency exercises from scratch
+- Once received an AI-generated summary that missed key compliance details, requiring manual correction
+- Not worried about AI replacing domain-specific emergency management expertise
+- Manages emergency preparedness activities for health centers
+- Provides technical assistance, including hazard identification and plan editing
+- Coordinates with the legal team on compliance and documentation projects
+- Has a vintage arcade game console in their home office for weekend breaks.

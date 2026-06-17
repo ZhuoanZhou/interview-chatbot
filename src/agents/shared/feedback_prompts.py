@@ -1,0 +1,141 @@
+SIMILAR_QUESTIONS_WARNING = """\
+<similar_questions_warning>
+
+## Warning
+
+Some of your proposed questions are similar to those previously asked.
+
+Previous Tool Calls:
+<previous_tool_call>
+{previous_tool_call}
+</previous_tool_call>
+
+Similar Questions Already Asked:
+<similar_questions>
+{similar_questions}
+</similar_questions>
+
+## Guidelines to Address the Warning
+
+Please avoid asking questions that are identical or too similar to ones already posed.
+
+1. Do Not Propose Duplicate Questions:
+Examples of Duplicates (Not Allowed):
+- Proposed: "Can you describe a specific challenge you encountered in working on the XX project?"
+    - Existing: "Could you share more about the challenges you've faced in working on the XX project?"
+- Proposed: "What was the most rewarding discovery about the XX experience?"
+    - Existing: "Can you describe a particular moment that was particularly rewarding about the XX experience?"
+
+2. Acceptable Questions (Provide New Insights):
+Examples of Good Variations:
+- Different Time Period/Context:
+    - Existing: "How has AI affected your current role?"
+    ✓ OK: "How did AI affect your very first job experience?" (different time period)
+
+- Different Aspect/Angle:
+    - Existing: "How do you feel about AI tools being introduced at work?"
+    ✓ OK: "What unexpected challenges did you face when your company first adopted AI tools?" (specific challenges)
+    ✓ OK: "How did your colleagues react when AI tools were introduced?" (focuses on relationships)
+
+- Different Depth:
+    - Existing: "What benefits have you seen from AI in your daily work?"
+    ✓ OK: "Which specific AI-driven change had the biggest impact on your productivity?" (explores impact)
+
+## Action Required
+
+Choose ONE of the following actions:
+1. Regenerate New Tool Calls with Alternative Questions
+- Explain why these questions provide new insights beyond those already captured in `<thinking></thinking>`.
+- Add `<proceed>true</proceed>` at the end of your thinking tag to proceed with the regeneration.
+2. Leave Blank within `<tool_calls></tool_calls>` Tags if you do not wish to propose any follow-up questions.
+
+</similar_questions_warning>
+"""
+
+PLANNER_MISSING_MEMORIES_WARNING = """\
+<missing_memories_warning>
+Warning: Some memories from the interview session are not yet incorporated into the plans you have generated.
+
+Previous tool calls failed due to missing memories:
+<previous_tool_call>
+{previous_tool_call}
+</previous_tool_call>
+
+Uncovered memories that are not yet incorporated:
+<missing_memory_ids>
+{missing_memory_ids}
+</missing_memory_ids>
+
+Action Required:
+- Generate add_plan tool calls to cover the missing memories since previous tool calls failed.
+- If excluding any memories, explain why in `<thinking></thinking>` tags:
+  - Example Reasons:
+    * Memory is trivial or not relevant
+</missing_memories_warning>
+"""
+
+MISSING_MEMORIES_WARNING = """\
+<missing_memories_warning>
+Warning: Some memories from the interview session are not yet incorporated into the section content..
+
+Previous tool calls that already have been executed:
+<previous_tool_call>
+{previous_tool_call}
+</previous_tool_call>
+
+Uncovered memories that are not yet incorporated:
+<missing_memory_ids>
+{missing_memory_ids}
+</missing_memory_ids>
+
+Action Required:
+- Update the section content to incorporate the citation links for the missing memories.
+- If excluding any memories, explain why in `<thinking></thinking>` tags:
+  - Example Reasons:
+    * Memory already covered in another section
+    * Memory is trivial or not relevant
+
+</missing_memories_warning>
+"""
+
+QUESTION_WARNING_OUTPUT_FORMAT = """
+## Addressing the Warning
+
+If you've addressed the warning and want to proceed:
+1. Add the tag <proceed>true</proceed> inside your <thinking></thinking> section
+2. This confirms you've resolved the issues identified in the warning
+
+Important: This is not a tool call - it must be placed within your thinking tags.
+"""
+
+SECTION_WRITER_TOOL_CALL_ERROR = """\
+<tool_call_error_warning>
+This is your previous tool call:
+<previous_tool_call>
+{previous_tool_call}
+</previous_tool_call>
+
+<error>{tool_call_error}</error>
+
+## Guidelines to Fix Writing Errors
+
+1. Section Path vs Title - Important Distinction:
+   • Path: Full hierarchy with '/' separators (Example: '1 Role & Background/1.1 Job Title & Experience')
+   • Title: Only the section heading (Example: '1.1 Job Title & Experience')
+
+2. Update vs Create - Important Distinction:
+   • Update: Use the `update_section` tool to modify an existing section.
+   • Create: Use the `add_sub_sub_section` tool to add a new sub-sub-section.
+
+3. Always Include Section Numbers:
+   • Incorrect: 'Job Title & Experience'
+   • Correct: '1.1 Job Title & Experience'
+
+4. Ensure Perfect Accuracy:
+   • Use exact section paths/titles from the <report_structure> tag
+   • Check for typos, spacing, and formatting errors
+   • Sections not found in <report_structure> will cause errors
+
+Review your tool call based on these guidelines. If the plan instructions caused this error, you may disregard those specific instructions.
+</tool_call_error_warning>
+"""

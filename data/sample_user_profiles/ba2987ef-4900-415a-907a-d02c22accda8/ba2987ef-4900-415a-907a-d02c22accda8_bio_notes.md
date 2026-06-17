@@ -1,0 +1,206 @@
+# Biographical Notes
+
+- Regularly reads articles about new AI applications in creative and editorial fields
+- Has a cat-shaped desk lamp that doubles as a night light during late-night edits.
+- Most motivated to learn tools that have a clear impact on earning potential
+- Loves to experiment with homemade flavored popcorn recipes during movie nights.
+- Makes a ritual out of lighting a vanilla-scented candle before beginning any creative project.
+- Uses LLMs daily to generate alternate phrasings or check for clarity in written content
+- Feels routine proofreading skills are somewhat less critical due to automation
+- Occasionally engages in step-by-step prompts with LLMs for complex rewriting tasks
+- Wants to retain manual review for all client-facing deliverables
+- Keeps a chalkboard on the wall with daily fun facts or jokes unrelated to work.
+- Has a miniature zen garden next to the computer to rake during breaks for stress relief.
+- Recommends regular workshops or knowledge sharing on new AI tools and best practices
+- AI tools have successfully flagged subtle grammar errors missed during manual proofreading
+- Occasionally uses Google Drive or Dropbox for file sharing
+- Is an avid bird watcher and keeps binoculars by the window to spot rare species during breaks.
+- Applies AI-based filters in Lightroom for bulk photo corrections several times a week
+- Organizing project steps and setting up software workspaces comes naturally
+- Has a ritual of journaling dreams every morning with colorful gel pens.
+- Once adopted a rescue snail and named it ‘Turbo’ as a joke about productivity pace.
+- Wishes for more seamless integration between AI editing and mainstream software like Photoshop
+- Works independently, managing own client communications and project timelines
+- Predicts that creative decision-making and client consultation will become more central to the role
+- Owns a quirky alarm clock shaped like a retro robot that plays cheerful tunes in the morning.
+- Exporting and reformatting files for client-specified formats is time-consuming
+- Suggests client education about the benefits and limitations of AI-augmented workflows
+- Accesses Upwork’s web platform for client communication and project management
+- Actively seeks out AI tools that could automate repetitive workflow steps
+- Always reviews AI-edited documents before submission
+- Peers on online forums occasionally recommend useful plugins or techniques
+- Bakes a fresh batch of banana bread every Sunday morning as a weekend ritual.
+- Makes decisions regarding editing style, workflow, and software used for each project
+- Believes a 60/40 split (human/AI) works best for most projects
+- Communicates with clients to clarify project requirements and deliverables
+- Occasionally faces issues transferring large image files between platforms
+- Maintains final decision authority over edits and deliverables
+- Maintains a small collection of handmade friendship bracelets from travelers met online.
+- Worries about potential job displacement in roles focused purely on routine editing
+- Entry-level professional in both proofreading and photo editing
+- Editing long-form documents or heavily technical content can be challenging
+- Keeps handwritten or digital notes to track project steps and deadlines
+- Works as an individual freelancer rather than part of a traditional company
+- Finds proofreading of well-written content satisfying
+- Has a small faux fireplace setup complete with flameless candles to create cozy ambiance.
+- Comfortable self-learning new apps or plugins through online tutorials
+- Holds a High School diploma from a public school
+- Employs Adobe Photoshop for photo editing and retouching tasks
+- Treats AI as an advisor when seeking alternative approaches or layout suggestions
+- Managing multiple deadlines across simultaneous projects can be demanding
+- Finds it useful to stay up to date with new AI tools and features relevant to creative work
+- Has a vintage typewriter on the desk that’s purely decorative but sometimes types out random letters when the cat walks by.
+- Devotes around 35% of time to photo editing and retouching projects
+- Views AI as a powerful tool for boosting efficiency and productivity
+- Owns a collection of crossword puzzle books from the 1980s and tries to solve one every morning.
+- Uses command-based tools for batch processing in photo editing
+- Keeps a mini whiteboard with daily brain teasers and riddles to keep the mind sharp.
+- Sees creative judgment and communication skills as more valuable in the AI era
+- Regularly sets aside time to watch YouTube tutorials on editing techniques
+- Collects quirky socks with punctuation marks and grammar jokes.
+- Proofreading short-form content such as blog posts or emails feels straightforward
+- Self-taught in proofreading and basic photo editing through online tutorials and practice
+- Decorates the workspace with tiny, framed motivational postcards found at thrift shops.
+- Has a reusable water bottle covered in stickers from places visited during freelance gigs.
+- Always drinks chamomile tea in a handmade ceramic mug gifted by a friend from Japan.
+- Keeps a quirky collection of novelty erasers shaped like fruits and animals.
+- Sees growing acceptance of AI tools among other freelancers in online communities
+- Client requests for specific file types or editing styles can prompt learning new features
+- Provides proofreading and copy marking services for clients via the Upwork platform
+- Finds high automation threatening when it risks erasing personal editing style
+- Celebrates small victories by adding a new quirky pin to a corkboard near the workspace.
+- Views AI as an assistant for automating routine checks and generating ideas
+- Manual correction of repeated errors in large documents is tedious
+- Learning new editing techniques feels rewarding and boosts motivation
+- Understands formatting and track changes functions in Microsoft Word
+- Runs Grammarly checks on nearly every client document before submission
+- Has a monthly tradition of writing letters to pen pals around the world.
+- Has a pet cactus named Spike that has survived for over 5 years despite forgetful watering.
+- Desires AI features for quickly generating creative photo layouts or mood boards
+- Started freelancing on Upwork at age 19
+- Assumes responsibility for quality control before delivering work
+- Photo editing often involves subjective aesthetic decisions not fully captured by AI
+- Work environment is fully remote, usually from home
+- Would like to see clear guidelines on responsible AI use for freelancers
+- Adapts quickly to updates in core editing tools like Photoshop and Microsoft Word
+- Tasks that match current skill level, such as basic proofreading, feel both easy and enjoyable
+- Keeps a small jar of colorful push pins labeled ‘Inspiration Boosters’ for sudden project ideas.
+- Supports transparency around AI usage in client projects
+- Believes human oversight is essential to prevent errors and bias in AI outputs
+- Would like smarter AI tools that better understand context and tone in writing
+- Occasionally swaps the usual office chair for a vintage wooden stool for better posture variety.
+- Has been working as a freelancer for 1-2 years
+- Enjoys assembling 3D paper models of famous landmarks as a relaxing pastime.
+- Performs basic to moderate photo editing using Adobe Photoshop and Lightroom
+- Skeptical of AI's ability to handle subtle context or style preferences in client documents
+- Lacks direct management oversight but values client feedback on tool choices
+- Uses Microsoft Word for proofreading and document editing
+- Enjoys attending local poetry slams and open mic nights once a month to support creative communities.
+- Has a small treasure chest filled with colorful vintage buttons collected from thrift shops.
+- Proofreads and edits written content for grammar, punctuation, and clarity
+- Services span across publishing, digital media, and creative industries
+- Prefers using AI tools independently as a first pass before manual review
+- Has a collection of novelty bookmarks shaped like famous literary characters.
+- No formal company training as an independent freelancer
+- Works independently and manages own workload and schedule
+- Keeps a jar of dried lavender on the desk that helps calm nerves during intense focus periods.
+- Motivated to learn tools that directly improve work speed or quality
+- Uses Adobe Lightroom for batch photo adjustments and color correction
+- Familiar with basic file management and conversion tools for client deliverables
+- Believes basic technical editing will become largely automated, shifting focus to higher-value tasks
+- Always wears a lucky bracelet made from recycled buttons gifted by a childhood friend.
+- Connects with clients through the Upwork online platform
+- Proficient in core features of Photoshop and Lightroom, common in the creative industry
+- Is a self-taught origami enthusiast who folds paper animals to give as gifts.
+- Has learned prompt engineering to get better results from LLMs
+- Learned to always double-check AI output for context and accuracy before delivering to clients
+- Spends about 60% of work hours on proofreading and copy marking tasks
+- Gets bored with monotonous formatting or template-based tasks
+- Learns a new word daily from an old dictionary and tries to use it in conversation.
+- Repetitive, low-skill work tends to reduce overall job satisfaction
+- Completed several online courses on platforms like Coursera and Udemy related to grammar and Adobe Photoshop basics
+- Formatting documents according to client templates is time-consuming and routine
+- Prefers to write to-do lists by hand using a fountain pen dipped in turquoise ink.
+- Uses manual version control to compare AI output against original drafts
+- Targets clients needing proofreading, editing, and basic photo retouching services
+- Expects to spend more time curating and refining AI-generated drafts and images
+- Has a tradition of trying one new ice cream flavor every month and rating it in a journal.
+- Heavy project workload can occasionally limit time available for training
+- Switching between multiple software platforms can slow down workflow
+- Less inclined to explore tools unrelated to core proofreading or photo editing tasks
+- Once experienced an AI-generated suggestion that introduced an awkward phrasing, requiring manual review
+- Uses ChatGPT or similar LLMs daily for proofreading suggestions and idea generation
+- Focuses on short-term, project-based assignments in creative and editorial markets
+- Finds natural language prompts helpful for complex editing guidance
+- Keeps a ‘Motivation Jar’ filled with handwritten quotes and pulls one out whenever feeling stuck.
+- Now responsible for evaluating and editing AI-generated output
+- Carves tiny rubber stamps with grammatical symbols for fun and personal stationery decoration.
+- Considered a junior freelancer by Upwork standards due to years of experience
+- Operates as an individual contributor rather than a manager or team lead
+- Needs to convert file formats (e.g., .docx to .pdf, .psd to .jpg) to meet client requirements
+- Believes AI enhances productivity but increases the need for human quality control
+- Relies on Gmail for client correspondence
+- Willing to invest a few hours each month in learning new software functions
+- As an independent freelancer, sets personal policies for AI use on projects
+- Loves to decorate the workspace seasonally, from tiny paper pumpkins in fall to origami cranes in spring.
+- Trusts AI for first-pass grammar and spelling checks but always performs a manual review
+- Moderately concerned about AI automating basic proofreading tasks in the future
+- Receiving unclear or incomplete client instructions causes delays
+- Checking basic grammar and spelling in large documents tends to be repetitive
+- Allocates 5% of time to project communication and administration (e.g., responding to client messages, invoicing)
+- Highly open to integrating new AI features that improve work efficiency
+- Handles basic to intermediate photography editing projects including retouching and layout adjustments
+- Delivers final edited documents and images according to client specifications
+- Did not pursue post-secondary education after high school
+- Occasionally tries AI-driven photo enhancement tools like Adobe Sensei features in Photoshop
+- Enjoys creative aspects of photo editing, such as experimenting with layouts
+- Relies on online tutorials and community forums for learning AI tool features
+- Understands basic AI concepts such as natural language processing (NLP) and image recognition
+- Views tech learning as essential for staying competitive in freelance markets
+- Uses a vintage enamel lunchbox painted with whimsical monsters to carry midday snacks.
+- Wears noise-cancelling headphones that have stickers from several music festivals stuck on them.
+- Productivity is highest when working on creative or visually engaging photo edits
+- Maintains a rotating playlist of 90s alternative rock that plays softly during editing hours.
+- Believes roles requiring personal touch or communication will remain in demand
+- Has a positive attitude towards exploring new software, especially creative tools
+- Typical clients range from individuals to small businesses
+- Started a weekend tradition of watching classic black-and-white films to unwind.
+- Proofreading assignments require understanding of tone and context beyond grammar rules
+- Thinks ethical guidelines should be set for AI-generated creative content
+- Spends weekends volunteering at local libraries, organizing community read-aloud events.
+- Complex photo manipulations, such as object removal or advanced retouching, require more effort
+- Has a framed quote on the wall that reads, ‘Comma splices are a gateway to madness.’
+- Once took a two-week road trip across the countryside listening exclusively to podcasts about mythology.
+- Is known among friends for sending postcard greetings instead of texts on holidays.
+- Operates in the gig economy sector, specifically in freelance digital services
+- Regularly explores beta features in Photoshop or new LLM plugins
+- Occasionally needs extra practice to master advanced features
+- Not worried about AI replacing creative aspects of photo editing or nuanced copy marking
+- Can explain how AI-powered grammar checkers or photo enhancement tools work
+- Enjoys experimenting with new features in Photoshop or Lightroom
+- Prefers conversational interfaces when brainstorming with LLMs
+- Consults clients for major changes but independently handles routine editing choices
+- Accepts high automation for bulk photo adjustments or basic error checks
+- Bulk photo resizing and batch color adjustments could be automated
+- Likes to alternate between AI suggestions and personal editing choices
+- Grows a herb garden on the windowsill with basil, mint, and thyme used to flavor home-cooked meals.
+- Employs Grammarly for automated grammar and style checks
+- AI tools are used mainly for routine or technical aspects, while nuanced tasks rely on personal judgment
+- Prefers AI to handle repetitive or technical checks, while retaining control over final edits
+- Considers repetitive error-checking or batch photo processing less engaging
+- Uses AI for inspiration and efficiency, not for replacing core creative input
+- Has noticed increased client interest in AI-augmented workflows
+- Has completed approximately 50+ projects during this period
+- Freelance Proofreader and Photo Editor
+- Occasionally exchanges tips on AI tools with other freelancers in online groups
+- Finds AI-generated layout ideas useful but rarely uses them without modification
+- Regularly works with clients in content creation and photography sectors
+- Has a habit of doodling whimsical comics about punctuation marks during breaks.
+- Owns a set of glow-in-the-dark stars stuck to the ceiling above the workspace for late-night inspiration.
+- Manual re-uploading of files across tools increases time spent on some projects
+- Keeps a tiny globe on the desk and spins it to daydream about future travel destinations.
+- Basic photo color correction and cropping are performed with ease
+- Believes AI can democratize creative work by lowering technical barriers
+- Engages with international and domestic clients through online freelancing marketplaces
+- Writes handwritten thank-you notes to clients and friends on special occasions.
+- Prefers tools that allow easy undo or rollback of AI-generated changes

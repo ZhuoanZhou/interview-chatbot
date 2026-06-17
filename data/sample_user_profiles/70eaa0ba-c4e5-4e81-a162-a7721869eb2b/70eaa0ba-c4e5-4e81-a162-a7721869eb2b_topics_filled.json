@@ -1,0 +1,489 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s Degree from a four-year university",
+          "Major was in Business Administration, with coursework in management and finance",
+          "Completed additional on-the-job training in office management and university-specific systems"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Title: Administrative Services Manager",
+          "Supports two Associate Vice Provosts (AVPs) in separate university offices under the Provost",
+          "Role encompasses office administration, budget management, event planning, and supervision of staff"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the Higher Education sector",
+          "Employed at a public university",
+          "Focuses on administrative support within academic and research programs"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "University employs over 1,000 faculty and staff",
+          "Works in mid-sized administrative offices (5-15 staff per office)",
+          "Operates in a collaborative, academic environment"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Public, non-profit university",
+          "Provides undergraduate, graduate, and research programs",
+          "Main offices serve both students and faculty across academic departments"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has over 10 years of experience in administrative roles",
+          "Has served in the current university for more than a decade",
+          "Has seen multiple changes in university administration and processes"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Considered a senior-level administrator",
+          "Manages junior staff and student assistants",
+          "Reports directly to Associate Vice Provosts"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Manages office communications, including answering phones and responding to emails",
+          "Oversees accounting for five offices and manages a grant budget",
+          "Plans and coordinates events, including logistics, catering, and facilities",
+          "Supervises two graduate student assistants",
+          "Maintains and updates the office\u2019s social media accounts"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 25% of time on event planning and coordination",
+          "Budgeting and accounting take up about 30% of work hours",
+          "Administrative support and communication (phones, emails) comprise 25% of daily activities",
+          "Social media management and outreach account for 10% of time",
+          "Remaining 10% is spent on ad hoc tasks from the AVPs"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Exercises high autonomy in managing daily workflow and prioritizing tasks",
+          "Makes independent decisions on routine office matters and event logistics",
+          "Consults AVPs for high-level or policy-related decisions",
+          "Handles budget tracking and minor expenditures independently"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Answering routine emails and phone inquiries",
+          "Updating calendars and scheduling meetings for AVPs",
+          "Coordinating logistics for small, recurring events"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Coordinating schedules for large group meetings with many stakeholders",
+          "Managing the budget and accounting for five distinct offices",
+          "Overseeing accreditation documentation and compliance processes"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Monthly gathering and input of invoices for budget ledgers",
+          "Routine email responses to frequently asked questions",
+          "Calendar management and meeting scheduling"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys planning and executing events for graduate students",
+          "Finds student outreach and program promotion rewarding",
+          "Considers budget reconciliation and invoice entry to be tedious"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Difficulty finding mutually available times for large group meetings",
+          "Time-consuming coordination between multiple offices for event logistics",
+          "Manual entry of budget data from disparate sources"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Feels most productive and engaged when working on event planning and student outreach",
+          "Skill level is highest in communications and office management tasks",
+          "Productivity declines on repetitive or highly manual data entry tasks"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally open to trying new software that improves workflow",
+          "Motivated to learn tools that save time on repetitive tasks",
+          "Approaches new technology with cautious optimism"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts well to updates in familiar platforms like Google Suite and Microsoft Office",
+          "Requires hands-on learning or demonstrations for unfamiliar systems",
+          "Can quickly integrate new tools into daily routines after initial training"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to attend short workshops or online tutorials outside peak busy periods",
+          "Prefers learning by doing rather than extensive theoretical courses",
+          "Will make time for tech training if the tool is directly relevant to job duties"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Heavy workload can make it difficult to carve out time for training",
+          "More likely to invest time if the technology addresses a current pain point",
+          "Sometimes hesitant if prior experiences with new tools have been frustrating"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Adoption is more likely if AVPs or colleagues endorse the tool",
+          "Regularly receives suggestions for new technology from peers in other offices",
+          "Management support increases willingness to experiment with new software"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Google Suite (Gmail, Calendar, Drive) for communication and scheduling",
+          "Relies on Microsoft Office (Word, Excel, PowerPoint) for documentation and reporting",
+          "Utilizes Google Drive for collaborative document management"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Desk phone system for voice communication",
+          "Social media platforms (e.g., Facebook, Twitter) for outreach",
+          "University\u2019s internal accounting and HR portals"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient in Microsoft Office and Google Suite",
+          "Familiar with event management and room booking systems used in higher education",
+          "Experienced with basic content management systems for website updates"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasional formatting issues when transferring documents between Google and Microsoft platforms",
+          "Manual data entry required to reconcile accounting records from different office systems",
+          "Social media accounts are not fully integrated with internal calendars or communication tools"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic AI concepts such as chatbots, language models, and automation",
+          "Has encountered terms like 'machine learning', 'LLM', and 'natural language processing' in professional development workshops",
+          "Applies working knowledge of AI tools to streamline repetitive administrative tasks"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT and similar LLM-based tools for drafting communications and brainstorming ideas",
+          "Occasionally leverages AI-powered grammar and style checkers (e.g., Grammarly)",
+          "Has experimented with calendar assistant tools with AI-driven scheduling features"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs weekly to draft responses to complex student or faculty emails",
+          "Employs AI tools to generate initial content for social media posts and event promotions",
+          "Utilizes AI-based calendar tools to propose meeting times across busy schedules"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used an LLM to quickly draft an event invitation that required only minor edits",
+          "AI-generated scheduling suggestions occasionally overlooked key participants\u2019 constraints",
+          "Learned that AI-generated content still needs careful review to ensure accuracy and tone"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "University offers periodic workshops on emerging technology, including AI tools",
+          "Peers occasionally share tips and best practices for using LLMs in administrative tasks",
+          "Most AI learning has been self-directed or through informal peer support"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers to use AI tools independently for drafting and initial research",
+          "Occasionally interacts with AI tools iteratively for more complex tasks",
+          "Often reviews AI outputs in collaboration with colleagues before finalizing"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for routine or time-consuming tasks",
+          "Occasionally relies on AI as an advisor for brainstorming or generating ideas",
+          "Does not delegate final decision-making to AI; maintains human oversight"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to integrating AI-driven workflows if they clearly improve efficiency",
+          "Willing to test new AI features, especially for scheduling and document drafting",
+          "Prefers gradual adoption with clear training and support"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Finds conversational interfaces (like chatbots) more intuitive for drafting and brainstorming",
+          "Uses command-based interfaces for structured tasks, such as scheduling",
+          "Appreciates flexibility to switch between interaction styles as needed"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many tasks require understanding of university policies and procedures",
+          "Handling sensitive student or faculty issues relies on judgment and experience",
+          "AI is helpful for routine work but less suited for nuanced or confidential matters"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI-generated drafts for routine emails or document templates",
+          "Always reviews AI outputs for accuracy and appropriateness before use",
+          "Does not rely on AI for high-stakes decisions or policy interpretation"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive, time-consuming tasks (e.g., scheduling, draft writing)",
+          "Human oversight is essential for tasks involving discretion or sensitive information",
+          "Sees value in AI-assisted workflows that allow for easy human intervention"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "High automation is acceptable for routine, low-risk processes like calendar suggestions",
+          "Feels automation is threatening if it bypasses necessary checks or context-specific judgment",
+          "Prefers clear options to override or edit AI-generated outputs"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances efficiency but does not replace the need for interpersonal and organizational skills",
+          "Feels communication and critical thinking are more important than ever alongside AI tools",
+          "Sees AI as complementing, not diminishing, core administrative competencies"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Has learned to evaluate and edit AI-generated content for quality control",
+          "Developed skills in integrating AI tools into existing workflows",
+          "Occasionally responsible for advising colleagues on effective use of AI tools"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Minimal concern about AI replacing the overall role due to need for human judgment",
+          "Recognizes that some repetitive, manual tasks may be automated in future",
+          "Appreciates that role is evolving to include oversight of AI-enabled processes"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always reviews AI-generated communications before sending",
+          "Maintains manual tracking for critical budget and compliance activities",
+          "Prefers systems that allow easy correction or customization of AI outputs"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "University is cautiously exploring AI adoption with pilot projects and optional tools",
+          "Policies encourage human review and accountability for all AI-assisted tasks",
+          "Team leaders are supportive but prioritize training and risk mitigation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI can increase efficiency and streamline administrative work in higher education",
+          "Acknowledges potential risks such as job displacement in highly repetitive roles",
+          "Optimistic that AI will free up time for more meaningful, student-focused work"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports ethical guidelines for transparency and fairness in AI use",
+          "Concerned about data privacy when using AI tools with sensitive information",
+          "Believes human oversight is essential to prevent unintended consequences"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would benefit from smarter, context-aware scheduling assistants",
+          "Desires AI tools that can automatically reconcile budget data from multiple sources",
+          "Wishes for AI that can draft customized outreach messages based on previous communications"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects increased automation of routine administrative tasks",
+          "Foresees greater emphasis on managing and overseeing AI-driven processes",
+          "Anticipates a shift toward more strategic, people-focused responsibilities"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Advocates for ongoing training and support for staff adopting AI tools",
+          "Recommends clear policies on data privacy and oversight of AI systems",
+          "Suggests piloting new AI tools in low-risk areas before wider rollout"
+        ]
+      }
+    ]
+  }
+]

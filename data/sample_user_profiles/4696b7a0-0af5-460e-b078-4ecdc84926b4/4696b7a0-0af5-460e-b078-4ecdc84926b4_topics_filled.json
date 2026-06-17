@@ -1,0 +1,535 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a high school diploma from a public high school in Ohio",
+          "No completed college or university education",
+          "Received on-the-job training specific to human resources processes",
+          "Participated in an agency-led onboarding program for HR operations",
+          "Has not completed formal HR certifications, but reviewed agency-provided materials"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Human Resources Specialist",
+          "Primary responsibility for managing staffing and call-offs for a network of nursing homes",
+          "Acts as liaison between agency staff, nursing facilities, and outside staffing agencies",
+          "Responsible for data entry, shift notification, and staff scheduling",
+          "Handles communication regarding staff absences and shift coverage"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the healthcare sector, specifically long-term care",
+          "Supports staffing needs for nursing facilities and senior care",
+          "Operates within the HR/staffing segment of healthcare",
+          "Role intersects with healthcare operations and workforce management"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed by a staffing agency with approximately 1,000 employees",
+          "Supports a chain of around 25 nursing home facilities",
+          "Works with a mix of in-house and external agency staff",
+          "Company environment is high-paced and communication-driven"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Agency specializes in staffing for long-term care and nursing homes",
+          "Main clients are healthcare facilities requiring 24/7 coverage",
+          "Operates in the contingent workforce and healthcare staffing market",
+          "Supports both internal (sister company) and external clients"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 1-2 years of experience in the current HR specialist position",
+          "Started working at age 17, now 18 years old",
+          "Experience encompasses both routine and urgent staffing scenarios",
+          "Role has involved continuous learning due to high staff turnover"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Entry-level professional within the HR field",
+          "Acts as a front-line HR coordinator rather than a manager",
+          "Works under supervision of more senior HR staff or managers",
+          "Has not managed others, but independently handles shift coverage"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Takes call-offs from staff across 25 nursing facilities",
+          "Logs absence details (name, reason, facility, shift) into Smartsheet",
+          "Notifies relevant facility staff via group messages and forms",
+          "Updates scheduling and attendance records in UKG system",
+          "Contacts agency and external partners to arrange shift coverage"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Approximately 60% of workday spent actively arranging shift coverage",
+          "Roughly 20% of time used for data entry and updating records",
+          "About 10% of hours spent on group communications (texts/calls)",
+          "Remaining 10% dedicated to tracking follow-ups or resolving escalations"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates with moderate autonomy in handling daily call-offs and shift coverage",
+          "Follows established protocols for notifications and scheduling",
+          "Makes routine decisions on prioritizing outreach to staff and agencies",
+          "Escalates complex or unresolved staffing gaps to supervisors"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Logging call-off information into Smartsheet is straightforward",
+          "Sending template-based group messages to facilities is routine",
+          "Marking call-offs in UKG follows a clear, familiar process",
+          "Completing forms for staff notification requires little deliberation"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Finding last-minute shift coverage can be very challenging",
+          "Coordinating with multiple agencies and tracking their responses is complex",
+          "Managing communication with facilities when they are unresponsive",
+          "Prioritizing which shifts to fill first when multiple call-offs occur simultaneously"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Manually entering call-off and shift information is highly repetitive",
+          "Sending the same shift request notifications to multiple group chats is data-heavy",
+          "Updating attendance status in UKG for each call-off is routine",
+          "Compiling daily reports for management could be automated"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys the challenge of quickly solving shift coverage problems",
+          "Finds fast-paced communication with multiple stakeholders engaging",
+          "Considers repetitive data entry into Smartsheet and UKG tedious",
+          "Dislikes being put on hold or waiting for facility staff to respond"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Lack of a centralized system for posting open shifts creates extra manual work",
+          "Facilities often do not answer calls promptly, causing delays",
+          "Juggling multiple group messages can lead to confusion or missed notifications",
+          "Having to repeatedly contact several outside agencies is inefficient"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Productivity increases when handling engaging, fast-response tasks",
+          "Enjoys tasks more when skill level matches challenge, such as quick problem-solving",
+          "Repetitive, low-skill data entry tasks decrease motivation and perceived productivity",
+          "Skill growth is tied to exposure to new or complex scheduling scenarios"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open to adopting new tools that improve workflow efficiency",
+          "Regularly experiments with new technologies outside of work",
+          "Frustrated by outdated or manual processes in current workflow",
+          "Would welcome automation to reduce repetitive tasks"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Considers self a fast learner with digital tools",
+          "Quickly adapted to Smartsheet and UKG upon joining company",
+          "Comfortable exploring user guides and online tutorials",
+          "Believes younger workers have an advantage with technology adaptation"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to spend extra time to master tools that reduce manual work",
+          "Would attend optional training if it promises clear workflow benefits",
+          "Prefers hands-on, practical training sessions over theoretical courses",
+          "Sees value in peer-to-peer tech knowledge sharing"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by potential to save time and reduce stress",
+          "Barriers include high current workload and lack of dedicated training time",
+          "Sometimes unsure if new tools will be fully adopted by team or management",
+          "Needs clear demonstration of relevance to daily job tasks"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers enthusiastic about new tools increase willingness to try them",
+          "Management encouragement or mandates can accelerate adoption",
+          "Negative past experiences with poorly implemented tools create skepticism",
+          "Would be more likely to adopt a tool if early-adopter colleagues vouched for it"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Smartsheet for logging call-offs and shift information",
+          "Relies on UKG for scheduling, attendance, and shift requests",
+          "Employs Homecare Homebase for certain client and staff management tasks",
+          "Utilizes group messaging via standard SMS or messaging apps for notifications"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Smartsheet serves as the central repository for staff attendance data",
+          "UKG is the primary scheduling and workforce management platform",
+          "Homecare Homebase supports additional workflow steps for agency operations",
+          "Uses spreadsheets, checklists, and printed forms as backup"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Familiar with basic and intermediate features of UKG and Smartsheet",
+          "Understands how to use group messaging for efficient staff notifications",
+          "Limited exposure to more advanced HRIS or AI-driven scheduling systems",
+          "Knows standard reporting functions in Homecare Homebase"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Smartsheet, UKG, and Homecare Homebase require manual data transfer between systems",
+          "No seamless integration exists for shift data across all platforms",
+          "Manual cross-checking is needed to avoid double-booking or missed updates",
+          "Desires a unified dashboard to minimize system-switching and errors"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands the basics of large language models (LLMs)",
+          "Knows common AI concepts like chatbots, automation, and natural language processing",
+          "Uses generative AI tools regularly outside of work for personal tasks",
+          "Can explain what 'machine learning' means in simple terms"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Does not use any AI-powered software for work tasks",
+          "Work platforms (Smartsheet, UKG) are not AI-driven in current configuration",
+          "No exposure to scheduling AI or automation tools within current company",
+          "Has used ChatGPT and similar LLMs, but only outside work context"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Has not applied AI tools to any core HR or staffing activities",
+          "Uses AI (e.g., ChatGPT) for personal productivity and information retrieval",
+          "Occasionally explores AI for brainstorming or learning new skills outside of work",
+          "No established workflow for using AI in professional responsibilities"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "No work-related AI success stories due to lack of adoption in current role",
+          "Has found LLMs helpful for quickly generating summaries or answers in personal projects",
+          "Noted occasional inaccuracies or 'hallucinations' from AI responses",
+          "Would like to see more robust, work-specific AI applications to test"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal organizational training for AI tools in current company",
+          "Peers are not currently using AI as part of daily workflow",
+          "No internal documentation or support resources related to AI",
+          "Would be interested in peer-led workshops if AI tools were introduced"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration when learning new tools",
+          "Enjoys independent exploration once basics are understood",
+          "Would value an AI assistant that guides through complex processes",
+          "Sees benefit in both modes depending on task complexity"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Prefers AI acting as an assistant for repetitive or data-heavy tasks",
+          "Would use AI as an advisor for optimizing shift coverage suggestions",
+          "Does not see AI as a replacement for core decision-making or judgment",
+          "Wants AI to handle background work, freeing up time for human interaction"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to AI workflows that reduce manual communication",
+          "Willing to pilot AI-driven scheduling tools if provided by company",
+          "Wants assurance of reliability and transparency before full adoption",
+          "Would advocate for gradual rollout and feedback-based improvements"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Favors conversational interfaces for ease of use and intuitiveness",
+          "Would appreciate natural language input for scheduling and notifications",
+          "Finds command-based UIs efficient for routine, structured tasks",
+          "Would like flexibility to switch between conversational and command modes"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Staffing decisions sometimes require knowledge of staff reliability and facility culture",
+          "Filling shifts can depend on personal relationships and understanding of staff preferences",
+          "Some scheduling nuances not captured in standard data fields",
+          "Tacit understanding of urgency and escalation procedures is important"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Would trust AI for basic scheduling and notifications if proven reliable",
+          "Remains cautious about AI making final decisions on staff assignments",
+          "Believes human oversight is necessary for sensitive or complex cases",
+          "Trust would increase with clear audit trails and override options"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to automate repetitive data entry and shift notifications",
+          "Wants humans to retain control over final staff selections and escalation",
+          "Sees value in AI providing recommendations rather than directives",
+          "Believes hybrid workflow (AI + human review) is optimal"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts automation for routine, low-stakes scheduling updates",
+          "Would feel threatened by automation replacing human judgment in complex staffing",
+          "Needs transparency and error-handling for AI-driven processes",
+          "Prefers opt-in automation with the ability to intervene as needed"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Thinks AI could reduce the need for repetitive data entry skills",
+          "Believes communication and relationship-building skills will remain crucial",
+          "Sees potential for AI to enhance analytical and problem-solving roles",
+          "Anticipates shift towards more oversight and exception management"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Expects need to learn AI troubleshooting and oversight",
+          "Anticipates new responsibility for validating AI-generated schedules",
+          "Interest in developing skills for configuring and customizing AI tools",
+          "May act as a liaison between technical and non-technical staff during AI adoption"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Concerned about automation of basic scheduling and notification tasks",
+          "Less concerned about AI replacing relationship management aspects",
+          "Believes human oversight will always be required for sensitive decisions",
+          "Wants to upskill to stay relevant as AI adoption increases"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Would require manual approval for AI-generated schedules",
+          "Prefers ability to edit or override AI recommendations before finalizing",
+          "Supports visible audit logs for all automated actions",
+          "Wants option to revert to manual workflows if necessary"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "No current policies or guidelines for AI use in the organization",
+          "Expects future policy development as AI tools become available",
+          "Would welcome clear guidance and best practices for AI integration",
+          "Believes team would benefit from open discussions about AI risks and benefits"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will drive efficiency gains in healthcare staffing",
+          "Sees both opportunities and risks in widespread AI adoption",
+          "Thinks AI could help reduce burnout by automating tedious tasks",
+          "Cautiously optimistic about AI's potential to improve care quality"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Concerned about transparency and fairness in AI-driven scheduling",
+          "Believes human oversight is crucial to prevent bias or errors",
+          "Wants safeguards to ensure privacy of staff information",
+          "Supports ethical guidelines for responsible AI deployment"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires an app or platform for posting and claiming open shifts in real time",
+          "Would benefit from AI-powered recommendations for optimal staff assignments",
+          "Needs automated, multi-channel notifications for shift openings",
+          "Wants a centralized dashboard integrating all scheduling and communication tools"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Anticipates shift to more oversight and quality control roles",
+          "Expects basic scheduling and data entry to be mostly automated",
+          "Foresees greater focus on staff engagement and retention strategies",
+          "Believes role will require partnerships with tech and AI specialists"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Pilot AI-driven scheduling and notification tools in select facilities",
+          "Offer training and workshops on AI best practices for HR staff",
+          "Set clear guidelines on AI oversight and human intervention points",
+          "Solicit regular feedback from frontline workers on AI usability and effectiveness"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,544 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Attended some college courses but did not complete a degree",
+          "Took coursework in business administration and mathematics relevant to cost estimation",
+          "Participated in on-the-job training for cost estimation and order management",
+          "Completed several company-provided training modules on manufacturing processes",
+          "Attended workshops on communication and negotiation as part of professional development"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Holds the title of Cost Estimator",
+          "Role includes managing and placing customer orders from initiation through aftercare",
+          "Responsible for preparing detailed cost estimates based on customer requirements",
+          "Acts as a liaison between customers, production, and shipping teams",
+          "Monitors order progress and addresses any issues throughout the lifecycle"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the manufacturing sector",
+          "Industry focus is on custom products requiring cost estimation",
+          "Company is involved in both production and installation of manufactured goods",
+          "Sector requires frequent coordination between production, logistics, and customer service"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Company employs approximately 200-500 people",
+          "Operates in a mid-sized manufacturing facility with both office and factory environments",
+          "Work environment emphasizes cross-team collaboration",
+          "Mix of in-person and digital communication is standard practice"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Business specializes in made-to-order manufactured products",
+          "Market segment includes B2B clients requiring custom solutions",
+          "Company provides both product manufacturing and installation services",
+          "Serves industries that require precise cost estimation and reliable logistics"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has between 6 and 10 years of experience as a Cost Estimator",
+          "Started in an entry-level role and progressed to current responsibilities",
+          "Has witnessed significant changes in order management processes during tenure",
+          "Experience spans both manual and increasingly digital/automated workflows"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Considered mid-career with significant hands-on experience",
+          "Acts as a subject-matter resource for junior estimators or new hires",
+          "Not in formal management, but often mentors or trains colleagues",
+          "Has influence over process improvements within the order management workflow"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Prepares cost estimates for customer orders based on RFQs",
+          "Responds to and sends emails regarding quotes, order status, and technical questions",
+          "Coordinates with production and shipping teams to track order progress",
+          "Checks inventory levels and raw goods availability for pending orders",
+          "Provides aftercare support to ensure customer satisfaction post-installation"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Roughly 60% of daily time is spent preparing and revising cost estimates",
+          "20% is dedicated to responding to emails and customer inquiries",
+          "10% involves checking inventory and coordinating with internal teams",
+          "5% is spent on aftercare and installation support",
+          "Remaining 5% on administrative tasks and process improvement initiatives"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has autonomy in preparing estimates and resolving minor customer issues independently",
+          "Collaborates with supervisors for approval on large or unusual quotes",
+          "Authorized to communicate directly with customers and internal teams regarding order status",
+          "Contributes input on process improvements and tool adoption",
+          "Major process or pricing changes require management approval"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Drafting and sending professional emails comes naturally",
+          "Quickly reviewing and responding to straightforward RFQs",
+          "Checking order status using the CMS landing page is routine",
+          "Coordinating with production or shipping for standard order updates is easy",
+          "Addressing standard customer inquiries about lead times or product specs"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Estimating costs for highly customized or non-standard products",
+          "Resolving discrepancies between customer expectations and production capabilities",
+          "Managing orders that require coordination between multiple teams or locations",
+          "Handling urgent expediting requests with tight deadlines",
+          "Troubleshooting technical questions that require specialist knowledge"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Entering data for routine quotes and order details is repetitive",
+          "Checking and updating inventory levels involves frequent manual data entry",
+          "Generating standard pricing sheets for common products is data-heavy",
+          "Emailing order status updates to customers could be automated",
+          "Tracking shipping and transit times for standard orders is suitable for automation"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys problem-solving for unique customer requirements",
+          "Finds satisfaction in successfully coordinating complex orders",
+          "Tedious tasks include repetitive data entry and order tracking",
+          "Least enjoys following up multiple times on the same issue with internal teams",
+          "Most engaging when collaborating to resolve difficult customer or technical challenges"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual data entry into multiple systems creates duplicate work",
+          "Delays in communication between teams can stall order progress",
+          "Limited integration between CMS and email tools requires context switching",
+          "Inventory data is sometimes outdated, leading to inaccurate estimates",
+          "Repetitive requests for the same information from different departments"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Productivity is highest when working on tasks that are both engaging and within skill set",
+          "Enjoyment increases when tasks involve problem-solving rather than routine data entry",
+          "Skill level in communication and coordination directly improves efficiency",
+          "Tedious tasks reduce motivation, leading to lower focus and productivity",
+          "Continual skill improvement in digital tools has increased both speed and job satisfaction"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally open to trying new tools that clearly improve workflow",
+          "Prefers practical, hands-on learning over theoretical instruction",
+          "Appreciates tools that automate or streamline repetitive tasks",
+          "Sometimes hesitant if new tech requires steep learning curve"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new software when it is intuitive and well-documented",
+          "Previous experience adopting new CMS and analytics tools with minimal disruption",
+          "Can become frustrated if training resources are lacking",
+          "Usually among the first in team to experiment with new features or updates"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to invest time in training if the payoff is clear",
+          "Prefers concise, targeted training sessions over lengthy courses",
+          "Often learns new features through self-directed exploration or peer tips",
+          "Will deprioritize training if workload is especially heavy"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the prospect of saving time on repetitive tasks",
+          "Barriers include high workload and unclear benefits of some new tools",
+          "More likely to learn tech that is directly relevant to daily responsibilities",
+          "Lack of formal support or documentation can slow adoption"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers who champion new tools can encourage faster adoption",
+          "Management endorsement increases confidence in investing time to learn new technologies",
+          "Occasionally volunteers as an early adopter to help train others",
+          "Positive feedback from colleagues increases willingness to try updates"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Gmail for 80-100% of daily email traffic",
+          "Frequently accesses a company-specific CMS landing page for order management",
+          "Utilizes proprietary programs to optimize materials and pricing calculations",
+          "Employs Amazon Gmail with integrated analytics tools (ACE) for insights",
+          "Occasionally uses service-assisted writing tools for professional communication"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on spreadsheets (Excel or Google Sheets) for tracking quotes and costs",
+          "Uses phone calls and in-person visits for urgent coordination with production and shipping",
+          "Checks freight rates through integrated modules in the CMS",
+          "References hard copy product catalogs and technical specs as needed"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Familiar with mainstream office productivity tools like Microsoft Office Suite",
+          "Experienced with manufacturing-specific CMS and ERP systems",
+          "Has used digital inventory management platforms",
+          "Understands basics of CRM systems for tracking customer interactions"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "CMS and Gmail are not fully integrated, requiring manual transfer of order details",
+          "Analytics from ACE do not automatically sync with order management tools",
+          "Spreadsheets are often duplicated across different teams, leading to version control issues",
+          "Occasional data entry errors arise from switching between platforms"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic AI concepts such as natural language processing and predictive analytics",
+          "Knows the distinction between AI automation and traditional scripting",
+          "Familiar with the concept of large language models (LLMs) and their capabilities",
+          "Limited exposure to advanced machine learning algorithms or model training"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Has used LLM-based writing assistants (like ChatGPT or similar) for drafting emails",
+          "Utilizes ACE analytics tool, which includes some AI-driven features",
+          "Tested company-provided AI-powered inventory suggestion tools",
+          "No routine use of complex standalone AI platforms in daily workflow"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs occasionally, mainly for rewriting emails or generating professional responses",
+          "Applies AI-powered analytics for insights into order trends or performance",
+          "Uses AI tools for service-assisted writing rather than core estimation tasks",
+          "AI tools are not yet central to daily workflow but are used as needed for specific tasks"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI-generated email drafts have improved tone and clarity in customer communication",
+          "Some AI suggestions for inventory management were not fully aligned with real-time data",
+          "Once received an overly generic response from an LLM, requiring heavy editing",
+          "Found that AI tools excel at repetitive writing tasks but struggle with nuanced order details"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal, structured AI training provided by the company yet",
+          "Peers occasionally share tips or best practices for using LLMs",
+          "Self-taught on most AI tools through experimentation and online resources",
+          "Interest in more guided learning if AI adoption expands in the organization"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers independent use of AI tools for specific tasks, such as email drafting",
+          "Open to step-by-step collaboration for more complex or unfamiliar AI features",
+          "Often uses AI tools as a supplement rather than as a workflow driver",
+          "Values the ability to start independently and escalate to collaborative mode if needed"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for automating routine writing or analysis",
+          "Occasionally treats AI as an advisor when seeking alternative communication approaches",
+          "Does not rely on AI as a 'co-worker' for core estimating tasks",
+          "Prefers to maintain final control and judgment on all outputs"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to AI-driven workflows if they demonstrably save time or improve quality",
+          "Skeptical of full automation for tasks requiring domain expertise",
+          "Interested in AI support for inventory management or repetitive communications",
+          "Would accept gradual increases in AI integration with proper oversight"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for writing assistance and brainstorming",
+          "Uses command-based inputs for structured, predictable tasks",
+          "Finds conversational AI more approachable for exploring new features",
+          "Would like the flexibility to switch between modes depending on context"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Cost estimation requires deep understanding of product specs and manufacturing constraints",
+          "Certain pricing decisions depend on nuanced knowledge of customer history and preferences",
+          "Experience-based judgment is critical for managing exceptions and edge cases",
+          "Routine administrative tasks involve less tacit knowledge and are more suitable for automation"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for generating drafts and basic analytics, but not for final estimates",
+          "Reviews all AI-generated content before sharing with customers",
+          "Skeptical of AI for complex or high-stakes decisions involving nuanced variables",
+          "Trust increases with proven accuracy and transparent AI logic"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to automate repetitive writing and data collation tasks",
+          "Believes humans should retain control over final estimates and client communications",
+          "Open to AI suggestions for routine decisions, but wants oversight for critical steps",
+          "Ideal balance involves AI handling groundwork, with humans finalizing outputs"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for standardized, low-stakes tasks with predictable outcomes",
+          "Would feel threatened if AI was used for complex customer negotiations or bespoke quotes",
+          "Willing to support automation with clear override and review mechanisms",
+          "Comfortable with automation as long as final accountability remains with humans"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Sees AI as enhancing efficiency but not replacing need for domain expertise",
+          "Communication and relationship management skills remain crucial despite AI adoption",
+          "Routine admin skills may become less important as automation increases",
+          "Critical thinking and oversight skills are increasingly valued alongside AI"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning to verify and edit AI-generated content is a new skill area",
+          "May need to interpret AI-driven analytics for process improvement",
+          "Anticipates increased responsibility for training peers on AI tools",
+          "Growing need to understand AI limitations and appropriate use cases"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Not overly concerned about AI replacing core estimation or client liaison tasks",
+          "Recognizes that some repetitive admin duties may be automated away",
+          "Believes that roles requiring judgment and customer interaction are less at risk",
+          "Mild concern about long-term impacts if AI capabilities expand significantly"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always reviews AI-generated content before sending to customers",
+          "No critical decisions are made without human validation",
+          "Company currently requires manual approval for any AI-suggested pricing changes",
+          "Prefers to have clear, easy-to-access override options in any automated workflow"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has recently begun experimenting with AI tools in select workflows",
+          "No official policy on mandatory AI adoption yet",
+          "Peers are encouraged to share experiences and best practices with AI",
+          "Leadership is monitoring AI developments and potential impacts on roles"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Views AI as a tool for increasing efficiency in manufacturing and logistics",
+          "Believes AI will shift workforce needs toward higher-order skills",
+          "Sees potential for AI to reduce human error in routine processes",
+          "Cautious optimism about AI's potential to create new job categories"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes transparency and explainability are crucial for ethical AI use",
+          "Worries about over-reliance on AI for decisions that affect customers",
+          "Supports ethical guidelines to govern AI-driven communications",
+          "Sees value in AI as a support tool, not a replacement for human judgment"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires AI tools for real-time inventory management and forecasting",
+          "Would benefit from AI that can seamlessly integrate emails, CMS, and analytics",
+          "Interested in AI that proactively flags order delays or inventory shortages",
+          "Needs AI features that can adapt communication tone automatically per customer"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine quoting and order updates to be mostly automated",
+          "Foresees greater focus on customer relationship management and exception handling",
+          "Anticipates need for ongoing upskilling in AI tool usage and oversight",
+          "Believes human expertise in negotiation and solution design will remain vital"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Wants clear guidelines and training for responsible AI use",
+          "Supports piloting AI tools in low-risk workflow areas before scaling up",
+          "Advocates for ongoing feedback loops between users and AI developers",
+          "Recommends regular review of AI-driven processes for fairness and accuracy"
+        ]
+      }
+    ]
+  }
+]

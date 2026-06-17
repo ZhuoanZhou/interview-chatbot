@@ -1,0 +1,496 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master\u2019s Degree in Computer Science with a focus on data management",
+          "Completed undergraduate studies in Information Systems",
+          "Participated in supplemental coursework on database architecture and data modeling",
+          "Has attended professional workshops on data warehousing tools such as Informatica and Snowflake"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Data Warehousing Specialist",
+          "Responsible for dimensional modeling and data architecture design",
+          "Acts as the bridge between business stakeholders and technical teams",
+          "Creates ETL/ELT pipelines to move and transform data for analytics"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the technology sector with a focus on enterprise analytics",
+          "Role is relevant to industries with complex data needs, such as finance or retail",
+          "Current projects support analytics for business operations and reporting"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works in a mid-sized company with approximately 200-500 employees",
+          "Environment is collaborative with both business and technical teams",
+          "Company culture supports ongoing learning and tool adoption"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Supports organizations requiring advanced analytics for decision-making",
+          "Market segment includes enterprise clients seeking scalable data solutions",
+          "Focuses on internal analytics for business performance optimization"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has over 10 years of experience as a data warehousing specialist",
+          "Started in junior data engineering roles before specializing in warehousing",
+          "Has seen multiple technology shifts in the field over the past decade"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds a senior-level position within the data engineering team",
+          "Frequently mentors junior colleagues on best practices and tools",
+          "Acts as a subject matter expert for dimensional modeling and ETL/ELT processes"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Meets with business stakeholders to gather and clarify requirements",
+          "Analyzes source data structures and documents findings",
+          "Designs and builds dimensional data models for analytics and reporting",
+          "Develops and maintains ETL/ELT pipelines for data movement and transformation",
+          "Performs data quality checks and ensures data consistency"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 40% of time on ETL/ELT pipeline development",
+          "Devotes about 25% to data modeling and architecture design",
+          "Allocates 20% to stakeholder meetings and requirements gathering",
+          "Uses the remaining 15% for data analysis, documentation, and troubleshooting"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates with high autonomy in technical design decisions",
+          "Collaborates closely with business leads to ensure alignment with requirements",
+          "Can independently select tools and approaches for data pipelines",
+          "Responsible for reviewing and approving data models before implementation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Designing dimensional data models comes naturally due to extensive experience",
+          "Communicating with business stakeholders is comfortable after years of practice",
+          "Building routine ETL jobs for standard data movement is straightforward"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Dealing with poorly documented legacy source systems is challenging",
+          "Integrating data from disparate sources with different schemas can be complex",
+          "Resolving data quality issues that require deep domain knowledge is demanding",
+          "Optimizing ETL performance for large data volumes can be technically challenging"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Routine data cleaning and standard transformation steps are repetitive",
+          "Monitoring daily ETL job runs and logs is data-heavy and suitable for automation",
+          "Initial schema mapping between source and target tables can be automated"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys brainstorming solutions for complex data integration challenges",
+          "Finds designing new dimensional models for novel requirements engaging",
+          "Feels repetitive data validation and documentation tasks are tedious",
+          "Routine ETL monitoring and error logging are less enjoyable"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual data mapping between legacy systems and new models is time-consuming",
+          "Waiting on business users for requirement clarifications can cause delays",
+          "Lack of standardized documentation for data sources creates inefficiency",
+          "Debugging ETL failures due to inconsistent source data is a frequent pain point"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Higher skill level in data modeling leads to faster, more enjoyable project delivery",
+          "Productivity is highest when working on challenging design problems",
+          "Tedious, manual tasks reduce engagement and overall productivity"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Maintains a proactive approach to learning new data warehousing tools",
+          "Regularly explores new ETL/ELT platforms to stay current",
+          "Sees continuous learning as essential to maintaining expertise"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new data engineering frameworks and platforms",
+          "Comfortable moving between different ETL/ELT toolsets as required by projects",
+          "Open to experimenting with emerging technologies like AI-assisted ETL"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willingly dedicates several hours monthly to online courses or webinars",
+          "Views time spent on technical upskilling as a necessary investment",
+          "Participates in peer-led training sessions within the company"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by opportunities to streamline workflows and improve efficiency",
+          "Sometimes workload spikes limit time available for deep learning",
+          "Prefers learning technologies that are directly relevant to current or upcoming projects",
+          "Peer recommendations often influence which new tools to explore"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers frequently share insights about new tools, fostering a culture of experimentation",
+          "Management encourages tool adoption when there\u2019s a clear ROI",
+          "Team-wide adoption of new tech is smoother when early adopters share positive experiences"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Informatica PowerCenter and dbt for ETL/ELT pipeline development",
+          "Leverages Snowflake and Redshift as primary data warehouse platforms",
+          "Employs Power BI and Tableau for data visualization and reporting"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on SQL for data querying and manipulation",
+          "Uses Python scripts for data ingestion and preprocessing",
+          "Employs Jira for project tracking and task management"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Highly familiar with ETL/ELT tools such as Informatica, dbt, and Coalesce",
+          "Has hands-on experience with major cloud data warehouses including Snowflake and Redshift",
+          "Knowledgeable about data integration tools like Fivetran and Airbyte"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Has encountered schema compatibility issues when moving data between Teradata and Snowflake",
+          "Integration between ETL tools and reporting platforms sometimes requires custom connectors",
+          "Occasionally faces challenges aligning data types across different data warehousing solutions"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic AI/ML concepts such as supervised learning and model inference",
+          "Familiar with LLMs (Large Language Models) and their application in data analytics",
+          "Keeps abreast of new AI trends relevant to data engineering"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT and other LLM-based assistants for code suggestions",
+          "Has experimented with cloud-based AI services for data profiling",
+          "Utilizes AI-enhanced features in data visualization tools like Power BI"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies LLMs occasionally for generating SQL queries and ETL code snippets",
+          "Uses AI tools to automate the initial analysis and profiling of new data sources",
+          "Occasionally leverages AI for drafting technical documentation"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used LLMs to quickly prototype data transformation scripts, reducing manual effort",
+          "Encountered limitations with AI-generated SQL that didn\u2019t account for complex business logic",
+          "Learned that human review is essential to validate AI outputs before deployment"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company offers internal webinars on AI tool use in data engineering",
+          "Peers share best practices for integrating AI assistants into workflow",
+          "Access to online documentation and community forums for troubleshooting AI tool issues"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI tools for complex data transformations",
+          "Often starts independently, then uses AI for code review or optimization suggestions",
+          "Adjusts interaction style based on task complexity and familiarity"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for automating routine or repetitive tasks",
+          "Occasionally uses AI as an advisor for technical brainstorming",
+          "Treats AI-generated outputs as a starting point for human refinement"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to adopting AI-driven workflows that clearly demonstrate productivity gains",
+          "Willing to experiment with new AI features in ETL and reporting tools",
+          "Seeks feedback from peers before integrating new AI-driven processes at scale"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and code generation tasks",
+          "Uses command-based interfaces for repeatable, well-defined automation",
+          "Finds a hybrid interface (conversational for ideation, command for execution) most effective"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many data transformation tasks require deep understanding of business logic",
+          "Mapping between business requirements and data models often depends on tacit knowledge",
+          "ETL design decisions are informed by years of experience with specific data sources"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI outputs for routine, low-risk code generation tasks",
+          "Maintains skepticism for AI-generated solutions involving business-critical logic",
+          "Always performs manual review of AI outputs before production deployment"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to automate repetitive data analysis and code generation, with human oversight",
+          "Believes complex data modeling should remain a primarily human-driven activity",
+          "Envisions a workflow where AI assists but does not replace human expertise"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for well-defined, low-risk ETL tasks",
+          "Resists full automation when tasks involve significant business judgment or ambiguity",
+          "Sees value in automation as long as manual override and audit trails are available"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances productivity but does not diminish the need for strong data modeling skills",
+          "Views AI as a complementary tool that frees up time for more strategic work",
+          "Sees technical and business communication skills becoming even more important"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning to evaluate and fine-tune AI-generated outputs is a new key skill",
+          "Developing prompt engineering abilities for LLMs is increasingly relevant",
+          "Responsible for integrating AI-driven automation with legacy processes"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Not significantly concerned about AI replacing core data modeling responsibilities",
+          "Recognizes that some routine ETL development tasks may be automated in the future",
+          "Believes the need for human oversight and business alignment will persist"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All AI-generated code or models are subject to manual review before deployment",
+          "ETL systems include audit logs and rollback options for AI-driven changes",
+          "Established protocols for human intervention in case of unexpected AI behavior"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has recently introduced guidelines for responsible AI usage in data engineering",
+          "Teams are encouraged to pilot AI tools but with strict validation procedures",
+          "Management supports gradual adoption of AI while ensuring workforce upskilling"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will transform data engineering by automating routine tasks",
+          "Sees potential for AI to democratize data analytics across organizations",
+          "Cautious about potential job displacement in roles focused only on repetitive work",
+          "Optimistic about AI enabling deeper insights and faster innovation"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes transparency and explainability are critical for AI adoption",
+          "Concerned about biases in AI-generated analytics or models",
+          "Supports clear accountability for AI-driven business decisions"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would value AI tools that can automatically map complex legacy data structures to modern models",
+          "Desires more robust AI-driven data quality and anomaly detection solutions",
+          "Wants AI that can generate comprehensive, human-readable data pipeline documentation"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine ETL and data quality tasks to become largely automated",
+          "Foresees a shift towards more strategic, business-facing responsibilities",
+          "Anticipates increased collaboration between AI specialists and data engineers"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement structured AI training programs for all data engineering staff",
+          "Establish best practices for human-in-the-loop AI development",
+          "Regularly review and update ethical guidelines for AI tool usage",
+          "Pilot new AI-powered data engineering tools in controlled, low-risk environments"
+        ]
+      }
+    ]
+  }
+]

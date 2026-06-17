@@ -1,0 +1,188 @@
+# Biographical Notes
+
+- Skeptical about fully AI-driven workflows due to current limitations in reliability
+- Always manually reviews and verifies AI outputs before integrating them into legal work
+- Highly proficient with Westlaw and similar legal research databases
+- Would benefit from AI that integrates seamlessly with existing legal research platforms
+- Represents both plaintiffs and defendants in civil litigation matters
+- Management encourages responsible exploration of AI but emphasizes professional standards
+- Collaborates with colleagues when evaluating whether a new tool fits firm needs
+- Accepts high automation for non-substantive tasks, such as document formatting or sorting evidence
+- Named their office chair 'The Judge' because it’s surprisingly comfortable for long hours.
+- Makes independent decisions on case tactics, subject to consultation with managing attorney
+- Sorting and organizing large batches of evidence or exhibits could be automated
+- Consults AI outputs to generate alternative perspectives or check for overlooked issues
+- Relies on Microsoft Word for drafting and editing legal documents
+- Considers repetitive document review and administrative paperwork tedious
+- Confidence in AI remains limited by observed inaccuracies and hallucinated cases
+- May need to train or mentor junior staff in responsible AI-assisted legal research
+- Maintains physical and digital case files for document management
+- Trusts AI outputs only after independent verification through authoritative legal sources
+- Familiar with basic case management software, though not a frequent user
+- Colleagues are increasingly experimenting with AI tools on a case-by-case basis
+- Remaining 10% involves client meetings, court appearances, and administrative duties
+- Believes core legal skills—research, writing, advocacy—remain essential despite AI advances
+- Prefers to maintain final authority on all substantive legal work
+- Enjoys sketching caricatures of colleagues as a lighthearted stress-relief routine.
+- Has experimented with ChatGPT and similar LLM-based research assistants
+- Open to incorporating AI into research and drafting if accuracy improves
+- Engages in step-by-step collaboration with AI mainly during research brainstorming
+- Drafting standard pleadings and motions is routine, given familiarity with templates and legal standards
+- Firm is cautiously observing AI trends but has not implemented formal AI policies
+- Dedicates around 20% of the week to drafting, editing, and finalizing legal documents
+- Learned to always verify AI-generated references through authoritative databases
+- Works as a Senior Attorney in a mid-sized law firm
+- Skill level increases enjoyment for tasks like oral argument and strategic planning
+- Bakes a batch of seasonal cookies for the office holiday party every year without fail.
+- Advocates for formal training on responsible AI tool use in legal practice
+- Allocates 30% of time to discovery-related tasks, including depositions and document review
+- No direct integration between Westlaw and document drafting tools, leading to extra steps
+- Meets with clients to discuss case details and provide legal advice
+- Prefers interfaces that allow for quick follow-up questions and clarifications
+- Appears in court for hearings, trials, and settlement conferences
+- Participated in continuing legal education (CLE) courses annually to maintain licensure
+- Less likely to rapidly adopt entirely new or unproven tools without peer endorsement
+- Has an old-fashioned hourglass timer on the desk to time breaks or brainstorming sessions.
+- Repetitive tasks lower engagement and perceived productivity, even if proficiency is high
+- Client meetings and initial interviews come naturally due to decades of experience
+- Wears mismatched socks intentionally as a good luck charm before court appearances.
+- Occasionally uses AI-powered research tools for idea generation
+- Initial document review for discovery can be repetitive and is often data-heavy
+- Managing large-scale discovery, especially e-discovery with voluminous documents, is challenging
+- Tasks that align with core legal expertise are both enjoyable and productive
+- Employs email (Outlook) for client and internal communications
+- Prefers human-led research and analysis, with AI used for brainstorming or initial idea generation
+- Engages primarily with the legal, insurance, and business industries through client work
+- Ability to critically evaluate AI-generated research is increasingly necessary
+- Has a habit of brewing loose-leaf tea with a tiny infuser shaped like Lady Justice.
+- Peers' positive experiences with technology can prompt personal adoption
+- Finds oral advocacy in court particularly engaging and rewarding
+- Has a framed crossword puzzle they completed fully in pen, signed and dated from law school.
+- Keeps a chalkboard outside the office door with daily witty quotes or legal puns.
+- Will attend training sessions if they are concise and directly relevant to daily tasks
+- Formatting citations and ensuring compliance with court-specific document standards is tedious
+- Some concern about automation reducing the need for entry-level research tasks
+- Has encountered AI hallucinations, such as fabricated cases or misquoted authorities
+- Some skepticism remains due to concerns about accuracy and reliability
+- Works in the legal services industry
+- Completed undergraduate studies prior to law school, majoring in Political Science
+- Wants AI features that assist with repetitive formatting and citation tasks
+- Motivated by the potential to save time on research and reduce repetitive tasks
+- Passed the state bar exam and maintains active bar membership
+- Brings homemade biscotti to share with colleagues every Thursday afternoon.
+- Recommends pilot programs to test AI tools before broad implementation
+- Has a collection of fountain pens and always writes notes by hand during meetings.
+- Skepticism about the applicability of some new technologies to real legal practice
+- Organizes an annual charity 5K run with colleagues, dressing up in costumes to boost morale.
+- Understands basic AI concepts such as 'prompting', 'training data', and 'hallucinations'
+- Has been practicing law for over 40 years
+- Competes primarily with other regional and local law firms in the civil litigation market
+- Views automation of core legal reasoning or client counseling as threatening to quality and ethics
+- Practices calligraphy and uses handwritten thank-you notes for all client gifts and follow-ups.
+- Has authority to negotiate settlements and recommend case resolutions to clients
+- Serves both individual and business clients, ranging from local entrepreneurs to corporations
+- Navigating Westlaw for basic statutory or case law searches is straightforward
+- Has a rotating collection of novelty ties featuring famous landmark prints from cities visited.
+- Does not allow AI-generated content to be used without human oversight
+- Enjoys strategizing legal arguments and collaborating with colleagues on case theory
+- Sees AI as potentially enhancing efficiency but not replacing strategic legal thinking
+- Complex legal research involving novel legal issues or jurisdictions can be time-consuming
+- Prefers tools that integrate smoothly into established legal workflows
+- Desires AI tools that can reliably verify and cite real, current legal authorities
+- Lack of integration between research platforms and document drafting tools slows workflow
+- Drafts and edits legal documents, including complaints, answers, and settlement agreements
+- AI suggestions have sometimes led to new avenues of research or useful citations
+- Participates in firm-wide discussions on major litigation strategies
+- Owns a custom-made bobblehead that looks like them, perched prominently on the desk.
+- Has a whiteboard in the office dedicated entirely to doodles inspired by courtroom drama TV shows.
+- Experience spans multiple roles, including associate, partner, and senior counsel positions
+- Values having control over the flow and direction of the research process
+- Takes a brisk 15-minute walk around the block exactly three times daily to reset focus.
+- Employs litigation calendars for deadline and court date tracking
+- Supervises junior associates and collaborates with managing partners on case strategy
+- Finds conversational interfaces (like chatbots) more intuitive for early-stage research
+- Explored free online AI tools for brainstorming legal arguments
+- Wants regular reviews of AI effectiveness and risk management procedures
+- Heavy caseloads and tight deadlines often limit available time for tech learning
+- Believes junior attorneys will need new skills to work alongside AI tools
+- Takes and defends depositions as part of the discovery process
+- Recognizes the difference between general AI and specialized legal AI tools
+- Management support and endorsement increase openness to new tools
+- Has a tradition of wearing a lucky pin or brooch on important court dates, sourced from travels.
+- Occasionally uses command-based queries for precise information retrieval
+- Keeps a seasonal playlist of instrumental jazz that changes with the weather outside.
+- Believes critical thinking and legal judgment must remain human-driven
+- More likely to adopt AI tools that offer transparent reasoning and clear citations
+- Prefers to work independently, using AI as a supplemental resource rather than a partner
+- Firm has informal but consistent practices for double-checking AI research
+- Multiple rounds of editing on briefs can be inefficient, especially under tight deadlines
+- Predicts a shift toward higher-level legal analysis and client counseling roles
+- Acts as a mentor to junior associates and summer interns
+- Sometimes leaves tiny origami cranes on coworkers’ desks as surprise good luck tokens.
+- Is an avid podcast listener, favoring ones about medieval history and classic legal cases.
+- Finds AI most useful as an initial brainstorming tool, not as a final authority
+- Uses a standard telephone system for client and court communications
+- Manual review of discovery documents is time-intensive and prone to error
+- Does not rely on AI for critical legal decisions or case strategy
+- Holds a Juris Doctor (JD) professional degree from an accredited law school
+- Utilizes traditional office infrastructure with gradual adoption of new technologies
+- Firm employs approximately 25 attorneys and 40 total staff members
+- Finding up-to-date or out-of-jurisdiction precedent can be cumbersome with current research tools
+- Occasionally discusses AI-related experiences informally with colleagues
+- Relies on online articles and webinars for AI legal applications education
+- Keeps a quirky collection of rubber stamps with funny phrases, which occasionally get used.
+- Does not treat AI as a co-worker or advisor in making legal decisions
+- Drafting appellate briefs with nuanced argumentation requires significant attention and expertise
+- Experienced in Microsoft Office Suite (Word, Excel, Outlook)
+- Has a mini whiteboard in the kitchen at home dedicated to meal planning and trying new recipes.
+- Views AI primarily as an assistant for generating ideas and expanding research scope
+- Prefers hands-on, practical instruction over theoretical or abstract training
+- AI research outputs often need manual verification and cannot be imported directly
+- Has some awareness of how large language models (LLMs) generate text
+- Deposition and court performance depend on nuanced understanding of law and human behavior
+- Operates in a collaborative office environment with both private and shared workspaces
+- Adapts to new software at a moderate pace, often after observing colleagues' experiences
+- Supports developing firm policies on verification and oversight of AI-generated work
+- Believes AI will have a transformative but uneven impact on the legal profession
+- Understanding AI limitations and prompt engineering is becoming relevant
+- Keeps a tiny zen garden on the office windowsill, rearranging it during lunch breaks.
+- Believes human lawyers will remain indispensable for client interaction and strategy
+- Believes transparency and explainability are essential for AI in legal settings
+- Uses AI tools occasionally to jumpstart legal research or identify novel arguments
+- Firm has not yet offered formal training on AI tools for legal work
+- Legal research and argumentation require deep domain expertise and context-specific reasoning
+- Willing to increase automation as AI tools become more accurate and transparent
+- Hosts an annual chili cook-off among friends, where the prize is a vintage cast iron skillet.
+- Has a small shelf of chess puzzles and challenges, often solving one before starting work.
+- Holds a senior-level attorney position, frequently consulted for complex cases
+- Anticipates greater access to legal information for the public via AI tools
+- Comfortable learning incremental changes to existing platforms (e.g., Westlaw updates)
+- Exercises high autonomy in managing assigned cases and legal strategy
+- Drafting successful briefs often hinges on subtle interpretation of precedent and statutory language
+- Supports guidelines to ensure that AI complements, not overrides, human judgment
+- Rarely relies on AI-generated research results without manual verification
+- Regularly involved in firm-level decision-making and strategy discussions
+- Occasionally uses the AI functions in Westlaw, though not Westlaw Edge
+- Has a corkboard covered in motivational quotes scribbled on coffee stirrers from local cafés.
+- Responsible for all aspects of civil cases from client intake to trial or settlement
+- Cautiously open to adopting new technologies when they offer clear benefits
+- Views attention to detail and verification as more important due to AI-generated errors
+- Firm culture emphasizes mentorship and professional development for junior lawyers
+- Keeps a small stack of vintage crime novels on the office bookshelf for inspiration.
+- Started a succulent garden on their balcony, with each plant named after a famous lawyer.
+- Minimal concern about AI replacing high-level legal reasoning or advocacy
+- Uses Westlaw for legal research on case law and statutes
+- Supports partial automation of repetitive or administrative tasks, like formatting citations
+- Concerned about ethical risks, such as AI-generated misinformation and bias
+- Spends approximately 40% of work hours on legal research and strategy
+- Spent more than a decade in the current firm and role
+- Focuses on civil litigation, including personal injury, contract disputes, and employment law
+- Documents drafted in Word require manual uploading to case management systems
+- Specializes in civil litigation within the broader professional services sector
+- Sees value in investing time only if the technology demonstrably increases efficiency
+- Participates in a weekly virtual trivia night centered on obscure legal history facts.
+- Expects more automation of administrative and research-heavy tasks in law firms
+- Utilizes office printers, scanners, and copiers for document preparation
+- Expects AI to streamline routine tasks but not replace core legal expertise
+- Conducts legal research for preparation of pleadings, motions, and appellate briefs
+- Collects postcards from every city where they've attended a legal conference or seminar.

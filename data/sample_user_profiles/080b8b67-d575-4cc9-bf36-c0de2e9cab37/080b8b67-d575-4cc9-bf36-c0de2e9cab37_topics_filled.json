@@ -1,0 +1,526 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master\u2019s Degree in Mathematics",
+          "Completed undergraduate studies in Mathematics prior to pursuing graduate education",
+          "Participated in online courses on data analysis and statistics",
+          "Attended several mathematics education workshops focused on pedagogy",
+          "Has self-taught experience in programming languages relevant to data analysis, such as Python"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Works as an online mathematics tutor and freelance data analyst",
+          "Provides virtual tutoring sessions to high school and undergraduate students",
+          "Designs and analyzes datasets for clients as a freelance analyst",
+          "Balances dual roles in education and analytical services"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Operates primarily in the education and data analytics sectors",
+          "Serves students and clients in the EdTech and freelance analytics markets",
+          "Engages with platforms that connect tutors and data professionals to clients",
+          "Occasionally collaborates with technology companies for data-related projects"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works independently as a freelancer and online tutor",
+          "Collaborates with small teams or individual clients rather than large organizations",
+          "Frequently interacts with students in one-on-one or small group settings",
+          "Occasionally participates in online educator communities for resource sharing"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Active in the online education and private tutoring market",
+          "Provides freelance data analysis services to individual clients and small businesses",
+          "Targets students preparing for exams and professionals seeking data insights",
+          "Utilizes online platforms to connect with clients and students"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 6-10 years of professional experience post-graduation",
+          "Began tutoring during graduate school and transitioned to full-time after degree completion",
+          "Started offering freelance data analytics services approximately 5 years ago",
+          "Experience spans both teaching and applied analytical work"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Considered mid-level in terms of experience and expertise",
+          "Acts as a subject matter expert in mathematics for tutoring clients",
+          "Regularly mentors less experienced tutors in online forums",
+          "Has established a steady client base and reputation in both tutoring and analytics"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Conducts virtual mathematics tutoring sessions via video conferencing platforms",
+          "Develops customized lesson plans and practice materials for students",
+          "Analyzes datasets and creates reports for freelance clients using statistical software",
+          "Communicates regularly with clients and students to clarify requirements and track progress",
+          "Keeps up-to-date with new mathematics education resources and analytics techniques"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 50% of time on direct tutoring and lesson planning",
+          "Allocates 35% of work hours to data analysis projects and reporting",
+          "Reserves about 10% for administrative tasks such as scheduling and invoicing",
+          "Dedicates the remaining 5% to professional development and tool exploration"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Exercises full autonomy over scheduling, curriculum design, and client selection",
+          "Selects software tools and teaching methods independently",
+          "Chooses which freelance projects to accept and how to approach data analysis",
+          "Makes independent decisions on setting rates and managing workload"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Explaining mathematical concepts at various levels of complexity",
+          "Identifying students\u2019 misunderstandings and clarifying them using examples",
+          "Performing data cleaning and basic exploratory data analysis",
+          "Creating visual aids and diagrams to support teaching"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Designing engaging lessons for students with diverse learning needs",
+          "Interpreting ambiguous or incomplete data from freelance clients",
+          "Keeping up with rapidly evolving data analytics tools and methods",
+          "Handling students who struggle with motivation or have learning difficulties"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Grading practice problem sets and quizzes for multiple students",
+          "Aggregating and formatting large data sets for analysis",
+          "Generating routine progress reports for students or clients",
+          "Scheduling recurring tutoring sessions and sending reminders"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Finds one-on-one problem-solving sessions with motivated students highly rewarding",
+          "Enjoys uncovering interesting trends or insights in data analysis projects",
+          "Considers repetitive data entry and administrative paperwork tedious",
+          "Prefers interactive teaching over static lesson planning"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual data entry and formatting consumes significant time",
+          "Coordinating schedules with multiple clients can be complex",
+          "Receiving incomplete or unclear project requirements from freelance clients",
+          "Adapting lesson plans on-the-fly for students with varying skill levels"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Feels most productive and engaged when working on tasks that align with expertise, such as advanced tutoring",
+          "Enjoyment and skill are highest during interactive, problem-solving sessions",
+          "Productivity declines during monotonous or highly administrative tasks",
+          "Learning new analytics tools is enjoyable when it directly improves work efficiency"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally enthusiastic about adopting new software that improves workflow",
+          "Actively seeks out tutorials and guides on emerging analytics tools",
+          "Views technology as crucial for staying competitive in both tutoring and analytics"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new digital platforms for teaching and data analysis",
+          "Comfortable experimenting with beta features or less familiar tools",
+          "Regularly updates software and explores integration possibilities"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Invests several hours monthly in self-directed learning of new tools",
+          "Attends webinars and online courses to deepen software proficiency",
+          "Completes platform-specific certifications when relevant to work"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential to automate repetitive tasks and improve lesson quality",
+          "Occasional barrier is high workload, limiting available time for upskilling",
+          "Prioritizes tech learning that has direct, practical application to current tasks"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers in online educator forums often recommend new tools and practices",
+          "Clients sometimes request use of specific analytics platforms or formats",
+          "Positive reviews from other tutors increase openness to trying new teaching apps"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Zoom or Google Meet for virtual tutoring sessions",
+          "Utilizes Microsoft Excel and Python (notably pandas, NumPy) for data analysis",
+          "Employs Wolfram Alpha and Desmos for interactive mathematics demonstrations",
+          "Relies on Google Docs and Sheets for lesson planning and sharing resources"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Digital whiteboards (e.g., Miro, Microsoft Whiteboard) for explaining math concepts",
+          "PDF editors for annotating assignments and sending feedback",
+          "Calendar apps (e.g., Google Calendar) for scheduling sessions",
+          "Email clients for client and student communications"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient with Microsoft Excel's advanced features, including pivot tables and formulas",
+          "Comfortable using Jupyter Notebooks for data science projects",
+          "Experienced with educational platforms such as Khan Academy and Moodle",
+          "Familiar with basic SQL for querying databases"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces format compatibility issues when sharing files between Excel, Google Sheets, and Python scripts",
+          "Some virtual whiteboard tools lack seamless integration with video conferencing platforms",
+          "Client-specific requirements sometimes necessitate manual data conversion between software",
+          "Synchronization of calendars across devices can be inconsistent"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands concepts such as supervised learning, regression, and clustering",
+          "Familiar with terminology like model accuracy, overfitting, and feature engineering",
+          "Has basic knowledge of natural language processing and large language models",
+          "Can interpret AI-generated outputs and explain them to clients or students"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT and other large language models for generating explanations and lesson content",
+          "Employs Google Bard for brainstorming instructional strategies",
+          "Utilizes Python libraries such as scikit-learn for basic machine learning tasks",
+          "Occasionally uses AI-powered data visualization tools (e.g., Tableau's AI features)"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs daily to draft explanations, generate practice problems, and summarize data",
+          "Applies AI to automate routine data cleaning and analysis steps",
+          "Leverages AI for language translation when tutoring non-native English speakers",
+          "Employs AI-based plagiarism detection to verify student submissions"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used ChatGPT to clarify complex calculus concepts for struggling students",
+          "Encountered instances where AI-generated math explanations contained subtle errors, requiring careful review",
+          "Automated data cleaning with Python AI tools, significantly reducing project turnaround time",
+          "Learned that AI suggestions are most effective when double-checked for domain accuracy"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Relies on online forums and self-guided tutorials for upskilling in AI tools",
+          "Participates in educator webinars discussing practical AI integration in teaching",
+          "Exchanges tips and resources with other freelance analysts in online communities",
+          "No formal in-house training due to independent/freelance work structure"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI for complex or unfamiliar tasks",
+          "Uses independent AI queries for generating routine materials or quick answers",
+          "Finds iterative prompting effective for refining explanations and solutions"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI as a knowledgeable assistant to supplement expertise",
+          "Occasionally treats AI as a brainstorming partner for lesson ideas",
+          "Relies on AI for initial drafts, refining outputs manually for quality assurance",
+          "Considers AI outputs as starting points for further customization"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Very open to experimenting with new AI features and workflows",
+          "Willing to adjust work processes if AI demonstrably improves efficiency",
+          "Prefers to pilot new AI tools on low-stakes tasks before full adoption"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and content generation",
+          "Uses command-based scripts for data analysis tasks with clear inputs/outputs",
+          "Finds natural language prompts more intuitive for teaching applications"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Tutoring requires deep understanding of mathematics and pedagogical methods",
+          "Data analysis projects often depend on nuanced interpretation of results",
+          "AI tools supplement, but do not replace, the need for expert domain judgment",
+          "Customization for individual student needs relies heavily on personal experience"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for routine tasks such as drafting explanations or cleaning data",
+          "Carefully reviews AI outputs before using them in critical teaching or client deliverables",
+          "Generally skeptical of AI-generated solutions without manual verification",
+          "Relies more on AI for efficiency than for authoritative answers"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive, time-consuming steps (e.g., grading, data formatting)",
+          "Believes final analysis, feedback, and teaching should remain human-led",
+          "Sees optimal workflow as AI-augmented, not AI-driven",
+          "Values the creative and interpersonal aspects that AI cannot replicate"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for non-critical, standardized tasks (e.g., progress emails)",
+          "Finds automation threatening when it risks loss of personalization or instructional quality",
+          "Prefers manual control over final outputs in client-facing work",
+          "Supports gradual automation with strong human oversight"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Views AI as enhancing the value of core mathematical and analytical skills",
+          "Believes ability to interpret and validate AI outputs is increasingly important",
+          "Considers interpersonal teaching skills irreplaceable by automation",
+          "Finds routine technical skills (e.g., basic data entry) less critical due to automation"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing proficiency in prompt engineering for LLMs",
+          "Learning to critically assess and edit AI-generated materials",
+          "Taking responsibility for educating students and clients about appropriate AI use",
+          "Staying updated on best practices for AI-integrated teaching and analysis"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mildly concerned about AI automating low-skill or repetitive tasks",
+          "Confident that personalized teaching and complex analysis remain human strengths",
+          "Monitors advancements in AI to anticipate potential role changes",
+          "Views ongoing skill development as key to long-term job security"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always manually reviews AI-generated lesson content before delivery",
+          "Implements checkpoints in data workflows to validate AI-processed results",
+          "Utilizes version control to track changes made by AI tools",
+          "Has protocols for reverting to manual processes if AI outputs are unsatisfactory"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "As an independent professional, self-determines policies for AI adoption",
+          "Notices a trend toward increased AI use among peers and clients",
+          "Joins online discussions about ethical and practical AI integration in education",
+          "Believes formal guidelines on AI use will become more common in freelance work"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will continue to reshape education and analytics industries",
+          "Sees potential for AI to democratize access to high-quality instruction",
+          "Recognizes risks related to misinformation and loss of human oversight",
+          "Anticipates increased demand for professionals skilled in both domain knowledge and AI"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports transparent disclosure of AI-generated content to students and clients",
+          "Concerns include data privacy, bias in AI outputs, and overreliance on automation",
+          "Advocates for responsible, human-centered AI design in educational tools",
+          "Believes ongoing human oversight is essential for ethical AI use"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires AI-powered adaptive learning platforms tailored to individual students",
+          "Wants more accurate, context-aware math problem generators",
+          "Would benefit from integrated tools for seamless workflow across tutoring and analytics platforms",
+          "Seeks AI features for automatic detection and correction of subtle mathematical errors"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine tutoring and analytic tasks to become highly automated",
+          "Anticipates shifting focus toward advanced, creative, and interpersonal aspects of work",
+          "Believes ability to guide and supervise AI will be a core professional skill",
+          "Foresees increasing collaboration between educators, analysts, and AI systems"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Encourages investment in AI literacy and upskilling for all team members",
+          "Recommends developing clear guidelines for ethical and responsible AI use",
+          "Supports piloting new AI tools with feedback mechanisms for improvement",
+          "Suggests partnering with educational technology providers to co-develop AI-enhanced platforms"
+        ]
+      }
+    ]
+  }
+]

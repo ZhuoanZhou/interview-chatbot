@@ -1,0 +1,500 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Doctorate (PhD) in Geography with a focus on Geographic Information Systems (GIS)",
+          "Completed undergraduate and master's degrees in related fields prior to PhD",
+          "Attended several workshops on remote sensing, spatial data analysis, and GIS technologies",
+          "Participated in academic conferences during graduate studies, presenting research on spatial data science"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Geographic Information Systems Technologist",
+          "Responsible for GIS data collection, data analysis, and spatial data visualization",
+          "Mentors undergraduate and graduate students in geospatial methods",
+          "Writes research papers and grant proposals as part of academic role"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the academic research sector",
+          "Specializes in geospatial data analysis for environmental and social sciences",
+          "Often collaborates with public sector agencies on spatial data projects"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-sized research university with 5,000-10,000 students",
+          "Works within a small research group of 8-10 members",
+          "Collaborative, interdisciplinary environment with frequent meetings and discussions"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Academic research focused on spatial analysis and geoinformatics",
+          "Projects often funded through government grants and research foundations",
+          "Provides consulting and data analysis for public sector organizations"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has worked as a GIS technologist for 3-5 years post-PhD",
+          "Completed several research projects in the past 4 years",
+          "Previously held internships and research assistantships during graduate studies"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Considered early-career but with advanced academic credentials",
+          "Acts as a mentor for students and junior research staff",
+          "Contributes to paper and proposal writing as a key team member"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Processes and analyzes large geospatial datasets using ArcGIS Pro, QGIS, and Python",
+          "Conducts field visits for data collection, typically lasting around two hours",
+          "Writes and edits research papers and grant proposals",
+          "Mentors students in GIS techniques and research methodology"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Data analysis occupies roughly 40% of weekly work hours",
+          "Paper and proposal writing accounts for approximately 35% of time, especially near deadlines",
+          "Field data collection takes up about 10-15%, depending on project stage",
+          "Mentoring and meetings comprise the remaining 10-15%"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates with substantial autonomy in analytical approaches and tool selection",
+          "Collaborates with principal investigators on major project decisions",
+          "Independently schedules and conducts participant visits for data collection",
+          "Makes recommendations on methodologies for spatial analysis and visualization"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Spatial data preprocessing and cleaning in R and Python",
+          "Generating basic maps and visualizations in ArcGIS Pro",
+          "Mentoring students on standard GIS workflows",
+          "Drafting initial sections of research papers"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Debugging advanced geospatial scripts, especially with complex data formats",
+          "Integrating disparate datasets from multiple sources",
+          "Addressing reviewer comments and major revisions on paper submissions",
+          "Developing custom geoprocessing workflows in Python or Google Earth Engine"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Batch geocoding of addresses for large survey datasets",
+          "Routine quality checks on spatial data layers",
+          "Automated report generation from standard analysis pipelines",
+          "Data entry and formatting for participant visit logs"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys developing new spatial analysis methods and visualizations",
+          "Finds field visits engaging due to real-world data interaction",
+          "Considers routine data cleaning and formatting somewhat tedious",
+          "Paper writing is engaging when presenting novel findings, less so for repetitive sections"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Tool interoperability issues between ArcGIS Pro, QGIS, and Python",
+          "Time-consuming manual data entry for field collection",
+          "Debugging code, especially when documentation is sparse",
+          "Collaborative writing workflows can be slowed by version control issues"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Highest productivity when working on tasks that align with expertise, such as spatial analysis",
+          "Enjoyment increases with tasks that offer intellectual challenge and learning opportunities",
+          "Repetitive, low-skill tasks tend to reduce motivation and overall productivity",
+          "Mentoring students is enjoyable and reinforces own skills while contributing to team productivity"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally enthusiastic about exploring new GIS and data science tools",
+          "Views continuous learning as essential for staying current in the field",
+          "Proactively experiments with beta versions of relevant software"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new tools due to strong technical foundation",
+          "Frequently incorporates updates in R, Python libraries, and GIS platforms",
+          "Comfortable troubleshooting unfamiliar software through self-guided learning"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Allocates time monthly to complete online tutorials or webinars",
+          "Willing to dedicate up to several hours weekly when learning tools that directly impact workflow",
+          "Occasionally participates in university-sponsored workshops on advanced GIS methods"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential to automate or accelerate existing workflows",
+          "High workload near proposal deadlines can limit time available for training",
+          "Most likely to adopt new tech when it is directly relevant to current projects"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often share tool recommendations, influencing adoption decisions",
+          "Management is supportive of technology adoption if it improves research outcomes",
+          "Collaborative projects sometimes necessitate learning tools preferred by other team members"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses ArcGIS Pro and QGIS for spatial data visualization and analysis",
+          "Employs R and Python for statistical analysis and scripting workflows",
+          "Utilizes Google Earth Engine for remote sensing and large-scale geospatial processing",
+          "Interacts with ChatGPT multiple times a week for code assistance and writing support"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on Microsoft Office Suite for documentation and collaboration",
+          "Uses Google Drive for cloud storage and sharing datasets",
+          "Employs GPS devices or mobile apps for field data collection"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Highly proficient in ArcGIS Pro, QGIS, R, and Python, considered industry standards in GIS",
+          "Experienced with Google Earth Engine's cloud processing environment",
+          "Basic familiarity with other mapping tools such as Mapbox and OpenStreetMap"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Frequently encounters challenges when transferring data between ArcGIS and QGIS due to file format compatibility",
+          "Integration of Python scripts in ArcGIS Pro sometimes requires additional configuration",
+          "Occasional issues with coordinate reference system mismatches across tools",
+          "Cloud-based processing in Google Earth Engine may not seamlessly export to local desktop GIS"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic machine learning workflows such as data preprocessing, model training, and evaluation",
+          "Familiar with terminology like supervised/unsupervised learning, neural networks, and LLMs",
+          "Has implemented simple classification and clustering algorithms in Python for spatial data"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT regularly for code debugging and text generation",
+          "Employs scikit-learn and TensorFlow in Python for basic machine learning tasks",
+          "Explores AI-powered features in ArcGIS Pro, such as object detection in imagery"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Interacts with ChatGPT weekly for assistance with Python scripting and proposal writing",
+          "Applies machine learning models to classify land cover in satellite imagery bi-monthly",
+          "Uses AI for grammar checking and paraphrasing sections of academic writing"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used ChatGPT to debug a complex geospatial Python script, saving several hours of troubleshooting",
+          "AI grammar checker improved clarity of a submitted paper, reducing reviewer requests for edits",
+          "A machine learning model misclassified some rare land cover types due to insufficient training data, highlighting need for careful dataset curation",
+          "Occasionally found that LLM-generated code required manual optimization for performance"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "University offers periodic workshops on AI and machine learning applications in GIS",
+          "Peers often share AI-related resources or tips via research group chat",
+          "Most AI learning is self-directed, supplemented by online courses on platforms like Coursera or edX"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration when using AI for code debugging or writing assistance",
+          "Often tests AI-generated solutions independently before integrating into main workflow",
+          "Sometimes uses AI as a brainstorming partner for developing novel analysis approaches"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for routine or repetitive tasks",
+          "Occasionally treats AI as a co-worker when exploring new research ideas",
+          "Relies on AI as an advisor for syntax or code optimization questions"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to adopting AI-driven workflows if they demonstrably save time or improve accuracy",
+          "Willing to pilot new AI features in GIS tools as they become available",
+          "Proactively seeks out updates and best practices for integrating AI into spatial analysis"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces like ChatGPT for brainstorming or code review",
+          "Uses command-based interfaces for scripting and automation in Python/R",
+          "Switches between interface styles depending on task complexity and context"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many spatial analysis tasks require deep understanding of geostatistics and domain-specific context",
+          "Field data collection and interpretation depend on nuanced knowledge of local geography",
+          "Paper writing often incorporates theoretical frameworks not easily captured by AI"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Moderate trust in AI for code debugging and grammar checking tasks",
+          "Carefully reviews AI-generated analysis before incorporating into research outputs",
+          "Less likely to trust AI for high-stakes methodological decisions without human verification"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI automation for routine data cleaning and basic coding tasks",
+          "Favors human oversight for interpretive analysis and methodological decisions",
+          "Envisions a workflow where AI handles repetitive groundwork, freeing up time for higher-level problem solving"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "High automation is acceptable when tasks are well-defined and outcomes easily validated",
+          "Feels automation is threatening if it risks introducing errors in complex, context-sensitive analyses",
+          "Accepts high automation for basic tasks like format conversion or batch processing"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances productivity but increases the need for advanced analytical skills",
+          "Routine coding and data cleaning skills may become less critical over time",
+          "Emphasizes the growing importance of domain expertise and critical thinking in the AI era"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing prompt engineering skills to better interact with LLMs",
+          "Learning to validate and interpret AI outputs effectively",
+          "Acquiring familiarity with new AI-enabled features in GIS software"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mild concern about automation of repetitive elements of the role (e.g., data cleaning)",
+          "Not worried about AI replacing core research or mentoring responsibilities",
+          "Views AI as a tool to augment, rather than replace, human judgment in spatial analysis"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always manually reviews AI-generated code and outputs before finalizing work",
+          "Incorporates validation steps in analysis pipelines to catch potential AI errors",
+          "Prefers tools that allow for easy rollback or revision of AI-suggested changes"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Team has become more open to integrating AI tools in recent years",
+          "No formal AI adoption policy yet, but discussions are ongoing",
+          "Colleagues increasingly share AI resources and encourage experimentation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Optimistic about AI's potential to accelerate scientific discovery in GIS and other fields",
+          "Acknowledges concerns about data privacy and bias in AI systems",
+          "Believes AI will become a standard tool in academic research within a decade",
+          "Sees potential for AI to democratize access to advanced analytical techniques"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Advocates for transparent AI algorithms and explainable outputs",
+          "Worries about over-reliance on AI without sufficient domain oversight",
+          "Supports guidelines for responsible use of AI in academic research"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires more robust AI-powered integration between GIS platforms and scripting tools",
+          "Would benefit from AI that can summarize and synthesize research literature efficiently",
+          "Wishes for context-aware AI assistants tailored to geospatial research tasks"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Envisions spending less time on repetitive coding and more on hypothesis generation",
+          "Anticipates mentoring will shift towards teaching AI literacy and critical evaluation skills",
+          "Expects to collaborate more frequently with interdisciplinary teams leveraging AI"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Increase investment in AI training and professional development for research staff",
+          "Establish clear ethical guidelines for AI use in research and data analysis",
+          "Encourage pilot projects to evaluate new AI tools before wide-scale adoption",
+          "Facilitate forums for sharing AI best practices and lessons learned within the organization"
+        ]
+      }
+    ]
+  }
+]

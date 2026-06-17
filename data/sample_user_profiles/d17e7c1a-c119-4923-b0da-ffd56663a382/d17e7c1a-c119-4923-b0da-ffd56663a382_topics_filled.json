@@ -1,0 +1,496 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds an Associate Degree in Computer Information Systems from a community college.",
+          "Completed coursework in programming, database management, and systems analysis.",
+          "Participated in a capstone project designing a small-scale business information system.",
+          "Attended workshops on software project management post-graduation."
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Computer System Analyst.",
+          "Role involves analyzing organizational computer systems and recommending improvements.",
+          "Responsible for designing system solutions, maintaining software systems, and troubleshooting issues.",
+          "Manages small-scale IT projects and supervises implementation phases."
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the technology sector.",
+          "Supports IT systems for a mid-sized business services company.",
+          "Industry focus includes IT consulting and systems integration."
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a company with approximately 200-500 employees.",
+          "Works in a collaborative, cross-functional IT team environment.",
+          "Company culture emphasizes continuous improvement and technology adoption."
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Company provides IT solutions and consulting for other medium-sized enterprises.",
+          "Market segment: business-to-business (B2B) IT services.",
+          "Clients include organizations seeking systems modernization and workflow automation."
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 1-2 years of experience as a Computer System Analyst.",
+          "Started current role shortly after completing Associate Degree.",
+          "Previously held internships in systems support during studies."
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Occupies a junior-to-mid level analyst position.",
+          "Reports to a senior IT manager.",
+          "Participates in team meetings but does not have direct reports.",
+          "Occasionally leads small project teams on specific tasks."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Analyzes current organizational IT systems and identifies improvement opportunities.",
+          "Designs and documents system architecture and workflows.",
+          "Programs, modifies, and tests scripts in Python, PowerShell, and CommonScript.",
+          "Collaborates with developers and end-users to translate business needs into technical solutions.",
+          "Maintains technical documentation and user manuals."
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 40% of time on system analysis and requirements gathering.",
+          "Dedicates 30% to programming, scripting, and software testing.",
+          "Invests 15% in documentation and user training.",
+          "Allocates 10% to project management activities.",
+          "Remaining 5% spent on meetings and administrative tasks."
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates with moderate autonomy on technical tasks and scripting assignments.",
+          "Requires manager approval for major system design changes.",
+          "Makes independent decisions on routine troubleshooting and small system updates.",
+          "Participates in team-based decision-making for larger projects."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Comfortable writing and modifying Python and PowerShell scripts.",
+          "Finds creating flowcharts and system diagrams using UML straightforward.",
+          "Enjoys using Microsoft Excel for preliminary data analysis."
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Complex database optimization in Oracle Database requires more effort.",
+          "Integrating new software tools with legacy systems is often challenging.",
+          "Coordinating multi-team projects with tight deadlines can be demanding.",
+          "Troubleshooting vague or intermittent system issues presents difficulties."
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Routine data extraction and formatting for reports can be repetitive.",
+          "Manual software testing and regression testing are data-heavy.",
+          "User account provisioning and deprovisioning are candidates for automation."
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys designing new system architectures and workflows.",
+          "Finds solving complex scripting problems engaging.",
+          "Considers manual data entry and report formatting tedious.",
+          "Routine system monitoring is less stimulating."
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Encountering unclear requirements from stakeholders delays progress.",
+          "Switching between incompatible tools can disrupt workflow.",
+          "Manual testing is time-consuming and prone to oversight.",
+          "Legacy systems often lack proper documentation."
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Higher skill level in scripting leads to faster task completion and greater job satisfaction.",
+          "Enjoys tasks that allow creative problem-solving, correlating with higher productivity.",
+          "Tedious, low-skill tasks can reduce motivation and slow overall workflow."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open and positive about learning new technologies.",
+          "Views tech learning as essential for career progression.",
+          "Enjoys experimenting with new software in a sandbox environment."
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Considers self adaptable, able to pick up new tools within a few weeks.",
+          "Has successfully adopted multiple new platforms in past year (e.g., Power BI).",
+          "Relies on structured tutorials and hands-on practice to adapt quickly."
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate 2-3 hours per week to structured training.",
+          "Prefers short, focused modules over lengthy courses.",
+          "Attends company-sponsored workshops when available."
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by relevance to daily tasks and potential for productivity gains.",
+          "Heavy workload can sometimes limit available time for training.",
+          "Prefers learning tools that have clear, immediate application to current projects."
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers sharing positive experiences encourages tool adoption.",
+          "Managerial support, such as resource allocation for training, boosts willingness.",
+          "Collaborative team culture promotes experimentation with new technologies."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Microsoft Excel daily for data analysis and reporting.",
+          "Frequently works with Python and PowerShell for scripting automation.",
+          "Employs Enterprise Architect and UML for system modeling.",
+          "Uses Oracle Database for managing structured data."
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Microsoft Project is used for tracking project timelines and milestones.",
+          "Power BI is used for interactive data visualization and dashboards.",
+          "Relies on email and Microsoft Teams for team communication."
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Comfortable with mainstream operating systems (Windows, Linux).",
+          "Familiar with Java for legacy application maintenance.",
+          "Regularly uses UML for documentation and design."
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces data compatibility issues between Excel and Oracle exports.",
+          "Integrating Power BI with non-Microsoft databases can require extra configuration.",
+          "Translating UML models into executable code often requires manual adjustments."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic AI concepts like natural language processing and machine learning.",
+          "Knows common ML terms such as training data, models, and inference.",
+          "Uses AI-powered tools for data mining and pattern recognition."
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses OpenAI's GPT-based LLMs for generating code snippets and documentation.",
+          "Employs Microsoft Power BI's AI features for trend analysis.",
+          "Experiments with AI-based automated testing tools (e.g., Selenium with AI plugins)."
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs weekly to draft technical documentation and user guides.",
+          "Applies AI-driven analytics in Power BI for detecting anomalies in system logs.",
+          "Employs AI to automate repetitive testing tasks during software deployment."
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Achieved faster report generation by using LLMs to summarize data trends.",
+          "AI-based test case generation reduced manual effort but sometimes missed edge cases.",
+          "Experienced incorrect script suggestions from LLMs, highlighting need for human review."
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company offers online learning modules on AI tool usage.",
+          "Peers share tips and best practices for LLM integration in weekly meetings.",
+          "Has access to internal documentation on AI tool deployment processes."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers a mix: uses AI tools independently for simple queries, collaborates step-by-step for complex tasks.",
+          "Appreciates the ability to refine AI responses iteratively.",
+          "Finds value in AI suggestions but likes to validate outputs personally."
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for drafting content and offering ideas.",
+          "Occasionally uses AI as an advisor for troubleshooting programming issues.",
+          "Treats AI as a co-worker when automating routine testing or data processing."
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to piloting new AI-driven workflows, especially for automation.",
+          "Supports gradual integration of AI tools into existing processes.",
+          "Advocates for evaluating productivity gains before full-scale adoption."
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and documentation tasks.",
+          "Uses command-based AI tools for batch data processing and automation.",
+          "Appreciates flexibility to switch between interface styles depending on context."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "System analysis often requires deep understanding of company-specific workflows.",
+          "Custom scripting leverages tacit knowledge of legacy systems.",
+          "Documentation for end-users is tailored to organizational culture and processes."
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for preliminary drafts and routine analysis.",
+          "Reviews and validates all AI-generated outputs before implementation.",
+          "Does not rely solely on AI for critical system design decisions."
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive data processing and initial documentation.",
+          "Believes human expertise is crucial for final review and decision-making.",
+          "Supports a 60/40 split: AI for efficiency, human oversight for quality."
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for standardized, low-risk tasks such as data formatting.",
+          "Views high automation as threatening when it involves unique, high-stakes decisions.",
+          "Requires clear override mechanisms for all critical automated processes."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances skills by enabling focus on higher-level tasks.",
+          "Recognizes potential reduction in demand for manual data processing abilities.",
+          "Sees increased value in critical thinking and system design expertise."
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning to prompt and supervise LLMs is a new skill area.",
+          "Responsible for integrating AI-driven analytics into reporting workflows.",
+          "Tasked with evaluating AI tool performance and identifying improvement areas."
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Moderately concerned about automation of routine scripting and testing tasks.",
+          "Does not anticipate AI fully replacing the need for system analysts.",
+          "Believes continued learning and adaptation are key to future job security."
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Manual review steps are built into all AI-assisted workflows.",
+          "Can override AI-generated scripts before deployment.",
+          "Team maintains audit trails for all AI-driven changes."
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has recently updated IT policies to include responsible AI use.",
+          "Adoption of AI tools is encouraged, but subject to review and approval.",
+          "Team discussions now regularly include AI ethics and impact topics."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will transform IT roles across industries.",
+          "Expects increased efficiency and innovation from widespread AI adoption.",
+          "Recognizes potential for job displacement in certain repetitive roles."
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Thinks transparency in AI decision-making is critical.",
+          "Worries about bias in AI-generated recommendations.",
+          "Supports ongoing monitoring and human oversight for AI systems."
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires more accurate, context-aware code suggestion tools.",
+          "Would benefit from AI that can automate complex multi-step workflows.",
+          "Seeks improved AI-driven testing tools for edge case identification."
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Anticipates shift towards more system integration and AI supervision tasks.",
+          "Expects to focus on customizing and managing AI-enabled business processes.",
+          "Foresees growth in demand for hybrid technical-analytical skills."
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement regular training on new AI tools and ethical considerations.",
+          "Establish clear guidelines for responsible AI use and human oversight.",
+          "Encourage pilot projects to measure AI impact before wider rollout."
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,535 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s Degree in Civil Engineering from a state university",
+          "Completed coursework in structural analysis, materials science, and construction management",
+          "Participated in a senior capstone project focused on bridge design",
+          "Has attended several industry workshops on updated building codes",
+          "Obtained OSHA 30-hour safety certification"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Works as a Senior Civil Engineer at a mid-sized engineering consultancy",
+          "Role involves overseeing civil design projects from concept to construction",
+          "Acts as a primary point of contact for field engineers and contractors",
+          "Responsible for answering RFIs and ensuring design integrity during construction"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Employed in the construction and civil infrastructure sector",
+          "Projects primarily involve commercial and municipal developments",
+          "Regularly interfaces with the architecture, engineering, and construction (AEC) industry",
+          "Occasionally supports transportation and public works projects"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works at a company with approximately 120 employees",
+          "Company has a collaborative, team-based environment",
+          "Engineering department consists of around 25 professionals",
+          "Company culture emphasizes communication between office and field teams"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Firm offers civil engineering consulting services to contractors and developers",
+          "Focuses on mid- to large-scale commercial and public infrastructure projects",
+          "Clients include municipal governments, private developers, and general contractors",
+          "Market segment includes site development, utilities, and roadway design"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has over 10 years of experience as a civil engineer",
+          "Has spent the last 7 years in a senior or lead engineer capacity",
+          "Joined current company 4 years ago after working at a larger firm",
+          "Early career included site engineer and design engineer roles"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds a senior-level engineering position",
+          "Directly mentors junior engineers and interns",
+          "Participates in hiring decisions for engineering staff",
+          "Often represents the company in meetings with clients and contractors"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Reviews and checks civil design drawings for completeness and accuracy",
+          "Answers Requests for Information (RFIs) from contractors and field crews",
+          "Attends project coordination meetings with architects and engineers",
+          "Performs regular field walks to observe construction progress",
+          "Prepares technical responses and updates to design documents as needed"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 35% of time reviewing and updating designs",
+          "About 25% of work hours are dedicated to answering RFIs and technical queries",
+          "Roughly 20% of workday is spent in meetings (internal and with clients/contractors)",
+          "Allocates 10% of time to field inspections and site walks",
+          "The remaining 10% covers administrative tasks and professional development"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has significant autonomy to resolve routine design issues independently",
+          "Major design changes require review by project manager or principal engineer",
+          "Empowered to clarify design intent and answer most RFIs without escalation",
+          "Makes recommendations on construction methods based on field conditions"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Reviewing shop drawings and design submittals is straightforward",
+          "Answering standard RFIs using existing documentation feels routine",
+          "Drafting markups in Bluebeam for minor clarifications is second nature",
+          "Coordinating with field teams on standard design questions is comfortable"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Resolving RFIs that require major design revisions or impact multiple disciplines",
+          "Identifying missing information in legacy project documents can be complex",
+          "Coordinating among multiple stakeholders with conflicting priorities",
+          "Ensuring constructability in field conditions that differ from original assumptions"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Logging and tracking incoming RFIs and their responses is highly repetitive",
+          "Comparing as-built drawings to design documents for discrepancies is data-heavy",
+          "Generating standard email responses to common field questions could be automated",
+          "Routine checks for missing sheet references or detail callouts in drawings"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys on-site field walks to directly observe project progress",
+          "Finds project kickoff meetings and early design brainstorming energizing",
+          "Feels that responding to repetitive RFIs can become tedious",
+          "Least enjoys administrative paperwork and timesheet entry"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual tracking of RFIs in spreadsheets is inefficient and error-prone",
+          "Delays in receiving complete information from contractors slow down responses",
+          "Multiple software tools lack seamless integration, requiring duplicate data entry",
+          "Design document version control can be challenging on large projects"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Most productive and engaged when working on technical design challenges",
+          "Higher skill level in design review leads to faster, more confident decision-making",
+          "Tedious or repetitive tasks lower motivation and may reduce attention to detail",
+          "Enjoyment increases when collaborating with field teams and seeing project impact"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally open to adopting new tools that offer clear benefits",
+          "Prefers hands-on learning and experimenting with software features",
+          "Values practical training over theoretical instruction",
+          "May be reluctant to switch tools if current ones meet core needs"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to updates in familiar platforms like Bluebeam or AutoCAD",
+          "Requires more time to learn entirely new categories of software",
+          "Finds interface consistency across tools improves adaptation",
+          "Comfortable asking peers for tips when adopting new workflows"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to invest time in training if tool improves workflow efficiency",
+          "Prefers short, targeted tutorials over lengthy formal courses",
+          "Less likely to prioritize training during peak project deadlines",
+          "Has attended several vendor-led workshops for key engineering software"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by potential time savings and error reduction",
+          "Barriers include high workload and tight project schedules",
+          "Skeptical of tools that don't integrate with existing systems",
+          "Relevance to daily tasks is a key factor in willingness to learn"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers' positive experiences influence openness to new tools",
+          "Management encouragement is important for allocating time to training",
+          "Team-wide adoption helps ensure compatibility and consistency",
+          "Reluctant to be an early adopter unless tool is strongly recommended by trusted colleagues"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Bluebeam Revu daily for drawing markups and document review",
+          "Regularly utilizes AutoCAD Civil 3D for design and drafting work",
+          "Checks email via Microsoft Outlook as the primary communication tool",
+          "Accesses project files and documents via SharePoint or internal servers"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on Bluebeam for real-time design annotation and collaboration",
+          "AutoCAD Civil 3D is essential for creating and editing civil layouts",
+          "Uses Excel spreadsheets to track project progress and manage RFIs",
+          "Conducts field inspections with tablet-based digital forms"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient in Bluebeam, AutoCAD Civil 3D, and Microsoft Office suite",
+          "Has some experience with BIM platforms like Revit for coordination",
+          "Occasionally uses project management tools such as Procore",
+          "Familiar with PDF editing and document control software"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Bluebeam and AutoCAD exports sometimes require manual adjustments",
+          "Lack of seamless integration between RFIs tracked in Excel and project management systems",
+          "Occasional version compatibility issues when sharing files with external partners",
+          "Copying data between design software and administrative tools is time-consuming"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic concepts like natural language processing and machine learning",
+          "Recognizes the use of large language models (LLMs) for text generation tasks",
+          "Has read about AI applications in construction and engineering",
+          "Can explain the difference between rule-based automation and AI-driven tools"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Occasionally uses ChatGPT or similar LLMs to draft technical emails",
+          "Has experimented with AI-powered PDF search features in Bluebeam",
+          "Tested AI-driven document review tools for identifying missing drawing details",
+          "No regular use of AI for core engineering calculations or design"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs a few times per month to help draft or review project communications",
+          "Applies AI tools occasionally for quick information retrieval from large documents",
+          "Has used AI to suggest improvements in email tone and clarity",
+          "Does not rely on AI for design validation or code compliance checks"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI-generated emails usually require manual editing for technical accuracy",
+          "AI tools have helped catch minor missing references in large drawing sets",
+          "Experienced a case where AI misunderstood project-specific terminology, leading to confusion",
+          "Learned to always double-check AI outputs, especially in technical contexts"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal company-wide AI training program currently in place",
+          "Occasional informal knowledge sharing about AI tools among colleagues",
+          "Relies on online tutorials and vendor documentation for learning about AI features",
+          "Peers sometimes share tips or use cases for LLMs via internal chat"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers to work independently and consult AI tools as needed",
+          "Uses AI primarily as a quick reference or drafting assistant",
+          "Finds step-by-step AI collaboration more useful for unfamiliar tasks",
+          "Rarely relies on AI for continuous, ongoing project support"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Treats AI as an assistant for drafting and information retrieval tasks",
+          "Views AI more as a tool than a collaborator in design tasks",
+          "Prefers to retain full responsibility for technical decisions",
+          "Sees AI as helpful for non-critical, support functions"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to experimenting with AI workflows if they offer clear value",
+          "Cautious about fully automating tasks that require engineering judgment",
+          "More likely to adopt AI for administrative or documentation tasks",
+          "Prefers gradual integration of AI features rather than abrupt workflow changes"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Generally prefers simple command-based interfaces for repeatable tasks",
+          "Finds conversational interfaces useful for brainstorming or drafting",
+          "Appreciates the option to switch between modes depending on context",
+          "Prefers clarity and control in interface interactions"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many daily tasks require detailed knowledge of local building codes and standards",
+          "Resolving RFIs often involves tacit understanding of site-specific constraints",
+          "Design adjustments depend on experience with construction methods",
+          "Some routine documentation tasks can be addressed without deep domain expertise"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI-generated drafts for routine communication but always reviews before sending",
+          "Does not fully trust AI for technical calculations or regulatory compliance",
+          "Willing to use AI suggestions as a starting point but relies on human oversight",
+          "Believes AI is more reliable for factual lookups than for nuanced engineering advice"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI automation for repetitive, documentation-heavy tasks",
+          "Believes human expertise should drive all technical decision-making",
+          "Supports partial automation for information retrieval, with manual review",
+          "Envisions a future where AI flags issues but engineers approve final actions"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for tasks with clear, objective criteria (e.g., document formatting)",
+          "Considers automation threatening if it bypasses critical human checks in design",
+          "Supports automation that is transparent and offers manual override options",
+          "Open to automated error-checking but not to fully automated design approvals"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI will enhance the need for critical thinking and oversight skills",
+          "Sees less value in rote documentation skills as automation improves",
+          "Expects technical judgment and communication to remain core competencies",
+          "Anticipates some shift towards data literacy and technology adaptation"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning to review and validate AI-generated content is becoming important",
+          "Skills in prompt engineering and AI tool configuration are emerging",
+          "Responsibility for data quality and process oversight is increasing",
+          "May need to train or mentor others in effective AI use"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Not overly concerned about AI replacing core engineering functions",
+          "Believes tasks requiring domain expertise are less at risk",
+          "Thinks some clerical and documentation roles may be reduced over time",
+          "Watches industry trends but feels job security is strong in current role"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always reviews AI-generated outputs before sharing externally",
+          "Manual approval is required for any client-facing communication or design changes",
+          "No fully automated processes in place for critical engineering tasks",
+          "Supports the use of AI as a supplement, not a replacement, for checks"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company is cautiously exploring AI in limited, non-critical areas",
+          "No formal AI policy, but informal experimentation is encouraged",
+          "Team has discussed potential AI use cases but not adopted any company-wide",
+          "Future policy direction depends on demonstrated benefits and risk assessment"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Sees AI as having significant potential to improve efficiency in construction projects",
+          "Believes AI could reduce errors in documentation and design coordination",
+          "Recognizes risks of over-reliance on AI without human expertise",
+          "Thinks AI will gradually become a standard tool in engineering practice"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes transparency and accountability are critical in AI adoption",
+          "Worries about bias or errors in AI-generated technical documents",
+          "Supports keeping humans in the loop for final approvals",
+          "Thinks data privacy and security should be top priorities in AI system design"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would value AI tools that automatically flag missing or inconsistent drawing details",
+          "Desires better AI-powered integration between design and project management software",
+          "Wants AI that can learn from company-specific terminology and project history",
+          "Sees potential for AI to streamline RFI tracking and response workflows"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine documentation tasks to become more automated",
+          "Anticipates spending more time on oversight and quality control",
+          "Predicts engineers will focus on complex problem-solving and less on clerical work",
+          "Believes AI will be used for continuous monitoring and flagging of project issues"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Wants company to invest in pilot programs for AI-assisted document review",
+          "Recommends providing targeted training on AI tools relevant to engineering",
+          "Supports developing clear guidelines for responsible AI use",
+          "Suggests involving end-users in evaluating and selecting new AI technologies"
+        ]
+      }
+    ]
+  }
+]

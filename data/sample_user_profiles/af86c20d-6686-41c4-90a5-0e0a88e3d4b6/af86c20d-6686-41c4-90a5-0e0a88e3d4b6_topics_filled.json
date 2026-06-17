@@ -1,0 +1,534 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s Degree in Computer Engineering from a recognized university",
+          "Currently pursuing a PhD in Computer Engineering at Northeastern University",
+          "Received foundational training in mathematics, physics, and electrical engineering principles during undergraduate studies",
+          "Regularly attends workshops and seminars related to AR/VR and communication technologies as part of PhD training"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "PhD Student in Computer Engineering at Northeastern University",
+          "Researcher with the Spatial Internet Research Group (SINRG), led by Professor Mallesham Dasari",
+          "Focuses on AR/VR systems, immersive media, and next-generation communications",
+          "Primary responsibilities include research, systems development, academic writing, and presentations"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Academic research sector with a focus on emerging technologies",
+          "Active in the technology and engineering sector, specifically computer engineering and immersive media",
+          "Works at the intersection of academia and tech innovation, often collaborating with industry partners",
+          "Involved in the broader AR/VR and AI research communities"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Affiliated with Northeastern University, a large research-focused academic institution",
+          "Works within a small, collaborative research group (SINRG) of approximately 10-15 members",
+          "Regularly interacts with faculty, postdocs, and graduate students in a team-oriented environment",
+          "Environment encourages open-source contributions and sharing of research outcomes"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Academic research and higher education",
+          "Specializes in AR/VR, immersive media, and spatial computing research",
+          "Engages in technology transfer and open-source software development for the academic and tech communities",
+          "Contributes to both fundamental research and applied solutions for next-generation communication"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 1-2 years of experience as a PhD student and researcher",
+          "Began current role shortly after completing undergraduate studies",
+          "Previously gained research and project experience during undergraduate education"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Early-career researcher and graduate student",
+          "Not in a managerial or supervisory position, but may mentor undergraduate assistants",
+          "Operates under the supervision of a principal investigator (Professor Dasari)",
+          "Participates in team discussions and collaborative decision-making"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Codes and develops systems and algorithms for AR/VR and 3D content compression research projects",
+          "Writes academic papers, technical documentation, and open-source project readmes",
+          "Reads and synthesizes recent literature to inform and inspire research directions",
+          "Prepares slides and presentations for conferences, group meetings, and academic seminars",
+          "Collaborates with peers for experiments, evaluations, and troubleshooting"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 40% of time coding and system development",
+          "Dedicates about 25% of time to academic writing and paper preparation",
+          "Allocates 15% of time to reading and summarizing literature",
+          "Spends 10% of time on open-sourcing work and maintaining repositories",
+          "Remainder of time is split between preparing presentations and attending meetings"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has autonomy in designing experiments and selecting technical approaches for assigned research problems",
+          "Major research directions and project choices are guided by the principal investigator",
+          "Makes independent decisions on coding strategies, tool selection, and daily workflow",
+          "Collaborates in group meetings to discuss and decide on research priorities"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Coding and implementing algorithms is typically the most natural task due to strong programming background",
+          "Summarizing research papers comes easily after regular practice during undergraduate and graduate studies",
+          "Using version control systems like Git is highly familiar and routine",
+          "Preparing visualizations and figures for presentations is straightforward with established toolsets"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Re-implementing complex published work without available baselines or open-source code is particularly challenging",
+          "Writing academic papers can be daunting, especially when articulating novel contributions",
+          "Debugging intricate system-level errors in multimedia frameworks (e.g., FFmpeg, x.265) often requires deep troubleshooting",
+          "Balancing time between research, experiments, and documentation under tight deadlines can be difficult"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Preprocessing and formatting large 3D datasets for training or compression are highly repetitive",
+          "Compiling literature reviews and extracting key insights from papers could benefit from automation",
+          "Generating boilerplate code and documentation for open-source releases is routine and suitable for AI assistance",
+          "Converting experiment results into standardized plots and tables can be automated"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Designing novel algorithms and conducting new experiments is highly engaging",
+          "Collaborating with peers on creative problem-solving is enjoyable",
+          "Repetitive data cleaning, formatting, or bug-fixing is tedious and less satisfying",
+          "Formatting papers to meet strict conference templates can feel monotonous"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Lack of open-source baselines makes re-implementation time-consuming",
+          "Switching between multiple software tools can introduce workflow friction",
+          "Manually formatting documents in LaTeX is error-prone and time-consuming",
+          "Troubleshooting tool compatibility issues (e.g., FFmpeg with Python bindings) can slow progress"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Higher enjoyment is typically linked to tasks where skill and autonomy are high, such as coding new algorithms",
+          "Productivity peaks when working on engaging projects with clear milestones",
+          "Tedious or low-skill tasks, like formatting or repetitive data handling, can reduce motivation and slow output",
+          "Learning new skills (e.g., advanced AI methods) can be both enjoyable and increase long-term productivity"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Enthusiastic about exploring and adopting new technologies that can boost research efficiency",
+          "Sees rapid tech evolution as an opportunity for skill growth",
+          "Willing to experiment with emerging tools, especially those relevant to AR/VR and AI",
+          "Occasionally cautious about investing time in tools with steep learning curves unless highly relevant"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new coding environments, IDEs, and open-source libraries",
+          "Has rapidly integrated LLM-based tools (e.g., ChatGPT, Cursor) into daily workflow",
+          "Comfortable switching between different programming languages as required by research projects",
+          "Occasionally experiences friction when tools lack good documentation"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Regularly allocates time to learn about new AI and AR/VR frameworks",
+          "Participates in online courses or webinars when new tools are directly relevant",
+          "Prefers self-directed, just-in-time learning using online resources or peer advice",
+          "Balances training time with research deadlines and publication goals"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by potential to streamline research and solve previously intractable problems",
+          "High workload or tight deadlines can be a barrier to exploring non-critical new tools",
+          "Relevance to current research topics is a key factor in prioritizing what to learn",
+          "Peer recommendations can prompt a trial of new technologies"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers in the research group often share tips and recommend effective tools",
+          "Professor and research advisors encourage experimentation with new technologies",
+          "Adoption is accelerated when team members demonstrate tangible benefits",
+          "Collaborative environment fosters sharing of scripts, plugins, and workflow improvements"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses VS Code for code editing and debugging on a daily basis",
+          "Relies on Anaconda and PyCharm for Python development and package management",
+          "Employs Visual Studio for C++ and system-level development",
+          "Utilizes Git for version control and collaborative code management",
+          "Interacts with LLMs (e.g., ChatGPT, Cursor) each day for coding and writing support"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Uses LaTeX for academic paper writing and technical documentation",
+          "Employs FFmpeg and x.265 for video processing and compression tasks",
+          "Relies on Zotero for literature management and citation organization",
+          "Uses shell scripting for automating experiment pipelines"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient in Python and C++ for system and algorithm development",
+          "Familiar with standard multimedia libraries and codecs used in AR/VR and video compression",
+          "Regular user of Git and GitHub for code sharing and collaboration",
+          "Comfortable with cross-platform development environments (Windows, Linux, macOS)"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasional compatibility issues between Python packages and system-level tools like FFmpeg",
+          "Challenges integrating LaTeX outputs with graphical assets from other tools",
+          "Version conflicts can arise between libraries managed by Anaconda and native system packages",
+          "Uses workarounds such as containerization or virtual environments to improve tool interoperability"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Comfortable with concepts such as supervised/unsupervised learning, neural networks, and model evaluation metrics",
+          "Regularly reads AI/ML papers to stay current with field developments",
+          "Understands practical applications of generative AI (e.g., LLMs) in research workflows",
+          "Familiar with AI-driven compression and video streaming methods relevant to current research"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT and Grok for code assistance, literature review, and writing support",
+          "Employs Cursor for AI-powered code completion and debugging",
+          "Occasionally experiments with open-source AI toolkits such as Hugging Face Transformers",
+          "Has hands-on experience with AI-based video compression libraries"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs daily to troubleshoot coding problems and accelerate development",
+          "Relies on AI assistants for summarizing research papers and extracting insights",
+          "Employs AI-generated suggestions to improve academic writing and clarity",
+          "Leverages AI for automating repetitive data processing and code documentation"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used ChatGPT to resolve a challenging bug in a video streaming pipeline within hours",
+          "AI-generated code snippets have occasionally required significant debugging and human correction",
+          "Effective at using LLMs to generate first drafts of literature reviews, saving substantial time",
+          "Learned to always manually verify AI outputs, especially for technical accuracy in publications"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal AI tool training provided by the university or research group",
+          "Peers frequently share tips and best practices for LLM use in Slack or group meetings",
+          "Self-directed learning is the primary mode of AI tool adoption",
+          "Occasional workshops or invited talks on AI topics are available at Northeastern University"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI tools, iteratively refining prompts and outputs",
+          "Often starts with a broad query and narrows down based on AI responses",
+          "Combines independent critical thinking with guided assistance from LLMs",
+          "Uses AI both for brainstorming ideas and for detailed, task-specific support"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI as an intelligent assistant that augments, but does not replace, human expertise",
+          "Treats AI as a brainstorming partner for coding and writing tasks",
+          "Relies on AI for rapid prototyping and initial drafts, then brings in human judgment and refinement",
+          "Occasionally treats AI as an advisor for unfamiliar technical areas"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to experimenting with new AI-powered tools that promise efficiency gains",
+          "Quick to integrate LLMs into coding, writing, and literature review processes",
+          "Prefers to pilot new workflows on low-stakes tasks before full adoption",
+          "Encourages peers to share feedback on novel AI-driven approaches"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming, problem-solving, and quick Q&A",
+          "Uses command-based interfaces for scripting or batch processing tasks where precision is needed",
+          "Finds conversational AI more intuitive for complex, ambiguous queries",
+          "Switches between interface types depending on context and task complexity"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many research tasks require deep understanding of AR/VR systems and 3D media compression",
+          "Domain-specific decisions, such as algorithm selection, rely on expertise not always captured in public datasets",
+          "Tacit knowledge includes interpreting ambiguous experimental results and identifying novel contributions",
+          "AI can assist with routine or well-defined tasks, but human insight is critical for research innovation"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI-generated code and summaries as a starting point, but always reviews and validates outputs",
+          "Generally cautious about using AI suggestions directly in published work or experiments",
+          "High-stakes decisions, such as experimental design or paper submission, are made by humans",
+          "More trust is placed in AI for well-defined, rule-based tasks than for open-ended research"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive, data-intensive, or formatting-heavy tasks",
+          "Human oversight is essential for creative, strategic, or interpretive aspects of research",
+          "Sees AI as a force multiplier that frees up time for higher-level thinking and innovation",
+          "Aims for a collaborative workflow where AI augments, but does not fully automate, research"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for tasks with clear, objective outcomes (e.g., data preprocessing, code linting)",
+          "Finds automation threatening if it could obscure critical errors or reduce skill development",
+          "Prefers manual review of AI-driven outputs in high-impact scenarios (e.g., paper writing, experiment results)",
+          "Supports automation in areas where human error is common or tasks are highly repetitive"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances productivity by automating low-level tasks, allowing greater focus on creative problem-solving",
+          "Research and critical thinking skills remain essential, even as some technical tasks are automated",
+          "Programming fundamentals are still required to effectively use and validate AI-generated code",
+          "Routine skills (e.g., manual formatting, basic literature review) are less emphasized due to AI support"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing prompt engineering skills to maximize the utility of LLMs",
+          "Learning to critically assess and validate AI-generated outputs",
+          "Gaining familiarity with integrating AI APIs and tools into existing workflows",
+          "Taking on new responsibilities in AI tool evaluation and peer training"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Low concern about AI replacing core research or creative tasks",
+          "Some routine responsibilities (e.g., data cleaning, code documentation) may be fully automated",
+          "Sees AI as a tool that shifts the role toward higher-level analysis and innovation",
+          "Acknowledges the need to stay current with AI advancements to remain competitive"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always reviews AI-generated code and text before integrating into research outputs",
+          "Manual checks are standard for experimental results and publication submissions",
+          "Peer review within the research group acts as an additional safeguard",
+          "Prefers AI tools that provide transparency and allow easy rollback to manual control"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Research group has become more open to AI tool adoption in the past year",
+          "Informal best practices and guidelines for AI tool use are shared among team members",
+          "No formal, organization-wide AI usage policy yet in place",
+          "Encouraged to experiment and report back on AI tool effectiveness and limitations"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Sees AI as transformative for research productivity and scientific discovery",
+          "Believes AI will democratize access to complex tools and lower barriers to entry in tech fields",
+          "Expects AI to drive major advances in media, communication, and immersive technology",
+          "Recognizes potential for AI to disrupt traditional job roles, requiring continuous learning"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes transparency and explainability are critical for responsible AI use in research",
+          "Cautious about relying on AI for tasks where bias or error could have significant consequences",
+          "Supports development of ethical guidelines for AI in academic publishing",
+          "Values human oversight to prevent overreliance on potentially flawed AI outputs"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Wishes for AI that can fully and faithfully re-implement any published work for benchmarking",
+          "Desires automated slide, presentation, and poster generation tailored to academic standards",
+          "Would benefit from AI tools that deeply understand and summarize highly technical literature",
+          "Needs smarter AI assistants for experiment orchestration and result analysis"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Anticipates increased reliance on AI for routine research tasks and documentation",
+          "Expects to spend more time on conceptual work and cross-disciplinary innovation",
+          "Believes roles will shift toward AI tool development, integration, and oversight",
+          "Predicts greater collaboration between researchers and intelligent AI systems"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Develop clear guidelines for AI tool use in research and publication",
+          "Offer formal training and workshops on advanced AI tools and best practices",
+          "Encourage open-source and transparent AI research within the academic community",
+          "Foster peer collaboration to share AI tool experiences and workflow optimizations"
+        ]
+      }
+    ]
+  }
+]

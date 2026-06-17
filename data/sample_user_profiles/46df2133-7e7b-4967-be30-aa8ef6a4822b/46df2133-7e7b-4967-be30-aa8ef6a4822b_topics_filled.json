@@ -1,0 +1,492 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Attended college for several semesters but did not complete a degree",
+          "Took courses in accounting, business administration, and graphic design",
+          "Participated in various online workshops and webinars on e-commerce and digital marketing",
+          "Self-taught in design software through online tutorials and manuals"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Operates as an Online Merchant and Owner",
+          "Designs personalized books and stationery for events",
+          "Manages both a marketplace storefront and a standalone e-commerce website",
+          "Oversees end-to-end customer order processing, vendor coordination, and business bookkeeping"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the online retail and e-commerce sector",
+          "Specializes in the personalized gifts and stationery niche",
+          "Operates within the broader creative and design services industry"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Runs a sole proprietorship with no full-time employees",
+          "Works closely with a small network of specialized print vendors",
+          "Occasionally collaborates with freelance designers or assistants for large projects"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Focuses on B2C (business-to-consumer) sales",
+          "Targets customers planning events such as weddings, birthdays, and corporate gatherings",
+          "Offers highly customized, made-to-order products",
+          "Operates primarily through online channels (Etsy, own website)"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has over 10 years of experience as an online merchant",
+          "Started the e-commerce business after previous experience in accounting",
+          "Has witnessed and adapted to multiple changes in the online retail landscape over the past decade"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Acts as business owner and senior decision-maker",
+          "Performs all core business functions without direct supervision",
+          "Regarded as an experienced professional and subject matter expert in personalized stationery e-commerce"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Monitors online stores for incoming customer orders and inquiries",
+          "Designs personalized product layouts using Adobe and Serif software",
+          "Coordinates order fulfillment with print vendors through proprietary ordering systems",
+          "Communicates with customers to confirm order details and address any issues",
+          "Maintains daily bookkeeping and profitability tracking in Google Sheets"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 40% of time on bookkeeping and record-keeping tasks",
+          "Devotes around 30% of time to design work for new and existing orders",
+          "Allocates about 20% of time to order processing and vendor coordination",
+          "Spends the remaining 10% on customer service, marketing, and website management"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Makes all business decisions independently, including product design, pricing, and vendor selection",
+          "Handles customer issues and refunds without escalation to others",
+          "Determines marketing strategies, promotions, and product launches",
+          "Responsible for all compliance and financial reporting for the business"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Daily bookkeeping and accounting tasks come naturally due to prior training",
+          "Communicating with customers and confirming order details is straightforward",
+          "Navigating the Etsy and Equid dashboards is intuitive after years of use"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Designing unique layouts for highly personalized orders can be creatively demanding",
+          "Managing multiple custom orders with different deadlines requires careful organization",
+          "Occasional technical issues with vendor ordering systems can be time-consuming to resolve"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Daily entry of sales and expenses into spreadsheets is highly repetitive",
+          "Monitoring order statuses and shipment tracking could be automated",
+          "Reconciling vendor invoices with customer orders involves repetitive data checks"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys creative design work and developing new product ideas",
+          "Finds customer interactions rewarding, especially when receiving positive feedback",
+          "Considers repetitive bookkeeping and order entry to be tedious but necessary"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual bookkeeping consumes significant time each day",
+          "Lack of integration between sales platforms and vendor systems leads to double data entry",
+          "Tracking order shipment status across multiple vendors is inefficient and error-prone"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "High proficiency in accounting and bookkeeping increases productivity but does not enhance enjoyment",
+          "Creative design tasks are enjoyable but more time-consuming and require deep focus",
+          "Productivity is highest when working on familiar, routine tasks, even if they are less engaging"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open to learning new tools that offer clear business benefits",
+          "Prefers technologies that are intuitive and easy to implement",
+          "Has a pragmatic approach, weighing learning curve against potential time savings"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts to new software at a moderate pace, relying on self-study and online resources",
+          "Comfortable experimenting with new design tools and e-commerce features",
+          "Occasionally seeks help from online forums or vendor support if stuck"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to invest time in training if a tool will significantly improve workflow",
+          "Prefers short, focused tutorials over lengthy courses",
+          "Prioritizes learning tools that directly impact daily tasks"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential to save time on repetitive tasks",
+          "High daily workload can be a barrier to dedicating time for training",
+          "Needs to see clear, relevant applications to the business before adopting new tech"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "As a sole proprietor, decisions to adopt new tools are self-driven",
+          "Occasionally learns about new tools from online merchant communities",
+          "Vendor-provided updates or recommendations can prompt tool adoption"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Etsy Shop Manager dashboard to process orders and manage inventory",
+          "Maintains a standalone website on the Equid platform for direct sales",
+          "Relies on Google Docs and Google Sheets for record-keeping and accounting",
+          "Employs Adobe Photoshop, Affinity Suite, and Serif Page Plus for design work"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Proprietary vendor ordering software for submitting print jobs",
+          "Email and messaging tools for customer communication",
+          "Manual spreadsheets for tax and expense tracking"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient in mainstream e-commerce platforms such as Etsy and Equid",
+          "Experienced with Adobe Creative Suite and Affinity design tools",
+          "Prefers manual accounting over industry-standard accounting software (e.g., QuickBooks)"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "No direct integration between sales platforms (Etsy, Equid) and vendor ordering systems",
+          "Must manually transfer order details from storefronts to vendor portals",
+          "Bookkeeping data from sales platforms is not automatically synced with financial records"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic concepts such as machine learning and natural language processing",
+          "Has read about generative AI models like ChatGPT in industry news",
+          "Recognizes the distinction between AI automation and rule-based scripts"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Has occasionally used ChatGPT for drafting customer messages and product descriptions",
+          "Tried Grammarly's AI-powered suggestions for proofreading listing content",
+          "Experimented with Canva's AI design features for quick mockups"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses AI tools sporadically, primarily for content generation and editing tasks",
+          "Consults LLMs to brainstorm product ideas or solve minor technical issues",
+          "Utilizes AI features for efficiency when updating large batches of product listings"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used ChatGPT to draft a challenging customer apology email",
+          "Found AI-powered design suggestions in Canva occasionally mismatched to customer style preferences",
+          "Learned that AI-generated content often needs significant editing for tone and accuracy"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal AI training provided (as a sole proprietor)",
+          "Relies on online tutorials, forums, and community advice for AI tool learning",
+          "Occasionally exchanges AI tool tips with other online merchants via social media groups"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers to use AI tools independently for specific tasks, then review results",
+          "Finds step-by-step guided AI useful when exploring new workflows",
+          "Values flexibility to switch between autonomous use and collaborative AI support"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for drafting and editing",
+          "Occasionally uses AI as an advisor for brainstorming solutions to business problems",
+          "Does not view AI as a co-worker but as a supplementary tool"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to adopting AI-driven workflows that offer clear productivity gains",
+          "Skeptical of fully automated workflows for creative or customer-facing tasks",
+          "Willing to experiment with AI in low-risk areas before fully integrating into core processes"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and content creation",
+          "Finds command-based interfaces more efficient for structured tasks (e.g., data extraction)",
+          "Appreciates having both options available depending on task complexity"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Product personalization relies heavily on understanding customer intent and event context",
+          "Design work depends on years of experience with typography and aesthetics",
+          "Bookkeeping tasks require practical knowledge of retail cash flow and tax implications"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for initial drafts or suggestions, but always reviews output before finalizing",
+          "Does not rely on AI for critical financial or customer-facing decisions",
+          "Requires manual verification for any automated order or accounting processes"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI automation for repetitive or data-heavy tasks (e.g., bookkeeping, order status checks)",
+          "Retains human control over creative design and customer communication",
+          "Seeks a workflow where AI handles routine monitoring, but exceptions are escalated for manual review"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for back-office operations if override options are available",
+          "Finds full automation of customer interaction or design potentially risky to business reputation",
+          "Welcomes automation as long as it is transparent and can be manually audited"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Sees AI as enhancing efficiency in administrative and accounting skills",
+          "Believes creative design and customer empathy remain core, irreplaceable skills",
+          "Anticipates some reduction in time spent on routine tasks, allowing more focus on high-value work"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning to oversee and audit automated workflows is an emerging responsibility",
+          "Developing prompt engineering and AI tool evaluation skills",
+          "Staying current with new AI features and their business applications"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mildly concerned about automation of basic bookkeeping but sees core role as safe",
+          "Confident that creative and customer-focused aspects of the business are less likely to be replaced",
+          "Views AI as a tool to augment, not eliminate, personal expertise"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always reviews AI-generated outputs before customer delivery",
+          "Keeps manual logs and backup records for all critical business data",
+          "Prefers AI solutions that include clear audit trails and rollback options"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "As sole proprietor, decisions on AI adoption are self-determined",
+          "Has become more open to exploring AI integrations over the past few years",
+          "Follows industry trends and best practices from online merchant communities"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will drive efficiency and lower barriers to entry for small business owners",
+          "Acknowledges risks of job displacement in roles with high automation potential",
+          "Expects AI to foster new creative opportunities in product design and marketing"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Concerned about data privacy and the use of customer information by AI tools",
+          "Believes AI should augment, not replace, human judgment in creative work",
+          "Worries about potential bias or errors in automated decision-making"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires an AI bookkeeping assistant that automatically reconciles orders, expenses, and tax records",
+          "Wants a tool to monitor vendor order fulfillment and alert to potential shipping delays",
+          "Would benefit from a seamless integration between e-commerce platforms and vendor systems"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Anticipates spending less time on manual record-keeping and more on product innovation",
+          "Expects AI to handle routine monitoring, freeing up time for business growth activities",
+          "Foresees increased need to manage and audit automated workflows"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Would prioritize investment in AI tools that integrate with current sales and vendor platforms",
+          "Seeks ongoing education and resources to stay updated on AI best practices",
+          "Prefers to implement AI gradually, starting with low-risk back-office functions"
+        ]
+      }
+    ]
+  }
+]

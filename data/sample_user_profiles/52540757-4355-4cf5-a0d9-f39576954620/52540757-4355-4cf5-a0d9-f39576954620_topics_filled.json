@@ -1,0 +1,496 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s Degree from an accredited university",
+          "Studied Hospitality Management with electives in customer service and business operations",
+          "Completed coursework in accounting, business communication, and hotel operations",
+          "Participated in a semester-long internship at a local hotel during college"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Night Auditor",
+          "Role involves managing late check-ins, balancing daily accounts, and ensuring guest safety overnight",
+          "Acts as the primary customer service representative during overnight hours",
+          "Responsible for preparing paperwork and reports for hotel management"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the hospitality industry",
+          "Sector: Hotel and Lodging",
+          "Focuses on customer experience and operational continuity"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-sized hotel with approximately 60-120 rooms",
+          "Workplace has a small overnight staff, often one or two people per shift",
+          "Collaborates closely with morning and housekeeping teams during shift handover"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Hotel serves both business and leisure travelers",
+          "Property is part of a regional hotel chain, not a large international brand",
+          "Competes with neighboring hotels on service quality and guest satisfaction"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has worked as a night auditor for 6-10 years",
+          "Started in the hospitality industry shortly after graduating from college",
+          "Progressed from entry-level front desk roles to night audit position"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Mid-level professional with significant front desk and audit experience",
+          "Acts as a knowledge resource for newer front desk staff on overnight procedures",
+          "Handles situations independently without direct on-site supervision overnight"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Checks in late-arriving guests and processes walk-ins using AutoClerk",
+          "Performs nightly audit to reconcile hotel accounts and print daily transaction reports",
+          "Conducts security walk-arounds every two hours to ensure guest and property safety",
+          "Prepares the lobby and breakfast area for the morning shift"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Approximately 30% of time spent on guest check-ins and customer service",
+          "Around 40% dedicated to night audit paperwork and financial reconciliation",
+          "Roughly 20% used for security walks and property checks",
+          "10% allocated to setting up breakfast area and preparing shift handover"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates with high autonomy during overnight shifts due to limited supervision",
+          "Authorized to resolve guest complaints, handle overbookings, and make minor adjustments to charges",
+          "Escalates only major issues, such as emergencies or system outages, to on-call management",
+          "Decides when to contact authorities or handle safety-related incidents during security walks"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Guest check-in procedures are routine and efficiently handled",
+          "Filling out standard forms and check-in slips is straightforward",
+          "Setting up breakfast supplies is methodical and requires little mental effort",
+          "Basic communication with guests is comfortable due to extensive experience"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Reconciling discrepancies during the night audit can be complex if there are posting errors",
+          "Handling unexpected guest issues, such as overbookings or room complaints, requires quick problem-solving",
+          "Managing confrontations with trespassers or dealing with safety incidents during security walks",
+          "Troubleshooting AutoClerk software errors or network issues without immediate IT support"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Night audit paperwork involves repetitive data entry and report printing",
+          "Verification of daily guest folios and transaction logs is highly repetitive",
+          "Setting up the breakfast area involves routine and predictable steps",
+          "Cross-checking reservation data between AutoClerk and third-party channels could be automated"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys interacting with guests and resolving their issues promptly",
+          "Finds satisfaction in successfully balancing accounts and catching discrepancies",
+          "Considers repetitive paperwork and data entry as tedious",
+          "Security walks can feel monotonous unless an issue arises"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual reconciliation of transactions can be slow and error-prone",
+          "Occasional lag or glitches in AutoClerk disrupt workflow",
+          "Re-entering reservation data from third-party channels is redundant",
+          "Limited support or backup during overnight hours increases pressure during emergencies"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Tasks that align with customer service skills are both enjoyable and completed more efficiently",
+          "Repetitive data entry reduces engagement and can lead to minor mistakes",
+          "High productivity is achieved when tasks leverage both technical and interpersonal strengths",
+          "Mastery of the night audit process has increased confidence and speed over time"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Enthusiastic about adopting new tech that improves workflow efficiency",
+          "Regularly seeks out updates or tips for AutoClerk and related platforms",
+          "Views technology as essential for staying competitive in hospitality"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to updates in hotel management software",
+          "Comfortable experimenting with new digital tools before official rollout",
+          "Able to self-teach through manuals, tutorials, and online resources"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to spend personal time learning new systems if they offer clear benefits",
+          "Participates in any available on-site or online software training",
+          "Prefers concise, hands-on training modules over lengthy theoretical sessions"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by potential time savings and reduction in manual errors",
+          "Barriers include high overnight workload and lack of immediate support",
+          "More likely to learn new tools if they directly relate to daily tasks"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers sharing positive experiences with new tools increases willingness to try them",
+          "Management encouragement and recognition for tech adoption is motivating",
+          "Collaborates with other night auditors to share software tips and troubleshoot issues"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses AutoClerk as the primary hotel management software for reservation, check-in, and accounting",
+          "Accesses third-party booking channels, such as Expedia and Booking.com, to verify reservations",
+          "Checks and sends work-related emails through Gmail during shift"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Physical key cards and card reader for guest room access",
+          "POS terminal for processing payments and refunds",
+          "Paper check-in slips signed by guests at arrival"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Experienced with property management systems beyond AutoClerk, such as Opera or Maestro",
+          "Understands standard online booking processes and channel manager integration",
+          "Familiar with basic networking and troubleshooting for front desk computers"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Manual entry required when transferring booking info from some third-party channels to AutoClerk",
+          "Occasional syncing delays between reservation platforms and the main system",
+          "Limited integration between AutoClerk and breakfast reporting systems"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic concepts such as natural language processing and machine learning",
+          "Familiar with terms like 'prompt engineering,' 'training data,' and 'model hallucination'",
+          "Keeps up-to-date with news on AI applications in hospitality"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses OpenAI's ChatGPT for drafting guest communications and troubleshooting documentation",
+          "Employs Google Bard as a secondary conversational AI for work-related queries",
+          "Utilizes AI text summarizers to condense end-of-day reports for management"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Leverages LLMs weekly to generate template responses for guest emails",
+          "Uses AI to check the clarity and tone of written guest communications",
+          "Occasionally inputs audit data into AI tools to identify potential discrepancies or trends"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI-generated responses have sped up email replies, improving guest satisfaction",
+          "Once received an inaccurate summary from an AI tool, highlighting the need for manual review",
+          "Learned that AI tools are most effective when given clear, detailed prompts"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal company training on AI tools, but some informal peer sharing of best practices",
+          "Occasionally participates in online webinars about AI for hospitality",
+          "Relies on online community forums and tutorials to improve AI tool usage"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers to interact independently with AI tools for routine tasks",
+          "Uses step-by-step collaboration when troubleshooting complex issues with AI assistance",
+          "Switches between modes depending on the complexity of the task"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI as an assistant for drafting communications and checking reports",
+          "Occasionally uses AI as an advisor to suggest solutions for workflow bottlenecks",
+          "Does not fully delegate critical decisions to AI, preferring oversight"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to experimenting with new AI-driven processes that could reduce manual workload",
+          "Actively follows developments in AI automation for check-in and audit tasks",
+          "Willing to pilot AI features as long as they can be manually overridden"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and drafting text",
+          "Finds command-based interfaces more efficient for batch data processing tasks",
+          "Appreciates hybrid interfaces that allow switching modes as needed"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Guest interactions often require reading subtle cues and adapting communication style",
+          "Night audit reconciliation relies on understanding hotel-specific accounting practices",
+          "Handling safety situations during security walks depends on personal judgment and experience"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI-generated drafts and summaries for routine communications and reports",
+          "Verifies all AI suggestions before implementation, especially in financial matters",
+          "Does not rely on AI for final decisions in complex or sensitive guest situations"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive, data-heavy tasks like report generation",
+          "Wants human oversight for financial reconciliation and guest problem resolution",
+          "Sees value in a 70% AI, 30% human split for paperwork, but the reverse for guest service"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for background processes, as long as manual review is possible",
+          "Finds full automation of front desk roles potentially threatening to job security",
+          "Wants transparency in how AI decisions are made before fully trusting automation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes customer service and communication skills remain irreplaceable",
+          "Routine administrative skills are becoming less critical due to automation",
+          "Technical proficiency and adaptability are increasingly valuable"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning prompt engineering to get better results from AI tools",
+          "Taking on basic troubleshooting for AI-driven systems",
+          "Monitoring and validating AI-generated outputs as a new responsibility"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Recognizes that AI could eventually replace front desk check-ins",
+          "Moderately concerned about automation reducing overnight staffing needs",
+          "Believes human presence remains essential for safety and complex guest interactions"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Manual review of all AI-generated reports before submission is standard practice",
+          "Company policies require human approval for any automated guest communication",
+          "Can always revert to manual check-in and reconciliation in case of AI/system error"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company is gradually introducing more AI features into daily operations",
+          "Management encourages feedback on AI tool effectiveness",
+          "Team is expected to stay up-to-date with new AI-driven processes as they are rolled out"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will streamline many back-office and administrative tasks in hospitality",
+          "Expects AI to improve operational efficiency but also reduce entry-level job availability",
+          "Sees potential for AI to enhance guest personalization and experience"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Concerned about AI bias in guest profiling or communication",
+          "Believes transparency in AI decision-making is essential for fairness",
+          "Supports clear guidelines for human oversight of automated systems"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Wishes for seamless integration between reservation channels and property management systems",
+          "Desires an AI-powered tool for real-time incident detection during security walks",
+          "Would benefit from smarter, more context-aware guest communication templates"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Anticipates a shift towards supervisory roles monitoring automated systems",
+          "Expects most routine paperwork and check-ins to become fully automated",
+          "Foresees focus moving to guest experience, conflict resolution, and safety"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Advocates for ongoing training and upskilling in AI tools for all staff",
+          "Supports pilot programs to evaluate AI tool effectiveness before full rollout",
+          "Recommends establishing clear policies for human oversight and error correction in automated processes",
+          "Encourages regular feedback loops between staff, management, and tech vendors"
+        ]
+      }
+    ]
+  }
+]

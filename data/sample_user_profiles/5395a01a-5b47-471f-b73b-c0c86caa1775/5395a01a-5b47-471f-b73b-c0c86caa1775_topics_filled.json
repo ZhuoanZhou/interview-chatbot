@@ -1,0 +1,490 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s Degree from an accredited university",
+          "Completed degree in Business Administration, a field closely related to executive support roles",
+          "Participated in professional development workshops on office management and productivity tools",
+          "Received on-the-job training in advanced Google Workspace tools"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Current job title is Executive Secretary and Executive Administrative Assistant",
+          "Supports the CEO and other senior staff with administrative and logistical tasks",
+          "Acts as the main point of contact for scheduling, email management, and travel coordination"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the professional services sector",
+          "Supports an executive team in a mid-sized company",
+          "Industry focus involves regular international business travel"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a company with approximately 100-250 employees",
+          "Company culture is collaborative, with a mix of remote and in-office work",
+          "Fast-paced office environment requiring responsiveness and adaptability"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Company operates in the business consulting and services segment",
+          "Clients and stakeholders include multinational corporations and partners",
+          "Frequent travel is required for business development and client meetings"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 3-5 years of experience as an Executive Secretary/Assistant",
+          "Joined the current company shortly after obtaining Bachelor\u2019s Degree",
+          "Previously worked in administrative or support roles during university"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Occupies an intermediate-level professional position",
+          "Reports directly to the CEO and senior executives",
+          "Entrusted with confidential and critical business information"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Manages executive email inboxes, prioritizing and responding as needed",
+          "Oversees complex calendar scheduling and meeting arrangements",
+          "Researches and books travel itineraries for the CEO and staff, including flights, hotels, and local transportation",
+          "Takes detailed meeting notes and distributes summaries to stakeholders",
+          "Prepares and shares travel documentation through Google Slides and Drive"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 40% of workday on travel research and bookings",
+          "Allocates about 25% of time to email and calendar management",
+          "Devotes 15% to creating and updating travel itineraries in Google Slides",
+          "The remaining time is spent on taking meeting notes and ad hoc administrative tasks"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has significant autonomy in researching and proposing travel options within budget guidelines",
+          "Makes independent decisions on prioritizing incoming requests and managing the executives\u2019 schedules",
+          "Consults with executives for final approvals on major travel or company expenses",
+          "Empowered to select and use tools (e.g., AI platforms) that improve workflow efficiency"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Calendar management and scheduling meetings are routine and feel intuitive",
+          "Drafting and sending professional emails is straightforward",
+          "Updating and sharing Google Slides documents is performed with high confidence"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Coordinating last-minute travel changes, especially across time zones, can be complex",
+          "Ensuring compliance with all international travel requirements and visa regulations",
+          "Synthesizing information from multiple sources to create comprehensive travel itineraries"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Filtering and sorting large volumes of emails for prioritization",
+          "Copying travel details into standardized itinerary templates",
+          "Compiling and formatting meeting notes for distribution"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys researching new travel destinations and optimizing itineraries for executives",
+          "Finds satisfaction in resolving complex scheduling conflicts",
+          "Considers repetitive data entry (such as updating templates) tedious but necessary"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual transfer of details between platforms (e.g., from ChatGPT output to Google Slides) is time-consuming",
+          "Occasional incompatibilities between tools slow down workflow",
+          "Last-minute changes in executive schedules can disrupt carefully planned itineraries"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Tasks that align with personal strengths, such as organization, feel more enjoyable and efficient",
+          "Higher skill level in using digital tools leads to greater productivity and less frustration",
+          "Interest in learning new features or shortcuts directly boosts engagement and output"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Proactive and enthusiastic about adopting new technology to improve workflow",
+          "Views learning new tools as an opportunity to stay competitive and efficient",
+          "Frequently explores updates and new features in existing software"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new software, often becoming an early adopter among peers",
+          "Comfortable troubleshooting issues independently or with minimal support",
+          "Able to transition between platforms (e.g., from legacy systems to cloud-based tools) with minimal disruption"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to invest both work and personal time in learning useful new tools",
+          "Regularly attends webinars or online tutorials related to Google Workspace and AI tools",
+          "Encourages team members to join in tech training sessions"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential to save time and reduce manual effort",
+          "Occasionally, high workload can delay adoption of new technologies",
+          "Prioritizes learning tools that have immediate, visible impact on daily tasks"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often exchange tips and recommendations for effective tools",
+          "Management encourages innovation and experimentation with new technology",
+          "Positive experiences shared by colleagues increase openness to adoption"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Google Slides daily to create and update travel itineraries",
+          "Leverages ChatGPT to research travel requirements and gather information from the web",
+          "Relies on Google Drive for sharing and storing itinerary documents",
+          "Utilizes Gmail and Google Calendar for core communication and scheduling tasks"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Google Workspace suite (Gmail, Calendar, Drive, Docs, Slides) forms the backbone of daily work",
+          "Uses Microsoft Excel occasionally for expense tracking and data analysis",
+          "Employs company-specific intranet or HR portals for administrative requests"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Highly proficient with Google Workspace tools, considered industry standard for collaboration",
+          "Familiar with Microsoft Office Suite (Word, Excel, PowerPoint) from previous roles",
+          "Understands common file sharing protocols and cloud storage management"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally encounters formatting issues when transferring content between ChatGPT and Google Slides",
+          "Some data must be manually copy-pasted due to lack of full integration between platforms",
+          "Version control can be a challenge when multiple team members edit shared documents simultaneously"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic concepts such as large language models (LLMs), natural language processing, and automation",
+          "Can explain how AI tools like ChatGPT retrieve and synthesize information from the web",
+          "Follows AI news and updates relevant to productivity applications"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT daily for research and drafting travel requirements",
+          "Familiar with Gemini and Grammarly for language and writing tasks",
+          "Has experimented with other AI-enhanced features in Google Workspace"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies ChatGPT every day to gather up-to-date information on travel barriers and requirements",
+          "Uses AI tools to draft professional emails and check for grammatical accuracy",
+          "Relies on AI to summarize meeting notes for distribution"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used ChatGPT to uncover recent travel advisories that were not listed on official government sites",
+          "Occasionally received outdated or incomplete information from AI, requiring manual cross-checking",
+          "Learned to always verify AI-generated content before sharing with executives"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Peer-to-peer learning is common; colleagues share best practices for AI tool usage",
+          "No formal AI training program, but online tutorials and webinars are recommended by management",
+          "Team Slack channel is often used to discuss AI tool tips and troubleshoot issues"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers independent use of AI for research and drafting, followed by manual review",
+          "Utilizes step-by-step prompts for complex or unfamiliar tasks",
+          "Occasionally collaborates with colleagues to craft more effective AI queries"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Treats AI as an intelligent assistant, delegating repetitive or data-heavy tasks",
+          "Consults AI as an advisor for gathering comprehensive information quickly",
+          "Maintains final oversight and decision-making authority over outputs"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Very open to integrating AI-driven workflows that enhance productivity",
+          "Actively seeks out new AI features that align with daily responsibilities",
+          "Willing to experiment with automation tools as long as manual checks remain possible"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces like ChatGPT for flexibility and ease of use",
+          "Finds natural language prompts more intuitive than rigid command syntax",
+          "Occasionally uses command-based features for specific, repeatable tasks"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many tasks require nuanced understanding of executive preferences and company protocols",
+          "Travel arrangements must account for personal habits, security, and confidential business needs",
+          "AI assists with information gathering but final decisions depend on insider knowledge"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI to provide a strong starting point for research and drafting",
+          "Always verifies critical data (e.g., visa requirements) with official sources before finalizing plans",
+          "Views AI as a tool to augment, not replace, human judgment"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle initial research, routine drafting, and template generation",
+          "Retains human oversight for personalization, quality control, and sensitive communications",
+          "Believes a 60/40 split (AI/human) is appropriate for current travel planning tasks"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Welcomes automation for repetitive, rule-based tasks with low risk",
+          "Prefers human control for judgment-based or confidential decisions",
+          "Would find high automation threatening if it removed the need for human review on sensitive matters"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Sees organizational and communication skills as more valuable in the AI era",
+          "Believes AI enhances ability to handle larger workloads efficiently",
+          "Views adaptability and critical thinking as increasingly important alongside automation"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing prompt engineering skills to maximize AI effectiveness",
+          "Takes responsibility for verifying and curating AI-generated content",
+          "Learning to integrate outputs from multiple AI tools into cohesive workflows"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Some concern that basic scheduling and email filtering may become fully automated",
+          "Confident that strategic and interpersonal aspects of the role remain irreplaceable",
+          "Watches AI developments closely to stay ahead of potential job impacts"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Maintains manual review as standard practice for all AI-generated outputs",
+          "Organization encourages double-checking critical information, especially for travel",
+          "Can always edit and override AI suggestions before sharing with executives"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has become more supportive of AI experimentation in workflow",
+          "Policies now encourage staff to suggest and trial new AI tools",
+          "Formal AI risk assessment protocols are in development"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Optimistic about AI\u2019s potential to drive efficiency and innovation in business operations",
+          "Believes AI will create new roles even as it automates others",
+          "Acknowledges need for responsible adoption to avoid negative societal impacts"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports transparent use of AI, with clear communication about its role in decision-making",
+          "Concerned about risks of over-automation and potential for bias in AI-generated content",
+          "Advocates for ongoing human oversight and ethical guidelines for AI deployment"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires seamless integration between AI outputs (e.g., ChatGPT) and presentation tools like Google Slides",
+          "Would benefit from smarter, context-aware calendar assistants",
+          "Wishes for AI that can proactively flag travel disruptions or requirements in real time"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Anticipates a shift towards more strategic and analytical responsibilities",
+          "Expects routine tasks to be almost fully automated, freeing up time for complex problem solving",
+          "Believes human skills\u2014such as relationship management\u2014will become even more central"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement structured AI training programs for all administrative staff",
+          "Establish clear policies for responsible and ethical AI use",
+          "Invest in developing or adopting tools that offer robust integration and security"
+        ]
+      }
+    ]
+  }
+]

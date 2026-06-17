@@ -1,0 +1,534 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s Degree",
+          "Completed degree in Business Administration with a focus on Sales and Marketing",
+          "Attended university from ages 18 to 22, graduating on time",
+          "Participated in a sales internship during undergraduate studies",
+          "Attended workshops on technical product sales and CRM software"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Sales Representative, Wholesale and Manufacturing, Technical and Scientific Products",
+          "Role involves prospecting, engaging, and supporting customers purchasing technical products",
+          "Responsible for maintaining and updating daily sales transactions",
+          "Acts as a point-of-contact for both new and returning customers",
+          "Supports sales forecasting and reporting processes"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the technical and scientific products sector",
+          "Industry focus: Wholesale and manufacturing of specialized equipment",
+          "Sells products to a mix of B2B and B2C customers",
+          "Operates primarily in the technology and industrial supply market"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed by a mid-sized company with approximately 100-300 employees",
+          "Company has a collaborative team environment",
+          "Organizational structure includes sales, marketing, logistics, and technical support teams",
+          "Work setting is a combination of in-store and remote collaboration"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Business focuses on wholesale and retail sales of technical and scientific products",
+          "Market segment includes industrial, educational, and research clients",
+          "Company operates regionally with some national clients",
+          "Products include laboratory equipment, measurement tools, and technical devices"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 3-5 years of experience as a sales representative",
+          "Started in current role shortly after completing bachelor\u2019s degree",
+          "Progressed from sales associate to full sales representative within the company"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Considered an early-career professional",
+          "Holds a non-managerial, individual contributor position",
+          "Has mentoring responsibilities for newer sales team members",
+          "Participates in ongoing sales training and development programs"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Welcomes customers to the store in a warm and friendly manner",
+          "Inputs daily sales transactions into Google Sheets and CRM systems",
+          "Provides product information, technical guidance, and support to customers",
+          "Prepares and follows up on sales quotations and proposals",
+          "Collaborates with team members to track sales targets and progress"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 60% of time on direct customer interactions (in-person, phone, email)",
+          "20% of time is dedicated to updating sales records and CRM data",
+          "10% of time allocated to internal team meetings and collaboration",
+          "Remaining 10% spent on learning about new products and process improvements"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has autonomy in managing daily interactions and prioritizing customer follow-ups",
+          "Makes independent decisions on routine sales processes and minor discounts",
+          "Major pricing or contract negotiations require manager approval",
+          "Allowed to suggest process improvements and new product offerings"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Greeting and building rapport with customers",
+          "Demonstrating product features and benefits",
+          "Updating sales data in Google Sheets or Excel",
+          "Following established sales scripts or guidelines"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Handling technically detailed product questions from specialized clients",
+          "Managing large or custom orders requiring special approvals",
+          "Addressing complex customer complaints or escalations",
+          "Ensuring data accuracy across multiple sales and CRM systems"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Daily entry of sales transactions into spreadsheets",
+          "Generating routine sales performance reports",
+          "Updating and maintaining customer contact information",
+          "Sending standard follow-up emails after purchases"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys face-to-face customer interactions and problem-solving",
+          "Finds product demonstrations and technical discussions engaging",
+          "Considers repetitive data entry and report generation tedious",
+          "Least enjoys administrative paperwork unrelated to sales"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual sales data entry is time-consuming and prone to errors",
+          "Difficulty accessing CRM tools remotely at times",
+          "Occasional duplication of customer records between systems",
+          "Coordinating with other departments for special orders can be slow"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Feels most productive when engaged in customer-facing activities",
+          "Higher skill level in rapport-building leads to increased sales conversions",
+          "Productivity drops when bogged down with repetitive administrative tasks",
+          "Enjoyment is closely linked to opportunities for learning and meaningful interactions"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open and enthusiastic about adopting new technologies",
+          "Sees new tools as opportunities to improve efficiency",
+          "Actively seeks out updates and tips for CRM and spreadsheet software",
+          "Has a positive outlook on technology-driven change"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Considers self quick to adapt to new digital tools",
+          "Has successfully transitioned from desktop Excel to Google Sheets",
+          "Comfortable exploring new features or updates independently",
+          "Occasionally assists colleagues in learning new software"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate several hours monthly for relevant software training",
+          "Prefers hands-on tutorials or interactive modules",
+          "Participated in company-offered CRM and Google Workspace trainings",
+          "Balances training time with ongoing sales responsibilities"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential for time savings and improved sales results",
+          "Learning is prioritized when new tools directly impact daily workflow",
+          "High workload periods can delay adoption of new technologies",
+          "Sometimes hesitant if benefits of a tool are unclear or poorly communicated"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers' positive experiences encourage trying new tools",
+          "Management support and endorsement play a key role in adoption",
+          "Team discussions and informal sharing of tech tips are common",
+          "Feedback from early adopters within the team influences personal usage"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Google Sheets daily for recording and sharing sales data",
+          "Relies on CRM platforms such as Salesforce or a proprietary CRM",
+          "Regularly uses email clients (Gmail/Outlook) for customer communication",
+          "Occasionally uses Excel for advanced data analysis"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Smartphone used for remote spreadsheet access and customer calls",
+          "POS (Point of Sale) system for transaction processing",
+          "Company intranet for accessing product documentation",
+          "Cloud storage (e.g., Google Drive) for sharing sales materials"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Familiar with Salesforce and Zoho CRM systems",
+          "Comfortable navigating Google Workspace tools (Docs, Sheets, Drive)",
+          "Experienced in working with POS systems typical for retail/wholesale",
+          "Understands basic integrations between CRM and spreadsheet tools"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasional syncing issues between CRM and Google Sheets",
+          "Manual export/import needed for some sales reports",
+          "Duplicate data entry required when systems lack integration",
+          "Team occasionally faces challenges integrating new tools with existing platforms"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic concepts such as natural language processing and machine learning",
+          "Knows what large language models (LLMs) are and common use cases",
+          "Familiar with AI-generated content and basic automation principles",
+          "Can explain the difference between AI automation and traditional macros"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT for generating sales email drafts and product FAQs",
+          "Occasionally uses Google Bard for quick research and information summarization",
+          "Has tried Grammarly's AI-powered writing assistant for professional communication",
+          "Tested AI-based lead scoring features within CRM platform"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs occasionally, about 2-4 times per week for specific tasks",
+          "Applies AI tools for composing responses to customer inquiries",
+          "Employs AI to brainstorm product descriptions and social media posts",
+          "Uses AI to automate repetitive data analysis tasks during monthly reporting"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used ChatGPT to quickly draft a technical product FAQ, saving 2 hours",
+          "AI-generated email templates occasionally required heavy editing for tone and accuracy",
+          "Once received inaccurate product details from an AI tool, prompting more manual verification",
+          "Positive experience with AI-powered lead scoring, which improved targeting for follow-ups"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal company-wide AI training yet, but informal peer support is available",
+          "Shares AI tool tips and best practices during team meetings",
+          "Management encourages experimentation with safe AI tools",
+          "Occasionally consults online resources or webinars for AI learning"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers to explore new AI tools independently at first",
+          "Appreciates step-by-step guidance for more complex AI workflows",
+          "Enjoys a mix of self-directed use and collaborative problem-solving with team members",
+          "Leverages help documentation and online communities when stuck"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant to streamline repetitive tasks",
+          "Occasionally treats AI as an advisor for brainstorming sales strategies",
+          "Prefers to maintain final decision-making authority over AI recommendations",
+          "Uses AI to augment, not replace, core interpersonal skills in sales"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to experimenting with new AI-driven workflows that show clear benefits",
+          "Willing to pilot new AI features introduced by CRM and productivity tools",
+          "Assesses the impact of AI changes before full-scale adoption",
+          "Advocates for gradual integration rather than sudden workflow overhaul"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational AI interfaces for brainstorming and writing tasks",
+          "Uses command-based interfaces for data-related automations",
+          "Finds chat-style interfaces more intuitive for daily sales support",
+          "Switches between modes depending on task complexity"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many product recommendations require nuanced understanding of customer needs",
+          "Technical product sales often involve interpreting specifications beyond what AI can provide",
+          "Trusts AI with generic tasks, but not highly specialized advice",
+          "Tacit knowledge of local client relationships is crucial in closing deals"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI-generated drafts and suggestions for routine communication",
+          "Double-checks AI outputs for technical accuracy and appropriateness",
+          "Does not rely solely on AI for pricing or contract recommendations",
+          "Views AI as a supportive tool, not a decision-maker, for critical sales processes"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to automate repetitive data entry and initial drafts",
+          "Human oversight is valued for customer interactions and negotiations",
+          "Seeks a 70/30 split: AI for routine, human for complex, relationship-driven tasks",
+          "Wants AI to surface insights, but humans to make final sales decisions"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for administrative and reporting tasks",
+          "Finds automation threatening when it risks reducing human contact with clients",
+          "Prefers manual review for high-value or custom orders",
+          "Sees automation as beneficial when it frees time for relationship building"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances efficiency but does not replace interpersonal sales skills",
+          "Views technical product knowledge as more important despite automation",
+          "Sees data analysis skills becoming more valuable with AI-driven insights",
+          "Thinks AI may reduce the need for manual reporting, but not for client engagement"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing skills in prompt engineering to get better AI outputs",
+          "Learning to critically evaluate AI-generated content for accuracy",
+          "Responsible for integrating AI suggestions into customer communications",
+          "Gaining familiarity with AI-driven data visualization tools"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Low concern about AI replacing the entire sales role in the short term",
+          "Moderately concerned about automation of repetitive administrative tasks",
+          "Believes high-value relationship management cannot be automated",
+          "Watches industry trends for signs of increased automation in sales"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always reviews AI-generated emails before sending to customers",
+          "Manual approval required for AI-generated sales reports",
+          "CRM system allows editing of AI-suggested lead scores",
+          "Uses AI as a first draft, but maintains human control over final outputs"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company encourages careful experimentation with AI tools",
+          "Team now openly discusses pros and cons of new AI features",
+          "Management is developing guidelines for responsible AI use in sales",
+          "Policies emphasize transparency and human oversight for AI-driven workflows"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will lead to greater efficiency and productivity across industries",
+          "Expects AI to create new types of jobs in sales and customer support",
+          "Thinks AI may widen the gap between tech-savvy and traditional workers",
+          "Sees potential for AI to improve the customer experience in retail and B2B sales"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes ethical use of AI requires transparency about its role in communications",
+          "Concerned about data privacy when using AI for customer information",
+          "Thinks AI should not be used to deceive or mislead customers",
+          "Supports clear boundaries for what AI can and cannot do in sales"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would benefit from an AI-powered tool that automatically syncs CRM and spreadsheet data",
+          "Desires smarter AI-driven customer segmentation for targeted promotions",
+          "Wants an AI tool that can summarize and suggest action items from sales meetings",
+          "Seeks improved language support for multilingual sales communications"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects more routine sales tasks to be automated by AI-driven platforms",
+          "Anticipates a greater focus on consultative and relationship-based selling",
+          "Sees a need for advanced digital literacy and AI collaboration skills",
+          "Believes data-driven decision-making will become central to the sales role"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement regular training sessions on new AI tools and features",
+          "Establish clear policies for ethical and responsible AI use",
+          "Encourage employee feedback and experimentation with AI-driven processes",
+          "Invest in integrated platforms to reduce manual data entry and duplication"
+        ]
+      }
+    ]
+  }
+]

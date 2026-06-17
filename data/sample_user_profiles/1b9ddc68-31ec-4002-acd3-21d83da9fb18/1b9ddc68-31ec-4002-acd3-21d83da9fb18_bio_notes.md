@@ -1,0 +1,204 @@
+# Biographical Notes
+
+- Adopts stray pens found around the store and gives them nicknames
+- Open to AI-driven workflows for marketing and website tasks
+- Views AI as a tool that can streamline creative and administrative tasks
+- Manual skills in inventory and staff management are still valued and largely unaffected by AI
+- Has developed basic prompt engineering skills for content generation
+- Prefers conversational interfaces for brainstorming and creative tasks
+- Consults with ownership for major capital expenditures
+- Frequently uses Microsoft Excel for inventory tracking and sales analysis
+- Has an old Polaroid camera and takes instant photos of special store moments
+- Has tried Canva's AI image and logo generation features for marketing materials
+- Takes longer to adjust to entirely new platforms, especially those not tailored for retail
+- Understanding customer preferences is based on years of in-store observation
+- Has full autonomy to select vendors and approve product orders
+- Is an avid amateur astronomer and hosts star-gazing nights for friends
+- Oversees daily operations, including opening/closing procedures and cash handling
+- Has a vintage comic book corner in the break room as a fun distraction
+- Has a secret stash of stress balls shaped like fruits on the supply shelf
+- Knows how to use most web-based retail dashboards and reporting tools
+- Familiar with common POS and retail management systems such as Shopify and Lightspeed
+- Reports only to company owners or partners
+- Work environment is hands-on, with close interaction between management and staff
+- Volunteers annually at a local animal shelter and sometimes brings photos of new friends to work
+- Attended community college for business administration, completed 2 years but did not earn a degree
+- Enjoys baking seasonal pies and sharing slices with the team
+- Has a basic understanding of AI concepts such as chatbots and generative models
+- Less inclined to pursue extensive training during peak business seasons
+- Company culture is informal but performance-driven
+- Recommends trial periods for any AI adoption before permanent implementation
+- Has a habit of naming new store layouts after famous explorers
+- Prefers practical, hands-on tutorials over theoretical instruction
+- Total staff ranges from 12 to 18 employees across both stores, depending on season
+- Has a standing desk that's never been lowered in 3 years
+- Generating sales reports and tracking KPIs involves routine data entry
+- Comfortable learning user-friendly, retail-oriented software
+- Keeps a ‘compliment jar’ where team members leave positive notes
+- Competes with both larger chains and independent local retailers
+- Lack of integration between inventory and marketing tools creates extra workload
+- Finds it efficient to input a prompt and review the full output rather than multiple back-and-forths
+- Has an ever-growing collection of novelty coffee blends from around the world
+- Office plant is named Gerald and receives daily motivational talks
+- Company is open to using AI for creative tasks but not for operations or finance
+- No AI tool is integrated into core systems without human approval steps
+- Relies on online tutorials and user forums when experimenting with new AI features
+- Believes ethical use of AI requires transparency and human oversight
+- Believes core skills like negotiation and customer relations remain as important as ever
+- Treats AI as a brainstorming partner for marketing ideas
+- Occasionally faces issues syncing sales data from POS to QuickBooks
+- Remaining 10% is spent on administrative duties and vendor relations
+- Practices mindfulness meditation for five minutes before every morning meeting
+- Enjoys sourcing unique products and negotiating deals with new suppliers
+- Favors herbal teas over coffee and keeps a collection in the office kitchen
+- Is a self-taught origami enthusiast and decorates the break room with paper animals
+- Sees value in partial AI automation for marketing content and website updates
+- Commutes by bicycle even in winter
+- Once completed a 1000-piece puzzle featuring a famous city skyline
+- Team discussions about AI focus on practicality and relevance to current needs
+- Wears socks with quirky patterns every day and keeps extras in the office drawer
+- Wants clear guidelines on human oversight for any AI-driven process
+- Recognizes potential for automation in reporting and simple marketing content
+- Would benefit from a simple AI tool that predicts demand for seasonal products
+- Aware of the difference between traditional automation and AI-powered analysis
+- Knows basic terminology like 'machine learning', 'prompt', and 'LLM'
+- Expects AI to become more common for content creation and digital marketing
+- Has basic knowledge of social media advertising platforms (Facebook, Instagram)
+- Skeptical about the relevance of AI for core retail operations like inventory or staffing
+- Worked up from assistant manager to general manager within the company
+- Believes AI will have significant impact in larger retail chains, less so for small businesses
+- Trusts AI-generated outputs only for non-critical, creative tasks
+- Processing reorders for top-selling SKUs is a predictable, data-heavy task
+- Sees value in AI-powered personalized offers for loyal customers
+- Experienced frustration when an AI-generated image did not match the brand's style, highlighting the need for human oversight
+- Vendor negotiations rely on personal relationships and nuanced judgment
+- Reconciling discrepancies between physical and system inventory is time-consuming
+- Has a tradition of trying a new ice cream flavor every weekend
+- Enjoys solving crossword puzzles first thing in the morning
+- Peers in similar roles often share software recommendations informally
+- Completed short online courses in retail marketing and customer service best practices
+- Always reviews and manually edits AI-generated marketing content before use
+- Forecasting seasonal demand and adjusting inventory accordingly is challenging
+- No formal policies on AI adoption; decisions are case-by-case
+- Learning new skills increases both enjoyment and productivity when the relevance is clear
+- Always eats lunch at exactly 12:30 PM
+- Manages hiring, training, and scheduling of store staff
+- Views automation as threatening if it reduces control over customer interactions or product selection
+- Works in the retail sector, specifically consumer goods
+- Has a tradition of bringing in a homemade breakfast treat whenever a new product launches
+- Needs to stay updated on emerging AI tools relevant to retail marketing
+- Found that AI-written product descriptions often needed manual editing for accuracy
+- Prefers manual checks for any AI-driven process that could impact business reputation
+- Decisions to adopt new tools are usually self-driven, with owner input for major changes
+- Open to adopting new tech if it clearly improves workflow or efficiency
+- Considers manual data entry and reconciliations tedious
+- Explored Google Bard for brainstorming website content ideas
+- Owns a pair of colorful sneakers that have a story behind each scuff
+- Main motivation is improving efficiency and reducing manual errors
+- Handles vendor communications and negotiates pricing
+- Does not foresee AI replacing core management or customer-facing roles
+- Acts as the primary decision-maker for day-to-day store operations
+- Barriers include lack of time due to hands-on management duties
+- Enjoys learning a new word in a foreign language every day and using it in conversations
+- Spends approximately 30% of time on purchasing and inventory management
+- Keeps a vintage typewriter on a shelf as a quirky office decoration
+- Weekly inventory counts and stock level updates are repetitive
+- Industry focus is on general merchandise and specialty products
+- Conducting staff interviews and onboarding new employees is a familiar process
+- Authorized to make staffing and scheduling decisions independently
+- Targets neighborhood and regional customers seeking specialty or general merchandise
+- Hosts an annual office mini-golf tournament using product boxes
+- Employs LLMs to generate slogans or short ad copy for online campaigns
+- Occasionally exchanges tips on AI tools with peers in local retail manager groups
+- Maintains final control over all published materials and product listings
+- Participated in several vendor-led workshops on inventory management and retail sales
+- Always reviews and edits AI content before publication
+- Tasks that align with personal strengths, like negotiation, are completed quickly and well
+- Relies on QuickBooks for bookkeeping and payroll
+- No formal AI training provided by the company
+- Has a collection of rubber ducks on desk for debugging companionship
+- Views AI as an assistant for creative content generation
+- Organizes monthly book club focusing on sci-fi novels
+- Prefers short, focused training modules over lengthy seminars
+- Does not rely on AI for any financial, legal, or staffing decisions
+- Appreciates the flexibility of conversational prompts for logo and content generation
+- Finds command-based interfaces less intuitive unless the task is highly structured
+- Sees no immediate threat to job security from current AI capabilities
+- Skeptical of tools that seem overly complex for the needs of a small retail chain
+- Has concerns about over-reliance on AI at the cost of personal service and judgment
+- Brings homemade cookies to team meetings every Friday
+- Keeps a miniature basketball hoop on the office door to shoot paper balls
+- Coordinating staff schedules around last-minute call-outs can be a challenge
+- Current job title is General Manager for a two-store retail chain
+- Uses a lucky coin that’s been with them since their first retail job
+- Advocates for ongoing evaluation of simple, cost-effective AI tools
+- Employs Google Drive for document sharing and collaboration
+- Switching between multiple software systems for different tasks creates inefficiencies
+- Office is decorated with posters from 1990s tech conferences
+- Received on-the-job management and purchasing training through retail positions
+- Accepts high automation only for low-stakes, repetitive tasks like image resizing
+- Spends about 15% of time on customer service and conflict resolution
+- Enjoys collecting quirky fridge magnets from vendor visits
+- Relies on personal judgment to finalize any AI-assisted output
+- Desires better AI integration between inventory and marketing systems
+- Knows how to juggle and occasionally entertains staff with impromptu shows
+- Finds local marketing campaign planning and social media engagement rewarding
+- Business is a small, locally owned retail chain
+- Keeping up with digital marketing trends and online promotions can be demanding
+- Prefers human-driven decision-making for purchasing and staffing
+- Develops and executes local marketing campaigns, including social media
+- Manages a chain of brick-and-mortar stores with an online presence
+- Company operates two physical retail locations
+- Allocates 20% of work hours to marketing and promotional activities
+- Dedicates around 25% of time to staff management and hiring
+- Is a stealthy karaoke champion at company parties
+- Has a drawer filled with novelty socks for surprise dress-up days
+- Oversees all operational aspects, including product sourcing and vendor negotiation
+- Collects vintage coffee mugs from client cities visited
+- Sets marketing budgets and approves local promotional strategies
+- Manual entry is needed to update staff hours between scheduling and payroll systems
+- Adapts quickly to updates in existing POS and inventory systems
+- Purchasing and inventory management require significant local market knowledge
+- Manages staff schedules using When I Work scheduling software
+- AI has enhanced the ability to quickly produce marketing content but hasn't reduced the need for creativity
+- Writes a weekly haiku about retail life and shares it on a bulletin board
+- Directly supervises all store staff, including assistant managers
+- Calls for basic staff training on ethical and effective AI use
+- Writes handwritten thank you notes for vendors during holidays
+- Willing to try new tools if they are easy to use and have clear benefits
+- Anticipates needing to evaluate and select from a wider range of AI tools
+- Uses a basic email client (Gmail) for vendor and staff communications
+- Uses step-by-step collaboration only when refining images or marketing copy
+- Occasionally uses ChatGPT for drafting social media posts or generating product descriptions
+- Has a small zen garden on the office desk for quick stress relief
+- Responsible for purchasing new inventory and maintaining optimal stock levels
+- Is passionate about classic rock and secretly plays air guitar during breaks
+- Generated a new logo using Canva AI that was well received by customers on social media
+- Carries a lucky charm keychain gifted by their first store manager
+- Productivity drops for repetitive manual tasks that lack engagement
+- Uses Square POS system for sales transactions and inventory management
+- Resolving routine customer service issues is handled efficiently
+- Once grew a bonsai tree from a seed and proudly displays it near the cash register
+- Finding and negotiating with new vendors comes naturally due to years of experience
+- Managing cash flow during slow sales periods requires complex decision-making
+- Career in retail management spans more than 15 years in total
+- Skeptical about investing time in tools with unclear benefits for current scale of business
+- Favors a 70/30 split: human oversight for most tasks, with AI as a support tool
+- Concerned about potential job displacement if AI is used irresponsibly
+- Prefers independent use of AI tools with occasional step-by-step guidance for complex tasks
+- Supports using AI only in ways that do not compromise customer trust
+- Keeps a jar of assorted jellybeans on the counter for customers to enjoy
+- Uses AI tools a few times per month, primarily for marketing content creation
+- Rarely uses AI in operational or inventory management contexts
+- Runs a small succulent garden on the windowsill with plants named after team members
+- Little concern about AI replacing hands-on management or relationship-based tasks
+- Increased focus on evaluating and editing AI-generated outputs
+- Has a collection of international coins from places vendors have visited
+- Learned to play ukulele during pandemic lockdown
+- Has a custom playlist for each store to match different daily moods
+- Role encompasses purchasing management, staff hiring, inventory control, marketing, and customer service
+- Loves to sketch doodles inspired by store products during breaks
+- Willing to invest a few hours per month in learning new tools if ROI is clear
+- At senior management level within the company
+- Positive feedback from staff increases willingness to trial new platforms
+- Has held the general manager position for over 10 years

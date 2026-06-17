@@ -1,0 +1,524 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s Degree in Political Science from a U.S. university",
+          "Completed coursework in research methods, statistics, and data analysis",
+          "Gained exposure to neuroscience topics through electives and lab internships",
+          "Participated in undergraduate research assisting with data collection and analysis",
+          "Attended short workshops on Python programming during college"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Works as a Researcher in a neuroscience laboratory",
+          "Focuses on pediatric brain cancer diagnosis and treatment research",
+          "Role emphasizes data analysis and development of computational tools",
+          "Collaborates closely with a supervisor and occasionally with a larger research team"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Employed in the biomedical research sector",
+          "Works at the intersection of neuroscience and healthcare",
+          "Lab is affiliated with a major hospital",
+          "Contributes to translational research aiming to improve clinical outcomes"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works in a lab of approximately 12 people",
+          "Day-to-day work environment is a small, focused team (self and supervisor)",
+          "Lab is part of a larger hospital research ecosystem",
+          "Collaborative setting with access to hospital-collected data and occasional interdepartmental meetings"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Non-profit academic medical research laboratory",
+          "Specializes in pediatric brain cancer research",
+          "Serves hospitals, academic partners, and the broader scientific community",
+          "Focuses on translational research that bridges laboratory findings and patient care"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 1-2 years of experience as a researcher",
+          "Started current full-time role shortly after completing undergraduate studies",
+          "Gained practical lab experience through internships before current position"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Entry-level research professional",
+          "Reports directly to a supervisor or PI (Principal Investigator)",
+          "Not in a managerial or supervisory role",
+          "Occasionally provides technical insight to more senior researchers"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Designs and codes software tools for data analysis in Python",
+          "Analyzes brain imaging and clinical data provided by hospital partners",
+          "Collaborates with supervisor to discuss project requirements and research goals",
+          "Documents code, analysis results, and research progress",
+          "Participates in meetings to provide computational insights to lab colleagues"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 70% of work hours coding and performing data analysis",
+          "Around 15% of time is devoted to meetings and team collaboration",
+          "Roughly 10% is spent on documentation and reporting",
+          "The remaining 5% involves administrative tasks such as time card entry"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has autonomy to select coding approaches and toolkits for analysis",
+          "Responsible for planning, prototyping, and implementing software solutions",
+          "Major research directions and priorities are set by supervisor or PI",
+          "Can independently resolve technical challenges within project boundaries"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Routine data cleaning and preprocessing in Python",
+          "Implementing basic analysis scripts for standard datasets",
+          "Writing documentation for code developed",
+          "Entering and updating time cards based on calendar records"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Developing novel algorithms for extracting features from medical images",
+          "Debugging intricate code errors in large or unfamiliar codebases",
+          "Translating ambiguous project requirements into concrete technical specifications",
+          "Ensuring data integrity and reproducibility in complex analyses"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Reformatting and reprocessing large batches of imaging data",
+          "Generating standard plots and summary statistics for recurring analyses",
+          "Updating metadata and maintaining data logs",
+          "Creating template code for repeated analysis pipelines"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys designing new analysis tools and solving complex data problems",
+          "Finds collaborative problem-solving in meetings intellectually stimulating",
+          "Considers repetitive data entry and time card submission tedious",
+          "Routine code maintenance feels less engaging than developing new features"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual data formatting is time-consuming and error-prone",
+          "Occasional integration issues between hospital data systems and lab analysis tools",
+          "Limited documentation for legacy code can slow down debugging",
+          "Waiting for feedback or approvals on analysis plans can cause bottlenecks"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Feels most productive when working on tasks aligned with personal strengths, such as coding new analysis modules",
+          "Enjoyment is highest when learning or applying new skills to challenging problems",
+          "Productivity drops during repetitive or administrative tasks",
+          "Skill level and confidence increase with autonomy and opportunities for creative problem-solving"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Has a positive attitude toward experimenting with new software and coding libraries",
+          "Views learning new technologies as essential for both personal and professional growth",
+          "Actively seeks out new tools that improve workflow efficiency"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new programming environments and data analysis platforms",
+          "Finds it manageable to pick up new Python libraries or AI tools with minimal guidance",
+          "Occasionally requires extra time to adapt to major changes in workflow or unfamiliar tool interfaces"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate several hours per month to learning new tools or methods",
+          "Prioritizes tech training that directly relates to current research projects",
+          "Sometimes postpones training when project deadlines are tight"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential to automate repetitive tasks and improve research outcomes",
+          "Barriers include high workload during grant deadlines or major project milestones",
+          "Prefers learning tools with clear documentation and community support"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Supervisor\u2019s endorsement of new tools increases willingness to adopt",
+          "Peers occasionally recommend new libraries or AI tools",
+          "Team culture values technical innovation, positively influencing openness to change"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Python 3 as the primary programming language for data analysis",
+          "Codes and edits scripts in VS Code Editor",
+          "Occasionally uses Matlab for specific analysis tasks",
+          "Employs Jupyter notebooks for exploratory data analysis and visualization"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on hospital data management systems for accessing patient data",
+          "Uses Microsoft Excel for preliminary data review and organization",
+          "Employs Git for version control and code collaboration",
+          "Utilizes institutional email and calendar applications for communication and scheduling"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Comfortable with widely used Python libraries such as NumPy, pandas, and matplotlib",
+          "Has basic familiarity with Matlab and its toolboxes for neuroscience research",
+          "Understands use of Jupyter notebooks for combining code, results, and documentation",
+          "Basic experience with version control systems such as Git and GitHub"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally encounters data format incompatibilities between hospital systems and analysis scripts",
+          "Manual conversion is sometimes needed to move data between Excel and Python",
+          "Limited integration between Matlab and Python workflows requires exporting and importing files",
+          "Version discrepancies between software tools can lead to minor workflow disruptions"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic concepts such as supervised learning and model training",
+          "Can explain terms such as 'neural network', 'feature extraction', and 'classification'",
+          "Has practical experience using AI-powered code assistants",
+          "Limited exposure to advanced machine learning theory beyond practical applications"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses GitHub Copilot for code autocompletion and suggestions",
+          "Employs ChatGPT for generating or debugging simple code snippets",
+          "Has experimented with other generative AI chatbots for brainstorming or technical support",
+          "No direct use of custom in-house AI models for research (currently focused on mainstream tools)"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses AI tools weekly in the workflow",
+          "Primarily employs generative AI to generate boilerplate or repetitive code",
+          "Occasionally uses AI to help troubleshoot coding errors or identify alternative algorithms",
+          "Rarely leverages AI for full end-to-end pipeline automation\u2014focus is on support rather than replacement"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI tools have successfully generated functional code for repetitive tasks, speeding up workflow",
+          "Occasionally received syntactically correct but contextually inappropriate code suggestions from AI",
+          "Learned to double-check AI-generated code for compatibility and accuracy before use",
+          "AI has helped clarify unfamiliar library usage by providing concise examples"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal organizational training provided for AI tool adoption",
+          "Peers occasionally share tips for using Copilot and ChatGPT effectively",
+          "Relies on online resources and documentation to learn AI tool features",
+          "Supervisor is supportive but not an expert in AI-assisted coding"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers to work independently, consulting AI tools as needed for specific tasks",
+          "Will occasionally use step-by-step interactions with AI for complex coding problems",
+          "Values having the option to request granular explanations from AI when troubleshooting"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI tools primarily as assistants for routine or repetitive coding",
+          "Occasionally treats AI as an advisor for brainstorming alternative approaches",
+          "Does not rely on AI as a full co-worker or autonomous collaborator"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to integrating new AI-driven processes if they clearly improve efficiency",
+          "Prefers incremental adoption over wholesale workflow changes",
+          "Willing to test AI-powered tools in pilot projects before broader use"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Finds conversational interfaces (like ChatGPT) intuitive for brainstorming and troubleshooting",
+          "Uses command-based code assistants (like Copilot) for in-line code suggestions",
+          "Prefers conversational AI when seeking explanations or learning new concepts"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many analysis tasks require neuroscience and medical domain expertise",
+          "AI tools are mainly used for generic programming, not for specialized research insights",
+          "Critical decisions about data interpretation depend on human expertise",
+          "AI is not trusted for final result validation in clinical research contexts"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Moderate trust in AI-generated code for routine, well-defined problems",
+          "Low trust in AI output for high-stakes or novel research tasks",
+          "Always manually reviews and tests AI-generated code before integration",
+          "Reluctant to delegate critical methodological decisions to AI tools"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive coding and data formatting tasks",
+          "Values human oversight for experimental design and data interpretation",
+          "Sees greatest potential in AI augmenting, not replacing, expert judgment",
+          "Envisions a workflow where AI suggestions are always subject to human approval"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for low-impact, repetitive processes",
+          "Finds automation threatening if applied to tasks requiring nuanced domain judgment",
+          "Would resist automation that bypasses manual review for clinical or patient-related data",
+          "Supports automation that improves speed but not at the expense of accuracy or transparency"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the importance of critical thinking and problem-solving skills",
+          "Routine coding and data entry skills may become less critical as automation increases",
+          "Domain expertise remains essential for interpreting AI-generated results",
+          "AI frees up time to focus on higher-level research questions"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing skills in prompt engineering when interacting with generative AI",
+          "Learning to evaluate and debug AI-generated code effectively",
+          "Staying current with evolving AI tool capabilities and best practices",
+          "Gaining responsibility for integrating AI tools into existing research pipelines"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mild concern about automation of repetitive coding tasks",
+          "No immediate worry about AI replacing research roles requiring domain expertise",
+          "Monitors industry trends about AI in research to stay informed",
+          "Views AI as a tool for augmentation rather than replacement"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always manually reviews AI-generated code before execution",
+          "Maintains the ability to edit or reject AI suggestions in code editors",
+          "No AI-driven process is deployed without human validation in current workflow",
+          "Favors systems where override and rollback options are easily accessible"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Team has become more open to piloting AI tools over the past year",
+          "No formal, organization-wide AI policy in place yet",
+          "Peer discussions increasingly focus on responsible AI use in research",
+          "Supervisor encourages careful experimentation with new AI technologies"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will drive major advances in biomedical research and healthcare",
+          "Expects increased efficiency and productivity across scientific fields",
+          "Concerned about potential for bias and misapplication of AI in medicine",
+          "Sees AI as a catalyst for more interdisciplinary collaboration"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports ethical guidelines for AI use in clinical research",
+          "Worries about transparency and explainability of AI-driven decisions",
+          "Believes that human oversight is critical for safeguarding patient data",
+          "Advocates for clear documentation of AI tool limitations"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires AI tools that better integrate with hospital data systems",
+          "Would benefit from explainable AI that clarifies decision logic for analysis recommendations",
+          "Seeks AI assistants that automate documentation and reporting with contextual awareness",
+          "Wishes for AI-driven quality assurance to flag potential errors in analysis pipelines"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine coding and data cleaning to become mostly automated",
+          "Anticipates spending more time on experimental design and interpretation of results",
+          "Foresees greater collaboration with data scientists and AI specialists",
+          "Believes maintaining technical adaptability will be essential for career growth"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement structured training programs for AI tool adoption",
+          "Develop clear policies for ethical AI use in research and patient data handling",
+          "Pilot new AI solutions with small teams before broader rollout",
+          "Foster open discussions among staff about AI\u2019s benefits and limitations"
+        ]
+      }
+    ]
+  }
+]

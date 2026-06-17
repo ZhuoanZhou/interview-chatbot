@@ -1,0 +1,201 @@
+# Biographical Notes
+
+- Once hosted a surprise themed costume day to boost office morale, with everyone dressing as their favorite book characters.
+- Generally open to trying new software that improves workflow
+- Hosts an annual chili cook-off among office staff, with secret family recipes.
+- Anticipates a shift toward more strategic, people-focused responsibilities
+- Considers budget reconciliation and invoice entry to be tedious
+- Participates in an annual charity 5K run, often dressing in university colors to show team spirit.
+- Has experimented with calendar assistant tools with AI-driven scheduling features
+- Operates in a collaborative, academic environment
+- Has a habit of writing short, funny haikus about daily office life and posts them on the bulletin board.
+- Uses a vintage campus map as a mousepad, which sparks nostalgia and conversation among visitors.
+- Maintains a ‘wall of fame’ bulletin board highlighting amusing internal office memes and jokes.
+- Finds student outreach and program promotion rewarding
+- Foresees greater emphasis on managing and overseeing AI-driven processes
+- Prefers clear options to override or edit AI-generated outputs
+- Public, non-profit university
+- Many tasks require understanding of university policies and procedures
+- Has a standing desk that’s decorated with stickers from various university clubs and events.
+- More likely to invest time if the technology addresses a current pain point
+- Works in the Higher Education sector
+- Keeps a small whiteboard with daily inspirational quotes, changing them every Monday morning.
+- Has a habit of celebrating the little wins with a spontaneous dance break in the break room.
+- Has a collection of quirky bookmarks from various book fairs and library sales.
+- AI-generated scheduling suggestions occasionally overlooked key participants’ constraints
+- Manages office communications, including answering phones and responding to emails
+- Human oversight is essential for tasks involving discretion or sensitive information
+- Maintains and updates the office’s social media accounts
+- Oversees accounting for five offices and manages a grant budget
+- Exercises high autonomy in managing daily workflow and prioritizing tasks
+- Handling sensitive student or faculty issues relies on judgment and experience
+- Has a vintage typewriter on the shelf that they try to use once a week just for fun.
+- Uses Google Suite (Gmail, Calendar, Drive) for communication and scheduling
+- Willing to attend short workshops or online tutorials outside peak busy periods
+- Does not rely on AI for high-stakes decisions or policy interpretation
+- Monthly gathering and input of invoices for budget ledgers
+- Started a small succulent garden on the office windowsill that’s become a team favorite.
+- Makes independent decisions on routine office matters and event logistics
+- Has a daily ritual of brewing the perfect cup of tea at exactly 10:15 AM.
+- Social media management and outreach account for 10% of time
+- Uses LLMs weekly to draft responses to complex student or faculty emails
+- Budgeting and accounting take up about 30% of work hours
+- University offers periodic workshops on emerging technology, including AI tools
+- Collects postcards from every university town visited, tacking them onto a corkboard map.
+- Supports two Associate Vice Provosts (AVPs) in separate university offices under the Provost
+- Prefers systems that allow easy correction or customization of AI outputs
+- Has an ever-growing collection of novelty pens that mysteriously appear in meeting rooms.
+- Known to host themed snack days, like ‘Taco Tuesday’ or ‘Waffle Wednesday,’ to boost office morale.
+- Utilizes Google Drive for collaborative document management
+- Approaches new technology with cautious optimism
+- Routine email responses to frequently asked questions
+- Management support increases willingness to experiment with new software
+- Experienced with basic content management systems for website updates
+- AI is helpful for routine work but less suited for nuanced or confidential matters
+- Holds a Bachelor’s Degree from a four-year university
+- Sees value in AI-assisted workflows that allow for easy human intervention
+- Policies encourage human review and accountability for all AI-assisted tasks
+- Feels most productive and engaged when working on event planning and student outreach
+- Has learned to evaluate and edit AI-generated content for quality control
+- Brings their dog to the office once a month, much to the delight of coworkers.
+- Started a rotating ‘desk plant exchange’ program to brighten up everyone’s workspace.
+- Supervises two graduate student assistants
+- Has a tradition of writing a handwritten note to new staff members on their first day.
+- Title: Administrative Services Manager
+- Manual entry of budget data from disparate sources
+- Employs AI tools to generate initial content for social media posts and event promotions
+- Is known for their signature oatmeal raisin cookies, which are often requested at staff potlucks.
+- Calendar management and meeting scheduling
+- Desires AI tools that can automatically reconcile budget data from multiple sources
+- Keeps a well-worn jazz vinyl collection in their office and occasionally plays it during quiet work hours.
+- Always reviews AI-generated communications before sending
+- Has a rotating playlist of upbeat ‘get through the day’ tunes shared with the office team.
+- Maintains manual tracking for critical budget and compliance activities
+- Familiar with event management and room booking systems used in higher education
+- Coordinating schedules for large group meetings with many stakeholders
+- Sometimes hesitant if prior experiences with new tools have been frustrating
+- Enjoys planning and executing events for graduate students
+- Recommends clear policies on data privacy and oversight of AI systems
+- Organizes a secret Santa gift exchange with quirky but meaningful handmade presents.
+- Always reviews AI outputs for accuracy and appropriateness before use
+- Social media accounts are not fully integrated with internal calendars or communication tools
+- Open to integrating AI-driven workflows if they clearly improve efficiency
+- Uses ChatGPT and similar LLM-based tools for drafting communications and brainstorming ideas
+- Supports ethical guidelines for transparency and fairness in AI use
+- University employs over 1,000 faculty and staff
+- Concerned about data privacy when using AI tools with sensitive information
+- Reports directly to Associate Vice Provosts
+- Believes AI enhances efficiency but does not replace the need for interpersonal and organizational skills
+- Prefers AI to handle repetitive, time-consuming tasks (e.g., scheduling, draft writing)
+- Developed skills in integrating AI tools into existing workflows
+- Volunteers as a tour guide during university open days, sharing favorite campus spots with visitors.
+- Regularly updates a playlist of podcast episodes recommended by staff for a shared listening queue.
+- Works in mid-sized administrative offices (5-15 staff per office)
+- Recognizes that some repetitive, manual tasks may be automated in future
+- Brings a comfy blanket to the office for cold winter days, earning the nickname ‘office snugger.’
+- Occasional formatting issues when transferring documents between Google and Microsoft platforms
+- Expects increased automation of routine administrative tasks
+- Never misses the campus farmers market on Fridays and brings fresh produce to share.
+- Knows the best local food trucks’ schedules and organizes impromptu group lunches around campus.
+- Prefers gradual adoption with clear training and support
+- Appreciates that role is evolving to include oversight of AI-enabled processes
+- Willing to test new AI features, especially for scheduling and document drafting
+- Adoption is more likely if AVPs or colleagues endorse the tool
+- Understands basic AI concepts such as chatbots, language models, and automation
+- Owns a set of novelty coffee spoons collected from different campus events.
+- Optimistic that AI will free up time for more meaningful, student-focused work
+- Keeps track of the office coffee consumption with a humorous chart featuring cartoon caffeine monsters.
+- University’s internal accounting and HR portals
+- Consults AVPs for high-level or policy-related decisions
+- Views AI primarily as an assistant for routine or time-consuming tasks
+- Applies working knowledge of AI tools to streamline repetitive administrative tasks
+- Provides undergraduate, graduate, and research programs
+- Organizes an informal monthly trivia game featuring random facts about local history and the university.
+- Collects colorful reusable water bottles from various events and uses a different one each day.
+- Keeps a collection of quirky fridge magnets from local landmarks decorating the office mini-fridge.
+- Sees AI as complementing, not diminishing, core administrative competencies
+- Manages junior staff and student assistants
+- Adapts well to updates in familiar platforms like Google Suite and Microsoft Office
+- Has a collection of campus event buttons and pins pinned artistically to their office chair.
+- Has a habit of doodling tiny cartoons during meetings that get passed around and appreciated by colleagues.
+- Once organized a surprise appreciation breakfast for the custodial staff, complete with homemade pastries.
+- Finds conversational interfaces (like chatbots) more intuitive for drafting and brainstorming
+- Occasionally interacts with AI tools iteratively for more complex tasks
+- Productivity declines on repetitive or highly manual data entry tasks
+- Heavy workload can make it difficult to carve out time for training
+- Prefers learning by doing rather than extensive theoretical courses
+- Administrative support and communication (phones, emails) comprise 25% of daily activities
+- Trusts AI-generated drafts for routine emails or document templates
+- Role encompasses office administration, budget management, event planning, and supervision of staff
+- Occasionally responsible for advising colleagues on effective use of AI tools
+- Main offices serve both students and faculty across academic departments
+- Hosts a monthly ‘desk decor contest’ encouraging staff to personalize their workspaces creatively.
+- Occasionally relies on AI as an advisor for brainstorming or generating ideas
+- Believes AI can increase efficiency and streamline administrative work in higher education
+- Desk phone system for voice communication
+- Once learned to juggle as a party trick and occasionally practices in the break room.
+- Motivated to learn tools that save time on repetitive tasks
+- Spends approximately 25% of time on event planning and coordination
+- Difficulty finding mutually available times for large group meetings
+- Plans and coordinates events, including logistics, catering, and facilities
+- Has a tradition of wearing funky ties or scarves on Fridays to lighten the mood.
+- Has a secret stash of candy bars for emergency sugar boosts during long meetings.
+- Once learned basic magic tricks to entertain kids on university family day events.
+- Team leaders are supportive but prioritize training and risk mitigation
+- Has over 10 years of experience in administrative roles
+- Managing the budget and accounting for five distinct offices
+- Answering routine emails and phone inquiries
+- Keeps a rotating selection of quirky socks displayed in their desk drawer for a quick mood boost.
+- Has encountered terms like 'machine learning', 'LLM', and 'natural language processing' in professional development workshops
+- Keeps a small stuffed animal mascot named ‘Admin Andy’ on the desk for good luck during busy weeks.
+- Can quickly integrate new tools into daily routines after initial training
+- Takes an annual road trip to visit a new national park and collects a photo from each trip to display.
+- Proficient in Microsoft Office and Google Suite
+- Will make time for tech training if the tool is directly relevant to job duties
+- Time-consuming coordination between multiple offices for event logistics
+- Wishes for AI that can draft customized outreach messages based on previous communications
+- Coordinating logistics for small, recurring events
+- Skill level is highest in communications and office management tasks
+- Successfully used an LLM to quickly draft an event invitation that required only minor edits
+- University is cautiously exploring AI adoption with pilot projects and optional tools
+- Believes human oversight is essential to prevent unintended consequences
+- Focuses on administrative support within academic and research programs
+- Brings a different homemade jam flavor to the office every month to share with colleagues.
+- Learned that AI-generated content still needs careful review to ensure accuracy and tone
+- Remaining 10% is spent on ad hoc tasks from the AVPs
+- Keeps a collection of novelty stress balls, featuring everything from fruits to famous movie characters.
+- Occasionally leverages AI-powered grammar and style checkers (e.g., Grammarly)
+- Most AI learning has been self-directed or through informal peer support
+- Often reviews AI outputs in collaboration with colleagues before finalizing
+- Has a post-it note wall where team members leave anonymous compliments and jokes.
+- Overseeing accreditation documentation and compliance processes
+- Feels automation is threatening if it bypasses necessary checks or context-specific judgment
+- Acknowledges potential risks such as job displacement in highly repetitive roles
+- Would benefit from smarter, context-aware scheduling assistants
+- Considered a senior-level administrator
+- Utilizes AI-based calendar tools to propose meeting times across busy schedules
+- Social media platforms (e.g., Facebook, Twitter) for outreach
+- Relies on Microsoft Office (Word, Excel, PowerPoint) for documentation and reporting
+- Keeps a small zen garden on the desk for quick moments of calm during hectic days.
+- Completed additional on-the-job training in office management and university-specific systems
+- Prefers to use AI tools independently for drafting and initial research
+- Updating calendars and scheduling meetings for AVPs
+- Appreciates flexibility to switch between interaction styles as needed
+- Minimal concern about AI replacing the overall role due to need for human judgment
+- Handles budget tracking and minor expenditures independently
+- Regularly receives suggestions for new technology from peers in other offices
+- Uses command-based interfaces for structured tasks, such as scheduling
+- Suggests piloting new AI tools in low-risk areas before wider rollout
+- Employed at a public university
+- Advocates for ongoing training and support for staff adopting AI tools
+- Manual data entry required to reconcile accounting records from different office systems
+- Does not delegate final decision-making to AI; maintains human oversight
+- Has seen multiple changes in university administration and processes
+- Requires hands-on learning or demonstrations for unfamiliar systems
+- Once took a weekend pottery class and now has a shelf full of handmade mugs used around the office.
+- Maintains a ‘lost and found’ shelf for odd office items that mysteriously reappear with funny notes.
+- High automation is acceptable for routine, low-risk processes like calendar suggestions
+- Feels communication and critical thinking are more important than ever alongside AI tools
+- Peers occasionally share tips and best practices for using LLMs in administrative tasks
+- Has served in the current university for more than a decade
+- Major was in Business Administration, with coursework in management and finance

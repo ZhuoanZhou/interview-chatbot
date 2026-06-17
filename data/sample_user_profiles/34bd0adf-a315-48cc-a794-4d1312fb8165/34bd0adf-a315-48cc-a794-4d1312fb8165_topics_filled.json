@@ -1,0 +1,502 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Doctorate (PhD) in Mathematics from a leading research university.",
+          "Specialized in number theory and arithmetic geometry during doctoral studies.",
+          "Completed undergraduate studies in mathematics with honors.",
+          "Attended multiple advanced summer schools and workshops in algebraic geometry and related fields."
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Current job title: Research Mathematician.",
+          "Role focuses on formalization of advanced mathematical theories using theorem provers.",
+          "Leads efforts in auto-formalization and automated theorem proving.",
+          "Responsible for designing formalization frameworks and coding in Lean."
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the academic research and technology sector.",
+          "Operates at the intersection of pure mathematics and computer science.",
+          "Contributes to the growing field of AI-driven mathematical formalization."
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Affiliated with a small research group or institute, typically under 50 members.",
+          "Team structure is highly collaborative and project-oriented.",
+          "Environment emphasizes innovation, research autonomy, and interdisciplinary work."
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Operates in the mathematical research and AI-assisted proof technology segment.",
+          "Projects support both academic progress and development of automated math tools.",
+          "Focuses on open-source and academic contributions, not commercial software."
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 6\u201310 years of experience in advanced mathematics roles post-PhD.",
+          "Transitioned to formalization and AI-related mathematics work 3\u20134 years ago.",
+          "Spent initial years after PhD focused on pure research in number theory."
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Mid-career researcher with significant domain expertise.",
+          "Often takes lead or principal responsibilities on formalization projects.",
+          "Supervises or mentors junior researchers and PhD students in formal methods."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Designs and codes formalizations of mathematical theorems using Lean.",
+          "Decomposes large mathematical projects into smaller formalization goals.",
+          "Prepares and curates datasets for LLM training in auto-formalization.",
+          "Develops and maintains auto-theorem proving pipelines.",
+          "Regularly searches for relevant theorems and proof strategies within Lean\u2019s libraries."
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 60% of time on Lean coding, including formalization and proof writing.",
+          "Allocates 25% of work hours to LLM training, data preparation, and pipeline development.",
+          "Devotes around 10% of time to literature review and updating mathematical proofs.",
+          "The remaining 5% is spent on team meetings, documentation, and mentoring."
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Works with a high degree of autonomy, independently setting research directions.",
+          "Makes key decisions regarding project decomposition and proof strategies.",
+          "Has authority to select tools, frameworks, and approaches for formalization.",
+          "Consults with peers for collaborative input but leads own subprojects."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Translating mathematical definitions into Lean syntax is straightforward.",
+          "Identifying and formalizing basic lemmas from existing literature feels routine.",
+          "Setting up the structure for new formalization projects comes naturally.",
+          "Using LeanSearch to find known theorems is an efficient and familiar process."
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Filling in detailed Lean proofs for complex theorems is often challenging.",
+          "Generalizing and abstracting definitions for broader applicability requires deep insight.",
+          "Designing new formalization frameworks from scratch can be intellectually demanding.",
+          "Handling edge cases and gaps in existing mathematical literature is complex."
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Searching theorems and proof patterns in large Lean libraries is repetitive.",
+          "Preparing training data for LLMs involves routine data cleaning and formatting.",
+          "Filling in boilerplate code for standard mathematical structures is time-consuming.",
+          "Validating and running auto-formalization pipelines could be further automated."
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Designing innovative formalization frameworks is highly engaging.",
+          "Solving previously unformalized mathematical problems is rewarding.",
+          "Rewriting or debugging minor Lean code issues can feel tedious.",
+          "Manual data preparation for LLM training is less enjoyable."
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Difficulty in finding the most relevant theorems within large libraries slows progress.",
+          "Existing AI tools sometimes generate incomplete or incorrect formal proofs.",
+          "Interoperability between Lean and data processing tools is limited.",
+          "Repetitive manual coding tasks consume significant time."
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Enjoyment is highest when tackling novel or intellectually challenging problems.",
+          "Skill level boosts productivity, particularly in Lean coding and mathematical abstraction.",
+          "Productivity drops during repetitive or low-skill tasks such as manual data preparation.",
+          "A direct link is observed between deep engagement and both learning and output quality."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Enthusiastic about experimenting with new theorem provers and AI tools.",
+          "Views technological advancement as critical to advancing mathematical research.",
+          "Actively seeks out updates and new features in Lean and related ecosystems."
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new coding environments, particularly in mathematics-focused tools.",
+          "Comfortable integrating new Python-based ML frameworks into workflow.",
+          "Able to self-learn and troubleshoot novel software with minimal guidance."
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Regularly dedicates time to mastering updates in Lean and LLM workflows.",
+          "Participates in online workshops or webinars related to theorem proving and AI.",
+          "Prefers self-paced learning backed by documentation and real project application."
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential for efficiency gains and research breakthroughs.",
+          "Main barrier is limited time due to existing project commitments.",
+          "Relevance to core research or workflow is a key factor in prioritizing new tech adoption."
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peer recommendations significantly influence tool experimentation.",
+          "Collaborative research projects often drive adoption of novel frameworks.",
+          "Management supports independent tool exploration and upskilling."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Lean interactive theorem prover as the main formalization tool.",
+          "Utilizes LeanSearch to locate relevant mathematical theorems rapidly.",
+          "Employs Python for developing and maintaining LLM training pipelines.",
+          "Leverages Deepseek for code generation and debugging."
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on LaTeX for drafting mathematical documents and papers.",
+          "Uses Git for version control across code and formalization projects.",
+          "Employs VS Code as the primary code editor, especially with Lean extensions."
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Highly proficient with Lean and its associated ecosystem.",
+          "Comfortable with Python for both data processing and machine learning tasks.",
+          "Familiar with industry-standard version control workflows (Git/GitHub)."
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces friction integrating Lean outputs with Python-based ML pipelines.",
+          "Manual data transfer is sometimes required between formalization and AI systems.",
+          "Limited cross-compatibility between Lean and mainstream mathematical software."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands core LLM concepts such as tokenization and prompt engineering.",
+          "Comfortable with supervised learning, data preprocessing, and model evaluation.",
+          "Familiar with the basics of transformer architectures and their applications."
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Regularly uses Deepseek for code generation and debugging.",
+          "Integrates LLM-based tools for auto-theorem proving within the workflow.",
+          "Explores open-source AI models compatible with Python for experimentation."
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies LLMs daily to automate parts of the formalization process.",
+          "Uses AI tools to search for relevant theorems and generate initial proof outlines.",
+          "Deploys AI for code completion and debugging during Lean and Python development.",
+          "Employs AI models for data augmentation and cleaning in training pipelines."
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used Deepseek to auto-complete Lean code, saving hours on repetitive tasks.",
+          "Observed that LLM-generated proofs sometimes miss subtle mathematical nuances, requiring manual review.",
+          "AI-assisted theorem search has significantly accelerated project timelines.",
+          "Encountered limitations in LLMs when handling advanced, less-documented mathematical concepts."
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Relies on peer collaboration and self-study for learning new AI tools.",
+          "Occasional internal workshops or seminars on AI in mathematics are available.",
+          "Most upskilling is self-driven, using open-source resources and documentation."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI, especially for complex proofs.",
+          "Uses independent AI suggestions for routine tasks and code generation.",
+          "Combines autonomous and interactive modes depending on problem complexity."
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Treats AI tools primarily as intelligent assistants for coding and theorem search.",
+          "Occasionally leverages AI as a co-worker during intensive formalization projects.",
+          "Values AI's role in augmenting, rather than replacing, human expertise."
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly receptive to integrating new AI workflows that demonstrably improve efficiency.",
+          "Willing to pilot experimental AI tools in live research projects.",
+          "Evaluates new AI-driven processes based on accuracy, transparency, and ease of use."
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers command-based interfaces for precise, reproducible outputs in coding tasks.",
+          "Utilizes conversational AI interfaces for brainstorming or exploratory problem-solving.",
+          "Finds hybrid interfaces (e.g., chat with command options) most versatile."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Mathematical formalization heavily depends on deep, specialized domain expertise.",
+          "Tacit knowledge from years of research is critical for interpreting ambiguous statements.",
+          "Many proof steps require intuition not easily captured by current AI models."
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI-generated outputs for routine code and theorem search, but always reviews critical steps.",
+          "Skeptical of AI-generated proofs for novel or high-stakes theorems without manual verification.",
+          "Regularly checks LLM outputs against established mathematical literature."
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive or boilerplate tasks, freeing time for creative problem-solving.",
+          "Sees human oversight as essential for high-level abstraction and quality control.",
+          "Envisions a workflow where AI accelerates groundwork and humans focus on innovation."
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for well-defined, low-risk coding and data preparation tasks.",
+          "Finds automation threatening if it compromises proof correctness or research quality.",
+          "Supports automation so long as manual override and review remain possible."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Views AI as enhancing the importance of abstraction and domain expertise.",
+          "Routine technical skills (e.g., boilerplate coding) may diminish in value.",
+          "Problem decomposition and creative reasoning remain essential and are less impacted."
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing expertise in LLM training and prompt engineering.",
+          "Gaining proficiency in data curation and pipeline design for auto-formalization.",
+          "Expanding responsibilities to include AI evaluation and system improvement."
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Low concern about AI replacing core research and creative tasks.",
+          "Recognizes some risk to routine coding and data management roles.",
+          "Believes domain expertise and interpretation will remain human-centric for the foreseeable future."
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always manually reviews AI-generated formal proofs before acceptance.",
+          "Implements checkpoints in auto-formalization pipelines for human verification.",
+          "Prefers tools that allow transparent auditing and rollback of AI decisions."
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Team policies encourage experimentation with new AI tools but require human oversight.",
+          "There is growing emphasis on training and skills development for AI integration.",
+          "Formal review processes for AI outputs are becoming more standardized."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will significantly accelerate mathematical research and discovery.",
+          "Sees potential for AI to democratize access to advanced mathematical tools.",
+          "Cautious about over-reliance on opaque AI systems in critical domains."
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Advocates for transparency and reproducibility in AI-driven proofs.",
+          "Supports ethical guidelines to prevent misuse of automated theorem proving.",
+          "Wary of AI errors leading to propagation of incorrect mathematical results."
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires an AI capable of auto-formalizing human-written proofs end-to-end.",
+          "Wishes for smarter AI theorem search and suggestion systems within Lean.",
+          "Would benefit from AI that can debug and explain formalization failures interactively.",
+          "Seeks integration of AI-assisted design pattern recognition for mathematical frameworks."
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects a greater focus on high-level abstraction and creative proof design.",
+          "Foresees routine formalization tasks becoming largely automated.",
+          "Anticipates new hybrid roles blending mathematics, AI, and software engineering.",
+          "Believes collaboration between mathematicians and AI/ML experts will intensify."
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Invest in developing and maintaining custom AI tools for formal mathematics.",
+          "Establish robust review and verification protocols for AI-generated results.",
+          "Provide structured training and documentation for AI-driven workflows.",
+          "Foster interdisciplinary collaboration between mathematicians, AI researchers, and engineers."
+        ]
+      }
+    ]
+  }
+]

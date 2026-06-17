@@ -1,0 +1,243 @@
+# Biographical Notes
+
+- Maintains a “green” travel journal where they log low-impact trips and eco-friendly accommodations.
+- Accesses climate databases and government portals for data gathering
+- Wears mismatched socks as a daily reminder to embrace creativity and imperfection.
+- Integrating complex climate model outputs into policy scenarios can be demanding
+- Open to adopting new AI-driven workflows, especially for automating repetitive tasks
+- Communication and stakeholder management remain essential despite AI advances
+- Owns a vintage typewriter which they use to draft personal letters on weekends.
+- Occasionally faces challenges transferring data between GIS and Excel
+- Keeps an emergency stash of dark chocolate for particularly tough negotiation days.
+- Team has adopted guidelines for responsible AI use in policy work
+- Management encourages adoption of technologies that improve efficiency
+- Organizes an annual potluck lunch where everyone brings a dish inspired by their cultural background.
+- Understands basic AI concepts such as natural language processing and machine learning
+- Enjoyment increases when tasks involve creative problem-solving or impact
+- Motivated by direct relevance of new tech to current projects
+- Worried about potential for AI to reinforce existing policy biases
+- Considers AI a co-worker for routine data tasks, advisor for drafting support
+- Encountered LLM hallucinations when generating technical summaries; learned to verify outputs manually
+- Keeps a jar of labeled seeds from wildflowers they hope to plant in urban spaces.
+- Progressed from entry-level to intermediate responsibility during tenure
+- Collaborates with scientists, government officials, and NGOs
+- Has a quirky habit of rearranging their desk trinkets according to the phases of the moon.
+- Has a secret stash of novelty tea bags featuring flora and fauna from different continents.
+- Least enjoys drafting lengthy technical appendices for reports
+- Completed core coursework in climatology, environmental policy, and statistics
+- Hopes for AI-driven stakeholder sentiment analysis capabilities
+- Seeks evidence of efficiency gains before fully transitioning workflows
+- Participates in team-led workshops on new technologies when offered
+- Feels threatened if AI reduces opportunities for analytical or strategic work
+- Believes AI can accelerate progress in climate policy and research
+- Focuses on climate change mitigation, sustainability, and renewable energy policy
+- Public engagement and education: 10%
+- Has a secret goal to visit every national park in their country by bike or public transit.
+- Believes core policy analysis and stakeholder engagement are less likely to be automated
+- Work environment is collaborative and multidisciplinary
+- Encouraged to participate in external webinars on AI in policy analysis
+- Has a small terrarium on their desk that changes its layout seasonally.
+- Loves experimenting with plant-based cooking and often brings homemade vegan treats to share.
+- Manual conversion required for some climate model outputs into usable formats
+- Routine data handling skills are becoming less critical due to automation
+- Is known for an impressive collection of quirky eco-friendly stationery and recycled paper notebooks.
+- Accessing the latest datasets from multiple sources can be cumbersome
+- Microsoft PowerPoint and Canva are essential for creating presentations
+- Automation is welcome for technical tasks, but interpretation remains human-led
+- Access to a shared knowledge base with AI tool tips and troubleshooting guides
+- Uses command-based interfaces when executing specific data operations
+- Routine literature reviews for background research are data-heavy
+- Iteratively refines AI-generated outputs through multiple feedback prompts
+- Reluctant to learn tools that have poor documentation or limited support
+- Attended workshops on climate modeling and data analysis during university
+- Relies on AI for first drafts, then applies domain expertise for refinement
+- Engages with both public sector (government agencies) and NGOs
+- Views AI as a tool for augmentation rather than replacement
+- Has a habit of naming their spreadsheets after famous explorers and naturalists.
+- Team protocols require human sign-off on all critical policy documents
+- Occasional high workload can delay adoption of non-essential tools
+- Engages most with interpreting data to uncover new climate trends
+- Familiar with climate modeling tools like MAGICC, GCAM, and EN-ROADS
+- Limited integration between project management tools and document storage
+- Employs Trello and Microsoft Teams for project management and collaboration
+- ArcGIS and QGIS are used for spatial data analysis and mapping
+- Desires more interpretable AI systems for policy scenario modeling
+- Productivity peaks when working on tasks that align with analytical strengths
+- Willing to dedicate several hours per month to learning new tools
+- Writes policy briefs and collaborates with scientists and policymakers
+- Relies on Microsoft Word and Google Docs for writing reports and policy briefs
+- Collecting and cleaning large datasets for emissions or climate indicators is repetitive
+- Collects handmade pottery mugs from markets visited during international conferences.
+- Engages AI-driven scenario analysis in policy modeling several times per month
+- AI assists with technical tasks but cannot fully replace nuanced policy analysis
+- Automated data validation and formatting could save significant time
+- Considers ongoing tech learning a core part of professional growth
+- Independently manages smaller research projects within defined guidelines
+- Automating judgment-based tasks or stakeholder communication feels risky
+- Participates in an annual local trivia night themed around geography and natural history.
+- AI enhances the value of analytical and critical thinking skills
+- Views technology as essential for staying effective in climate policy work
+- Analyzes climate-related data, scientific reports, and environmental models
+- Peers share best practices and prompt templates for LLMs
+- Wants seamless integration between AI, GIS, and spreadsheet tools
+- Frequently self-trains using online tutorials and documentation
+- Generating standard tables and graphs for regular reports is suitable for automation
+- Employs LLMs for literature review and initial policy draft generation
+- Decorated their office wall with a hand-drawn mural of the water cycle.
+- Job title: Climate Change Policy Analyst
+- Has a collection of enamel pins depicting endangered animals from around the world.
+- Skill development is highest when tackling new analytical or policy challenges
+- Foresees growing need for AI literacy and oversight skills
+- Schedules self-directed learning during less busy work periods
+- Establish clear guidelines for ethical and responsible AI use
+- Employed in a mid-sized organization with approximately 100-300 staff
+- Exercises moderate autonomy on data analysis and drafting policy briefs
+- Views AI primarily as a smart assistant to augment personal productivity
+- Confidence in AI increases when outputs are transparent and explainable
+- Keeps a small zen garden on their desk to help focus during complex policy writing.
+- Drafting initial policy outlines based on research is comfortable
+- Can explain the difference between traditional statistical methods and AI-driven analytics
+- Report writing and documentation: 20%
+- Finds repetitive data entry and formatting tasks tedious
+- Has a ritual of listening to ocean wave sounds while brainstorming new ideas.
+- Data cleaning and organization using Excel or Sheets is straightforward
+- Regularly interfaces with colleagues in research, policy, and communications
+- Drafts and reviews policy recommendations for reducing greenhouse gas emissions
+- Organization operates in the policy research and advocacy segment
+- Serves government agencies, NGOs, and international organizations
+- Stakeholder engagement and negotiation depend on human judgment and contextual awareness
+- Advises on sustainable practices and climate adaptation strategies
+- Advocates for integrating AI into standard policy analysis processes
+- Practices calligraphy as a way to unwind after long days of policy drafting.
+- High automation is acceptable for data cleaning, aggregation, and visualization
+- Develops, recommends, and assesses policies aimed at mitigating climate change
+- Anticipates more collaborative roles between policy analysts and AI systems
+- Proficient with GIS tools widely used in environmental analysis
+- Creating charts and simple visualizations for presentations is routine
+- Has a cactus named Spike who has survived three office moves and countless deadlines.
+- Technical skills in AI prompt engineering and validation are increasingly important
+- Company encourages experimentation with AI but requires documentation of outputs
+- Adapts quickly to new software given prior experience with diverse tools
+- Has 3-5 years of experience as a Climate Change Policy Analyst
+- Policy recommendations often require deep knowledge of climate legislation
+- Skeptical of AI-generated policy recommendations without human validation
+- Utilizes standard email and calendar tools for communication and scheduling
+- Enjoys collaborative meetings that lead to actionable policy solutions
+- Trusts AI for routine data processing and drafting, but always reviews outputs
+- Can integrate new methods into existing workflows with minimal support
+- Held current position since shortly after completing Bachelor’s Degree
+- Peer recommendations increase willingness to try new platforms
+- Repetitive, low-skill tasks decrease both motivation and efficiency
+- Celebrates “Earth Hour” by turning off all electronics and reading classic sci-fi novels by candlelight.
+- Lack of integration between GIS and spreadsheet tools slows workflows
+- Finds conversational AI more intuitive for policy-related queries
+- Synthesizing conflicting stakeholder perspectives into actionable policy is complex
+- Invest in continuous training on AI best practices for all staff
+- Occupies an intermediate/early-career professional level
+- Manual review is essential for critical policy documents and stakeholder communications
+- Applies LLMs daily for writing, summarization, and background research
+- Confident in troubleshooting minor technical issues independently
+- Once organized an office-wide plant swap to promote greener workspaces.
+- Formatting reports for different stakeholders often requires redundant work
+- Prefers conversational interfaces for brainstorming and drafting tasks
+- AI sometimes overlooked nuanced policy context, requiring close human oversight
+- Prefers concise, practical training sessions over lengthy theory-based courses
+- Accepts automation where tasks are low-risk and well-defined
+- Bakes a different themed cake for every team member’s birthday, often inspired by their hometowns.
+- Takes the stairs two at a time as a mini workout between meetings.
+- Volunteers once a month at a local community garden teaching kids about native plants.
+- Increased emphasis on training and upskilling staff in AI technologies
+- Always starts the workday with a cup of chamomile tea brewed from herbs grown on their windowsill.
+- Regularly uses cloud-based document management and collaboration platforms
+- Has a minimalist desk setup featuring only sustainably sourced furniture and accessories.
+- Is an avid fan of documentary films, with a curated collection ranging from wildlife to space exploration.
+- Has a rotating mug collection featuring art from indigenous communities affected by climate change.
+- Keeps an old globe on their desk marked with pins where they’d love to travel next.
+- Uses AI tools weekly for automating repetitive data cleaning tasks
+- Has an ever-growing wall of postcards from field visits and international climate conferences.
+- Often leads small projects and contributes to larger policy initiatives
+- Successfully used GPT-based tools to reduce report drafting time by 30%
+- Expects routine tasks to become highly automated, freeing time for strategic analysis
+- Participates in local poetry slams under a pseudonym that references the environment.
+- Pursued online certification in GIS mapping post-graduation
+- Sees potential for AI to democratize access to environmental data
+- Periodic reviews assess effectiveness and risks of new AI tools
+- Organization offers periodic internal workshops on AI tool use
+- Responsible for researching and evaluating climate data to inform policy decisions
+- Proactively seeks out new tools that can improve workflow or analysis
+- Has experimented with EN-ROADS' scenario simulation features with AI components
+- Believes ethical guidelines should evolve alongside AI capabilities
+- Managing ethical and bias considerations in AI-driven analysis is an emerging skill
+- AI is used as a support tool, not as a final decision-maker
+- Automated data parsing with AI reduced manual errors in emissions data
+- Seeks AI that can reliably synthesize multi-source climate data
+- Willing to experiment with AI-based scenario modeling and analytics
+- Has a habit of doodling tiny leaf patterns on every meeting note they take.
+- Started a tradition of bringing homemade granola bars to early morning team meetings.
+- Reports to a senior policy manager or director
+- Sometimes treats AI as a brainstorming partner for idea generation
+- Hybrid work setting with both remote and in-person meetings
+- Navigating ambiguous or incomplete environmental data poses challenges
+- Interpreting climate models involves domain-specific expertise not fully captured by AI
+- Practices a five-minute daily meditation routine to reset after stressful policy debates.
+- Manual data cleaning is time-consuming and prone to human error
+- Knits scarves during conference calls and gifts them to colleagues each winter.
+- Appreciates the flexibility of switching between communication styles as needed
+- Contributes to policy recommendations but final decisions made by senior staff
+- Prefers AI to handle repetitive data and initial drafts, with humans providing oversight
+- Collaborative projects sometimes necessitate learning new shared platforms
+- Is currently learning to juggle as a fun way to improve coordination and relieve stress.
+- Evaluating the full policy impact across sectors requires advanced analysis
+- Familiar with supervised learning, classification, and regression relevant to climate data
+- AI tools often include version control or rollback options for safety
+- Frequently interacts with scientific organizations and think tanks
+- Pilot new AI tools in controlled settings before full rollout
+- Meetings and collaboration: 15%
+- Prefers step-by-step collaboration with AI tools for complex tasks
+- Relies on AI to generate ideas for stakeholder communication materials
+- Some concern about AI replacing repetitive data analysis tasks
+- Maintains a rotating playlist of 80s synth-pop to boost focus during long policy draft sessions.
+- Regularly reads industry articles and documentation about AI applications in policy analysis
+- Open to experimenting with new platforms, especially if peer-recommended
+- Keeps a small library of vintage climate fiction novels—sometimes lending them out to team members.
+- Advocates for human oversight in all critical decision points
+- Works in the environmental policy and sustainability sector
+- Peers often share tips on effective tools, influencing adoption choices
+- Believes human judgment will remain critical for complex policy decisions
+- Holds a Bachelor’s Degree in Environmental Science
+- Has a collection of quirky socks shaped like different endangered species.
+- Developing effective prompts and validating AI outputs is a growing responsibility
+- Mentors interns or junior analysts on occasion
+- Anticipates continued growth of AI in sustainability sectors
+- Utilizes AI-powered data cleaning tools in Excel add-ins
+- Industry focus on climate change mitigation and adaptation
+- Summarizing research findings into concise briefs comes naturally
+- Manual review and editing of AI-generated outputs is standard practice
+- Always keeps a small notebook with funny quotes overheard during team meetings.
+- Formatting inconsistencies occur when moving documents between Word and Google Docs
+- Watches industry trends but feels current role remains secure
+- Transparency in AI process enables effective oversight and corrections
+- Interpreting and explaining AI-generated insights to non-technical audiences is vital
+- Runs a weekend hobby podcast interviewing local environmental activists and artists.
+- Once took a sabbatical to volunteer on a sustainable farm, and brings back stories and recipes.
+- Uses Microsoft Excel and Google Sheets daily for data analysis and metrics tracking
+- Combines initial AI input with manual editing for best results
+- Provides data-driven policy recommendations and analysis
+- Encourage cross-team knowledge sharing on effective AI applications
+- Uses OpenAI's GPT models (via ChatGPT or API) for drafting and summarizing reports
+- Research and data analysis: 30% of work hours
+- Policy development and evaluation: 25%
+- Uses a retro typewriter font for all personal emails to add a vintage flair.
+- Input valued in team discussions and stakeholder meetings
+- Sees greatest benefit in a 70/30 split: AI for automation, human for expertise
+- Owns a vintage map of defunct railroads and uses it as inspiration for weekend hikes.
+- Supports transparency and explainability in workplace AI tools
+- Comfortable with R and Python for statistical modeling and data manipulation
+- Acknowledges risks of bias or misuse in AI-driven decision-making
+- Learning to integrate AI workflows into policy evaluation processes
+- Is a self-taught amateur photographer specializing in urban wildlife snapshots.
+- Team culture values experimentation with innovative solutions
+- Prepares technical reports and policy briefs for decision-makers
+- Uses independent mode for straightforward drafting or summarization
+- Collects quirky reusable water bottles, each with a story from past environmental events.
+- Has a habit of leaving encouraging sticky notes on colleagues' desks on Mondays.

@@ -1,0 +1,596 @@
+import os
+import json
+import dotenv
+
+from content.session_agenda.interview_question import InterviewQuestion
+
+dotenv.load_dotenv(override=True)
+
+LOGS_DIR = os.getenv("LOGS_DIR")
+
+class SessionAgenda:
+    
+    def __init__(self, user_id, session_id, data: dict=None):
+        self.user_id = user_id
+        self.session_id = int(session_id)
+        self.user_portrait: dict = data.get("user_portrait", {})
+        self.last_meeting_summary: str = data.get("last_meeting_summary", "")
+        
+        # Set up topics and notes from data
+        self.topics: dict[str, list[InterviewQuestion]] = {}
+        self.interview_plan = data.get("interview_plan", {})
+        topics = data.get("topics", {})
+        if topics:
+            def load_question(item):
+                question = InterviewQuestion(
+                    item["topic"], item["question_id"], item["question"])
+                question.notes = item.get("notes", [])
+                for sub_q in item.get("sub_questions", []):
+                    question.sub_questions.append(load_question(sub_q))
+                return question
+            for topic, question_items in topics.items():
+                self.topics[topic] = [load_question(item) for item in question_items]
+        else:
+            raw_topics = data.get("question_strings", {})
+            question_id = 1
+            for topic, questions in raw_topics.items():
+                for question in questions:
+                    self.add_interview_question(
+                        topic, question, question_id=str(question_id))
+                    question_id += 1
+        self.additional_notes: list[str] = data.get("additional_notes", [])
+    
+    @classmethod
+    def load_from_file(cls, file_path):
+        """Loads a SessionAgenda from a JSON file."""
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            
+        # Extract the core fields from the file
+        user_id = data.pop('user_id', '')
+        session_id = data.pop('session_id', '')
+        
+        # Create new SessionAgenda instance
+        return cls(user_id, session_id, data)
+    
+    @classmethod
+    def initialize_session_agenda(cls, user_id, interview_plan_path, initial_user_portrait_path):
+        """Creates a new session agenda for the first session."""
+        session_id = 0
+        # Initialize user portrait
+        user_portrait = {}
+        if initial_user_portrait_path and os.path.exists(initial_user_portrait_path):
+            with open(initial_user_portrait_path, 'r', encoding='utf-8') as f:
+                user_portrait = json.load(f)
+        
+        # Initialize interview plan
+        if interview_plan_path and os.path.exists(interview_plan_path):
+            with open(interview_plan_path, 'r', encoding='utf-8') as f:
+                interview_plan = json.load(f)
+            
+        data = {
+            "user_portrait": user_portrait,
+            "last_meeting_summary": ("This is the first session with the user. "
+                                      "We will start by getting to know them and "
+                                      "understanding their background."),
+            "question_strings": {
+                "Introduction & Background": [
+                    "Educational background or training",
+                    "Specific job title and role description",
+                    "Current industry or sector (e.g., tech, finance, manufacturing)",
+                    "Company size and environment",
+                    "Type of business or market segment",
+                    "Duration/years of experience in current role",
+                    "Professional seniority or career level"
+                ],
+
+                "Core Responsibilities and Decision-Making": [
+                    "Primary job responsibilities and regular daily tasks",
+                    "Approximate proportion of time spent on core activities",
+                    "Level of autonomy and scope of decision-making in the role"
+                ],
+
+                "Task Proficiency, Challenge, and Engagement": [
+                    "Tasks that feel easiest or most natural to perform",
+                    "Tasks perceived as most challenging or complex",
+                    "Tasks that are repetitive, data-heavy, or suitable for automation",
+                    "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+                    "Common pain points or inefficiencies in completing tasks",
+                    "How enjoyment, skill level, and productivity relate to one another"
+                ],
+
+                "Tech Learning Comfort": [
+                    "Attitude towards learning new technologies and tools",
+                    "Perceived adaptability to new software/methods",
+                    "Willingness to invest time in tech training",
+                    "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+                    "Influence of peers or management on willingness to adopt new tools"
+                ],
+
+                "Primary Tools and Technologies Used in Work": [
+                    "Specific software, platforms, or systems used daily",
+                    "Essential non-AI tools for workflow",
+                    "Familiarity with industry-standard technologies",
+                    "Interoperability or integration issues between tools"
+                ],
+
+                "AI Experience and Tool Adoption": [
+                    "Familiarity with fundamental AI/ML concepts and terminology",
+                    "Names of specific AI software/platforms currently used in work",
+                    "Frequency and purpose of AI tool application (specific use cases)",
+                    "Specific examples of AI success and failure experiences (lessons learned)",
+                    "Availability of organizational training or peer resources for AI use"
+                ],
+
+                "AI Interaction Style and Workflow Change": [
+                    "Preferred mode of interaction: independent versus step-by-step collaboration",
+                    "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+                    "Willingness and openness to adopting new AI-driven workflows",
+                    "Preference for conversational vs. command-based interfaces (communication dynamics)"
+                ],
+
+                "Trust and Control Over AI": [
+                    "Extent to which tasks rely on specialized, tacit domain knowledge",
+                    "Level of trust in AI outputs for work tasks and critical decisions",
+                    "Ideal balance of human effort and AI automation for specific tasks",
+                    "Conditions under which high automation is acceptable or threatening"
+                ],
+
+                "AI Impact on Skills and Job Security": [
+                    "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+                    "Emerging skills or new areas of responsibility created by AI",
+                    "Level of concern about AI replacing specific tasks or the overall role",
+                    "Availability of override mechanisms or manual checks for AI-driven processes",
+                    "Perceived change in team or company policies regarding AI adoption"
+                ],
+
+                "AI Attitudes and Future Outlook": [
+                    "General outlook on AI's broader societal and industry impact",
+                    "Personal beliefs about the ethics and risks of AI in the workplace",
+                    "Missing AI tools or features that would be most beneficial in the future",
+                    "Predicted evolution of their job in the next 5-10 years with AI integration",
+                    "Concrete steps they would want their organization to take regarding AI strategy"
+                ]
+            },
+            "interview_plan": interview_plan
+        }
+        session_agenda = cls(user_id, session_id, data)
+        return session_agenda
+    
+    @classmethod
+    def get_last_session_agenda(cls, user_id, interview_plan_path, initial_user_portrait_path):
+        """Retrieves the last session agenda for a user."""
+        base_path = os.path.join(LOGS_DIR, user_id, "execution_logs")
+        if not os.path.exists(base_path):
+            os.makedirs(base_path)
+            
+        # Look for session directories instead of files
+        session_dirs = [d for d in os.listdir(base_path) \
+                       if d.startswith('session_') and \
+                       os.path.isdir(os.path.join(base_path, d))]
+        if not session_dirs:
+            return cls.initialize_session_agenda(user_id, interview_plan_path, initial_user_portrait_path)
+        
+        # Sort by session number
+        session_dirs.sort(key=lambda x: int(x.split('_')[1]), reverse=True)
+        latest_dir = os.path.join(base_path, session_dirs[0])
+        latest_file = os.path.join(latest_dir, "session_agenda.json")
+        
+        if os.path.exists(latest_file):
+            return cls.load_from_file(latest_file)
+        return cls.initialize_session_agenda(user_id, interview_plan_path, initial_user_portrait_path)
+    
+    def add_interview_question(self, topic: str, question: str, question_id: str):
+        """Adds a new interview question to the session agenda.
+        
+        Args:
+            topic: The topic category for the question (e.g. "personal", "professional")
+            question: The actual question text
+            question_id: Required ID for the question that determines its position:
+                - If no period (e.g. "1", "2"): top-level question
+                - If has period (e.g. "1.1", "2.3"): sub-question under parent
+                The parent ID is extracted from the question_id (e.g. "1" from "1.1")
+        
+        Example:
+            add_interview_question("family", "Tell me about your parents", "1")
+            add_interview_question("mother_relationship", "What about your mother?", "1.2")
+        """
+        if not question_id:
+            raise ValueError("question_id is required")
+        
+        if '.' not in question_id:
+            # Top-level question
+            if topic not in self.topics:
+                self.topics[topic] = []
+            new_question = InterviewQuestion(topic, question_id, question)
+            self.topics[topic].append(new_question)
+        else:
+            # Sub-question
+            parent_id = question_id.rsplit('.', 1)[0]  # e.g., "1.2.3" -> "1.2"
+            parent = self.get_question(parent_id)
+            
+            if not parent:
+                raise ValueError(f"Parent question with id {parent_id} not found")
+            
+            new_question = InterviewQuestion(topic, question_id, question)
+            parent.sub_questions.append(new_question)
+    
+    def delete_interview_question(self, question_id: str):
+        """Deletes a question by its ID.
+        
+        If the question has sub-questions:
+        - Clears the question text and notes
+        - Keeps the question ID and sub-questions
+        
+        If the question has no sub-questions:
+        - Removes the question completely
+        
+        Args:
+            question_id: The ID of the question to delete 
+            (e.g. "1", "1.1", "2.3")
+            
+        Raises:
+            ValueError: If question_id or parent is not found
+        """
+        # If it's a sub-question, verify parent exists first
+        if '.' in question_id:
+            parent_id = question_id.rsplit('.', 1)[0]
+            parent = self.get_question(parent_id)
+            if not parent:
+                raise ValueError(f"Parent question with id "
+                                 f"{parent_id} not found")
+        
+        # Then check if the question exists
+        question = self.get_question(question_id)
+        if not question:
+            raise ValueError(f"Question with id {question_id} not found")
+        
+        # If it's a top-level question
+        if '.' not in question_id:
+            topic = None
+            # Find the topic containing this question
+            for t, questions in self.topics.items():
+                if any(q.question_id == question_id for q in questions):
+                    topic = t
+                    break
+                
+            if not topic:
+                raise ValueError(f"Topic for question {question_id} not found")
+            
+            # If it has sub-questions, clear content but keep structure
+            if question.sub_questions:
+                question.question = ""
+                question.notes = []
+            else:
+                # No sub-questions, remove completely
+                self.topics[topic] = [
+                    q for q in self.topics[topic] if q.question_id != question_id
+                ]
+            
+        # If it's a sub-question
+        else:
+            # If it has sub-questions, clear content but keep structure
+            if question.sub_questions:
+                question.question = ""
+                question.notes = []
+            else:
+                # No sub-questions, remove completely
+                def remove_question(questions, target_id):
+                    return [q for q in questions if q.question_id != target_id]
+                
+                parent.sub_questions = remove_question(parent.sub_questions, question_id)
+        
+    def add_note(self, question_id: str="", note: str=""):
+        """Adds a note to a question or the additional notes list."""
+        if note:
+            if question_id:
+                question = self.get_question(question_id)
+                if question:
+                    question.notes.append(note)
+                else:
+                    print(f"Question with id {question_id} not found")
+            else:
+                self.additional_notes.append(note)
+        
+    def get_question(self, question_id: str):
+        """Retrieves an InterviewQuestion object by its ID."""
+        topic = None
+        # Find the topic that contains this question
+        for t, questions in self.topics.items():
+            for q in questions:
+                if q.question_id == question_id.split('.')[0]:
+                    topic = t
+                    break
+            if topic:
+                break
+                
+        if not topic:
+            return None
+            
+        if '.' not in question_id:
+            # Top-level question
+            return next((q for q in self.topics[topic] \
+                          if q.question_id == question_id), None)
+            
+        # Navigate through sub-questions
+        parts = question_id.split('.')
+        current = next((q for q in self.topics[topic] \
+                          if q.question_id == parts[0]), None)
+        
+        for part in parts[1:]:
+            if not current:
+                return None
+            current = next(
+                (q for q in current.sub_questions if q.question_id.endswith(part)),
+                None
+            )
+            
+        return current
+        
+    def save(self, save_type: str="original"):
+        """Saves the SessionAgenda to a JSON file.
+        
+        Args:
+            save_type: How to save the note:
+                - "original": Save as session_agenda.json in session_X directory
+                - "updated": Save as session_agenda_updated.json in same directory
+                - "next_version": Save as session_agenda.json in next session directory
+        """
+        # Create path to session directory
+        base_path = os.path.join(LOGS_DIR, self.user_id, "execution_logs")
+        file_name = "session_agenda.json"
+        save_session_id = self.session_id
+        
+        if save_type == "original":
+            pass
+        elif save_type == "updated":
+            file_name = "session_agenda_updated.json"
+        elif save_type == "next_version":
+            save_session_id += 1
+        else:
+            raise ValueError("save_type must be 'updated', 'original', or 'next_version'")
+        
+        session_dir = os.path.join(base_path, f"session_{save_session_id}")
+        
+        # Create directories if they don't exist
+        if not os.path.exists(session_dir):
+            os.makedirs(session_dir)
+            
+        file_path = os.path.join(session_dir, file_name)
+        
+        # Prepare data for serialization
+        data = {
+            "user_id": self.user_id,
+            "session_id": save_session_id,
+            "user_portrait": self.user_portrait,
+            "last_meeting_summary": self.last_meeting_summary,
+            "additional_notes": self.additional_notes,
+            "topics": {}
+        }
+        
+        # Serialize topics and their questions
+        for topic, questions in self.topics.items():
+            data["topics"][topic] = [q.serialize() for q in questions]
+        
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=2)
+        
+        return file_path
+
+    def get_user_portrait_str(self) -> str:
+        """Returns formatted string of user portrait information."""
+        if not self.user_portrait:
+            return ""
+            
+        output = []
+        for key, value in self.user_portrait.items():
+            output.append(f"{key.replace('_', ' ').title()}: {value}")
+        return "\n".join(output)
+
+    def get_last_meeting_summary_str(self) -> str:
+        """Returns a formatted string representation of the session agenda."""
+        if not self.last_meeting_summary:
+            return ""
+        return self.last_meeting_summary
+    
+    def format_qa(self, qa: InterviewQuestion, hide_answered: str = "") -> list[str]:
+        """Formats a question and its sub-questions recursively.
+        
+        Args:
+            qa: InterviewQuestion object to format
+            hide_answered: How to display answered questions:
+                - "": Show everything (default)
+                - "a": Hide answers but show questions
+                - "qa": Hide both questions and answers
+        
+        Raises:
+            ValueError: If hide_answered is not one of "", "a", "qa"
+        """
+        if hide_answered not in ["", "a", "qa"]:
+            raise ValueError('hide_answered must be "", "a", or "qa"')
+            
+        lines = []
+        if not qa.question: # Empty question means it is already deleted
+            pass
+        elif qa.notes:
+            if hide_answered == "qa":
+                lines.append(f"\n[ID] {qa.question_id}: (Answered)")
+            else:
+                lines.append(f"\n[ID] {qa.question_id}: {qa.question}")
+                if hide_answered != "a":  # Show answers if not hiding them
+                    for note in qa.notes:
+                        lines.append(f"[note] {note}")
+        else:
+            # For unanswered questions, always show the question
+            lines.append(f"\n[ID] {qa.question_id}: {qa.question}")
+        
+        if qa.sub_questions:
+            for sub_qa in qa.sub_questions:
+                lines.extend(self.format_qa(
+                    sub_qa,
+                    hide_answered=hide_answered
+                ))
+        return lines
+
+    def get_questions_and_notes_str(self, hide_answered: str = "") -> str:
+        """Returns formatted string for questions and notes.
+        
+        Args:
+            hide_answered: How to display answered questions:
+                - "": Show everything (default)
+                - "a": Hide answers but show questions
+                - "qa": Hide both questions and answers
+        
+        Raises:
+            ValueError: If hide_answered is not one of "", "a", "qa"
+        """
+        if not self.topics:
+            return ""
+            
+        output = []
+        
+        for topic, questions in self.topics.items():
+            output.append(f"\nTopic: {topic}")
+            for qa in questions:
+                output.extend(self.format_qa(qa, hide_answered=hide_answered))
+                
+        return "\n".join(output)
+
+    def get_additional_notes_str(self) -> str:
+        """Returns formatted string of additional notes."""
+        if not self.additional_notes:
+            return ""
+        return "\n".join(self.additional_notes)
+        
+    def get_topic_list(self) -> dict:
+        """Return topic list"""
+        return self.interview_plan
+
+    def clear_questions(self):
+        """Clears all questions from the session agenda, 
+        resetting it to an empty state."""
+        # Clear all topics and questions
+        self.topics = {}
+        
+        # Clear additional notes
+        self.additional_notes = []
+
+    def visualize_topics(self) -> str:
+        """Returns a tree visualization of topics and questions.
+        
+        Example output:
+        Topics
+        ├── General
+        │   └── How old are you?
+        ├── Professional
+        │   ├── How did you choose your career path?
+        │   └── What specific rare plant species did you cultivate?
+        │       └── Did you face any challenges?
+        └── Personal
+            └── Where did you grow up?
+        """
+        if not self.topics:
+            return "No topics"
+        
+        lines = ["Topics"]
+        topics = list(self.topics.items())
+        
+        def add_question(question: InterviewQuestion, 
+                         prefix: str, is_last: bool) -> None:
+            # Add the current question
+            connector = "└── " if is_last else "├── "
+            lines.append(f"{prefix}{connector}{question.question}")
+            
+            # Handle sub-questions
+            if question.sub_questions:
+                new_prefix = prefix + ("    " if is_last else "│   ")
+                sub_questions = question.sub_questions
+                for i, sub_q in enumerate(sub_questions):
+                    add_question(sub_q, new_prefix, i == len(sub_questions) - 1)
+        
+        # Process each topic
+        for topic_idx, (topic, questions) in enumerate(topics):
+            # Add topic
+            topic_prefix = "└── " if topic_idx == len(topics) - 1 else "├── "
+            lines.append(f"{topic_prefix}{topic}")
+            
+            # Process questions under this topic
+            question_prefix = "    " if topic_idx == len(topics) - 1 else "│   "
+            for q_idx, question in enumerate(questions):
+                add_question(question, question_prefix, q_idx == len(questions) - 1)
+        
+        return "\n".join(lines)
+
+    @classmethod
+    def get_historical_session_summaries(cls, user_id: str) -> str:
+        """Returns formatted string of all historical session summaries."""
+        base_path = os.path.join(LOGS_DIR, user_id, "execution_logs")
+        if not os.path.exists(base_path):
+            return ""
+            
+        # Get all session directories
+        session_dirs = [d for d in os.listdir(base_path) \
+                       if d.startswith('session_') and \
+                       os.path.isdir(os.path.join(base_path, d))]
+        if not session_dirs:
+            return ""
+            
+        # Sort directories by session number
+        session_dirs.sort(key=lambda x: int(x.split('_')[1]))
+        
+        summaries = []
+        for dir_name in session_dirs:
+            session_id = int(dir_name.split('_')[1])
+            file_path = os.path.join(base_path, dir_name, "session_agenda.json")
+            
+            if os.path.exists(file_path):
+                # Load the session agenda
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    summary = data.get('last_meeting_summary', '')
+                    if summary:
+                        summaries.append(f"Session {session_id}:\n{summary}")
+        
+        return "\n\n".join(summaries)
+
+
+
+
+### EXAMPLE format ###
+# Session 1 - January 1, 2024 at 10:00 AM
+# --------------------------------------------------
+
+# User Information:
+# --------------------
+# Name: John Doe
+# Age: 30
+
+# Previous Session Summary:
+# --------------------
+# Last session focused on career goals...
+
+# Interview Notes:
+# --------------------
+
+# # Career Goals
+# - 1. What are your long-term career aspirations?
+#   → Wants to become a senior developer
+#   → Interested in leadership roles
+# - 1.1. What timeline do you have in mind?
+#   → 3-5 years for senior role
+# - 1.2. What skills do you need to develop?
+# - 2. What challenges are you facing currently?
+#   → Time management issues
+#   → Technical skill gaps
+
+# # Work-Life Balance
+# - 1. How do you manage stress?
+# - 2. What's your current work schedule like?
+# - 2.1. Are you satisfied with it?
+# - 2.2. What would you change?
+# - 2.2.1. How would those changes impact your productivity?
+
+# Additional Notes:
+# --------------------
+# - Follow up on technical training opportunities
+# - Schedule monthly check-ins

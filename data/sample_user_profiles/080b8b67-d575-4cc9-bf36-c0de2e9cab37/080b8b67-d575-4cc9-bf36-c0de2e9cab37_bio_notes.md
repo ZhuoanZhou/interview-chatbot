@@ -1,0 +1,237 @@
+# Biographical Notes
+
+- Prefers manual control over final outputs in client-facing work
+- Coordinating schedules with multiple clients can be complex
+- Encountered instances where AI-generated math explanations contained subtle errors, requiring careful review
+- Can interpret AI-generated outputs and explain them to clients or students
+- Believes final analysis, feedback, and teaching should remain human-led
+- Prefers conversational interfaces for brainstorming and content generation
+- Values the creative and interpersonal aspects that AI cannot replicate
+- Email clients for client and student communications
+- Chooses which freelance projects to accept and how to approach data analysis
+- Operates primarily in the education and data analytics sectors
+- Made a habit of collecting quirky bookmarks from every book read.
+- Foresees increasing collaboration between educators, analysts, and AI systems
+- Always manually reviews AI-generated lesson content before delivery
+- Familiar with terminology like model accuracy, overfitting, and feature engineering
+- Attends webinars and online courses to deepen software proficiency
+- Uses command-based scripts for data analysis tasks with clear inputs/outputs
+- Collaborates with small teams or individual clients rather than large organizations
+- Considers repetitive data entry and administrative paperwork tedious
+- Monitors advancements in AI to anticipate potential role changes
+- Employs Wolfram Alpha and Desmos for interactive mathematics demonstrations
+- Handling students who struggle with motivation or have learning difficulties
+- Hosts monthly virtual cooking sessions with friends from different countries.
+- Sees potential for AI to democratize access to high-quality instruction
+- Enjoys baking international breads and has perfected at least ten regional recipes.
+- Aggregating and formatting large data sets for analysis
+- Once participated in a charity fun run dressed as a math superhero.
+- Completes platform-specific certifications when relevant to work
+- Exercises full autonomy over scheduling, curriculum design, and client selection
+- Spends approximately 50% of time on direct tutoring and lesson planning
+- Uses ChatGPT and other large language models for generating explanations and lesson content
+- Identifying students’ misunderstandings and clarifying them using examples
+- Has a habit of rearranging desk items to optimize feng shui every few months.
+- Clients sometimes request use of specific analytics platforms or formats
+- Peers in online educator forums often recommend new tools and practices
+- Has a tiny Zen rock garden on the desk to fiddle with during brainstorming breaks.
+- Keeping up with rapidly evolving data analytics tools and methods
+- Makes independent decisions on setting rates and managing workload
+- Notices a trend toward increased AI use among peers and clients
+- Hosts an annual trivia night for friends themed around 80s pop culture.
+- Recognizes risks related to misinformation and loss of human oversight
+- No formal in-house training due to independent/freelance work structure
+- Concerns include data privacy, bias in AI outputs, and overreliance on automation
+- Feels most productive and engaged when working on tasks that align with expertise, such as advanced tutoring
+- Explaining mathematical concepts at various levels of complexity
+- Adopted a cactus named Fibonacci that sits on the windowsill and ‘grows’ slowly.
+- Advocates for responsible, human-centered AI design in educational tools
+- Enjoys stargazing and can identify major constellations without a telescope.
+- Understands concepts such as supervised learning, regression, and clustering
+- Grading practice problem sets and quizzes for multiple students
+- Enjoys solving daily crossword puzzles in three different newspapers simultaneously.
+- Knits scarves and hats for local charity drives every winter.
+- Works as an online mathematics tutor and freelance data analyst
+- Selects software tools and teaching methods independently
+- Motivated by the potential to automate repetitive tasks and improve lesson quality
+- Desires AI-powered adaptive learning platforms tailored to individual students
+- Considers interpersonal teaching skills irreplaceable by automation
+- Views ongoing skill development as key to long-term job security
+- Taking responsibility for educating students and clients about appropriate AI use
+- Comfortable using Jupyter Notebooks for data science projects
+- Occasionally performs stand-up comedy at local open mic nights, focusing on nerdy humor.
+- Began tutoring during graduate school and transitioned to full-time after degree completion
+- Believes that a well-placed rubber duck on the desk sparks sudden moments of creativity.
+- Has 6-10 years of professional experience post-graduation
+- Occasionally treats AI as a brainstorming partner for lesson ideas
+- Volunteers as a weekend guide for urban history walking tours in their hometown.
+- Loves crafting custom puzzles for friends using math and logic riddles.
+- Generating routine progress reports for students or clients
+- Actively seeks out tutorials and guides on emerging analytics tools
+- Proficient with Microsoft Excel's advanced features, including pivot tables and formulas
+- Customization for individual student needs relies heavily on personal experience
+- Client-specific requirements sometimes necessitate manual data conversion between software
+- Started offering freelance data analytics services approximately 5 years ago
+- Generally skeptical of AI-generated solutions without manual verification
+- Learned that AI suggestions are most effective when double-checked for domain accuracy
+- Employs AI-based plagiarism detection to verify student submissions
+- Keeps a journal of memorable quotes overheard during virtual tutoring sessions.
+- Encourages investment in AI literacy and upskilling for all team members
+- Comfortable experimenting with beta features or less familiar tools
+- Suggests partnering with educational technology providers to co-develop AI-enhanced platforms
+- Applies AI to automate routine data cleaning and analysis steps
+- Is an avid fan of mystery novels and organizes monthly virtual book discussions.
+- Prefers AI to handle repetitive, time-consuming steps (e.g., grading, data formatting)
+- Keeps up-to-date with new mathematics education resources and analytics techniques
+- Digital whiteboards (e.g., Miro, Microsoft Whiteboard) for explaining math concepts
+- AI tools supplement, but do not replace, the need for expert domain judgment
+- Occasionally uses AI-powered data visualization tools (e.g., Tableau's AI features)
+- Prefers interactive teaching over static lesson planning
+- Considered mid-level in terms of experience and expertise
+- Recommends developing clear guidelines for ethical and responsible AI use
+- Adapting lesson plans on-the-fly for students with varying skill levels
+- Writes and illustrates short comic strips about math-themed adventures for fun.
+- Prefers to pilot new AI tools on low-stakes tasks before full adoption
+- Practices calligraphy and writes personalized thank-you notes for every birthday gift.
+- Has self-taught experience in programming languages relevant to data analysis, such as Python
+- Occasional barrier is high workload, limiting available time for upskilling
+- Designs and analyzes datasets for clients as a freelance analyst
+- Finds natural language prompts more intuitive for teaching applications
+- Takes weekly evening yoga classes to unwind after a day of screen time.
+- Seeks AI features for automatic detection and correction of subtle mathematical errors
+- Develops customized lesson plans and practice materials for students
+- Conducts virtual mathematics tutoring sessions via video conferencing platforms
+- Celebrates Pi Day by baking a different type of pie each year, from savory to sweet.
+- Tutoring requires deep understanding of mathematics and pedagogical methods
+- Learning new analytics tools is enjoyable when it directly improves work efficiency
+- Accepts high automation for non-critical, standardized tasks (e.g., progress emails)
+- Has a secret talent for juggling and entertains friends at gatherings.
+- Discovered a passion for bird watching and keeps a log of species spotted from the balcony.
+- Sees optimal workflow as AI-augmented, not AI-driven
+- Balances dual roles in education and analytical services
+- Maintains an indoor bonsai tree that has been growing for over seven years.
+- Occasionally participates in online educator communities for resource sharing
+- Views technology as crucial for staying competitive in both tutoring and analytics
+- Joins online discussions about ethical and practical AI integration in education
+- Relies on Google Docs and Sheets for lesson planning and sharing resources
+- Participates in educator webinars discussing practical AI integration in teaching
+- Supports piloting new AI tools with feedback mechanisms for improvement
+- Staying updated on best practices for AI-integrated teaching and analysis
+- As an independent professional, self-determines policies for AI adoption
+- Targets students preparing for exams and professionals seeking data insights
+- Holds a Master’s Degree in Mathematics
+- Supports gradual automation with strong human oversight
+- Wants more accurate, context-aware math problem generators
+- Mildly concerned about AI automating low-skill or repetitive tasks
+- Provides freelance data analysis services to individual clients and small businesses
+- Successfully used ChatGPT to clarify complex calculus concepts for struggling students
+- Analyzes datasets and creates reports for freelance clients using statistical software
+- Performing data cleaning and basic exploratory data analysis
+- Exchanges tips and resources with other freelance analysts in online communities
+- Maintains a playlist of instrumental music that changes with the seasons for work focus.
+- Supports transparent disclosure of AI-generated content to students and clients
+- Keeps a tiny aquarium with colorful freshwater fish as a calming desk companion.
+- Frequently interacts with students in one-on-one or small group settings
+- Dedicates the remaining 5% to professional development and tool exploration
+- Has established a steady client base and reputation in both tutoring and analytics
+- Receiving incomplete or unclear project requirements from freelance clients
+- Engages with platforms that connect tutors and data professionals to clients
+- Keeps an emergency stash of dark chocolate specifically for stressful data crunching days.
+- Enjoyment and skill are highest during interactive, problem-solving sessions
+- Automated data cleaning with Python AI tools, significantly reducing project turnaround time
+- Owns a pet snail named Newton that makes occasional cameo appearances in video calls.
+- Anticipates shifting focus toward advanced, creative, and interpersonal aspects of work
+- Has protocols for reverting to manual processes if AI outputs are unsatisfactory
+- Regularly mentors less experienced tutors in online forums
+- Has a rotating collection of novelty coffee mugs, each with a funny phrase or math joke.
+- Writes haikus about everyday objects during lunch breaks to stay creative.
+- Prioritizes tech learning that has direct, practical application to current tasks
+- Calendar apps (e.g., Google Calendar) for scheduling sessions
+- Participated in online courses on data analysis and statistics
+- Generally enthusiastic about adopting new software that improves workflow
+- Adapts quickly to new digital platforms for teaching and data analysis
+- Implements checkpoints in data workflows to validate AI-processed results
+- Considers AI outputs as starting points for further customization
+- Believes ability to interpret and validate AI outputs is increasingly important
+- Expects routine tutoring and analytic tasks to become highly automated
+- Creating visual aids and diagrams to support teaching
+- Believes formal guidelines on AI use will become more common in freelance work
+- Utilizes Microsoft Excel and Python (notably pandas, NumPy) for data analysis
+- Communicates regularly with clients and students to clarify requirements and track progress
+- Willing to adjust work processes if AI demonstrably improves efficiency
+- Frequently swaps desktop background images featuring nature photography taken by friends.
+- Has a vintage poster of a 1960s math conference framed above the desk.
+- Some virtual whiteboard tools lack seamless integration with video conferencing platforms
+- Relies on online forums and self-guided tutorials for upskilling in AI tools
+- Invests several hours monthly in self-directed learning of new tools
+- Relies more on AI for efficiency than for authoritative answers
+- Manual data entry and formatting consumes significant time
+- Enjoys creating themed playlists based on different decades and sharing them with friends.
+- Enjoys uncovering interesting trends or insights in data analysis projects
+- Experienced with educational platforms such as Khan Academy and Moodle
+- Developing proficiency in prompt engineering for LLMs
+- Experience spans both teaching and applied analytical work
+- Finds one-on-one problem-solving sessions with motivated students highly rewarding
+- Views AI as enhancing the value of core mathematical and analytical skills
+- Writes personalized motivational notes on sticky pads left around the home workspace.
+- Positive reviews from other tutors increase openness to trying new teaching apps
+- PDF editors for annotating assignments and sending feedback
+- Prefers step-by-step collaboration with AI for complex or unfamiliar tasks
+- Uses Zoom or Google Meet for virtual tutoring sessions
+- Has basic knowledge of natural language processing and large language models
+- Synchronization of calendars across devices can be inconsistent
+- Finds routine technical skills (e.g., basic data entry) less critical due to automation
+- Data analysis projects often depend on nuanced interpretation of results
+- Uses LLMs daily to draft explanations, generate practice problems, and summarize data
+- Believes ability to guide and supervise AI will be a core professional skill
+- Has a collection of quirky socks featuring mathematical puns and patterns.
+- Keeps a collection of quirky fridge magnets from cities clients live in.
+- Anticipates increased demand for professionals skilled in both domain knowledge and AI
+- Relies on AI for initial drafts, refining outputs manually for quality assurance
+- Loves to doodle tiny robots and aliens on random notebook margins.
+- Carefully reviews AI outputs before using them in critical teaching or client deliverables
+- Serves students and clients in the EdTech and freelance analytics markets
+- Occasionally collaborates with technology companies for data-related projects
+- Trusts AI for routine tasks such as drafting explanations or cleaning data
+- Employs Google Bard for brainstorming instructional strategies
+- Uses independent AI queries for generating routine materials or quick answers
+- Utilizes version control to track changes made by AI tools
+- Leverages AI for language translation when tutoring non-native English speakers
+- Provides virtual tutoring sessions to high school and undergraduate students
+- Once built a miniature model of their hometown from recycled materials.
+- Views AI as a knowledgeable assistant to supplement expertise
+- Completed undergraduate studies in Mathematics prior to pursuing graduate education
+- Active in the online education and private tutoring market
+- Loves photographing street art and has an online gallery of urban murals from various cities.
+- Interpreting ambiguous or incomplete data from freelance clients
+- Knows the lyrics to dozens of classic rock songs and sings along during solo car rides.
+- Utilizes Python libraries such as scikit-learn for basic machine learning tasks
+- Once attempted to break a Guinness World Record for the longest paperclip chain.
+- Utilizes online platforms to connect with clients and students
+- Attended several mathematics education workshops focused on pedagogy
+- Believes AI will continue to reshape education and analytics industries
+- Regularly experiments with homemade hot sauce recipes, rating each batch meticulously.
+- Occasionally faces format compatibility issues when sharing files between Excel, Google Sheets, and Python scripts
+- Once built a life-sized cardboard maze for a neighborhood scavenger hunt.
+- Works independently as a freelancer and online tutor
+- Productivity declines during monotonous or highly administrative tasks
+- Finds automation threatening when it risks loss of personalization or instructional quality
+- Scheduling recurring tutoring sessions and sending reminders
+- Acts as a subject matter expert in mathematics for tutoring clients
+- Obsessed with vintage typewriters and owns three, all fully functional.
+- Designing engaging lessons for students with diverse learning needs
+- Finds iterative prompting effective for refining explanations and solutions
+- Familiar with basic SQL for querying databases
+- Very open to experimenting with new AI features and workflows
+- Would benefit from integrated tools for seamless workflow across tutoring and analytics platforms
+- Reserves about 10% for administrative tasks such as scheduling and invoicing
+- Has a collection of vintage concert tickets framed on a hallway wall.
+- Has a small tradition of gifting hand-painted greeting cards to close friends and family.
+- Collects retro video game cartridges, favoring old-school puzzle games.
+- Confident that personalized teaching and complex analysis remain human strengths
+- Learning to critically assess and edit AI-generated materials
+- Believes ongoing human oversight is essential for ethical AI use
+- Runs a small community garden with herbs and vegetables for fresh cooking.
+- Allocates 35% of work hours to data analysis projects and reporting
+- Regularly updates software and explores integration possibilities
+- Brews a new blend of herbal tea every weekend inspired by global travels.

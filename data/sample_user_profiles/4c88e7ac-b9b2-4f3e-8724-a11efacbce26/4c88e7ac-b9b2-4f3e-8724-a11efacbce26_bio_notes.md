@@ -1,0 +1,202 @@
+# Biographical Notes
+
+- Uses ChatGPT for calculations, troubleshooting, and background research
+- Less enjoyment during repetitive or administrative tasks, which can slow overall productivity
+- Relies on digital lab manuals and protocol databases
+- Brings homemade biscotti to team meetings every second Tuesday.
+- Open and curious about adopting new technologies that improve workflow
+- Operates with a high degree of autonomy in both scientific and managerial decisions
+- Peers and students’ enthusiasm for new tools positively influences adoption
+- Is a passionate home baker and often experiments with sourdough starters and unusual flours.
+- Worries about over-reliance on AI leading to loss of foundational skills
+- Override mechanisms include reverting to traditional calculation methods when needed
+- Enjoys attending classical music concerts and sometimes shares playlists with lab members.
+- Participates in workshops or webinars on technological advancements
+- Supports development of guidelines for responsible AI adoption and verification
+- Sees value in AI assistants capable of real-time protocol verification and alerting to potential errors
+- Named their favorite lab notebook 'Darwin' and has used it for over a decade.
+- Some AI tools lack integration with proprietary lab management systems
+- Encourages the lab team to explore new AI features as they become available
+- Values the ability to refine requests in real-time based on AI responses
+- Believes AI-driven processes will become increasingly integral to lab work
+- Works in the academic research sector
+- Owns a bonsai tree named 'Mendel' that they’ve been nurturing for over five years.
+- Maintains a rotating display of quirky fridge magnets collected from conference cities.
+- Has a ritual of meditating for ten minutes before starting a busy lab day.
+- Has a habit of doodling microscopic organisms in the margins of meeting agendas.
+- Balancing the diverse skill levels of undergraduate and graduate students during collaborative projects
+- Served in a lab leadership or director role for several years
+- Has more than 10 years of experience in molecular and cellular biology
+- Collects postcards from botanical gardens visited during vacations.
+- Uses a vintage coffee grinder for their morning brew, insisting it makes a difference in taste.
+- Received additional specialized training in molecular biology techniques such as PCR and Western blotting
+- Time at the bench varies daily, sometimes significant, sometimes minimal
+- Higher productivity and enjoyment when working on complex experiments and troubleshooting
+- Learned to always cross-check AI outputs with trusted sources, especially for critical experiments
+- Once trained for a triathlon but switched to yoga after discovering a love for meditation.
+- Routine background research on genes or protocols prior to experiments
+- Open to piloting AI-driven workflow enhancements
+- Finds experimental troubleshooting and successful mentoring highly rewarding
+- Human oversight remains essential for interpreting complex or unexpected results
+- Expects AI to handle more routine lab tasks, freeing time for complex research and mentoring
+- Maintains a rotating bookshelf of fantasy novels, often recommending titles to colleagues.
+- Academic research laboratory within a university or college
+- Wears a lapel pin shaped like a double helix given by a former mentor.
+- Believes AI will drive greater efficiency and accessibility in science
+- Is an avid amateur photographer, especially fond of capturing macro shots of insects and plants.
+- Collaborates within a university or higher education institution environment
+- Enjoys designing and wearing custom lab coat embroidery with fun patches made by students.
+- Plays the harmonica and occasionally performs at local open mic nights.
+- Directly involved in experimental design, troubleshooting, and mentoring students
+- Emergence of digital literacy as a core skill for students and faculty
+- Is learning sign language as a way to communicate better with diverse students.
+- Positive experiences from colleagues validate investing time in tool adoption
+- Motivated by potential for increased efficiency and accuracy in experiments
+- Has a tradition of sending hand-written thank you notes to visiting seminar speakers.
+- Completed undergraduate studies in a biology-related field before pursuing advanced degrees
+- Believes ethical AI use requires transparency and human oversight
+- Designs, plans, and troubleshoots molecular biology experiments (e.g., PCR, Western blot)
+- Desires deeper integration between AI tools and lab management systems
+- Believes core scientific skills will remain essential for interpreting AI outputs
+- Advocates for investment in AI-lab integration to maximize productivity and data integrity
+- Preparing and calculating reagent dilutions for multiple PCR setups
+- Comfortable with trying emerging AI tools and integrating them into existing workflows
+- Has a habit of wearing colorful socks featuring animals or fruit to lighten up lab days.
+- Occasionally uses AI independently for quick checks or confirmations
+- Keeps a small fish tank on their desk, featuring a betta fish named 'Helix.'
+- Knowledgeable about the distinction between generative AI and traditional automation
+- Faculty colleagues also use ChatGPT for writing test questions and summaries
+- Maintains physical and electronic lab notebooks for record-keeping
+- Has a Spotify playlist titled 'Lab Focus Tunes' that ranges from jazz to indie pop.
+- Occasionally faces difficulty transferring data between digital notebooks and analysis software
+- At certain times of the year, more time is spent supporting undergraduates with their projects
+- AI is consulted for troubleshooting unexpected experimental results
+- Keeps a vintage microscope slide collection inherited from a retired professor.
+- Has a standing desk that’s customized with a miniature treadmill attachment for walking breaks.
+- Frequent need to re-explain basic experimental concepts to new students
+- Prefers AI to handle repetitive or computationally intensive tasks
+- On occasion, AI-generated suggestions require manual verification due to potential inaccuracies
+- Administrative and supervisory duties balance out with hands-on laboratory work
+- Uses Google for literature searches and background research
+- Some routine technical skills may be deprioritized as AI improves
+- AI is primarily used for routine or well-defined aspects, not nuanced experimental design
+- Tedious tasks include updating lab inventories and reagent logs
+- Uses AI to generate background on target genes and expected product sizes
+- Utilizes AI as a co-worker for repetitive calculation tasks
+- Troubleshooting experiments with ambiguous or inconsistent results
+- Policies are evolving to encourage responsible AI use and verification
+- Highly familiar with standard molecular biology instrumentation and techniques
+- Moderate trust in AI for straightforward calculations and protocol lookups
+- Mentorship and interpretation skills remain highly valued
+- Adapts quickly to new software, particularly when it has clear relevance to lab work
+- Low concern about AI replacing core mentoring or experimental design roles
+- Proficient with commonly used lab management and data recording systems
+- Uses PCR machines, gel electrophoresis equipment, and Western blot apparatus
+- Supports a collaborative approach where AI augments but does not replace human judgment
+- Peers and students frequently share tips and best practices informally
+- High automation is acceptable for routine calculations and data management
+- Finds it threatening if AI is used for tasks requiring contextual, domain-specific insight
+- Employs ChatGPT and similar LLMs for calculations, troubleshooting, and background queries
+- Requires proficiency in evaluating and validating AI-generated outputs
+- Relevance to daily tasks is a primary factor in prioritizing which tools to learn
+- Organizes a yearly themed trivia night for the lab that isn't science-related, like 80s pop culture.
+- Overall role seen as secure due to reliance on human expertise
+- Many laboratory tasks require significant tacit domain knowledge
+- Advocates for responsible use, with proper cross-checking and data privacy safeguards
+- Reviews and verifies experimental protocols and calculations with students
+- AI enhances the importance of critical thinking and experimental design skills
+- Collaborative, educational environment focused on research and learning
+- Enjoys geocaching on weekends as a way to combine tech with outdoor exploration.
+- Mentoring students and explaining core molecular biology concepts
+- Keeps a collection of vintage science fiction movie posters pinned behind their desk.
+- Recommends formal training programs for faculty, staff, and students on AI tool use
+- Runs a small succulent collection that doubles as office decor and stress relief.
+- Identifying common experimental errors and offering quick troubleshooting steps
+- Keeps a collection of quirky bookmarks shaped like DNA strands and lab animals.
+- Holds a senior-level position as a lab director
+- Responsible for overseeing undergraduate and graduate student research projects
+- Acknowledges potential for both positive and disruptive industry-wide changes
+- Ensures smooth laboratory operations and compliance with protocols
+- Managing time-sensitive or multi-step experiments under tight deadlines
+- Prefers conversational interfaces for flexibility and ease of use
+- Enjoys making intricately detailed origami models during conference downtime.
+- Prefers to commute via electric scooter during spring and fall months.
+- Focuses on basic and applied research in molecular and microbiology
+- Students have sometimes relied too heavily on AI, underscoring the need for domain expertise
+- Commonly applies AI for calculating reagent dilutions and master mixes
+- Takes an hour-long walk daily to brainstorm and let ideas percolate away from the bench.
+- Frequently interacts with AI in tandem with student input for educational value
+- Hosts an annual potluck lunch where everyone brings dishes inspired by their childhood recipes.
+- Believes human expertise should guide experimental design and interpretation
+- Holds a Master’s Degree in Molecular or Cellular Biology
+- Mentors students in decision-making while retaining final oversight
+- Believes in staying current with technological advancements in the field
+- A substantial portion of time is devoted to troubleshooting experiments
+- Lab typically comprises 10-20 people including faculty, graduate, and undergraduate students
+- Lab requires human sign-off on critical calculations and experimental plans
+- Regularly discusses AI use cases with students and colleagues
+- Has a wall dedicated to photos of local street art found during conference travels.
+- Responsibility for teaching responsible AI use and verification techniques
+- Has a collection of novelty tea infusers that get rotated through the office kettle.
+- Conducts hands-on bench experiments as needed, especially for time-sensitive tasks
+- Encourages students to experiment with new tools, including AI platforms
+- Finds chat-based AI interactions more accessible for students and faculty
+- Prefers step-by-step collaboration with AI, especially when troubleshooting
+- AI tools are used several times a week for experiment-related queries
+- Recording and organizing experimental results into spreadsheets or lab notebooks
+- Advocates for human review of all critical AI-generated outputs
+- Would benefit from AI that can auto-document experiments and generate standardized reports
+- Workload can sometimes limit time available for in-depth tech training
+- Does not fully trust AI for critical or safety-sensitive decisions without human verification
+- Students occasionally use other AI chatbots or calculators for experiment planning
+- Encourages students to view AI as a supplementary resource, not a replacement for critical thinking
+- Supports students in their own tech learning journeys
+- Often leads by example in exploring new digital resources
+- Has a handmade quilt made from science-themed fabric patches displayed in their office.
+- Occasionally leads guided weekend nature hikes for lab members and their families.
+- Writes short science fiction stories featuring anthropomorphic lab equipment as a hobby.
+- Experience includes both bench science and supervisory responsibilities
+- Willing to dedicate time to learning tools that offer clear benefits
+- Guides and supervises undergraduate and graduate students in experimental work
+- Grows chili peppers on their balcony and challenges lab members to spicy food contests.
+- Designing standard PCR experiments and setting up master mixes
+- Has a weekly podcast subscription about odd historical inventions unrelated to biology.
+- Time lost to manual calculations and data transcription
+- Anticipates teaching AI literacy as a regular part of student mentoring
+- Works in a medium-sized academic laboratory
+- Treats AI as an assistant or advisor during experimental planning
+- Specializes in life sciences, specifically molecular and cellular biology
+- Enjoys collaborative problem-solving sessions with students
+- Has mentored multiple cohorts of undergraduate and graduate students over the past decade
+- AI successfully helps with quick calculations and protocol clarifications
+- Checks AI recommendations against established protocols and literature
+- Has a secret stash of dark chocolate hidden in their lab drawer for rough days.
+- Skill level allows for efficient multitasking and rapid identification of errors
+- Considers repetitive calculations and data entry less engaging
+- No formal organizational AI training programs in place yet
+- Has a drawer full of novelty rubber stamps used to mark lab notes with funny icons.
+- Some awareness that repetitive calculation and data entry tasks may become automated
+- Has authority to design experiments and approve protocols
+- Occasional miscommunication or errors due to inconsistent protocol adherence
+- Adopted a shelter cat named ‘Petri’ who occasionally appears at Zoom meetings.
+- Adoption of AI is primarily self-directed, supported by community knowledge sharing
+- Prefers to drink herbal tea brewed from ingredients grown in their own kitchen windowsill garden.
+- Enjoys learning new card tricks to entertain visiting students during breaks.
+- AI adoption is becoming normalized across the lab and broader institution
+- Lab culture encourages knowledge sharing about new software and tech
+- Is a member of a local amateur astronomy club and enjoys stargazing with a telescope.
+- Understands basic concepts of large language models and their capabilities
+- Frequently writes haikus about coffee and lab life in their personal journal.
+- Loves exploring farmers’ markets and brings seasonal produce to share with the team.
+- Attended professional workshops and seminars to stay updated on lab methodologies
+- Manual review and cross-verification are standard practices for AI-supported tasks
+- Has a vintage typewriter on their office desk that they occasionally use to jot down thoughts.
+- Stays informed about new lab technologies through professional development
+- Lab Director for a molecular and microbiology laboratory
+- Considered an expert in molecular and cellular biology techniques
+- Views AI as an increasingly integral part of academic and research workflows
+- Supports both teaching and research missions
+- No formal mandates yet, but increasing expectation to leverage AI tools
+- References printed and digital lab protocols regularly
+- Decides on allocation of resources and task assignments within the lab
+- Manual steps are often needed to bridge gaps between calculation tools and experimental documentation

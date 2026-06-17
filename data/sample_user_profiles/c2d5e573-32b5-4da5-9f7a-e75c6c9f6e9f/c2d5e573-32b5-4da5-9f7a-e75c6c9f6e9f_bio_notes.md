@@ -1,0 +1,239 @@
+# Biographical Notes
+
+- Once completed a marathon dressed as their favorite literary character
+- Always eats lunch at exactly 12:30 PM
+- Likes to maintain creative control over final outputs
+- Uses color-coded sticky notes to organize personal thoughts and ideas
+- Focuses on content creation for online and print platforms
+- Enjoys knitting scarves during long conference calls
+- Does not routinely follow AI industry news
+- Manual review of all AI-generated suggestions is standard practice
+- Staying updated on AI's role in content creation is part of professional development
+- Trusts AI for grammar and spelling suggestions but not for facts
+- Reference managers like Zotero for organizing sources
+- Proofreading for grammar and spelling errors is straightforward
+- Believes transparency in AI use is important for ethical reasons
+- AI suggestions sometimes required significant manual correction for accuracy
+- Uses Microsoft Word for drafting and editing
+- Generally indifferent toward adopting new technology unless required
+- Anticipates need for ongoing learning about AI’s capabilities and limitations
+- Writes handwritten letters to pen pals around the world
+- Collects quirky bookmarks from different bookstores on travels
+- Desires AI features for automating citation formatting
+- Tacit knowledge of audience preferences guides tone and style
+- AI-generated outlines helped speed up initial brainstorming
+- Participated in writing workshops during university
+- Enjoys conceptualizing article angles and storytelling
+- Serves general audience with focus on lifestyle and culture topics
+- Considered mid-level within the organization
+- Office is decorated with posters from 1990s tech conferences
+- Occasionally faces formatting issues when moving documents between Word and Google Docs
+- Can reject or modify AI content without restriction
+- Citation managers sometimes fail to sync with word processors
+- Believes strong writing skills remain essential despite AI advances
+- AI tools occasionally failed to capture intended writing tone
+- Can suggest article ideas but typically works on assigned topics
+- Advocates for transparency in AI-generated content
+- Condensing large volumes of research into concise content can be difficult
+- Final content approval requires editor sign-off
+- Peers' positive experiences can increase openness to adoption
+- Relies on email (Outlook) for communication with editors
+- High automation is threatening when it risks job uniqueness
+- Frequently swaps homemade lunches with colleagues
+- Prefers drinking chamomile tea over coffee during late-night edits
+- Has 3-5 years of experience as a professional writer
+- Edits and overrides are required for tone and factual accuracy
+- Has completed multiple annual review cycles in current position
+- Once received factually incorrect info from ChatGPT, which was caught during editing
+- Forecasts increased emphasis on content curation and editing
+- Has a collection of rubber ducks on desk for debugging companionship
+- Peers show mixed attitudes towards AI integration
+- Tested Quillbot for paraphrasing some content
+- Uses AI tools sporadically, not as part of daily workflow
+- Learning to prompt and evaluate AI-generated content is a new responsibility
+- Bakes elaborate themed cakes for friends’ birthdays
+- Ensuring factual accuracy on specialized subjects is challenging
+- Drafts original articles, essays, and reports
+- Monitoring for plagiarism or AI-generated errors is now required
+- Prefers incremental adoption over radical workflow changes
+- Views AI as having mixed effects on the writing profession
+- Started a tradition of bringing exotic teas to share during team meetings
+- Took elective courses in creative writing and journalism
+- Participates in a local improv comedy group for creative breaks
+- Compiling image captions and metadata could be automated
+- Spends approximately 60% of time researching and writing
+- Learned to play ukulele during pandemic lockdown
+- Edits and revises drafts based on editorial feedback
+- Has a habit of binge-watching foreign films to unwind after deadlines
+- Keeps a miniature library of classic novels on the office shelf
+- Researches assigned topics using reputable sources
+- Skeptical of relying heavily on AI for core writing tasks
+- Primary role involves researching, drafting, and editing written content
+- Heavy workload is a barrier to learning new systems
+- Keeps a lucky charm, a small carved owl, on the desk for inspiration
+- Reluctant to rely on AI for sensitive or nuanced topics
+- Commutes by bicycle even in winter
+- Greets coworkers with a new, pun-filled greeting every Monday
+- Loves to plant herbs in a small garden outside the office window
+- Completed undergraduate studies in English Literature
+- Brings homemade cookies to team meetings every Friday
+- Believes AI may streamline routine tasks but not replace creativity
+- Job title: Staff Writer
+- Holds a Bachelor’s Degree
+- Views AI as a brainstorming partner, not a content creator
+- Has a rotating playlist of 80s rock that plays softly while writing
+- Content is aimed at English-speaking adult readers
+- 10% of time is dedicated to meetings and collaboration
+- Regularly volunteers to narrate stories at local children’s libraries
+- Familiar with the concept of AI-assisted writing tools (e.g., autocomplete)
+- Prefers AI that can collaborate seamlessly within existing writing platforms
+- Organization does not mandate or standardize AI tool usage
+- Identifying key messages and themes is intuitive
+- Worries about AI reinforcing biases in content creation
+- AI use is permitted but not required
+- Views research and analytical skills as increasingly important
+- Follows a strict napping routine to boost creativity after lunch
+- Organizes monthly book club focusing on sci-fi novels
+- Editing and revisions take up about 20% of weekly workload
+- Sorting through research notes for relevant information is data-heavy
+- Some concern about AI automating basic content drafting
+- Overall job security is not seen as immediately threatened
+- Sees editing and fact-checking as more vital in an AI-assisted workflow
+- Has a personalized coffee mug that changes color with heat
+- Can learn new systems with clear documentation or training
+- Many writing assignments require nuanced understanding of subject matter
+- Productivity is highest when working on topics of personal interest
+- Practices calligraphy and occasionally sends beautiful cards to friends
+- Office plant is named Gerald and receives daily motivational talks
+- Contextual interpretation of sources is often necessary
+- Fears overreliance on AI could weaken critical thinking
+- Switching between multiple research sources interrupts workflow
+- Images or graphics do not always import correctly between platforms
+- Has moderate experience with collaborative writing tools
+- Most knowledge comes from self-directed online research
+- Has autonomy in structuring research and drafting process
+- Collects postcards from places mentioned in favorite novels
+- Understands AI can generate text, but not how it works technically
+- Finds conversational interfaces easier for brainstorming
+- Uses AI tools for specific steps, not full end-to-end workflows
+- Open to new tools if they clearly improve efficiency
+- Is a dedicated morning person who writes best before sunrise
+- Editing for clarity and flow can be satisfying
+- Spreadsheets for tracking assignments and deadlines
+- Started a small succulent collection that now occupies half the windowsill
+- Used Quillbot to rephrase awkward sentences in drafts
+- Employs Google Docs for collaborative writing projects
+- Waiting for editorial feedback can delay progress
+- Lists daily gratitude notes in a leather-bound journal
+- Recommends providing optional training on AI tools for writers
+- Performs fact-checking and ensures content accuracy
+- Would like AI tools that better understand and adapt to individual writing style
+- Finds initial research and discovery process engaging
+- Peers occasionally share tips or best practices informally
+- Company has not issued formal AI adoption policies
+- Prefers human oversight for final drafts
+- Has some autonomy in topic selection and workflow
+- Feels editing roles may shift towards supervising AI outputs
+- Not in a formal management role
+- Has occasionally used ChatGPT for brainstorming ideas
+- Acceptable for automating formatting and citation tasks
+- Drafting first versions of articles comes naturally
+- Publishes both digital articles and occasional print magazines
+- Sees value in AI tools that can summarize complex research accurately
+- Collects quirky socks and always has a fun pair on in the office
+- Contributes articles, essays, and reports for publication
+- Prefers simple, intuitive prompts over technical commands
+- Understands basics of copyright and document version control
+- Believes creative and analytical roles will remain human-centric
+- Basic understanding of AI tool limitations is necessary
+- Believes creative and analytical writing is less at risk
+- AI is used for inspiration and minor edits, not major drafting
+- Fact-checks all AI-generated content before use
+- Has heard of large language models (LLMs) but lacks detailed knowledge
+- Runs a weekend blog reviewing independent coffee shops
+- Memorizes fun facts about coffee blends and shares them with coworkers
+- Incorporating complex visual data into articles requires extra effort
+- Management encourages experimentation but does not impose AI workflows
+- Will invest time if tool is directly relevant to core writing tasks
+- Analyzes images or graphics for alignment with written content
+- Prefers clear disclosure when AI assists in publishing
+- Worries about misinformation or low-quality content generated by AI
+- Synthesizing information from multiple sources is a strength
+- Reluctance if new tools seem unrelated to primary tasks
+- Believes human judgment should always guide final content decisions
+- Manually checking references and citations is repetitive
+- Management encouragement is more effective than peer pressure
+- Step-by-step AI collaboration is used only when stuck on a task
+- Work environment is collaborative but allows for independent projects
+- Volunteers at a local shelter on weekends and brings inspiration from those experiences
+- Mentors junior writers on occasion
+- Suggests establishing clear guidelines for ethical AI use
+- Prefers sticking to familiar platforms unless a clear advantage is shown
+- Has a whiteboard at home filled with non-work-related doodles and puns
+- Occasionally collaborates with editors and visual designers
+- Writes poetry in a notebook kept just for personal use
+- Occasionally uses online research databases (e.g., JSTOR, ProQuest)
+- Sees AI as a digital assistant for low-level tasks
+- Occasionally relies on colleagues for troubleshooting
+- Sees value in AI as a support tool, not a replacement
+- Has a standing desk that's never been lowered in 3 years
+- Skeptical of claims that AI will fully automate journalism or authorship
+- Complex but interesting assignments are motivating, despite being challenging
+- Attends mandatory workplace trainings but seldom pursues optional ones
+- Hosts an annual costume party themed around famous authors
+- Keeps a tiny zen garden on their desk for midday stress relief
+- Concerned about potential plagiarism from AI-generated text
+- The remaining 10% covers administrative tasks and email correspondence
+- Worries about automation replacing creative writing elements
+- Has a vintage typewriter they try to use for drafts on weekends
+- Repetitive tasks decrease both engagement and output speed
+- Prefers to see proven benefits before fully committing
+- Automated tools struggle to replicate writer’s voice and perspective
+- Basic photo editing software (e.g., Canva) for visuals
+- Has a habit of doodling story ideas in the margins of notebooks
+- Generally unenthusiastic about adopting AI-driven workflows
+- Occasionally contributes to digital media projects
+- Selects sources and approaches for assigned topics
+- Keeps a jar of inspirational quotes on the desk for tough writing days
+- Collects vintage coffee mugs from client cities visited
+- Prefers working independently on most writing tasks
+- No formal company training on AI tools provided
+- Enjoys making hand-drawn comics during slow news days
+- Mix of in-office and remote work options
+- Once tried learning juggling to improve focus and coordination
+- Enjoys attending weekend farmers' markets to find fresh ingredients
+- Main motivation is increased efficiency or reduced workload
+- Manual copy-paste required for publishing content in CMS due to lack of direct integration
+- Has a custom playlist of ambient sounds recorded from nature hikes
+- Skill level in writing and editing correlates with task enjoyment
+- Manually updating citations is time-consuming
+- Rarely uses advanced command inputs in AI tools
+- Would like AI tools to better understand context without explicit direction
+- Adapts to new software at a moderate pace
+- Meeting tight deadlines for multiple assignments is occasionally stressful
+- Works in the media and publishing industry
+- Proficient in Microsoft Office Suite
+- No automated publishing from AI; human checks are mandatory
+- Prefers transparency in how AI decisions are made
+- Favors AI for repetitive or administrative writing tasks
+- Limited curiosity about technology outside work requirements
+- Does not rely on AI for judgment-based decisions
+- Relies on Grammarly AI for final proofreads on select pieces
+- Owns an extensive vinyl record collection, mostly jazz and blues
+- Formatting documents and repetitive fact-checking are less enjoyable
+- Style guide documents (AP, Chicago Manual) for formatting
+- Will learn new tools if they directly benefit workflow
+- Expects more routine writing tasks to become automated
+- Employed by a mid-sized publishing company (approx. 50-200 employees)
+- Applies ChatGPT to overcome writer’s block or generate outlines
+- Company culture emphasizes creativity and deadlines
+- Wants organization to maintain human oversight on all published work
+- Formatting articles to specific style guides can be tedious
+- Limited integration between text and visual tools causes inefficiency
+- Prefers human effort for creative and analytical work
+- No regular use of advanced AI tools
+- Familiar with CMS platforms (e.g., WordPress) for article publishing
+- Started in an entry-level writing role, promoted after 2 years
+- Limited willingness to spend personal time on tech training
+- Will try new tools if recommended by direct supervisor
+- Tried Grammarly’s AI-powered suggestions for grammar and style

@@ -1,0 +1,102 @@
+{
+  "topics": [
+    {
+      "topic_name": "Introduction & Background",
+      "questions": [
+        "Educational background or training",
+        "Specific job title and role description",
+        "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "Company size and environment",
+        "Type of business or market segment",
+        "Duration/years of experience in current role",
+        "Professional seniority or career level"
+      ]
+    },
+    {
+      "topic_name": "Core Responsibilities and Decision-Making",
+      "questions": [
+        "Primary job responsibilities and regular daily tasks",
+        "Approximate proportion of time spent on core activities",
+        "Level of autonomy and scope of decision-making in the role"
+      ]
+    },
+    {
+      "topic_name": "Task Proficiency, Challenge, and Engagement",
+      "questions": [
+        "Tasks that feel easiest or most natural to perform",
+        "Tasks perceived as most challenging or complex",
+        "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "Common pain points or inefficiencies in completing tasks",
+        "How enjoyment, skill level, and productivity relate to one another"
+      ]
+    },
+    {
+      "topic_name": "Tech Learning Comfort",
+      "questions": [
+        "Attitude towards learning new technologies and tools",
+        "Perceived adaptability to new software/methods",
+        "Willingness to invest time in tech training",
+        "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "Influence of peers or management on willingness to adopt new tools"
+      ]
+    },
+    {
+      "topic_name": "Primary Tools and Technologies Used in Work",
+      "questions": [
+        "Specific software, platforms, or systems used daily",
+        "Essential non-AI tools for workflow",
+        "Familiarity with industry-standard technologies",
+        "Interoperability or integration issues between tools"
+      ]
+    },
+    {
+      "topic_name": "AI Experience and Tool Adoption",
+      "questions": [
+        "Familiarity with fundamental AI/ML concepts and terminology",
+        "Names of specific AI software/platforms currently used in work",
+        "Frequency and purpose of AI tool application (specific use cases)",
+        "Specific examples of AI success and failure experiences (lessons learned)",
+        "Availability of organizational training or peer resources for AI use"
+      ]
+    },
+    {
+      "topic_name": "AI Interaction Style and Workflow Change",
+      "questions": [
+        "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "Willingness and openness to adopting new AI-driven workflows",
+        "Preference for conversational vs. command-based interfaces (communication dynamics)"
+      ]
+    },
+    {
+      "topic_name": "Trust and Control Over AI",
+      "questions": [
+        "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "Level of trust in AI outputs for work tasks and critical decisions",
+        "Ideal balance of human effort and AI automation for specific tasks",
+        "Conditions under which high automation is acceptable or threatening"
+      ]
+    },
+    {
+      "topic_name": "AI Impact on Skills and Job Security",
+      "questions": [
+        "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "Emerging skills or new areas of responsibility created by AI",
+        "Level of concern about AI replacing specific tasks or the overall role",
+        "Availability of override mechanisms or manual checks for AI-driven processes",
+        "Perceived change in team or company policies regarding AI adoption"
+      ]
+    },
+    {
+      "topic_name": "AI Attitudes and Future Outlook",
+      "questions": [
+        "General outlook on AI's broader societal and industry impact",
+        "Personal beliefs about the ethics and risks of AI in the workplace",
+        "Missing AI tools or features that would be most beneficial in the future",
+        "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "Concrete steps they would want their organization to take regarding AI strategy"
+      ]
+    }
+  ]
+}

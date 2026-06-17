@@ -1,0 +1,498 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Completed some college coursework but did not obtain a degree",
+          "Attended community college with focus on business administration and finance courses",
+          "Received on-the-job training in mortgage collections and customer service",
+          "Participated in internal company training programs for credit counseling and account management"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Credit Counselor, Collections Supervisor",
+          "Responsible for managing past due mortgage accounts (1-2 months delinquent)",
+          "Supervises a team of seven collection representatives",
+          "Conducts training for new hires and oversees team performance"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the finance and mortgage lending industry",
+          "Specializes in residential mortgage servicing and collections",
+          "Industry focus on loan management and customer financial counseling"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a large mortgage company with over 10,000 employees",
+          "Operates within a corporate, structured environment",
+          "Company recently underwent a merger which increased emphasis on AI use"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Company serves the residential mortgage market segment",
+          "Handles mortgage origination, servicing, and collections",
+          "Works primarily with clients who have home loans that are past due"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 3-5 years of experience as a Credit Counselor and supervisor",
+          "Started in a collections role before moving into supervisory duties",
+          "Participated in several cycles of company process updates and system changes"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Mid-level professional with supervisory responsibilities",
+          "Directly manages a team and oversees daily operational tasks",
+          "Acts as a key point of contact for training and onboarding new staff"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Handles 60-70 past due mortgage accounts daily, focusing on accounts 1-2 months delinquent",
+          "Sets up and processes payment arrangements with customers",
+          "Supervises seven employees, monitoring their collections work and providing guidance",
+          "Conducts 15 hours of training for new hires every two weeks",
+          "Uses standardized scripting and Salesforce to communicate with clients"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Roughly 60% of time spent on direct collections and customer calls",
+          "Approximately 20% of time spent supervising and supporting team",
+          "About 15% allocated to training new hires and updating training materials",
+          "Remaining 5% used for administrative tasks and system updates"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has moderate autonomy in managing daily workflow and setting priorities",
+          "Follows company protocols and scripts for customer interactions",
+          "Empowered to make minor adjustments to payment plans within company guidelines",
+          "Escalates complex cases or exceptions to higher management"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Conducting scripted calls with past due clients feels routine and straightforward",
+          "Setting up payment arrangements through Salesforce is efficient and familiar",
+          "Mentoring experienced team members on best practices is comfortable",
+          "Using AI-generated scripts for customer engagement is now second nature"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Handling emotionally charged conversations with distressed borrowers",
+          "Managing accounts with unusual circumstances or exceptions to standard protocols",
+          "Balancing team supervision with personal collections targets during high-volume periods",
+          "Adapting training materials to frequent updates in company procedures or AI tools"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Daily data entry of payment statuses and account notes into Salesforce",
+          "Generating and sending routine follow-up emails to clients",
+          "Assigning and tracking standard cases among team members",
+          "Running batch reports on delinquent accounts for management"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys coaching new hires and seeing their progress over training cycles",
+          "Finds satisfaction in successfully negotiating difficult payment arrangements",
+          "Views repetitive data entry and script-based calling as tedious",
+          "Prefers interactive problem-solving over administrative paperwork"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Occasional system slowdowns or outages in the collections platform",
+          "Discrepancies between AI script logic and real customer situations",
+          "Manual data reconciliation required when Salesforce and collections system do not sync",
+          "Limited flexibility in scripting can hinder natural communication"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Higher enjoyment in tasks where skill and autonomy are high, such as team coaching",
+          "Productivity peaks during routine collections calls due to experience and efficient tools",
+          "Lower skill or enjoyment in repetitive administrative updates reduces engagement",
+          "Finds learning new AI features increases both enjoyment and productivity over time"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open and proactive about adopting new technologies that offer workflow improvements",
+          "Views new tech as essential for staying competitive in the mortgage industry",
+          "Regularly volunteers for pilot tests of new software features"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to updates in collections and CRM systems",
+          "Feels comfortable using AI-powered tools after several months of hands-on experience",
+          "Occasionally needs additional time to master advanced reporting features"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Invests approximately 15 hours bi-weekly in training both self and new hires",
+          "Willing to dedicate extra hours when major system upgrades occur",
+          "Prioritizes learning tools that directly impact team efficiency"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential for increased productivity and fewer manual tasks",
+          "Sometimes finds intense workload limits time for in-depth exploration of new features",
+          "Focuses on learning technologies that have clear relevance to day-to-day collections work"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often share tips and shortcuts for using Salesforce and AI tools efficiently",
+          "Management actively encourages adoption by providing incentives for early users",
+          "Team culture values knowledge sharing and open discussion of tech challenges"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Salesforce CRM daily to track customer interactions and payment arrangements",
+          "Relies on a dedicated collections system for account management and tracking",
+          "Frequently interacts with AI-powered scripting tools for customer calls"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Uses email (Outlook) for internal and client communications",
+          "Spreadsheets (Excel) used for team performance tracking and reporting",
+          "Telephone system integrated with CRM for outbound calling"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Well-versed in Salesforce and major mortgage collections platforms",
+          "Understands basics of CRM customization and workflow automation",
+          "Has experience with standard office productivity software (Word, Excel, Outlook)"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasional syncing problems between collections system and Salesforce",
+          "Manual data entry sometimes required to reconcile mismatched records",
+          "Desires tighter integration between AI scripting and account status updates"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands the basics of large language models and how they generate scripts",
+          "Recognizes key AI terms such as 'prompting,' 'model accuracy,' and 'automation'",
+          "Comfortable explaining the difference between rule-based and AI-driven tools"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses an AI scripting tool provided by the company's AI partner (name undisclosed)",
+          "Interacts with Salesforce's AI-driven features for workflow suggestions",
+          "Occasionally experiments with ChatGPT or similar LLMs to draft training materials"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses AI-generated call scripts for every customer interaction",
+          "Applies AI to predict likelihood of payment based on account history",
+          "Relies on AI for drafting common email templates and training guides",
+          "Checks payment status updates generated by AI-powered analytics weekly"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI scripting improved call consistency and compliance post-merger",
+          "Encountered occasional mismatches between AI-generated prompts and real client needs",
+          "Learned that AI works best when paired with human judgment for complex cases",
+          "Resolved early adoption issues by giving feedback to IT on script customization"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Attended company-sponsored workshops on AI tool usage after the 2024 merger",
+          "Peers frequently share tips for prompt engineering and AI troubleshooting",
+          "Internal knowledge base includes FAQs and best practices for AI-driven collections"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration when adopting new AI features",
+          "Values the ability to review AI outputs before taking action",
+          "Uses independent mode for routine, well-understood tasks"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Sees AI as an assistant for scripting and routine process automation",
+          "Acts as a decision-maker, using AI recommendations as input",
+          "Occasionally collaborates with AI as a co-worker, especially in training design"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to new AI workflows if they improve efficiency or compliance",
+          "Actively participates in pilot programs for new AI features",
+          "Encourages team to experiment with AI-driven processes"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Favors conversational interfaces for drafting scripts or training materials",
+          "Uses command-based UI for quick, repetitive tasks in Salesforce",
+          "Believes conversational AI helps less experienced staff adapt more quickly"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many customer interactions require nuanced understanding of financial hardship",
+          "Relies on personal experience to recognize when to deviate from AI scripts",
+          "Supervisory duties depend on reading team dynamics and individual strengths"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Generally trusts AI for routine scripting and status updates",
+          "Double-checks AI recommendations for unusual or high-stakes accounts",
+          "Prefers to make final decisions on complex cases after reviewing AI input"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI automation for repetitive calls and data entry",
+          "Believes human oversight is essential for negotiation and exception handling",
+          "Advocates for a 70/30 split: 70% AI for routine, 30% human for complex cases"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation when tasks are low-risk and clearly defined",
+          "Finds automation threatening if it limits ability to personalize customer service",
+          "Wants transparency in AI decision criteria for trust in high-automation scenarios"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Feels AI enhances efficiency but makes people skills even more critical",
+          "Technical literacy has become more important since AI adoption",
+          "Routine data entry skills are less valued due to automation"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Prompt engineering and script customization for AI tools",
+          "Coaching team members on effective use of AI-generated outputs",
+          "Troubleshooting and escalating AI workflow issues to IT"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mildly concerned about automation of basic collections calls",
+          "Believes supervisory and training roles remain secure due to human judgment needs",
+          "Watches for changes in job description or expectations following major AI upgrades"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Able to edit or override AI-generated scripts before use",
+          "Manual approval required for payment arrangements above a certain threshold",
+          "Team reviews AI decisions in weekly meetings for quality control"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company policies have shifted to mandate AI-script use for compliance",
+          "Regularly updated guidelines clarify when to escalate issues beyond AI scope",
+          "Team is encouraged to provide feedback for future AI tool improvements"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will drive greater efficiency and standardization across the finance sector",
+          "Anticipates some job displacement but also the creation of new tech-focused roles",
+          "Sees AI as a tool to improve customer experience if implemented thoughtfully"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports AI use when transparency and fairness are prioritized",
+          "Concerned about potential for algorithmic bias in automated decision-making",
+          "Advocates for clear ethical guidelines and human oversight in AI deployments"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Wishes for more adaptive, context-aware scripting that can adjust to unique customer situations",
+          "Desires seamless integration of AI analytics with real-time account updates",
+          "Would benefit from AI-driven coaching prompts during live calls"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects more focus on exception handling, coaching, and quality assurance",
+          "Routine tasks likely to be almost fully automated, shifting emphasis to relationship management",
+          "Ongoing need for upskilling in AI oversight and interpretation"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Increase investment in AI training for all staff, not just early adopters",
+          "Establish clear escalation procedures for AI-driven errors or exceptions",
+          "Promote transparency in how AI decisions are made and used in collections"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,492 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds an Associate Degree from a local community college",
+          "Degree focused on business administration and office technology",
+          "Received hands-on training in customer service and administrative software",
+          "Completed coursework in ethics, record management, and communication skills"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Official job title is Customer Service Representative at Planet Fitness",
+          "Primary duties include checking in members, promoting sales, and maintaining cleanliness",
+          "Acts as a frontline staff member responsible for member inquiries and assistance"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the fitness and recreation sector",
+          "Part of the customer service and membership management segment",
+          "Role aligns with municipal and license clerks in terms of administrative duties"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works at a mid-sized gym chain location, Planet Fitness",
+          "Club employs around 15-20 staff members per location",
+          "Work environment is fast-paced, customer-facing, and team-oriented"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Planet Fitness operates in the fitness club and wellness industry",
+          "Business model focuses on affordable gym memberships and retail sales",
+          "Target market includes a broad demographic seeking accessible fitness options"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 1-2 years of experience as a customer service representative",
+          "Started working at Planet Fitness at age 19",
+          "Has completed at least one annual performance review in the current role"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Currently at an entry-level position in the company",
+          "No direct reports; works under supervision of club manager",
+          "Has begun to take on more responsibility as experience grows"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Performs daily club walks to restock sanitization stations and pick up items",
+          "Cleans and maintains the women's locker room, including deep cleaning",
+          "Checks in members using a POS and data tracking system",
+          "Handles member inquiries and promotes sales of gym merchandise",
+          "Monitors and maintains general cleanliness throughout the gym"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends about 40% of shift on cleaning and maintenance tasks",
+          "Member check-ins, inquiries, and sales promotions take up roughly 35% of time",
+          "Administrative and data entry tasks occupy 15% of daily work",
+          "Remaining 10% spent on restocking and miscellaneous duties"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates with moderate autonomy on routine cleaning and restocking decisions",
+          "Escalates unusual member issues or complaints to the manager",
+          "Can independently recommend merchandise or explain membership options",
+          "Follows established protocols for handling membership data and sales"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Greeting and checking in members at the front desk",
+          "Restocking cleaning supplies and sanitization stations",
+          "Basic tidying and surface cleaning of gym areas"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Deep cleaning the women's locker room, especially during busy hours",
+          "Handling member complaints or unusual requests",
+          "Managing the POS system when there are multiple transactions or errors"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Entering member check-in data into tracking systems",
+          "Restocking and inventory checks for cleaning supplies",
+          "Processing routine sales transactions at the POS terminal"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys interacting with members and helping them with inquiries",
+          "Finds promoting sales and explaining membership benefits rewarding",
+          "Views repetitive cleaning tasks as less engaging, especially when traffic is low",
+          "Deep cleaning can feel tedious, especially if done solo for extended periods"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual entry of member information can be time-consuming",
+          "Cleaning schedules can be disrupted by unexpected member traffic",
+          "Difficulty keeping track of inventory levels for supplies without automated alerts",
+          "POS system sometimes lags or requires multiple steps for simple transactions"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Feels most productive and engaged when interacting directly with members",
+          "Tasks that match skill level, like check-ins, are completed faster and with fewer errors",
+          "Less enjoyable tasks can lead to slower completion and reduced attention to detail"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally open and curious about new tech that improves workflow",
+          "Sees value in tools that make daily tasks easier or more efficient",
+          "Prefers hands-on learning rather than theoretical instruction"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to user-friendly software with clear interfaces",
+          "Needs some initial guidance but gains confidence after practice",
+          "Comfortable with regular updates or new features if training is provided"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to set aside time for short, focused training sessions",
+          "Prefers training integrated into work shifts rather than outside hours",
+          "Motivated to learn if the new tool will noticeably reduce manual work"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Primary motivation is making daily tasks more efficient",
+          "Barriers include high workload or lack of immediate relevance to current tasks",
+          "Sometimes hesitant if past tools have been difficult to use or unreliable"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Motivated by positive feedback from coworkers using new tech",
+          "More likely to adopt if management actively supports and provides resources",
+          "Peer demonstrations and team learning sessions increase confidence"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Data Server Track to monitor member check-ins and update records",
+          "Operates a POS system for processing payments and merchandise sales",
+          "Occasionally uses LLMs to generate responses or streamline member inquiries"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on physical cleaning tools such as vacuums, mops, and dusters",
+          "Uses paper checklists for cleaning schedules and restocking duties",
+          "Utilizes storage closets stocked with cleaning and maintenance supplies"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Familiar with POS systems commonly used in gym and retail settings",
+          "Understands basic data security practices for handling member information",
+          "Has exposure to scheduling and shift management software"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "POS system and Data Server Track occasionally require redundant data entry",
+          "Member information updates are not always reflected immediately across all platforms",
+          "No automated sync between inventory tracking and cleaning supply ordering systems"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic concepts like machine learning, natural language processing, and automation",
+          "Has used LLMs (large language models) for generating text and responses",
+          "Knows AI can be used for automating repetitive data entry and customer service tasks"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT or similar LLMs to help draft member communications",
+          "Applies AI-driven features in Data Server Track for report generation",
+          "No dedicated in-house AI platform, but integrates web-based AI tools as needed"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs at least once a week, primarily for customer communication templates",
+          "Applies AI to summarize member inquiries and streamline responses",
+          "Occasionally uses AI for quick knowledge lookups or process suggestions"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI suggested efficient solutions to recurring member issues, saving time",
+          "Encountered AI-generated responses that were too generic and needed manual edits",
+          "Learned that clear prompts yield better AI outputs",
+          "Experienced minor frustration when AI misunderstood nuanced gym policies"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal AI training programs provided by employer",
+          "Peers occasionally share tips for effective AI prompt writing",
+          "Relies on online resources and experimentation to learn new AI features"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration when first using new AI tools",
+          "Becomes more independent as familiarity with the system increases",
+          "Appreciates clear guidance or examples during initial learning"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for repetitive tasks",
+          "Occasionally treats AI as an advisor for improving customer interactions",
+          "Relies on human judgment for final decisions, especially in customer-facing situations"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to trying AI-driven workflows if they clearly reduce manual effort",
+          "Willing to adjust routines for tools that improve efficiency",
+          "Wants assurance that new workflows are reliable and easy to learn"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming or customer communication",
+          "Finds command-based interfaces faster for specific, repeatable tasks",
+          "Likes having the option to switch between modes depending on task complexity"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Some tasks, like handling sensitive member complaints, require personal experience and judgment",
+          "Cleaning protocols are based on both standard procedures and situational awareness",
+          "Membership promotion and sales often benefit from understanding club culture and member preferences"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for routine communications and templated responses",
+          "Verifies AI suggestions before acting on them in complex or sensitive situations",
+          "Less likely to rely solely on AI for critical member account updates or disputes"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to automate repetitive data entry and report generation",
+          "Believes human oversight is necessary for member-facing and nuanced tasks",
+          "Supports a hybrid workflow where AI assists but final decisions remain human"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for back-office or inventory management processes",
+          "Finds high automation less acceptable for customer service or complaint resolution",
+          "Concerned about automation if it reduces meaningful human interactions with members"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Sees AI as enhancing efficiency but not replacing the need for strong communication skills",
+          "Believes adaptability and tech literacy are becoming more important",
+          "Some routine skills, like manual data entry, are less critical due to automation"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing skills in AI prompt writing and output evaluation",
+          "Learning to troubleshoot or correct AI-generated errors",
+          "Taking on informal role of peer support for AI tool adoption"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mildly concerned about automation of simple administrative tasks",
+          "Believes customer service roles will remain due to the need for human empathy",
+          "Watches industry trends but feels secure due to the people-oriented nature of the job"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always reviews AI-generated member communications before sending",
+          "Manually corrects outputs from AI when they don't meet club standards",
+          "POS and data systems allow manual intervention if AI suggestions are incorrect"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company is gradually more open to using AI as a support tool",
+          "No formal AI policy yet, but increased discussion among management",
+          "Team members encouraged to experiment with AI for productivity gains"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI can make routine jobs more efficient and reduce errors",
+          "Sees potential for AI to create new job categories in customer service",
+          "Concerned about potential job losses in highly repetitive administrative roles"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Thinks transparency in AI decision-making is essential",
+          "Wants AI tools to respect member privacy and data security",
+          "Believes over-reliance on AI could erode essential people skills"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would like AI to automate more of the check-in and sales process for members",
+          "Desires real-time inventory tracking and automated supply ordering",
+          "Wants smarter AI that can handle nuanced member requests without losing the personal touch"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects more tasks to be automated, shifting the focus to member experience",
+          "Predicts need for stronger tech skills and adaptability",
+          "Believes the human element of customer service will remain central despite automation"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement structured training for staff on effective AI use",
+          "Develop clear guidelines for when to use AI versus human judgment",
+          "Involve frontline employees in feedback and evaluation of new AI tools"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,509 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s Degree from a four-year university",
+          "Major likely in Supply Chain Management, Business Administration, or a related field",
+          "Completed coursework in data analysis, logistics, and operations management",
+          "No postgraduate education yet, as currently early in career",
+          "Participated in at least one internship related to supply chain during undergraduate studies"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Supply Chain Manager (Entry Level)",
+          "Primary role involves reviewing and validating supply chain data reports",
+          "Responsible for identifying data inconsistencies and reporting them to management",
+          "Supports daily operations by ensuring data accuracy in supply chain metrics"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the supply chain management sector",
+          "Likely employed in manufacturing, retail, or distribution/logistics",
+          "Focuses on inventory, procurement, and logistics data"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed by a medium to large-sized company with multiple supply chain operations",
+          "Works in a collaborative office environment with a direct reporting line to a manager",
+          "Company likely has established processes and structured data reporting tools"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Operates within a business-to-business (B2B) environment",
+          "Company involved in product distribution or manufacturing",
+          "Supply chain processes are critical to business operations"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Less than 1 year of experience as a Supply Chain Manager",
+          "Started in current full-time role immediately after completing undergraduate degree",
+          "Currently in the first year of post-graduate employment"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Entry-level professional",
+          "Holds a junior management position within the supply chain department",
+          "Reports directly to a more senior manager",
+          "Responsible for routine and operational tasks rather than strategic decision-making"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Downloads supply chain performance reports, primarily from Tableau",
+          "Uploads and maintains data in Google Sheets for the team",
+          "Checks data for errors or anomalies and flags inconsistencies",
+          "Communicates any identified issues directly to manager each morning",
+          "Updates and prepares reports for management distribution daily"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 70% of the workday reviewing and preparing reports",
+          "About 15% of the time is spent updating data in Google Sheets",
+          "Roughly 10% of time is devoted to communicating findings to manager",
+          "Remaining time allocated to miscellaneous tasks and process improvements"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has autonomy to identify and flag data discrepancies independently",
+          "Final decisions or actions based on findings are made by direct manager",
+          "Limited authority for process changes; suggestions are routed through management",
+          "Operates within established SOPs and reporting guidelines"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Downloading and accessing reports from Tableau is routine and straightforward",
+          "Uploading data to Google Sheets is quick and familiar",
+          "Identifying obvious data errors (e.g., missing values, clear outliers) is relatively easy",
+          "Communicating routine findings to the manager is handled with confidence"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Distinguishing between genuine data anomalies and acceptable variances can be difficult",
+          "Understanding the root cause of certain data inconsistencies requires more experience",
+          "Optimizing data workflows or suggesting improvements feels complex due to lack of tenure",
+          "Balancing accuracy with speed, especially under tight deadlines, is challenging"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Daily downloading, uploading, and formatting of reports is highly repetitive",
+          "Routine data validation checks could be automated with scripts or AI tools",
+          "Transferring data between Tableau, Google Sheets, and Microsoft Excel is labor-intensive",
+          "Flagging standard anomalies or missing data is amenable to automation"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys troubleshooting unique data issues and understanding their impact",
+          "Finds it engaging to spot patterns or trends in supply chain reports",
+          "Feels bored by repetitive data entry and report formatting tasks",
+          "Tediousness arises from manual data transfers and routine checks"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual downloading and uploading between platforms is time-consuming",
+          "Occasional formatting issues cause delays when importing data to G-sheets",
+          "Lack of integration between Tableau and Google Sheets creates extra steps",
+          "Identifying subtle data issues sometimes requires more domain knowledge than currently possessed"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Higher enjoyment and productivity are linked when solving new problems or learning",
+          "Feels most productive when tasks are both engaging and within skill set",
+          "Repetitive tasks are performed quickly due to familiarity, though with lower enjoyment",
+          "Developing new skills in analytics or automation is both enjoyable and seen as a productivity booster"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open and positive about adopting new technologies",
+          "Sees technology as a means to improve efficiency and reduce manual workload",
+          "Eager to try new tools that can automate repetitive tasks"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Considers themselves quick to learn new software, especially data-related tools",
+          "Experience with regularly picking up updates in Tableau and Google Suite",
+          "Adapts well to process changes or new workflow integrations"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate several hours per week to learn new tools if they are relevant to daily work",
+          "Prefers hands-on, practical training modules or guided tutorials",
+          "Sees tech training as beneficial for career progression"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential to reduce repetitive workload and increase efficiency",
+          "Sometimes workload pressures make it hard to prioritize training",
+          "Needs to see clear relevance to current tasks to justify time investment"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Manager encourages the exploration of technologies that improve reporting accuracy",
+          "Peers who successfully use new tools inspire adoption and knowledge sharing",
+          "Team culture values tech-savviness and rewards initiative in tool adoption"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Tableau daily for accessing and analyzing supply chain reports",
+          "Uploads and shares data via Google Sheets as part of daily workflow",
+          "Relies on Microsoft Excel for ad hoc data manipulation and formatting",
+          "Leverages Google Workspace (Docs, Slides, Gmail) for communication and collaboration"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Google Sheets is critical for data sharing and real-time collaboration",
+          "Microsoft Excel is used for detailed data analysis and formatting",
+          "Email (Gmail/Outlook) used for routine communication with manager and team"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Comfortable with Tableau as a leading analytics platform",
+          "Familiar with both Google and Microsoft productivity suites",
+          "Aware of ERP systems like SAP or Oracle, but limited hands-on experience",
+          "Some exposure to basic scripting or automation tools through online resources"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Manual process needed to transfer data from Tableau to Google Sheets",
+          "Occasional formatting errors occur when moving data between Excel and Sheets",
+          "Lack of direct integration between reporting and collaboration platforms increases workload",
+          "Would benefit from more seamless data pipelines between tools"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic concepts like machine learning, natural language processing, and automation",
+          "Comfortable with terms such as 'large language models' and 'predictive analytics'",
+          "Has read introductory articles or taken short courses on AI fundamentals"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses large language model-based chatbots (e.g., ChatGPT or Gemini) daily",
+          "Occasionally leverages AI-powered features within Google Workspace (like Smart Compose)",
+          "Has experimented with AI-driven data cleaning tools online"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs every day to help draft reports, check data logic, or summarize findings",
+          "Relies on AI chatbots to troubleshoot Excel and Tableau formulas",
+          "Consults LLMs for recommendations on automating repetitive reporting tasks",
+          "Occasionally uses AI to generate template emails or documentation"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI successfully flagged a recurring formula error in a supply chain report, saving time",
+          "LLM once misunderstood a prompt and provided irrelevant data-cleaning advice, requiring manual correction",
+          "Discovered that AI-generated summaries need to be reviewed for accuracy before sharing with manager",
+          "AI tools helped speed up email drafting, but sometimes produced overly generic messages"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal AI training offered by the company yet",
+          "Peers occasionally share tips or prompt ideas for LLMs informally",
+          "Relies on self-guided learning and online tutorials to improve AI tool use",
+          "Manager is supportive of AI experimentation but no structured resources are provided"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI tools for complex tasks",
+          "Uses AI independently for quick lookups or simple automations",
+          "Finds a back-and-forth approach effective when troubleshooting workflow problems"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as a digital assistant or advisor",
+          "Uses AI to supplement personal judgment, not replace it",
+          "Sees AI as a 'junior co-worker' that can handle routine or repetitive queries"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to incorporating AI-driven steps if they increase efficiency",
+          "Eager to experiment with new AI features as they become available",
+          "Willing to adjust work habits to integrate AI more deeply into daily routines"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming, learning, and troubleshooting",
+          "Uses command-based prompts for routine automations or data tasks",
+          "Finds natural language interactions lower the barrier to entry for new AI features"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many daily tasks require basic data analysis but are not highly specialized",
+          "Flagging non-obvious data issues occasionally needs contextual supply chain knowledge",
+          "Relies on manager for interpretation of more nuanced or business-critical data anomalies"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for routine tasks like report drafting or formula checks, with human review",
+          "Does not fully rely on AI recommendations for business-critical decisions",
+          "Always reviews AI-generated content before sharing with manager"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI automation for repetitive, rule-based processes",
+          "Values human oversight for tasks involving judgment or business implications",
+          "Believes the best results come from combining AI efficiency with human context"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for data transfer, report formatting, or scheduling",
+          "Views automation of judgment-based tasks as potentially risky without oversight",
+          "Would feel threatened only if automation replaced core analytical responsibilities"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the importance of analytical and problem-solving skills",
+          "Sees manual data entry skills as becoming less critical due to automation",
+          "Considers adaptability and tech-savviness as increasingly valuable"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning prompt engineering for effective LLM use",
+          "Monitoring and quality-checking AI-generated outputs",
+          "Developing basic skills in scripting or automation tools",
+          "Evaluating the impact of AI recommendations on supply chain metrics"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mild concern about automation of highly repetitive reporting tasks",
+          "Believes unique analytical and judgment-based work is less likely to be automated",
+          "Views AI as a tool to augment, not replace, the role"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Maintains manual review checkpoints for any AI-generated data or reports",
+          "Always verifies AI recommendations before taking action",
+          "Company requires human review of all critical data submissions"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company is cautiously open to AI experimentation but lacks formal policies",
+          "Team encourages sharing of AI best practices informally",
+          "No mandatory AI use, but adoption is increasing organically"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will drive significant efficiency gains in supply chain management",
+          "Thinks AI will create new types of jobs focused on oversight and strategy",
+          "Acknowledges risks of job displacement in repetitive roles"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports transparent AI systems with clear accountability",
+          "Worried about potential for AI to propagate data errors if not monitored",
+          "Believes human oversight is essential to mitigate ethical risks",
+          "Values privacy and data security in AI-enabled workflows"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Wants AI tools that give actionable recommendations to meet monthly goals",
+          "Would benefit from seamless integration between Tableau, Google Sheets, and Excel",
+          "Desires AI-driven anomaly detection tailored to supply chain data",
+          "Seeks customizable AI workflows for report automation"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects manual data tasks to be almost fully automated within a decade",
+          "Anticipates focusing more on analytical, strategic, and exception-based work",
+          "Foresees growing responsibility for managing and validating AI-powered systems",
+          "Believes continuous learning of AI tools will be essential for career growth"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Wants the company to provide structured AI training and certification",
+          "Hopes for investment in integrating AI into daily reporting workflows",
+          "Recommends establishing clear guidelines for human-AI collaboration",
+          "Suggests pilot projects to evaluate AI effectiveness before full-scale adoption"
+        ]
+      }
+    ]
+  }
+]

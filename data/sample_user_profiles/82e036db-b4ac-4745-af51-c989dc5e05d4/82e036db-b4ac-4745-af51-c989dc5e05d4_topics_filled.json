@@ -1,0 +1,539 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a high school diploma",
+          "Received on-the-job training specific to customs brokerage procedures",
+          "Completed industry webinars and online courses on international trade regulations",
+          "Participated in employer-sponsored compliance seminars",
+          "No formal college degree, but stays current through self-directed learning"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Customs Broker",
+          "Responsible for preparing and submitting customs documentation for imports and exports",
+          "Ensures client shipments comply with international trade regulations",
+          "Acts as the primary point of contact for customs clearance issues",
+          "Advises clients on tariff classification and duty calculations"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the international logistics and trade compliance sector",
+          "Operates within the supply chain and freight forwarding industry",
+          "Regularly interacts with shipping, import/export, and government sectors",
+          "Focuses primarily on global trade operations",
+          "Engages with a range of industries shipping goods internationally"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-sized customs brokerage and logistics firm",
+          "Company staff includes 50-200 employees across multiple departments",
+          "Works in an office environment with a mix of in-person and remote communication",
+          "Collaborates with small, specialized teams focused on different client accounts"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Firm provides customs clearance and compliance services to importers/exporters",
+          "Clients include small businesses, manufacturers, and e-commerce retailers",
+          "Business segment focuses on facilitating international trade and regulatory compliance",
+          "Handles a mix of commercial and occasional personal shipments"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 1-2 years of experience as a Customs Broker",
+          "Started in the role at age 27",
+          "Rapidly progressed from trainee to full broker within current tenure",
+          "Has handled hundreds of shipment cases since starting"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Considered an entry-level to early-career professional",
+          "Works under supervision of senior brokers for complex cases",
+          "Independently manages routine shipments and documentation tasks",
+          "Regularly participates in skill-building and training to advance career"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Prepares and submits customs entry documentation for import/export shipments",
+          "Classifies goods using the Harmonized Tariff Schedule (HTS/HS codes)",
+          "Calculates duties, taxes, and other government fees for clients",
+          "Communicates with clients, freight forwarders, and customs officials to resolve issues",
+          "Monitors shipment status and ensures compliance with all regulations"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "30-35% of time spent on documentation and compliance checks",
+          "20-25% dedicated to classifying goods and duty calculations",
+          "20-25% on coordinating with clients, logistics partners, and government agencies",
+          "10-15% resolving customs holds or addressing shipment issues",
+          "5-10% staying updated on regulatory changes and compliance trends"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has autonomy to handle routine documentation and standard shipments independently",
+          "Escalates complex or high-risk cases to senior brokers for review",
+          "Makes day-to-day decisions on document preparation, classification, and client communication",
+          "Follows established procedures and compliance checklists for most tasks",
+          "Participates in collaborative problem-solving for unusual or sensitive shipments"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Filling out standard customs entry forms using brokerage software",
+          "Communicating routine shipment updates to clients via email or phone",
+          "Using HS code lookup tools to classify common or familiar goods",
+          "Reviewing straightforward invoices and packing lists for completeness"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Classifying unfamiliar, multi-component, or ambiguous goods under correct HS codes",
+          "Resolving customs holds due to document discrepancies or regulatory issues",
+          "Interpreting rapidly changing trade regulations or complex tariff agreements",
+          "Handling shipments with special permit, embargo, or restricted goods requirements",
+          "Negotiating with customs authorities over valuation or classification disputes"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Manual data entry of shipment information into customs software",
+          "Extracting details from commercial invoices, packing lists, and bills of lading",
+          "Generating and submitting routine customs declarations for standard shipments",
+          "Cross-referencing product data with tariff schedule databases"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys problem-solving and resolving challenging customs holds",
+          "Finds client interaction and explaining compliance requirements rewarding",
+          "Considers repetitive data entry and document checking tedious",
+          "Prefers tasks involving learning new regulations or leveraging AI tools for efficiency"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual data extraction from unstructured documents is time-consuming",
+          "Integration issues between brokerage software and government portals cause delays",
+          "Frequent regulatory updates require constant learning and process adjustment",
+          "Incomplete or incorrect documentation from clients leads to shipment holds"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Feels most productive and engaged when tasks align with problem-solving skills",
+          "Enjoyment increases when AI tools or automation reduce repetitive workload",
+          "Skill growth is fastest when handling new or challenging shipment scenarios",
+          "Productivity drops when bogged down by manual entry or unclear documentation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open and proactive about adopting new technologies that improve workflow",
+          "Sees learning new software as essential to staying competitive in customs brokerage",
+          "Views tech adoption as an opportunity for personal and professional growth",
+          "Regularly seeks out updates and new features in existing tools"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new software, especially when it streamlines repetitive tasks",
+          "Comfortable experimenting with AI-driven tools and integrations",
+          "Requires minimal ramp-up time when new systems resemble familiar interfaces",
+          "Occasionally needs extra support for highly technical or complex systems"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate several hours per month to structured tech training",
+          "Prefers hands-on or video-based learning formats for new software",
+          "Sees direct correlation between training time and increased efficiency",
+          "Balances training with workload to avoid falling behind on client tasks"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential to automate routine tasks and reduce errors",
+          "Barriers include high workload periods where time for training is limited",
+          "More likely to learn new tools when they are directly relevant to daily responsibilities",
+          "Peer recommendations and management support increase motivation to learn"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers regularly share tips and best practices for using brokerage software and AI tools",
+          "Management encourages experimentation with new technologies that improve compliance",
+          "Team culture supports early adoption of proven tools and process improvements",
+          "Positive feedback from colleagues increases confidence in adopting new solutions"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Descartes and CargoWise daily for customs entry and shipment management",
+          "Submits filings through government portals such as ACE (U.S.) or CBSA (Canada)",
+          "Relies on Microsoft Outlook and Teams for client and team communication",
+          "Regularly accesses WCO Harmonized System for HS code lookups"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "QuickBooks is used for billing and invoice management",
+          "SharePoint and Dropbox serve as document storage and recordkeeping solutions",
+          "Standard office equipment (scanners, printers) is used for physical document handling",
+          "Phone systems are utilized for immediate client or partner contact"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Comfortable with leading customs brokerage platforms and government e-filing systems",
+          "Familiar with SAP modules for logistics and accounting where applicable",
+          "Regularly uses web-based tariff lookup and compliance tools",
+          "Aware of newer AI-powered features in core software"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces data transfer issues between brokerage software and government portals",
+          "Document management systems are not fully integrated with customs platforms, requiring manual uploads",
+          "Inconsistent file formats from clients can disrupt workflow automation",
+          "Relies on manual checks to ensure billing software aligns with customs records"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic AI concepts like natural language processing and machine learning",
+          "Familiar with terms such as 'large language models', 'classification', and 'automation'",
+          "Has self-taught knowledge from online resources and work experience",
+          "Actively follows news on AI advancements in trade compliance"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses LLM-based tools (e.g., ChatGPT or similar) to assist with document drafting",
+          "Employs AI-powered HS code suggestion features in CargoWise",
+          "Leverages AI-enhanced data extraction tools for invoice and packing list processing",
+          "Tests AI chatbots for routine client inquiries and document status updates"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies AI tools daily for extracting shipment data from unstructured documents",
+          "Uses AI suggestions for classifying complex or unfamiliar products",
+          "Relies on LLMs for drafting client communications and checking regulatory language",
+          "Employs AI-driven compliance checks before submitting customs declarations"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI-assisted HS classification has reduced errors and saved time on complex cases",
+          "Once experienced an incorrect duty calculation due to AI misinterpretation of product data",
+          "Found that AI tools are most reliable when combined with manual oversight",
+          "Learned to verify AI outputs on high-risk or high-value shipments"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company provides occasional internal workshops on AI features in core software",
+          "Peers share AI usage tips via team meetings and online chat groups",
+          "Relies on software vendor webinars for updates on AI-powered functionality",
+          "Encouraged to experiment and share feedback on new AI tools with management"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI for complex or unfamiliar tasks",
+          "Uses AI independently for routine document generation and data entry",
+          "Finds value in AI-driven suggestions but likes to double-check final outputs",
+          "Adapts interaction style based on task complexity and urgency"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI as a digital assistant for routine and repetitive tasks",
+          "Relies on AI as an advisor for tricky classification decisions",
+          "Treats AI as a co-worker during busy periods to manage higher volume",
+          "Maintains final decision authority on all critical submissions"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to AI-driven workflow changes that improve efficiency",
+          "Actively participates in pilot programs for new AI features",
+          "Encourages colleagues to share feedback on AI adoption experiences",
+          "Willing to adjust processes if AI automation proves reliable"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for exploring complex regulatory questions",
+          "Uses command-based interfaces for quick, repetitive AI-assisted tasks",
+          "Finds chat-based LLMs helpful for troubleshooting or brainstorming",
+          "Switches between interface types depending on the task requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many tasks require deep understanding of international trade regulations",
+          "Tacit knowledge is critical for interpreting ambiguous product information",
+          "Relies on experience to spot red flags that automated checks might miss",
+          "AI is helpful but does not fully replace human judgment for complex cases"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for routine data extraction and standard HS code suggestions",
+          "Always reviews AI outputs before submitting critical customs filings",
+          "Less trusting of AI when handling high-value or sensitive shipments",
+          "Uses AI as an initial filter rather than a final authority"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI automation for repetitive data entry and document review",
+          "Believes human oversight is essential for compliance and risk management",
+          "Sees best results when AI and human expertise are combined",
+          "Advocates for automation of routine tasks, freeing up time for problem-solving"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for low-risk, well-documented shipments",
+          "Sees high automation as threatening when it bypasses required compliance checks",
+          "Prefers manual intervention on shipments involving new regulations or unusual goods",
+          "Believes transparency and override options are critical for trust in automation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Views AI as enhancing the importance of analytical and problem-solving skills",
+          "Believes routine data entry skills are becoming less critical due to automation",
+          "Sees increased value in domain expertise and regulatory interpretation",
+          "Finds that communication and client management remain essential skills"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing skills in AI-driven data validation and exception management",
+          "Becoming adept at training and fine-tuning AI tools for customs-specific tasks",
+          "Learning to interpret and audit AI-generated reports for compliance",
+          "Taking on more advisory and client-facing roles as routine tasks automate"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Some concern about automation reducing demand for entry-level data entry roles",
+          "Does not feel core advisory and compliance tasks are at risk from AI",
+          "Believes human oversight will remain crucial for regulatory and client issues",
+          "Sees AI as an opportunity to focus on higher-value work"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All AI-driven classification and duty calculations are reviewed before submission",
+          "Manual override is available on all brokerage software platforms used",
+          "Company policy requires dual-checking AI outputs on complex shipments",
+          "Regular compliance audits include spot-checks of AI-assisted entries"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company is increasingly open to AI adoption, especially for document processing",
+          "Team policies emphasize responsible AI use and human review",
+          "Encouraged to provide feedback on AI tools to inform future policy changes",
+          "Recent updates include formal training on integrating AI with compliance processes"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will significantly improve efficiency in international trade",
+          "Expects AI to reduce administrative bottlenecks and customs delays industry-wide",
+          "Anticipates job roles will shift towards more analytical and client-facing work",
+          "Recognizes potential for AI to level the playing field for smaller firms"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes transparency and explainability are essential for ethical AI use",
+          "Worries about potential bias or errors in AI-driven compliance decisions",
+          "Supports clear guidelines for responsible AI deployment in customs brokerage",
+          "Advocates for maintaining human accountability in all regulatory processes"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires fully automated document extraction from all unstructured formats",
+          "Would benefit from real-time AI alerts for regulatory or tariff changes impacting shipments",
+          "Wants smarter AI that can reason about ambiguous or multi-component products",
+          "Envisions integrated AI chatbots for seamless client communication and status updates"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects to spend less time on data entry and more on compliance consulting",
+          "Foresees AI handling the bulk of routine customs clearance processes",
+          "Anticipates new roles focused on AI oversight, auditing, and exception management",
+          "Believes ongoing learning and adaptability will become even more important"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Invest in continuous training for all staff on AI best practices and updates",
+          "Develop clear policies for human-AI collaboration and responsibility",
+          "Pilot and scale new AI tools incrementally, with robust feedback loops",
+          "Prioritize integration of AI with existing compliance and document management systems"
+        ]
+      }
+    ]
+  }
+]

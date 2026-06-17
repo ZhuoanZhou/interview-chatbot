@@ -1,0 +1,207 @@
+# Biographical Notes
+
+- Encourage pilot projects to evaluate new AI tools before wide-scale adoption
+- Prefers conversational interfaces like ChatGPT for brainstorming or code review
+- Prefers to take walking routes home that follow old historic city maps.
+- Uses a hand-carved wooden box to store all their field notes and personal mementos.
+- Frequently encounters challenges when transferring data between ArcGIS and QGIS due to file format compatibility
+- Routine quality checks on spatial data layers
+- Would benefit from AI that can summarize and synthesize research literature efficiently
+- Enjoys sketching imagined city layouts or alternate reality maps inspired by sci-fi novels.
+- University offers periodic workshops on AI and machine learning applications in GIS
+- Often collaborates with public sector agencies on spatial data projects
+- Prefers AI automation for routine data cleaning and basic coding tasks
+- Organizes a weekly 'Maps & Mugs' social event where colleagues share stories over coffee.
+- Practices origami during lunch breaks, specializing in folding paper into miniature topographic maps.
+- Occasionally participates in university-sponsored workshops on advanced GIS methods
+- Establish clear ethical guidelines for AI use in research and data analysis
+- Debugging advanced geospatial scripts, especially with complex data formats
+- Has a corkboard in their office where they pin funny or unusual place names discovered during research.
+- Not worried about AI replacing core research or mentoring responsibilities
+- Owns a vintage globe that lights up and rotates, gifted by a mentor during grad school.
+- Uses AI for grammar checking and paraphrasing sections of academic writing
+- Maintains a playlist of ambient nature sounds to boost concentration while working.
+- Moderate trust in AI for code debugging and grammar checking tasks
+- Learning to validate and interpret AI outputs effectively
+- Has a habit of doodling contour lines or small islands on scrap paper during phone calls.
+- Occasional issues with coordinate reference system mismatches across tools
+- Grows a small herb garden on their office windowsill named after world mountain ranges.
+- Applies machine learning models to classify land cover in satellite imagery bi-monthly
+- Views continuous learning as essential for staying current in the field
+- Is known to bring a quirky geographic-themed joke or pun to morning meetings.
+- Advocates for transparent AI algorithms and explainable outputs
+- Familiar with terminology like supervised/unsupervised learning, neural networks, and LLMs
+- Processes and analyzes large geospatial datasets using ArcGIS Pro, QGIS, and Python
+- Has implemented simple classification and clustering algorithms in Python for spatial data
+- Expects to collaborate more frequently with interdisciplinary teams leveraging AI
+- Most likely to adopt new tech when it is directly relevant to current projects
+- Time-consuming manual data entry for field collection
+- Keeps a rotating collection of quirky desktop backgrounds featuring unusual or old-fashioned maps.
+- Competes in escape rooms, often taking the lead with their map-reading and navigation skills.
+- Highest productivity when working on tasks that align with expertise, such as spatial analysis
+- Is an amateur astronomer who enjoys mapping star constellations on clear nights.
+- Explores AI-powered features in ArcGIS Pro, such as object detection in imagery
+- Less likely to trust AI for high-stakes methodological decisions without human verification
+- Debugging code, especially when documentation is sparse
+- Views AI as a tool to augment, rather than replace, human judgment in spatial analysis
+- Starts every morning by reading a random trivia fact about a country or city from an atlas app.
+- Paper writing is engaging when presenting novel findings, less so for repetitive sections
+- Prefers step-by-step collaboration when using AI for code debugging or writing assistance
+- Emphasizes the growing importance of domain expertise and critical thinking in the AI era
+- Considered early-career but with advanced academic credentials
+- Likes to prepare themed playlists inspired by the regions of the world currently in research focus.
+- Participated in academic conferences during graduate studies, presenting research on spatial data science
+- Has a collection of small world flags pins earned from conferences and workshops.
+- Developing prompt engineering skills to better interact with LLMs
+- Completed undergraduate and master's degrees in related fields prior to PhD
+- Addressing reviewer comments and major revisions on paper submissions
+- Organizes an annual geo-themed trivia night for colleagues and friends.
+- Peers often share AI-related resources or tips via research group chat
+- Works within a small research group of 8-10 members
+- Adapts quickly to new tools due to strong technical foundation
+- Has a habit of naming their houseplants after famous explorers and cartographers.
+- Motivated by the potential to automate or accelerate existing workflows
+- Always manually reviews AI-generated code and outputs before finalizing work
+- Relies on Microsoft Office Suite for documentation and collaboration
+- Keeps a quirky tradition of naming coffee blends after global geographic features they admire.
+- Most AI learning is self-directed, supplemented by online courses on platforms like Coursera or edX
+- Frequently incorporates updates in R, Python libraries, and GIS platforms
+- Successfully used ChatGPT to debug a complex geospatial Python script, saving several hours of troubleshooting
+- Interacts with ChatGPT multiple times a week for code assistance and writing support
+- Batch geocoding of addresses for large survey datasets
+- Envisions a workflow where AI handles repetitive groundwork, freeing up time for higher-level problem solving
+- Understands basic machine learning workflows such as data preprocessing, model training, and evaluation
+- No formal AI adoption policy yet, but discussions are ongoing
+- Operates with substantial autonomy in analytical approaches and tool selection
+- Writes research papers and grant proposals as part of academic role
+- High automation is acceptable when tasks are well-defined and outcomes easily validated
+- Sees potential for AI to democratize access to advanced analytical techniques
+- Routine coding and data cleaning skills may become less critical over time
+- Increase investment in AI training and professional development for research staff
+- Integration of Python scripts in ArcGIS Pro sometimes requires additional configuration
+- Highly proficient in ArcGIS Pro, QGIS, R, and Python, considered industry standards in GIS
+- Optimistic about AI's potential to accelerate scientific discovery in GIS and other fields
+- Has a collection of postcards pinned to a board, each from a city where GIS projects were conducted.
+- Displays an ever-growing set of patches from national parks and outdoor reserves on a backpack.
+- Is an avid birdwatcher and keeps a notebook mapping local bird sightings.
+- Occasionally treats AI as a co-worker when exploring new research ideas
+- Integrating disparate datasets from multiple sources
+- Believes AI enhances productivity but increases the need for advanced analytical skills
+- Uses Google Drive for cloud storage and sharing datasets
+- Data entry and formatting for participant visit logs
+- Adopts a ‘no GPS day’ once a month to practice traditional navigation skills while hiking.
+- Field data collection takes up about 10-15%, depending on project stage
+- Collaborative writing workflows can be slowed by version control issues
+- Bakes cookies decorated with edible map prints for team celebrations.
+- Enjoyment increases with tasks that offer intellectual challenge and learning opportunities
+- Management is supportive of technology adoption if it improves research outcomes
+- Basic familiarity with other mapping tools such as Mapbox and OpenStreetMap
+- Has worked as a GIS technologist for 3-5 years post-PhD
+- Employed at a mid-sized research university with 5,000-10,000 students
+- Works in the academic research sector
+- Keeps a small collection of old compasses that belonged to relatives or field researchers.
+- Views AI primarily as an assistant for routine or repetitive tasks
+- Proactively experiments with beta versions of relevant software
+- Field data collection and interpretation depend on nuanced knowledge of local geography
+- Feels automation is threatening if it risks introducing errors in complex, context-sensitive analyses
+- Once tried to recreate famous explorers’ routes on a long-distance road trip for fun.
+- Believes AI will become a standard tool in academic research within a decade
+- Occasionally found that LLM-generated code required manual optimization for performance
+- Interacts with ChatGPT weekly for assistance with Python scripting and proposal writing
+- Collaborative projects sometimes necessitate learning tools preferred by other team members
+- Generating basic maps and visualizations in ArcGIS Pro
+- Attended several workshops on remote sensing, spatial data analysis, and GIS technologies
+- Proactively seeks out updates and best practices for integrating AI into spatial analysis
+- Open to adopting AI-driven workflows if they demonstrably save time or improve accuracy
+- Acquiring familiarity with new AI-enabled features in GIS software
+- Employs R and Python for statistical analysis and scripting workflows
+- Makes recommendations on methodologies for spatial analysis and visualization
+- Specializes in geospatial data analysis for environmental and social sciences
+- Learns a phrase or greeting in the local language before visiting a new country for fieldwork.
+- Academic research focused on spatial analysis and geoinformatics
+- Participates in charity bike rides, often planning routes that follow interesting geographic features.
+- Owns a vintage map poster from the 19th century framed in their home office.
+- Willing to dedicate up to several hours weekly when learning tools that directly impact workflow
+- Uses ChatGPT regularly for code debugging and text generation
+- Contributes to paper and proposal writing as a key team member
+- Independently schedules and conducts participant visits for data collection
+- Uses a vintage slide rule alongside a modern calculator as a nostalgic desk ornament.
+- Comfortable troubleshooting unfamiliar software through self-guided learning
+- Uses command-based interfaces for scripting and automation in Python/R
+- Conducts field visits for data collection, typically lasting around two hours
+- Has a coffee mug collection featuring landmarks from every continent.
+- Writes and edits research papers and grant proposals
+- Allocates time monthly to complete online tutorials or webinars
+- AI grammar checker improved clarity of a submitted paper, reducing reviewer requests for edits
+- Peers often share tool recommendations, influencing adoption decisions
+- Many spatial analysis tasks require deep understanding of geostatistics and domain-specific context
+- Hosts an annual pizza party themed around international geographic discoveries.
+- Experienced with Google Earth Engine's cloud processing environment
+- Holds a Doctorate (PhD) in Geography with a focus on Geographic Information Systems (GIS)
+- Built a terrarium shaped like a miniature ecosystem inspired by their spatial analysis studies.
+- Keeps a detailed travel journal filled with hand-drawn maps of places visited.
+- Projects often funded through government grants and research foundations
+- Generally enthusiastic about exploring new GIS and data science tools
+- Wears socks with map patterns to academic conferences as a conversation starter.
+- Mentors undergraduate and graduate students in geospatial methods
+- Willing to pilot new AI features in GIS tools as they become available
+- Automated report generation from standard analysis pipelines
+- Provides consulting and data analysis for public sector organizations
+- Enjoys creating custom map-themed crossword puzzles for friends and family.
+- Team has become more open to integrating AI tools in recent years
+- Uses ArcGIS Pro and QGIS for spatial data visualization and analysis
+- Maintains a tradition of sketching a new map in a journal each year, capturing imagined places.
+- Collaborative, interdisciplinary environment with frequent meetings and discussions
+- Collaborates with principal investigators on major project decisions
+- Paper writing often incorporates theoretical frameworks not easily captured by AI
+- Completed several research projects in the past 4 years
+- High workload near proposal deadlines can limit time available for training
+- Cloud-based processing in Google Earth Engine may not seamlessly export to local desktop GIS
+- Has a pet named ‘Topo’ inspired by topographic maps.
+- Enjoys developing new spatial analysis methods and visualizations
+- Supports guidelines for responsible use of AI in academic research
+- Collects quirky souvenir fridge magnets shaped like national parks visited on vacation.
+- Often tests AI-generated solutions independently before integrating into main workflow
+- Desires more robust AI-powered integration between GIS platforms and scripting tools
+- Relies on AI as an advisor for syntax or code optimization questions
+- Envisions spending less time on repetitive coding and more on hypothesis generation
+- Previously held internships and research assistantships during graduate studies
+- Employs scikit-learn and TensorFlow in Python for basic machine learning tasks
+- Employs GPS devices or mobile apps for field data collection
+- Spatial data preprocessing and cleaning in R and Python
+- Responsible for GIS data collection, data analysis, and spatial data visualization
+- Prefers to use colored sticky notes shaped like country flags for quick reminders at their desk.
+- Mentoring students is enjoyable and reinforces own skills while contributing to team productivity
+- Repetitive, low-skill tasks tend to reduce motivation and overall productivity
+- Favors human oversight for interpretive analysis and methodological decisions
+- Developing custom geoprocessing workflows in Python or Google Earth Engine
+- Tool interoperability issues between ArcGIS Pro, QGIS, and Python
+- Has a standing desk treadmill combo that they use to walk slowly while reading papers.
+- Mentors students in GIS techniques and research methodology
+- Considers routine data cleaning and formatting somewhat tedious
+- Wishes for context-aware AI assistants tailored to geospatial research tasks
+- Incorporates validation steps in analysis pipelines to catch potential AI errors
+- Keeps a large wall map in the office marked with pins indicating places where team members are from.
+- Sometimes uses AI as a brainstorming partner for developing novel analysis approaches
+- Paper and proposal writing accounts for approximately 35% of time, especially near deadlines
+- Mentoring and meetings comprise the remaining 10-15%
+- Acts as a mentor for students and junior research staff
+- Colleagues increasingly share AI resources and encourage experimentation
+- Facilitate forums for sharing AI best practices and lessons learned within the organization
+- Job title: Geographic Information Systems Technologist
+- A machine learning model misclassified some rare land cover types due to insufficient training data, highlighting need for careful dataset curation
+- Mentoring students on standard GIS workflows
+- Utilizes Google Earth Engine for remote sensing and large-scale geospatial processing
+- Anticipates mentoring will shift towards teaching AI literacy and critical evaluation skills
+- Acknowledges concerns about data privacy and bias in AI systems
+- Worries about over-reliance on AI without sufficient domain oversight
+- Finds field visits engaging due to real-world data interaction
+- Switches between interface styles depending on task complexity and context
+- Drafting initial sections of research papers
+- Has a drawer full of colorful pens specifically for annotating physical maps and notebooks.
+- Mild concern about automation of repetitive elements of the role (e.g., data cleaning)
+- Accepts high automation for basic tasks like format conversion or batch processing
+- Enjoys attending local craft fairs to find handmade map-themed jewelry or accessories.
+- Prefers tools that allow for easy rollback or revision of AI-suggested changes
+- Carefully reviews AI-generated analysis before incorporating into research outputs
+- Data analysis occupies roughly 40% of weekly work hours

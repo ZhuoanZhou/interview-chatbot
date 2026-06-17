@@ -1,0 +1,251 @@
+# Biographical Notes
+
+- Has 1-2 years of experience as a Customs Broker
+- Received on-the-job training specific to customs brokerage procedures
+- Relies on LLMs for drafting client communications and checking regulatory language
+- Owns a quirky collection of passport covers from places they've never visited but find fascinating.
+- Aware of newer AI-powered features in core software
+- Prioritize integration of AI with existing compliance and document management systems
+- Classifies goods using the Harmonized Tariff Schedule (HTS/HS codes)
+- Writes short travel stories in a journal, inspired by client shipment destinations.
+- Comfortable with leading customs brokerage platforms and government e-filing systems
+- Started in the role at age 27
+- Works in an office environment with a mix of in-person and remote communication
+- Peer recommendations and management support increase motivation to learn
+- Enjoys problem-solving and resolving challenging customs holds
+- Phone systems are utilized for immediate client or partner contact
+- Finds value in AI-driven suggestions but likes to double-check final outputs
+- Loves to knit scarves with patterns inspired by nautical flags and signals.
+- Relies on Microsoft Outlook and Teams for client and team communication
+- Interpreting rapidly changing trade regulations or complex tariff agreements
+- Has handled hundreds of shipment cases since starting
+- Participated in employer-sponsored compliance seminars
+- Escalates complex or high-risk cases to senior brokers for review
+- Envisions integrated AI chatbots for seamless client communication and status updates
+- Participates in a monthly trivia game focused on world geography and world capitals.
+- Company is increasingly open to AI adoption, especially for document processing
+- Less trusting of AI when handling high-value or sensitive shipments
+- Employs AI-powered HS code suggestion features in CargoWise
+- Owns a vintage compass they keep as a desk paperweight and inspiration item.
+- Believes AI will significantly improve efficiency in international trade
+- Has a habit of collecting old shipping manifest replicas as decorative art pieces.
+- Firm provides customs clearance and compliance services to importers/exporters
+- Keeps a small jar labeled 'Lucky Cargo' filled with tiny charms and trinkets from travels.
+- Has a desk calendar featuring vintage postcards from major port cities around the world.
+- Productivity drops when bogged down by manual entry or unclear documentation
+- Learning to interpret and audit AI-generated reports for compliance
+- Believes human oversight will remain crucial for regulatory and client issues
+- Leverages AI-enhanced data extraction tools for invoice and packing list processing
+- Has a quirky habit of arranging paperclips in the shape of airplanes and boats.
+- Does not feel core advisory and compliance tasks are at risk from AI
+- Works in the international logistics and trade compliance sector
+- Negotiating with customs authorities over valuation or classification disputes
+- Peers share AI usage tips via team meetings and online chat groups
+- Willing to dedicate several hours per month to structured tech training
+- Generating and submitting routine customs declarations for standard shipments
+- Expects AI to reduce administrative bottlenecks and customs delays industry-wide
+- Expects to spend less time on data entry and more on compliance consulting
+- Advocates for automation of routine tasks, freeing up time for problem-solving
+- Familiar with terms such as 'large language models', 'classification', and 'automation'
+- Always reviews AI outputs before submitting critical customs filings
+- Worries about potential bias or errors in AI-driven compliance decisions
+- Relies on software vendor webinars for updates on AI-powered functionality
+- Keeps a small collection of foreign language phrasebooks for fun and future trips.
+- Handles a mix of commercial and occasional personal shipments
+- Has a tradition of trying a new international cuisine every month, inspired by their customs work.
+- Adapts quickly to new software, especially when it streamlines repetitive tasks
+- Applies AI tools daily for extracting shipment data from unstructured documents
+- Believes routine data entry skills are becoming less critical due to automation
+- Works under supervision of senior brokers for complex cases
+- Wants smarter AI that can reason about ambiguous or multi-component products
+- Would benefit from real-time AI alerts for regulatory or tariff changes impacting shipments
+- Monitors shipment status and ensures compliance with all regulations
+- Cross-referencing product data with tariff schedule databases
+- Wears socks covered in shipping containers and cargo cranes on casual Fridays.
+- Encouraged to provide feedback on AI tools to inform future policy changes
+- Company provides occasional internal workshops on AI features in core software
+- Regularly uses web-based tariff lookup and compliance tools
+- Loves to decorate their workspace with mini flags from countries they’ve helped clients ship to.
+- Reviewing straightforward invoices and packing lists for completeness
+- Accepts high automation for low-risk, well-documented shipments
+- Believes human oversight is essential for compliance and risk management
+- Some concern about automation reducing demand for entry-level data entry roles
+- Foresees AI handling the bulk of routine customs clearance processes
+- Skill growth is fastest when handling new or challenging shipment scenarios
+- Employed at a mid-sized customs brokerage and logistics firm
+- Has a small desktop globe that lights up and spins slowly as a calming focal point.
+- More likely to learn new tools when they are directly relevant to daily responsibilities
+- Actively participates in pilot programs for new AI features
+- Familiar with SAP modules for logistics and accounting where applicable
+- Actively follows news on AI advancements in trade compliance
+- Document management systems are not fully integrated with customs platforms, requiring manual uploads
+- Has autonomy to handle routine documentation and standard shipments independently
+- Learned to verify AI outputs on high-risk or high-value shipments
+- Uses Descartes and CargoWise daily for customs entry and shipment management
+- Regularly accesses WCO Harmonized System for HS code lookups
+- Resolving customs holds due to document discrepancies or regulatory issues
+- Engages with a range of industries shipping goods internationally
+- Has a mug that changes to display world flags when filled with hot coffee.
+- Views tech adoption as an opportunity for personal and professional growth
+- Becoming adept at training and fine-tuning AI tools for customs-specific tasks
+- Keeps a vintage ship bell in the office that rings softly as a meeting timer.
+- Willing to adjust processes if AI automation proves reliable
+- Prefers manual intervention on shipments involving new regulations or unusual goods
+- Relies on experience to spot red flags that automated checks might miss
+- Has a pet goldfish named ‘Captain’ who ‘supervises’ their work sessions.
+- Views AI as a digital assistant for routine and repetitive tasks
+- Keeps a small shelf dedicated to books about famous explorers and maritime history.
+- Independently manages routine shipments and documentation tasks
+- Communicates with clients, freight forwarders, and customs officials to resolve issues
+- Recent updates include formal training on integrating AI with compliance processes
+- Occasionally faces data transfer issues between brokerage software and government portals
+- Brings a different international snack to share with the team every Friday, inspired by ports they've worked with.
+- Brings homemade pickles to share, experimenting with recipes inspired by global flavors.
+- Team policies emphasize responsible AI use and human review
+- Using HS code lookup tools to classify common or familiar goods
+- Prefers AI automation for repetitive data entry and document review
+- Acts as the primary point of contact for customs clearance issues
+- Finds client interaction and explaining compliance requirements rewarding
+- No formal college degree, but stays current through self-directed learning
+- Has a smartwatch face set to show the time in multiple port cities simultaneously.
+- 10-15% resolving customs holds or addressing shipment issues
+- Believes transparency and explainability are essential for ethical AI use
+- Organizes an annual potluck where everyone brings a dish from a different country.
+- Believes transparency and override options are critical for trust in automation
+- Regularly seeks out updates and new features in existing tools
+- Peers regularly share tips and best practices for using brokerage software and AI tools
+- Company policy requires dual-checking AI outputs on complex shipments
+- Manual data entry of shipment information into customs software
+- SharePoint and Dropbox serve as document storage and recordkeeping solutions
+- Uses AI as an initial filter rather than a final authority
+- Keeps a whiteboard in the office for daily doodles of freight ships and airplanes.
+- Integration issues between brokerage software and government portals cause delays
+- Sees best results when AI and human expertise are combined
+- Keeps a jar of foreign coins collected from trips and client cities on their desk.
+- Prefers hands-on or video-based learning formats for new software
+- Requires minimal ramp-up time when new systems resemble familiar interfaces
+- Sees AI as an opportunity to focus on higher-value work
+- Always drinks tea from a mug with a map of the Silk Road trade routes.
+- Balances training with workload to avoid falling behind on client tasks
+- Collaborates with small, specialized teams focused on different client accounts
+- Regularly updates a playlist titled 'Global Roads and Ports' featuring music from client countries.
+- Enjoyment increases when AI tools or automation reduce repetitive workload
+- Encouraged to experiment and share feedback on new AI tools with management
+- 20-25% on coordinating with clients, logistics partners, and government agencies
+- Adapts interaction style based on task complexity and urgency
+- Completed industry webinars and online courses on international trade regulations
+- Regular compliance audits include spot-checks of AI-assisted entries
+- Prefers conversational interfaces for exploring complex regulatory questions
+- Sees learning new software as essential to staying competitive in customs brokerage
+- Handling shipments with special permit, embargo, or restricted goods requirements
+- Invest in continuous training for all staff on AI best practices and updates
+- Manual override is available on all brokerage software platforms used
+- Has a miniature model boat on their desk that was a gift from a colleague.
+- Finds that communication and client management remain essential skills
+- QuickBooks is used for billing and invoice management
+- Desires fully automated document extraction from all unstructured formats
+- Anticipates new roles focused on AI oversight, auditing, and exception management
+- Advises clients on tariff classification and duty calculations
+- Focuses primarily on global trade operations
+- Positive feedback from colleagues increases confidence in adopting new solutions
+- Rapidly progressed from trainee to full broker within current tenure
+- Loves collecting quirky luggage tags from airports and freight terminals.
+- Once tried to learn how to fold origami containers and ships as a stress relief hobby.
+- Extracting details from commercial invoices, packing lists, and bills of lading
+- Encourages colleagues to share feedback on AI adoption experiences
+- Keeps a stack of world maps folded and ready for quick daydreaming breaks.
+- Responsible for preparing and submitting customs documentation for imports and exports
+- Feels most productive and engaged when tasks align with problem-solving skills
+- Switches between interface types depending on the task requirements
+- Understands basic AI concepts like natural language processing and machine learning
+- Prefers step-by-step collaboration with AI for complex or unfamiliar tasks
+- Grows a small herb garden by their window, inspired by spices often traded internationally.
+- Follows established procedures and compliance checklists for most tasks
+- Highly open to AI-driven workflow changes that improve efficiency
+- Company staff includes 50-200 employees across multiple departments
+- Considers repetitive data entry and document checking tedious
+- Considered an entry-level to early-career professional
+- Maintains final decision authority on all critical submissions
+- Inconsistent file formats from clients can disrupt workflow automation
+- Has a custom-made mousepad printed with a map of the busiest shipping routes.
+- Develop clear policies for human-AI collaboration and responsibility
+- Advocates for maintaining human accountability in all regulatory processes
+- Regularly interacts with shipping, import/export, and government sectors
+- Relies on manual checks to ensure billing software aligns with customs records
+- Found that AI tools are most reliable when combined with manual oversight
+- Keeps a pair of novelty sunglasses shaped like ship steering wheels on their desk.
+- Sees high automation as threatening when it bypasses required compliance checks
+- Finds chat-based LLMs helpful for troubleshooting or brainstorming
+- AI is helpful but does not fully replace human judgment for complex cases
+- Calculates duties, taxes, and other government fees for clients
+- Once experienced an incorrect duty calculation due to AI misinterpretation of product data
+- Relies on AI as an advisor for tricky classification decisions
+- Open and proactive about adopting new technologies that improve workflow
+- Believes ongoing learning and adaptability will become even more important
+- AI-assisted HS classification has reduced errors and saved time on complex cases
+- Motivated by the potential to automate routine tasks and reduce errors
+- Ensures client shipments comply with international trade regulations
+- Sees increased value in domain expertise and regulatory interpretation
+- Anticipates job roles will shift towards more analytical and client-facing work
+- Uses command-based interfaces for quick, repetitive AI-assisted tasks
+- Tests AI chatbots for routine client inquiries and document status updates
+- Incomplete or incorrect documentation from clients leads to shipment holds
+- Manual data extraction from unstructured documents is time-consuming
+- Treats AI as a co-worker during busy periods to manage higher volume
+- Has self-taught knowledge from online resources and work experience
+- Business segment focuses on facilitating international trade and regulatory compliance
+- Tacit knowledge is critical for interpreting ambiguous product information
+- Comfortable experimenting with AI-driven tools and integrations
+- Holds a high school diploma
+- Celebrates 'International Shipping Day' by wearing a captain’s hat and sharing sea shanties.
+- Pilot and scale new AI tools incrementally, with robust feedback loops
+- Regularly participates in skill-building and training to advance career
+- Sees direct correlation between training time and increased efficiency
+- Job title: Customs Broker
+- Participates in collaborative problem-solving for unusual or sensitive shipments
+- Uses LLM-based tools (e.g., ChatGPT or similar) to assist with document drafting
+- Enjoys weekly crossword puzzles themed around geography and travel.
+- Management encourages experimentation with new technologies that improve compliance
+- 5-10% staying updated on regulatory changes and compliance trends
+- 20-25% dedicated to classifying goods and duty calculations
+- Uses AI suggestions for classifying complex or unfamiliar products
+- Has a signature coffee blend they make at home, dubbed ‘Portside Brew.’
+- Attends local cultural festivals to experience the food and music of countries frequently in their trade portfolio.
+- 30-35% of time spent on documentation and compliance checks
+- Filling out standard customs entry forms using brokerage software
+- All AI-driven classification and duty calculations are reviewed before submission
+- Has been known to sneak in an afternoon stretch with yoga poses named after sea creatures.
+- Team culture supports early adoption of proven tools and process improvements
+- Many tasks require deep understanding of international trade regulations
+- Employs AI-driven compliance checks before submitting customs declarations
+- Makes day-to-day decisions on document preparation, classification, and client communication
+- Views AI as enhancing the importance of analytical and problem-solving skills
+- Celebrates first successful clearance of the week with a quick, secret dance move behind their desk.
+- Occasionally needs extra support for highly technical or complex systems
+- Enjoys creating playlists featuring ambient sounds from different ports and harbors.
+- Frequent regulatory updates require constant learning and process adjustment
+- Supports clear guidelines for responsible AI deployment in customs brokerage
+- Taking on more advisory and client-facing roles as routine tasks automate
+- Once built a LEGO set of a cargo ship during a particularly stressful week.
+- Keeps a rubber stamp collection from different countries, not for work but for fun.
+- Keeps a postcard wall in their home office, each card sent by friends or clients abroad.
+- Operates within the supply chain and freight forwarding industry
+- Has a habit of naming their office plants after famous explorers and navigators.
+- Frequently swaps desktop wallpapers featuring stunning port sunsets and skylines.
+- Has an annual tradition of creating a ‘travel goals’ board with places to visit post-pandemic.
+- Recognizes potential for AI to level the playing field for smaller firms
+- Enjoys sketching little cartoon versions of cargo trucks and ships during breaks.
+- Prefers tasks involving learning new regulations or leveraging AI tools for efficiency
+- Standard office equipment (scanners, printers) is used for physical document handling
+- Prepares and submits customs entry documentation for import/export shipments
+- Communicating routine shipment updates to clients via email or phone
+- Has a calendar reminder to write postcards to friends ‘from somewhere in the world’ every month.
+- Trusts AI for routine data extraction and standard HS code suggestions
+- Clients include small businesses, manufacturers, and e-commerce retailers
+- Uses AI independently for routine document generation and data entry
+- Keeps a stash of international chocolate bars hidden in their desk drawer for emergencies.
+- Maintains a secret stash of international hot sauces for lunchtime experiments.
+- Classifying unfamiliar, multi-component, or ambiguous goods under correct HS codes
+- Submits filings through government portals such as ACE (U.S.) or CBSA (Canada)
+- Barriers include high workload periods where time for training is limited
+- Developing skills in AI-driven data validation and exception management

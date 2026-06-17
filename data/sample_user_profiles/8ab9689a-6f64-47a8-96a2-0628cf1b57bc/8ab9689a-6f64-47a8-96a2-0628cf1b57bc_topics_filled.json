@@ -1,0 +1,540 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Completed some college coursework, but did not obtain a degree",
+          "Attended courses in communications, journalism, and digital media at a local community college",
+          "Participated in student newspaper activities during college",
+          "Received informal on-the-job training in desktop publishing and editing",
+          "No formal certifications, but has attended a few online workshops related to publishing tools"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Desktop Publisher and Junior Reporter",
+          "Role includes writing, editing, and layout for both print and digital newspaper editions",
+          "Responsible for interviewing sources, drafting articles, and performing copy editing",
+          "Collaborates with senior editors and other reporters to finalize stories",
+          "Occasionally assists with social media posts and online content formatting"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the media and publishing industry",
+          "Specifically involved in newspaper publishing with both print and online presence",
+          "Operates at the intersection of journalism and digital content production"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a small to medium-sized local newspaper",
+          "Company has approximately 20-50 employees, including editorial and production staff",
+          "Work environment is collaborative and deadline-driven",
+          "Open office layout encourages communication among team members"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Business focuses on local news coverage for a regional audience",
+          "Publishes both print editions and maintains an online news website",
+          "Market segment includes local residents, businesses, and community organizations",
+          "Revenue model combines subscriptions, advertising, and sponsored content"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 1-2 years of experience as a desktop publisher and reporter",
+          "Started as an intern before transitioning to a full-time staff position",
+          "Current role held since shortly after finishing high school",
+          "Experience includes both academic and professional environments"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Entry-level position within the publishing team",
+          "Works under supervision of senior editors and experienced reporters",
+          "Mainly responsible for supporting core publishing tasks, with growing independence",
+          "Occasionally mentors new interns or junior staff on basic editorial processes"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Writes and edits news articles for both print and online publication",
+          "Conducts interviews with local individuals and sources for stories",
+          "Performs copy editing on own work and occasionally for peers",
+          "Prepares layouts for news pages using publishing software",
+          "Coordinates with photographers and digital team for image selection"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends about 40% of time writing stories and articles",
+          "Roughly 25% of time is devoted to interviewing and gathering information",
+          "Copy editing and proofreading account for around 20% of work hours",
+          "Layout and formatting tasks take up the remaining 15% of time",
+          "Occasional tasks like research and meetings are interspersed throughout the week"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Makes independent decisions about story structure and interview questions",
+          "Edits own work with some discretion, but major changes are reviewed by senior editors",
+          "Has autonomy to suggest story ideas and sources, subject to editorial approval",
+          "Follows established style guides and editorial policies for consistency",
+          "Limited authority to publish final content without supervisor sign-off"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Writing first drafts of news stories comes most naturally",
+          "Conducting interviews with community members is comfortable and enjoyable",
+          "Basic copy editing for grammar and spelling is straightforward",
+          "Formatting text in familiar layout templates is easy after initial learning"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Fact-checking and verifying source credibility can be difficult under tight deadlines",
+          "Designing new layout templates or handling complex formatting requires more effort",
+          "Editing long-form investigative pieces is more challenging than shorter articles",
+          "Balancing multiple assignments simultaneously sometimes feels overwhelming"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Transcribing recorded interviews is repetitive and time-consuming",
+          "Copy editing for basic grammar and punctuation often feels routine",
+          "Formatting articles for web and print involves repetitive steps",
+          "Searching for standard reference images or boilerplate content is suitable for automation"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys interviewing sources and hearing diverse perspectives",
+          "Finds creative writing and headline development engaging",
+          "Lays out feature stories with visuals is satisfying",
+          "Views repetitive proofreading and manual transcription as tedious",
+          "Formatting lengthy tables or listings is considered boring"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual transcription of interviews is a significant bottleneck",
+          "Reformatting articles for both print and web versions adds extra work",
+          "Occasional software glitches disrupt layout processes",
+          "Limited access to up-to-date research databases slows information gathering",
+          "Last-minute editorial changes can create stressful time crunches"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Productivity is noticeably higher when working on tasks that are enjoyable, like interviewing",
+          "Skill level is highest for writing and basic editing, which also aligns with most enjoyment",
+          "Tedious tasks like transcription lead to lower engagement and slower output",
+          "Learning new skills, such as advanced layout techniques, increases both enjoyment and productivity",
+          "Repetitive work is performed efficiently but less enthusiastically"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open and curious about adopting new publishing tools",
+          "Actively seeks out tech that can streamline repetitive work",
+          "Views technology as essential for staying current in journalism",
+          "Willing to experiment with beta features or trial versions"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new software interfaces with minimal guidance",
+          "Prefers hands-on learning over lengthy instruction manuals",
+          "Occasionally relies on online tutorials and peer advice for troubleshooting",
+          "Has successfully transitioned to updated publishing platforms within weeks"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate a few hours each month to learning new tools",
+          "Attends optional in-house workshops when available",
+          "Prefers short, focused training sessions over long seminars",
+          "Balancing training time with workload can be challenging during busy news cycles"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by clear productivity gains and reduced repetitive work",
+          "Reluctant to invest time if new tech appears only marginally useful",
+          "Heavy workloads can delay self-initiated learning",
+          "Peer recommendations strongly influence tech adoption decisions"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers frequently share tips about useful publishing plugins and AI tools",
+          "Management encourages experimentation with new workflow software",
+          "Positive experiences from colleagues increase openness to tool adoption",
+          "Team-wide discussions often precede the rollout of major new systems"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Adobe InDesign for print layout and page design",
+          "Relies on Google Docs for collaborative writing and editing",
+          "Accesses WordPress CMS for uploading and managing online articles",
+          "Occasionally uses Otter.ai or similar AI transcription tools for interviews",
+          "Employs AP Stylebook online for editorial guidelines"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Digital voice recorder or smartphone app for capturing interviews",
+          "Standard email client (e.g., Outlook or Gmail) for communications",
+          "Slack or similar messaging platform for team coordination",
+          "Physical notepad for jotting down key points during interviews"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient in Adobe InDesign and Google Workspace applications",
+          "Comfortable navigating WordPress for content management",
+          "Aware of other industry tools like QuarkXPress, though not used regularly",
+          "Basic familiarity with image editing in Adobe Photoshop"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasional formatting inconsistencies when copying text from Google Docs to InDesign",
+          "Images sometimes require manual resizing for print and web compatibility",
+          "Transcription tool outputs need manual cleanup before publishing",
+          "No seamless integration between print layout software and online CMS"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic AI terminology such as 'large language model' and 'NLP'",
+          "Regularly uses generative AI chatbots for research and drafting",
+          "Familiar with concepts like transcription automation and language generation",
+          "No formal AI education but self-taught through online resources"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT for brainstorming headlines and summarizing articles",
+          "Otter.ai or similar tools are used for automatic transcription",
+          "Has experimented with Grammarly AI for advanced editing suggestions",
+          "Occasionally tries Google Bard or Bing AI for source research"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses AI transcription tools for nearly every recorded interview",
+          "Employs ChatGPT several times weekly for idea generation and quick summaries",
+          "AI editing tools are used occasionally to double-check grammar and style",
+          "AI chatbots sometimes help find potential sources or background information"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI transcription reduced interview processing time from hours to minutes",
+          "ChatGPT once suggested a misleading summary, highlighting the need for human review",
+          "Automatic grammar suggestions occasionally misinterpret journalistic tone",
+          "AI sometimes misses local context or nuances in source material"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal in-house AI training, but peers frequently exchange tips",
+          "Occasional lunch-and-learn sessions discuss AI tool best practices",
+          "Relies on self-study and online tutorials for AI tool mastery",
+          "Management encourages asking questions about AI adoption in team meetings"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers independent use of AI tools for rough drafts or ideas",
+          "Occasionally collaborates with AI step-by-step for complex summaries",
+          "Enjoys having the option to iterate with AI for headline brainstorming",
+          "Less likely to use AI in real-time collaborative team settings"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI as an assistant for repetitive or time-consuming tasks",
+          "Uses AI as a brainstorming partner for story ideas",
+          "Relies on AI as an advisor for grammar and style suggestions",
+          "Does not treat AI as a replacement for human editorial judgement"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to experimenting with new AI features as they become available",
+          "Willing to integrate AI into more processes if clear productivity gains are shown",
+          "Prefers incremental adoption rather than full-scale workflow changes overnight",
+          "Occasionally suggests AI-driven improvements to team processes"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Strong preference for conversational AI interfaces like chatbots",
+          "Finds command-based scripting less intuitive, given limited coding background",
+          "Appreciates AI tools that provide contextual suggestions based on conversation",
+          "Values natural language interactions for brainstorming and problem solving"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Local news coverage often requires nuanced understanding of community events",
+          "Editorial judgement involves recognizing tone and context not captured by AI",
+          "Source credibility assessment depends on subtle cues beyond data analysis",
+          "AI is used to assist but not replace domain-specific editorial decisions"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for initial drafts, summaries, and transcription, but always reviews outputs",
+          "Does not rely solely on AI-generated facts or quotes without verification",
+          "High trust in AI for repetitive formatting, low trust for nuanced editorial calls",
+          "Human oversight is mandatory for all published content"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to automate repetitive or data-heavy tasks, freeing up time for creative work",
+          "Believes human judgement should oversee all content before publication",
+          "Advocates for a workflow where AI drafts and humans finalize and contextualize",
+          "Sees value in hybrid workflows with clear checkpoints for human review"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "High automation is acceptable for transcription, formatting, and grammar checks",
+          "Feels threatened by automation of creative writing or investigative reporting",
+          "Supports automation as long as human editorial control remains",
+          "Wary of AI making final publishing decisions without oversight"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "AI enhances productivity, allowing more time for in-depth reporting",
+          "Believes core writing and interviewing skills remain essential despite automation",
+          "Editing skills are still crucial for ensuring quality and context",
+          "Some routine technical skills (like transcription) are less valued due to automation"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing skill in prompt engineering for more effective AI outputs",
+          "Learning to critically evaluate and edit AI-generated text",
+          "Increased responsibility for ensuring factual accuracy in automated content",
+          "Staying updated on the latest AI tools and best practices"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Some concern about AI taking over repetitive editing and formatting tasks",
+          "Confident that creative reporting and community engagement are less likely to be automated",
+          "Sees risk in entry-level publishing roles becoming more automated over time",
+          "Feels that adaptability and ongoing learning are key to job security"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always reviews AI-generated content before submission",
+          "Manual editing is standard practice before publishing articles",
+          "Can revert to original human drafts if AI suggestions are off-base",
+          "No fully automated publishing pipeline\u2014human approval required"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Team has adopted a 'human-in-the-loop' approach for AI-assisted publishing",
+          "Company policy encourages experimentation but requires human oversight",
+          "Increasing openness to AI-generated drafts, but strict review protocols remain",
+          "Some discussions about formalizing AI use guidelines in the near future"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will continue to transform the media and publishing industry",
+          "Sees potential for AI to democratize content creation and reduce barriers to entry",
+          "Concerned about misinformation risks if AI-generated content is not properly vetted",
+          "Expects increased efficiency but also new ethical challenges in journalism"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes AI must be used transparently in editorial processes",
+          "Thinks AI-generated content should always be disclosed to readers",
+          "Worries about potential for bias or factual errors in AI outputs",
+          "Supports ethical frameworks to guide responsible AI use in journalism"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would benefit from real-time, highly accurate transcription integrated with publishing tools",
+          "Desires AI tools capable of quickly verifying sources and flagging unreliable information",
+          "Seeks AI features for advanced fact-checking and context-aware editing",
+          "Wants seamless integration between AI writing assistants and layout software"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Anticipates more automation of routine editing and formatting tasks",
+          "Expecting increased focus on investigative and human-interest reporting",
+          "Foresees a shift toward overseeing AI-driven content pipelines",
+          "Believes adaptability and tech skills will become even more important"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Develop clear policies for AI use and editorial oversight",
+          "Invest in regular staff training on new AI tools and risks",
+          "Encourage cross-team sharing of AI best practices and workflow improvements",
+          "Allocate resources for experimenting with and piloting emerging AI features"
+        ]
+      }
+    ]
+  }
+]

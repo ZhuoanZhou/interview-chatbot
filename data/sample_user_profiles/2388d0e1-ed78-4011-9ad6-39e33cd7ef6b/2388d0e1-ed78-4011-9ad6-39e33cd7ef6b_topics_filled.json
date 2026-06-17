@@ -1,0 +1,503 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds an Associate Degree in Computer Science from a local community college",
+          "Completed the degree in the mid-1980s, focusing on programming and systems analysis",
+          "Pursued continuing education courses in software development and new programming languages over the years",
+          "Attended periodic workshops on contract management and proposal writing"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Works as a Senior Computer Programmer, with responsibilities for both technical and business development aspects",
+          "Acts as the primary technical lead for contract-based system development projects",
+          "Responsible for evaluating client requests, designing solutions, and submitting competitive bids",
+          "Manages end-to-end project delivery, from proposals through system implementation and revision"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Operates within the government contracting and public sector IT services industry",
+          "Primarily serves county and local government agencies",
+          "Focuses on custom software solutions for administrative, records, and workflow systems"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works for a small technology consulting firm with fewer than 20 employees",
+          "Company structure is flat, with direct access to decision makers and minimal bureaucracy",
+          "Frequently collaborates with external partners and subcontractors for larger projects"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "The firm specializes in IT consulting and custom software development for public sector clients",
+          "Services include system design, implementation, and ongoing support for government contracts",
+          "Operates in a competitive bidding environment, often responding to RFPs from counties and municipalities"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has held the Computer Programmer role for over 10 years",
+          "Accumulated more than a decade of experience in managing government IT projects",
+          "Has witnessed multiple technology transitions and shifts in client requirements during tenure"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Occupies a senior-level technical and project management position",
+          "Often mentors junior programmers and guides less experienced team members",
+          "Regularly represents the company in client meetings and technical discussions"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Reviews contracts and RFPs from government agencies to assess technical requirements",
+          "Researches and selects appropriate technologies to meet project needs",
+          "Drafts technical proposals and competitive bids for new projects",
+          "Coordinates with clients to clarify requirements and respond to follow-up questions",
+          "Designs, codes, and maintains custom software systems when bids are awarded"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 30% of time on bid preparation, research, and proposal writing",
+          "Allocates 40% of work hours to coding, system design, and technical implementation",
+          "Devotes around 15% to client communications and requirement clarifications",
+          "Uses the remaining 15% for administrative tasks, learning new technologies, and team collaboration"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has significant autonomy in selecting technical approaches and tools for each project",
+          "Directly responsible for crafting and submitting bids without substantial oversight",
+          "Empowered to make project-level technology decisions, subject to client approval",
+          "Consults with company leadership for large-scale strategic decisions or resource allocation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Quickly reviews and interprets contract language for technical requirements",
+          "Rapidly drafts initial project proposals based on well-understood contract types",
+          "Comfortable configuring familiar development environments and tools",
+          "Efficiently implements recurring features in software systems due to prior experience"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Dealing with ambiguous or poorly defined client requirements in contracts",
+          "Integrating legacy systems with modern platforms, especially without comprehensive documentation",
+          "Estimating project timelines and costs for large or multi-phase bids",
+          "Learning entirely new programming frameworks on short notice to meet contract specs"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Extracting boilerplate text and standard sections for bid documents",
+          "Generating reports on project progress or compliance for clients",
+          "Performing initial data cleansing and formatting prior to system import",
+          "Validating data entry for user interfaces in administrative applications"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys conceptualizing software architectures and designing system workflows",
+          "Finds satisfaction in solving complex technical challenges or integrating disparate systems",
+          "Considers repetitive documentation and report generation to be tedious",
+          "Feels least engaged during prolonged administrative or compliance-oriented tasks"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Wastes time manually searching through previous bids for reusable content",
+          "Faces delays when clients provide incomplete or unclear requirements",
+          "Encounters friction integrating new AI tools with legacy software environments",
+          "Occasional mismatches between stated contract needs and actual client expectations"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Productivity is highest when working on tasks that align with expertise, such as system design",
+          "Feels more motivated and performs better when tackling challenging, engaging problems",
+          "Routine and repetitive tasks tend to lower engagement and slow overall output",
+          "Learning new technologies, while initially time-consuming, often leads to increased job satisfaction"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Maintains a proactive approach to staying up-to-date with industry trends",
+          "Views continuous learning as necessary for remaining competitive in the field",
+          "Sees value in experimenting with emerging technologies to enhance workflow"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Considers personal adaptability strong, especially for technologies that build on existing knowledge",
+          "Requires more ramp-up time for tools with radically different paradigms",
+          "Leverages documentation and online tutorials to accelerate learning curves"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate evenings or weekends to master new programming languages or frameworks",
+          "Seeks out webinars and online courses when new client requirements dictate unfamiliar technologies",
+          "Prioritizes training opportunities that have immediate relevance to upcoming projects"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential to win more contracts and deliver better client outcomes",
+          "Occasionally constrained by project deadlines or heavy workloads, limiting training time",
+          "More likely to invest effort if new tools are directly applicable to active projects",
+          "Reluctant to adopt tools perceived as fads or lacking long-term industry support"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers' positive experiences with new technologies encourage experimentation",
+          "Management is generally supportive but does not mandate specific tool adoption",
+          "Collaborates with teammates to share best practices for integrating emerging tools"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Microsoft Visual Studio Code as the primary code editor",
+          "Relies on Git for version control and collaborative development",
+          "Utilizes online LLM tools such as ChatGPT for code generation and bid writing assistance",
+          "Frequently accesses client portals for bid submission and contract management"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Depends on Microsoft Office Suite (Word, Excel) for proposal writing and documentation",
+          "Uses Adobe Acrobat to review and annotate PDF contracts",
+          "Employs email clients like Outlook for all official client correspondence",
+          "Works with MySQL or PostgreSQL management tools for database administration"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Experienced with mainstream programming languages such as C#, Java, and Python",
+          "Comfortable using web frameworks like ASP.NET, Django, or Flask",
+          "Regularly utilizes REST APIs for system integrations",
+          "Has familiarity with cloud platforms such as AWS and Azure for client projects"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally struggles with integrating legacy software with modern APIs",
+          "Encounters formatting issues when transferring content between Word and client submission portals",
+          "Needs to manually export/import data between project management tools and internal databases",
+          "Finds that some LLM-generated outputs require significant reformatting to fit bid templates"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands key concepts such as large language models, supervised learning, and natural language processing",
+          "Regularly reads industry articles about AI advancements and applications in software development",
+          "Can distinguish between different types of AI (e.g., generative AI, predictive analytics)"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses OpenAI's ChatGPT for code generation, documentation drafts, and bid writing",
+          "Has experimented with GitHub Copilot for in-editor code suggestions",
+          "Occasionally leverages Google Bard or similar LLM chatbots for information gathering"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies LLMs weekly to draft and refine project proposals",
+          "Uses AI tools to generate code snippets and troubleshoot programming errors",
+          "Employs AI chatbots to quickly summarize technical documentation or contract requirements",
+          "Leverages AI to brainstorm project architectures and possible technology stacks"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully accelerated bid drafting by using LLMs to generate boilerplate content",
+          "Encountered issues with AI-generated code lacking context-specific optimizations",
+          "Found that AI summaries of long technical documents saved significant review time",
+          "Learned to always manually verify AI outputs for accuracy and compliance with client requirements"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal in-house training offered, but shares best practices with colleagues informally",
+          "Company encourages experimenting with AI tools on a trial basis",
+          "Peers often exchange tips and lessons learned through internal chat or meetings"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers to use AI independently for rapid idea generation and research",
+          "Occasionally adopts a step-by-step collaboration when tackling novel or complex tasks",
+          "Finds value in iterative prompts to refine AI outputs for proposal writing"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Treats AI as an assistant for drafting, brainstorming, and code suggestions",
+          "Views AI as an advisor for exploring alternative solutions or technology stacks",
+          "Reserves final decision-making and critical reviews for human judgment"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to integrating more AI-driven workflows, especially for research and documentation",
+          "Cautious about fully automating critical technical decisions without human oversight",
+          "Willing to experiment with AI features as they become available in existing tools"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming, drafting, and research tasks",
+          "Finds command-based inputs more effective for technical code generation",
+          "Appreciates the flexibility to switch between modes depending on the task"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many proposal and bid tasks require deep understanding of government contract language",
+          "System design often involves applying domain-specific knowledge not easily captured by AI",
+          "Some tasks, like technology selection, benefit from both experience and up-to-date market awareness"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for generating initial drafts and ideas but always reviews final outputs personally",
+          "Skeptical of AI-generated code for mission-critical modules without thorough human validation",
+          "Relies on personal expertise to catch subtle errors or misinterpretations in AI outputs"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive drafting and information synthesis",
+          "Believes humans should retain control over final proposal approval and technical decisions",
+          "Supports partial automation for data-heavy tasks but human oversight for client-facing deliverables"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation when tasks are routine, low-risk, or easily verifiable",
+          "Feels threatened by automation in areas requiring nuanced understanding of client needs",
+          "Requires transparency and override options in any AI-driven workflow"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances productivity but increases the importance of critical thinking and domain expertise",
+          "Routine programming and drafting skills are less central due to automation",
+          "Sees greater value in skills related to system integration and client communication"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing proficiency in AI prompt engineering and iterative query refinement",
+          "Learning to supervise and validate AI-generated outputs for compliance and accuracy",
+          "Assuming responsibility for integrating AI tools into legacy development processes"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mildly concerned about automation of basic code writing and report generation",
+          "Believes the overall role is secure due to reliance on domain knowledge and client relationships",
+          "Monitors AI advancements to anticipate potential shifts in required skillsets"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always performs manual reviews of AI-generated bid documents before submission",
+          "Implements code reviews and testing for all AI-generated software modules",
+          "Prefers AI tools that offer clear revision and human-in-the-loop options"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company is progressively more open to integrating AI tools into daily workflow",
+          "No formal AI usage policy yet, but informal guidelines encourage cautious adoption",
+          "Peers are increasingly expected to familiarize themselves with common AI platforms"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Views AI as a transformative force for efficiency in both public and private sectors",
+          "Believes AI will continue to disrupt traditional software development practices",
+          "Anticipates increased demand for oversight and regulation as AI becomes more embedded in workflows"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Advocates for transparency and explainability in AI-driven decisions",
+          "Worries about potential for bias or errors in AI-generated outputs",
+          "Supports ongoing human oversight to mitigate ethical and compliance risks"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires AI tools that can automatically analyze contract language for hidden requirements",
+          "Wants seamless integration of LLMs into bid management and document assembly platforms",
+          "Would benefit from AI that can accurately estimate project timelines based on historical data"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects more automation of routine proposal writing and coding tasks",
+          "Anticipates shifting focus towards managing AI-augmented teams and workflows",
+          "Believes domain-specific expertise and client relationship management will grow in importance"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement structured training programs for AI tools and best practices",
+          "Establish clear guidelines for responsible AI use and human oversight",
+          "Invest in evaluating and integrating AI solutions that directly support core business processes"
+        ]
+      }
+    ]
+  }
+]

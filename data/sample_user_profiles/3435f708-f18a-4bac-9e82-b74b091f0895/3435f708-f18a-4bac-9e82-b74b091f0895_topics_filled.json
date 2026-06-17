@@ -1,0 +1,580 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master\u2019s Degree in Marketing Research from a large public university",
+          "Undergraduate degree in Psychology with a minor in Statistics",
+          "Completed graduate coursework in survey methodology and quantitative analysis",
+          "Received training in research ethics, including CITI certification",
+          "Attended professional workshops on accessible survey design for disability research"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Market Research Analyst",
+          "Role involves designing and administering surveys focused on disability and chronic illness topics",
+          "Responsible for organizing and managing large data sets collected from research participants",
+          "Assists in academic research studies and reporting at a major academic center",
+          "Supports data-driven decision making for ongoing and new research projects"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the academic research sector",
+          "Specializes in healthcare-related market research",
+          "Primarily serves university-based research initiatives",
+          "Focuses on public health and disability studies",
+          "Collaborates occasionally with nonprofit organizations for research partnerships"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a large academic center with over 1,000 employees",
+          "Research team consists of approximately 15 personnel, including faculty and staff",
+          "Work environment is collaborative and multidisciplinary",
+          "Regularly interacts with both research faculty and administrative staff",
+          "Participates in department-wide meetings and cross-team research discussions"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Operates within the higher education and academic research sector",
+          "Focuses on health, disability, and chronic illness research",
+          "Conducts grant-funded studies and publishes findings in peer-reviewed journals",
+          "Services internal university initiatives as well as external grant-funded projects",
+          "Engages with research participants from diverse backgrounds, including people with disabilities"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 8 years of experience as a Market Research Analyst",
+          "Joined the current academic center 7 years ago after completing graduate studies",
+          "Spent initial 2 years as a research assistant before promotion to current role",
+          "Has participated in more than 20 research studies during tenure",
+          "Experience includes both longitudinal and cross-sectional research projects"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Mid-level professional with substantial independent responsibility",
+          "Often mentors new research assistants and interns on survey design",
+          "Leads smaller research projects and acts as key contributor on larger ones",
+          "Reports to a faculty principal investigator or research manager",
+          "Recognized for expertise in survey methodology within the department"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Designs and programs online surveys using SurveyMonkey and Qualtrics",
+          "Manages collection, cleaning, and organization of large participant data sets",
+          "Imports and visualizes research data in Tableau to create interactive dashboards",
+          "Prepares summary reports and data presentations for principal investigators",
+          "Assists in literature review and research study planning as needed"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 40% of time on survey design and data collection",
+          "Devotes 30% of work hours to data cleaning, organization, and integration",
+          "Allocates 20% of time to data analysis and dashboard creation in Tableau",
+          "Uses about 10% of time for meetings, research planning, and literature review",
+          "Regularly balances multiple projects, adjusting proportions as deadlines approach"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has significant autonomy in selecting survey question formats and logic",
+          "Responsible for ensuring data is organized and formatted correctly for analysis",
+          "Consults with principal investigators for project scope and final survey approval",
+          "Can independently choose tools and methods for data visualization",
+          "Participates in team decisions regarding research priorities and data collection methods"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Creating survey questions and designing user-friendly survey flows",
+          "Organizing participant data in Excel, including basic cleaning and sorting",
+          "Setting up standard data visualizations in Tableau using templates",
+          "Communicating research processes and findings to team members",
+          "Adapting previous surveys for new study iterations"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Managing data integration from multiple sources with inconsistent formats",
+          "Ensuring accessibility and inclusivity in survey design for disability research",
+          "Troubleshooting Tableau dashboard errors with large, complex data sets",
+          "Balancing survey brevity with sufficient data collection for meaningful analysis",
+          "Coordinating schedules and communication among large participant cohorts"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Routine data cleaning and reformatting in Excel before import to Tableau",
+          "Transferring survey responses from platform exports into analysis-ready formats",
+          "Checking for missing or duplicate entries in large data sets",
+          "Creating standard summary tables for initial data review",
+          "Distributing survey invitations and reminder emails to participants"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys designing interactive dashboards and visual storytelling with Tableau",
+          "Finds satisfaction in optimizing survey flows for participant ease",
+          "Feels most engaged when interpreting results and discussing findings with the team",
+          "Considers repetitive data cleaning and manual data entry as tedious",
+          "Least enjoys administrative follow-ups, such as sending reminders or tracking responses"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual data cleaning is time-consuming and prone to minor errors",
+          "Survey platforms sometimes have limited export options, complicating downstream analysis",
+          "Data format inconsistencies between SurveyMonkey, Qualtrics, and Excel require extra steps",
+          "Tableau dashboards occasionally slow down with very large data sets",
+          "Coordinating participant communications can be logistically challenging"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Higher skill in survey design and visualization leads to greater enjoyment and faster output",
+          "Repetitive tasks reduce motivation and slow down productivity over time",
+          "Learning new features in Tableau increases satisfaction and perceived value of work",
+          "Tasks that require creative problem-solving are both enjoyable and productive",
+          "Delegating or automating tedious processes can boost overall work satisfaction"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally enthusiastic about adopting new research technologies",
+          "Sees technology as a way to improve workflow efficiency",
+          "Actively seeks out best practices and innovative tools in the field",
+          "Values user-friendly tools that integrate well with existing systems",
+          "Approaches new tech with curiosity rather than apprehension"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to updates in survey platforms or data analysis tools",
+          "Comfortable exploring new features independently or with minimal guidance",
+          "Has successfully transitioned workflows from Excel-based to Tableau-based reporting",
+          "Occasionally supports peers in adopting new tools",
+          "Adapts AI-powered features into regular workflow without major difficulty"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Regularly allocates time for online tutorials and webinars on Tableau and survey platforms",
+          "Attends at least 2-3 professional development workshops or webinars per year",
+          "Prefers hands-on learning and self-paced courses for new technologies",
+          "Invests in learning tech that directly enhances daily work or research outcomes",
+          "Occasionally postpones training when faced with tight project deadlines"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Most motivated when new tech promises clear workflow or data quality improvements",
+          "Barriers include high current workload and lack of immediate project relevance",
+          "Unlikely to invest time in tools that do not integrate with existing platforms",
+          "Peer recommendations often influence willingness to try new software",
+          "Prefers tech with strong documentation and community support"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often share tool tips and shortcuts, accelerating adoption",
+          "Management encourages experimentation with AI and data visualization tools",
+          "Team culture supports sharing lessons learned from trying new platforms",
+          "Group training sessions are occasionally organized for major tool updates",
+          "Has introduced new software to the team based on positive personal experiences"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Excel extensively for data organization and preliminary analysis",
+          "Creates surveys using SurveyMonkey and Qualtrics, depending on project requirements",
+          "Designs and updates interactive dashboards in Tableau for research reporting",
+          "Leverages Microsoft Teams and Outlook for internal communication",
+          "Occasionally uses Python for advanced data manipulation tasks"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Excel is essential for data cleaning, structuring, and error-checking",
+          "SurveyMonkey and Qualtrics provide flexible survey deployment options",
+          "Tableau is critical for data visualization and sharing results with stakeholders",
+          "Uses SharePoint to store and share research documents securely",
+          "Relies on standard office software (Word, PowerPoint) for reporting"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Has advanced proficiency in Excel, including pivot tables and formulas",
+          "Skilled in using Tableau for both basic and advanced visualizations",
+          "Familiar with major survey platforms commonly used in academic research",
+          "Aware of SPSS and R, but uses them less frequently due to team preferences",
+          "Regularly keeps up with updates in main survey and visualization platforms"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally experiences formatting issues when exporting data from SurveyMonkey to Excel",
+          "Data imports to Tableau sometimes require manual adjustment due to column mismatches",
+          "Limited native integration between survey platforms and Tableau necessitates manual steps",
+          "Version mismatches in Excel files can cause compatibility problems when collaborating",
+          "Would benefit from more seamless data syncing between survey tools and visualization platforms"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands foundational AI concepts such as natural language processing and predictive modeling",
+          "Familiar with terms like large language models (LLMs), supervised learning, and data labeling",
+          "Reads professional articles on AI trends in research and analytics",
+          "Comfortable explaining basic AI concepts to colleagues",
+          "Recognizes the distinction between AI-powered features and traditional automation"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT regularly to generate survey question drafts and summarize research articles",
+          "Employs Microsoft Copilot for Excel to streamline data cleaning and formula suggestions",
+          "Has experimented with Tableau's AI-assisted analytics features for trend detection",
+          "Occasionally tries Google Bard for brainstorming survey logic and response categories",
+          "Participated in pilot testing of an AI-powered data anonymization tool"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies LLMs like ChatGPT weekly for survey design and literature summarization",
+          "Uses AI-assisted features in Excel several times per week for organizing large datasets",
+          "Employs Tableau's AI tools monthly to identify data patterns and outliers",
+          "Relies on AI suggestions to refine survey question wording for clarity and accessibility",
+          "Tests new AI-based research tools as they become available through the academic center"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI-generated survey questions have sometimes improved clarity and participant engagement",
+          "Once used AI to summarize a large literature review, saving several hours of manual reading",
+          "Encountered inaccurate AI categorization of open-text survey responses, requiring manual correction",
+          "AI-based data cleaning suggestions occasionally missed context-specific data nuances",
+          "Learned to always verify AI output before finalizing research materials"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Organization provides optional webinars on integrating AI into research workflows",
+          "Peers regularly share AI tips and findings during monthly team meetings",
+          "Internal knowledge base includes guides for using ChatGPT and Copilot in research tasks",
+          "No formal certification required for AI tool usage, but informal peer support is strong",
+          "Occasionally consults IT for troubleshooting or advanced AI tool configuration"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers a step-by-step collaborative approach when integrating AI into survey design",
+          "Often uses AI tools independently for brainstorming or summarization tasks",
+          "Seeks interactive AI guidance for complex data cleaning processes",
+          "Appreciates being able to iterate with AI tools, refining outputs incrementally",
+          "Switches between independent and collaborative modes depending on task complexity"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant that accelerates repetitive tasks",
+          "Occasionally uses AI as an advisor, especially for survey wording and logic suggestions",
+          "Treats AI as a co-worker for brainstorming new research ideas or approaches",
+          "Reserves final decision-making for human team members, with AI as a supporting resource",
+          "Finds the assistant model most effective for boosting productivity"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to AI workflows that save time or reduce manual errors",
+          "Has proactively adopted AI-driven data cleaning and survey suggestion features",
+          "Participates in internal pilots for testing new AI-powered research tools",
+          "Encourages peers to try AI-driven approaches when proven effective",
+          "Willing to adapt workflows if AI integration is seamless with existing tools"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and creative tasks",
+          "Finds command-based AI interfaces more efficient for structured or repetitive actions",
+          "Uses chat-based LLMs (like ChatGPT) for context-rich interactions",
+          "Switches to command-style prompts for formula generation or data transformation tasks",
+          "Appreciates hybrid interfaces that allow switching between styles as needed"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Survey design for disability research requires nuanced understanding of accessibility and inclusivity",
+          "Data interpretation often depends on awareness of disability-related context and participant backgrounds",
+          "Certain survey logic decisions are informed by prior experience and unpublished insights",
+          "Trusts personal expertise and peer review for critical research decisions",
+          "AI is helpful for structure, but final content often requires domain-specific judgment"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI-generated outputs for routine data cleaning and survey draft suggestions",
+          "Exercises caution and manual review for all AI-created research materials",
+          "Rarely relies solely on AI for final survey wording or data interpretation",
+          "Views AI as a productivity tool rather than an authority on content accuracy",
+          "Trust increases as AI tools demonstrate reliability and transparency"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to automate repetitive tasks like data cleaning and initial survey drafts",
+          "Human effort is prioritized for tasks requiring context, interpretation, or ethical judgment",
+          "Ideal workflow involves AI handling 60-70% of routine processes, with human oversight",
+          "Believes collaboration between AI and human expertise produces the best research outcomes",
+          "Regularly reviews AI outputs before incorporating them into final deliverables"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for administrative and repetitive data processing tasks",
+          "Views full automation of survey logic or participant communication as potentially risky",
+          "Insists on human review for any outputs directly affecting research quality or ethics",
+          "Would feel threatened if AI made final decisions without human transparency or override options",
+          "Supports automation when it augments rather than replaces domain expertise"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI has enhanced the importance of data literacy and critical evaluation skills",
+          "Routine technical skills (e.g., basic data cleaning) are less valuable due to automation",
+          "Skills in survey methodology and domain expertise remain highly valued",
+          "AI has shifted focus toward interpreting and contextualizing findings",
+          "Ongoing learning is necessary to maintain relevance as AI capabilities grow"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Increasing need for prompt engineering and effective AI tool usage",
+          "Responsible for evaluating and validating AI-generated research outputs",
+          "Develops skills in integrating and troubleshooting AI features within existing tools",
+          "Adopts new practices for ethical use and transparency of AI in research reporting",
+          "Stays updated on AI-driven best practices for survey accessibility"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Low concern about AI replacing core research analysis or domain-specific tasks",
+          "Recognizes that repetitive or administrative tasks are at higher risk of automation",
+          "Believes human oversight is essential for ethical and context-sensitive research",
+          "Monitors AI developments to anticipate potential impacts on job scope",
+          "Views AI as a tool for augmentation rather than replacement"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always performs manual checks on AI-generated survey drafts and data outputs",
+          "AI features in Tableau and Excel can be overridden or adjusted as needed",
+          "Follows organizational protocols for human review before publishing research results",
+          "Prefers tools that provide clear audit trails for all automated actions",
+          "Participates in peer review processes to catch AI-related errors"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Team has adopted guidelines for responsible and transparent AI use in research",
+          "Recent updates to IT policy require disclosure of AI-generated content in deliverables",
+          "Management encourages experimentation with new AI tools, within ethical boundaries",
+          "Policies emphasize the necessity of human oversight in all critical research tasks",
+          "Organization is actively reviewing best practices for AI integration"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will significantly accelerate research and data analysis in academia",
+          "Sees potential for AI to improve accessibility in survey design and participation",
+          "Recognizes risks of bias and misinformation if AI is misapplied",
+          "Anticipates AI will reshape job roles but not eliminate the need for human researchers",
+          "Views AI as a tool for democratizing knowledge and improving efficiency"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Advocates for transparent disclosure of AI involvement in research outputs",
+          "Believes in maintaining participant confidentiality when using AI-driven tools",
+          "Cautions against over-reliance on AI for decisions affecting vulnerable populations",
+          "Supports regular review of AI tools for potential bias or unintended consequences",
+          "Values clear ethical guidelines for AI use in academic research"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires more robust AI-assisted survey accessibility checkers",
+          "Would benefit from seamless integration of survey, analysis, and visualization platforms",
+          "Wants AI tools that can suggest data cleaning steps based on research context",
+          "Seeks AI features for automated literature review and citation management",
+          "Needs improved AI-powered participant communication and scheduling assistants"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects greater focus on interpretation and strategic use of AI-generated insights",
+          "Foresees routine data processing becoming almost fully automated",
+          "Predicts new responsibilities in AI oversight and ethical review",
+          "Anticipates closer collaboration between research, IT, and AI specialists",
+          "Believes continuous learning will be essential for adapting to evolving AI tools"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Develop clear guidelines on ethical and transparent AI use in research",
+          "Provide ongoing training and resources for new AI tools",
+          "Invest in secure, integrated platforms that support AI-driven workflows",
+          "Facilitate cross-team collaboration to share AI best practices",
+          "Implement regular review and feedback loops for AI tool effectiveness and fairness"
+        ]
+      }
+    ]
+  }
+]

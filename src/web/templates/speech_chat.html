@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Speech Chat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <h2>Speech Chat Interface</h2>
+        <div id="chat-box">
+            <!-- Messages will appear here -->
+        </div>
+        <button id="record-toggle">Start Recording</button>
+        <div id="status" style="margin-top: 10px; color: #666;"></div>
+    </div>
+
+    <script>
+        let sessionToken = localStorage.getItem('session_token') || null;
+        let isRecording = false;
+        let mediaRecorder = null;
+        let audioChunks = [];
+        let seenMessageIds = new Set();
+        let currentAudio = null;
+
+        function updateStatus(message) {
+            document.getElementById('status').textContent = message;
+        }
+
+        function scrollToBottom() {
+            const chatBox = document.getElementById('chat-box');
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        function appendMessage(role, text, messageId) {
+            if (messageId && seenMessageIds.has(messageId)) {
+                return false;
+            }
+            
+            if (messageId) {
+                seenMessageIds.add(messageId);
+            }
+
+            const chatBox = document.getElementById('chat-box');
+            const isUser = role === 'user' || role === 'User';
+            const className = isUser ? 'user' : 'bot';
+            const imgUrl = isUser 
+                ? "https://e7.pngegg.com/pngimages/178/595/png-clipart-user-profile-computer-icons-login-user-avatars-monochrome-black-thumbnail.png"
+                : "https://uploads-ssl.webflow.com/64e02bd14ada8a57fa327cbe/64e445ced8cf185ffb9bb1b9_Rex%20Small_.png";
+            
+            chatBox.innerHTML += `
+                <div class="message ${className}" data-msg-id="${messageId || ''}">
+                    <img src="${imgUrl}" alt="${role}">
+                    <p>${text.replace(/\n/g, '<br>')}</p>
+                </div>`;
+            scrollToBottom();
+            return true;
+        }
+
+        function stopCurrentAudio() {
+            if (currentAudio) {
+                currentAudio.pause();
+                currentAudio.currentTime = 0;
+                currentAudio = null;
+            }
+        }
+
+        async function playMessageAudio(messageId, retries = 5) {
+            if (!messageId) return;
+
+            for (let i = 0; i < retries; i++) {
+                try {
+                    const response = await fetch(`/api/get-voice-response?session_token=${sessionToken}&message_id=${messageId}`);
+                    
+                    if (response.status === 202) {
+                        await new Promise(resolve => setTimeout(resolve, 1000));
+                        continue;
+                    }
+
+                    if (!response.ok) {
+                        console.warn(`TTS fetch failed: ${response.status}`);
+                        return;
+                    }
+
+                    const blob = await response.blob();
+                    const audioUrl = URL.createObjectURL(blob);
+                    
+                    stopCurrentAudio();
+                    
+                    currentAudio = new Audio(audioUrl);
+                    
+                    currentAudio.onended = () => {
+                        URL.revokeObjectURL(audioUrl);
+                        currentAudio = null;
+                        updateStatus('');
+                    };
+                    
+                    currentAudio.onplay = () => {
+                        updateStatus('🔊 Playing response...');
+                    };
+                    
+                    await currentAudio.play();
+                    return;
+                } catch (error) {
+                    console.warn(`TTS attempt ${i + 1} failed:`, error);
+                }
+            }
+        }
+
+        window.onload = async function() {
+            try {
+                updateStatus('Initializing session...');
+                const response = await fetch('/api/start-session', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ 
+                        user_id: 'web_guest', 
+                        enable_voice_input: true, 
+                        enable_voice_output: true 
+                    })
+                });
+                const data = await response.json();
+                
+                if (data.success) {
+                    sessionToken = data.session_token;
+                    localStorage.setItem('session_token', sessionToken);
+                    updateStatus('Session started. Ready to chat!');
+                    pollForMessages();
+                    setInterval(pollForMessages, 1500);
+                } else {
+                    updateStatus('Failed to start session');
+                    console.error('Failed to start session', data);
+                }
+            } catch (e) {
+                updateStatus('Error starting session');
+                console.error('Error starting session', e);
+            }
+        };
+
+        async function pollForMessages() {
+            if (!sessionToken) return;
+            
+            try {
+                const response = await fetch(`/api/get-messages?session_token=${sessionToken}`);
+                
+                if (response.status === 400) {
+                    const err = await response.json();
+                    console.warn('Session invalid:', err);
+                    localStorage.removeItem('session_token');
+                    sessionToken = null;
+                    window.onload();
+                    return;
+                }
+
+                const data = await response.json();
+                
+                if (data.success && data.messages && data.messages.length > 0) {
+                    data.messages.forEach(msg => {
+                        if (msg.role === 'Interviewer' || msg.role === 'assistant') {
+                            const wasNew = appendMessage('bot', msg.content, msg.id);
+                            if (wasNew && msg.id) {
+                                playMessageAudio(msg.id);
+                            }
+                        } else if (msg.role === 'User' || msg.role === 'user') {
+                            appendMessage('user', msg.content, msg.id);
+                        }
+                    });
+                }
+
+                if (data.session_completed) {
+                    updateStatus('Session completed');
+                }
+            } catch (error) {
+                console.error('Polling error', error);
+            }
+        }
+
+        function startRecording(stream) {
+            mediaRecorder = new MediaRecorder(stream);
+            audioChunks = [];
+            
+            mediaRecorder.ondataavailable = function(event) {
+                audioChunks.push(event.data);
+            };
+            
+            mediaRecorder.onstop = sendAudioToServer;
+            mediaRecorder.start();
+            updateStatus('🎤 Recording...');
+        }
+
+        async function sendAudioToServer() {
+            if (!sessionToken) {
+                console.error('Session not initialized');
+                updateStatus('Session not initialized');
+                return;
+            }
+
+            updateStatus('Processing your speech...');
+
+            const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+            const formData = new FormData();
+            formData.append('audio', audioBlob);
+            formData.append('session_token', sessionToken);
+
+            try {
+                const response = await fetch('/api/send-voice', { 
+                    method: 'POST', 
+                    body: formData 
+                });
+                const data = await response.json();
+                
+                if (data.success) {
+                    // Show the transcribed text as user message
+                    const tempId = 'user-' + Date.now();
+                    appendMessage('user', data.transcribed_text, tempId);
+                    updateStatus('Waiting for response...');
+                } else {
+                    console.error('send-voice failed', data);
+                    updateStatus('Failed to process voice');
+                }
+            } catch (error) {
+                console.error('Error sending voice', error);
+                updateStatus('Error sending voice');
+            }
+        }
+
+        function toggleRecording() {
+            const recordButton = document.getElementById('record-toggle');
+            
+            if (isRecording) {
+                // Stop recording
+                if (mediaRecorder && mediaRecorder.state !== 'inactive') {
+                    mediaRecorder.stop();
+                }
+                recordButton.textContent = 'Start Recording';
+                recordButton.classList.remove('recording');
+                
+                // Stop any playing audio when user starts speaking
+                stopCurrentAudio();
+            } else {
+                // Start recording
+                // Also stop audio when starting to record
+                stopCurrentAudio();
+                
+                navigator.mediaDevices.getUserMedia({ audio: true })
+                    .then(stream => {
+                        startRecording(stream);
+                        recordButton.textContent = 'Stop Recording';
+                        recordButton.classList.add('recording');
+                    })
+                    .catch(error => {
+                        console.error('Error accessing microphone:', error);
+                        updateStatus('Error: Could not access microphone');
+                    });
+            }
+            
+            isRecording = !isRecording;
+        }
+
+        document.getElementById('record-toggle').onclick = toggleRecording;
+    </script>
+</body>
+</html>

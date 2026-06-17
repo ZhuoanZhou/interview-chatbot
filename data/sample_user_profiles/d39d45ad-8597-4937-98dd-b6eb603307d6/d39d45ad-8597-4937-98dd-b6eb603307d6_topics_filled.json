@@ -1,0 +1,534 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master\u2019s Degree in Computer Science",
+          "Completed undergraduate studies in Computer Engineering",
+          "Attended coursework covering algorithms, software engineering, and systems design",
+          "Participated in university research projects involving programming automation",
+          "Completed capstone project on optimizing CNC toolpaths using AI"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Computer Numerically Controlled (CNC) Tool Programmer",
+          "Role focuses on programming both front-end and back-end components of CNC systems",
+          "Designs and implements computer systems used for automated manufacturing tasks",
+          "Regularly reviews and modifies source code for CNC software",
+          "Collaborates with engineering teams to optimize machine tool performance"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the advanced manufacturing technology sector",
+          "Focuses on software solutions for automation in manufacturing",
+          "Operates at the intersection of computer science and industrial engineering",
+          "Supports digital transformation in manufacturing processes"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed by a mid-sized technology company (100-500 employees)",
+          "Company emphasizes innovation and adoption of new technologies",
+          "Work environment is collaborative and engineering-driven",
+          "Remote and hybrid work options available to technical staff"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Serves clients in manufacturing automation and industrial software",
+          "Develops custom CNC programming solutions for machine shops and factories",
+          "Market segment includes aerospace, automotive, and precision engineering sectors",
+          "Company offers both software products and consulting services"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 1-2 years of experience in the current CNC Tool Programmer role",
+          "Entered the workforce directly after completing Master\u2019s degree",
+          "Has participated in several full project cycles since joining the company"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds a junior to early-career professional position",
+          "Typically reports to a lead developer or engineering manager",
+          "Involved in technical decision-making but not in managerial responsibilities",
+          "Participates in mentorship and onboarding sessions for new hires"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Programs and debugs CNC machine control software",
+          "Develops both front-end user interfaces and back-end logic for CNC systems",
+          "Designs new computer systems and optimizes existing architectures",
+          "Reviews and interprets source code, often through source dives",
+          "Uses LLMs (e.g., ChatGPT) daily to understand, document, and troubleshoot code"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Approximately 50% of time spent on writing and reviewing code",
+          "Around 25% dedicated to system design and architecture discussions",
+          "Roughly 15% on debugging and troubleshooting tasks",
+          "10% spent collaborating with peers or consulting documentation"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has moderate autonomy in choosing programming approaches and tools",
+          "Makes independent decisions on code structure and tool selection for daily tasks",
+          "Major architectural or deployment decisions require team lead approval",
+          "Can propose process improvements but final implementation is team-based"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Quickly comprehends and navigates source code repositories",
+          "Rapidly implements standard back-end features and APIs",
+          "Comfortable using LLMs to generate code explanations or summaries",
+          "Effortlessly adapts to new programming frameworks"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Debugging legacy code with minimal documentation",
+          "Integrating multiple software systems with differing architectures",
+          "Optimizing CNC toolpaths for highly specialized manufacturing needs",
+          "Diagnosing rare and intermittent system failures"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Routine code documentation and commenting",
+          "Standardized code reviews for style and formatting",
+          "Generating initial boilerplate code for new modules",
+          "Batch testing of code changes across multiple configurations"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Finds system design and creative problem solving most engaging",
+          "Enjoys learning new programming languages or tools for specific projects",
+          "Considers manual data entry and repetitive code formatting tedious",
+          "Prefers tasks that require critical thinking over highly repetitive ones"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Time-consuming to understand poorly documented codebases",
+          "Integration issues when tools lack interoperability",
+          "Manual testing and verification processes can be slow",
+          "Occasional LLM-generated code lacks context or introduces subtle bugs"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Productivity increases when working on engaging, novel problems",
+          "Skill level is higher in tasks that are also personally enjoyable",
+          "Tedious or repetitive tasks tend to decrease motivation and output",
+          "Enjoys collaborating with peers, which enhances both skill and productivity"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Very positive and motivated to stay up-to-date with emerging tech",
+          "Frequently explores new software recommended by the developer community",
+          "Considers tech learning essential for career advancement",
+          "Enjoys experimenting with beta versions of new programming tools"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new tools, often self-teaching through online resources",
+          "Comfortable switching between programming languages and development environments",
+          "Can learn new LLM-based platforms with minimal onboarding",
+          "Views adaptability as a key strength in a technology-driven role"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Regularly allocates personal time for online courses or tutorials",
+          "Participates in internal training sessions when offered",
+          "Prioritizes learning when new tools directly benefit workflow",
+          "Balances training with work deadlines to ensure productivity"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the prospect of increased efficiency and capability",
+          "Seeks out tech with direct application to current projects",
+          "Occasionally limited by high workload or tight project timelines",
+          "Less inclined to learn tools that lack clear integration with existing systems"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often share recommendations and experiences with new tools",
+          "Management encourages experimentation with AI and automation platforms",
+          "Team-based adoption of tech increases willingness to invest in learning",
+          "Company culture values early adoption of proven technologies"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Cursor as a primary code editor and IDE",
+          "Engages ChatGPT for code assistance and explanations",
+          "Employs Perplexity for rapid information retrieval and research",
+          "Works with version control systems like Git for code management"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on Git and GitHub for source control and collaboration",
+          "Uses Docker for environment management and deployment",
+          "Utilizes Jira or similar tools for task tracking and project management",
+          "Employs debugging tools integrated into the code editor"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient in Python, C++, and JavaScript for CNC programming",
+          "Familiar with RESTful APIs and web-based control interfaces",
+          "Has experience with SQL and NoSQL databases for system back-ends",
+          "Keeps updated on current best practices in software engineering"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally encounters compatibility issues between AI assistants and local codebases",
+          "Some code editors require manual configuration for LLM integration",
+          "Data exchange between older CNC systems and modern software can be challenging",
+          "Version mismatches between project dependencies can disrupt workflow"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic machine learning concepts such as supervised learning and model inference",
+          "Familiar with the architecture of large language models (LLMs)",
+          "Able to explain terms like prompt engineering, fine-tuning, and model hallucination",
+          "Has completed coursework or online modules related to AI fundamentals"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT daily for code understanding and explanation",
+          "Frequently employs Perplexity for technical research",
+          "Integrates Cursor\u2019s AI features for code completion and suggestions",
+          "Experiments with other open-source LLMs for specialized tasks"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies ChatGPT every day to describe and summarize unfamiliar code",
+          "Uses Perplexity multiple times a day for sourcing technical documentation",
+          "Employs AI-driven code completion to speed up routine development tasks",
+          "Occasionally leverages LLMs for brainstorming and generating test cases"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI has successfully helped decode legacy code significantly faster than manual reading",
+          "Experienced hallucinated explanations from LLMs, requiring manual verification",
+          "LLM-generated code snippets have occasionally introduced subtle logic errors",
+          "Learned the value of combining AI suggestions with personal code reviews"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company provides informal peer-led workshops on LLM applications",
+          "Access to internal documentation on integrating AI tools into workflow",
+          "Peers frequently share tips and best practices for AI use in programming",
+          "Formal AI training sessions are limited but encouraged by management"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration for complex or unfamiliar code",
+          "Uses independent mode for routine code generation or documentation",
+          "Switches between modes depending on task difficulty and urgency",
+          "Finds step-by-step prompting enhances understanding and reduces errors"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Treats AI tools primarily as intelligent assistants for code-related tasks",
+          "Relies on AI as an advisor when exploring new frameworks or libraries",
+          "Occasionally uses AI as a co-worker during brainstorming sessions",
+          "Maintains final control and responsibility for the delivered code"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to experimenting with new AI-powered processes",
+          "Quickly adopts AI-driven workflows if they demonstrate clear benefits",
+          "Encourages peers to try out new AI integrations",
+          "Evaluates AI-driven changes critically for long-term viability"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and code exploration",
+          "Uses command-based prompts for precise, repeatable tasks",
+          "Finds conversational UIs more intuitive for learning and debugging",
+          "Switches to command-based interactions when speed is a priority"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many tasks require deep understanding of CNC programming standards",
+          "Tacit knowledge of machine tool behavior and real-world constraints is often necessary",
+          "LLMs can assist with general code but not specific manufacturing nuances",
+          "Leverages personal experience to validate AI-generated solutions"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Moderate trust in AI-generated code for non-critical or experimental tasks",
+          "High scrutiny of AI outputs for safety-critical manufacturing software",
+          "Consistently reviews and tests AI-suggested changes before deployment",
+          "Trust increases when AI explanations are transparent and well-documented"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive coding and documentation tasks",
+          "Human oversight is essential for system design and integration decisions",
+          "Combines AI-generated drafts with manual refinement for best results",
+          "Balances automation with personal accountability for deliverables"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for code formatting, syntax checks, and boilerplate generation",
+          "Cautious about automating safety-critical logic or machine control functions",
+          "Views excessive automation without human review as potentially risky",
+          "Supports automation if override and manual correction options are available"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances efficiency but does not replace core programming skills",
+          "Views communication and problem-solving as increasingly important alongside AI tools",
+          "Relies on fundamental coding skills to validate and improve AI outputs",
+          "Considers domain expertise even more critical for interpreting AI recommendations"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Prompt engineering and effective use of LLMs are becoming key skills",
+          "Develops skills in evaluating and integrating AI-generated code",
+          "Responsible for maintaining documentation on AI-assisted workflows",
+          "Involved in educating peers about safe and effective AI adoption"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mild concern about automation of repetitive programming tasks",
+          "Confident that system design and complex debugging will remain human-led",
+          "Sees AI as a tool to augment rather than replace CNC programmers",
+          "Monitors industry trends for shifts in job requirements"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Manual code review is standard before deploying AI-generated content",
+          "Workflow includes checkpoints to validate AI-suggested changes",
+          "Can revert or edit any automated changes before final implementation",
+          "Company encourages documenting exceptions and overrides for learning"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has become more open to AI tool experimentation in recent years",
+          "Policies now permit use of LLMs for non-confidential code review",
+          "Encouraged to share feedback on AI tool effectiveness and risks",
+          "Team discussions increasingly consider ethical and security implications of AI"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will significantly accelerate innovation in manufacturing",
+          "Expects AI to democratize access to advanced programming skills",
+          "Acknowledges potential societal disruption from rapid automation",
+          "Sees AI as a catalyst for new job roles in tech and engineering"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports transparent AI systems with clear documentation of logic",
+          "Cautious about biases and inaccuracies in LLM outputs",
+          "Advocates for human oversight in safety-critical environments",
+          "Believes ethical AI adoption requires ongoing training and education"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires AI that can fully understand and map complex codebases",
+          "Wants LLMs to provide context-aware debugging and optimization suggestions",
+          "Seeks seamless integration of AI with all major programming environments",
+          "Would benefit from AI-driven real-time code quality and risk assessment"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Anticipates spending more time on system design and less on routine coding",
+          "Expects AI to handle most code documentation and initial reviews",
+          "Foresees increased need for AI oversight and validation roles",
+          "Believes continuous learning will be essential as AI tools evolve"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Invest in regular training on AI tools and best practices",
+          "Develop guidelines for safe and ethical AI use in code development",
+          "Encourage cross-team sharing of AI tool adoption experiences",
+          "Establish clear processes for validating and overriding AI-generated outputs"
+        ]
+      }
+    ]
+  }
+]

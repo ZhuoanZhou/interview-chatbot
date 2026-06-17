@@ -1,0 +1,535 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Professional Degree (e.g., MD, JD)",
+          "Completed degree in a technical or engineering-related field, such as Mechanical Engineering or Industrial Design",
+          "Undertook specialized coursework in computer-aided design (CAD), technical drawing, and mechanical systems",
+          "Attended professional workshops on SolidWorks and AutoCAD during early career",
+          "Obtained certification in SolidWorks (CSWA) to validate CAD proficiency"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Mechanical Drafter",
+          "Responsible for preparing detailed layouts and technical drawings for machinery, mechanical tools, and devices",
+          "Collaborates closely with engineers to translate conceptual designs into manufacturable schematics",
+          "Creates both 2D technical drawings and 3D CAD models",
+          "Ensures designs comply with industry standards and internal specifications"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the manufacturing sector",
+          "Focuses on machinery and mechanical device design",
+          "Supports production of industrial equipment and precision tools",
+          "Collaborates with suppliers and manufacturing teams to ensure design feasibility"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-sized engineering firm with approximately 100-250 employees",
+          "Works within a dedicated design and drafting team of 6-10 people",
+          "Company has a collaborative, project-based work environment",
+          "Frequent cross-departmental interaction with engineering and manufacturing groups"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Company specializes in custom machinery and mechanical component design",
+          "Serves clients in industrial automation, manufacturing, and tooling",
+          "Projects often involve retrofitting existing systems or creating bespoke solutions",
+          "Market segment includes both domestic and international clients"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 6-10 years of experience as a Mechanical Drafter",
+          "Started as a junior drafter and advanced to lead complex projects",
+          "Has completed over 50 major drafting projects during tenure",
+          "Experience spans both 2D drafting and 3D modeling responsibilities"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds a mid-to-senior level drafter position",
+          "Often serves as lead drafter on project teams",
+          "Mentors junior or entry-level drafters on best practices",
+          "Contributes to process improvement discussions within the design team"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Prepares detailed technical layouts using AutoCAD and SolidWorks",
+          "Translates engineering concepts and sketches into precise CAD models",
+          "Reviews and revises drawings based on engineer and client feedback",
+          "Collaborates with engineers to ensure manufacturability and compliance",
+          "Maintains drawing libraries and manages version control for designs"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 70% of work hours on CAD drafting and modeling",
+          "About 15% of time is dedicated to meetings and collaborative sessions",
+          "10% involves reviewing, revising, and annotating existing drawings",
+          "The remaining time is spent on administrative tasks and documentation"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates with moderate autonomy in selecting drafting methods and tools",
+          "Responsible for technical accuracy and completeness of own drawings",
+          "Decisions on design details are made in consultation with engineers",
+          "Has authority to propose process improvements for drafting workflow"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Creating basic 2D layouts from clear engineering sketches",
+          "Applying standard dimensioning and annotation to drawings",
+          "Using AutoCAD for repetitive geometric shapes and patterns",
+          "Updating drawing revisions based on minor changes"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Converting vague or incomplete concepts into manufacturable designs",
+          "Creating complex assemblies with multiple moving parts in SolidWorks",
+          "Ensuring drawings meet all regulatory and safety standards",
+          "Coordinating with multiple stakeholders to resolve conflicting requirements"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Drafting standard components for recurring projects",
+          "Populating parts lists and bill of materials from CAD models",
+          "Applying repetitive dimensioning or tolerance annotations",
+          "Checking drawings for compliance against a fixed checklist"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys collaborating with engineers to solve unique design challenges",
+          "Finds satisfaction in building accurate 3D models from scratch",
+          "Considers repetitive dimensioning or data entry as tedious",
+          "Least enjoys extensive administrative documentation or file management"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manually updating multiple drawing versions after design changes",
+          "Interoperability issues between different CAD software versions",
+          "Delays caused by unclear or incomplete input from engineers",
+          "Time-consuming data entry for bills of materials and parts lists"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Productivity is highest when working on challenging but clear design problems",
+          "Enjoyment increases with autonomy and creative input on projects",
+          "Repetitive or low-skill tasks lower overall engagement and motivation",
+          "Higher skill level allows for faster completion of complex layouts, boosting job satisfaction"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open and enthusiastic about adopting new drafting technologies",
+          "Regularly seeks out updates and new features in CAD software",
+          "Views technology adoption as essential for staying competitive",
+          "Encourages team members to experiment with new digital tools"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Considers self highly adaptable to new CAD platforms or plugins",
+          "Can learn and integrate new software features within a few days",
+          "Comfortable switching between AutoCAD and SolidWorks as needed",
+          "Has successfully adapted to LLM-based drafting assistants in daily workflow"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Allocates time each month to explore new tutorials and webinars",
+          "Participates in company-sponsored training sessions",
+          "Willing to invest personal time in mastering tools that improve efficiency",
+          "Has completed multiple online courses for advanced CAD techniques"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by efficiency gains and professional growth",
+          "Occasional barrier: high workload limits time for deep learning",
+          "Prefers tech training directly relevant to current projects",
+          "Peer recommendations increase motivation to adopt new tools"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Positive peer experiences accelerate adoption of new technologies",
+          "Management endorsement is key for company-wide tool adoption",
+          "Often acts as an early adopter, sharing findings with colleagues",
+          "Team culture encourages experimentation with new software"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses AutoCAD for 2D drafting tasks",
+          "Relies on SolidWorks for 3D modeling and assemblies",
+          "Employs Microsoft Excel for managing parts lists and project tracking",
+          "Incorporates LLM-based drafting assistants for automating annotation and documentation"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Uses a workstation with a high-resolution dual monitor setup",
+          "Employs digital drawing tablets for sketching concepts",
+          "References printed and digital engineering standards manuals",
+          "Utilizes a networked file storage system for version control"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Advanced user of both AutoCAD and SolidWorks",
+          "Familiar with PDM (Product Data Management) systems",
+          "Knowledgeable about interoperability between major CAD platforms",
+          "Regularly updates skills as new versions of key software are released"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces issues transferring files between AutoCAD and SolidWorks",
+          "Some legacy files require manual conversion for compatibility",
+          "Integration between CAD and Excel for BOMs can be cumbersome",
+          "Company is piloting cloud-based solutions to improve cross-platform collaboration"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands key terms such as machine learning, natural language processing, and large language models (LLMs)",
+          "Regularly reads industry blogs and documentation on AI developments",
+          "Comfortable discussing AI model training, inference, and prompt engineering",
+          "Has experimented with generative design tools that use AI"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT for drafting technical documentation and answering design queries",
+          "Employs LLM plugins integrated with CAD software for automating annotations",
+          "Tests AI-powered generative design features in SolidWorks",
+          "Utilizes AI-based error-checking tools for CAD models"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses AI tools daily for technical writing and drawing annotation",
+          "Applies LLMs to automate repetitive documentation and parts list generation",
+          "Occasionally uses AI to suggest design optimizations based on project parameters",
+          "Employs AI chatbots as a reference for industry standards and best practices"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used AI to reduce drafting time by automating standard annotations",
+          "Encountered issues with AI-generated parts lists missing non-standard components",
+          "Learned the importance of manual review after AI-assisted drafting",
+          "Found AI chatbots useful for quick reference but less reliable for complex design logic"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company provides periodic webinars on AI integration with CAD tools",
+          "Peers share tips and workflows for maximizing AI tool efficiency",
+          "Documentation and guides for AI plugins are available on the company intranet",
+          "Encouraged to participate in external online courses on AI in engineering"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI tools for complex tasks",
+          "Uses independent, command-based interactions for routine drafting functions",
+          "Finds value in conversational AI for brainstorming design alternatives",
+          "Adapts interaction style depending on task complexity and urgency"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant that augments routine work",
+          "Occasionally treats AI as a co-worker for brainstorming or ideation",
+          "Relies on AI for rapid information retrieval and error-checking",
+          "Maintains final decision-making authority over all outputs"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to experimenting with new AI-driven drafting workflows",
+          "Actively participates in pilot programs for AI tool integration",
+          "Encourages team adoption of AI when demonstrable productivity gains are evident",
+          "Provides feedback to vendors on improving AI workflow features"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for design ideation and technical documentation",
+          "Uses command-based interfaces for repetitive or batch operations",
+          "Finds hybrid interfaces (conversational + command) most effective for complex tasks",
+          "Values interfaces that allow easy context switching between modes"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many tasks require deep knowledge of mechanical engineering principles",
+          "Interpreting ambiguous client requirements depends on domain expertise",
+          "Designing for manufacturability involves tacit understanding of production constraints",
+          "AI tools currently lack nuanced understanding of certain industry-specific practices"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for routine documentation and annotation tasks",
+          "Manually reviews all AI-generated outputs before submission",
+          "Skeptical of AI-generated designs for safety-critical or regulatory-compliant components",
+          "Trust increases with transparent AI decision-making and explainability"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers high AI automation for repetitive drafting and documentation",
+          "Maintains human oversight for design interpretation and problem-solving",
+          "Sees value in semi-automated workflows where AI assists but does not replace human judgment",
+          "Advocates for human-AI collaboration rather than full automation"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for standardized, low-risk tasks",
+          "Considers automation threatening if it undermines quality control or safety",
+          "Requires manual override and review capabilities in all automated workflows",
+          "Supports automation when it frees time for higher-value design activities"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the importance of deep domain expertise",
+          "Routine drafting skills are becoming less critical due to automation",
+          "Problem-solving and creative design skills are more valued in AI-augmented workflows",
+          "Continuous learning is essential to adapt to evolving AI tools"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing prompt engineering and AI workflow customization skills",
+          "Responsible for validating and curating AI-generated outputs",
+          "Learning to troubleshoot and adapt AI tools for domain-specific tasks",
+          "Participates in evaluating and recommending new AI solutions for the team"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mildly concerned about automation of routine drafting reducing task variety",
+          "Confident that creative and interpretive aspects of drafting remain human-centric",
+          "Monitors industry trends regarding AI-driven job displacement",
+          "Actively seeks opportunities to upskill and adapt to changing demands"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All AI-assisted outputs are subject to manual review before approval",
+          "CAD plugins allow users to accept, reject, or modify AI-generated suggestions",
+          "Company policy mandates human sign-off for all critical design documents",
+          "Regularly audits AI workflows to ensure compliance and accuracy"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has formalized guidelines for responsible AI tool use",
+          "Recent policy updates encourage experimentation with AI for efficiency gains",
+          "Team is expected to document and share best practices for AI integration",
+          "Ongoing discussions on standardizing AI tool evaluation and procurement"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will significantly increase productivity in manufacturing and engineering",
+          "Sees potential for AI to democratize access to advanced design tools",
+          "Concerned about possible job displacement for low-skill roles",
+          "Optimistic that AI will drive innovation and new business models in engineering"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports transparent and explainable AI systems to build user trust",
+          "Believes in the necessity of human oversight for all safety-critical tasks",
+          "Worries about data privacy and intellectual property risks with cloud-based AI",
+          "Advocates for equitable access to AI training and upskilling within the team"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires AI tools with better context awareness for complex assemblies",
+          "Seeks improved integration between LLMs and CAD platforms",
+          "Wishes for AI-powered real-time error detection during drafting",
+          "Would benefit from AI that can auto-generate compliance documentation"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Anticipates a shift toward more design validation and creative problem-solving",
+          "Expects routine drafting tasks to become fully automated",
+          "Foresees increasing collaboration with AI to explore innovative design concepts",
+          "Believes new roles will emerge focused on AI tool management and optimization"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Provide ongoing training and resources for AI literacy and upskilling",
+          "Establish clear guidelines for ethical and responsible AI use",
+          "Invest in robust integration of AI with core engineering tools",
+          "Encourage open feedback and iterative improvement of AI workflows"
+        ]
+      }
+    ]
+  }
+]

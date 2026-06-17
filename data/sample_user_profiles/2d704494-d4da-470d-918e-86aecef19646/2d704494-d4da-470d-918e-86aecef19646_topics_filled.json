@@ -1,0 +1,503 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master's degree in Mechanical Engineering with a specialization in Energy Systems",
+          "Completed undergraduate studies in Mechanical Engineering",
+          "Participated in certification courses on building energy modeling and LEED accreditation",
+          "Attended professional workshops focused on HVAC system design and energy code compliance"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Senior Energy Engineer",
+          "Role focuses on energy analysis, building system optimization, and sustainability consulting",
+          "Leads energy audits and collaborates with facility managers to implement savings measures",
+          "Responsible for technical report writing and ensuring compliance with sustainability standards"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the commercial building energy efficiency sector",
+          "Industry focuses on optimizing energy usage in office buildings, schools, hospitals, and retail spaces",
+          "Part of the broader energy engineering services industry, excluding wind and solar specialties"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-sized engineering consulting firm with around 100 employees",
+          "Work environment is a mix of office-based analysis and on-site facility visits",
+          "Firm has a collaborative culture with cross-functional project teams"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Firm specializes in energy audits, retro-commissioning, and sustainability compliance for commercial clients",
+          "Primary market segment includes large commercial and institutional building owners",
+          "Offers consulting services for LEED and other green building certifications"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has more than 10 years of experience as an energy engineer",
+          "Spent over a decade working in energy efficiency roles within the commercial building sector",
+          "Progressed from entry-level analyst to senior engineering positions over career"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds a senior-level engineering position",
+          "Acts as a project lead for complex energy retrofits and audits",
+          "Mentors junior engineers and contributes to internal training sessions",
+          "Participates in strategic planning for energy consulting offerings"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Analyzes building energy usage data to identify inefficiencies and savings opportunities",
+          "Runs building simulations using EnergyPlus and other modeling tools",
+          "Writes technical reports, energy audits, and compliance documentation",
+          "Coordinates with facility managers, contractors, and clients on project implementation",
+          "Conducts field inspections and site visits for data gathering and system verification"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 30% of time on data analysis and trend identification",
+          "Allocates around 15% to reporting, documentation, and proposal writing",
+          "Dedicates 10% to field inspections and onsite work",
+          "Remaining time is divided between staying current with industry standards, professional development, and regular team activities"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Exercises significant autonomy in selecting analysis methods and tools",
+          "Makes recommendations on energy-saving measures based on independent analysis",
+          "Responsible for technical decisions related to project implementation",
+          "Collaborates with teams but often leads project scoping and client communications"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Data cleaning and manipulation in Excel is highly familiar and efficient",
+          "Interpreting energy usage trends from building management systems comes naturally",
+          "Drafting standard sections of technical reports is straightforward after years of experience",
+          "Communicating technical findings to facility managers is comfortable due to strong field knowledge"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Balancing cost-effectiveness with sustainability goals in recommendations is complex",
+          "Managing and analyzing large sensor data sets from building automation systems requires advanced skills",
+          "Staying up-to-date with frequently changing energy codes and regulations is challenging",
+          "Coordinating implementation across multiple contractors and stakeholders can be difficult"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Cleaning and preprocessing large sets of energy consumption data is repetitive",
+          "Compiling standard compliance checklists for reports is suitable for automation",
+          "Routine trend identification in sensor data could be automated with AI tools",
+          "Generating initial drafts of audit reports from structured data is a prime candidate for automation"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Problem-solving around building system inefficiencies is highly engaging",
+          "Collaborating on site with facility managers and contractors is enjoyable",
+          "Repetitive data cleaning and manual documentation tasks feel tedious",
+          "Enjoys using simulation tools to test and validate energy-saving scenarios"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Dealing with inconsistent or incomplete sensor data from building systems",
+          "Manual cross-referencing of updated energy codes in each project is time-consuming",
+          "Integrating data across multiple software platforms can be cumbersome",
+          "Coordinating communication between all project stakeholders often leads to delays"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Tasks that align with expertise in data analysis and simulation are both enjoyable and productive",
+          "High skill level in Excel and EnergyPlus translates to faster, more reliable results",
+          "Tedious tasks, such as manual data entry, reduce motivation and overall productivity",
+          "Enjoyment is highest when solving complex problems or implementing innovative energy solutions"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Highly positive attitude toward adopting new engineering tools and methods",
+          "Actively seeks updates on latest energy modeling software and industry best practices",
+          "Views technology learning as essential for staying competitive in the field"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new simulation and data analysis platforms",
+          "Has self-taught multiple tools, including Python scripting for custom analytics",
+          "Comfortable experimenting with AI-based solutions for workflow efficiency"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Regularly attends webinars and online courses to expand technical skills",
+          "Invests personal time in learning advanced features of EnergyPlus and Excel",
+          "Willing to dedicate time after work hours for training if it adds clear value to workflow"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by desire to improve efficiency and project outcomes",
+          "Chooses to learn tools that offer clear, immediate relevance to energy engineering tasks",
+          "Heavy workload can limit time available for non-essential tech training",
+          "Prefers hands-on, project-based learning formats over theoretical instruction"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often recommend new tools, influencing adoption decisions",
+          "Management encourages experimentation with innovative software in projects",
+          "Collaborative culture supports sharing tips and training on new technologies",
+          "Team success stories with new tools increase personal willingness to try them"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Microsoft Excel daily for data cleaning, analysis, and report generation",
+          "Regularly works with EnergyPlus for building energy modeling and simulation",
+          "Accesses Building Automation System (BAS) interfaces for real-time monitoring and troubleshooting"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on AutoCAD for reviewing and updating mechanical/electrical system drawings",
+          "Uses Python scripts for custom data analysis when handling large sensor data sets",
+          "Employs email and project management software (e.g., MS Project) for coordination"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Highly proficient with Excel, EnergyPlus, and BAS platforms",
+          "Familiar with other simulation tools such as eQuest and TRACE 700",
+          "Experienced in interpreting outputs from LEED Online and ENERGY STAR Portfolio Manager"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces challenges integrating simulation outputs from EnergyPlus into Excel reports",
+          "Manual data transfer between BAS and analysis tools can be error-prone",
+          "Limited direct interoperability between AutoCAD and energy modeling software",
+          "Has developed custom Python scripts to bridge data gaps between systems"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic machine learning concepts such as regression, clustering, and anomaly detection",
+          "Comfortable with AI terminology like 'large language model', 'training data', and 'prompt engineering'",
+          "Regularly stays informed about AI advancements relevant to energy analysis"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses OpenAI's ChatGPT and similar LLMs for report drafting and code generation",
+          "Employs AI-assisted features in Excel, such as data analysis suggestions",
+          "Leverages Python ML libraries (e.g., scikit-learn) for trend analysis and forecasting"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies LLMs daily for drafting technical documentation and summarizing findings",
+          "Uses AI tools to automate initial data cleaning and outlier detection in large datasets",
+          "Employs AI chatbots as coding assistants when developing custom scripts for data analysis"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used ChatGPT to speed up report writing, reducing time spent by 30%",
+          "AI-based anomaly detection flagged faulty sensor data, preventing incorrect recommendations",
+          "Experienced occasional inaccuracies in LLM-generated technical content, requiring careful review",
+          "Learned that AI tools are most effective when used to augment, not replace, expert judgment"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company offers periodic AI tool workshops for engineers",
+          "Peers frequently share tips and code snippets for AI-assisted analysis",
+          "Access to internal documentation and best practices for LLM use in project workflows"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI for complex, multi-stage analysis tasks",
+          "Uses AI independently for routine documentation and report generation",
+          "Finds value in interactive, iterative sessions with LLMs when troubleshooting code"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for routine or repetitive tasks",
+          "Treats LLMs as co-workers for brainstorming solutions to technical problems",
+          "Relies on AI as an advisor when exploring new approaches to data analysis"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to piloting AI-driven workflows that clearly enhance productivity",
+          "Actively seeks out new AI-powered features in core tools like Excel and EnergyPlus",
+          "Advocates for broader AI adoption within the project team, especially for data-heavy tasks"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and documentation tasks",
+          "Uses command-based tools (e.g., Python scripts) for precise, technical operations",
+          "Finds conversational LLMs more intuitive for non-technical colleagues to interact with AI"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many recommendations require deep knowledge of building systems and energy codes",
+          "Tacit experience is crucial for interpreting ambiguous sensor data and site conditions",
+          "AI tools are most effective when supplemented by domain expertise"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for routine data analysis and drafting, but always verifies outputs",
+          "Relies on human review for critical decisions, such as recommending major retrofits",
+          "Trust in AI increases with transparent, explainable outputs"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive data processing and initial trend analysis",
+          "Values human oversight for final recommendations and client communications",
+          "Envisions a workflow where AI augments, not replaces, expert judgment"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for standardized, low-risk documentation tasks",
+          "Finds high automation threatening if it bypasses essential quality checks",
+          "Prefers manual intervention options for tasks involving significant design or safety implications"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the value of analytical and domain-specific skills",
+          "Sees routine skills (e.g., basic data cleaning) as less critical due to automation",
+          "Views communication and problem-solving expertise as increasingly important"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing proficiency in prompt engineering for LLMs",
+          "Gaining skills in interpreting and validating AI-generated outputs",
+          "Taking on responsibilities related to AI tool selection and workflow integration",
+          "Learning to troubleshoot AI-driven processes and address errors"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Some concern about automation of routine documentation and analysis tasks",
+          "Confident that domain expertise and client-facing roles remain less susceptible to automation",
+          "Believes ongoing adaptation and upskilling will mitigate most job security risks"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always reviews AI-generated reports before client delivery",
+          "Maintains manual quality control steps in the workflow for critical tasks",
+          "Documents overrides or corrections made to AI outputs for transparency"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has introduced guidelines for responsible AI use in technical deliverables",
+          "Team culture encourages experimentation with AI, while maintaining review protocols",
+          "Recent updates to workflow documentation include steps for AI validation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Optimistic about AI's potential to accelerate progress toward energy efficiency and sustainability",
+          "Sees AI as a major driver of productivity gains in engineering and consulting",
+          "Recognizes challenges related to job displacement and the need for reskilling"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes transparency and explainability are critical for ethical AI use",
+          "Concerned about potential for bias in AI-generated technical recommendations",
+          "Supports strict data privacy and security measures when using AI tools"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires AI tools that can seamlessly integrate energy code updates into analysis workflows",
+          "Wants more robust AI-driven data cleaning and harmonization features",
+          "Seeks customizable AI assistants for generating project-specific compliance documentation"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects greater automation of routine analysis, freeing time for strategic consulting",
+          "Foresees more emphasis on AI tool management and validation as a core responsibility",
+          "Anticipates the role shifting toward integration of AI insights with deep domain expertise"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement comprehensive training programs on AI literacy and tool use",
+          "Establish clear quality control and audit protocols for AI-driven outputs",
+          "Invest in developing or procuring AI solutions tailored to energy engineering needs",
+          "Foster an open culture for sharing AI adoption experiences and best practices"
+        ]
+      }
+    ]
+  }
+]

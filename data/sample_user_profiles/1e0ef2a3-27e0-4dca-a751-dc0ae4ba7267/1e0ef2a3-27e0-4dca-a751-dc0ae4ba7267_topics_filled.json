@@ -1,0 +1,503 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Has chosen to withhold specific educational background details ('Prefer not to say')",
+          "Completed formal training in financial counseling and consumer credit management",
+          "Maintains certification as a Certified Credit Counselor, renewed every two years",
+          "Attended numerous continuing education workshops on debt management and credit law"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Current job title is 'Senior Credit Counselor'",
+          "Role involves one-on-one client consultations, financial analysis, and debt management planning",
+          "Responsible for creating and overseeing individualized budgeting plans",
+          "Regularly provides educational sessions to clients on credit and personal finance topics"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the finance sector, specifically in consumer credit counseling",
+          "Assists individuals navigating personal debt and credit issues",
+          "Operates within the broader financial wellness and advisory industry"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-sized non-profit credit counseling agency with approximately 50 staff members",
+          "Works in an office environment with hybrid remote/onsite client meetings",
+          "Collaborates with a small team of counselors and administrative support staff",
+          "Organizational culture emphasizes client advocacy and ongoing staff education"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Business segment focuses on nonprofit credit counseling services",
+          "Serves individual consumers facing debt management or credit challenges",
+          "Market includes clients referred through community organizations, banks, and direct outreach"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has been in the credit counseling field for over 10 years",
+          "Has held a senior counselor position for at least the last 7 years",
+          "Previously worked in related financial advisory roles before current tenure"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Operates at a senior professional level within the organization",
+          "Mentors junior counselors and provides guidance on complex client cases",
+          "Participates in agency leadership meetings regarding client service improvements"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Conducts detailed financial intake interviews with clients to assess their situations",
+          "Develops personalized budgets and debt repayment strategies",
+          "Prepares written reports and updates for each client interaction",
+          "Tracks client progress and adjusts plans as needed during follow-up sessions",
+          "Keeps current on changes in credit laws and available financial assistance programs"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 60% of work time meeting with clients and reviewing cases",
+          "About 20% of the day is dedicated to preparing reports and updating client records",
+          "Roughly 15% is allocated to developing and adjusting repayment plans",
+          "The remaining 5% is spent on professional development and staying updated on financial regulations"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has significant autonomy in advising clients and crafting individualized financial plans",
+          "Authorized to negotiate repayment terms directly with creditors on behalf of clients",
+          "Generally consults with team leads only for unusually complex or high-risk cases",
+          "Can make independent recommendations within established agency guidelines"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Building rapport with clients during consultations comes naturally due to long experience",
+          "Identifying areas for budget improvement is typically straightforward",
+          "Documenting meeting notes and updating CRM records is routine and efficient",
+          "Explaining basic credit concepts in accessible language is a core strength"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Devising repayment strategies for clients with highly irregular or unstable income",
+          "Navigating cases with multiple creditors and complex debt portfolios",
+          "Staying abreast of frequent changes in credit laws and ensuring compliance",
+          "Managing emotionally distressed clients who may be resistant to advice"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Compiling monthly progress reports for clients is largely routine and data-driven",
+          "Sending reminder emails or appointment confirmations could be easily automated",
+          "Inputting financial data into budgeting software is repetitive and time-consuming",
+          "Cross-referencing credit report entries with client-provided data could be streamlined by AI"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys interactive sessions where clients make visible progress toward goals",
+          "Finds satisfaction in successfully negotiating better repayment terms for clients",
+          "Routine data entry and administrative paperwork are considered tedious",
+          "Least enjoys dealing with software integration issues or troubleshooting tech problems"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual data transfer between budgeting software and CRM creates inefficiencies",
+          "Occasional delays accessing up-to-date credit reports due to third-party system issues",
+          "Time spent on administrative tasks limits capacity for direct client support",
+          "Inconsistent software updates sometimes disrupt established workflows"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Highest productivity occurs when working directly with clients on problem-solving",
+          "Tasks that align with core financial counseling skills are both enjoyable and efficient",
+          "Less enjoyable, repetitive tasks often take longer and reduce overall job satisfaction",
+          "Mastery of digital tools directly enhances ability to manage more clients effectively"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Maintains a positive attitude toward adopting new digital tools when they offer clear benefits",
+          "Views technology as essential for improving client outcomes and workflow efficiency",
+          "Prefers practical, hands-on exploration over theoretical training materials"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Considers self adaptable, having transitioned through several major software upgrades",
+          "Able to learn new budgeting and CRM platforms with moderate guidance",
+          "Regularly seeks out tips and tricks from tech-savvy colleagues"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to invest several hours per month in tech training when updates affect daily tasks",
+          "Prefers concise, targeted training sessions over lengthy general overviews",
+          "Participates in webinars and online tutorials when new tools are introduced"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential for time savings and improved client service",
+          "Major barrier is finding time for training amid a full client schedule",
+          "Will adopt new tools more readily if they integrate smoothly with existing workflows"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers provide informal support and share best practices for new tech adoption",
+          "Management encourages use of productivity-enhancing tools and provides periodic training",
+          "Team culture is open to experimenting with new digital solutions"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Money Management International\u2019s (MMI) budgeting software for client plans",
+          "Relies on Salesforce CRM to track client interactions and maintain case notes",
+          "Accesses Experian\u2019s credit reporting tools for reviewing client credit history",
+          "Utilizes Microsoft Excel for customized financial summaries and analysis"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Telephone and secure email are primary channels for client communication",
+          "Physical file storage is still used for some legacy client documents",
+          "Printer and scanner are necessary for handling document submissions and signed agreements"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient with industry-standard budgeting and debt management tools",
+          "Regularly uses CRM software popular among financial advisors",
+          "Comfortable navigating multiple credit bureau reporting systems"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally experiences challenges transferring data between budgeting software and CRM",
+          "Manual reconciliation is needed when credit report formats do not match internal systems",
+          "Desires better integration between financial analysis tools and reporting platforms"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands core concepts such as natural language processing and machine learning",
+          "Can explain the basics of how language models generate responses",
+          "Keeps abreast of new AI trends relevant to the finance sector through industry publications",
+          "Frequently discusses AI advancements with colleagues"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT for drafting client educational materials and email templates",
+          "Applies Grammarly\u2019s AI-powered writing assistant to improve communication clarity",
+          "Employs Salesforce\u2019s Einstein AI to automate reminders and analyze client engagement",
+          "Has experimented with Cleo, an AI-powered budgeting assistant, for personal use and client demos"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses AI-powered language models daily to draft client-facing communications",
+          "Employs AI tools to quickly summarize client financial data and identify patterns",
+          "Applies AI-driven reminders and nudges to improve client appointment attendance",
+          "Relies on LLMs to brainstorm personalized budgeting advice or educational content"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI-generated educational handouts have improved client understanding and engagement",
+          "Noticed occasional inaccuracies in AI-generated financial explanations, requiring careful review",
+          "Achieved faster turnaround on client reports using AI-driven templates",
+          "Encountered issues with AI misinterpreting context in complex client cases"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Organization offers optional webinars on integrating AI into daily workflows",
+          "Peers often share tips for using AI tools effectively in client communications",
+          "Access to a shared knowledge base with AI tool best practices and troubleshooting"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI, especially during complex case work",
+          "Often starts with an independent draft and then uses AI for refinement or suggestions",
+          "Values the ability to intervene and adjust AI recommendations as needed"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Sees AI as an assistant for routine or repetitive tasks",
+          "Treats AI as a co-worker in brainstorming and content generation scenarios",
+          "Acts as the final decision-maker, using AI input as one source among many"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to adopting new AI workflows if they demonstrably improve efficiency",
+          "Prefers gradual integration to ensure understanding and control",
+          "Has actively advocated for piloting new AI features within the team"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and drafting client materials",
+          "Uses command-based interfaces for structured data or bulk actions",
+          "Finds conversational AI interfaces more intuitive for exploring options"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Advising clients often requires sensitivity to individual circumstances and emotional cues",
+          "Debt management solutions must be tailored based on nuanced financial histories",
+          "Relies on deep practical experience to interpret ambiguous client data",
+          "Some aspects, such as legal compliance, demand highly specialized knowledge"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Generally trusts AI for drafting and summarizing, but always reviews outputs before use",
+          "Skeptical of AI-generated financial advice without human validation",
+          "Reserves critical decisions, such as plan approval, for human judgment"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Favors AI automation for repetitive data processing and routine communications",
+          "Believes human oversight is essential for personalized advice and complex planning",
+          "Supports hybrid workflows where AI prepares materials for human finalization"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for administrative tasks with low risk to client outcomes",
+          "Finds high automation threatening if it removes opportunities for human empathy or discretion",
+          "Insists on manual review for any AI-driven client recommendations"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Sees AI as enhancing the value of core counseling skills by freeing time from routine work",
+          "Believes emotional intelligence and client rapport remain irreplaceable by AI",
+          "Finds that digital literacy is becoming increasingly important alongside traditional skills"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Has taken on responsibility for validating and customizing AI-generated content",
+          "Developed skills in prompt engineering to improve AI communication effectiveness",
+          "Acts as an informal resource for colleagues seeking to integrate AI into their workflows"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Concerned that some data entry and administrative duties may be fully automated",
+          "Confident that personalized counseling and negotiation remain safe from automation",
+          "Monitors industry trends to anticipate future changes in role scope"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All AI-generated client materials are manually reviewed before distribution",
+          "Can revert or disable AI automation in CRM and communication tools as needed",
+          "Agency policies require human approval for all critical financial recommendations"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has become more proactive in encouraging AI experimentation in recent years",
+          "Formalized guidelines now exist for appropriate AI tool usage",
+          "Periodic reviews assess the impact of AI adoption on client service quality"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI can democratize access to financial advice for underserved populations",
+          "Sees potential for AI to improve efficiency and accuracy across the financial services sector",
+          "Cautious about the risk of algorithmic bias and data privacy breaches"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Advocates for transparent AI processes and explainable outputs",
+          "Worries about over-reliance on AI for nuanced, high-stakes decisions",
+          "Supports strong safeguards for client data confidentiality in AI systems"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires AI tools that automatically integrate data across all core platforms",
+          "Wants a conversational AI capable of simulating realistic client scenarios for training",
+          "Would benefit from AI that proactively flags at-risk clients based on evolving data"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine administrative tasks to become largely automated",
+          "Anticipates a greater focus on personalized financial education and coaching",
+          "Believes the counselor role will shift toward interpreting AI-generated insights and providing human context"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Advocates for ongoing AI literacy training for all staff",
+          "Recommends regular audits of AI tools for fairness and accuracy",
+          "Suggests establishing a cross-functional team to oversee AI integration and policy development"
+        ]
+      }
+    ]
+  }
+]

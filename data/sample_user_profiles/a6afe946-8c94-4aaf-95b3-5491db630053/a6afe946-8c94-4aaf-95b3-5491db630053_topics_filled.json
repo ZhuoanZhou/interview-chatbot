@@ -1,0 +1,538 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Completed some college coursework in Information Technology but did not obtain a degree",
+          "Participated in several online certifications related to customer service and technical support (e.g., CompTIA IT Fundamentals, Google IT Support Certificate)",
+          "Attended company-sponsored workshops on software troubleshooting and client communication",
+          "Received on-the-job training for software tools used by the support team",
+          "Engaged in peer-led learning sessions within the organization to stay updated on new technologies"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Holds the title of Customer Support Manager at a software company",
+          "Responsible for supervising and leading a team of support specialists",
+          "Oversees the resolution of customer complaints and technical issues via multiple channels",
+          "Acts as a liaison between support staff and upper management, conveying feedback and service improvements",
+          "Manages workflow, escalates complex issues, and ensures SLA compliance"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the technology sector, specifically in software services",
+          "Supports clients using SaaS products developed by the company",
+          "Operates within the broader IT and customer experience industry",
+          "Interfaces with both technical and non-technical users in the software domain"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-sized software company with approximately 200-500 employees",
+          "Works in an open, collaborative office environment with opportunities for remote work",
+          "Company culture emphasizes teamwork, continuous improvement, and customer-centricity",
+          "The support team consists of around 10-15 people, with frequent cross-departmental collaboration"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Company provides B2B software solutions for organizational workflow management",
+          "Primary clients are other businesses needing robust support for their operations",
+          "Products cater to industries such as finance, healthcare, and education",
+          "Focuses on delivering scalable, cloud-based tools for business process automation"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has held the Customer Support Manager position for 3-5 years",
+          "Previously worked as a frontline support specialist for 2 years prior to promotion",
+          "Total experience in the software support domain is approximately 5-7 years",
+          "Stepped into a supervisory role after demonstrating strong leadership and technical skills"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Occupies a mid-level management role overseeing a team of specialists",
+          "Has direct reports and is responsible for their performance reviews",
+          "Participates in departmental planning and process optimization",
+          "Acts as a point of escalation for complex or sensitive customer issues"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Supervises a customer support team that handles incoming tickets via Intercom, ServiceNow, and Zendesk",
+          "Troubleshoots complex client issues and ensures timely resolution",
+          "Monitors ticket queues and redistributes workload as necessary",
+          "Provides coaching and feedback to support agents",
+          "Prepares weekly reports on support metrics for upper management"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends roughly 40% of work time overseeing and responding to customer tickets",
+          "Devotes 20% to team management and staff development activities",
+          "Allocates 15% to process improvement and documentation",
+          "Spends 15% on administrative duties and tool management (e.g., ActiveAdmin)",
+          "Dedicates 10% to cross-team collaboration and meetings"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has significant autonomy in managing the daily operations of the support team",
+          "Empowered to make decisions regarding ticket prioritization and escalation",
+          "Can implement process improvements and propose tool changes within the team",
+          "Consults with senior management for high-impact or strategic decisions",
+          "Has authority to approve time-off and schedule changes for direct reports"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Quickly assesses and triages customer tickets based on urgency and complexity",
+          "Communicating with clients to clarify and resolve straightforward issues",
+          "Navigating support platforms like Intercom and ServiceNow with confidence",
+          "Coaching team members on standard troubleshooting procedures"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Resolving multifaceted technical issues that span multiple systems",
+          "Handling escalated complaints from high-value or dissatisfied customers",
+          "Integrating new tools or updating workflows across the team",
+          "Managing conflicts or performance issues among support staff"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Manually categorizing and tagging incoming tickets for routing",
+          "Compiling weekly and monthly support metrics for reporting",
+          "Updating knowledge base articles with minor revisions",
+          "Processing standard password reset or account unlock requests"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys coaching team members and seeing their skills improve over time",
+          "Finds satisfaction in resolving complicated customer issues",
+          "Prefers brainstorming sessions for process improvements",
+          "Finds compiling repetitive reports or updating documentation tedious"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Duplicate ticket creation due to customers using multiple channels",
+          "Poor integration between ServiceNow and Intercom leading to manual data entry",
+          "Difficulty tracking ticket status when agents forget to update records",
+          "Occasional delays in accessing up-to-date knowledge base resources"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Higher enjoyment typically correlates with greater productivity and quality",
+          "Tasks that match personal strengths, like troubleshooting, are completed more efficiently",
+          "Tedious or repetitive tasks lead to lower engagement and increased risk of errors",
+          "Continuous learning and mastering new skills contribute to job satisfaction"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Has a generally positive attitude towards adopting new technologies",
+          "Sees value in tools that improve team efficiency or customer satisfaction",
+          "Sometimes feels overwhelmed by the pace of change in the tech landscape",
+          "Prefers hands-on, practical training over theoretical instruction"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to incremental changes in existing platforms",
+          "Requires more time to adjust to major overhauls or entirely new tools",
+          "Relies on early access or sandbox environments to experiment before full rollout",
+          "Values clear documentation and peer support during transitions"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate several hours per month to structured tech training",
+          "Prefers short, focused training modules over lengthy courses",
+          "More likely to engage in training when it is directly relevant to current responsibilities",
+          "Occasionally participates in vendor-led webinars and in-house workshops"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential for improved team performance and reduced workload",
+          "Workload spikes can limit availability for voluntary training",
+          "Skeptical of tools that appear to add complexity without clear benefit",
+          "Encouraged by management\u2019s support and recognition for upskilling"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers who embrace new tools positively influence adoption rates across the team",
+          "Management endorsement and resource allocation are key drivers for tool uptake",
+          "Often pilots new software with a small group before wider rollout",
+          "Openly shares feedback with both peers and supervisors about technology changes"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Intercom as the primary chat system for customer inquiries",
+          "Relies on ServiceNow and Zendesk for ticket management and escalation",
+          "Administers user roles and permissions through ActiveAdmin",
+          "Collaborates with the team via Slack for internal communication",
+          "Leverages Asana for task and project tracking"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Regularly uses Lessonly for team onboarding and training",
+          "Accesses Seismic Knowledge for updated product documentation",
+          "Utilizes Google Workspace (Docs, Sheets, Drive) for documentation and reporting",
+          "Employs screen-sharing tools such as Zoom to assist customers directly"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Skilled in using major helpdesk platforms like Zendesk and ServiceNow",
+          "Comfortable with project management systems such as Asana and Trello",
+          "Experienced with chat and collaboration tools including Slack and Microsoft Teams",
+          "Understands basic CRM functions but does not use Salesforce extensively"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Faced challenges syncing data between ServiceNow and Intercom, resulting in duplicate records",
+          "Occasional delays when transferring customer information between platforms",
+          "Manual workarounds are sometimes needed due to incomplete tool integrations",
+          "Has advocated for improved API connections and workflow automations"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic concepts like machine learning, natural language processing, and chatbots",
+          "Recognizes AI\u2019s capabilities in automating routine support tasks",
+          "Occasionally reads articles or attends webinars on AI trends in customer support",
+          "Can explain terms such as 'training data', 'model output', and 'confidence score' at a high level"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Has used LLM-based chatbots integrated within Intercom to suggest responses",
+          "Experimented with AI-driven ticket classification features in ServiceNow",
+          "Tested AI content suggestions in Seismic Knowledge for knowledge base updates",
+          "Occasionally uses ChatGPT or similar tools for quick research or drafting replies"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses AI features occasionally, primarily for drafting initial customer responses",
+          "Relies on AI-based ticket routing during high-volume periods",
+          "Employs AI to auto-suggest knowledge base articles for support agents",
+          "Less frequent use for analytics or reporting tasks, which are mostly manual"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI suggested a highly relevant solution for a recurring technical issue, reducing resolution time",
+          "Encountered an AI misclassification that routed a critical ticket to the wrong team",
+          "Learned that human review is essential before acting on AI-generated responses",
+          "Observed improved consistency in knowledge base updates when using AI-generated content as a starting point"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Received basic training during the rollout of AI features in Intercom",
+          "Peers often share tips and best practices for getting the most out of AI tools",
+          "No formal AI certification program in place within the company",
+          "Relies on vendor documentation and internal Slack channels for troubleshooting AI-related issues"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI, especially for complex or unfamiliar tasks",
+          "Appreciates the option to review and edit AI-generated suggestions before sending to customers",
+          "Finds independent use more efficient for simple, repetitive queries",
+          "Wants the flexibility to toggle between modes depending on the situation"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant to augment daily workflow",
+          "Occasionally uses AI as an advisor for troubleshooting rare technical issues",
+          "Does not rely on AI as a full co-worker; prefers to maintain final say on customer communications",
+          "Sees value in AI supporting but not replacing human judgment"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to experimenting with AI-driven processes that clearly demonstrate efficiency gains",
+          "Skeptical of workflows that reduce transparency or hinder quality control",
+          "Willingness increases when peers or management actively support adoption",
+          "Prefers gradual integration over abrupt transitions to AI-heavy processes"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Finds conversational interfaces more intuitive for customer interaction scenarios",
+          "Uses command-based tools for technical administration tasks in ActiveAdmin",
+          "Appreciates hybrid interfaces that offer both conversational guidance and command shortcuts",
+          "Believes conversational UI helps new team members ramp up faster"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many customer issues require context-specific product knowledge not easily encoded in documentation",
+          "Relies on experience to interpret nuanced customer feedback and tone",
+          "AI systems sometimes miss subtle cues or history relevant to a given client",
+          "Tacit knowledge is especially important for high-stakes or escalated cases"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for low-risk, repetitive tasks like ticket categorization",
+          "Exercises caution and double-checks AI outputs for complex or sensitive responses",
+          "Has experienced both accurate and flawed AI recommendations, reinforcing the need for oversight",
+          "Would not rely solely on AI for decisions impacting customer satisfaction or retention"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle initial triage and suggest solutions, with humans refining and approving outputs",
+          "Believes repetitive tasks should be highly automated to free up staff for complex problem-solving",
+          "Wants final review of customer-facing communications to remain human-led",
+          "Open to increasing automation as AI systems improve reliability"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for simple, low-stakes tasks with clear outcomes",
+          "Feels automation is threatening if it reduces transparency or introduces errors without human checks",
+          "Wants clear escalation paths when automated processes fail",
+          "More comfortable with automation when override options are built-in"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the value of critical thinking and interpersonal skills",
+          "Routine troubleshooting skills may become less crucial as automation improves",
+          "Sees ongoing need for deep product knowledge and customer empathy",
+          "Views adaptability and tech literacy as increasingly important in the evolving landscape"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing skills in AI prompt engineering for effective use of LLMs",
+          "Taking responsibility for reviewing and refining AI-generated content",
+          "Participates in evaluating AI tool performance and suggesting improvements",
+          "Guides team members on best practices for integrating AI into support workflows"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Has some concerns about automation reducing the need for basic support roles",
+          "Believes managerial and customer relationship skills are less likely to be replaced by AI",
+          "Watches industry trends but feels secure given the emphasis on team leadership",
+          "Encourages team members to upskill in areas that complement automation"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "AI-generated responses in Intercom require agent review before being sent",
+          "Manual ticket reassignment is possible if AI misroutes a case",
+          "Knowledge base updates generated by AI are subject to human approval",
+          "Has advocated for more transparent override options in tool feature requests"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has gradually increased adoption of AI features over the past 2 years",
+          "Policy emphasizes human oversight and accountability in all AI-assisted processes",
+          "Encourages continuous feedback from staff on AI tool performance",
+          "No significant layoffs or role reductions attributed to AI adoption so far"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will continue to transform customer service and support industries",
+          "Sees potential for AI to create new job categories even as it automates others",
+          "Worries about possible bias or loss of human touch in customer interactions",
+          "Expects regulatory frameworks to shape AI adoption in coming years"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Values transparency in how AI decisions are made and communicated to staff",
+          "Concerned about data privacy and security when using AI tools",
+          "Believes AI should augment, not replace, human judgment in sensitive cases",
+          "Supports clear guidelines and accountability for AI-driven decisions"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would benefit from more accurate AI-driven ticket prioritization based on sentiment analysis",
+          "Desires AI summarization tools to quickly brief staff on ongoing customer cases",
+          "Wants improved integrations between AI features across all support platforms",
+          "Sees value in AI-powered real-time coaching for support agents during live chats"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects the support manager role to focus increasingly on overseeing AI-human collaboration",
+          "Predicts team size may shrink as automation handles more routine inquiries",
+          "Foresees greater emphasis on customer relationship management and complex escalations",
+          "Anticipates needing to continuously learn and adapt to new AI-driven processes"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Invest in regular training to keep staff up to date with AI advancements",
+          "Establish clear protocols for human oversight of AI outputs",
+          "Solicit ongoing feedback from frontline staff on AI tool performance",
+          "Prioritize integration and data interoperability between AI and existing systems"
+        ]
+      }
+    ]
+  }
+]

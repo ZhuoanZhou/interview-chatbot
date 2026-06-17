@@ -1,0 +1,487 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Completed some college coursework, but did not earn a degree.",
+          "Attended courses relevant to broadcasting, media studies, and communications.",
+          "Has participated in informal on-the-job training specific to radio operations and playlist curation.",
+          "No formal broadcasting certification, but learned core skills through practical experience."
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Broadcast Announcer and Radio Disc Jockey.",
+          "Responsible for curating and sequencing music playlists for radio shows.",
+          "Hosts live radio shows, making announcements, presenting music, and reading Public Service Announcements (PSAs).",
+          "Involved in managing show timing and real-time playlist adjustments."
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the broadcasting and media industry.",
+          "Focuses specifically on radio broadcasting and music entertainment.",
+          "Operates within the broader entertainment and communications sector."
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works for a small to mid-sized radio station typical of local or community radio.",
+          "Environment is informal and collaborative, with a hands-on approach to operations.",
+          "Team likely consists of a mix of volunteers and paid staff."
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Operates in the non-commercial/community radio segment.",
+          "Serves a diverse local audience with a mix of music genres and PSAs.",
+          "Works in a segment that values eclectic playlists and local community engagement."
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 1-2 years of experience as a broadcast announcer/radio DJ.",
+          "Role tenure aligns with entry-level or early-career professional.",
+          "Began hosting and playlist curation responsibilities within the last two years."
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Functions at a junior or early-career professional level.",
+          "Primary responsibilities are operational, with some creative autonomy.",
+          "Not in a management or supervisory role."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Curates and sequences music playlists for radio shows.",
+          "Hosts live broadcasts, introducing songs and delivering PSAs as scheduled.",
+          "Monitors song timing to align with station guidelines and PSA requirements.",
+          "Edits playlists in real time in response to changes or technical issues."
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends the majority of work hours (around 60-70%) on playlist curation and sequencing.",
+          "Live hosting and on-air broadcasting take up about 20-30% of time.",
+          "Administrative tasks such as archiving playlists and logging PSAs occupy the remaining time."
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has significant autonomy in selecting and ordering songs, within FCC and station guidelines.",
+          "Independently manages real-time playlist adjustments during live shows.",
+          "Adheres to pre-set PSA schedules and content rules, but has creative freedom in show curation."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Selecting songs within preferred genres and familiar artists is intuitive.",
+          "Announcing songs and engaging with the audience on-air comes naturally.",
+          "Managing the physical setup (vinyl, CDs) is routine and comfortable due to hands-on experience."
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Ensuring all song selections comply with FCC content and timing regulations can be complex.",
+          "Sequencing music to achieve a coherent flow across multiple genres requires careful planning.",
+          "Adjusting live playlists in response to technical issues or unexpected timing changes is challenging."
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Archiving playlists and logging setlists into Spinatron is repetitive.",
+          "Scheduling and logging PSAs at precise intervals involves routine data entry.",
+          "Checking song metadata for compliance and duration is repetitive and could be automated."
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Curating creative playlists and discovering new song combinations is highly engaging.",
+          "Live interaction with listeners and hosting the show provides satisfaction.",
+          "Manual data entry for PSA logs and archiving playlists tends to feel tedious."
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Switching between physical formats and digital platforms slows down transitions.",
+          "Manual playlist archiving and PSA logging are time-consuming.",
+          "Last-minute changes to show timing require rapid, sometimes stressful, adjustments."
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Enjoyment is highest when curating and sequencing creative playlists, which also leverages core skills.",
+          "Productivity drops during repetitive administrative work, which is less enjoyable.",
+          "Skill development is fastest in tasks that are both challenging and enjoyable, such as live show hosting."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally open to trying new technologies, especially if they improve workflow.",
+          "Sees practical value in adopting tools that streamline playlist management or show scheduling.",
+          "Prefers hands-on experimentation over formal training."
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts reasonably well to new software, though initial learning can be challenging.",
+          "Comfortable with mainstream platforms like Spotify and Google Docs after brief acclimation.",
+          "Requires more time to adapt to specialized radio or AI tools."
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to invest time in learning tools that have clear benefits for daily work.",
+          "Less inclined to pursue in-depth training unless required for the role.",
+          "Prefers learning through guided tutorials or peer mentorship over self-study manuals."
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Main motivation is increasing efficiency and reducing repetitive tasks.",
+          "Barriers include time constraints and unclear relevance to immediate responsibilities.",
+          "Adoption is easier when recommended or demonstrated by trusted colleagues."
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peer recommendations strongly influence willingness to try new technology.",
+          "Management encouragement increases adoption, especially when accompanied by training.",
+          "Observing successful use by others boosts confidence in a new tool's value."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Spinatron for playlist storage, archiving, and logging.",
+          "Regularly utilizes Google Docs and Microsoft Word for show notes and scripts.",
+          "Streams and checks music on Spotify for digital playlist curation."
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on physical music formats such as vinyl records and CDs for live shows.",
+          "Uses standard radio broadcasting equipment for hosting and announcements.",
+          "Employs a desktop or laptop computer for digital file management and documentation."
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Familiar with radio automation basics, though not using advanced automation tools daily.",
+          "Comfortable with mainstream music and document management platforms.",
+          "Limited experience with more complex broadcast scheduling or analytics software."
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Transitioning between physical and digital music formats can be cumbersome.",
+          "Playlist updates on Spinatron must be manually synced with live show adjustments.",
+          "Occasional compatibility issues when converting between file formats for different platforms."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Has some experience using Large Language Models (LLMs) for work tasks.",
+          "Understands basic AI concepts such as text generation and content suggestion.",
+          "Familiar with common AI terms like 'prompt', 'model', and 'training data', but not deeply technical."
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Has used ChatGPT or similar LLM-based tools for brainstorming or text drafting.",
+          "No regular use of specialized broadcast AI tools (e.g., music recommendation engines) yet.",
+          "Occasionally leverages general-purpose AI tools integrated into document editors."
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses AI tools occasionally, primarily for generating show notes or brainstorming playlist ideas.",
+          "AI may be consulted for finding thematically related songs or creating engaging announcements.",
+          "Not integrated as a core part of daily workflow yet; use is ad hoc and task-specific."
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI-generated song pairings have sometimes inspired creative playlist ideas.",
+          "Experience with LLMs has occasionally produced generic or irrelevant suggestions.",
+          "Learned to provide more specific prompts to improve AI usefulness for show content."
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal AI training provided by the organization to date.",
+          "Peers occasionally share tips or tutorials on using LLMs for broadcast scripting.",
+          "Self-guided experimentation and online resources are main sources for AI learning."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers to use AI tools independently for ideation, then reviews outputs before integrating.",
+          "Occasionally uses AI in a step-by-step process for brainstorming or writing scripts.",
+          "Values manual review of AI-generated content to ensure fit with show style and compliance."
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI as an assistant for idea generation and content drafting.",
+          "Relies on human judgment for final curation and sequencing decisions.",
+          "Treats AI suggestions as starting points, not definitive answers."
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to exploring more AI-driven workflows if they save time or increase creativity.",
+          "Cautious about fully automating playlist curation due to need for personal touch.",
+          "Would consider adopting AI-driven tools for administrative tasks like logging."
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and content generation.",
+          "Finds natural language prompts more intuitive than structured commands.",
+          "Would use command-based interfaces for batch administrative tasks if available."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Playlist curation relies heavily on personal taste and understanding of audience preferences.",
+          "Knowledge of FCC regulations and local station policies is essential for content compliance.",
+          "Live show hosting requires improvisational and interpersonal skills that are hard to codify."
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Moderate trust in AI for brainstorming and admin support, but not for final playlist decisions.",
+          "Always reviews AI-generated suggestions for compliance and fit with station ethos.",
+          "Reluctant to rely on AI for tasks where errors could breach regulations."
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI support for repetitive or data-heavy tasks like archiving and PSA logging.",
+          "Believes creative and compliance-sensitive decisions should remain human-led.",
+          "Sees value in AI-human collaboration for ideation, not execution."
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "High automation is acceptable for back-office admin work, provided manual override is available.",
+          "Would feel threatened by automation of core creative and hosting responsibilities.",
+          "Open to automation if it demonstrably enhances, rather than replaces, personal input."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI can enhance creative output by suggesting new ideas.",
+          "Concerns that over-reliance on AI could erode unique personal style.",
+          "Sees FCC compliance knowledge and live show skills as AI-resistant."
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning prompt engineering and effective AI usage is becoming relevant.",
+          "Monitoring and validating AI outputs adds a layer of responsibility.",
+          "Adapting workflows to integrate AI suggestions is an emerging skill."
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mild concern about automation of playlist archiving and basic logging.",
+          "Does not believe core live hosting or creative curation will be replaced soon.",
+          "Watches industry trends to stay aware of evolving automation risks."
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always manually reviews AI-generated suggestions before use.",
+          "No fully automated processes in current workflow; human approval is required.",
+          "Would insist on override mechanisms if AI-driven playlisting or scheduling is introduced."
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "No formal AI adoption policy at the station yet.",
+          "Peers are experimenting with AI informally, sharing results as a community.",
+          "Management is open to AI experimentation but has not mandated adoption."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Sees AI as a tool that can streamline media workflows and inspire creativity.",
+          "Recognizes risks of job displacement in highly automatable roles.",
+          "Believes AI will create new opportunities for content personalization and efficiency."
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes human oversight is essential to prevent inappropriate or biased outputs.",
+          "Concerned about potential loss of individuality in creative industries.",
+          "Supports transparent disclosure when AI-generated content is used."
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would benefit from an AI tool that suggests song sequences based on lyrical and stylistic compatibility.",
+          "Desires automation in administrative tasks like PSA scheduling and playlist archiving.",
+          "Wishes for AI-enhanced compliance checks for FCC and station rules."
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects AI will handle more of the administrative and compliance workload.",
+          "Believes creative and hosting aspects will remain human-driven but supported by AI tools.",
+          "Anticipates needing to regularly update skills to work alongside evolving AI technologies."
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Recommends offering workshops or peer-led training on AI tool usage.",
+          "Advocates for clear guidelines on where and how AI can be used in broadcasting.",
+          "Supports implementing pilot programs to test AI in non-critical tasks before wider rollout."
+        ]
+      }
+    ]
+  }
+]

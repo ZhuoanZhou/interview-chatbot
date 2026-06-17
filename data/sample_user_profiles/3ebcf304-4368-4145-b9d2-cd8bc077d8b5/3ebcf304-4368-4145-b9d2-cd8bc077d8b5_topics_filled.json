@@ -1,0 +1,532 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s degree, earned at age 18",
+          "Completed major coursework in accounting, finance, and taxation",
+          "Participated in tax preparation workshops and seminars during studies",
+          "Has completed annual IRS continuing education for tax preparers",
+          "Received on-the-job training in tax software and bookkeeping tools"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Tax Preparer",
+          "Prepares tax returns for both individual and business clients",
+          "Also serves as a bookkeeper and financial document preparer",
+          "Provides tax advice and planning strategies to clients",
+          "Responsible for e-filing returns and preparing supporting reports"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the finance and accounting sector",
+          "Specializes in tax preparation and bookkeeping services",
+          "Serves clients across various industries, primarily small businesses and individuals"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works in a small to medium-sized accounting firm",
+          "Firm has fewer than 50 employees",
+          "Collaborates closely with a small team of fellow tax preparers and bookkeepers",
+          "The environment is client-focused and deadline-driven"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Firm primarily serves small businesses and individual taxpayers",
+          "Handles both consumer (personal) and business tax preparation",
+          "Focuses on year-round bookkeeping and tax advisory services",
+          "Market segment includes sole proprietors, LLCs, and contract workers"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 3-5 years of experience as a tax preparer",
+          "Began working in the field immediately after completing degree",
+          "Experience includes multiple tax seasons and annual bookkeeping cycles"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Considered early-career or junior to mid-level in the field",
+          "Handles independent client portfolios but not in a management role",
+          "Regularly consults with senior preparers on complex cases",
+          "Trusted with significant client-facing responsibilities"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Performs monthly and annual bookkeeping for clients",
+          "Prepares and files individual and business tax returns",
+          "Creates financial documents such as profit & loss (P&L) statements and contract labor reports",
+          "Issues 1099 forms and manages related reporting",
+          "Reviews client tax documents and provides advice on tax strategies"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Bookkeeping and financial report creation: approximately 50% of work hours",
+          "Tax preparation and filing: around 30% of time, especially during tax season",
+          "Client communication and advisory: roughly 10-15% of time",
+          "Administrative and research tasks: about 5-10% of work hours"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates with moderate autonomy in managing client accounts",
+          "Makes independent decisions on tax deduction strategies and bookkeeping methods",
+          "Refers highly complex or unusual tax situations to more senior colleagues",
+          "Responsible for the accuracy and completeness of client filings",
+          "Authorized to communicate directly with clients on most issues"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Running standard bookkeeping tasks in QuickBooks",
+          "Reconciling accounts and categorizing common expenses",
+          "Generating routine P&L reports and contract labor summaries",
+          "Using Excel for basic financial calculations"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Handling complex tax situations, such as multi-state filings or unusual deductions",
+          "Interpreting new or ambiguous IRS regulations",
+          "Correcting significant bookkeeping errors from client data",
+          "Advising clients on advanced tax reduction strategies"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Monthly transaction categorization in bookkeeping",
+          "Data entry of receipts and invoices into QuickBooks",
+          "Generating and issuing standard 1099 forms",
+          "Compiling year-end reports and tax summaries for clients"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys providing tax advice and helping clients reduce liability",
+          "Finds satisfaction in solving complex tax challenges",
+          "Considers repetitive data entry and monthly reconciliations tedious",
+          "Prefers client-facing communications over back-end administrative work"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual data entry from client documents can be time-consuming and error-prone",
+          "Integrating data between QuickBooks, Excel, and TaxWise sometimes requires double work",
+          "Clients providing incomplete or disorganized documentation delays progress",
+          "Occasional software glitches, especially during peak tax season, disrupt workflow"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Finds that enjoyment and productivity are highest when solving complex client problems",
+          "Skill level is highest in routine bookkeeping, leading to faster task completion",
+          "Least productive when dealing with tedious, repetitive data entry",
+          "Enjoyment increases when learning new strategies or tools that improve workflow"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Has a strong interest in adopting new tech that improves efficiency",
+          "Regularly explores software updates and new features",
+          "Views technology as an essential part of modern tax preparation",
+          "Positive about experimenting with AI and automation tools"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to updated versions of QuickBooks and TaxWise",
+          "Comfortable switching between desktop and online platforms",
+          "Frequently seeks out online tutorials or peer advice when learning new tools"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Invests regular time in learning about software updates and features",
+          "Participates in webinars or online courses on new tax software",
+          "Believes time spent on tech training is worthwhile if it increases productivity",
+          "Sometimes faces time constraints during peak periods that limit deep-dive training"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the need to reduce repetitive work and errors",
+          "Barriers include heavy workloads during tax season",
+          "More likely to adopt tech when it integrates with existing tools",
+          "Requires clear evidence of time-saving or accuracy benefits before fully committing"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often share tips on maximizing software efficiency",
+          "Firm management encourages adoption of new tools that streamline workflow",
+          "More likely to adopt tools that are recommended by experienced colleagues",
+          "Team discussions help evaluate the value of new technologies before implementation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses QuickBooks Desktop and QuickBooks Online for bookkeeping",
+          "Relies on TaxWise for tax preparation and e-filing",
+          "Regularly uses Excel for manual reporting and data analysis",
+          "Accesses IRS.gov for up-to-date tax guidance and forms"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Excel spreadsheets for custom financial reports",
+          "Physical document scanners for digitizing client paperwork",
+          "Email for client communication and document exchange",
+          "Printer and secure file storage for signed tax returns"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient with QuickBooks, considered an industry staple for bookkeeping",
+          "Comfortable navigating multiple tax software platforms, including TaxWise",
+          "Has experience with e-filing systems and secure document portals",
+          "Familiar with government resources such as the IRS website and 'Where\u2019s My Refund'"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally encounters data compatibility issues moving between QuickBooks and Excel",
+          "Manual data transfer sometimes required between bookkeeping and tax prep platforms",
+          "Limited integration between TaxWise and client document management systems",
+          "Relies on exporting/importing CSV files to bridge software gaps"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Uses large language models (LLMs) regularly, understands their basic operation",
+          "Familiar with concepts like natural language processing and text generation",
+          "Aware of AI's potential for automating routine communication and document drafting",
+          "Understands limitations of AI in domain-specific decision-making"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT and other LLM-based assistants for drafting emails and letters",
+          "Occasionally uses AI-powered grammar and style tools (e.g., Grammarly)",
+          "Explores AI features embedded in office productivity suites"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies AI tools weekly for drafting client correspondence",
+          "Uses LLMs to rephrase or clarify complex tax information in emails",
+          "Employs AI to generate templates for standard client letters",
+          "Occasionally uses AI for brainstorming or outlining tax advice communications"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used LLMs to draft clear, professional client letters, saving significant time",
+          "Encountered occasional inaccuracies when AI generated tax-related explanations, requiring manual review",
+          "Noticed that AI-drafted content sometimes lacked specific tax terminology",
+          "Learned the importance of reviewing AI-generated content for compliance and accuracy"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Firm provides informal guidance and best practices for AI tool use",
+          "Peers share tips and templates for integrating AI-drafted content into workflow",
+          "No formal AI training program, but self-directed learning is encouraged",
+          "Occasional team discussions on ethical considerations of AI-generated communications"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers using AI tools independently for drafting and revising communications",
+          "Occasionally uses AI in a step-by-step manner for complex tasks like outlining letters",
+          "Finds flexibility in switching between independent and guided AI interactions",
+          "Appreciates being able to iterate on AI outputs before finalizing"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI as an assistant for drafting and organizing written content",
+          "Treats AI as a tool to enhance, not replace, professional expertise",
+          "Uses AI as a brainstorming partner for improving client communication",
+          "Maintains final editorial control over all AI-generated output"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to integrating AI into more aspects of workflow if it saves time",
+          "Actively seeks out new AI features in office and tax software",
+          "Willing to test AI-driven automation for repetitive reporting tasks",
+          "Prefers gradual adoption, starting with low-risk communication tasks"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational AI interfaces for drafting and revising text",
+          "Finds natural language prompts intuitive and easy to use",
+          "Uses command-based features for quick formatting or data extraction tasks",
+          "Likes the option to switch between conversational and command modes as needed"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many tasks, like tax planning and advisory, depend heavily on detailed domain knowledge",
+          "Bookkeeping and tax preparation require understanding of nuanced IRS regulations",
+          "AI is currently used only for supporting tasks, not for making tax decisions",
+          "Reviews all AI outputs for accuracy and compliance with tax laws"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for drafting communications but not for making final tax decisions",
+          "Always double-checks AI-generated information for technical accuracy",
+          "Considers AI a useful starting point, not an authoritative source",
+          "More likely to trust AI with routine, low-risk writing tasks"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Favors high automation for repetitive document drafting and formatting",
+          "Prefers human oversight for all client-facing advice and tax filing",
+          "Supports a collaborative approach: AI drafts, human reviews and finalizes",
+          "Envisions increased automation in data entry but not in tax judgment calls"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for standardized, low-risk processes like letter templates",
+          "Finds automation threatening if it bypasses required compliance checks",
+          "Worried about automation in tasks that require professional judgment or legal liability",
+          "Requires clear override and review mechanisms before trusting full automation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances productivity but increases the need for critical review skills",
+          "Feels that communication and domain expertise remain essential",
+          "Sees AI as expanding rather than replacing core competencies",
+          "Values the ability to interpret and contextualize AI outputs"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning prompt engineering to get better results from LLMs",
+          "Developing skills in reviewing and editing AI-generated content",
+          "Responsible for ensuring AI compliance with regulatory and ethical standards",
+          "Exploring new ways to automate routine report generation using AI"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Low concern about AI replacing core tax advisory work",
+          "Mild concern about automation reducing demand for entry-level data entry tasks",
+          "Believes the profession will shift towards more advisory and oversight functions",
+          "Sees AI as augmenting, not threatening, current job responsibilities"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always reviews and edits AI-generated client communications before sending",
+          "Manual checks are built into workflow for all AI-assisted tasks",
+          "No AI-driven process is fully automated without human review",
+          "Firm policy requires human sign-off on all final tax documents"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Firm is gradually updating policies to include guidelines for responsible AI use",
+          "Team discussions focus on balancing efficiency with compliance and ethics",
+          "No formal policy yet, but growing emphasis on AI as a productivity tool",
+          "Encouraged to share AI-related best practices within the team"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will make tax preparation more efficient and accessible",
+          "Sees potential for AI to reduce manual errors in finance and accounting",
+          "Cautious about AI\u2019s impact on job displacement in repetitive roles",
+          "Thinks AI may increase demand for higher-level analytical skills"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes AI must be used transparently, especially in client communication",
+          "Concerned about data privacy and the potential for AI-generated errors",
+          "Supports strong human oversight to prevent unethical outcomes",
+          "Values clear guidelines for responsible AI use in financial services"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would benefit from AI that can accurately categorize complex transactions in QuickBooks",
+          "Wants an AI assistant that can automatically compile and summarize tax document packages",
+          "Sees value in AI-powered reconciliation tools for error detection",
+          "Desires deeper integration between tax software and bookkeeping platforms with AI support"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine data entry and report generation to become largely automated",
+          "Anticipates increased focus on client advisory and interpretation of AI-generated insights",
+          "Sees continued need for human expertise in complex tax and compliance scenarios",
+          "Believes AI will accelerate the pace and accuracy of tax preparation work"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Develop formal training programs for responsible AI tool use",
+          "Invest in AI solutions that integrate with current accounting platforms",
+          "Establish clear guidelines for human oversight of AI-driven processes",
+          "Encourage staff to share experiences and best practices for AI adoption"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,526 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds an Associate Degree from a community college in Air Traffic Management.",
+          "Completed an FAA-approved Air Traffic Collegiate Training Initiative (AT-CTI) program.",
+          "Undertook mandatory training at the FAA Academy prior to employment.",
+          "Passed FAA Air Traffic Controller aptitude and medical assessments."
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Air Traffic Controller.",
+          "Works in an approach/departure control facility (TRACON), managing aircraft in terminal airspace.",
+          "Responsible for providing separation and sequencing instructions to pilots via radio communication.",
+          "Coordinates closely with tower and en route controllers for smooth handoffs."
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Employed in the aviation and aerospace sector.",
+          "Works within the public transportation infrastructure industry.",
+          "Operates under federal aviation regulations (FAA jurisdiction in the US)."
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works at a medium-to-large air traffic control facility with 50-100 controllers.",
+          "Facility operates 24/7 with rotating shift teams.",
+          "Collaborates with a multidisciplinary staff, including supervisors, technicians, and support staff."
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Part of a government-operated air navigation service provider (ANSP).",
+          "Serves both commercial airlines and general aviation traffic.",
+          "Facility handles a mixture of domestic and international flights."
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 3-5 years of experience as an air traffic controller.",
+          "Began career immediately after completing FAA Academy training.",
+          "Progressed from developmental to fully certified professional controller in the current facility."
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Classified as a journeyman or fully certified professional controller (CPC).",
+          "Not in a supervisory or management role.",
+          "Mentors new trainees on occasion but does not oversee shift operations."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Monitors and directs live air traffic using radar and radio communication.",
+          "Issues clearances, altitude changes, and heading instructions to pilots.",
+          "Coordinates flight handoffs with adjacent sectors and towers.",
+          "Reviews and updates flight plans, weather information, and NOTAMs.",
+          "Handles unexpected situations such as weather disruptions or equipment failures."
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Approximately 70% of time spent actively controlling live traffic.",
+          "Around 15% of time devoted to coordination with other controllers and sectors.",
+          "About 10% spent on reviewing documentation, weather updates, and flight plans.",
+          "5% reserved for administrative tasks, equipment checks, and briefings."
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Exercises significant autonomy in tactical decisions for aircraft under their control.",
+          "Adheres to strict FAA procedures and separation standards.",
+          "Decides on reroutes, sequencing, and conflict resolution within sector authority.",
+          "Major incidents or deviations require supervisor notification and approval."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Sequencing routine arrivals and departures during moderate traffic.",
+          "Communicating standard clearances and handoff procedures to pilots.",
+          "Monitoring radar displays for expected traffic patterns.",
+          "Updating flight strips and entering data into processing systems."
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Managing multiple simultaneous emergencies or rapid weather changes.",
+          "Coordinating reroutes and altitude changes during severe congestion.",
+          "Handling non-compliant or inexperienced pilots who require additional instructions.",
+          "Resolving equipment malfunctions while maintaining safe traffic flow."
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Routine data entry for flight plan updates and handoff coordination.",
+          "Monitoring and logging weather information into the system.",
+          "Transcribing and archiving radio communications.",
+          "Dissemination of standard NOTAMs and advisories."
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Finds real-time problem solving and conflict resolution highly engaging.",
+          "Enjoys managing high-traffic periods due to the adrenaline and focus required.",
+          "Considers repetitive data entry and documentation tasks less enjoyable.",
+          "Routine weather monitoring and administrative paperwork can feel tedious."
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual data entry and coordination can be time-consuming and error-prone.",
+          "Occasional lag or integration issues between radar and flight data systems.",
+          "High volume of routine communication leads to information overload.",
+          "Limited automation for repetitive logs and documentation increases workload."
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Highest productivity and enjoyment coincide during busy, high-focus periods.",
+          "Routine or repetitive tasks are less enjoyable but necessary for safety and efficiency.",
+          "Skill level is directly linked to ability to manage stress and maintain situational awareness.",
+          "Proficiency in communication and radar monitoring leads to greater job satisfaction."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally open and positive about adopting new technologies that improve workflow.",
+          "Sees technological advancements as beneficial for efficiency and safety.",
+          "Willing to experiment with new tools, especially if recommended by peers or supervisors.",
+          "Values hands-on demonstrations and real-world applicability in learning."
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Considers self quick to adapt to updated radar, communication, and data systems.",
+          "Regular exposure to technology updates has improved adaptability over time.",
+          "Comfortable learning through both formal training and self-guided exploration.",
+          "Occasional initial learning curve with complex new platforms, but adapts reliably."
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate time to training sessions if the benefit to workflow or safety is clear.",
+          "Has participated in annual required tech refreshers and optional AI tool workshops.",
+          "Prioritizes learning tools that directly relate to daily operational tasks."
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by potential for increased efficiency and reduced manual workload.",
+          "Most likely to embrace technology that's reliable and directly relevant to traffic control.",
+          "Heavy workload or tight shift schedules can limit available time for in-depth training.",
+          "Skeptical of tools that seem disconnected from practical operational needs."
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peer recommendations and success stories strongly influence adoption decisions.",
+          "Management endorsement and provision of structured training increase willingness.",
+          "Collaborative learning with colleagues makes adoption of complex tools smoother.",
+          "Preference for tools with demonstrated effectiveness in similar facilities."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses the Standard Terminal Automation Replacement System (STARS) for radar displays.",
+          "Relies on FAA radio communication systems for pilot and controller interaction.",
+          "Employs flight data processing systems for tracking and managing flight plans.",
+          "Accesses weather display platforms such as the Integrated Terminal Weather System (ITWS)."
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Electronic flight strips or digital coordination platforms for tracking aircraft.",
+          "Traditional paper flight strips as backup during system outages.",
+          "Manual logbooks for shift notes and incident documentation.",
+          "Headsets with noise-cancelling microphones for clear communication."
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Fully proficient in radar and voice communication systems mandated by the FAA.",
+          "Trained on both legacy and modern versions of flight data tools.",
+          "Stays updated on system upgrades via annual training and internal bulletins."
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasional delays when synchronizing data between radar and flight plan systems.",
+          "Some weather platforms require manual cross-referencing with flight data.",
+          "Limited real-time integration between NOTAMs and core operational platforms.",
+          "Desire for more seamless data sharing between adjacent sector systems."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic concepts such as machine learning, natural language processing, and predictive analytics.",
+          "Familiar with the role of AI in pattern recognition and data processing.",
+          "Comfortable discussing AI\u2019s application to traffic flow management and speech recognition.",
+          "Keeps current with AI terminology via online courses and workplace seminars."
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses large language models (LLMs) such as OpenAI's GPT-4 for operational support.",
+          "Employs AI-based predictive traffic flow management tools approved by facility management.",
+          "Tests speech-to-text AI platforms for transcribing pilot-controller communications.",
+          "Pilots AI-driven weather trend analysis modules integrated with radar displays."
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Engages with LLMs daily to draft coordination messages and clarify procedural questions.",
+          "Uses predictive analytics a few times per shift to anticipate sector congestion.",
+          "Applies AI speech recognition in real time to transcribe and archive radio traffic.",
+          "Employs AI suggestions for optimal runway configuration during severe weather."
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI-driven weather alerts have successfully reduced last-minute reroutes in several instances.",
+          "LLMs have improved speed and clarity when drafting unusual coordination messages.",
+          "Experienced occasional speech-to-text transcription errors, underlining need for human review.",
+          "Learned that over-reliance on AI suggestions without manual validation can introduce safety risks."
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Organization provides periodic training modules on new AI tools.",
+          "Peer-led workshops and informal Q&A sessions are common following major AI updates.",
+          "Documentation and video tutorials for AI platforms are made available on the internal portal.",
+          "Mentors and more experienced controllers are accessible for ad hoc AI troubleshooting."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI for complex or unfamiliar tasks.",
+          "Uses AI independently for routine data entry or weather queries.",
+          "Switches between modes depending on task urgency and complexity.",
+          "Values the option to override or adjust AI recommendations at any stage."
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant providing real-time information and suggestions.",
+          "Occasionally treats AI as a co-worker for drafting or reviewing communication.",
+          "Leverages AI as an advisor when evaluating traffic flow strategies or reroutes.",
+          "Does not delegate final decision-making authority to AI; human oversight is maintained."
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to integrating AI-driven workflows that demonstrably improve safety or efficiency.",
+          "Participates in pilot programs for new AI features at the facility.",
+          "Seeks input from peers and supervisors before fully embracing new AI workflows.",
+          "Prefers incremental adoption with thorough testing and feedback loops."
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for complex problem-solving or procedural queries.",
+          "Uses command-based interfaces for quick data retrieval or routine tasks.",
+          "Appreciates AI systems that allow flexible switching between conversational and command modes.",
+          "Conversational AI is especially helpful for training or onboarding scenarios."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Safe air traffic separation requires nuanced, experience-based judgment not easily codified.",
+          "Many sector-specific procedures are learned through on-the-job immersion.",
+          "Controllers must interpret pilot intentions and adapt strategies in real time.",
+          "AI is valuable for data processing, but final decisions rely on human expertise."
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for routine data analysis, weather updates, and information retrieval.",
+          "Exercises caution and verifies AI output before acting on operationally critical suggestions.",
+          "Does not rely solely on AI for separation or safety-critical judgments.",
+          "Trust increases with demonstrated accuracy and reliability over time."
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Favors AI automation for repetitive data entry, transcription, and routine coordination.",
+          "Prefers human oversight for conflict resolution, emergency handling, and pilot communication.",
+          "Ideal workflow allows AI to proactively flag issues but leaves final decisions to controllers.",
+          "Supports gradual increases in AI autonomy where safety can be objectively validated."
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "High automation acceptable for non-critical, back-office functions like archiving and reporting.",
+          "Threatening if AI makes unverified real-time operational decisions without human review.",
+          "Accepts high automation in weather monitoring or routine message dissemination.",
+          "Requires robust fail-safes and override capabilities for any high-automation tool."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "AI enhances the importance of communication and critical thinking skills.",
+          "Routine manual skills may decline in importance as automation increases.",
+          "Controllers must become more proficient at monitoring and validating AI outputs.",
+          "Situational awareness and adaptability remain paramount despite automation."
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing skill in interpreting and validating AI-generated alerts or suggestions.",
+          "Increased responsibility for managing AI-human interface and override functions.",
+          "Learning to troubleshoot and provide feedback on AI system errors or limitations.",
+          "Participating in facility-level AI adoption, evaluation, and improvement initiatives."
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Low concern about full replacement due to the need for human judgment in safety-critical tasks.",
+          "Some concern about automation reducing the need for lower-level, repetitive roles.",
+          "Supports AI as a tool for augmentation rather than job elimination.",
+          "Watches industry trends for signs of changing workforce requirements."
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All AI-driven suggestions or actions require controller review and confirmation.",
+          "Manual override and audit trails are built into every AI-assisted workflow.",
+          "Facility policies mandate controller validation of AI-generated clearances and reroutes.",
+          "Controllers are trained to quickly disable or ignore AI outputs if safety is in question."
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Recent policy updates encourage safe, incremental AI adoption for operational support.",
+          "Team culture has shifted to view AI as a collaborative tool rather than a replacement.",
+          "Facility leadership prioritizes transparency and feedback in AI implementation.",
+          "Ongoing dialogue about balancing innovation with safety and regulatory compliance."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will continue to drive efficiency and safety improvements in aviation.",
+          "Sees potential for AI to transform routine aspects of air traffic management globally.",
+          "Recognizes the need for ethical guidelines and robust oversight as AI adoption grows.",
+          "Anticipates new career paths emerging in AI-augmented traffic operations."
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports responsible AI use with transparent decision-making logic.",
+          "Warns against over-automation or black-box systems lacking human oversight.",
+          "Believes in maintaining human accountability for all safety-critical outcomes.",
+          "Values ongoing discussion about privacy, data integrity, and system bias."
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires real-time, context-aware AI suggestions for complex reroute scenarios.",
+          "Would benefit from AI that predicts pilot compliance or communication issues.",
+          "Seeks automated, accurate transcription and tagging of all radio traffic for review.",
+          "Wants more seamless AI integration with legacy radar and flight data systems."
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects a shift toward higher-level monitoring and oversight roles for controllers.",
+          "Predicts increased collaboration with AI systems for traffic flow and contingency planning.",
+          "Foresees further reduction in routine manual tasks through automation.",
+          "Believes human decision-making will remain essential for safety, especially in emergencies."
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Advocates for transparent pilot programs and thorough safety evaluations before full AI rollout.",
+          "Recommends ongoing training and upskilling for all controllers on new AI tools.",
+          "Supports the establishment of clear override protocols and incident reporting for AI failures.",
+          "Encourages regular feedback collection from frontline staff to guide AI development."
+        ]
+      }
+    ]
+  }
+]

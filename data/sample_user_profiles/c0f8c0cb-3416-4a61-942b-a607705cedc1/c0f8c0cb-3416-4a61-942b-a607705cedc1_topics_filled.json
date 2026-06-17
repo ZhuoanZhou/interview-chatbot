@@ -1,0 +1,502 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Attended college and completed coursework in business and marketing, but did not earn a degree.",
+          "Pursued professional development through industry workshops and seminars over the years.",
+          "Received informal on-the-job training in digital marketing and sales strategies.",
+          "Participated in company-sponsored courses on analytics and social engineering."
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Current title: Marketing Manager and Business Consultant.",
+          "Role focuses on uncovering revenue and marketing opportunities for clients.",
+          "Responsible for identifying sales opportunities and advising on business strategy.",
+          "Acts as the primary liaison between clients and project partners."
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works within the business consulting and marketing sector.",
+          "Client base includes technology startups, small businesses, and e-commerce companies.",
+          "Projects often overlap with digital marketing and online engagement."
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Operates as an independent consultant working with small to mid-sized firms.",
+          "Regularly collaborates with teams ranging from 5 to 30 people per project.",
+          "Work environment is primarily remote and project-based, with occasional on-site meetings."
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Specializes in consulting for B2B and B2C market segments.",
+          "Focuses on clients seeking to expand digital presence and optimize marketing ROI.",
+          "Frequently works with companies in growth or transformation phases."
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Over 10 years in marketing management and consulting roles.",
+          "Has worked as an independent consultant for the past 6 years.",
+          "Prior experience includes mid-level marketing management at a regional agency."
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Considered a senior marketing professional with extensive industry experience.",
+          "Frequently leads projects and advises junior marketers.",
+          "Regularly consulted for strategic decision-making by clients and partners."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Reviews and responds to client emails every morning.",
+          "Examines client account progress using analytics tools and partner feedback.",
+          "Identifies new business, marketing, and sales opportunities for clients.",
+          "Prepares and sends outgoing communications regarding project status and recommendations.",
+          "Tracks progress of ongoing campaigns and adjusts strategies as needed."
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Roughly 30% of each day is spent reading and responding to emails.",
+          "Another 30% dedicated to reviewing analytics and tracking client progress.",
+          "About 20% allocated to direct client communications and meetings.",
+          "The remaining 20% is spent on strategic planning and business development."
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Works independently with significant autonomy in day-to-day decisions.",
+          "Makes strategic recommendations to clients, often with final say on marketing tactics.",
+          "Has the authority to outsource or crowdsource elements of projects as needed.",
+          "Consults with partners for major decisions but retains control over client-facing actions."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Drafting and responding to professional emails is second nature after years of experience.",
+          "Analyzing basic marketing metrics and spotting potential opportunities feels intuitive.",
+          "Building rapport with clients and partners comes easily.",
+          "Synthesizing partner feedback into actionable insights is a routine skill."
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Integrating new technologies or platforms into existing workflows can be complex.",
+          "Designing multi-channel campaigns that require coordination across several partners is challenging.",
+          "Interpreting ambiguous analytics data, especially when it conflicts with partner feedback, is demanding.",
+          "Keeping up with rapidly changing digital marketing trends can be overwhelming."
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Compiling routine client progress reports is repetitive and could be automated.",
+          "Monitoring social media engagement metrics on multiple platforms is data-heavy and time-consuming.",
+          "Filtering and categorizing incoming emails for priority could be automated.",
+          "Basic market research tasks, such as competitor keyword tracking, are suitable for automation."
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys brainstorming new marketing strategies with clients and partners.",
+          "Finds satisfaction in solving complex business challenges and seeing client growth.",
+          "Considers drafting detailed weekly reports tedious but necessary.",
+          "Routine inbox management and scheduling are the least engaging tasks."
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Switching between multiple tools and platforms slows down workflow.",
+          "Manual data entry and report generation are time-consuming and prone to error.",
+          "Occasionally receives unclear or delayed feedback from partners, creating bottlenecks.",
+          "Keeping track of multiple concurrent projects can lead to task overlap or missed details."
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Productivity peaks when working on strategic, high-impact tasks that align with expertise.",
+          "Tends to enjoy tasks where experience leads to quick, effective results.",
+          "Prefers to delegate or automate low-skill, repetitive work to focus on creative problem-solving.",
+          "Skill mastery in core areas correlates with higher job satisfaction and output."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open to learning new tools if they provide clear value to workflow or client outcomes.",
+          "Approaches new technology with a practical mindset\u2014must see tangible benefits.",
+          "Prefers step-by-step onboarding and hands-on learning instead of extensive manuals."
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Considers self moderately adaptable, especially when the new tool replaces a tedious task.",
+          "Learns best by experimenting with new features in real client projects.",
+          "May take longer to adopt tools with steep learning curves unless urgently needed."
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to devote several hours to learning tools that directly improve productivity.",
+          "Less likely to invest time in training for tools that seem tangential to core responsibilities.",
+          "Prefers short, focused tutorials or peer-led knowledge sharing over formal courses."
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Main motivator is the promise of saving time or reducing errors in workflow.",
+          "Heavy project workload can be a barrier to in-depth tech training.",
+          "Skeptical of tools that add complexity without clear payoff."
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peer recommendations and success stories increase openness to adoption.",
+          "Positive feedback from partners or clients can accelerate willingness to try new platforms.",
+          "Absence of organizational pressure means self-motivation is the primary driver."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Gmail extensively for email communication and client correspondence.",
+          "Relies on Google Analytics daily to track client campaign performance.",
+          "Employs Gemini and Copilot as AI assistants for drafting content and summarizing data.",
+          "Regularly checks social engagement on X (formerly Twitter) using built-in analytics."
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Uses Google Sheets to organize client data and track progress.",
+          "Leverages Google Drive for document and project file management.",
+          "Employs shared calendars for scheduling meetings and deadlines."
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient with major digital marketing platforms such as Google Analytics and social media dashboards.",
+          "Familiar with basic CRM systems, though not a daily user.",
+          "Understands the fundamentals of SEO tools and website analytics."
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Frequently encounters minor integration issues when transferring data between analytics tools and reporting spreadsheets.",
+          "Some AI tools (e.g., Gemini, Copilot) lack direct integration with preferred project management systems.",
+          "Manual data transfer between email and analytics platforms occasionally leads to duplication of work."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands the basics of machine learning, such as pattern detection and data-driven predictions.",
+          "Familiar with the concept of large language models (LLMs) and natural language processing.",
+          "Aware of AI's capability to automate repetitive marketing and data tasks.",
+          "Knows industry terms like 'prompt engineering' and 'generative AI', though not an expert."
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Occasionally uses Gemini for content generation and summarizing client data.",
+          "Leverages Copilot for drafting emails and quick copywriting tasks.",
+          "Has trialed Grok for idea generation and brainstorming sessions.",
+          "Utilizes built-in AI features in Google Analytics for trend identification."
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses AI tools several times per week, mainly for content drafting, report summaries, and brainstorming.",
+          "Applies AI to automate parts of client communications and proposal generation.",
+          "Employs AI to quickly analyze large sets of marketing data for trends.",
+          "Occasionally uses AI to generate social media post ideas or review competitor strategies."
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used Gemini to condense lengthy client feedback into actionable bullet points.",
+          "Noticed Copilot occasionally generates off-brand content, requiring manual edits.",
+          "Learned that AI-generated reports save time but must be double-checked for accuracy.",
+          "Grok once provided irrelevant brainstorming ideas, reinforcing the need for human review."
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal, company-wide AI training; relies on online tutorials and peer recommendations.",
+          "Occasionally shares AI tool tips with partners and receives informal advice in return.",
+          "Participates in marketing forums where AI tool usage is discussed."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers to use AI tools independently for drafting and summarizing tasks.",
+          "Occasionally employs step-by-step prompting when solving complex problems.",
+          "Appreciates the flexibility to switch between modes depending on task complexity."
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for automating repetitive work.",
+          "Sometimes treats AI as a brainstorming partner for creative content.",
+          "Relies on personal expertise for final decision-making and client-facing outputs."
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to experimenting with new AI workflows that clearly save time or improve accuracy.",
+          "Skeptical of workflows that add layers of complexity without clear ROI.",
+          "More likely to adopt AI-driven workflows if peers report positive experiences."
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and drafting tasks.",
+          "Uses command-based interfaces for quick, repeatable actions (e.g., data summarization).",
+          "Finds conversational AI more intuitive, especially when exploring new ideas."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many tasks, such as advising clients on market positioning, rely on deep industry experience.",
+          "Crafting tailored marketing messages often draws on nuanced understanding of client needs.",
+          "AI tools are helpful for generic content, but specialized tasks require human insight."
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for preliminary drafts and data summaries but always reviews outputs before client delivery.",
+          "Does not delegate critical decisions, such as strategic recommendations, to AI.",
+          "Believes AI outputs are only as reliable as the prompts and data provided."
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive, data-heavy tasks, freeing up time for creative and strategic work.",
+          "Maintains human oversight for all client-facing and high-impact decisions.",
+          "Values AI most when it complements, not replaces, domain expertise."
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "High automation is acceptable for internal summaries, data cleaning, and routine reports.",
+          "Feels automation is threatening when it risks diminishing client relationships or unique value-add.",
+          "Requires clear override mechanisms to maintain accountability and quality."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Views AI as enhancing efficiency rather than replacing core consulting skills.",
+          "Believes interpersonal and strategic thinking skills remain irreplaceable.",
+          "Recognizes that technical proficiency with AI tools is becoming increasingly important."
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning to craft effective AI prompts has become a valuable new skill.",
+          "Responsible for vetting and editing AI-generated content before client delivery.",
+          "Staying current with AI trends and assessing tool suitability for different projects is a new expectation."
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Moderately concerned about AI automating low-skill, repetitive marketing tasks.",
+          "Does not fear replacement in strategic consulting or client relationship roles.",
+          "Watches industry trends to ensure skills remain relevant as automation increases."
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always reviews AI outputs manually before using them in client work.",
+          "Maintains the ability to revert or edit any AI-generated draft or report.",
+          "Does not implement fully automated client communications\u2014final edits are always human."
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "As an independent consultant, sets personal policies regarding AI use.",
+          "Notices increasing client openness to AI-assisted work, especially for efficiency gains.",
+          "Partners and collaborators are discussing best practices for responsible AI deployment."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will drive significant efficiency gains across the marketing industry.",
+          "Expects AI adoption to widen the gap between tech-savvy and traditional firms.",
+          "Recognizes the potential for unintended consequences, such as job displacement in entry-level roles.",
+          "Sees AI as a tool to augment, not replace, human creativity and judgment."
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports transparent disclosure of AI-generated content in client deliverables.",
+          "Concerned about the ethical use of client data in AI-driven analytics.",
+          "Believes final accountability should always rest with a human professional."
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Wishes for better integration between AI content generators and project management tools.",
+          "Seeks AI capable of deeper, context-aware understanding of specific client industries.",
+          "Desires more robust quality assurance features in AI-generated reports."
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects to spend less time on data compilation and more on client strategy.",
+          "Anticipates an increased role in guiding clients through AI-driven transformations.",
+          "Believes marketing managers will need to become adept at selecting and managing AI tools."
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Advocates for clear guidelines on responsible and transparent AI use.",
+          "Recommends regular upskilling opportunities focused on effective AI deployment.",
+          "Supports a collaborative approach to evaluating new AI tools before company-wide adoption."
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,518 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s Degree in Geography with a concentration in Cartography and GIS.",
+          "Completed coursework in remote sensing, spatial analysis, and map design.",
+          "Participated in a university capstone project focused on thematic mapping of urban development.",
+          "Attended workshops on photogrammetry and geospatial data processing during undergrad.",
+          "Obtained a certificate in GIS software usage from an online continuing education platform."
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Cartographer and Photogrammetrist.",
+          "Responsible for creating, analyzing, and updating thematic and topographic maps.",
+          "Involves collecting, processing, and interpreting geospatial data from multiple sources.",
+          "Frequently collaborates with surveyors, GIS analysts, and urban planners on mapping projects."
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the geospatial technology sector.",
+          "Specializes in mapping services for environmental, governmental, and urban planning clients.",
+          "Operates within the broader information technology and data services industry."
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-sized geospatial consulting firm with approximately 80 employees.",
+          "The work environment is collaborative, with cross-functional project teams.",
+          "Open-office setting with flexible hybrid work options."
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Firm provides GIS mapping and photogrammetry services to city governments and environmental agencies.",
+          "Projects often involve land use planning, resource management, and infrastructure mapping.",
+          "Engages in both public sector contracts and private commercial projects."
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 3-5 years of professional experience as a cartographer and photogrammetrist.",
+          "Joined the current company shortly after graduating from university.",
+          "Progressed from an entry-level GIS technician to a lead map designer within the team."
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Currently at an intermediate career level (not entry-level, not yet senior).",
+          "Acts as a project lead on smaller mapping assignments.",
+          "Mentors new hires or interns on GIS and mapping workflows."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Designs and produces thematic maps using GIS software (e.g., ArcGIS, QGIS).",
+          "Processes and interprets aerial and satellite imagery for map creation.",
+          "Validates geospatial data accuracy and completeness.",
+          "Collaborates with clients to define map requirements and scope.",
+          "Prepares final map outputs in print and digital formats."
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 60% of time on data analysis and map production.",
+          "Allocates 20% to client communication and requirements gathering.",
+          "Devotes 10% to quality assurance and reviewing maps for accuracy.",
+          "Reserves another 10% for professional development, training, and tool experimentation."
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has moderate autonomy in selecting map design elements and data visualization techniques.",
+          "Decides on data cleaning and transformation methods within established project guidelines.",
+          "Major project directions require team or supervisor approval.",
+          "Can recommend new tools or workflows but must coordinate with team for implementation."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Styling map layers and applying symbology in GIS software is second nature.",
+          "Performing basic spatial joins and queries is routine.",
+          "Documenting map metadata and project notes is straightforward.",
+          "Communicating map requirements with clients is comfortable after initial experience."
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Advanced photogrammetric analysis of high-resolution aerial imagery can be complex.",
+          "Integrating heterogeneous data sources with varying projections and formats is challenging.",
+          "Automating multi-step GIS processes using Python scripting requires significant attention.",
+          "Balancing accuracy, clarity, and design aesthetics in final map products presents creative challenges."
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Bulk georeferencing of scanned maps is repetitive and could be automated.",
+          "Routine attribute table updates and data cleaning are data-heavy tasks.",
+          "Batch exporting map outputs in multiple formats is suitable for scripting or automation.",
+          "Initial data quality checks involve repetitive validation steps."
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Creative layout design and thematic visualization are highly enjoyable.",
+          "Interpreting satellite imagery to reveal geographic patterns is engaging.",
+          "Routine data entry and manual file organization feel tedious.",
+          "Repetitive metadata updates are less stimulating compared to analytical tasks."
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Data inconsistencies across sources often require time-consuming manual correction.",
+          "Software crashes or slowdowns with large datasets impede productivity.",
+          "Lack of seamless integration between GIS and photogrammetry tools introduces workflow bottlenecks.",
+          "Manual documentation of map revisions can be error-prone and redundant."
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Productivity peaks when working on creative cartographic design, where both skill and interest align.",
+          "Tasks that require strong GIS proficiency but little creativity tend to feel less enjoyable.",
+          "Monotonous tasks, though easy, can reduce overall engagement if done for extended periods.",
+          "Learning new analytical techniques increases both enjoyment and perceived competence."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Has a proactive attitude toward adopting new GIS and mapping technologies.",
+          "Views tech learning as essential for career advancement in the geospatial field.",
+          "Enjoys exploring emerging tools that automate or enhance map production."
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to updates in major GIS platforms like ArcGIS Pro and QGIS.",
+          "Comfortable experimenting with plugins and extensions for added functionality.",
+          "Finds it easier to adapt when formal tutorials or peer support are available."
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Regularly dedicates personal time to online GIS and photogrammetry courses.",
+          "Advocates for company-sponsored training sessions on emerging geospatial technologies.",
+          "Balances training with workload by scheduling learning during lighter project periods."
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential for automation to reduce repetitive tasks.",
+          "Sometimes limited by tight project deadlines, making it hard to allocate time for training.",
+          "Prefers learning tech that directly applies to current project needs.",
+          "Occasionally deterred by steep learning curves for unfamiliar programming languages."
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers\u2019 success stories with new tools increase willingness to try them.",
+          "Management encouragement and support for upskilling positively influence adoption.",
+          "Collaborative team environment fosters knowledge-sharing of tech tips."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses ArcGIS Pro and QGIS daily for map creation and spatial analysis.",
+          "Employs ERDAS IMAGINE for advanced photogrammetric processing.",
+          "Leverages Adobe Illustrator for final cartographic design polish.",
+          "Utilizes Python scripting in conjunction with ArcPy for task automation."
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on GPS devices and GNSS receivers for field data collection.",
+          "Uses high-resolution monitors calibrated for color accuracy in design.",
+          "Employs cloud storage (e.g., Google Drive, Dropbox) for data backup and sharing."
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Familiar with remote sensing data platforms like Landsat and Sentinel.",
+          "Experienced with data standards such as GeoJSON, Shapefile, and KML.",
+          "Comfortable using web mapping tools like Mapbox and Leaflet for interactive projects."
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces compatibility issues transferring data between ArcGIS and QGIS.",
+          "Photogrammetry outputs sometimes require manual reformatting for GIS integration.",
+          "Scripting automation can break when software versions change or APIs are deprecated."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic concepts like supervised and unsupervised learning.",
+          "Familiar with computer vision applications in image classification and object detection.",
+          "Recognizes terms such as model training, inference, and prompt engineering.",
+          "Has read industry articles on AI-powered geospatial analysis."
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses OpenAI's ChatGPT for prompt-based data cleaning script suggestions.",
+          "Has experimented with Google Earth Engine\u2019s machine learning features for land classification.",
+          "Tested ESRI's ArcGIS AI tools for feature extraction from aerial imagery.",
+          "Occasionally uses Stable Diffusion for generating map icons or thematic graphics."
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies LLMs occasionally (about 2-3 times a month) for scripting help and documentation drafting.",
+          "Uses AI-based image analysis tools when processing large volumes of aerial photos (a few times per quarter).",
+          "Employs conversational AI for brainstorming cartographic design options during project planning.",
+          "AI tools are not yet part of daily routine but used as needed for complex or time-consuming tasks."
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used AI-based object detection to identify building outlines in satellite imagery, speeding up digitization.",
+          "LLMs have helped generate Python code snippets for GIS automation, saving debugging time.",
+          "Encountered errors when AI misclassified land cover types, requiring manual correction.",
+          "Learned that AI outputs must be carefully validated, especially for critical project deliverables."
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company has provided introductory webinars on AI in geospatial analysis.",
+          "Relies on informal Slack channels where peers share AI tool tips and scripts.",
+          "Documentation and case studies for AI tool adoption are available on the company intranet.",
+          "Formal, company-sponsored AI training is limited but encouraged for interested staff."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers interactive, step-by-step collaboration when learning new AI tools.",
+          "Enjoys experimenting independently once familiar with an AI system\u2019s capabilities.",
+          "Finds guided workflows helpful for complex tasks, especially in image analysis."
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI as an assistant for automating repetitive steps in the map creation process.",
+          "Occasionally treats AI as an advisor for brainstorming map design ideas.",
+          "Does not delegate full project ownership to AI, preferring human oversight."
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to integrating AI-driven workflows if they demonstrably improve efficiency.",
+          "Willing to pilot new AI features in existing GIS platforms.",
+          "Reserves full adoption until AI outputs can be trusted for accuracy and consistency."
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces (e.g., ChatGPT) for ideation and troubleshooting.",
+          "Finds command-based scripting more effective for batch processing and automation.",
+          "Switches between modes depending on task complexity and desired outcome."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Map interpretation and symbol selection require significant domain expertise.",
+          "Understanding context-specific geographic phenomena cannot be fully automated.",
+          "Human judgment is crucial for resolving data ambiguities and client-specific needs.",
+          "Tacit knowledge is especially important for communicating findings to non-technical stakeholders."
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for automating repetitive or low-risk tasks, such as metadata generation.",
+          "Remains cautious with AI-driven map outputs, especially for client deliverables.",
+          "Always manually reviews and validates AI-assisted results before sign-off.",
+          "Low trust in AI for final decision-making in critical spatial analyses."
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle data cleaning, extraction, and initial analysis stages.",
+          "Human oversight is necessary for map design, interpretation, and client communication.",
+          "Envisions a workflow where AI augments, but does not replace, core cartographic skills.",
+          "Strives for 30-40% automation in routine steps, with the remainder led by human expertise."
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "High automation is acceptable for tasks with clear, objective criteria (e.g., batch georeferencing).",
+          "Feels threatened if AI is used for subjective design or client-facing decisions without human input.",
+          "Supports automation if manual override and review are always possible.",
+          "Automation is more welcome for internal workflows than for direct project deliverables."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI increases the value of analytical and creative cartographic skills.",
+          "Sees some reduction in demand for manual data entry and basic geoprocessing skills.",
+          "Views AI as enabling a shift toward higher-level map interpretation and client advising.",
+          "AI promotes upskilling in areas like data science, scripting, and prompt engineering."
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Prompt engineering for LLM-based scripting is a new area of responsibility.",
+          "Data validation and quality control of AI-generated outputs is increasingly important.",
+          "Tasked with evaluating and integrating new AI tools into existing GIS workflows.",
+          "Growing need for skills in interpreting and communicating AI-driven analysis results."
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Moderately concerned about automation of repetitive GIS tasks, but not core map design.",
+          "Believes creative and client-facing aspects of the role are less likely to be automated.",
+          "Views upskilling as key to remaining relevant in an AI-augmented workplace.",
+          "Keeps informed about industry trends to anticipate potential impacts."
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Manual review is mandatory for all AI-generated maps before client delivery.",
+          "GIS software allows for editing and correcting AI-suggested features.",
+          "Clear protocols exist for documenting overrides and manual adjustments.",
+          "Can always revert to manual workflows if AI tools fail or produce errors."
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has become more open to piloting AI tools in production environments.",
+          "Policies emphasize the need for transparency and human review in AI-driven projects.",
+          "Team discussions about AI adoption are frequent and collaborative.",
+          "Management encourages responsible experimentation with new AI features."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will greatly increase efficiency in the geospatial industry.",
+          "Anticipates that AI will democratize access to mapping tools and spatial analysis.",
+          "Recognizes potential for job displacement in routine data processing roles.",
+          "Sees AI as enabling new forms of spatial storytelling and analysis previously impractical."
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Values transparency in how AI tools make decisions or classifications.",
+          "Concerned about potential biases in AI-driven spatial analysis (e.g., underrepresented areas).",
+          "Supports strong data privacy and security practices when using AI.",
+          "Wants clear accountability when AI errors impact project outcomes."
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires AI tools that can suggest optimal map symbology based on data context.",
+          "Wishes for seamless integration between photogrammetry and GIS platforms.",
+          "Needs more reliable AI-driven change detection in time-series imagery.",
+          "Would benefit from AI that can auto-generate comprehensive map documentation."
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Predicts routine geoprocessing will be mostly automated, shifting focus to analysis and client engagement.",
+          "Expects to spend more time validating and interpreting AI-generated results.",
+          "Foresees increased collaboration with data scientists and software engineers.",
+          "Believes map creation will become more interactive, with AI-driven design suggestions in real-time."
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Invest in ongoing AI training for all technical staff.",
+          "Develop clear guidelines for responsible AI adoption and human oversight.",
+          "Pilot AI-driven workflows on non-critical projects before full rollout.",
+          "Encourage cross-team collaboration to evaluate new AI tools."
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,223 @@
+# Biographical Notes
+
+- Finds program planning and community partnerships personally rewarding
+- Processing check-ins and check-outs using the ILS system
+- Holds a Bachelor’s Degree in Library and Information Science
+- Keeps a quirky collection of old library cards and stamps from defunct systems.
+- Higher enjoyment is linked with tasks that involve direct patron interaction
+- Subject classification often hinges on nuanced interpretation
+- Circulation and collection maintenance account for about 30%
+- Has a vintage globe that they spin to randomly pick a country book club theme.
+- Helping patrons with simple technology issues, like printing
+- Uses LLMs a few times per month, mainly for creating resource guides or quick content summaries
+- Enjoys morning walks around the neighborhood to collect interesting leaves or feathers.
+- Familiar with terminology like 'large language models', 'recommendation systems', and 'chatbots'
+- Keeps a rotating display of vintage typewriters on their office shelves.
+- Communication and community engagement skills remain vital despite AI adoption
+- Has a habit of starting spontaneous mini scavenger hunts for coworkers with small prizes.
+- Has a habit of doodling tiny book characters in the margins of meeting notes.
+- Occasionally treats AI as a co-worker when collaborating on large projects (e.g., inventory)
+- Work environment is collaborative with a mix of individual and team tasks
+- Foresees a shift toward curating digital collections and guiding research in complex areas
+- Prefers technology troubleshooting over administrative paperwork
+- Understands basics of ERM systems for managing e-resource licenses
+- Routine data entry skills may become less relevant as automation increases
+- Afternoons often include a quick session of desk yoga stretches to stay energized.
+- Maintains skepticism about AI handling sensitive or complex patron needs
+- Keeps a whiteboard near the desk for daily doodles and motivational quotes.
+- Learned foundational AI concepts through webinars and professional reading
+- Bakes themed cupcakes for library events—last batch was Harry Potter-inspired butterbeer.
+- Sector includes public libraries, educational institutions, and community centers
+- Organizes a summer ‘Mystery Movie Night’ for coworkers, with themed snacks and drinks.
+- Responsible for assisting patrons, managing collections, and supporting digital resources
+- Assisting patrons with locating materials and basic research questions
+- Cautious about AI’s effect on patron privacy and data security
+- Is a self-proclaimed crossword puzzle champion and carries a puzzle book everywhere.
+- Tested automated subject tagging tools integrated within the ILS
+- Finds conversational interfaces more intuitive for research and patron interactions
+- Answers patron questions and provides research assistance at the reference desk
+- Once created a comic strip about a superhero librarian to share on social media.
+- Selects and orders new materials for the collection, based on community needs
+- Once tried to learn Morse code as a personal challenge during a long summer.
+- Administrative tasks (budgeting, reporting) take up the remaining 5-10%
+- Enjoys writing micro-poetry and posts one on the office bulletin board every Friday.
+- Develop clear policies on ethical AI use and patron privacy
+- Supports transparent, explainable AI decision-making processes
+- Trusts AI for basic cataloging suggestions and content summaries
+- Organizes and promotes library programs for different age groups
+- Believes new roles will emerge around AI oversight and ethical information management
+- Always wears mismatched socks as a personal trademark.
+- Feels automation is threatening if it bypasses patron privacy safeguards
+- AI subject tagging reduced data entry errors but occasionally misclassified niche materials
+- Has a desk calendar featuring obscure holidays like National Puzzle Day or Talk Like a Pirate Day.
+- Once took a pottery class and displays their handmade mugs in the break room.
+- Keeps a tiny zen garden on their desk for quick midday stress relief.
+- Started in an entry-level librarian position and progressed to media collections specialist
+- Found that AI recommendations sometimes miss local context, requiring manual review
+- Accesses EBSCO Discovery Service for enhanced patron searches
+- Views AI primarily as an assistant that augments routine tasks
+- Has a small collection of quirky desk toys like Newton’s cradle or fidget spinners.
+- Uses Koha ILS for cataloging, circulation, and acquisitions processes
+- Prefers step-by-step collaboration with AI tools for complex cataloging tasks
+- Writes handwritten thank-you notes to colleagues after each major library event.
+- Routine tasks (e.g., circulation) require less tacit knowledge
+- Explored EBSCO’s AI-driven resource recommendation features
+- Has 3-5 years of professional experience as a librarian
+- Believes human oversight is essential for final decision-making and nuanced tasks
+- Invest in ongoing staff training and upskilling for AI technologies
+- Pilot and assess new AI tools before wider rollout
+- Barcode scanners for item check-in and check-out
+- Brings a different thermos of homemade tea to work every Monday.
+- Would benefit from AI capable of nuanced multilingual subject classification
+- Planning events for new or underserved community segments
+- Industry focus on resource management, information access, and community engagement
+- Makes independent decisions on cataloging, classification, and shelving
+- Chatbot failed to address a nuanced research question, highlighting need for human oversight
+- Has a personalized mug that says ‘Chief Book Wrangler’ and uses it daily.
+- Routine inventory checks and shelf-reading for misplaced items
+- Enjoys experimenting with latte art and brings impressive foam designs to office coffee breaks.
+- Gained experience in both front-line patron service and behind-the-scenes operations
+- Loves crafting paper origami bookmarks to gift to library visitors during events.
+- Views tech learning as part of professional development
+- Keeps a jar of inspirational quotes on their desk to read when motivation dips.
+- Program planning and community outreach make up 10-15%
+- Manual data entry is required when moving records between platforms
+- More likely to participate in training if it offers practical, immediate benefits
+- Limited integration between reference management tools and library OPAC
+- Standardized reporting of circulation statistics for monthly reports
+- Relies on AI as an advisor for basic recommendations, but not for final decisions
+- Sees value in AI that can automate inventory and physical item location
+- Library staff comprises about 20 full-time and part-time employees
+- Peers share tips on AI tool use during regular staff meetings
+- Listens to classical music or instrumental jazz while shelving books to boost focus.
+- Is a longtime fan of vintage radio dramas and often shares favorite episodes with friends.
+- Is known for carrying a knitting project and often gifts handmade scarves to friends.
+- Collects postcards featuring historic libraries around the world.
+- Library supports a diverse patron community with varying information needs
+- Utilizes OCLC WorldShare ILL for interlibrary loan requests
+- Supports a hybrid model where AI provides options but humans select the best fit
+- Completed coursework in cataloging, reference services, and collection development
+- Adopts a ‘no speaking’ rule during certain hours to mimic library quiet zones.
+- Operates in the public library segment within the nonprofit sector
+- Managing budget allocations and justifying collection development choices
+- Assuming responsibility for training patrons and colleagues in AI tool use
+- Developing skills in prompt engineering for effective AI interactions
+- Occasionally uses OpenAI’s ChatGPT for drafting program descriptions and summarizing materials
+- Acts as a technology point person for troubleshooting and digital literacy support
+- Adopted a ‘No Phone Zones’ hour during lunch to encourage real face-to-face conversations.
+- Peers’ positive experiences encourage adoption of new tools
+- Desires AI-driven catalog cleanup tools to identify and correct legacy errors
+- Supports automation if robust override mechanisms are available
+- Serves a broad demographic, including students, seniors, and working professionals
+- Prefers hands-on learning and real-world examples over manuals
+- Cataloging unique or foreign-language materials requiring detailed subject analysis
+- Employs Zotero for reference management and citation support
+- Understands basic concepts such as natural language processing and machine learning
+- Appreciates when AI allows for human intervention at key decision points
+- Wishes for more robust AI-powered personalized learning recommendations
+- Patron-facing AI systems include human escalation options
+- Requires some initial guidance for complex system migrations
+- Focuses on information access, digital literacy, and community programming
+- Believes core librarian tasks requiring empathy and judgment are less at risk
+- Collaborates with supervisors on major programming or policy changes
+- Shares discoveries about useful features with colleagues
+- Occasionally hesitant if new tech seems tangential to core duties
+- Keeps a quirky ‘Mood Playlist’ for different parts of the workday, from chill to upbeat.
+- Incorporates fun trivia games about classic literature into team meetings.
+- Participated in hands-on practicum at a local public library during final year
+- Enjoys conducting one-on-one research consultations with patrons
+- Becoming proficient in evaluating AI-generated metadata and summaries
+- Occasionally feels overwhelmed by the rapid pace of tech updates
+- Has a collection of quirky coffee mugs featuring library puns and literary jokes.
+- Willing to dedicate a few hours per month for tech workshops or webinars
+- Lack of integration between digital resource platforms leads to duplicate work
+- Hosts an annual potluck where everyone brings a dish inspired by a book they love.
+- Label printers for cataloging and shelving
+- Views AI as more likely to shift job focus rather than eliminate roles entirely
+- Ongoing discussions about data privacy and ethical AI deployment
+- Manages circulation duties including check-in, check-out, and handling overdue items
+- Has a standing desk with custom decals of famous literary quotes.
+- Mildly concerned about AI automating repetitive cataloging or circulation functions
+- Adapts quickly to core updates in ILS and digital library platforms
+- Anticipates more time spent on digital literacy and AI tool training for patrons
+- Expects routine cataloging and reporting to become highly automated
+- Busy periods (e.g., summer reading, school year start) can limit training time
+- Regularly volunteers at local community gardens during weekends.
+- Uses command-based tools for batch processing or cataloging tasks
+- Organization has offered introductory AI webinars and resource guides
+- Grew their own herbs on the windowsill to use in homemade cooking experiments.
+- Skill level is highest in areas with frequent practice, like circulation
+- Has a collection of bookmarks from every country they’ve ever visited.
+- Requires human validation for AI-generated recommendations and subject headings
+- Feels most productive when balancing routine tasks with creative programming
+- Managing multiple communication channels for program promotion can be cumbersome
+- Enjoys exploring new features that enhance patron experience
+- Attended workshops on digital resources and emerging library technologies
+- Once dressed up as a detective for Halloween inspired by classic mystery novels.
+- Shelving books and maintaining order in the stacks
+- Reference and research consultations require deep understanding of resources
+- Prioritizes training that is relevant to current or upcoming job responsibilities
+- Access to online tutorials and documentation provided by library consortia
+- Prefers gradual integration of AI into existing workflows
+- Standard office suite (word processor, spreadsheet) for reports and documentation
+- Has autonomy to recommend and select materials within set budget parameters
+- Open to experimenting with new AI-driven processes, especially for repetitive tasks
+- Experienced with major ILS platforms, including Koha and Alma
+- Has a shelf dedicated to vintage board games and invites colleagues for after-hours play.
+- Challenging tasks are more engaging when opportunities for skill growth exist
+- Occasionally encounters issues syncing ILS with digital repository systems
+- Prefers AI automation for repetitive or data-heavy processes (e.g., batch cataloging)
+- Collaborative culture means tech adoption is often discussed as a team
+- Believes AI enhances the importance of critical thinking and information literacy skills
+- Works in the library and information services sector
+- Resists full automation for tasks involving ethical or community-sensitive decisions
+- Started a ‘Swap Shelf’ in the breakroom for coworkers to exchange books and magazines.
+- Considered a junior to mid-level professional within the organization
+- ILS software occasionally experiences slowdowns affecting circulation speed
+- Organization encourages pilot projects to test new AI features
+- Comfortable navigating digital library software like DSpace
+- Finds peer support helpful when learning new software
+- Policies emphasize transparency and human oversight in AI use
+- Discovery layer updates sometimes lag behind catalog changes
+- Believes in maintaining human accountability for critical decisions
+- Practices calligraphy and often decorates library signs with their elegant script.
+- Familiar with popular discovery layers and their features
+- Occasionally leverages AI features for keyword expansion in cataloging
+- Cataloging and acquisitions comprise 15% of weekly hours
+- Keeps a miniature Rubik’s Cube at their desk and solves it during thinking breaks.
+- Role involves event planning, community outreach, and administrative duties
+- Seeks clear documentation and examples before adopting new AI-driven tools
+- Prefers learning tools that address clear workflow gaps
+- Generally positive and open to experimenting with new library technologies
+- Has a quirky habit of organizing their bookshelf by color rather than genre or author.
+- AI chatbots are sometimes used to answer routine patron queries after hours
+- Optimistic about AI expanding access to information and personalizing learning
+- Collects novelty pencils and pens, and has a separate cup for each color.
+- Data entry for new catalog records and item barcoding
+- Believes AI can free up librarians for higher-value services
+- Employed at a mid-sized public library serving a population of approximately 30,000
+- Uses a fun rubber stamp collection to mark personal notes and memos.
+- Follows established policies for circulation but can resolve minor patron disputes
+- Acknowledges potential for AI to widen digital divides if not implemented thoughtfully
+- Celebrates ‘Library Lovers’ Day’ by swapping favorite book recommendations with coworkers.
+- Uses AI independently for drafting summaries or quick content checks
+- Job title: Librarian and Media Collections Specialist
+- Processing overdue notices and routine holds management
+- Has a pet cactus collection, each with a clever literary name, like ‘Sherlock’ or ‘Gatsby’.
+- Accepts high automation for inventory tracking and overdue notifications
+- Supervises volunteers and occasionally mentors new hires or interns
+- Manual review is standard for AI-generated catalog records
+- ILS and digital platforms allow edits to AI-suggested data before publishing
+- Troubleshooting technical issues with digital library platforms
+- Physical repair kits for book maintenance
+- Believes conversational AI can improve accessibility for less tech-savvy patrons
+- Considers repetitive data entry and shelf-reading to be tedious
+- Motivated by the potential to improve efficiency and patron service
+- Spends approximately 35% of time assisting patrons
+- Catalogs and classifies new acquisitions for easy access and retrieval
+- Manual cataloging can be time-consuming for large acquisitions
+- Holds an early-career, but not entry-level, librarian position
+- AI-generated summaries saved time during a large weeding project
+- Management endorsement increases motivation to complete tech training
+- Collection development decisions draw on local community knowledge
+- Foster open communication about AI’s impact on workflows and job roles

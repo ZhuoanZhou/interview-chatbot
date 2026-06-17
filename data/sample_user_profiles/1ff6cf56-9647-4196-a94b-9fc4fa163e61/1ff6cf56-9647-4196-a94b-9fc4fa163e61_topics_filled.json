@@ -1,0 +1,500 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master\u2019s degree in Finance with a focus on quantitative analysis",
+          "Completed undergraduate studies in Business Administration",
+          "Undertook coursework in statistics, data analysis, and financial modeling",
+          "Attended workshops on SQL and Python programming during graduate studies"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Current job title: Credit Analyst (Business Analyst function)",
+          "Responsible for collecting, preprocessing, analyzing, and visualizing company data",
+          "Supports actionable business decisions for stakeholders through data-driven insights",
+          "Integrates predictive modeling and historical analysis into daily workflow"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the finance sector",
+          "Specializes in credit analysis for business operations",
+          "Industry focus is on financial risk assessment and business analytics"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-sized company with approximately 200-500 employees",
+          "Company culture emphasizes data-driven decision-making",
+          "Collaborates with cross-functional teams including finance, IT, and management"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Company operates in commercial lending and credit risk assessment",
+          "Serves small and medium enterprises (SMEs) seeking business loans",
+          "Market segment includes both B2B financial services and analytics consulting"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 3-5 years of experience as a credit analyst",
+          "Spent entire professional career in business analytics roles",
+          "Started as a junior analyst before transitioning to current responsibilities"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Currently at an early-career to mid-level analyst position",
+          "Acts as a subject matter expert for data cleaning and preprocessing",
+          "Occasionally mentors new hires on technical workflows"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Extracts raw data from company databases using SQL",
+          "Cleans and preprocesses data to resolve missing values and entry errors",
+          "Performs exploratory data analysis and statistical modeling in Python",
+          "Creates interactive dashboards and reports in Power BI for stakeholders",
+          "Develops predictive models to inform credit decisions"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 50% of work hours on data cleaning and preprocessing",
+          "Devotes about 25% of time to data analysis and predictive modeling",
+          "Allocates 15% to visualization and dashboard creation",
+          "Reserves 10% for meetings, documentation, and stakeholder presentations"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has moderate autonomy to select data sources, analysis methods, and modeling approaches",
+          "Makes independent decisions regarding data quality and preprocessing steps",
+          "Consults with senior analysts or managers for high-impact business recommendations",
+          "Responsible for validating and communicating analytical findings to stakeholders"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Data extraction using SQL queries is straightforward and routine",
+          "Creating standard visualizations in Power BI is quick and intuitive",
+          "Basic data cleaning steps, such as handling duplicates, are familiar"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Handling large datasets with extensive missing or inconsistent entries is time-consuming",
+          "Developing accurate predictive models requires significant domain knowledge",
+          "Communicating technical findings to non-technical stakeholders can be complex",
+          "Integrating new data sources with existing workflows poses periodic challenges"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Routine data cleaning (e.g., missing value imputation) is repetitive and prime for automation",
+          "Standardized report generation and dashboard updates are data-heavy and automatable",
+          "Bulk data extraction and formatting tasks could benefit from AI-driven automation"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys building complex predictive models and uncovering actionable insights",
+          "Finds the creative aspect of dashboard design engaging",
+          "Considers repetitive data cleaning to be tedious and less stimulating",
+          "Routine data extraction is necessary but not particularly enjoyable"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Frequent discovery of missing or incorrect data entries slows down the workflow",
+          "Manual data cleaning consumes significant time that could be used for deeper analysis",
+          "Intermittent integration issues between SQL, Python, and Power BI require troubleshooting",
+          "Lack of standardized data entry processes leads to recurring data quality problems"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Higher skill level in data analysis correlates with greater enjoyment of modeling tasks",
+          "Productivity peaks when working on tasks that offer creative problem-solving opportunities",
+          "Repetitive or low-skill tasks tend to reduce engagement and overall job satisfaction",
+          "Automation of tedious tasks is seen as a way to free up time for more fulfilling work"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Actively seeks out new tools that can streamline workflow or increase productivity",
+          "Considers ongoing tech learning essential for staying competitive in the industry",
+          "Adopts a growth mindset towards technological advancement"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new data analysis software or updates to existing tools",
+          "Comfortable experimenting with beta features or new plugins",
+          "Enjoys exploring innovative approaches to improve data workflows"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate several hours per week to upskilling, especially in AI and analytics",
+          "Participates in online courses and webinars related to data science and visualization",
+          "Views tech training as a valuable investment rather than a chore"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Most motivated by the potential to save time and improve analysis accuracy",
+          "High workload can occasionally limit time available for in-depth training",
+          "Relevance to daily work is a key factor in prioritizing which tools to learn",
+          "Peer recommendations can influence motivation to try new technologies"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often share tips and best practices for new software adoption",
+          "Management encourages experimentation with AI-driven tools",
+          "Collaborative team environment supports collective learning and tool evaluation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses SQL for data extraction and querying daily",
+          "Performs data cleaning, analysis, and modeling in Python (Pandas, Scikit-learn)",
+          "Creates interactive dashboards and visualizations in Power BI",
+          "Employs LLM-based tools (such as ChatGPT) for code assistance and data exploration"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on Excel for quick data manipulation and ad-hoc analysis",
+          "Uses company database management systems for data storage and retrieval",
+          "Employs email and internal messaging platforms for stakeholder communication"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient in SQL, Python, and Power BI",
+          "Familiar with additional tools such as Tableau and R, though not used daily",
+          "Keeps up to date with advancements in data analytics and visualization software"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally encounters format compatibility issues when moving data between SQL and Power BI",
+          "Requires custom scripts to automate data pipeline between Python and reporting tools",
+          "Manual export/import steps are sometimes needed due to lack of seamless integration"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands core AI/ML concepts such as supervised learning, classification, and regression",
+          "Regularly applies statistical learning methods in business analysis",
+          "Familiar with terminology like model accuracy, overfitting, and feature engineering",
+          "Keeps abreast of new developments in generative AI and large language models"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT and other LLM-based assistants for code review and solution brainstorming",
+          "Employs Python machine learning libraries such as Scikit-learn for modeling",
+          "Explores AutoML features in Power BI for quick predictive analytics"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies LLMs daily to generate and debug Python code snippets",
+          "Uses AI tools to automate repetitive data cleaning tasks",
+          "Leverages AI for summarizing large datasets and creating first-draft reports",
+          "Consults LLMs for statistical explanations and best practices"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used LLMs to automate missing value imputation, reducing manual work",
+          "Encountered limitations in AI-generated code, requiring manual correction for edge cases",
+          "Found AI-driven insights helpful for brainstorming but not always accurate without domain input",
+          "Learned to double-check AI outputs before presenting to stakeholders"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Participated in a company-sponsored webinar on AI applications for analysts",
+          "Peers frequently share AI usage tips via internal chat groups",
+          "No formal, structured AI training program currently in place"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI tools for complex tasks",
+          "Often starts with independent exploration before refining results with AI assistance",
+          "Finds value in iterative feedback loops between analyst and AI suggestions"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for automating routine tasks",
+          "Occasionally treats AI tools as a co-worker during data exploration and ideation",
+          "Relies on AI as an advisor for technical troubleshooting and statistical questions"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to integrating new AI-driven workflows if they improve productivity",
+          "Regularly experiments with new AI features or plugins in existing tools",
+          "Proactively suggests workflow changes to leverage the latest AI advancements"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and problem-solving",
+          "Uses command-based interfaces for structured tasks like code execution",
+          "Appreciates hybrid interfaces that allow both natural language and code commands"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Credit analysis frequently depends on nuanced understanding of financial risk factors",
+          "Tasks involving regulatory compliance require domain expertise beyond generic AI capabilities",
+          "Predictive modeling benefits from historical company context and market knowledge"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for automating routine data cleaning and basic analysis",
+          "Maintains skepticism towards AI-generated insights for high-stakes decisions",
+          "Always manually reviews AI outputs before presenting to stakeholders"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers high AI automation for repetitive, rule-based tasks like data formatting",
+          "Advocates for human oversight in tasks requiring judgment or domain nuance",
+          "Sees value in AI-human collaboration, especially during exploratory analysis"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "High automation is acceptable for well-defined, low-risk processes",
+          "Feels threatened by automation of tasks that require tacit business knowledge",
+          "Supports gradual automation with clear override and audit mechanisms"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the importance of analytical and domain expertise",
+          "Expects routine technical skills (e.g., basic data cleaning) to become less critical",
+          "Sees communication and interpretation skills as increasingly vital in an AI-augmented environment"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing proficiency in prompt engineering and AI tool customization",
+          "Learning to validate and interpret AI-generated outputs effectively",
+          "Taking on responsibility for educating peers on best practices in AI adoption"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Moderately concerned about automation replacing repetitive data tasks",
+          "Not worried about full role replacement, given the need for domain insight and stakeholder communication",
+          "Views AI as an opportunity to shift focus to higher-value work"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Ensures all AI-driven processes have manual review steps before final outputs",
+          "Company policy requires human sign-off on critical analysis reports",
+          "Maintains version control and audit trails for AI-assisted workflow changes"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company is becoming more open to AI integration but still emphasizes human oversight",
+          "Recent policy updates encourage responsible experimentation with AI in analytics",
+          "Team discussions increasingly focus on AI ethics and transparency"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will drive significant productivity gains in the finance sector",
+          "Anticipates job roles will evolve rather than disappear due to AI",
+          "Recognizes potential for AI to democratize access to data analysis expertise"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Advocates for transparency in AI decision-making processes",
+          "Concerned about potential bias in AI models if not properly managed",
+          "Supports regular audits and ethical guidelines for AI deployment"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would benefit from an AI tool that automatically detects and corrects data entry errors in real time",
+          "Desires more seamless integration between LLMs and core business intelligence platforms",
+          "Seeks AI-driven explanations for model predictions tailored to non-technical stakeholders"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine data handling tasks to become almost fully automated",
+          "Anticipates a shift towards more strategic, advisory, and interpretive responsibilities",
+          "Believes ongoing learning in AI and analytics will be essential for career progression"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Wants the company to invest in formal AI training programs for analysts",
+          "Advocates for a clear policy framework governing AI use and oversight",
+          "Encourages ongoing evaluation of AI tools for fairness and transparency",
+          "Recommends establishing an internal AI user group for continuous knowledge sharing"
+        ]
+      }
+    ]
+  }
+]

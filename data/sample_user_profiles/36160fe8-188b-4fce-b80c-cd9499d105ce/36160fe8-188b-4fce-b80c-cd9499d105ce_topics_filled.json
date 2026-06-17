@@ -1,0 +1,501 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master\u2019s Degree, likely in Finance or Accounting",
+          "Completed undergraduate studies in Business Administration",
+          "Participated in continuing education courses in financial compliance and management",
+          "Completed in-house training for compliance and leadership at current employer"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Currently serves as Finance Manager at an Ivy League university in Massachusetts",
+          "Oversees financial operations for multiple academic programs",
+          "Manages a team of five finance coordinators",
+          "Acts as the main point of contact for cross-departmental financial matters"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in higher education sector",
+          "Specializes in financial management within academia",
+          "Supports both internal university operations and external academic partnerships"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a large Ivy League university with thousands of staff and students",
+          "Works in a collaborative, cross-functional environment",
+          "Finance department interacts regularly with administrative, academic, and external partners"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Operates in nonprofit, higher education segment",
+          "Focus on program-based financial management and compliance",
+          "Supports both degree-granting and non-degree executive education programs"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has more than 10 years of professional experience in financial management",
+          "Has held current finance manager role for several years",
+          "Prior roles included progressively increasing responsibility in finance"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds a senior management position within the finance department",
+          "Regularly oversees and mentors a team of professionals",
+          "Involved in strategic planning and process improvement for finance operations"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Manages budgeting, expense submission, approval, and financial reporting for multiple programs",
+          "Oversees invoicing, payment monitoring, and revenue booking",
+          "Prepares and reviews journal entries and financial reconciliations",
+          "Leads a finance team, providing task oversight and professional development",
+          "Supports hiring processes, manages compensation records, and ensures compliance"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends about 30% of time on financial processes and reporting",
+          "Allocates 25% of time to cross-team collaboration",
+          "Dedicates 50% of time to team management and oversight",
+          "Spends 10% on hiring, compensation, and HR support tasks",
+          "Devotes 5% to process improvement and strategy"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates with high autonomy in day-to-day financial management",
+          "Authorized to approve expenses and oversee financial processes",
+          "Makes independent decisions on team management, task prioritization, and process enhancements",
+          "Collaborates with leadership for strategic decisions and compliance policy changes"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Financial reporting and budget reconciliation are routine and comfortable",
+          "Coaching team members and conducting regular check-ins come naturally",
+          "Processing invoices and tracking payments is handled efficiently"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Resolving discrepancies between financial systems and records",
+          "Managing cross-functional projects with tight deadlines",
+          "Ensuring compliance with evolving policies and regulations",
+          "Implementing new financial software or workflow tools"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Invoice processing and payment tracking involve repetitive data entry",
+          "Reconciling large data sets for financial reporting is data-heavy",
+          "Routine email communication and status updates could be automated",
+          "Documenting standard operating procedures involves repetitive formatting"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys problem-solving and optimizing financial workflows",
+          "Finds team coaching and development highly engaging",
+          "Considers repetitive data entry and manual reconciliation tedious",
+          "Routine compliance documentation is less stimulating"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual reconciliation across platforms is time-consuming",
+          "Difficulty integrating data between Salesforce, Excel, and other tools",
+          "Delays from waiting on approvals or information from other departments",
+          "Duplicate data entry due to lack of system integration"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Higher skill level in financial analysis leads to greater productivity and enjoyment",
+          "Repetitive or manual tasks reduce engagement and can impact efficiency",
+          "Enjoyment is highest when work involves collaboration and problem-solving",
+          "Productivity peaks when using well-integrated tools and clear processes"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open and proactive about adopting new technologies",
+          "Views tech learning as essential for staying current in the field",
+          "Regularly seeks out new tools to improve workflow efficiency"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new platforms such as LLMs and workflow tools",
+          "Has integrated multiple new systems (e.g., SharePoint, Workday) into daily work",
+          "Sees personal adaptability as a key professional asset"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate time to training if tool is relevant to job",
+          "Regularly participates in webinars and online tutorials for new software",
+          "Encourages team members to attend training sessions and share learnings"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by potential time savings and process improvements",
+          "Barriers include high workload and competing priorities",
+          "Adoption is more likely if tech directly addresses pain points",
+          "Support from peers and leadership increases motivation to learn"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often share success stories that encourage adoption",
+          "Management support and clear communication facilitate tool uptake",
+          "Collaborative culture promotes experimentation with new technologies"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Salesforce CRM daily to track participant records and manage invoices",
+          "Relies on Excel and Google Sheets for budgeting, reconciliation, and journals",
+          "Communicates with team via Outlook and Slack",
+          "Uses SharePoint for document management and workflow tracking",
+          "Accesses Workday for HR tasks and payroll information"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Excel and Google Sheets are core for financial calculations and tracking",
+          "SharePoint is essential for document storage and version control",
+          "Outlook and Slack are primary channels for team and cross-department communication"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Well-versed in Salesforce, Workday, Excel, and SharePoint",
+          "Experienced in using ePay, Buy2Pay, and TouchMe for financial transactions",
+          "Regularly updates skills to remain current with technology upgrades"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Manual data transfer is sometimes required between Salesforce and Excel",
+          "Lack of native integration between payment platforms and core finance systems",
+          "Version control challenges when multiple users update shared documents"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Comfortable with basic AI/ML concepts such as large language models, automation, and data analysis",
+          "Regularly uses AI-powered tools for drafting communication and analyzing data",
+          "Understands the role of AI in automating repetitive financial tasks"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses LLM-based tools (such as ChatGPT or similar) for summarizing reports and drafting SOPs",
+          "Employs AI features in Salesforce and Outlook (e.g., predictive text, workflow automation)",
+          "Utilizes AI-driven data reconciliation tools where available"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies AI tools daily for data analysis, report generation, and communication",
+          "Uses AI to flag inconsistencies and automate reconciliation checks in financial data",
+          "Employs AI to draft routine emails and process documentation"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successful automation of invoice tracking reduced manual entry errors",
+          "AI-generated emails save significant time but sometimes require manual review for tone",
+          "Experienced occasional mismatches in data categorization by AI, requiring oversight",
+          "Learned that clear input prompts are critical for reliable AI output"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company provides occasional AI tool training sessions and webinars",
+          "Peers share tips and best practices for AI tool usage",
+          "Access to internal knowledge base for troubleshooting AI-related issues"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI for complex or high-stakes tasks",
+          "Uses AI independently for routine or repetitive activities",
+          "Adjusts interaction style based on task urgency and complexity"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for automating routine work",
+          "Relies on AI as an advisor for data analysis and report generation",
+          "Sees AI as a co-worker that supports, but does not replace, human oversight"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to piloting AI-driven process improvements",
+          "Encourages team adoption of AI tools where they add value",
+          "Actively seeks new AI features relevant to financial operations"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and process documentation",
+          "Uses command-based interfaces for data queries and structured tasks",
+          "Finds conversational AI more intuitive for drafting communications"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Financial reporting and compliance require deep domain expertise",
+          "Team management and coaching rely on interpersonal and organizational knowledge",
+          "AI is most effective in tasks with clear, rule-based procedures"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for preliminary data analysis and routine communications",
+          "Always reviews AI-generated outputs before making critical decisions",
+          "Relies on AI as a support tool, not as a final decision-maker"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI automation for repetitive and data-heavy processes",
+          "Retains human oversight for compliance, strategy, and team management",
+          "Sees ideal workflow as AI handling routine work, freeing time for strategic input"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "High automation is acceptable when tasks are low-risk and well-defined",
+          "Prefers manual control or double-checks for tasks involving compliance or financial risk",
+          "Feels threatened by automation only if it undermines accountability or transparency"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the importance of analytical and strategic skills",
+          "Routine data entry skills are becoming less critical due to automation",
+          "Communication and collaboration skills remain essential despite AI adoption"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing expertise in prompt engineering for effective AI use",
+          "Becoming adept at interpreting and validating AI-generated outputs",
+          "Taking responsibility for AI tool selection and workflow integration"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Not concerned about AI replacing strategic or leadership responsibilities",
+          "Recognizes that some routine tasks may be fully automated in the future",
+          "Focuses on upskilling to remain relevant as automation increases"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All AI-generated reports and communications are subject to manual review",
+          "Maintains the ability to revert or correct AI-driven changes in financial systems",
+          "Trains team to always verify critical outputs from AI tools"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company is gradually increasing AI adoption in operations",
+          "Policies emphasize human oversight and ethical AI use",
+          "Team is encouraged to pilot AI tools but maintain compliance standards"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Views AI as a positive force for efficiency and productivity",
+          "Believes AI will transform financial operations in higher education",
+          "Sees potential for AI to reduce manual workload and increase strategic focus"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes AI must be used with transparency and accountability",
+          "Concerned about potential biases in AI-generated outputs",
+          "Advocates for ethical guidelines and human review in AI deployment"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires seamless integration between financial platforms and AI tools",
+          "Would benefit from AI that can automate complex reconciliations and compliance checks",
+          "Seeks AI features for advanced workflow automation and team management"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects automation of most routine reporting and reconciliation tasks",
+          "Foresees a shift toward strategic financial planning and AI oversight",
+          "Anticipates increased focus on coaching, communication, and cross-functional leadership"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Wants increased investment in AI training and upskilling for staff",
+          "Recommends implementing clear ethical standards for AI use",
+          "Advocates for pilot programs to evaluate new AI tools for finance operations",
+          "Supports regular feedback mechanisms for AI-related process improvements"
+        ]
+      }
+    ]
+  }
+]

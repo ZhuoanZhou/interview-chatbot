@@ -1,0 +1,534 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Attended college but did not complete a degree, with coursework focused on business administration and supply chain management.",
+          "Completed several company-sponsored training sessions on logistics software and best practices.",
+          "Received on-the-job training in negotiation tactics and carrier management.",
+          "Participated in online workshops covering basic Excel and Microsoft Teams usage."
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Logistics Analyst.",
+          "Responsible for securing emergency trailers for power outages at Walmart locations.",
+          "Negotiates 'power only' loads to move trailers between trailer yards and target Walmarts.",
+          "Oversees rate agreement negotiations and ensures timely delivery of trailers.",
+          "Tracks and traces trailer locations and manages ETAs for critical deliveries."
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the logistics and supply chain sector.",
+          "Specializes in transportation and emergency response logistics.",
+          "Supports retail operations, specifically servicing Walmart stores.",
+          "Operates within a third-party logistics provider environment."
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed by a mid-sized logistics company with approximately 200-500 employees.",
+          "Works in a collaborative office environment with both remote and on-site colleagues.",
+          "Frequent interaction with dispatchers, carriers, and support staff.",
+          "Company has a flat organizational structure with open communication channels."
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Company operates primarily in the third-party logistics (3PL) market.",
+          "Specializes in urgent and emergency transportation services for large retailers.",
+          "Focuses on trailer delivery and management in response to power outages and other emergencies.",
+          "Serves clients with high-volume, time-sensitive transportation needs."
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has worked as a Logistics Analyst for between 3 to 5 years.",
+          "Joined the current company in 2019.",
+          "Previously held related positions in logistics support and dispatch.",
+          "Has seen increasing responsibility over the tenure, especially in negotiation and tracking."
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Considered mid-level within the organization, reporting to a logistics manager.",
+          "Acts as a lead analyst for emergency trailer deliveries.",
+          "Mentors newer team members on tracking software and negotiation best practices.",
+          "Regularly interfaces with both internal teams and external carriers."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Negotiates rate agreements with carriers for emergency and scheduled trailer moves.",
+          "Tracks and traces trailer locations using StatusNow and MacroPoint.",
+          "Sends rate confirmations to carriers after negotiations are finalized.",
+          "Coordinates with Walmart contacts to confirm delivery requirements and schedules.",
+          "Uses RingCentral for foreign support and internal communications."
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 40% of the day negotiating rate agreements and sending confirmations.",
+          "Devotes around 30% of the workday to tracking and tracing trailers.",
+          "20% of time is spent on communications with internal/external stakeholders.",
+          "The remaining 10% is allocated to administrative tasks and reporting."
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has moderate autonomy to negotiate rates within pre-set company guidelines.",
+          "Can select carriers based on reliability and past performance.",
+          "Finalizes rate confirmations independently for routine shipments.",
+          "Escalates only high-value or unusual cases to senior management."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Tracking and tracing trailer locations through software feels intuitive after years of daily use.",
+          "Drafting and sending standard rate confirmations is a routine process.",
+          "Communicating with long-term carrier partners is straightforward due to established relationships.",
+          "Updating ETAs and sharing status updates with clients is efficient and streamlined."
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Negotiating rates during high-demand periods or emergencies can be complex.",
+          "Coordinating with multiple stakeholders during power outage events requires quick decision-making.",
+          "Manually customizing language in rate confirmations for unique situations is time-consuming.",
+          "Resolving discrepancies between expected and actual trailer locations can be difficult."
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Populating rate confirmation templates with routine information is repetitive.",
+          "Routine status updates and ETA calculations could be automated.",
+          "Tracking and inputting trailer location data involves frequent manual data entry.",
+          "Sending standard follow-up emails to carriers after shipment completion is repetitive."
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys the challenge and negotiation aspect of rate agreements with carriers.",
+          "Finds tracking shipments during high-stakes emergencies rewarding.",
+          "Considers repetitive data entry and template editing to be tedious.",
+          "Administrative reporting and documentation are least engaging."
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Editing rate confirmations manually for each carrier is time-consuming.",
+          "Switching between multiple software platforms to complete a task adds complexity.",
+          "Occasional software lags or syncing issues delay status updates.",
+          "Lack of automation for routine communications leads to repetitive work."
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Tasks that align with negotiation skills are both enjoyable and productive.",
+          "Proficiency in tracking tools leads to faster, more accurate work and higher satisfaction.",
+          "Less engaging, repetitive tasks are performed quickly due to experience but offer little job satisfaction.",
+          "Productivity is highest when working on challenging shipments that require creative problem-solving."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally open to learning new technologies if they offer clear efficiency benefits.",
+          "Prefers hands-on learning and practical demonstrations over theoretical instruction.",
+          "Feels motivated to adopt tools that reduce repetitive work.",
+          "Appreciates support and training when transitioning to new platforms."
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to updates in core workflow tools like StatusNow or MacroPoint.",
+          "Takes some time to fully integrate new tools into daily routines, especially if complex.",
+          "Relies on peer support when troubleshooting new systems.",
+          "Comfortable experimenting with new features after initial guidance."
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to attend short training sessions or webinars during work hours.",
+          "Prefers self-paced tutorials that can be revisited as needed.",
+          "Less likely to invest personal time after work for non-essential tech training.",
+          "Will invest more time if the tool promises major workflow improvements."
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential to save time on repetitive tasks.",
+          "Heavy workload can be a barrier to dedicating time for training.",
+          "Skeptical of adopting tools that do not clearly align with core job duties.",
+          "Management endorsement increases motivation to learn new tools."
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "More likely to try new tools if recommended by respected colleagues.",
+          "Management encouragement and clear communication of benefits are influential.",
+          "Positive peer experiences with a tool increase personal openness to adoption.",
+          "Frequently shares tips and best practices with team members once comfortable with a tool."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses StatusNow daily for managing rate confirmations and tracking shipments.",
+          "MacroPoint is used for real-time trailer location tracking.",
+          "Microsoft Teams and Outlook are main communication and scheduling tools.",
+          "RingCentral is used for foreign support and conference calls."
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on Microsoft Office suite (Excel, Word) for documentation and reporting.",
+          "Uses in-house logistics management platform for shipment scheduling.",
+          "Employs phone and email for critical communications with carriers.",
+          "Occasionally references physical documentation or printed checklists for emergency protocols."
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Familiar with MacroPoint and similar shipment tracking solutions.",
+          "Experienced with rate negotiation and confirmation systems common in logistics.",
+          "Some exposure to TMS (Transportation Management Systems) platforms.",
+          "Uses Microsoft Teams and Outlook, which are standard in the industry."
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally experiences issues syncing data between StatusNow and MacroPoint.",
+          "Manual data transfer is required between in-house software and Excel reports.",
+          "Lack of seamless integration leads to double entry of trailer details.",
+          "Would benefit from automated handoffs between tracking and rate confirmation systems."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Has some experience using large language models (LLMs) for text generation.",
+          "Understands the basics of how AI can automate document creation and data analysis.",
+          "Familiar with terms like 'automation,' 'machine learning,' and 'chatbot.'",
+          "Knows AI can be used to streamline repetitive processes in logistics."
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Has occasionally used OpenAI's ChatGPT to draft template language for rate confirmations.",
+          "Tested AI-driven features in Microsoft Office (such as Outlook's suggested replies).",
+          "No dedicated in-house AI platforms are in daily use at the company.",
+          "Has trialed AI-powered email summarization tools during busy periods."
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs occasionally, mainly to generate or refine text for rate confirmations.",
+          "Has used AI tools to summarize lengthy emails or documents before forwarding.",
+          "AI is not yet integrated into daily workflow, but is explored for specific, repetitive tasks.",
+          "Frequency of AI use increases during peak seasons or emergencies."
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI-generated rate confirmation language has saved time during high-volume periods.",
+          "Once received an AI-generated template that included incorrect carrier details, requiring manual correction.",
+          "Found AI useful for drafting simple, repetitive emails, but less effective for complex negotiations.",
+          "Learned that AI outputs require human review to ensure accuracy and compliance."
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal company-wide training on AI tools has been provided to date.",
+          "Informally shares AI usage tips with colleagues who are interested.",
+          "Occasionally seeks guidance from tech-savvy peers for troubleshooting AI features.",
+          "Company is considering more structured AI training as adoption increases."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers independent use of AI tools for routine text generation and document editing.",
+          "Open to step-by-step collaboration with AI for more complex or unfamiliar tasks.",
+          "Likes to have the option to override or edit AI suggestions before finalizing.",
+          "Finds AI most helpful when it supplements, rather than replaces, established workflows."
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI as an assistant for drafting and editing documents.",
+          "Occasionally consults AI as an advisor for formatting or process questions.",
+          "Does not delegate full responsibility for critical tasks to AI.",
+          "Relies on AI for efficiency, but maintains human oversight for quality."
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to AI-driven changes that clearly reduce workload or error rates.",
+          "Cautious about adopting AI for tasks involving negotiation or sensitive communications.",
+          "More receptive to incremental workflow changes than complete overhauls.",
+          "Willing to experiment with AI features if support and training are available."
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational AI interfaces for generating text and responding to queries.",
+          "Finds command-based interfaces more efficient for structured, repetitive tasks.",
+          "Appreciates when AI can interpret plain-language instructions.",
+          "Switches between interface styles depending on task complexity."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Rate negotiation relies heavily on domain knowledge of market rates and carrier reliability.",
+          "Emergency trailer deployment requires understanding of Walmart's operational needs.",
+          "Template language for rate confirmations can largely be standardized, but exceptions require human judgment.",
+          "Some tracking and tracing tasks can be automated, but anomaly resolution depends on experience."
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Moderate trust in AI for routine document generation and email summarization.",
+          "Low trust in AI for critical negotiations or sensitive communication without human review.",
+          "Believes AI outputs should be double-checked before sending to external parties.",
+          "Trust increases as AI demonstrates consistent, error-free performance."
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive content creation and data entry.",
+          "Human oversight is essential for exceptions, negotiations, and problem-solving.",
+          "Ideal workflow is AI-augmented, not AI-replaced.",
+          "Supports partial automation for tracking, with alerts to flag issues for human review."
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for standardized, low-risk tasks like drafting routine emails.",
+          "Finds automation threatening if it removes critical decision-making or reduces job control.",
+          "Prefers opt-in automation, with the ability to override or edit outputs.",
+          "Accepts more automation during high-volume emergencies, provided quality checks remain."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances productivity by reducing time spent on routine tasks.",
+          "Feels negotiation and relationship-building skills remain critical and irreplaceable.",
+          "Sees value in learning to work alongside AI and leverage its strengths.",
+          "Worries that over-automation could devalue some manual skills over time."
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning to validate and edit AI-generated content is an emerging skill.",
+          "Responsible for identifying which tasks are suitable for automation.",
+          "Increasing need to train colleagues on AI tool usage.",
+          "Keeping up with changes in AI features and updates is a new responsibility."
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mild concern that repetitive documentation tasks could be fully automated.",
+          "Confident that core negotiation and problem-solving responsibilities are safe from automation.",
+          "Watches industry trends for any sign of broader job displacement.",
+          "Would welcome AI taking over the most tedious tasks if it means more focus on high-value work."
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All AI-generated rate confirmations are reviewed before sending.",
+          "Manual checks are required for any AI-generated communication with external partners.",
+          "Prefers systems that allow easy editing and rejection of AI suggestions.",
+          "No fully autonomous AI processes are currently in use."
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company is increasingly open to exploring AI tools for document automation.",
+          "No formal AI adoption policy has been enacted yet.",
+          "Team discussions about AI focus on productivity and error reduction, not headcount cuts.",
+          "Management has signaled interest in piloting more AI features if proven effective."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will significantly improve efficiency in logistics and supply chain management.",
+          "Sees potential for AI to reduce human error and enhance real-time decision making.",
+          "Has concerns about job displacement in roles focused on routine data entry.",
+          "Anticipates a shift towards higher-skilled, AI-augmented positions across the industry."
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports transparent use of AI with clear guidelines on human oversight.",
+          "Believes ethical risks include privacy breaches and biased decision-making if unchecked.",
+          "Advocates for accountability and manual review of AI outputs in sensitive situations.",
+          "Thinks workers should be retrained for new roles as automation increases."
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would benefit from an AI tool that automatically drafts customized rate confirmations with client-specific language.",
+          "Sees value in AI-driven real-time anomaly detection for shipment delays.",
+          "Desires seamless integration of AI across all logistics and communication platforms.",
+          "Wants an AI assistant that can automatically summarize and prioritize urgent emails."
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine documentation and tracking tasks to become nearly fully automated.",
+          "Predicts a shift towards more relationship management and exception handling.",
+          "Anticipates greater involvement in overseeing AI-driven processes and troubleshooting.",
+          "Believes new roles will emerge focused on AI system management and continuous improvement."
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Wants the company to provide structured training on AI tool usage.",
+          "Recommends piloting AI-powered features for rate confirmation and tracking automation.",
+          "Advocates for establishing clear guidelines for human-AI collaboration.",
+          "Encourages management to solicit feedback from users before scaling AI adoption."
+        ]
+      }
+    ]
+  }
+]

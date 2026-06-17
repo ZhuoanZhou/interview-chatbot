@@ -1,0 +1,249 @@
+# Biographical Notes
+
+- Believes AI will handle more of the technical and repetitive writing tasks
+- Commutes by bicycle even in winter
+- Confident that creative and strategic roles will remain human-led
+- Frequently snacks on spicy popcorn during afternoon work sprints
+- Uses AI as a creative partner rather than a full automator
+- Enjoyment increases when there is autonomy and space for experimentation
+- Mid-level professional with advanced education and several years of hands-on experience
+- Regularly pilots new AI features as they are released
+- Routine copywriting skills are becoming less critical due to AI automation
+- Celebrates Friday afternoons with a ritual of sharing fun facts about words
+- Prefers step-by-step collaboration, starting with a human draft then refining via AI
+- Can easily revert to human-only writing if AI output is unsatisfactory
+- Prompt engineering and crafting effective AI queries is now part of daily work
+- Delegates repetitive or low-stakes writing to AI, retaining creative oversight
+- Highly open and proactive about adopting new technology
+- Holds a Master’s Degree in Marketing and Communications
+- Peer networks encourage discussion about ethical AI adoption
+- Has a pet fish named 'Copy' who 'oversees' deadlines
+- Peers share AI tips and effective prompts in online groups and forums
+- Self-taught in AI tool usage, leveraging online tutorials and communities
+- Slack is used for real-time communication with some clients
+- Expects a shift toward more strategic and creative oversight roles
+- Regularly uses Google Workspace (Docs, Sheets, Drive) for collaboration
+- Many tasks require nuanced understanding of brand tone and sector-specific language
+- Interpersonal skills for client communication remain essential
+- Responsible for adapting messaging to suit various digital platforms
+- Has managed a growing portfolio of clients over this period
+- Willing to restructure workflow if there is a clear benefit in speed or quality
+- Adapting client ideas into concise and engaging copy
+- Anticipates increased focus on cross-platform campaign orchestration
+- Avoids tools perceived as overly complex or poorly integrated
+- Keyword research for SEO using AI-assisted tools
+- Prefers to maintain control over content that represents client brands publicly
+- Every year plants a small herb garden on the apartment balcony
+- Assumes final editorial control over all AI-generated output
+- Uses remaining 10% for final reviews, administrative tasks, and content scheduling
+- Meets with clients to gather requirements and understand campaign goals
+- Has a ritual of wearing mismatched socks on brainstorming days
+- Experienced occasional factual errors or awkward phrasing from AI drafts
+- Concerned about potential bias or misinformation in AI-generated material
+- Decorates the workspace seasonally with quirky handmade crafts
+- Clients sometimes require use of specific platforms or software
+- Always reviews and edits AI-generated content before client submission
+- Participates in webinars and online courses for advanced features
+- Occasionally experiences formatting issues when transferring copy between Canva and social platforms
+- Collaborates directly with clients to understand their advertising needs
+- Believes in clear guidelines for responsible and fair use of AI-assisted tools
+- Willing to dedicate several hours per month to learning new tools
+- Stays updated by exchanging tips with other copywriters and marketers
+- Formatting and standardizing captions across platforms
+- Has basic proficiency with project management tools like Trello or Asana
+- Editing, critical reasoning, and prompt engineering are increasingly important
+- Utilizes Grammarly’s AI features for advanced grammar and tone suggestions
+- Employs Google Docs for drafting and collaborating on content
+- Careful to balance automation with the need for personal creativity
+- Regularly experiments with emerging AI tools for content creation
+- Treats AI as a junior co-writer for generating draft content
+- Writes and edits copy for social media advertisements and job posts
+- Predominantly serves clients advertising on social media platforms
+- Occasionally challenged by heavy project workload limiting training time
+- Management/client feedback influences which tools are prioritized for adoption
+- Open to automation for formatting, scheduling, and analytics, but not for creative direction
+- Comfortable troubleshooting issues with new tools independently
+- Waiting for client feedback delays project timelines
+- Sees potential for AI to democratize access to high-quality content creation
+- Uses ChatGPT (OpenAI) daily for brainstorming and polishing copy
+- Productivity is highest when working on creative, challenging projects
+- Very open to experimenting with new AI-driven processes
+- Office plant is named Gerald and receives daily motivational talks
+- Repetitive tasks decrease engagement, sometimes impacting productivity negatively
+- Writes handwritten thank-you notes for every major client pitch
+- Usually interfaces with marketing teams ranging from 2 to 10 people
+- Has been in the advertising and promotions management/copywriting field for 3-5 years
+- Human insight is essential for aligning copy with client values
+- Invest in tools that integrate AI seamlessly into existing workflows
+- Considers repetitive formatting and bulk editing as tedious
+- Spends roughly 60% of the day on writing and editing copy
+- Works as an Advertising and Promotions Manager with a specialization in copywriting
+- Allocates about 20% of time to client communication and requirements gathering
+- Owns a vintage typewriter that still works and occasionally uses it
+- Serves as both a practitioner and lead copywriter for client projects
+- Clients are increasingly open to AI-assisted content as long as quality is maintained
+- Aligning copy with highly specific client branding guidelines
+- AI can assist with structure but often lacks domain-specific context
+- Least engaged when handling administrative follow-up for approvals
+- Has a standing desk that's never been lowered in 3 years
+- Works with companies seeking to improve online recruitment and brand visibility
+- Learns by testing features in real-world projects
+- Some AI-generated content requires significant editing to align with brand voice
+- Moderately concerned about AI replacing basic, repetitive copywriting tasks
+- Quick to adapt to updates in major social media and AI platforms
+- Takes part in a weekend pottery class to relax hands and mind
+- Optimistic about human-AI collaboration for innovative campaigns
+- Customizes AI prompts to ensure alignment with client expectations
+- Proofreading and polishing content for clarity and tone
+- Optimizes captions for search engine visibility and platform engagement
+- Works in the digital marketing and advertising sector
+- Values the flexibility of conversational AI for creative work
+- Skeptical of AI’s ability to fully capture subtle branding requirements
+- Wears a lucky bracelet made of old ticket stubs from concerts attended
+- Manual copy-pasting sometimes required due to lack of seamless cross-platform integration
+- Brings homemade cookies to team meetings every Friday
+- Acknowledges risks of job displacement in routine marketing roles
+- Undergraduate degree in English with a focus on creative writing
+- Often alternates between independent ideation and AI-assisted revision
+- Guidelines for responsible AI use are becoming more common in contracts
+- Collects vintage coffee mugs from client cities visited
+- Has experimented with Jasper.ai for content generation
+- Operates at the intersection of marketing, technology, and communications
+- Some clients provide resources or guidelines for using their preferred AI tools
+- Integration between analytics and creative tools is limited, requiring manual data checks
+- Manual adjustments needed when AI-generated copy lacks context
+- Finds satisfaction in crafting unique, high-impact messages
+- Occasionally uses structured commands for specific formatting needs
+- Generating initial draft variations for multiple job postings
+- Keeps a mystery novel collection on the office bookshelf
+- Facilitate regular knowledge sharing about AI best practices among team members
+- Skills in using AI tools contribute to both efficiency and output quality
+- Once tried to learn juggling to improve hand-eye coordination
+- Training clients on how to effectively use AI-generated content is an emerging service
+- Has a ‘pun jar’ on the desk, donating to charity for every pun made
+- Would benefit from AI tools with deeper brand context awareness
+- Wants better analytics on AI-generated content performance across platforms
+- Uses color-coded sticky notes shaped like speech bubbles
+- AI has increased output speed for routine copy projects by up to 30%
+- Acts as a freelance copywriter for multiple client companies
+- Using AI tools to streamline the editing process
+- Prioritizes practical, hands-on learning over theory
+- Views technology as a means to improve work quality
+- Responsible for creative decisions regarding tone, style, and format
+- Prefers drinking tea from a quirky shark-shaped mug
+- Understands the basics of CMS platforms such as WordPress
+- Adopts new tools when there is a clear, direct benefit to workflow
+- Has a habit of naming Wi-Fi networks after famous advertising slogans
+- Dropbox is occasionally used for sharing large image files
+- Decides which AI tools to use and how to integrate them into workflow
+- Experience includes both agency and freelance/contract work
+- Believes AI enhances the value of creative and strategic thinking skills
+- Has a rotating playlist of 80s rock tunes for creative inspiration
+- Can integrate new processes into workflow with minimal disruption
+- Always carries a small notebook for sudden creative ideas on the go
+- Volunteers as a local storytelling coach for junior writers
+- Consults clients for approval but manages execution independently
+- Trusts AI for initial drafts and idea generation, but not for final publication
+- Encourage ongoing professional development in AI and digital skills
+- Learned to play ukulele during pandemic lockdown
+- Balancing SEO requirements with creative storytelling
+- Canva is indispensable for designing social media graphics
+- Finds natural language prompts more intuitive than command-based inputs
+- Prefers a 60/40 split—human direction for creativity, AI for drafting and editing
+- Familiar with the concept of large language models and generative AI
+- Company environments are typically fast-paced and project-driven
+- Some organizations now request transparency on AI usage in campaign deliverables
+- Manual final review is mandatory for all important deliverables
+- Enjoys brainstorming creative campaign ideas with clients
+- Dedicates 10% to research and ideation for new campaigns
+- Applies AI for idea organization, initial drafts, and content refinement
+- Seeks out resources and tutorials to stay updated
+- Keeps a tiny zen garden on the windowsill for midday stress relief
+- Has a ritual of starting each day by reading a random poem
+- Views ongoing tech training as essential to career growth
+- Uses Hootsuite and Buffer for scheduling and posting to social media
+- Has a habit of doodling fictional company logos in notebooks
+- Trust increases with routine or standardized tasks but decreases for nuanced content
+- Understands basic AI concepts such as natural language processing (NLP) and machine learning
+- Participated in online courses covering SEO and content strategy
+- Attended industry conferences on advertising trends and technology
+- Motivated by the potential to deliver better and faster results for clients
+- Specialized copy, such as recruitment ads, relies on industry best practices
+- Familiar with advertising platforms like Facebook Ads Manager and LinkedIn Campaign Manager
+- Has a collection of rubber ducks on desk for debugging companionship
+- Can explain terms like 'prompt engineering' and 'fine-tuning' in the context of copywriting
+- Leverages AI to accelerate brainstorming sessions and overcome writer’s block
+- Peers in the freelance community often share tool recommendations
+- Enjoys experimenting with homemade flavored popcorn recipes
+- Projects often tailored for B2C marketing needs
+- Keeps a stuffed animal named 'Brainstorm Bear' on the desk for creativity boosts
+- Occasionally tests new AI writing assistants as they are released
+- Desires seamless integration between AI writing assistants and design platforms like Canva
+- Finds iterative feedback between self and AI most productive
+- Advocates for transparency in disclosing AI-generated content to clients
+- Independently manages projects from conception to delivery
+- Practices a daily gratitude journal displayed at the desk
+- Has experience with analytics tools like Google Analytics to track campaign performance
+- Once made a time capsule filled with old ad campaign memos
+- Occasionally practices calligraphy to unwind
+- Has a tiny whiteboard doodle mascot named ‘CopyCat’
+- Uses AI tools every day as part of the standard workflow
+- Market segment includes startups and established businesses with a digital focus
+- Integrating content across multiple social platforms can be cumbersome
+- Adopts a new weekly word challenge to use in casual conversations
+- Regularly submits haikus to the office newsletter
+- Keeps a mini basketball hoop by the desk for quick breaks
+- Manual review of AI-generated content is standard procedure
+- Learnt that human oversight is essential for quality assurance and context
+- Staying current with evolving AI tools is essential for maintaining competitiveness
+- Utilizes SEMrush and Moz for SEO keyword research
+- Is an avid collector of quirky fridge magnets from business trips
+- All final drafts are checked for tone and accuracy before submission
+- Once participated in a citywide scavenger hunt organized by coworkers
+- Supports regular human oversight to ensure ethical use of AI
+- Primary role is to create engaging captions for social media advertisements
+- Works primarily with small to mid-sized companies on a freelance basis
+- Some AI tools lack direct integration with preferred scheduling platforms
+- Views AI as a collaborator rather than a threat to overall job security
+- Operates with a high degree of autonomy in daily work
+- Hosts an annual themed costume party for close colleagues
+- Meeting tight deadlines for simultaneous campaigns
+- Establish clear policies for AI transparency and ethical use
+- Began career in digital marketing shortly after completing Master’s degree
+- Uses AI tools like ChatGPT to refine and structure messaging
+- Creating content for unfamiliar industries or niche markets
+- Office is decorated with posters from 1990s tech conferences
+- Keeps up-to-date with industry news on AI advancements relevant to marketing
+- High automation is acceptable for bulk drafts and low-visibility content
+- Predicts that prompt engineering and AI tool management will be core skills
+- Completed specialized workshops in digital advertising and social media marketing
+- Organizes monthly book club focusing on sci-fi novels
+- Has a favorite coffee shop where they write first drafts of ideas
+- Focuses on social media advertising for various industries
+- Clients typically operate in consumer-facing markets (e.g., retail, recruitment)
+- Has a secret stash of novelty pens shaped like sushi
+- Uses AI suggestions to adapt messaging to specific social media audiences
+- Uses ChatGPT and similar AI writing assistants for brainstorming and editing
+- Loves experimenting with latte art during morning coffee breaks
+- Bulk scheduling of social media posts
+- Celebrates ‘National Pen Day’ by gifting coworkers colorful pens
+- Always eats lunch at exactly 12:30 PM
+- Seeks AI features for multi-language content generation with cultural nuance
+- Sees AI as a tool to augment, not replace, human expertise
+- Maintains a scrapbook of memorable advertising campaign visuals
+- Views AI primarily as a writing assistant and brainstorming aide
+- Keeps a collection of inspirational quotes pinned above the desk
+- Uses AI for ideation, but relies on personal judgment for content approval
+- Recognized by clients as a trusted contributor to advertising strategy
+- Collects postcards featuring classic movie theater marquees
+- Automation is considered threatening if it undermines creative uniqueness
+- Evaluating and editing AI-generated copy is a new routine responsibility
+- Plans to continually upskill to stay ahead of AI automation
+- Prefers conversational interfaces for brainstorming and refining ideas
+- Writing short, catchy captions for social media posts
+- Prepares and submits draft content for client review and approval
+- Believes AI will continue to transform the advertising industry by driving efficiency
+- Occasional inconsistencies between client-provided materials and campaign objectives
+- Relies on Canva for creating visuals and integrating copy with images
+- No formal internal training due to freelance/contractor structure
+- Collaborates remotely with clients, often as an external contractor

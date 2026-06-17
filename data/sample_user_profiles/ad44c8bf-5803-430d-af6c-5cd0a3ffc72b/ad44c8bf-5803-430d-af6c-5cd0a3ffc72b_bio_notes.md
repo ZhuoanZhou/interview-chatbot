@@ -1,0 +1,201 @@
+# Biographical Notes
+
+- Believes transparency and disclosure of AI usage are essential
+- Responsible for translating client scripts into visual concepts
+- Highly familiar with Avid and Adobe Creative Suite for editing
+- Received on-the-job training in script breakdown and set management
+- Works as a Director and Producer for commercials
+- Bakes homemade cookies and brings them to Friday meetings as an unofficial morale booster.
+- Manages all aspects of production, from pre-visualization to shoot-day execution
+- Encourage experimentation with AI while maintaining human oversight on core creative tasks
+- Progressed from junior roles to senior creative leadership
+- Enjoys spontaneous karaoke sessions with colleagues after wrap parties.
+- Seeks step-by-step collaboration with AI for technical or data-heavy processes
+- Policies emphasize human review and ethical use of AI
+- Resolving unforeseen technical issues on set (e.g., equipment failure)
+- Managing last-minute script or client-driven changes
+- Runs a monthly sci-fi book club that includes many colleagues from the creative team.
+- Receives informal guidance from technically savvy peers
+- Willing to test AI-driven solutions if they reduce manual workload
+- Finds repetitive administrative tasks (emails, scheduling) tedious
+- Coordinates with clients (advertising agencies) to align on vision
+- Wants clear override and review mechanisms for all AI-driven outputs
+- Wants AI tools that can generate highly customized visual references for storyboards
+- Consults physical scripts and production binders on set
+- Keeps a tiny zen garden on the office windowsill to meditate between hectic shoots.
+- Maintains a digital photo journal of behind-the-scenes moments from shoots as a personal archive.
+- Prefers hands-on learning over lengthy theoretical training
+- Regularly collaborates with freelance crew and agency teams
+- Daily use of Avid and Adobe editing software (e.g., Premiere Pro, After Effects)
+- Accepts high automation for routine scheduling, document management, and asset cataloging
+- Administrative follow-up (emails, scheduling): ~10%
+- Finds command-based interfaces more suitable for repetitive or technical tasks
+- No formal company-wide AI training program currently available
+- Minimal concern about AI replacing core creative and leadership responsibilities
+- Comfortable seeking out tutorials or peer support for more complex tools
+- Keeps a collection of rubber ducks on their desk, each with a different outfit or theme.
+- Open to integrating AI into more aspects of pre-production and research
+- Enjoys experimenting with new software for storyboarding or editing
+- Storyboarding and visualizing scenes based on scripts
+- Sees potential for AI to democratize creative tools and lower entry barriers
+- Script interpretation and talent direction require nuanced understanding of client goals
+- Barriers include high workload during production cycles and low perceived relevance of some tools
+- Client and agency meetings: ~20%
+- Considers AI for generating alternative visual concepts or prop ideas pre-production
+- Keeps a display of vintage film reels in the office that friends have gifted from various countries.
+- Hosts an annual costume party themed around classic cinema icons for friends and colleagues.
+- Makes it a point to learn a handful of phrases in the local language when traveling for shoots abroad.
+- Insists on manual review and approval for all AI-generated scripts or visual content
+- Managing large volumes of production-related emails
+- Applies AI tools occasionally for specific technical tasks (e.g., enhancing audio)
+- Team is increasingly open to experimenting with AI tools for efficiency
+- Understands basic operation of camera equipment and sound gear
+- Loves making playlists tailored to each commercial shoot to set the perfect mood on set.
+- Many production decisions rely heavily on tacit knowledge from years of experience
+- Views communication and client management skills as irreplaceable
+- Occasionally experiences file compatibility issues between different editing platforms
+- Keeps all key creative decisions under human oversight
+- Has a standing desk that hasn’t been lowered in over three years, citing better energy flow.
+- Acts as the main liaison between the advertising agency, talent, and crew
+- Focuses on creating short-form video content for commercial advertising
+- Works on both B2B and B2C advertising projects
+- Attended workshops on advertising production and commercial filmmaking
+- Has a habit of annotating scripts with personal doodles and motivational quotes.
+- Compiling and tracking wardrobe and props lists
+- Open and proactive about adopting new technologies when they enhance workflow
+- Does not rely on AI for directorial decision-making or final creative calls
+- Establish clear guidelines for ethical and transparent AI use
+- Wears a lucky bracelet gifted by a mentor during the first major commercial shoot.
+- Experienced mixed results when using AI for visual references—sometimes too generic
+- Spends weekends refurbishing old film cameras found at thrift stores.
+- Has a secret stash of nostalgic candy in the desk drawer to share during long editing sessions.
+- Difficulty in tracking communication threads across multiple email chains
+- Loves retro video games and challenges the crew to lunchtime tournaments on set.
+- Peers’ positive experiences with tools increase openness to adoption
+- Learned that AI-generated content still requires significant human curation and adjustment
+- Ensures production stays on schedule and within budget
+- Grows a small herb garden on their apartment balcony, often using fresh mint for homemade iced teas.
+- Communicating creative ideas to the agency and crew
+- Has a tradition of binge-watching Saturday morning cartoons with their kids every weekend.
+- Enjoys collaborating with the art department to design sets and visuals
+- Always packs a tiny emergency kit with snacks, bandaids, and camera lens wipes for shoots.
+- Directs talent and crew on shoot days
+- Often works in dynamic, project-based environments
+- Motivated by the potential to save time or improve creative output
+- Finds inspiration by taking a weekly nature walk during lunch breaks to clear their mind.
+- Always reviews and validates AI-generated content before use
+- Enjoys experimenting with homemade hot sauce recipes and shares the spiciest ones at team lunches.
+- Is a dedicated vinyl record collector, with a special focus on 1970s movie soundtracks.
+- Completed coursework in directing, film production, and media studies
+- Prefers conversational interfaces (e.g., chatbots) for brainstorming and creative input
+- Has final say on visual interpretation and execution on set
+- Learning to evaluate and curate AI-generated content for quality and suitability
+- No formal mandate, but gradual shift towards digital and AI-enhanced workflows
+- Encourages team to double-check automated outputs before implementation
+- Mentors junior team members and guides project vision
+- Maintains human control over creative and client-facing decisions
+- Found AI helpful for generating script rewrites quickly under tight deadlines
+- Has a quirky tradition of wearing mismatched socks on shooting days for good luck.
+- Believes human creativity and team management will remain critical
+- Has an office cat named Spielberg who occasionally 'directs' meetings by walking across the keyboard.
+- Uses MacBook Pro as primary workstation
+- Uses LLMs regularly for brainstorming, rewriting, or ideation tasks
+- Often wears a quirky pin or badge that relates to classic films or famous directors.
+- Regularly explores how AI can streamline production planning
+- Approves wardrobe, props, and set design in collaboration with stylists and designers
+- Has used ChatGPT or similar language models for script ideation and revision
+- Providing direction to talent during rehearsals and shoots
+- AI is seen as less capable in areas demanding creative intuition and on-the-fly judgment
+- Loves to doodle storyboards in a sketchbook during long meetings.
+- Has a ritual of brewing a fresh cup of French press coffee before every brainstorming session.
+- Has a tradition of writing handwritten thank-you notes to clients and crew after big projects.
+- Oversees script interpretation and visual storyboarding
+- Occasionally tries AI-powered tools in Adobe Creative Suite (e.g., auto-color, sound cleanup)
+- Delegates technical tasks to department leads but oversees all aspects
+- Finds most enjoyment in creative tasks like storyboarding and directing talent
+- Management typically encourages experimentation with new production tools
+- Occasional misalignment between agency vision and production possibilities
+- Cautious about the effects of AI on employment and creative originality
+- Relies on online tutorials and industry forums for AI tool learning
+- Adapts quickly to industry-standard editing and production tools
+- Storyboarding and script breakdown: ~25%
+- Skill level in storyboarding and direction correlates with higher project success rates
+- Works in the Media and Entertainment sector
+- Keeps a quirky collection of novelty ties and bowties that make appearances in team Zoom calls.
+- Uses email extensively for client and crew communication
+- Values intuitive, user-friendly AI interfaces that don’t disrupt workflow
+- Holds a Bachelor’s Degree, likely in Film, Media Production, or a related field
+- Occasionally treats AI as an advisor for technical problem-solving
+- Implement regular training sessions on AI tool usage and best practices
+- Is an avid bike commuter, even when the weather turns cold or rainy, sporting a collection of colorful rain jackets.
+- Prefers gradual adoption—starting with non-critical tasks
+- Practices juggling stress balls during breaks to stay focused on set.
+- Balancing creative vision with client expectations and budget constraints
+- Has a habit of wearing a lucky hat when scouting locations for commercials.
+- Follows recommendations from technical leads for equipment or software upgrades
+- Loves to incorporate quirky hand-drawn signage on sets as little easter eggs.
+- Uses AI as a brainstorming partner but maintains control over final decisions
+- Understands basic concepts such as large language models, generative AI, and natural language processing
+- Spent the majority of career in commercial and advertising production
+- Prefers AI automation for repetitive, data-driven, or research-intensive activities
+- Specializes in advertising and commercial production
+- More likely to adopt tech recommended by trusted peers or visible in industry trends
+- Moderate trust in AI-generated suggestions for administrative and research tasks
+- Views AI primarily as an assistant for idea generation and administrative support
+- Supports a hybrid workflow where AI augments but does not replace human judgment
+- Stays updated on new tools through industry events and peer recommendations
+- Low trust in AI for final creative direction or talent management
+- Exercises high autonomy in creative and logistical decisions
+- Has over 10 years of experience as a producer and director
+- Volunteers annually at a local community theater to help with props and stage setup.
+- Enjoys visiting local farmers' markets and bringing fresh flowers to decorate the set office.
+- Has a habit of collecting old cinema tickets and framing the most memorable ones in the office.
+- Believes AI enhances efficiency but creative vision and leadership remain paramount
+- Inefficiencies caused by last-minute changes to scripts or shoot plans
+- Has an extensive collection of quirky coffee mugs that never seem to repeat on film sets.
+- Enjoys learning to play new musical instruments and took up the ukulele during the pandemic.
+- Expects increased automation in administrative and research tasks
+- Foresees a shift towards hybrid creative teams where AI augments but doesn’t replace human input
+- Balances client requirements with production constraints
+- Hosts an annual chili cook-off among the production crew during winter breaks.
+- Tests generative AI platforms for visual inspiration and mood boards
+- Willing to invest personal time in learning tools with clear professional benefits
+- Concerned about data privacy and copyright issues with AI-generated content
+- Aware of AI applications in content generation, editing, and research
+- Developing proficiency in prompt engineering for LLMs
+- Familiar with integrating new digital solutions into established workflows
+- Desires AI-driven assistants for organizing and summarizing complex email threads
+- Invest in pilot projects to test promising AI solutions before wide-scale adoption
+- Named their desk plant 'Gerald' and gives it a pep talk whenever a deadline approaches.
+- Would value an AI-based script breakdown tool that integrates with current workflow
+- Has a pet goldfish named 'Cinephile' that inspires patience and calm during intense projects.
+- Recognizes some administrative and research tasks may be automated
+- Attends occasional webinars or workshops on production technology
+- Sees technical skills in AI tool usage becoming increasingly important
+- Anticipates new creative opportunities emerging from advanced AI content generation
+- Considers high automation threatening if it encroaches on creative or relationship-driven aspects
+- Makes key decisions regarding production design and execution
+- Targets clients in consumer goods, retail, and services sectors
+- Prefers independent exploration of AI tools for creative tasks
+- Employs scriptwriting software for script breakdowns
+- Supports ethical guidelines to prevent misuse of AI in media production
+- Manual transfer of storyboards from paper to digital formats can be time-consuming
+- Believes AI will streamline many aspects of media production and advertising
+- Relies on a sketch pad and pencil for initial storyboarding
+- Shoot day preparation and oversight: ~25%
+- Collects quirky fridge magnets from every city visited for work or vacation.
+- Keeps a vintage Polaroid camera on their desk and takes a photo of the team every Friday afternoon.
+- Sees value in learning tools that streamline creative or administrative processes
+- Collects movie posters from international film festivals they've attended.
+- Coordinating shoot schedules and call sheets
+- Can recite entire scenes from classic 80s movies by heart, often quoting them for comic relief.
+- Typically operates within small to mid-sized production companies
+- Most productive and effective when working on tasks that align with creative strengths
+- Taking on responsibility for integrating new AI tools into team processes
+- Collaborates closely with advertising agencies and creative teams
+- Holds a senior-level position with significant creative authority
+- Is fascinated by origami and decorates their office space with paper cranes and flowers.
+- Scriptwriting software may not always sync seamlessly with production management tools
+- Enjoyment increases when collaborating with skilled, experienced teams
+- Keeps a vintage typewriter in the office just to type out fun memos for the crew.
+- Crew and talent coordination: ~20%

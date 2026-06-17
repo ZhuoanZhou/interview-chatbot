@@ -1,0 +1,492 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master\u2019s degree, likely in clinical research, public health, or a related biomedical field",
+          "Completed foundational coursework in research methodologies, biostatistics, and healthcare ethics",
+          "Attended specialized workshops on Good Clinical Practice (GCP) and regulatory compliance",
+          "Participates in continuing education to maintain certifications and stay current with industry standards"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Clinical Research Coordinator",
+          "Coordinates all phases of clinical trials, from patient recruitment to data management",
+          "Serves as the primary liaison between investigators, sponsors, and study participants",
+          "Oversees compliance with study protocols and regulatory requirements"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the healthcare and life sciences sector",
+          "Specifically involved in clinical research and medical trials",
+          "Operates at the intersection of clinical care, research, and regulatory oversight"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed by a mid-sized academic medical center or research hospital",
+          "Works within a multidisciplinary clinical research team (10-30 people)",
+          "Collaborates with both in-house and external partners (e.g., CROs, sponsors)"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Organization conducts sponsored and investigator-initiated clinical trials",
+          "Focuses on pharmaceutical, device, and therapeutic studies",
+          "Serves both academic and commercial research sponsors"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has over 10 years of experience as a Clinical Research Coordinator",
+          "Began career in clinical research coordination in early 2010s or before",
+          "Has witnessed significant changes in research regulations and technology adoption over time"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds a senior-level coordinator position",
+          "Often mentors junior coordinators and provides input on protocol feasibility",
+          "Recognized as a subject matter expert within the research team"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Reviews AI-generated trial updates and patient eligibility alerts each morning",
+          "Screens, recruits, and consents patients using digital platforms and eConsent tools",
+          "Monitors patient safety, adverse events, and protocol adherence via AI-powered dashboards",
+          "Manages regulatory documentation and data entry with automated reporting tools",
+          "Analyzes AI-generated reports to plan upcoming study tasks and optimize workflow"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends about 30% of time on patient screening and enrollment activities",
+          "Devotes 25% of time to regulatory compliance and documentation tasks",
+          "Allocates 20% to patient safety monitoring and follow-up",
+          "Uses the remaining time for data analysis, team meetings, and process optimization"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Exercises significant autonomy in day-to-day trial operations and scheduling",
+          "Makes independent decisions on patient eligibility, protocol adherence, and safety reporting",
+          "Collaborates with principal investigators for protocol deviations or complex cases",
+          "Responsible for escalating critical safety concerns to medical and regulatory teams"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Patient interaction and obtaining informed consent, especially with digital tools, are routine and comfortable",
+          "Data entry and regulatory documentation are well-practiced due to years of experience",
+          "Coordinating team meetings and communicating study updates come naturally"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Managing protocol amendments and ensuring full compliance with changing regulations is complex",
+          "Handling unexpected adverse events and patient safety escalations requires careful judgment",
+          "Integrating new AI tools with legacy systems sometimes presents technical challenges"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Routine data entry, especially for patient visit logs and regulatory forms, is highly repetitive",
+          "Preliminary patient eligibility screening based on EHR data is data-heavy and well-suited for AI automation",
+          "Automated adverse event tracking and reporting reduces manual workload"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys direct patient engagement and problem-solving during trial conduct",
+          "Finds protocol optimization and process improvement with AI tools intellectually stimulating",
+          "Considers repetitive paperwork and redundant documentation as tedious"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Data entry errors and double documentation between different systems waste time",
+          "Delays in EHR data extraction or integration with trial management software can slow workflows",
+          "Manual follow-up for patient adherence and visit scheduling is inefficient without automation"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Tasks that align with expertise, such as protocol management, are both enjoyable and productive",
+          "High skill level in regulatory tasks leads to fewer errors and higher efficiency",
+          "Monotonous or low-skill tasks tend to lower engagement and overall productivity"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open to learning new technologies if they offer clear workflow improvements",
+          "Approaches new tools with curiosity but prefers well-documented training resources",
+          "Values practical, hands-on learning over theoretical instruction"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Considers self reasonably adaptable, especially with structured onboarding",
+          "Leverages prior experience to quickly understand new clinical trial platforms",
+          "May require additional time for complex system integrations or major workflow shifts"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to invest time in training when the technology is directly relevant to daily responsibilities",
+          "Prefers modular, on-demand training over lengthy classroom sessions",
+          "Balances time spent on training with ongoing trial commitments"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by potential for increased trial efficiency and data quality",
+          "High workload during study start-up phases can limit time available for training",
+          "Skeptical of adopting tools that lack demonstrated value or user support"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Positive peer experiences with a tool increase willingness to adopt",
+          "Management support and clear expectations facilitate smoother adoption",
+          "Peer-led training sessions are particularly effective for skill uptake"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses clinical trial management systems (CTMS) such as Medidata or REDCap daily",
+          "Accesses electronic health records (EHR) systems like Epic for patient data",
+          "Utilizes AI-powered patient screening and eConsent platforms",
+          "Employs secure cloud storage (e.g., Box, OneDrive) for regulatory documents"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on spreadsheets (Excel) for tracking visit schedules and data reconciliation",
+          "Uses email and secure messaging for team and sponsor communications",
+          "Maintains paper-based backup for signed consent forms when required"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Experienced with EDC (Electronic Data Capture) platforms such as OpenClinica",
+          "Familiar with regulatory submission portals (e.g., IRBNet, FDA\u2019s eCTD)",
+          "Comfortable with digital signatures and remote monitoring tools"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces challenges integrating AI tools with legacy CTMS systems",
+          "Data transfer between EHR and study databases can require manual reconciliation",
+          "Limited interoperability between sponsor-specific software and institutional platforms"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic AI/ML terminology such as predictive modeling and natural language processing",
+          "Recognizes the distinction between rule-based automation and machine learning-driven insights",
+          "Has attended introductory webinars on AI in clinical research"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses AI-powered patient prescreening tools (e.g., Deep 6 AI, IBM Watson Health)",
+          "Interacts with LLM-based digital assistants for regulatory query drafting",
+          "Employs AI modules integrated into CTMS for automated adverse event detection"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses AI tools occasionally, primarily for patient eligibility screening and report generation",
+          "Employs LLMs to draft informed consent language and regulatory responses",
+          "Relies on AI alerts for patient safety monitoring and protocol deviation detection"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI-based patient prescreening flagged previously overlooked eligible candidates, improving recruitment rates",
+          "An LLM-generated regulatory response needed significant manual revision due to lack of context sensitivity",
+          "Learned to always verify AI-generated data for accuracy before submission"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Has access to periodic workshops and online training modules for new AI tools",
+          "Peers often share tips and best practices through internal forums or chat groups",
+          "Onboarding for AI software is sometimes supplemented with vendor-led webinars"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI for complex tasks to maintain oversight",
+          "Uses AI independently for routine data analysis and report generation",
+          "Values the option to override or refine AI-generated outputs"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant that augments but does not replace core responsibilities",
+          "Occasionally treats AI as a co-worker for routine regulatory documentation",
+          "Relies on AI-generated suggestions but retains final decision authority"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to adopting new AI-driven workflows when they streamline documentation or patient tracking",
+          "Expects clear demonstration of efficiency gains before fully committing to new workflows",
+          "Prefers pilot programs before full-scale implementation"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Favors conversational interfaces for drafting documents or resolving queries",
+          "Uses command-based interfaces for structured data entry and report requests",
+          "Appreciates user interfaces that allow easy switching between modes"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many tasks, such as assessing eligibility nuances, require clinical judgment not easily captured by AI",
+          "Regulatory submissions often demand experience-based interpretation of guidelines",
+          "Patient interactions benefit from empathetic communication developed over years of practice"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI-generated outputs for initial screening and routine documentation",
+          "Maintains healthy skepticism for critical safety or regulatory decisions, always reviewing AI recommendations",
+          "Trust increases when AI tools provide transparent reasoning or audit trails"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI automation for repetitive, data-driven tasks such as prescreening and basic reporting",
+          "Believes human oversight is essential for consent, safety adjudication, and protocol deviation management",
+          "Supports hybrid workflows where AI prepares drafts and humans review/approve"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "High automation is acceptable when robust validation and manual review checkpoints are in place",
+          "Feels automation is threatening if it bypasses regulatory or ethical safeguards",
+          "Prefers automation to be phased in with clear user control options"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the value of analytical and oversight skills",
+          "Routine data entry skills are less critical due to automation",
+          "Communication and regulatory expertise remain essential"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing proficiency in interpreting AI-generated insights and reports",
+          "Learning to validate and audit AI-driven processes for compliance",
+          "Participating in user feedback for tool development and optimization"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mildly concerned about AI replacing repetitive administrative tasks",
+          "Confident that core coordinator responsibilities requiring human judgment are secure",
+          "Monitors industry trends to stay ahead of potential role changes"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All AI-generated reports are subject to manual review before submission",
+          "Can override AI-recommended actions in patient safety or regulatory matters",
+          "Organization mandates regular audits of AI decision logs"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Team policies increasingly encourage trial adoption of AI tools for routine tasks",
+          "Company offers guidelines for responsible AI use and data privacy",
+          "Feedback loops have been established to refine AI workflows based on user experience"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Sees AI as a transformative force in clinical research, improving trial efficiency and data quality",
+          "Believes AI will enable more personalized and accessible healthcare",
+          "Acknowledges risks of bias and over-reliance on automation in sensitive areas"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Prioritizes patient privacy and informed consent in all AI applications",
+          "Worries about potential for algorithmic bias in patient screening tools",
+          "Believes transparent validation and human oversight are ethical necessities"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would benefit from AI that integrates seamlessly with all EHR and CTMS platforms",
+          "Desires tools with better transparency and explainability of AI decisions",
+          "Seeks improved predictive analytics for patient adherence and dropout risk"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Anticipates a shift toward more oversight and quality management roles",
+          "Expects routine administrative tasks to be almost entirely automated",
+          "Foresees increased collaboration with data scientists and AI specialists"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement structured pilot programs for new AI tools with user feedback cycles",
+          "Ensure all AI systems are validated for accuracy, fairness, and regulatory compliance",
+          "Provide ongoing training and support for staff adapting to AI-driven workflows",
+          "Develop clear policies for data privacy and ethical AI use"
+        ]
+      }
+    ]
+  }
+]

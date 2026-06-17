@@ -1,0 +1,580 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds an Associate Degree from a community college",
+          "Completed degree in Digital Media Production",
+          "Took elective courses in photography, video editing, and communications",
+          "Attended several industry workshops on photo and video post-production",
+          "Participated in online courses to stay current with editing software"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Senior Editor and Post-Production Manager",
+          "Role includes editing photos and videos for client projects",
+          "Manages backend operations such as scheduling, invoicing, and website maintenance",
+          "Acts as main point of contact for post-production workflow questions",
+          "Occasionally supervises junior editors on larger projects"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the media production sector",
+          "Focuses on digital content creation and post-production",
+          "Serves clients in advertising, marketing, and creative industries",
+          "Company specializes in commercial and promotional media",
+          "Industry is rapidly evolving due to digital and AI advancements"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a small media production company",
+          "Team consists of fewer than 15 employees",
+          "Collaborative, informal, and flexible work environment",
+          "Direct communication with company leadership is common",
+          "Employees often take on multiple roles due to small team size"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Company provides media editing and post-production services",
+          "Primary clients are small businesses, agencies, and independent creators",
+          "Focuses on delivering high-quality digital assets for branding and marketing",
+          "Offers both photo and video post-production services",
+          "Engages in both B2B and occasional B2C projects"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has over 10 years of experience in editing and post-production",
+          "Joined current company approximately 8 years ago",
+          "Previously held similar roles in other small media firms",
+          "Experience spans both hands-on editing and operational management",
+          "Seen significant shifts in tools and workflows over career"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds a senior position within the company",
+          "Acts as a subject matter expert for post-production processes",
+          "Mentors junior staff and interns on editing techniques",
+          "Trusted to make independent decisions on client deliverables",
+          "Involved in high-level decisions about tool adoption and workflow"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Performs photo editing using Adobe Photoshop and Lightroom",
+          "Edits video content with Adobe Premiere Pro and After Effects",
+          "Manages website content and updates using AI-generated copy",
+          "Oversees file management and backup processes for media projects",
+          "Handles backend business operations such as invoicing and scheduling"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends about 60% of time on photo and video post-production",
+          "Allocates 20% of time to backend business management tasks",
+          "Dedicates 10% of time to website maintenance and content updates",
+          "Devotes 5% to team coordination and mentoring",
+          "Remaining 5% is spent researching new tools and technologies"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has high autonomy in managing day-to-day workflow",
+          "Makes independent decisions on editing style and quality control",
+          "Selects tools and plugins best suited for each project",
+          "Responsible for implementing process improvements",
+          "Consults with leadership primarily on major purchases or strategic changes"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Photo retouching and color correction are second nature after years of practice",
+          "Organizing and archiving project files comes easily",
+          "Basic website updates and copy edits are straightforward",
+          "Routine video trimming and sequencing is efficient",
+          "Delegating simple tasks to AI tools when appropriate"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Advanced video compositing and special effects can be time-consuming",
+          "Managing simultaneous deadlines across multiple projects is challenging",
+          "Ensuring color consistency across devices and formats requires expertise",
+          "Troubleshooting integration issues between editing software platforms",
+          "Adapting AI-generated content to meet nuanced brand voice standards"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Batch resizing and renaming image files",
+          "Transcribing and subtitling video content",
+          "Generating initial website copy drafts using AI",
+          "Routine metadata entry for media organization",
+          "Basic noise reduction or cropping in large photo sets"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Creative editing and experimenting with new visual effects is highly engaging",
+          "Collaborating with clients on project vision is rewarding",
+          "Routine file management and invoicing is tedious",
+          "Repetitive batch processing of images can be dull",
+          "Finalizing a polished project for client delivery is satisfying"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Software crashes during large file exports",
+          "Manual metadata entry slows down workflow",
+          "Occasional compatibility issues between editing tools",
+          "AI-generated content often requires substantial manual revision",
+          "Slow upload/download speeds for large video files"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Enjoyment is highest when working on challenging, creative projects that use full skillset",
+          "Productivity is boosted by familiarity with tools and streamlined workflows",
+          "Tedious tasks, while easy, can decrease engagement and overall motivation",
+          "Learning new techniques or tools can be enjoyable if there's a clear productivity payoff",
+          "Skill mastery leads to faster, higher-quality output and greater job satisfaction"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally proactive about exploring new editing tools and plugins",
+          "Sees value in adopting technology that improves efficiency or quality",
+          "Open to trying AI features as they become more reliable",
+          "Prefers hands-on experimentation over formal training",
+          "Skeptical of hype, but willing to test new solutions"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to updates in familiar software like Photoshop or Premiere",
+          "Occasionally finds steep learning curves with entirely new platforms",
+          "Confidence comes from years of adapting to evolving media tech",
+          "Can self-teach most new features through online resources",
+          "Tends to pilot new tools before full adoption"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to spend several hours per month on tutorials or webinars",
+          "Prioritizes learning tools most relevant to current workflow",
+          "Less likely to invest in training for tools with unclear ROI",
+          "Occasionally attends industry conferences for hands-on demos",
+          "Prefers brief, targeted training over lengthy courses"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by desire to stay competitive and efficient",
+          "Time constraints from project deadlines can delay adoption",
+          "Will only invest in learning tech that directly improves output or client satisfaction",
+          "Reluctant to adopt tools that disrupt existing workflows without clear benefit",
+          "Peer recommendations can increase motivation to learn new tools"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often share tips about new editing plugins or AI features",
+          "Management encourages trial of tools that could improve productivity",
+          "Open discussions in team meetings about tool adoption",
+          "Occasional pressure to keep up with industry standards",
+          "Collaborative evaluation of new software before company-wide rollout"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Adobe Photoshop for photo editing and retouching",
+          "Adobe Premiere Pro for video editing",
+          "Adobe Lightroom for organizing and batch processing photos",
+          "Occasional use of AI-powered website builders like Wix or Squarespace",
+          "Google Workspace for communication and file sharing"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Manual color grading using professional monitors",
+          "External hard drives and RAID systems for file backup",
+          "DSLR and mirrorless cameras for capturing original content",
+          "Traditional project management tools (e.g., Trello, Asana)",
+          "Invoicing and scheduling using QuickBooks or similar software"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Extensive experience with Adobe Creative Cloud suite",
+          "Familiar with DaVinci Resolve as an alternative for video grading",
+          "Understands basics of Final Cut Pro, though not primary tool",
+          "Has kept up with industry shifts towards cloud-based editing platforms",
+          "Knows common file formats and codecs used in the industry"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasional file compatibility issues between Adobe and non-Adobe software",
+          "Metadata sometimes lost when transferring files across platforms",
+          "Cloud storage sync delays can create workflow bottlenecks",
+          "AI features in Photoshop sometimes conflict with manual edits",
+          "Manual re-exporting needed when moving projects between editing suites"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic concepts like generative AI, LLMs, and neural networks",
+          "Familiar with AI terms such as 'prompt', 'model', and 'fine-tuning'",
+          "Knows the difference between rule-based and learning-based automation",
+          "Keeps up with news about AI advancements in the creative industry",
+          "Regularly reads online discussions about practical AI applications"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses OpenAI's ChatGPT for generating website copy and brainstorming",
+          "Has used Adobe Photoshop's Generative Fill feature for image editing",
+          "Occasionally tries Jasper or Copy.ai for copywriting tasks",
+          "Tests AI-powered image enhancement tools like Topaz Labs",
+          "Explored Canva's AI tools for rapid draft designs"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses AI tools weekly for drafting website content",
+          "Applies AI in Photoshop for quick image clean-up and content-aware fills",
+          "Employs LLMs to generate client email drafts or social media posts",
+          "Leverages AI for initial creative brainstorming sessions",
+          "Evaluated AI-driven video upscaling tools, but not yet in regular workflow"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used ChatGPT to generate SEO-friendly meta descriptions for web pages",
+          "AI image editing in Photoshop occasionally produces unrealistic results requiring manual fixes",
+          "Some AI-generated copy lacks the brand nuance needed for client sites",
+          "AI can save significant time on first drafts, but final edits are always necessary",
+          "AI-driven video upscaling struggled with complex scenes, leading to manual intervention"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company lacks formal AI training, relies on self-directed learning",
+          "Peers often share articles and tutorials about new AI features",
+          "Occasionally attends free online webinars about creative AI tools",
+          "Team discusses AI tool tips during informal meetings",
+          "No official documentation or process for AI tool evaluation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers to use AI independently for drafting and then review results manually",
+          "Engages in step-by-step collaboration with AI for complex or creative tasks",
+          "Often iterates prompts to refine AI outputs",
+          "Sometimes consults AI for specific questions mid-workflow",
+          "Combines AI-generated suggestions with personal expertise"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI as an assistant for routine or repetitive tasks",
+          "Relies on AI as a brainstorming partner for creative blocks",
+          "Treats AI as a tool, not a decision-maker for final outputs",
+          "Uses AI as a co-worker for first drafts but retains editorial control",
+          "Prefers advisory input from AI rather than full task automation"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to experimenting with new AI workflows if they show productivity gains",
+          "Cautious about over-relying on AI for critical client work",
+          "Willing to adapt workflow to integrate promising AI features",
+          "Prefers incremental adoption over radical workflow changes",
+          "Open to AI-driven automation for repetitive backend tasks"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and copy generation",
+          "Uses command-based interfaces for predictable, batch editing tasks",
+          "Finds natural language prompts more intuitive for content creation",
+          "Switches interface style based on task complexity",
+          "Appreciates flexibility to choose between interface modes"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many editing decisions draw on years of industry experience and aesthetic judgment",
+          "Client branding and voice require nuanced understanding not easily automated",
+          "Color grading and image selection benefit from personal style and intuition",
+          "AI tools are helpful for drafts but not yet a substitute for deep domain expertise",
+          "Specialized knowledge is critical for troubleshooting and quality assurance"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for generating initial drafts and routine edits",
+          "Always reviews and revises AI outputs before client delivery",
+          "Does not rely on AI for final quality control or client-facing materials",
+          "Skeptical of AI for highly creative or subjective tasks",
+          "Monitors AI output closely for errors or off-brand content"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive or time-consuming tasks, with human oversight",
+          "Believes creative and final approval stages should remain human-driven",
+          "Supports hybrid workflows where AI accelerates drafts, but humans refine and approve",
+          "Favors automation for backend and admin tasks, less so for creative editing",
+          "Sees value in human-AI collaboration rather than full replacement"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for administrative, low-risk tasks",
+          "Wary of automating client communication or creative decisions",
+          "Sees risk in automating tasks that require brand or client-specific knowledge",
+          "Open to automation if override and manual review options are available",
+          "High automation is threatening only when it reduces control or quality"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances productivity but doesn't replace creative judgment",
+          "Routine editing skills may become less important as automation improves",
+          "Sees increased value in specialized, high-touch editing and client management skills",
+          "AI may reduce time needed for basic tasks, freeing up bandwidth for complex projects",
+          "Continual learning is now more important to stay relevant"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Prompt engineering for AI tools is becoming a key skill",
+          "Ability to critically evaluate AI outputs is increasingly important",
+          "Staying updated on new AI features and best practices is now part of the job",
+          "Training peers or clients on AI-assisted workflows is a new responsibility",
+          "Understanding AI-driven copyright and ethical issues is relevant"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mildly concerned about automation of basic photo and video edits",
+          "Believes core creative and client-facing work is less likely to be replaced",
+          "Sees opportunities to shift focus towards higher-value, less automatable work",
+          "Watches developments in AI closely to anticipate future impacts",
+          "Feels job security is linked to ability to adapt and upskill"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Manually reviews all AI-generated content before final use",
+          "Editing software allows easy reversion to pre-AI states",
+          "Maintains backup copies of original files for quality assurance",
+          "AI-generated website content is always edited before publishing",
+          "Prefers tools that provide clear options for manual intervention"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company is gradually encouraging more use of AI tools",
+          "No formal AI adoption policy yet, but open discussion is common",
+          "Team supports responsible experimentation with new AI features",
+          "Policies emphasize human review of all client-facing outputs",
+          "Ongoing conversations about ethical and quality standards for AI use"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Sees AI as a major driver of efficiency and innovation in media production",
+          "Believes AI will reshape creative workflows industry-wide",
+          "Recognizes potential for job displacement in lower-skill editing roles",
+          "Hopes AI will democratize access to professional-quality content creation",
+          "Concerned about the need for ethical guidelines and oversight"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes human oversight is necessary to prevent biased or inappropriate output",
+          "Worries about misuse of generative AI for plagiarism or deepfakes",
+          "Supports transparency about when AI is used in content creation",
+          "Advocates for clear consent and copyright policies in AI-assisted work",
+          "Values continuous review of AI's ethical implications"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires more nuanced AI tools that better match brand voice",
+          "Wants AI editing features that handle complex retouching with minimal artifacts",
+          "Seeks integrated AI project management assistants",
+          "Looks for smarter file organization and metadata tagging AI",
+          "Would benefit from AI that can learn and mimic personal editing style"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects to spend less time on repetitive editing and more on creative direction",
+          "Anticipates new roles focused on AI oversight and quality control",
+          "Believes client expectations for turnaround and customization will increase",
+          "Sees hybrid human-AI teams becoming standard in post-production",
+          "Foresees need for ongoing upskilling to stay competitive"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement structured training on new AI tools for all staff",
+          "Develop clear guidelines for ethical and responsible AI use",
+          "Establish regular reviews of AI tool performance and impact",
+          "Encourage experimentation while maintaining manual review safeguards",
+          "Allocate budget for testing and integrating emerging AI technologies"
+        ]
+      }
+    ]
+  }
+]

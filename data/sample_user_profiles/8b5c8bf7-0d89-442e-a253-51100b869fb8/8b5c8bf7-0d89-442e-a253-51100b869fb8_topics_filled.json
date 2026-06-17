@@ -1,0 +1,503 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master\u2019s Degree in Medical Laboratory Science",
+          "Completed undergraduate studies in Biomedical Sciences before pursuing a master's",
+          "Has participated in continuing education courses on healthcare compliance and clinical workflow optimization",
+          "Attended workshops on healthcare project management and Lean Six Sigma methodologies"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Works as a Medical Consulting Manager overseeing clinical improvement projects",
+          "Leads a multidisciplinary team of consultants and analysts",
+          "Responsible for project delivery, client relationships, and process improvement in healthcare organizations",
+          "Acts as primary point of contact between client stakeholders and consulting team"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Operates within the healthcare consulting sector",
+          "Specializes in clinical operations and workflow optimization for hospitals and clinics",
+          "Consults for organizations ranging from private medical practices to large healthcare systems"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works at a mid-sized consulting firm with approximately 100-200 employees",
+          "Company culture emphasizes teamwork, innovation, and continuous improvement",
+          "Operates in a hybrid work environment, combining office-based and remote work"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Firm serves the healthcare industry, focusing on operational and clinical consulting",
+          "Market segment includes hospitals, clinics, and integrated health networks",
+          "Services provided range from workflow redesign to regulatory compliance consulting"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 6-10 years of experience in the healthcare consulting field",
+          "Spent the past 4 years in a managerial role overseeing project teams",
+          "Progressed from entry-level consultant to management within the same organization"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Currently holds a mid-to-senior management position",
+          "Supervises a team of 8-12 consultants and analysts",
+          "Regularly interacts with senior leadership and client executives",
+          "Involved in strategic planning and business development discussions"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Oversees multiple consulting projects focused on clinical workflow and efficiency",
+          "Leads daily team stand-up meetings to track progress and address issues",
+          "Meets regularly with clients to gather requirements and present updates",
+          "Reviews and approves project deliverables before client submission",
+          "Mentors team members and provides feedback on performance"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends 30-40% of work time on team management and project oversight",
+          "Dedicates 25-30% to direct client interactions including meetings and reporting",
+          "Allocates 15-20% to strategic planning and process improvement initiatives",
+          "Reserves 10-15% for financial oversight and budgeting tasks"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has full autonomy in day-to-day project management and team leadership",
+          "Makes independent decisions on resource allocation and project timelines",
+          "Consults with senior management for major strategic or financial decisions",
+          "Empowered to negotiate project scope and deliverables with clients"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Facilitating team meetings and delegating tasks comes naturally",
+          "Providing feedback and mentoring junior staff is a core strength",
+          "Tracking project progress and updating status in Asana/Trello is routine",
+          "Communicating project updates to clients is handled confidently"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Balancing client demands with internal resource constraints is often complex",
+          "Navigating regulatory compliance requirements for diverse healthcare clients",
+          "Resolving conflicts within the team or with clients requires careful mediation",
+          "Managing unexpected scope changes or project delays can be challenging"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Compiling and formatting regular project status reports is repetitive",
+          "Aggregating and cleaning client data for analysis is data-heavy",
+          "Scheduling meetings and sending reminders could be automated",
+          "Budget tracking and invoice generation involve repetitive data entry"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys brainstorming process improvements and new workflow solutions",
+          "Finds client presentations and successful project completions rewarding",
+          "Considers administrative paperwork and document formatting tedious",
+          "Repetitive budget reconciliation is less engaging"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual data entry for reports is time-consuming and error-prone",
+          "Switching between multiple platforms (Slack, Teams, Asana, Google Docs) can interrupt workflow",
+          "Client feedback cycles can be slow, delaying project progress",
+          "Document version control issues occasionally cause confusion"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Highest productivity is achieved when working on strategic planning and process redesign",
+          "Tasks that match expertise, such as mentoring or project oversight, feel both easy and enjoyable",
+          "Administrative or highly repetitive tasks lower motivation and productivity",
+          "Learning new methods or tools boosts both engagement and output"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Enthusiastic about adopting new technology that improves efficiency",
+          "Views tech learning as an essential part of staying competitive in consulting",
+          "Open to experimenting with software that streamlines workflows",
+          "Appreciates hands-on, practical learning experiences"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to updates in project management and communication tools",
+          "Often serves as an early adopter or tester of new internal platforms",
+          "Comfortable switching between multiple digital ecosystems (Google Workspace, Microsoft Office, etc.)"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Regularly sets aside time for self-directed learning and tutorials",
+          "Participates in company-provided training sessions when available",
+          "Sees value in investing time upfront to master tools that save time later"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by efficiency gains and the potential for process automation",
+          "Workload spikes can delay non-essential tech learning",
+          "Most engaged when new technology directly addresses current pain points",
+          "Occasionally encounters resistance if tech seems unrelated to core responsibilities"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers' positive experiences with new tools increase willingness to try them",
+          "Management endorsement and training availability accelerate adoption",
+          "Early adopters within the team often provide informal guidance to others"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Asana and Trello daily for project management and task tracking",
+          "Relies on Slack for quick team communication and updates",
+          "Conducts virtual meetings and shares documents through Microsoft Teams",
+          "Collaborates and manages documents via Google Docs, Sheets, and Drive"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Microsoft Office Suite (Word, Excel) is used for formal documentation and reporting",
+          "Google Workspace is central for collaborative document creation and resource sharing",
+          "Calendar apps (Google Calendar, Outlook) are essential for scheduling"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Well-versed in project management platforms commonly used in healthcare consulting",
+          "Familiar with electronic health record (EHR) systems through client projects",
+          "Understands data privacy tools and compliance software relevant to healthcare"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces challenges syncing data between Asana, Slack, and Microsoft Teams",
+          "Document sharing between Google Workspace and Microsoft Office can result in formatting issues",
+          "Meeting invites sometimes get lost between Outlook and Google Calendar platforms"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Has a strong theoretical understanding of AI concepts such as machine learning and natural language processing",
+          "Regularly reads industry articles on AI trends and applications in healthcare",
+          "Can explain key terms like predictive analytics, deep learning, and algorithm bias"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses language models (like ChatGPT) for drafting documents and brainstorming",
+          "Has experimented with Grammarly\u2019s AI writing assistant for quality control",
+          "Occasionally leverages Google Workspace\u2019s AI features for document suggestions"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Consults LLMs regularly for summarizing research or generating first drafts",
+          "Uses AI tools weekly for grammar checks and improving document clarity",
+          "Applies AI-driven data visualization features in Google Sheets for client reports"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used ChatGPT to quickly draft a proposal outline that was later customized",
+          "Found Grammarly\u2019s AI suggestions occasionally misinterpret clinical terminology, requiring manual correction",
+          "AI-generated summaries sometimes omit critical regulatory details, reinforcing the need for human review",
+          "Considers AI most helpful for initial drafts, less so for nuanced or highly specialized content"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Organization encourages informal knowledge sharing about AI tool usage",
+          "No formal AI training program is in place yet",
+          "Peers often share tips and best practices for leveraging LLMs in document work"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers to use AI tools independently for research and document drafting",
+          "Occasionally collaborates with AI step-by-step for complex brainstorming tasks",
+          "Finds independent use of LLMs more efficient for quick information synthesis"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI as an assistant to streamline routine documentation tasks",
+          "Uses AI as an advisor for exploring new process improvement ideas",
+          "Relies on AI as a co-worker for data analysis, but always validates outputs before use"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to integrating more AI automation into daily processes, especially for repetitive tasks",
+          "Actively seeks out new AI features that could improve project management efficiency",
+          "Encourages team members to experiment with AI workflows and share learnings"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and complex querying",
+          "Uses command-based features for specific, repetitive tasks (e.g., data formatting)",
+          "Finds conversational AIs more intuitive for multi-step problem solving"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many consulting recommendations require deep understanding of clinical processes",
+          "Healthcare regulations and compliance mandates necessitate specialized knowledge",
+          "AI tools are used to augment, not replace, domain expertise in decision-making",
+          "Final deliverables always undergo expert review to ensure accuracy"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for drafting and preliminary data analysis, but not for final clinical recommendations",
+          "Treats AI suggestions as starting points, always verifying against domain standards",
+          "Low trust in AI for nuanced regulatory interpretations"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers human-led analysis for complex or client-facing outputs",
+          "Supports 50-70% automation for repetitive reporting and document formatting",
+          "Maintains manual oversight for any client communication or decision-critical documents"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "High automation is acceptable for internal reporting and data aggregation tasks",
+          "Considers automation threatening if it introduces risk to regulatory compliance or client trust",
+          "Requires robust audit trails and override options for any automated process"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the need for domain expertise and critical thinking",
+          "Views technical proficiency as increasingly important for future consulting roles",
+          "Routine administrative skills are becoming less critical due to automation"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing skills in prompt engineering and AI tool configuration",
+          "Increased responsibility for overseeing AI-driven processes and quality assurance",
+          "Requires upskilling in data interpretation and ethical use of AI outputs"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Low concern about AI replacing core consulting or leadership responsibilities",
+          "Acknowledges that repetitive documentation and reporting roles may be reduced",
+          "Sees future roles shifting to focus more on client advisory and strategic oversight"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Manual review and edit steps are built into all AI-assisted deliverable workflows",
+          "Retains final approval authority for all project outputs, regardless of automation",
+          "Company policy requires human sign-off on any client-facing documents generated with AI"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company is gradually formalizing guidelines for ethical AI use",
+          "Encourages responsible experimentation with AI tools while maintaining quality standards",
+          "Team discussions increasingly focus on balancing innovation with compliance"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will drive significant efficiency gains in healthcare operations",
+          "Expects AI to improve patient outcomes through better data analysis",
+          "Cautious about AI's potential to widen existing knowledge gaps or introduce bias"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Emphasizes the need for transparency in AI-driven decisions",
+          "Advocates for human oversight to mitigate algorithmic bias",
+          "Worries about privacy and data security risks associated with AI adoption"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires seamless integration of AI across all project management platforms",
+          "Would benefit from AI tools capable of real-time regulatory compliance checks",
+          "Seeks more customizable AI assistants for healthcare-specific workflows"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Anticipates a shift toward higher-level strategic consulting and less manual reporting",
+          "Expects increased collaboration between human experts and AI systems",
+          "Foresees new roles emerging around AI oversight and process validation"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement structured training on AI ethics and best practices",
+          "Develop clear guidelines for AI-assisted client deliverables",
+          "Invest in robust data security and audit controls for AI workflows",
+          "Encourage cross-functional pilots of new AI tools before full deployment"
+        ]
+      }
+    ]
+  }
+]

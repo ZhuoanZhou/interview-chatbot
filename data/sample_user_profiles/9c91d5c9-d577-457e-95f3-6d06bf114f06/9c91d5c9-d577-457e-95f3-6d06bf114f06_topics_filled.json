@@ -1,0 +1,501 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s Degree in Environmental Engineering or Environmental Science",
+          "Completed coursework in water treatment, waste management, and environmental impact assessment",
+          "Participated in laboratory-based training on environmental sampling and analysis",
+          "Attended workshops on GIS and environmental modeling during undergraduate studies"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Environmental Engineering Technologist",
+          "Responsible for designing systems to mitigate air and water pollution",
+          "Conducts environmental impact assessments and develops sustainable solutions",
+          "Collaborates with regulatory bodies, industry partners, and local communities"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the environmental engineering sector",
+          "Industry focus is on environmental protection and public health",
+          "Projects often involve collaboration with public sector agencies and private industry"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-sized environmental consulting or engineering firm (50-200 employees)",
+          "Workplace culture encourages collaboration and knowledge sharing",
+          "Office environment is project-based with a mix of fieldwork and desk-based tasks"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Firm specializes in environmental consulting and engineering services",
+          "Clients include government agencies, municipalities, and industrial companies",
+          "Projects span water treatment, waste management, and environmental compliance"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 3-5 years of experience in the environmental engineering field",
+          "Joined the current company shortly after completing undergraduate studies",
+          "Experience includes both technical project work and stakeholder engagement"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Occupies an early-career to intermediate technologist position",
+          "Often works under supervision of senior engineers but has growing autonomy",
+          "Supports junior staff and interns on routine tasks",
+          "Has started leading small project components independently"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Designs water and air pollution control systems using CAD and modeling software",
+          "Conducts environmental impact assessments for proposed projects",
+          "Develops and monitors waste management plans for client sites",
+          "Collects and analyzes environmental samples in the field and laboratory",
+          "Prepares technical reports and presentations for stakeholders"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 30% of time on system design and modeling",
+          "Fieldwork and sample collection account for 20% of the workweek",
+          "Data analysis and report writing comprise 30% of activities",
+          "Stakeholder meetings and project coordination make up the remaining 20%"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has moderate autonomy in designing and executing assigned tasks",
+          "Responsible for making recommendations on technical solutions within project scope",
+          "Major decisions require sign-off from senior engineers or project managers",
+          "Can independently manage smaller routine projects or components"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Data analysis using spreadsheets and statistical software is intuitive",
+          "Routine sample collection and monitoring follow well-established protocols",
+          "Drafting technical documentation has become efficient with experience",
+          "Using GIS to visualize spatial data is straightforward"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Designing custom pollution control systems for unique sites requires advanced problem-solving",
+          "Balancing technical, regulatory, and stakeholder needs in project planning is demanding",
+          "Interpreting ambiguous environmental data can be complex",
+          "Keeping up with evolving environmental regulations adds complexity"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Routine data entry from field samples is repetitive and highly automatable",
+          "Compiling large environmental datasets for baseline studies is data-heavy",
+          "Generating standard compliance reports involves repetitive formatting",
+          "Basic QA/QC checks on sensor data could benefit from automation"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Problem-solving in design projects is highly engaging",
+          "Fieldwork and on-site assessments are enjoyable due to variety",
+          "Administrative paperwork and repetitive data entry feel tedious",
+          "Stakeholder workshops are rewarding when collaboration is productive"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual data entry is time-consuming and error-prone",
+          "Lack of seamless integration between modeling and reporting software causes delays",
+          "Waiting for lab results can slow project timelines",
+          "Coordinating across multiple stakeholders sometimes leads to communication breakdowns"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Higher skill level in data analysis leads to increased productivity and enjoyment",
+          "Tasks that offer learning opportunities or variety tend to be more engaging",
+          "Repetitive tasks reduce motivation and can limit productivity",
+          "Mastery of core tools (e.g., GIS, CAD) enhances both speed and satisfaction"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open and curious about adopting new technical solutions",
+          "Believes that learning new tools can drive efficiency and accuracy",
+          "Enjoys experimenting with emerging environmental modeling software"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new data analysis platforms and updates",
+          "Regularly seeks out tutorials and documentation when starting new tools",
+          "Comfortable integrating new methods into existing workflows"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate time each month to learn new features in core tools",
+          "Has attended internal and external workshops on GIS and environmental modeling",
+          "Prefers hands-on, project-based learning formats"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential to automate and improve routine workflows",
+          "Sometimes heavy project workloads limit time for in-depth training",
+          "Will prioritize learning if the technology is directly relevant to current projects"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peer recommendations strongly influence tool adoption decisions",
+          "Management encourages upskilling and proactive tech learning",
+          "Collaborative team culture makes sharing tool tips common"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses GIS (ArcGIS or QGIS) for spatial data analysis",
+          "Relies on CAD software (AutoCAD, Civil 3D) for system design",
+          "Employs water and air quality modeling software (e.g., EPA SWMM, AERMOD)",
+          "Works with spreadsheets (Excel) for data management and analysis"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Uses water quality and air quality monitoring equipment during fieldwork",
+          "Employs laboratory equipment for chemical and physical analysis of samples",
+          "Utilizes sampling tools such as groundwater bailers and soil augers"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient with core environmental modeling and GIS platforms",
+          "Familiar with standard laboratory instrumentation for environmental testing",
+          "Regularly uses project management software (e.g., MS Project, Asana)"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces data format issues when transferring data between GIS and CAD",
+          "Modeling output often requires manual formatting before inclusion in reports",
+          "Lack of real-time integration between field data collection and office analysis tools"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic AI/ML concepts such as classification, regression, and clustering",
+          "Knows how language models process and generate text",
+          "Aware of AI\u2019s potential for automating data-heavy environmental tasks",
+          "Familiar with terminology like training data, inference, and prompt engineering"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Occasionally uses large language models (ChatGPT, Bard) for report drafting and data summarization",
+          "Has experimented with AI-powered GIS plugins for spatial pattern detection",
+          "Utilizes spreadsheet add-ons for automated data cleaning powered by AI"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs a few times per week for drafting, brainstorming, or summarizing reports",
+          "Employs AI tools to automate quality checks on tabular environmental data",
+          "Applies AI for initial literature reviews and technical research"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used an LLM to speed up report writing and reduce editing workload",
+          "AI-powered GIS tool flagged spatial anomalies missed in manual review",
+          "Experienced inaccurate AI output when domain context was lacking in prompts",
+          "Learned the importance of manual review and domain oversight for all AI-generated results"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company offers occasional lunch-and-learn sessions on AI applications",
+          "Peers share AI prompts and workflow tips via internal forums",
+          "No formal, structured AI training program yet in place"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers starting with independent exploration of AI tools",
+          "Uses step-by-step collaboration for complex problem-solving with LLMs",
+          "Finds iterative prompting useful for refining technical outputs"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as a digital assistant for routine and data-heavy tasks",
+          "Occasionally treats AI as a brainstorming partner for technical writing",
+          "Prefers to keep final decision-making with human team members"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to piloting new AI-driven processes if they show clear efficiency gains",
+          "Comfortable experimenting with AI-generated data summaries or visualizations",
+          "Prefers gradual integration of AI tools alongside established methods"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Favors conversational interfaces for brainstorming and initial idea generation",
+          "Uses command-based AI features for specific data processing tasks",
+          "Appreciates hybrid tools that offer both conversational and structured input modes"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many projects require nuanced understanding of environmental regulations and site-specific factors",
+          "Domain expertise is critical for interpreting ambiguous or borderline data",
+          "Human judgment is essential in stakeholder communication and risk assessment"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for routine data processing and initial drafts, but always reviews outputs",
+          "Relies on human oversight for decisions with regulatory or safety implications",
+          "Skeptical of AI outputs in cases lacking sufficient domain context"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive data entry, quality checks, and summarization",
+          "Retains human control for system design, stakeholder engagement, and final reporting",
+          "Envisions a workflow where AI accelerates but never fully replaces core technical decision-making"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "High automation is acceptable for low-risk, standardized tasks",
+          "Concerns arise if automation encroaches on regulatory compliance or nuanced decision areas",
+          "Prefers transparent AI systems that allow for easy human override or auditing"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances value of analytical and oversight skills",
+          "Routine technical skills may become less central as automation advances",
+          "Communication and stakeholder management skills remain critical"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Prompt engineering and AI workflow customization are new skill areas",
+          "Interpreting and validating AI outputs is an emerging responsibility",
+          "Staying updated on ethical AI use and data privacy is increasingly important"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Some concern about automation of basic data processing and reporting tasks",
+          "Believes complex problem-solving and stakeholder engagement will remain human-led",
+          "Monitors industry trends to stay ahead of potential AI-driven changes"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All AI-generated outputs are subject to manual review before submission",
+          "Company encourages human validation steps for critical work",
+          "Prefers systems that log AI decisions for auditability"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company policy is evolving to encourage cautious, responsible AI adoption",
+          "Early adoption is supported for efficiency gains in non-critical tasks",
+          "Team discussions about standardizing best practices for AI use are ongoing"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Optimistic that AI will drive greater efficiency and sustainability in engineering",
+          "Believes AI can help identify environmental risks earlier and more accurately",
+          "Cautions that overreliance could reduce critical thinking if not managed properly"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports ethical AI use with transparency and accountability",
+          "Worries about potential for bias in automated data interpretation",
+          "Advocates for human oversight in all major decisions"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires AI tools that seamlessly integrate lab, field, and modeling data",
+          "Wants context-aware assistants for regulatory compliance checks",
+          "Would benefit from AI-driven stakeholder communication support"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine reporting and data processing to become fully automated",
+          "Foresees more time devoted to strategic planning and stakeholder engagement",
+          "Anticipates new responsibilities in managing and auditing AI systems"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Establish clear guidelines for responsible AI use in engineering tasks",
+          "Invest in regular training for staff on emerging AI tools",
+          "Encourage collaborative experimentation and sharing of AI best practices",
+          "Develop internal auditing processes for AI-driven decisions"
+        ]
+      }
+    ]
+  }
+]

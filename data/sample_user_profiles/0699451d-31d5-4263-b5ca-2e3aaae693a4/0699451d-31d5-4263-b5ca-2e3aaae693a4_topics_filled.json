@@ -1,0 +1,502 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Doctorate (PhD) in Bioinformatics from a leading research university",
+          "Completed undergraduate studies in Molecular Biology with a minor in Computer Science",
+          "Received formal training in computational biology, statistics, and genomics during graduate studies",
+          "Attended multiple workshops on next-generation sequencing data analysis",
+          "Participated in university-led seminars on machine learning applications in biosciences"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Current job title is Bioinformatics Scientist",
+          "Works as a member of a multidisciplinary research team",
+          "Responsible for analyzing large-scale biological datasets and developing computational pipelines",
+          "Regularly collaborates with laboratory scientists, statisticians, and data engineers",
+          "Contributes to scientific publications and grant proposals"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the biotechnology and life sciences sector",
+          "Focuses on genomics, transcriptomics, and computational biology research",
+          "Supports projects in both academic and commercial biotech settings"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-sized biotech company with approximately 200 employees",
+          "Company environment is research-driven and highly collaborative",
+          "Workplace promotes cross-functional teamwork between wet-lab and computational staff"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Company operates in the genomics and precision medicine market segment",
+          "Provides analysis services and develops bioinformatics products for clinical and research clients",
+          "Engages in both contract research and in-house product development"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 3-5 years of experience working as a Bioinformatics Scientist",
+          "Joined current company shortly after completing doctoral studies",
+          "Has been promoted once during tenure at the company"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds a mid-level scientist position (not entry-level or senior principal)",
+          "Supervises junior analysts and interns on specific projects",
+          "Acts as a technical lead for select computational projects"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Designs and implements bioinformatics pipelines for NGS data analysis",
+          "Performs statistical analyses and data visualization of large biological datasets",
+          "Writes scripts and workflows in Python and R to automate data processing",
+          "Interprets results and prepares reports for collaborators and stakeholders",
+          "Contributes to manuscript writing and presentation of findings"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends ~50% of time on data analysis and pipeline development",
+          "Dedicate ~20% of time to results interpretation and reporting",
+          "Allocates ~15% to meetings, collaboration, and project planning",
+          "Spends ~10% of time mentoring or training junior team members",
+          "Uses remaining time for literature review and self-learning"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates with moderate autonomy in designing computational workflows",
+          "Makes independent decisions on software tools and statistical methods used",
+          "Collaborates with principal investigators or project leads on major project directions",
+          "Responsible for troubleshooting and resolving technical challenges independently"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Data preprocessing and quality control for sequencing data",
+          "Writing scripts for routine data manipulation in Python or R",
+          "Generating standard plots and figures for reports",
+          "Explaining analysis results to non-computational colleagues"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Integrating heterogeneous datasets from multiple platforms (e.g., RNA-seq, ChIP-seq)",
+          "Interpreting ambiguous or unexpected biological results",
+          "Optimizing and parallelizing computational pipelines for large datasets",
+          "Debugging software compatibility issues in complex bioinformatics environments"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Batch processing of raw sequencing files across multiple samples",
+          "Routine annotation of variant call sets",
+          "Running standardized quality metrics on new datasets",
+          "Automating data format conversions between tools"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys developing novel analysis methods and exploring new datasets",
+          "Finds creative problem-solving and troubleshooting engaging",
+          "Considers repetitive file conversions and data cleaning to be tedious",
+          "Prefers collaborative brainstorming sessions over routine documentation"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Dealing with inconsistent or poorly annotated external datasets",
+          "Waiting for long-running computational jobs on shared servers",
+          "Managing dependencies and software version conflicts",
+          "Manual curation of metadata across multiple sources"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Finds that higher enjoyment correlates with tasks involving creative data exploration",
+          "Productivity is highest when working on well-defined analysis pipelines",
+          "Skill level is reinforced by frequent engagement with challenging datasets",
+          "Tedious tasks decrease motivation but are mitigated by automation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open and enthusiastic about adopting new software relevant to bioinformatics",
+          "Views continuous learning as essential for staying current in the field",
+          "Regularly explores emerging open-source tools and libraries"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new command-line tools and programming libraries",
+          "Comfortable with both GUI-based and script-based applications",
+          "Able to integrate new methods into existing workflows with minimal disruption"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Allocates dedicated time each week for learning new analysis methods",
+          "Participates in online courses and webinars for upskilling",
+          "Sees value in attending in-person or virtual bioinformatics conferences"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential for increased efficiency and better results",
+          "Workload can occasionally limit time available for deep learning of new tools",
+          "Prioritizes learning technologies directly relevant to ongoing projects"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often recommend novel open-source software, influencing tool adoption",
+          "Management encourages exploration of new computational methods",
+          "Collaborative team culture supports experimentation with new technologies"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Python (with libraries such as pandas, numpy, scikit-learn) for scripting and analysis",
+          "Runs R for statistical analysis and visualization (ggplot2, Bioconductor packages)",
+          "Employs command-line tools like samtools, bedtools, and bcftools for NGS data manipulation",
+          "Works with workflow management systems such as Snakemake or Nextflow"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on version control with Git and GitHub for code management",
+          "Uses UNIX/Linux shell for routine file system operations",
+          "Documents work in Jupyter Notebooks and Markdown files",
+          "Utilizes Slack and email for daily team communication"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Experienced with cloud computing platforms such as AWS and Google Cloud",
+          "Familiar with Docker and Singularity for containerizing workflows",
+          "Has working knowledge of HPC cluster job schedulers like SLURM"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally encounters compatibility issues between different bioinformatics software versions",
+          "Data format inconsistencies require frequent script adjustments",
+          "Integration of cloud-based and local resources can be challenging for large-scale analyses"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Has foundational knowledge of machine learning models such as random forests, SVMs, and neural networks",
+          "Understands basic AI terminology including supervised/unsupervised learning, overfitting, and feature selection",
+          "Has read research papers on AI applications in genomics and bioinformatics"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses OpenAI's ChatGPT and related LLMs for rapid literature summarization",
+          "Employs scikit-learn for machine learning tasks within Python scripts",
+          "Has experimented with BioBERT and other domain-specific LLMs for text mining tasks"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs daily to summarize Google searches and scientific literature",
+          "Applies machine learning models to classify biological samples or predict outcomes",
+          "Utilizes AI tools for automating data annotation and feature extraction"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used ChatGPT to accelerate literature review for a grant proposal",
+          "Encountered AI-generated summaries with occasional factual inaccuracies requiring manual verification",
+          "Machine learning models sometimes struggled with small or imbalanced datasets"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Organization provides occasional internal seminars on machine learning topics",
+          "Peers often share best practices and tips for using LLMs effectively",
+          "No formal certification program for AI, but self-learning is encouraged"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers to use LLMs independently for quick answers and summarization",
+          "Switches to more interactive, stepwise collaboration for complex analysis tasks",
+          "Adapts interaction mode based on task complexity and time constraints"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant or advisor for information retrieval",
+          "Occasionally treats AI as a co-worker when troubleshooting code or generating ideas",
+          "Relies on human expertise for final decision-making"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Very open to integrating new AI-driven steps into existing pipelines",
+          "Actively experiments with AI features as they become available",
+          "Regularly provides feedback to tool developers about workflow integration"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and information search",
+          "Uses command-based interfaces for structured, repeatable tasks",
+          "Finds hybrid interfaces (e.g., Jupyter with LLM plugins) especially productive"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many analysis tasks require deep knowledge of genomics and statistical methods",
+          "Domain expertise is essential for interpreting ambiguous or novel results",
+          "AI tools are used to augment, but not replace, domain-specific decision-making"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for preliminary information gathering, but always verifies critical data manually",
+          "Skeptical of AI-generated results in cases with high impact or regulatory scrutiny",
+          "Trust increases with transparent, well-documented AI workflows"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive or high-volume data processing",
+          "Retains human control for analysis design and results interpretation",
+          "Advocates for a collaborative, AI-augmented workflow rather than full automation"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "High automation is acceptable for well-characterized, low-risk tasks",
+          "Resists full automation in contexts requiring nuanced biological interpretation",
+          "Concerns arise if AI output is not easily auditable or explainable"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the importance of domain expertise in interpreting results",
+          "Routine coding and data cleaning skills are less critical due to automation",
+          "Analytical thinking and communication remain essential despite AI advances"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing proficiency in prompt engineering for effective LLM use",
+          "Learning to evaluate and debug AI-generated outputs",
+          "Becoming familiar with ethical and regulatory considerations for AI in biosciences"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Low concern about AI replacing core scientific analysis and interpretation",
+          "Acknowledges that AI may fully automate some data preprocessing steps",
+          "Monitors trends in AI-capable automation but sees ongoing need for human oversight"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All major analysis steps include manual review and quality control",
+          "Maintains the ability to rerun or adjust AI-driven analyses as needed",
+          "Workflows are designed to allow for human intervention at critical junctures"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Recent policy updates encourage exploration and responsible use of AI tools",
+          "Management emphasizes the need for audit trails and documentation of AI-driven processes",
+          "Team is encouraged to share AI-related learnings and best practices in regular meetings"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will accelerate scientific discovery in genomics and medicine",
+          "Views AI as a tool to democratize access to advanced data analysis",
+          "Recognizes the potential for AI to disrupt traditional scientific roles"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Advocates for transparent and explainable AI systems in scientific research",
+          "Concerned about potential for bias in AI-driven analyses",
+          "Supports development of guidelines for responsible AI use in biosciences"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires LLMs that can accurately interpret and summarize complex scientific papers",
+          "Wants better AI tools for automated data integration across heterogeneous sources",
+          "Sees value in AI-powered tools that can assist with experimental design suggestions"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Predicts shift toward more strategic and interpretive roles as routine tasks are automated",
+          "Expects increased collaboration between AI specialists and domain scientists",
+          "Foresees need for ongoing training in both AI and domain-specific skills"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement regular training sessions on emerging AI tools and best practices",
+          "Develop clear ethical guidelines for AI use in research projects",
+          "Invest in infrastructure to support scalable, reproducible AI-powered analyses",
+          "Encourage cross-team collaboration on AI-driven innovations"
+        ]
+      }
+    ]
+  }
+]

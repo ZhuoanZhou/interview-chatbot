@@ -1,0 +1,505 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s Degree from an accredited university",
+          "Major field of study was Psychology, with electives in Statistics and Research Methods",
+          "Completed capstone project on cognitive processes in social contexts",
+          "Attended several short courses on data analysis and qualitative research during undergraduate studies"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Social Science Research Assistant",
+          "Supports research projects focused on human behavior, cognitive processes, and social interactions",
+          "Responsible for data analysis, literature review, participant interaction, writing, and administrative coordination",
+          "Collaborates with professionals in neuroscience and clinical psychology"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the academic and research sector",
+          "Projects span social science, psychology, and neuroscience disciplines",
+          "Organization is research-focused, with occasional collaborations in healthcare and education"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-sized research institute with approximately 100-200 staff",
+          "Work environment is collaborative and interdisciplinary",
+          "Frequent interactions across multiple departments and with external academic partners"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Organization is a non-profit research institution affiliated with a university",
+          "Focuses on fundamental and applied research in social and cognitive sciences",
+          "Secures funding through grants, academic partnerships, and occasional government contracts"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has been in the Social Science Research Assistant role for 8 years",
+          "Started as a junior assistant and advanced to more complex research responsibilities",
+          "Experience spans multiple research projects and grant cycles"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Considered mid-level within the organization's research hierarchy",
+          "Acts as a lead assistant on several projects, mentoring newer team members",
+          "Has developed specialized expertise in data analysis and research documentation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Analyzes quantitative and qualitative data from research studies using statistical software",
+          "Conducts literature reviews to inform ongoing and future research projects",
+          "Writes and edits research papers, reports, and grant proposals",
+          "Interacts with study participants via interviews, surveys, and occasional focus groups",
+          "Coordinates meetings with colleagues and external collaborators"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Data analysis: 30% (~10-12 hours per week)",
+          "Literature review: 20% (~8-10 hours per week)",
+          "Writing/documentation: 20% (~8-10 hours per week)",
+          "Meetings/collaboration: 15% (~6-8 hours per week)",
+          "Participant interaction: 10% (~4-6 hours per week)",
+          "Administrative tasks: 5% (~2 hours per week)"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Autonomous in data analysis, literature review, and initial drafting of research documents",
+          "Collaborates with principal investigators for research design and major decisions",
+          "Empowered to recommend methodological adjustments and propose new research questions",
+          "Handles scheduling, small-scale budgeting, and coordination of participant activities independently"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Data cleaning and preparation are routine and efficient due to experience",
+          "Literature searches and article organization feel intuitive after years of practice",
+          "Drafting research paper outlines comes naturally",
+          "Managing reference software and citations is straightforward"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Interpreting ambiguous or borderline statistical results can be complex",
+          "Synthesizing large bodies of literature into coherent reviews is demanding",
+          "Coordinating cross-departmental research with diverse stakeholders can be challenging",
+          "Designing surveys to avoid bias and maximize data quality requires careful work"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Bulk data cleaning and formatting in spreadsheets is repetitive",
+          "Transcribing interview recordings is time-consuming and suitable for automation",
+          "Manually checking citations and building bibliographies is tedious",
+          "Distributing and collecting large volumes of survey responses could be automated"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Most enjoys interpreting novel data findings and writing research discussions",
+          "Engaged by collaborative meetings that generate new research ideas",
+          "Finds repetitive data entry and administrative paperwork tedious",
+          "Least enjoys troubleshooting software integration or technical glitches"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual data entry and cleaning are error-prone and time-consuming",
+          "Difficulty integrating outputs from different software platforms",
+          "Delays in receiving feedback on draft research papers from colleagues",
+          "Limited automation for qualitative data analysis creates workflow bottlenecks"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "High skill and enjoyment in data analysis leads to greater productivity and faster insights",
+          "Feels more productive when tasks are intellectually stimulating and collaborative",
+          "Tedious, low-skill tasks tend to result in lower engagement and slower completion",
+          "Enjoyment increases when using tools that reduce manual workload (e.g., reference managers)"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Has a proactive attitude toward adopting new research technologies",
+          "Views technological change as an opportunity to increase efficiency",
+          "Open to experimenting with new tools if they show clear benefits"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to software updates and new platforms",
+          "Comfortable self-training on new statistical and reference management tools",
+          "Able to transition workflow when organizational tools change"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate several hours per month to learning new research technologies",
+          "Attends optional workshops or webinars if relevant to current projects",
+          "Prefers hands-on, project-based learning over theoretical courses"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the prospect of reducing repetitive workload",
+          "More likely to adopt tools that directly improve data analysis or writing",
+          "High current workload can be a barrier to exploring less immediately relevant technologies"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers\u2019 positive experiences with tools often influence adoption decisions",
+          "Management encourages experimentation with productivity-enhancing software",
+          "Team success stories accelerate willingness to try new platforms"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses SPSS and R for statistical analysis on a near-daily basis",
+          "Manages references with Zotero and Mendeley",
+          "Administers surveys with SurveyMonkey and Google Forms",
+          "Relies on Microsoft Excel for data cleaning and visualization"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Microsoft Word and Google Docs for drafting research documents",
+          "Slack and Zoom for team communication and virtual meetings",
+          "Trello for basic project management and tracking research tasks"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient with Qualtrics and REDCap for advanced survey administration",
+          "Experienced with NVivo for qualitative data analysis (used occasionally)",
+          "Familiar with EndNote for publication-level citation management"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces issues transferring data between SPSS and Excel",
+          "Integrating citation output from Zotero into non-standard journal templates can be problematic",
+          "Survey data exported from Google Forms sometimes requires manual reformatting for analysis",
+          "Collaboration tools may not always sync well with institutional email systems"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Comfortable with basic concepts like machine learning, natural language processing, and predictive analytics",
+          "Understands the distinction between supervised and unsupervised learning",
+          "Familiar with AI terminology relevant to qualitative and quantitative research"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT and similar LLMs for literature summarization and drafting",
+          "Employs automated transcription tools like Otter.ai for interview recordings",
+          "Occasionally leverages NVivo\u2019s AI-assisted coding for qualitative data",
+          "Utilizes Grammarly\u2019s AI features for writing refinement"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs daily for summarizing research articles and generating first drafts",
+          "Employs AI transcription tools several times a week to convert audio interviews to text",
+          "Applies AI-powered search assistants for literature discovery at the start of new projects"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI-generated literature summaries have accelerated review processes, saving several hours per week",
+          "Automated transcriptions occasionally miss domain-specific terminology, requiring manual correction",
+          "LLMs sometimes generate plausible but inaccurate citations, requiring verification",
+          "AI-based qualitative coding can misinterpret context without careful supervision"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Organization offers optional lunchtime seminars on AI in research",
+          "Peers often share tips and best practices for maximizing LLM output quality",
+          "Written guides for integrating AI into research workflows are available on the internal knowledge base"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI tools for complex writing or analysis tasks",
+          "Uses LLMs independently for quick summaries or brainstorming",
+          "Appreciates the ability to iterate interactively with AI to refine outputs"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for drafting and summarization tasks",
+          "Occasionally treats AI as an advisor when exploring unfamiliar research topics",
+          "Relies on AI as a co-worker in repetitive or large-scale data cleaning processes"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to adopting AI workflows that reduce manual workload",
+          "Quick to test and integrate new AI features into survey design and analysis",
+          "Regularly experiments with new AI tools to assess fit with current tasks"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and literature review",
+          "Uses command-based AI features for specific, repeatable tasks like data formatting",
+          "Values flexibility to switch between interface styles depending on task complexity"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Interpreting research findings and drawing conclusions requires deep subject knowledge",
+          "Survey design and qualitative coding depend on nuanced understanding of human behavior",
+          "Manual oversight is essential for tasks involving participant welfare or ethics"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for routine tasks like summarization and transcription, but always verifies outputs",
+          "Relies on human review for critical analyses and final research conclusions",
+          "Skeptical of AI-generated citations or literature reviews without manual validation"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive, low-value components, preserving human focus for interpretation and synthesis",
+          "Sees AI as augmenting, not replacing, expert judgment in research design and analysis",
+          "Advocates for shared oversight on tasks involving sensitive or novel data"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for data cleaning, transcription, and citation management",
+          "Finds automation threatening when it could obscure methodological transparency or introduce unchecked bias",
+          "Reserves manual control for tasks with ethical or participant-impact implications"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the value of analytical and interpretive skills by automating low-level work",
+          "Routine writing and data preparation skills are less critical due to automation",
+          "Critical thinking and methodological rigor have become more important in the AI era"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing prompt engineering and effective AI query skills",
+          "Monitoring and evaluating AI output accuracy is a new responsibility",
+          "Adapting workflows to leverage new AI features is now part of the role"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Minimal concern about AI replacing core analytical or interpretive tasks",
+          "Recognizes some administrative and data processing tasks may be fully automated",
+          "Views AI as a tool to increase research capacity rather than as a threat to job security"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All AI outputs are subject to manual review before inclusion in research products",
+          "Can edit and override AI-generated text, summaries, and citations at any time",
+          "Institutional policies require human sign-off on critical research deliverables"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Team has adopted guidelines for responsible and transparent AI use",
+          "Recent updates to data privacy policies explicitly address the use of AI tools",
+          "Management encourages ongoing evaluation of AI\u2019s impact on workflow and quality"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Sees AI as a positive force for accelerating scientific discovery and knowledge dissemination",
+          "Cautious about potential risks related to bias and misinformation",
+          "Believes AI will increasingly transform research workflows and data analysis"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Advocates for transparency in how AI tools are used in research",
+          "Concerned about data privacy and the ethical use of participant information",
+          "Believes human oversight is essential to prevent unintended consequences"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would benefit from automated data cleaning tools to handle large, messy datasets",
+          "Desires predictive analytics tailored to complex social science data",
+          "Sees a need for intelligent literature search assistants that understand nuanced research questions",
+          "Wants seamless AI-assisted citation management integrated with writing platforms"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Anticipates a shift towards more interpretive and supervisory research roles",
+          "Expects routine data processing and reporting to become largely automated",
+          "Predicts increased collaboration with AI systems for designing and analyzing studies",
+          "Foresees new roles in managing and validating AI-driven research outputs"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Develop clear protocols for responsible AI use in research projects",
+          "Invest in ongoing staff training to keep pace with evolving AI tools",
+          "Encourage pilot projects to evaluate new AI applications before full adoption",
+          "Regularly review ethical implications and update policies as AI capabilities advance"
+        ]
+      }
+    ]
+  }
+]

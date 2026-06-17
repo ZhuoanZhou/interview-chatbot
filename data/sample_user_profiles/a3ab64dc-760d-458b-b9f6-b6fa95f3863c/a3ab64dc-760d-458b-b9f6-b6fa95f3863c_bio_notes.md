@@ -1,0 +1,247 @@
+# Biographical Notes
+
+- Remote/hybrid work arrangements available for senior staff
+- Open to experimenting with emerging technologies, particularly AI and data analytics
+- Heavy workload can sometimes delay training on less critical tools
+- Participated in postdoctoral research on high-efficiency building technologies
+- Predicts technical diagnostics will become more data-driven and less manual
+- 15% devoted to internal meetings, training, and mentoring
+- Comfortable integrating AI tools into daily workflow
+- Accepts high automation for quality-controlled, low-risk tasks such as data normalization
+- Enjoys sketching floor plans of famous buildings visited purely for fun and artistic practice.
+- Is a dedicated fan of puzzle games and brings a new brain teaser to the office monthly for coworkers.
+- Enjoyment increases when learning or implementing new diagnostic technologies
+- Applies AI-driven tools to automate repetitive data entry and report formatting
+- Keeps up-to-date with industry standards through professional memberships
+- Experienced with Home Energy Score and EnergyPlus modeling tools
+- Treats AI as a co-worker for certain analytical workflows, especially data-heavy tasks
+- Company policy requires human sign-off on all technical recommendations
+- Encourages peers to explore and adopt innovative solutions
+- Is known for bringing bagels with creative spreads to Monday morning meetings.
+- Regularly allocates time for self-directed online courses related to AI and energy analysis
+- Obtained Building Performance Institute (BPI) certification for energy auditing
+- Prefers AI to handle repetitive data processing and initial report generation
+- Employs Microsoft Excel and custom macros for energy data analysis
+- Allows the office plant Gerald to 'choose' the playlist during client meetings by tapping its leaves.
+- Learned that AI-generated content still requires careful review for technical accuracy
+- Brings a different homemade jam flavor to share with the team each week.
+- Job title: Senior Energy Auditor
+- Keeps a small library of classic sci-fi novels on energy futures to unwind after work.
+- Client relationship management depends on communication skills not easily automated
+- Appreciates workflows where AI tools provide intermediate suggestions before finalizing outputs
+- More than 20 years total in the building energy and sustainability field
+- Occasionally consults for government and non-profit energy programs
+- Starts every morning with a hand-poured single-origin coffee brewed in a vintage Chemex.
+- Oversees technical report writing and quality assurance for audit deliverables
+- Team now includes AI performance reviews in quarterly meetings
+- Works within the building energy efficiency and sustainability sector
+- Envisions a greater focus on validating and contextualizing AI outputs
+- Joined current firm 8 years ago, previously worked in academic research and consulting
+- Prefers eating lunch while listening to old-school jazz vinyl records on a vintage turntable at home.
+- Often interacts independently with LLMs for quick information retrieval
+- Enjoys on-site troubleshooting and interacting with building occupants
+- Willing to adjust existing routines if AI offers measurable value
+- Responsible for conducting comprehensive energy audits of residential and commercial buildings
+- Sees increased need for AI literacy and prompt engineering
+- Services include on-site audits, retrofit recommendations, and post-retrofit verification
+- Actively participates in feedback cycles for workflow automation tools
+- Occasionally faces a learning curve with highly specialized or proprietary systems
+- Diagnosing root causes of complex HVAC inefficiencies in large buildings
+- Employs Microsoft Copilot for document editing and task automation
+- Keeps a wall-mounted collection of quirky energy company business cards from decades past.
+- Prefers technical analysis over administrative paperwork
+- Cross-referencing equipment specifications against efficiency databases
+- Actively seeks certifications to maintain industry competitiveness
+- Maintains an old-school Polaroid camera and decorates the office wall with instant photos of team events.
+- Developed proficiency in prompt engineering to optimize LLM outputs
+- Successfully used LLMs to reduce report writing time by 30%
+- Believes AI will drive significant improvements in energy efficiency and sustainability
+- Advocates for keeping critical decisions under human supervision
+- Feels confident in AI outputs when input data quality is high
+- Has over 10 years of experience as an energy auditor
+- Has a quirky collection of novelty energy-themed ties worn on casual Fridays.
+- Encourage cross-functional teams to pilot and evaluate emerging AI technologies
+- Uses custom Python scripts leveraging scikit-learn for energy usage modeling
+- Attends a weekly community pottery class and gifts bowls to colleagues on birthdays.
+- Has a tradition of gifting plant cuttings from home to new coworkers to brighten their workspace.
+- Maintains a healthy skepticism towards AI-generated technical conclusions
+- Empowered to set priorities for team projects and delegate tasks to junior staff
+- Finds that routine report writing skills are less critical due to automation
+- Scheduling follow-up inspections and sending reminders
+- Manual override options are built into energy analysis software
+- Has developed a talent for hand-lettered motivational quotes that decorate the office whiteboard.
+- Encourages team to experiment with AI features in both field and office settings
+- Volunteers as a weekend art class instructor for kids in the local community.
+- Believes AI enhances analytical and data interpretation skills
+- 10% dedicated to client consultations and presentations
+- Establish clear guidelines for human review and override of AI outputs
+- Started a casual office tradition of ‘theme days’ where everyone wears something energy-related once a month.
+- Encourages team to double-check AI-flagged anomalies for accuracy
+- Is an amateur birdwatcher and keeps a journal of sightings from various client sites.
+- Projects range from single-family homes to large multi-tenant commercial buildings
+- Would benefit from AI-powered 3D building modeling based on field photos
+- Views continuous learning as essential to professional growth
+- Has a standing desk with a treadmill underneath, but mostly uses it just as a standing desk.
+- Anticipates increased accessibility of energy audits for underserved markets
+- Finalizes audit reports and recommendations with limited supervisory review
+- Always reviews and edits AI-generated reports before client delivery
+- Views AI as a knowledgeable assistant that accelerates routine tasks
+- Manual transfer of data between Excel and LLM outputs can introduce errors
+- Progressed from junior auditor to senior/lead auditor over career
+- Drafting audit reports follows a well-established template
+- High skill level in technical analysis leads to faster, more accurate audits
+- Highly open to piloting new AI-driven processes that improve efficiency
+- About 25% of time is spent analyzing collected data and drafting reports
+- Tends to be most productive when performing hands-on diagnostics, which are also most enjoyable
+- Keeps a framed ‘energy audit bingo’ card on the office wall with humorous common tropes found during site visits.
+- Experienced a case where AI misinterpreted building data due to poor input quality, highlighting the need for manual checks
+- Believes client-facing and diagnostic responsibilities are secure
+- Create a feedback loop for continuous improvement of AI-based workflows
+- Holds a Doctorate (PhD) in Mechanical Engineering with a focus on building energy systems
+- Bakes elaborate themed cakes for team celebrations—last year’s was shaped like a wind turbine.
+- Data from blower door tests and IR cameras often require manual consolidation
+- Has a handmade quilt made from T-shirts collected during business trips around the country.
+- Interpreting ambiguous or poorly documented building plans can slow down audits
+- Has a rotating collection of quirky socks inspired by different energy sources, like solar panels and wind turbines.
+- Wears vintage watches and has a small collection dating back to the 1940s.
+- Has a collection of miniature globes, each representing a country visited for conferences or training.
+- Leads a small team of junior auditors and technical staff
+- Needs to stay updated on AI ethics and data privacy regulations
+- Prefers commuting by electric scooter on nice days to reduce carbon footprint, even in urban traffic.
+- Participates in manufacturer-led workshops for new audit tools
+- Has access to an internal knowledge base with AI tool tutorials
+- Regularly uses national equipment databases for efficiency benchmarking
+- Is an avid bee-keeper in spare time, producing small batched local honey gifted to coworkers.
+- Blower door test equipment for measuring building envelope tightness
+- Relies on AI as a brainstorming partner when generating new audit recommendations
+- Has a ritual of writing a handwritten thank-you note to a client after every job, regardless of outcome.
+- Believes AI will enable faster turnaround for audits and recommendations
+- Collects postcards from every city where energy audits have been completed and pins them on an office map.
+- Handheld moisture meters for assessing potential insulation issues
+- Holds a senior-level individual contributor role
+- Management encourages innovation and provides budget for pilot projects
+- Peers regularly share AI tips and use cases in team forums
+- Software tools sometimes lack interoperability, requiring duplicate data entry
+- Utilizes ChatGPT and similar LLMs daily for report drafting and research
+- Recommending cost-effective retrofits is informed by industry expertise and local context
+- Hosts an annual backyard barbecue where everyone brings dishes inspired by the regions they've audited.
+- Reconciling inconsistent or incomplete historical energy data
+- Once entered a chili cook-off and won third place with a secret ingredient from a client’s region.
+- Adapts quickly to new diagnostic equipment and software platforms
+- Owns a collection of vintage energy-themed posters from the 1970s and 80s displayed at home.
+- Company has formalized guidelines for responsible AI use in audits
+- Recently introduced mandatory AI training for technical staff
+- Recognizes potential for AI to accelerate building decarbonization efforts
+- Has a habit of cataloging local coffee shops by Wi-Fi quality and latte art skill during travels.
+- Primary focus on existing residential and commercial real estate
+- Acts as a resource for colleagues learning to integrate AI into audits
+- Is learning to play the harmonica and often practices during lunch breaks.
+- Views interpersonal and diagnostic skills as even more valuable in an AI-enabled workflow
+- Finds hybrid approaches most effective—starting independently, then consulting AI as needed
+- Considers repetitive report formatting and manual data entry to be tedious
+- Monitors industry trends regarding AI capabilities and job displacement
+- Scheduling site visits with multiple stakeholders can cause delays
+- Finds high automation inappropriate for nuanced diagnostics or client-specific advice
+- Worries about potential bias or errors in AI-generated recommendations
+- Open office layout with regular project team meetings
+- Supports automation only when robust override mechanisms are in place
+- Occasionally deterred by lack of clear documentation or support for new systems
+- Keeps a tiny zen garden on the office desk to calm the mind during long report-writing sessions.
+- Interpreting utility bills and energy usage data is routine after years of experience
+- Takes scenic hiking trips on weekends to disconnect from screens and recharge personally.
+- Seeks AI that can proactively flag regulatory or code compliance gaps
+- Encountered occasional compatibility issues between legacy and new diagnostic devices
+- Is working on a side project creating energy-efficient tiny homes as a personal passion.
+- Deploys AI to analyze patterns in utility data and flag anomalies
+- Competitively participates in local escape rooms with coworkers to build team spirit.
+- Finds that prior experience with technical software enables rapid upskilling
+- Staying updated on rapidly changing building codes and incentive programs
+- Interpreting subtle clues from thermal imaging relies on tacit knowledge
+- Has experimented with Google AutoML for energy data analysis
+- Uses both interface types, depending on task complexity
+- Spends roughly 50% of workweek on-site performing audits and inspections
+- Recognizes common AI use cases in anomaly detection and pattern recognition
+- Would be concerned if AI made unsupervised recommendations that affect safety or compliance
+- Meets with clients to explain audit results and suggest energy-saving measures
+- Acts as technical lead for complex or large-scale audits
+- Infrared (IR) cameras used daily for detecting heat loss and leaks
+- Cautions that AI adoption must be managed to prevent loss of skilled labor
+- Modeling energy savings for multifaceted retrofit projects
+- Draws energy-themed cartoons on coffee sleeves to brighten colleagues’ days.
+- Conducts detailed energy audits involving site inspections, data gathering, and analysis
+- Prefers to retain final decision-making authority on technical judgments
+- Digital thermometers and data loggers for temperature profiling
+- Uses ChatGPT and OpenAI GPT-4 for report drafting and data summarization
+- Keeps a quirky mug shaped like a battery that never seems to empty during long workdays.
+- Finds command-based interfaces efficient for scripting and batch data processing
+- Invest in interoperable systems to streamline data flow between devices and AI platforms
+- Identifying insulation gaps and air leaks using thermal imaging comes naturally
+- Has a miniature bonsai tree named ‘Wattson’ that receives weekly pruning sessions.
+- Energy modeling software sometimes lacks direct import from field data collection tools
+- Can explain the basics of supervised vs. unsupervised learning to colleagues
+- Employed by a mid-sized energy consulting firm with approximately 60 staff
+- Believes ethical AI use requires ongoing human oversight
+- Peers often share best practices and tool recommendations during team meetings
+- Makes a point to learn a few words in the local dialect wherever a business trip takes them.
+- Firm includes auditors, engineers, and support staff
+- Expects more time will be spent on client engagement and strategic planning
+- Enjoys organizing weekend bike tours with friends around historical power plants and dams.
+- Uses FLIR thermal imaging software for analyzing infrared camera data
+- Frequently represents the company at industry conferences and client meetings
+- Leverages AI chatbots to quickly reference building codes and efficiency standards
+- Has a habit of switching coffee types weekly, from espresso to cold brew to match seasons.
+- Finds satisfaction in uncovering hidden energy waste and delivering impactful recommendations
+- Highly familiar with ASHRAE energy audit protocols and software
+- Advises clients on energy conservation measures and retrofit strategies
+- Takes on responsibility for validating AI-generated technical content
+- Believes human expertise is essential for final recommendations and client interactions
+- Minimal concern about full role replacement given the need for on-site expertise
+- Uses LLMs daily to draft, edit, and proofread energy audit reports
+- Motivated by desire to deliver more accurate and efficient audits
+- Prefers step-by-step collaboration with AI for complex data analysis tasks
+- Believes conversational AI reduces learning curves for less technical colleagues
+- Willing to dedicate several hours per month to technology training
+- Familiar with model training, validation, and data preprocessing
+- Relies on Retrotec blower door test software for airtightness measurements
+- Completed undergraduate and master's studies in environmental engineering
+- Proactively seeks out new tools that can streamline the audit process
+- Desires AI tools that can automatically integrate and clean data from all diagnostic devices
+- Company provides quarterly workshops on AI and data analytics tools
+- Advocates for strict data privacy and client confidentiality measures
+- Mentors junior auditors and provides guidance on challenging projects
+- Uses thermal imaging and blower door tests to assess building envelope performance
+- Occasional resistance from less tech-savvy team members can slow rollout
+- Prefers conversational interfaces for drafting reports and brainstorming
+- Firm specializes in independent energy audits and sustainability consulting
+- Has a habit of doodling plant sketches on margins of notebooks during meetings.
+- Has an impressive collection of enamel pins, many related to environmental causes and sustainable living.
+- Positive feedback from colleagues accelerates adoption of proven solutions
+- Needs more robust AI-driven retrofit cost estimation features
+- Explaining basic energy-saving concepts to clients feels straightforward
+- Policies emphasize human oversight for critical outputs
+- Diagnosing building envelope issues often requires years of on-site experience
+- Once organized a charity fun run where all participants dressed as renewable energy technologies.
+- Understands concepts such as machine learning, natural language processing, and predictive analytics
+- Maintains a journal of random facts overheard at client sites as icebreaker conversation starters.
+- Operates with significant autonomy in planning and executing audits
+- Recognizes that some repetitive tasks are likely to be fully automated
+- Clients include property managers, building owners, schools, and small businesses
+- Regularly attends industry workshops to maintain professional credentials
+- Occasionally brings in external trainers for advanced AI applications
+- Sees relevance to client outcomes as a key driver for adopting new technology
+- Productivity drops when bogged down by repetitive administrative tasks
+- Aggregating and normalizing utility data from various sources
+- Implement regular training and certification in AI tools for all staff
+- Manually consolidating data from disparate sources is time-consuming
+- Supports transparent AI processes with clear documentation of decision logic
+- Once built and raced a solar-powered go-kart as a community tech challenge.
+- Has authority to select diagnostic tools and recommend audit methodologies
+- Prepares comprehensive reports outlining findings and recommendations
+- Reviews utility bills and building plans to establish energy baselines
+- Populating audit report templates with standard building information
+- Trusts AI for preliminary data analysis and report drafting
+- Supports semi-automated workflows where AI proposes options and humans validate
+- Relies on human review for high-stakes recommendations or financial estimates
+- Industry overlaps with HVAC, green building, and facilities management
+- AI anomaly detection flagged a previously missed HVAC malfunction, leading to significant client savings
+- Company has a collaborative and knowledge-sharing culture

@@ -1,0 +1,535 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s Degree",
+          "Completed undergraduate degree in Information Systems Management",
+          "Participated in emergency management and project management workshops during college",
+          "Has received on-the-job training in healthcare emergency preparedness",
+          "Attended state-level emergency planning seminars post-graduation"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Information Technology Project Manager",
+          "Responsible for emergency management for health centers statewide",
+          "Supports the legal team with project management and event coordination",
+          "Develops and edits emergency preparedness content",
+          "Provides technical assistance related to healthcare emergency management"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the healthcare sector",
+          "Focuses on emergency management and IT project management within healthcare",
+          "Engages with public health organizations and health centers",
+          "Operates at the intersection of healthcare, information technology, and legal compliance"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed by a medium-sized healthcare support organization",
+          "Company has approximately 100-250 employees",
+          "Work environment is collaborative and cross-functional",
+          "Organization supports multiple health centers across the state"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Company operates in healthcare emergency management services",
+          "Provides technical and operational support to health centers",
+          "Engages in legal compliance and data-driven decision making",
+          "Focuses on public health preparedness and event response"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 3-5 years of experience in current role",
+          "Started in this position shortly after completing undergraduate education",
+          "Progressed from entry-level responsibilities to mid-level project management",
+          "Involved in both ongoing operations and emergency response situations"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Currently at a mid-level professional role",
+          "Acts as a project manager with both independent and collaborative duties",
+          "Reports to a senior manager or director within the organization",
+          "Mentors junior staff on project workflows and tool usage"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Manages emergency preparedness activities for health centers",
+          "Provides technical assistance, including hazard identification and plan editing",
+          "Coordinates with the legal team on compliance and documentation projects",
+          "Assists with company-wide data dashboard tasks and reporting",
+          "Develops, reviews, and updates emergency management content"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Approximately 70% of time is dedicated to emergency management program support",
+          "Around 15% is spent assisting the legal team with projects and events",
+          "Roughly 10% involves technical assistance and dashboard data tasks",
+          "5% of time is devoted to ad hoc tasks or cross-departmental requests"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates with moderate autonomy in managing emergency management tasks",
+          "Authorized to make routine project management decisions within defined guidelines",
+          "Collaborates closely with senior staff for strategic or legal decisions",
+          "Expected to independently prioritize daily workflow based on urgency"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Using project management tools like Asana to organize tasks",
+          "Coordinating meetings via Zoom and managing shared documents on SharePoint",
+          "Editing and updating emergency plans using standardized templates",
+          "Providing routine technical assistance to health centers"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Responding to real-time emergency events with shifting priorities",
+          "Coordinating multi-department legal and compliance projects",
+          "Developing new emergency exercises from scratch",
+          "Managing simultaneous requests from different stakeholders"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Compiling and distributing regular emergency preparedness reports",
+          "Routine data entry into the company dashboard",
+          "Tracking project completion checklists",
+          "Sending standardized communication emails via platforms like Constant Contact"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Finds developing new emergency exercises and plans most engaging",
+          "Enjoys collaborative sessions for hazard identification and planning",
+          "Considers repetitive data entry and report formatting tedious",
+          "Least enjoys administrative paperwork not directly related to emergency management"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Experience delays due to lack of real-time data integration between tools",
+          "Manual consolidation of information from multiple platforms is time-consuming",
+          "Occasional miscommunication between legal and emergency management teams",
+          "Frequent need to duplicate effort when updating content across systems"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Higher enjoyment is linked to tasks that allow for problem-solving and creativity",
+          "Feels most productive when working on well-defined emergency projects",
+          "Skill level increases motivation for more complex project management activities",
+          "Tedious, repetitive tasks reduce both engagement and perceived productivity"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally positive about experimenting with new tools",
+          "Motivated to adopt technology that streamlines emergency management tasks",
+          "Sees technology as a means to improve workflow efficiency",
+          "Open to feedback and peer suggestions on new software"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Considers self a quick learner with user-friendly platforms",
+          "Adapts well to updates in Microsoft 365 and Asana",
+          "Occasionally faces a learning curve with specialized healthcare tools",
+          "Relies on in-platform tutorials for initial orientation"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate time to training if it leads to time savings in daily work",
+          "Prefers concise, task-focused training modules",
+          "Attends mandatory company training sessions on new tools",
+          "Sometimes prioritizes urgent work over optional software trainings"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Most motivated when tech directly addresses existing workflow pain points",
+          "High workload can be a barrier to exploring new features",
+          "Less interested in tools that don\u2019t integrate with existing systems",
+          "Peer recommendations increase willingness to try new software"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers sharing success stories encourages adoption",
+          "Management endorsement is important for prioritizing new tool training",
+          "Collaborative teams tend to experiment with new technologies faster",
+          "Participates in informal peer-led tool learning sessions"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Asana for project and task management",
+          "Relies on Zoom for virtual meetings and emergency coordination",
+          "Utilizes Microsoft 365 suite, especially Outlook, Word, and Excel",
+          "Accesses and stores documents via SharePoint"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Canva for creating visual content and infographics",
+          "Constant Contact for email communication and event outreach",
+          "Microsoft Teams for internal communication",
+          "Company-wide data dashboard for monitoring emergency metrics"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient with standard office productivity suites",
+          "Familiar with cloud-based collaboration tools",
+          "Understands the basics of health information privacy compliance platforms",
+          "Has exposure to emergency alert and notification systems"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces compatibility issues between SharePoint and Asana attachments",
+          "Must manually transfer data from dashboard to reporting templates",
+          "Some content development tools do not sync automatically with Microsoft 365",
+          "Integration lags can slow down real-time emergency communications"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic AI concepts like natural language processing and automation",
+          "Familiar with the idea of machine learning models for data analysis",
+          "Knows how large language models (LLMs) can assist with content generation",
+          "Has some awareness of potential biases in AI outputs"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Has used ChatGPT for drafting and editing emergency plan content",
+          "Occasionally employs Microsoft Copilot features within Microsoft 365",
+          "Explored Canva\u2019s AI-powered design suggestions",
+          "Tested AI-driven email subject line generators in Constant Contact"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs occasionally for specific content development tasks",
+          "Applies AI tools for summarizing complex legal documents",
+          "Employs AI features for generating visual assets more efficiently",
+          "Relies on AI-powered grammar and spelling checks in communications"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used ChatGPT to draft a new section for an emergency plan template, saving hours of manual writing",
+          "Found AI-generated email subject lines increased open rates for event communications",
+          "Once received an AI-generated summary that missed key compliance details, requiring manual correction",
+          "Learned that AI tools need careful human review before finalizing documents"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company offers occasional webinars on new AI features in Microsoft 365",
+          "Peers frequently share tips on using LLMs for drafting content",
+          "No formal, in-depth AI certification program at the organization yet",
+          "Relies on self-guided learning for most AI tool adoption"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers starting independently, then consulting AI tools for draft refinement",
+          "Uses step-by-step collaboration with AI for complex or unfamiliar content",
+          "Enjoys experimenting with prompt variations to improve AI output",
+          "Switches between modes depending on the urgency and complexity of the task"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for drafting and editing tasks",
+          "Relies on AI in an advisory capacity for brainstorming ideas",
+          "Prefers to retain final decision-making authority over AI-generated content",
+          "Involves AI as a 'co-worker' during content development sprints"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to adopting AI-driven workflows if they fit existing processes",
+          "Willing to experiment with new AI features in familiar platforms",
+          "Prefers gradual integration of AI to minimize workflow disruption",
+          "Appreciates clear guidelines and examples for new AI-driven routines"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Finds conversational interfaces like ChatGPT intuitive for drafting and brainstorming",
+          "Uses command-based interfaces for quick content edits or data queries",
+          "Switches between conversational and direct commands depending on the task complexity",
+          "Prefers conversational AI for ideation, but command-based for repetitive tasks"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Emergency management tasks require nuanced understanding of healthcare regulations",
+          "Legal compliance projects demand awareness of state-specific policies",
+          "Tacit knowledge is essential for interpreting data trends in emergency events",
+          "AI tools are helpful, but cannot fully replace domain expertise"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for routine content drafting and data summarization",
+          "Always reviews AI-generated outputs for compliance and accuracy",
+          "Does not rely solely on AI for critical legal or emergency decisions",
+          "Views AI as a support tool rather than a decision-maker"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive drafting and formatting tasks",
+          "Values human oversight for compliance and stakeholder communications",
+          "Sees ideal workflow as AI-assisted but human-approved",
+          "Supports partial automation for data entry, but not for final decision-making"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for low-risk, non-sensitive content",
+          "Finds high automation in compliance or legal tasks potentially risky",
+          "Prefers manual checks for any AI-generated document sent externally",
+          "Views automation as threatening if it bypasses human subject matter review"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances efficiency, allowing focus on higher-value tasks",
+          "Views critical thinking and domain expertise as more important than ever",
+          "Sees routine drafting and formatting skills becoming less central",
+          "Expects communication and project management skills to remain vital"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning prompt engineering to guide LLM outputs",
+          "Developing skills in AI tool evaluation and selection",
+          "Increasing responsibility for reviewing and editing AI-generated content",
+          "Managing data privacy and ethical considerations in AI use"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Moderate concern about automation of routine reporting and data entry",
+          "Not worried about AI replacing domain-specific emergency management expertise",
+          "Sees most value in blending human judgment with AI support",
+          "Believes personal role will evolve rather than disappear"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always reviews AI-generated work before distribution",
+          "Manual approval required for all externally-facing documents",
+          "Can revert or edit AI suggestions in Microsoft 365 and Canva",
+          "Organizational policy mandates human sign-off for compliance content"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company is gradually increasing support for AI tool adoption",
+          "Policies now encourage experimentation with AI for content development",
+          "Data privacy and compliance standards are being updated for AI use",
+          "Management is seeking feedback from staff on AI integration experiences"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Sees AI as a major force for efficiency and scalability in healthcare management",
+          "Believes AI can improve emergency response times and resource allocation",
+          "Recognizes potential for AI to reduce administrative burden across the industry",
+          "Cautious about risks of over-reliance on AI for critical decision-making"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes transparency in AI use is essential for trust",
+          "Supports strong oversight to mitigate AI bias and errors",
+          "Concerned about data privacy in AI-driven platforms",
+          "Advocates for clear human accountability for all critical outputs"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would benefit from seamless integration of AI across all project management tools",
+          "Wants AI-powered real-time data analysis for emergency events",
+          "Seeks automated compliance checking for draft documents",
+          "Desires more context-aware AI support for healthcare-specific scenarios"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expecting increased use of AI for rapid emergency scenario modeling",
+          "Anticipates a shift towards more strategic planning and oversight",
+          "Believes routine reporting will be mostly automated",
+          "Foresees need for continuous upskilling in AI-augmented workflows"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Designate clear guidelines and best practices for AI use",
+          "Provide ongoing AI training and support for all staff",
+          "Invest in secure, healthcare-specific AI solutions",
+          "Solicit employee feedback on AI adoption and effectiveness"
+        ]
+      }
+    ]
+  }
+]

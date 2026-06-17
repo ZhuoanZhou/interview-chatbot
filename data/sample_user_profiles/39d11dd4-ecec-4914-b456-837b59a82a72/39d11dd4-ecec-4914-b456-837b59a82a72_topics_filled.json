@@ -1,0 +1,531 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s degree from a four-year university",
+          "Major likely in a field related to technology, business, or nonprofit management",
+          "No advanced degrees yet (e.g., Master's or PhD)",
+          "Participated in several project-based courses during undergraduate studies",
+          "Completed coursework in computer science and project management"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Co-creator and fundraiser for alphaXiv, an academic collaboration tool",
+          "Role encompasses product feature brainstorming, coding, and stakeholder communication",
+          "Actively involved in both product development and external relationship management",
+          "Engages in direct discussions with users and advisors to inform next steps"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the technology sector, specifically in educational technology (EdTech)",
+          "alphaXiv targets academic and research collaboration markets",
+          "Operates at the intersection of software development and nonprofit/fundraising"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works in a small startup environment with a tight-knit team",
+          "Team likely consists of fewer than 10 full-time members",
+          "Collaborative and informal workplace culture",
+          "Frequent in-person discussions and idea exchanges"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "alphaXiv operates as a SaaS (Software as a Service) platform for academic collaboration",
+          "Targets universities, research labs, and academic professionals",
+          "Business model may involve partnerships or grants, given fundraising responsibilities"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has less than 1 year of professional experience in current role",
+          "Began working as co-creator/fundraiser shortly after graduation",
+          "First full-time role post-undergraduate studies"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Entry-level professional, early in career trajectory",
+          "Assumes significant responsibility due to startup context",
+          "Not yet in a formal managerial or senior leadership role"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Brainstorms and outlines new product features for alphaXiv",
+          "Writes and tests code for platform development",
+          "Communicates regularly with users and advisors to gather feedback",
+          "Plans next development steps based on team discussions",
+          "Participates in meetings to align on strategy and tasks"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Time is distributed fairly evenly across several dozen tasks",
+          "No single task dominates the workweek",
+          "Roughly equal allocation among brainstorming, coding, and communications",
+          "Flexibility to shift focus as new priorities emerge"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "High degree of autonomy due to startup structure and co-creator status",
+          "Directly influences feature prioritization and technical implementation",
+          "Collaborates closely with teammates but contributes significantly to decision-making",
+          "Consults with advisors and users for input, but has discretion in day-to-day choices"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Coding straightforward features or small proof-of-concept implementations feels natural",
+          "Engaging in collaborative brainstorming sessions is enjoyable and intuitive",
+          "Communicating with peers in informal discussions comes easily",
+          "Synthesizing user feedback into actionable next steps is manageable"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Balancing multiple simultaneous responsibilities can be difficult",
+          "Coordinating between technical development and user/stakeholder communication poses challenges",
+          "Planning long-term product roadmaps with limited experience is complex",
+          "Addressing integration issues between new features and existing codebase may be demanding"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Data entry related to user feedback or fundraising contacts is repetitive",
+          "Testing and debugging minor code changes could be automated",
+          "Tracking and categorizing support requests is data-heavy and potentially automatable",
+          "Generating routine status update emails or reports is suitable for automation"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys brainstorming new product features and discussing ideas with the team",
+          "Finds coding new functionalities engaging, especially when using AI tools for speed",
+          "Tedious tasks include manual data entry and administrative paperwork",
+          "Repetitive reporting or organizing meeting notes is less motivating"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Switching frequently between diverse tasks can disrupt focus",
+          "Manual tracking of user feedback and action items is prone to oversight",
+          "Occasional technical issues with tool integration slow down workflows",
+          "Limited experience sometimes makes prioritization less efficient"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Higher enjoyment correlates with tasks where skill is higher (e.g., coding, brainstorming)",
+          "Productivity peaks when working on engaging, skill-aligned projects",
+          "Tedious or less-developed skills (e.g., admin work) are less enjoyable and slower",
+          "Learning new tasks can be enjoyable if there's clear progress and support"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Proactive and enthusiastic about adopting new tools, especially AI-based ones",
+          "Views new technology as an opportunity for efficiency and innovation",
+          "Open to experimenting with beta features and early releases",
+          "Sees learning new tools as integral to personal and team growth"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new software, especially those relevant to coding and collaboration",
+          "Regularly explores new tools to enhance workflow",
+          "Willing to shift methodologies if they prove more effective",
+          "Comfortable with ongoing changes in the tech stack"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate time to learning tools that offer clear benefits",
+          "Prefers hands-on, self-guided exploration over formal, lengthy training sessions",
+          "Balances training time with immediate project needs",
+          "Would prioritize training if endorsed by peers or advisors"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential to speed up development or improve product quality",
+          "Learning is most appealing when directly applicable to current tasks",
+          "Heavy workload can limit time available for in-depth learning",
+          "Tools that lack immediate relevance are less likely to be adopted"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peer recommendations strongly influence tool adoption",
+          "Team culture encourages experimentation with new tech",
+          "Advisor input can accelerate adoption of proven tools",
+          "Management\u2019s hands-off approach allows individual initiative"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses GitHub for code collaboration and version control",
+          "Employs Slack or Discord for team communication",
+          "Works in Visual Studio Code or a similar IDE for programming tasks",
+          "Relies on Google Workspace (Docs, Sheets) for documentation and planning",
+          "Regularly interacts with LLM-based coding assistants (e.g., GitHub Copilot, ChatGPT)"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Uses Trello or Jira for task and project management",
+          "Communicates with users and advisors via email and scheduled video calls (e.g., Zoom)",
+          "Maintains documentation and meeting notes in Google Docs",
+          "Tracks fundraising contacts in a basic CRM or spreadsheet"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient in web development frameworks (e.g., React, Node.js)",
+          "Comfortable with using REST APIs for integrations",
+          "Experienced with cloud-based collaboration tools",
+          "Familiar with basic SQL or NoSQL databases"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasional challenges syncing data between task management and documentation platforms",
+          "Integrating LLM-based code suggestions into existing workflows sometimes requires manual adjustment",
+          "Switching between multiple communication channels can lead to missed messages",
+          "Versioning conflicts may arise when collaborating on shared codebases"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Comfortable with core concepts like machine learning, natural language processing, and generative AI",
+          "Understands the basics of LLMs and prompt engineering",
+          "Familiar with AI terms such as model training, inference, and fine-tuning",
+          "Keeps up-to-date with new AI trends relevant to software development"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT for coding assistance and brainstorming",
+          "Employs GitHub Copilot as an integrated code suggestion tool",
+          "May use Claude or similar LLMs for drafting communications",
+          "Experiments with AI-powered productivity extensions in VS Code"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies AI tools daily for coding new features or quick prototypes",
+          "Uses LLMs to generate boilerplate code and debug errors",
+          "Employs AI for drafting initial user emails or reports",
+          "Consults AI for brainstorming feature ideas or summarizing meeting notes"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI has successfully accelerated proof-of-concept development for new features",
+          "Occasionally, AI-generated code requires manual correction to fit project standards",
+          "LLMs sometimes miss context in multi-step tasks, leading to incomplete outputs",
+          "Learned the importance of reviewing and validating all AI-generated outputs before deployment"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal organizational AI training; learning is primarily self-driven",
+          "Peers share tips and best practices informally",
+          "Occasional group discussions on optimizing AI tool usage",
+          "Relies on online tutorials and documentation to improve AI tool proficiency"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers interactive, step-by-step collaboration with AI tools for complex tasks",
+          "Uses AI independently for straightforward or well-defined coding tasks",
+          "Switches between modes depending on the problem scope",
+          "Values the ability to iterate quickly with AI feedback"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as a coding assistant or brainstorming partner",
+          "Occasionally treats AI as an advisor for generating new ideas",
+          "Sees AI as a co-worker for repetitive or automatable tasks",
+          "Maintains human oversight over all AI-generated outputs"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Very open to experimenting with new AI-driven workflows in coding and prototyping",
+          "More cautious about automating planning or workflow decisions with AI",
+          "Willing to pilot AI-based processes if they show clear value",
+          "Looks for peer validation before widespread adoption of new workflows"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational AI interfaces for brainstorming and problem-solving",
+          "Uses command-based interfaces for precise coding or technical queries",
+          "Switches interface style based on task complexity",
+          "Finds conversational UIs more intuitive for exploring new ideas"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Some tasks, like stakeholder communication, require deep understanding of academic culture",
+          "Product planning often depends on nuanced knowledge of user needs",
+          "Technical coding tasks may benefit from general software expertise rather than domain-specific knowledge",
+          "Relies on personal judgment when addressing ambiguous or sensitive issues"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for generating initial code drafts but always reviews before deployment",
+          "Skeptical of AI recommendations for strategic planning or user communications",
+          "Treats AI outputs as suggestions rather than final decisions",
+          "Increases scrutiny for critical or high-impact tasks"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers human oversight for planning, user engagement, and critical code merges",
+          "Favors AI automation for repetitive, low-stakes, or time-consuming coding tasks",
+          "Uses AI to augment, not replace, human creativity in brainstorming",
+          "Seeks a workflow where AI accelerates output but humans ensure quality"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for non-critical, routine coding or admin tasks",
+          "Finds full automation of user communications or fundraising decisions potentially risky",
+          "Considers high automation threatening when it reduces transparency or control",
+          "Requires the option for manual review and intervention in all automated processes"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances value of critical thinking and problem-solving skills",
+          "Routine coding skills may be less central as AI handles boilerplate tasks",
+          "Communication and interpersonal skills remain highly important",
+          "Sees AI as a tool to amplify, not replace, existing capabilities"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Prompt engineering and crafting effective AI queries are now key skills",
+          "Ability to evaluate and validate AI outputs has become essential",
+          "Staying updated on AI trends and tool capabilities is a new responsibility",
+          "Integrating AI into team workflows requires new coordination skills"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Minimal concern about AI replacing core creative or relational aspects of the role",
+          "Recognizes that some repetitive coding or admin tasks may become obsolete",
+          "Watches industry trends but feels secure due to multi-faceted job scope",
+          "Believes human skills in relationship management and planning are not easily automated"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always reviews and edits AI-generated code before merging",
+          "Manual approval required for any AI-generated user communication",
+          "Prefers systems that allow for easy rollback of AI-driven changes",
+          "No critical tasks are fully automated without human intervention"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Team informally encourages exploration of AI tools",
+          "No formal policy restricting or mandating AI use",
+          "Peers regularly share new AI tools and findings",
+          "Company is open but cautious about automating high-impact processes"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Sees AI as a major driver of efficiency and innovation in tech and academia",
+          "Believes AI can democratize access to knowledge and collaboration",
+          "Recognizes potential for AI to disrupt traditional job structures",
+          "Cautiously optimistic about AI\u2019s role in supporting, not replacing, human work"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports responsible AI deployment with human oversight",
+          "Concerned about bias and lack of transparency in some AI systems",
+          "Believes ethical guidelines are needed for AI use in sensitive contexts",
+          "Advocates for clear boundaries on what AI should and shouldn\u2019t automate"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would benefit from AI tools that can assist with workflow and long-term planning",
+          "Desires more context-aware AI assistants for stakeholder communications",
+          "Wants better integration between AI tools and existing project management platforms",
+          "Hopes for tools that automate tedious admin tasks without losing customization"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine coding and admin work to be largely automated",
+          "Foresees increased focus on creativity, user engagement, and strategic planning",
+          "Believes new roles will emerge around AI tool management and oversight",
+          "Anticipates a shift toward more high-level problem-solving responsibilities"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Encourage ongoing experimentation with new AI tools and workflows",
+          "Develop guidelines for ethical and responsible AI use",
+          "Invest in training and resources to help team members upskill in AI",
+          "Foster a culture of knowledge sharing around AI best practices"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,537 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Doctorate (PhD) in Mechanical Engineering with a focus on building energy systems",
+          "Completed undergraduate and master's studies in environmental engineering",
+          "Obtained Building Performance Institute (BPI) certification for energy auditing",
+          "Participated in postdoctoral research on high-efficiency building technologies",
+          "Regularly attends industry workshops to maintain professional credentials"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Senior Energy Auditor",
+          "Responsible for conducting comprehensive energy audits of residential and commercial buildings",
+          "Leads a small team of junior auditors and technical staff",
+          "Advises clients on energy conservation measures and retrofit strategies",
+          "Oversees technical report writing and quality assurance for audit deliverables"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works within the building energy efficiency and sustainability sector",
+          "Primary focus on existing residential and commercial real estate",
+          "Industry overlaps with HVAC, green building, and facilities management",
+          "Occasionally consults for government and non-profit energy programs"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed by a mid-sized energy consulting firm with approximately 60 staff",
+          "Firm includes auditors, engineers, and support staff",
+          "Company has a collaborative and knowledge-sharing culture",
+          "Open office layout with regular project team meetings",
+          "Remote/hybrid work arrangements available for senior staff"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Firm specializes in independent energy audits and sustainability consulting",
+          "Clients include property managers, building owners, schools, and small businesses",
+          "Projects range from single-family homes to large multi-tenant commercial buildings",
+          "Services include on-site audits, retrofit recommendations, and post-retrofit verification"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has over 10 years of experience as an energy auditor",
+          "Joined current firm 8 years ago, previously worked in academic research and consulting",
+          "More than 20 years total in the building energy and sustainability field",
+          "Progressed from junior auditor to senior/lead auditor over career"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds a senior-level individual contributor role",
+          "Acts as technical lead for complex or large-scale audits",
+          "Mentors junior auditors and provides guidance on challenging projects",
+          "Frequently represents the company at industry conferences and client meetings"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Conducts detailed energy audits involving site inspections, data gathering, and analysis",
+          "Uses thermal imaging and blower door tests to assess building envelope performance",
+          "Reviews utility bills and building plans to establish energy baselines",
+          "Prepares comprehensive reports outlining findings and recommendations",
+          "Meets with clients to explain audit results and suggest energy-saving measures"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends roughly 50% of workweek on-site performing audits and inspections",
+          "About 25% of time is spent analyzing collected data and drafting reports",
+          "10% dedicated to client consultations and presentations",
+          "15% devoted to internal meetings, training, and mentoring"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates with significant autonomy in planning and executing audits",
+          "Has authority to select diagnostic tools and recommend audit methodologies",
+          "Finalizes audit reports and recommendations with limited supervisory review",
+          "Empowered to set priorities for team projects and delegate tasks to junior staff"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Identifying insulation gaps and air leaks using thermal imaging comes naturally",
+          "Interpreting utility bills and energy usage data is routine after years of experience",
+          "Explaining basic energy-saving concepts to clients feels straightforward",
+          "Drafting audit reports follows a well-established template"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Diagnosing root causes of complex HVAC inefficiencies in large buildings",
+          "Reconciling inconsistent or incomplete historical energy data",
+          "Modeling energy savings for multifaceted retrofit projects",
+          "Staying updated on rapidly changing building codes and incentive programs"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Aggregating and normalizing utility data from various sources",
+          "Populating audit report templates with standard building information",
+          "Cross-referencing equipment specifications against efficiency databases",
+          "Scheduling follow-up inspections and sending reminders"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys on-site troubleshooting and interacting with building occupants",
+          "Finds satisfaction in uncovering hidden energy waste and delivering impactful recommendations",
+          "Prefers technical analysis over administrative paperwork",
+          "Considers repetitive report formatting and manual data entry to be tedious"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manually consolidating data from disparate sources is time-consuming",
+          "Software tools sometimes lack interoperability, requiring duplicate data entry",
+          "Scheduling site visits with multiple stakeholders can cause delays",
+          "Interpreting ambiguous or poorly documented building plans can slow down audits"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Tends to be most productive when performing hands-on diagnostics, which are also most enjoyable",
+          "High skill level in technical analysis leads to faster, more accurate audits",
+          "Productivity drops when bogged down by repetitive administrative tasks",
+          "Enjoyment increases when learning or implementing new diagnostic technologies"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Proactively seeks out new tools that can streamline the audit process",
+          "Open to experimenting with emerging technologies, particularly AI and data analytics",
+          "Views continuous learning as essential to professional growth",
+          "Encourages peers to explore and adopt innovative solutions"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new diagnostic equipment and software platforms",
+          "Comfortable integrating AI tools into daily workflow",
+          "Finds that prior experience with technical software enables rapid upskilling",
+          "Occasionally faces a learning curve with highly specialized or proprietary systems"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Regularly allocates time for self-directed online courses related to AI and energy analysis",
+          "Participates in manufacturer-led workshops for new audit tools",
+          "Actively seeks certifications to maintain industry competitiveness",
+          "Willing to dedicate several hours per month to technology training"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by desire to deliver more accurate and efficient audits",
+          "Sees relevance to client outcomes as a key driver for adopting new technology",
+          "Heavy workload can sometimes delay training on less critical tools",
+          "Occasionally deterred by lack of clear documentation or support for new systems"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often share best practices and tool recommendations during team meetings",
+          "Management encourages innovation and provides budget for pilot projects",
+          "Positive feedback from colleagues accelerates adoption of proven solutions",
+          "Occasional resistance from less tech-savvy team members can slow rollout"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses FLIR thermal imaging software for analyzing infrared camera data",
+          "Relies on Retrotec blower door test software for airtightness measurements",
+          "Employs Microsoft Excel and custom macros for energy data analysis",
+          "Utilizes ChatGPT and similar LLMs daily for report drafting and research"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Infrared (IR) cameras used daily for detecting heat loss and leaks",
+          "Blower door test equipment for measuring building envelope tightness",
+          "Handheld moisture meters for assessing potential insulation issues",
+          "Digital thermometers and data loggers for temperature profiling"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Highly familiar with ASHRAE energy audit protocols and software",
+          "Experienced with Home Energy Score and EnergyPlus modeling tools",
+          "Regularly uses national equipment databases for efficiency benchmarking",
+          "Keeps up-to-date with industry standards through professional memberships"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Data from blower door tests and IR cameras often require manual consolidation",
+          "Energy modeling software sometimes lacks direct import from field data collection tools",
+          "Encountered occasional compatibility issues between legacy and new diagnostic devices",
+          "Manual transfer of data between Excel and LLM outputs can introduce errors"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands concepts such as machine learning, natural language processing, and predictive analytics",
+          "Familiar with model training, validation, and data preprocessing",
+          "Recognizes common AI use cases in anomaly detection and pattern recognition",
+          "Can explain the basics of supervised vs. unsupervised learning to colleagues"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT and OpenAI GPT-4 for report drafting and data summarization",
+          "Employs Microsoft Copilot for document editing and task automation",
+          "Has experimented with Google AutoML for energy data analysis",
+          "Uses custom Python scripts leveraging scikit-learn for energy usage modeling"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs daily to draft, edit, and proofread energy audit reports",
+          "Deploys AI to analyze patterns in utility data and flag anomalies",
+          "Leverages AI chatbots to quickly reference building codes and efficiency standards",
+          "Applies AI-driven tools to automate repetitive data entry and report formatting"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used LLMs to reduce report writing time by 30%",
+          "AI anomaly detection flagged a previously missed HVAC malfunction, leading to significant client savings",
+          "Experienced a case where AI misinterpreted building data due to poor input quality, highlighting the need for manual checks",
+          "Learned that AI-generated content still requires careful review for technical accuracy"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company provides quarterly workshops on AI and data analytics tools",
+          "Has access to an internal knowledge base with AI tool tutorials",
+          "Peers regularly share AI tips and use cases in team forums",
+          "Occasionally brings in external trainers for advanced AI applications"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI for complex data analysis tasks",
+          "Often interacts independently with LLMs for quick information retrieval",
+          "Appreciates workflows where AI tools provide intermediate suggestions before finalizing outputs",
+          "Finds hybrid approaches most effective\u2014starting independently, then consulting AI as needed"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI as a knowledgeable assistant that accelerates routine tasks",
+          "Relies on AI as a brainstorming partner when generating new audit recommendations",
+          "Treats AI as a co-worker for certain analytical workflows, especially data-heavy tasks",
+          "Prefers to retain final decision-making authority on technical judgments"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to piloting new AI-driven processes that improve efficiency",
+          "Actively participates in feedback cycles for workflow automation tools",
+          "Willing to adjust existing routines if AI offers measurable value",
+          "Encourages team to experiment with AI features in both field and office settings"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for drafting reports and brainstorming",
+          "Finds command-based interfaces efficient for scripting and batch data processing",
+          "Uses both interface types, depending on task complexity",
+          "Believes conversational AI reduces learning curves for less technical colleagues"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Diagnosing building envelope issues often requires years of on-site experience",
+          "Interpreting subtle clues from thermal imaging relies on tacit knowledge",
+          "Recommending cost-effective retrofits is informed by industry expertise and local context",
+          "Client relationship management depends on communication skills not easily automated"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for preliminary data analysis and report drafting",
+          "Relies on human review for high-stakes recommendations or financial estimates",
+          "Feels confident in AI outputs when input data quality is high",
+          "Maintains a healthy skepticism towards AI-generated technical conclusions"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive data processing and initial report generation",
+          "Believes human expertise is essential for final recommendations and client interactions",
+          "Supports semi-automated workflows where AI proposes options and humans validate",
+          "Advocates for keeping critical decisions under human supervision"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for quality-controlled, low-risk tasks such as data normalization",
+          "Finds high automation inappropriate for nuanced diagnostics or client-specific advice",
+          "Would be concerned if AI made unsupervised recommendations that affect safety or compliance",
+          "Supports automation only when robust override mechanisms are in place"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances analytical and data interpretation skills",
+          "Views interpersonal and diagnostic skills as even more valuable in an AI-enabled workflow",
+          "Finds that routine report writing skills are less critical due to automation",
+          "Sees increased need for AI literacy and prompt engineering"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developed proficiency in prompt engineering to optimize LLM outputs",
+          "Takes on responsibility for validating AI-generated technical content",
+          "Needs to stay updated on AI ethics and data privacy regulations",
+          "Acts as a resource for colleagues learning to integrate AI into audits"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Minimal concern about full role replacement given the need for on-site expertise",
+          "Recognizes that some repetitive tasks are likely to be fully automated",
+          "Monitors industry trends regarding AI capabilities and job displacement",
+          "Believes client-facing and diagnostic responsibilities are secure"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always reviews and edits AI-generated reports before client delivery",
+          "Company policy requires human sign-off on all technical recommendations",
+          "Manual override options are built into energy analysis software",
+          "Encourages team to double-check AI-flagged anomalies for accuracy"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has formalized guidelines for responsible AI use in audits",
+          "Recently introduced mandatory AI training for technical staff",
+          "Team now includes AI performance reviews in quarterly meetings",
+          "Policies emphasize human oversight for critical outputs"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will drive significant improvements in energy efficiency and sustainability",
+          "Anticipates increased accessibility of energy audits for underserved markets",
+          "Recognizes potential for AI to accelerate building decarbonization efforts",
+          "Cautions that AI adoption must be managed to prevent loss of skilled labor"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports transparent AI processes with clear documentation of decision logic",
+          "Advocates for strict data privacy and client confidentiality measures",
+          "Worries about potential bias or errors in AI-generated recommendations",
+          "Believes ethical AI use requires ongoing human oversight"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires AI tools that can automatically integrate and clean data from all diagnostic devices",
+          "Would benefit from AI-powered 3D building modeling based on field photos",
+          "Needs more robust AI-driven retrofit cost estimation features",
+          "Seeks AI that can proactively flag regulatory or code compliance gaps"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects more time will be spent on client engagement and strategic planning",
+          "Predicts technical diagnostics will become more data-driven and less manual",
+          "Believes AI will enable faster turnaround for audits and recommendations",
+          "Envisions a greater focus on validating and contextualizing AI outputs"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement regular training and certification in AI tools for all staff",
+          "Establish clear guidelines for human review and override of AI outputs",
+          "Invest in interoperable systems to streamline data flow between devices and AI platforms",
+          "Encourage cross-functional teams to pilot and evaluate emerging AI technologies",
+          "Create a feedback loop for continuous improvement of AI-based workflows"
+        ]
+      }
+    ]
+  }
+]

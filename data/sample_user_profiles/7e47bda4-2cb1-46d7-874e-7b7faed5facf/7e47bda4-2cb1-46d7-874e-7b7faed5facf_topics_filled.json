@@ -1,0 +1,535 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Attended some college but did not obtain a degree",
+          "Completed coursework in business administration and communication",
+          "Received on-the-job training for reservation systems upon starting current role",
+          "Participated in customer service workshops as part of onboarding",
+          "No formal certifications, but has completed internal travel booking system training"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Reservation and Transportation Ticket Agent",
+          "Primary responsibilities include assisting customers with travel bookings and ticket sales",
+          "Handles both reservations for transportation (air, bus, rail) and occasional lodging arrangements",
+          "Acts as a first point of contact for customer inquiries regarding travel options",
+          "Processes payments and issues tickets and confirmation documents"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the travel and transportation industry",
+          "Primarily engaged in the passenger services segment",
+          "Sector includes airlines, bus companies, and travel agencies",
+          "Focuses on customer-facing roles within the industry"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-sized travel agency with approximately 100 employees",
+          "Works in an open-plan office environment with a customer service team",
+          "Company culture emphasizes teamwork and customer satisfaction",
+          "Collaboration with colleagues is frequent, especially during peak travel seasons"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Company operates in the travel booking and ticketing market segment",
+          "Serves both individual travelers and small business clients",
+          "Provides booking services for air, rail, and bus transportation",
+          "Occasionally arranges lodging as part of comprehensive travel packages"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 1-2 years of experience as a reservation and ticket agent",
+          "Started in the current position at age 24",
+          "Experience includes handling both standard and last-minute bookings",
+          "Has been through at least one peak travel season cycle in this role"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds an early-career, frontline customer service position",
+          "Considered a junior-level employee within the organization",
+          "Has not yet taken on supervisory or team lead responsibilities",
+          "Reports directly to a customer service manager"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Makes and confirms travel reservations for customers",
+          "Sells and issues transportation tickets",
+          "Provides fare and schedule information upon request",
+          "Handles booking changes and cancellations when needed",
+          "Processes payments and generates travel confirmations"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Approximately 60% of time is spent on making and confirming reservations",
+          "Around 20% of time involves handling customer inquiries and providing information",
+          "Booking changes and cancellations account for about 10% of work hours",
+          "The remaining 10% covers payment processing and miscellaneous administrative tasks"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates within clearly defined company policies and procedures",
+          "Has autonomy to resolve common customer issues and select travel options based on availability",
+          "Escalates complex or high-value complaints to supervisors",
+          "Can authorize minor adjustments or goodwill gestures within set limits"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Entering passenger information and confirming reservations is straightforward",
+          "Processing payments using the booking system is routine",
+          "Issuing tickets and generating confirmations feels natural after initial training",
+          "Answering standard travel inquiries is comfortable due to repeated exposure"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Handling booking changes and cancellations involving multiple vendors can be complex",
+          "Resolving customer complaints, especially under time pressure, is challenging",
+          "Dealing with system outages or technical errors during transactions requires problem-solving",
+          "Accommodating last-minute requests during peak travel periods can be stressful"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Entering passenger details and payment information is highly repetitive",
+          "Checking seat or ticket availability across multiple databases is data-heavy",
+          "Responding to standard fare and schedule queries could be automated",
+          "Routine confirmation email generation is suitable for automation"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys helping customers find the best travel options based on their needs",
+          "Finds satisfaction in resolving complex booking issues successfully",
+          "Considers repetitive data entry tasks to be tedious",
+          "Handling basic schedule or fare inquiries can feel monotonous over time"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Booking systems can be slow or freeze during high-traffic periods",
+          "Manually entering data increases risk of errors and slows down workflow",
+          "Limited integration between booking and payment platforms requires duplicate entry",
+          "Some customer queries are repetitive and time-consuming to answer manually"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Tasks where skill level is high, such as issuing tickets, tend to be more enjoyable and efficient",
+          "Challenging scenarios improve skills but can be stressful if frequent",
+          "Productivity is highest when engaged in tasks that balance routine with problem-solving",
+          "Enjoyment declines when tasks are overly repetitive or lack customer interaction"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally open to trying out new tools if they improve workflow",
+          "Prefers hands-on training over lengthy documentation",
+          "Values practical demonstrations when learning new systems",
+          "Sees technology as a way to reduce repetitive workload"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new booking platforms with proper guidance",
+          "Requires initial support but becomes proficient after a few uses",
+          "Comfortable switching between multiple systems as required",
+          "Occasional confusion arises with poorly documented features"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate time for tech training if directly relevant to daily tasks",
+          "Prefers short, focused training sessions over multi-day workshops",
+          "Sees value in ongoing refreshers rather than one-off sessions",
+          "Interest is higher when new tech promises to save time or reduce errors"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by potential to make work less tedious and more accurate",
+          "Workload surges can limit time available for training sessions",
+          "Less interested in tools that seem unrelated to core responsibilities",
+          "Peer recommendations can boost motivation to learn new tech"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Adoption is higher when management demonstrates commitment to new tools",
+          "Peers sharing positive experiences encourages experimentation",
+          "Team discussions or walkthroughs help build confidence with new systems",
+          "Reluctance may occur if managers do not provide adequate support"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Amadeus or Sabre as the primary travel booking system",
+          "Accesses company\u2019s internal CRM for customer records (e.g., Salesforce)",
+          "Utilizes Microsoft Outlook for email communication with clients",
+          "Relies on in-house payment processing portal for transactions"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Phone system for direct customer support",
+          "Internal ticket printer for issuing physical travel documents",
+          "Company intranet for accessing policy updates and schedules",
+          "Spreadsheets for tracking bookings and cancellations"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient in industry-standard GDS platforms like Amadeus/Sabre",
+          "Regularly uses basic office productivity tools (Excel, Word, Outlook)",
+          "Has some exposure to customer support ticketing systems (e.g., Zendesk)",
+          "Aware of mobile booking apps but primarily works on desktop systems"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally experiences duplicate data entry due to lack of integration between CRM and booking platforms",
+          "Payment processing system is not fully synchronized with booking confirmations, requiring manual checks",
+          "Schedule updates from transport providers sometimes require manual updates in customer records",
+          "Integration gaps can slow down response time for urgent booking changes"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic AI concepts such as chatbots and language models",
+          "Recognizes AI as technology that can automate repetitive tasks and answer FAQs",
+          "Familiar with the term 'Large Language Model' (LLM) from recent industry trends",
+          "Has limited understanding of technical ML concepts beyond user-level applications"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Has used ChatGPT for drafting customer responses or travel information",
+          "Company piloted a chatbot on the website to handle standard travel queries",
+          "Occasionally uses language model-based suggestion tools integrated into the CRM",
+          "No dedicated AI booking system in place yet; AI use is supplementary"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs occasionally, about 1-2 times per week, for handling complex customer questions",
+          "Relies on AI chatbots to answer common travel FAQs when managing multiple clients simultaneously",
+          "Employs AI to draft or proofread customer communication before sending",
+          "Occasionally tests AI-generated travel recommendations for accuracy"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI chatbot successfully resolved a surge of standard inquiries during a holiday travel rush",
+          "LLM provided helpful suggestions for handling a difficult customer complaint email",
+          "Experienced one instance where AI-suggested travel details were out-of-date, requiring manual correction",
+          "Learned to always verify AI-generated information before finalizing with customers"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Received a basic internal guide on using AI chatbots for customer support",
+          "Most AI-related learning is peer-driven, with colleagues sharing tips and best practices",
+          "No formal company-wide AI training program yet",
+          "Occasional lunch-and-learn sessions cover AI tool updates"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI when learning new workflows",
+          "Finds independent AI use effective for routine, well-defined tasks",
+          "Appreciates being able to double-check AI suggestions before acting",
+          "Wants control over when and how AI suggestions are applied"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Typically treats AI as an assistant for drafting responses and checking information",
+          "Occasionally uses AI as an advisor for alternative travel solutions",
+          "Does not view AI as a co-worker but as a supportive tool",
+          "Prefers to retain decision-making authority on customer-facing tasks"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to adopting AI-driven workflows that clearly save time or reduce manual errors",
+          "Skeptical of workflows that remove too much human oversight",
+          "Willing to experiment with new AI features if peer-reviewed and manager-endorsed",
+          "Prefers gradual adoption rather than immediate, large-scale changes"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Finds conversational interfaces more intuitive for customer support scenarios",
+          "Uses command-based interfaces mainly for structured data entry or quick queries",
+          "Believes conversational AI helps simulate real customer interactions",
+          "Wants clear prompts and explanations regardless of interface style"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many tasks require understanding of travel policies, fare rules, and customer preferences",
+          "Tacit knowledge is key for resolving edge cases and unique customer requests",
+          "AI can handle generic inquiries but struggles with nuanced or context-specific decisions",
+          "Personal judgment is often needed for complex booking changes"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for routine information and standard responses",
+          "Skeptical of AI outputs for high-value bookings or sensitive complaints",
+          "Verifies AI-generated content before sharing with customers",
+          "Trust level increases with transparency about AI's sources and limitations"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive data entry and standard queries",
+          "Believes humans should make final decisions on bookings and issue resolution",
+          "Supports AI-powered suggestions, but wants manual override capability",
+          "Sees value in having AI pre-screen options, with human review for confirmation"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Acceptable when automation improves speed without sacrificing accuracy",
+          "Finds high automation threatening if it reduces opportunities for personal judgment",
+          "Automation is welcomed for straightforward, low-risk tasks",
+          "Worries about customer dissatisfaction if AI misinterprets context"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes customer service and communication skills remain essential, even with AI support",
+          "Sees technical proficiency becoming more important for navigating AI-enhanced systems",
+          "Certain repetitive skills (e.g., data entry) may become less critical",
+          "Problem-solving and empathy are viewed as irreplaceable by AI"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Requires skill in verifying and editing AI-generated content",
+          "Growing need for troubleshooting AI tool errors or miscommunications",
+          "Responsible for providing feedback on AI tool outputs to improve accuracy",
+          "May take on training or peer-support roles as AI adoption increases"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mild concern that routine tasks could be fully automated in the future",
+          "Believes human oversight will remain necessary for complex cases",
+          "Watches industry trends but does not feel immediate job threat",
+          "More concerned about changes to workflow than total job loss"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always reviews AI-generated responses before sending to customers",
+          "Manual approval is required for all bookings and ticket issuances",
+          "Can override chatbot suggestions in the CRM interface",
+          "Company policy mandates human sign-off for refunds and sensitive changes"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has become more open to piloting new AI features in the last year",
+          "Team meetings increasingly include AI tool feedback sessions",
+          "Policies now emphasize transparency and human oversight with AI outputs",
+          "Some resistance remains among longer-tenured staff"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI has potential to make travel booking more efficient for both agents and customers",
+          "Sees risk of job displacement in highly repetitive or entry-level roles",
+          "Thinks AI could improve overall customer satisfaction if well-implemented",
+          "Wary of over-reliance on AI leading to loss of personal touch in service"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes transparency about AI-generated content is essential for trust",
+          "Concerned about potential for AI bias or misinformation in customer interactions",
+          "Supports responsible AI use that complements, not replaces, human judgment",
+          "Values privacy and data security in AI-driven processes"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would benefit from AI that automatically updates fare and schedule changes in real time",
+          "Desires smarter, context-aware chatbots for nuanced customer questions",
+          "Wishes for AI to automate duplicate data entry between booking and payment systems",
+          "Envisions AI tools that proactively flag potential booking conflicts before confirmation"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects shift towards more advisory and problem-solving roles as AI handles routine tasks",
+          "Believes customer interaction will focus more on complex cases and high-value clients",
+          "Anticipates need for ongoing training in AI tool usage and troubleshooting",
+          "Thinks human customer service skills will remain valuable despite increased automation"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Advocates for regular staff training as new AI tools are introduced",
+          "Wants clear policies on AI oversight and human-in-the-loop requirements",
+          "Recommends involving frontline staff in feedback and testing of AI features",
+          "Supports investment in AI tools that reduce manual, repetitive work without sacrificing service quality"
+        ]
+      }
+    ]
+  }
+]

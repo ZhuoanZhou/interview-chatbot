@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Interviewer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .header {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .username {
+            color: white;
+            font-weight: 500;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+        }
+        
+        .logout-button {
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            border: 2px solid white;
+            border-radius: 20px;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        
+        .logout-button:hover {
+            background: white;
+            color: #667eea;
+        }
+        
+        .container {
+            max-width: 600px;
+            padding: 40px;
+            text-align: center;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 32px;
+        }
+        
+        .description {
+            color: #666;
+            margin-bottom: 30px;
+            line-height: 1.6;
+            text-align: left;
+            font-size: 16px;
+        }
+        
+        .start-button {
+            display: inline-block;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .start-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+        
+        .start-button:active {
+            transform: translateY(0);
+        }
+
+        .privacy-notice {
+            background: #f0f7ff;
+            border-left: 4px solid #667eea;
+            padding: 15px 20px;
+            margin: 25px 0;
+            text-align: left;
+            border-radius: 4px;
+        }
+
+        .privacy-notice h3 {
+            color: #667eea;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .privacy-notice p {
+            color: #555;
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 8px;
+        }
+
+        .privacy-notice ul {
+            color: #555;
+            font-size: 14px;
+            margin-left: 20px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span class="username">👤 {{ username }}</span>
+        <a href="/logout" class="logout-button">Logout</a>
+    </div>
+    
+    <div class="container">
+        <h1>🤖 Welcome to our AI Interviewer System</h1>
+        <p class="description">
+            Thank you for participating in our research study to better understand how professionals use AI tools in their day-to-day work!
+            This 30-45 minute conversational interview will explore your typical work tasks, current AI usage, and attitudes toward AI in the workplace.
+        </p>
+        <p class="description">
+            <strong>How it works:</strong> The AI interviewer will first introduce themselves. Then, you can communicate with our AI interviewer using either text or voice input.
+            The conversation is flexible and adaptive, so feel free to express yourself or ask questions/clarifications to our AI interviewer in whichever way feels most comfortable!
+        </p>
+
+        <div class="privacy-notice">
+            <h3>🔒 Privacy Notice</h3>
+            <p>During this interview, you are <strong>not required</strong> to share any personally identifiable information (PII). The interviewer will focus on your experiences, perspectives, and insights. <strong>We do not collect or store PII (including the audio transcript if voice input is used).</strong></p>
+            <p><strong>You do not need to provide:</strong></p>
+            <ul>
+                <li>Full name, age, or date of birth</li>
+                <li>Physical address or precise location</li>
+                <li>Contact information (phone, email)</li>
+                <li>Government IDs or financial information</li>
+            </ul>
+            <p>Feel free to share your professional experiences and perspectives without disclosing identifying details.</p>
+        </div>
+
+        <a href="/chat" class="start-button">Start Interview</a>
+    </div>
+</body>
+</html>

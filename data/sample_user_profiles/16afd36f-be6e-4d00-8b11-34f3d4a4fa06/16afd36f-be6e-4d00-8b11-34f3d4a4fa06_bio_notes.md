@@ -1,0 +1,204 @@
+# Biographical Notes
+
+- Assuming responsibility for integrating AI tools with existing engineering workflows
+- Runs an informal lunchtime group mastering mechanical-themed board games.
+- Keeps a jar of different steel ball bearings on their desk as a tactile stress reliever.
+- Brews specialty teas inspired by industrial regions of the world and shares samples.
+- Regularly seeks out updates on latest CAD and simulation advancements
+- Uses command-based interfaces for scripting repetitive or well-defined tasks
+- Has basic knowledge of how AI can be applied to engineering data analysis
+- Has a tradition of hiding tiny mechanical toys in coworkers’ desks as surprise gifts.
+- Expects AI to transform routine analysis and documentation processes across industries
+- Requires validation of AI recommendations before integrating into final reports
+- Leverages AI-based code suggestions to speed up exploratory analysis in Jupyter Notebooks
+- Has a collection of enamel pins featuring famous engineering feats from history.
+- Runs physics-based simulations (e.g., FEA, CFD) to evaluate design performance
+- Role involves CAD design, evaluation of designs using physics-based modeling, and simulation
+- Adapts quickly to new versions of CAD and simulation software
+- Comfortable experimenting with new features or AI integrations
+- Company is updating best practices to include guidelines for responsible AI use
+- Owns a vintage typewriter from the 1950s that they use to write personal notes.
+- Has a habit of naming all their office chairs and insists each has a unique personality.
+- Finds brainstorming new design concepts and solving technical challenges most engaging
+- Routine post-processing of large simulation datasets
+- Leverages Jupyter Notebooks for exploratory data analysis and visualization
+- Participates in online tutorials and webinars related to engineering software
+- Recommends investment in formal AI training for engineers and technical staff
+- Organizes an annual 'mechanical gadget swap' event to trade quirky old tools and parts.
+- Has a vintage wristwatch that requires winding daily and refuses to switch to digital.
+- Enjoys cooking elaborate themed dinners inspired by different engineering eras.
+- Maintains a secret stash of collectible rubber ducks, each dressed as famous inventors.
+- Encourages team discussions on evolving best practices for human-AI collaboration
+- Believes AI will accelerate innovation in engineering and manufacturing
+- Uses independent prompts for straightforward code generation or documentation requests
+- Employed at a mid-sized engineering firm with approximately 200-500 employees
+- Juggles stress balls during brainstorming sessions to stay mentally sharp.
+- Job title: Mechanical Engineer
+- Has a tradition of bringing a unique international snack to share every Friday.
+- Prefers AI automation for repetitive or data-intensive subtasks
+- Uses a retro slide rule as a desk ornament and nostalgic calculator backup.
+- Preparation and formatting of test reports for internal documentation
+- Composes original jingles about engineering concepts and shares them with coworkers for fun.
+- Writes humorous engineering haikus and pins them around the office for inspiration.
+- Work environment is collaborative, with cross-functional teams including engineers, technicians, and analysts
+- Manual extraction and reformatting of simulation results can be time-consuming
+- Learning to critically evaluate and debug AI-generated code and analyses
+- Wants transparent override options for all AI-driven processes
+- Confident in ability to self-learn via online resources and documentation
+- Familiar with MATLAB for mathematical modeling and algorithm development
+- Keeps a foot-powered mini elliptical under the desk to stay active during meetings.
+- Supports collaborative workflows where AI augments, but does not replace, engineering judgment
+- Trusts AI for automating routine data handling but reviews all outputs for technical accuracy
+- No formal AI training program currently in place
+- Applies version control with Git for tracking code and simulation files
+- Limited interoperability between CAD and simulation software slows workflow
+- Successfully used ChatGPT to rapidly prototype a data visualization script for a design review
+- Keeps a whiteboard calendar filled with engineering-themed puns and jokes.
+- Occasionally limited by high project workload and tight deadlines
+- Learned that manual review and editing are essential to ensure accuracy of AI-assisted outputs
+- Spends about 10% on documentation and presentations
+- Experiments with MATLAB's AI Toolbox for data analysis projects
+- Employs ANSYS for finite element analysis and simulation
+- Maintains detailed logs of AI-assisted workflows for traceability
+- Actively seeks opportunities to integrate AI into daily engineering workflows
+- Develops and executes test protocols for prototype devices
+- Keeps a sketchbook by their desk filled with doodles of imagined machines and gadgets.
+- Quickly interprets and summarizes data for routine analyses
+- Managers encourage adoption of innovative tools to improve productivity
+- Familiar with natural language processing (NLP) and large language models (LLMs)
+- Completed doctoral research focused on computational modeling and simulation of mechanical systems
+- Spends approximately 40% of time on CAD design and modeling
+- Brews their own experimental hot sauces and brings samples for coworkers to try.
+- Uses SolidWorks for CAD modeling and design
+- Writes a blog about quirky engineering myths and legends from around the world.
+- Focuses on mechanical design and testing within a research and development environment
+- Learning new technical skills, such as advanced simulation techniques, is both challenging and rewarding
+- Many design and testing tasks require deep understanding of material properties and engineering principles
+- Worries about potential for bias or errors in automated analyses
+- Suggests establishing standard procedures for AI tool validation and oversight
+- Plays classical piano to relax and boost creativity after long design sessions.
+- Collects postcards from engineering landmarks visited during business trips.
+- Believes human oversight is essential for design decisions and test methodology development
+- Troubleshooting unexpected simulation results or physical test anomalies
+- Enjoys exploratory analysis and interpreting complex datasets
+- Utilizes GitHub Copilot to assist with Python scripting and automation
+- Supports transparent and explainable AI systems in engineering contexts
+- Mildly concerned about automation of highly repetitive or basic analytical tasks
+- Ensures all AI-generated scripts are manually reviewed before deployment
+- Participated in advanced coursework on finite element analysis, CAD, and physical measurement techniques
+- Has a prized collection of miniature mechanical puzzles displayed on the windowsill.
+- Team increasingly discusses ethical and practical implications of AI integration
+- Would benefit from LLMs fine-tuned on engineering documentation and standards
+- Peers regularly share tips on new software and workflows
+- Began current professional role shortly after completing doctoral studies
+- Is passionate about rescuing and restoring old mechanical clocks in the community.
+- Attended industry workshops on CAD and simulation tools during graduate studies
+- Feels most comfortable with CAD modeling and parametric design adjustments
+- Utilizes Python scripts for data post-processing and automation
+- Desires AI tools that can seamlessly convert simulation results into formatted technical reports
+- Contributes technical recommendations but does not have final sign-off authority on large projects
+- Believes routine data handling skills may become less important due to automation
+- Relies on self-directed learning and online resources to improve AI skills
+- Keeps a small aquarium with robotic fish that mimic real swimming patterns.
+- Takes up unusual cross-training workouts like circus skills and trapeze for fun.
+- Volunteers as a local youth robotics club mentor on weekends.
+- Uses a vintage slide projector during presentations just for nostalgic flair.
+- Believes ongoing training is critical to maintain technical edge
+- Always drinks black coffee but insists on using a spoon to stir it exactly seven times.
+- Uses OpenAI's ChatGPT for drafting code and brainstorming engineering solutions
+- Company operates in the mechanical engineering and advanced manufacturing segment
+- Always wears mismatched socks representing different engineering materials (e.g., metal and rubber).
+- Serves clients in sectors such as automotive, aerospace, or industrial equipment manufacturing
+- Brings a different quirky lapel pin to work every week, each representing a classic invention.
+- Holds a Doctorate (PhD) in Mechanical Engineering
+- Likes to build intricate origami models and leaves them as desk decorations.
+- Applies LLMs weekly to generate Python data analysis scripts
+- Collects rare mechanical wristwatches and enjoys disassembling them to understand the inner workings.
+- Appreciates the flexibility to toggle between modes depending on task complexity
+- Views AI primarily as a digital assistant for brainstorming and automation
+- Is a self-taught amateur astronomer who organizes monthly star-gazing meetups.
+- Finds high automation threatening if it bypasses necessary manual checks or domain input
+- Has a tradition of bringing homemade cookies shaped like gears and cogs every Friday.
+- Limited direct integration between physical measurement equipment and digital data pipelines
+- Wants improved AI-driven interoperability between CAD, simulation, and measurement systems
+- Notices a gradual shift towards greater openness to AI experimentation
+- Accepts high automation for standardized data processing and documentation
+- Understands key AI/ML concepts such as supervised learning, regression, and classification
+- Uses AI tools to automate repetitive data cleaning and formatting tasks
+- Integrating multi-physics simulations and validating their accuracy
+- Encounters occasional file format incompatibility between CAD and simulation platforms
+- Sees AI as a complement rather than a threat to their long-term role
+- Has autonomy to select modeling approaches and simulation parameters
+- Collects vintage engineering textbooks and proudly displays them even if outdated.
+- Developing proficiency in prompt engineering and guiding AI outputs
+- Willing to dedicate several hours per week for skill development
+- Company offers informal peer-led sessions on AI tool adoption
+- Successfully identifying failure modes in prototypes relies on contextual domain expertise
+- Higher skill level in CAD and modeling tasks leads to increased productivity and enjoyment
+- Owns a custom-made coffee mug that features changing mechanical diagrams when heated.
+- Works in the manufacturing and engineering sector
+- Has a habit of organizing monthly 'tinker nights' where coworkers bring odd parts to build weird contraptions.
+- First industry position post-PhD
+- Uses Microsoft Excel for data recording and basic analysis
+- Occasionally treats AI as a co-worker for iterative code development
+- Considers repetitive data cleaning and report formatting tedious
+- Team culture is supportive of experimentation with new digital solutions
+- Has an ever-growing collection of colorful mechanical pencils, each with a story.
+- Batch processing of CAD files for parameter sweeps
+- Manual data transfer is sometimes required between analysis and reporting tools
+- Skeptical of AI-generated solutions for safety-critical or novel engineering problems
+- Foresees a shift towards more interdisciplinary and AI-assisted engineering roles
+- Repetitive or manual data tasks decrease motivation and perceived productivity
+- Encountered limitations when AI-generated code failed to account for domain-specific simulation constraints
+- Developing new test methodologies for non-standard measurement scenarios
+- Efficient at running established simulation workflows
+- Focuses on design, prototyping, and testing of mechanical devices
+- Advocates for regular reviews of AI ethics, safety, and impact on job roles
+- Prefers step-by-step collaboration when using AI for complex tasks
+- Analyzes simulation and experimental data to guide design decisions
+- Has a rotating playlist featuring retro 80s synth music to fuel focused work sessions.
+- Develops and implements new test methodologies for extracting key parameters from devices
+- Simulation setup often depends on tacit knowledge gained from hands-on lab experience
+- Cautiously optimistic about AI's potential to improve workplace efficiency
+- Major design decisions are reviewed and approved by senior engineers or managers
+- Is obsessed with classic science fiction movies and hosts monthly watch parties.
+- Company operates at the intersection of advanced engineering and applied physics
+- Occasional lack of standardized test procedures requires additional effort to document
+- Highly open to experimenting with new AI-powered processes
+- Responsible for post-processing, analysis, and presentation of simulation results
+- Expects to oversee AI-augmented workflows and validate automated analyses
+- Highly positive attitude towards adopting new engineering and AI tools
+- Not worried about AI fully replacing core engineering responsibilities
+- Holds a junior to early mid-level engineering position
+- Experienced in using LabVIEW for automating test equipment
+- Finds conversational AI more effective for troubleshooting and exploratory tasks
+- Views AI as enhancing the need for advanced analytical and problem-solving skills
+- Allocates around 30% to simulation setup, execution, and analysis
+- Participates in escape room challenges quarterly with a group of engineer friends.
+- Devotes 20% to experimental testing and measurement
+- Performs CAD design of mechanical components and assemblies
+- Thinks effective communication and domain expertise remain critical with AI integration
+- Has a standing desk customized with a pneumatic height adjustment system they built themselves.
+- Presents findings and recommendations to design teams and management
+- Plays competitive frisbee in a weekend league to unwind after long workweeks.
+- Prefers conversational interfaces (e.g., ChatGPT) for ideation and code refinement
+- Demonstrates advanced technical expertise due to doctoral background
+- Anticipates spending less time on manual data processing and more on creative problem-solving
+- Considered an early-career professional in the field
+- Maintains a ‘failure log’ of humorous engineering mishaps (both fictional and real).
+- More likely to invest in learning tools directly relevant to current projects
+- Relies on digital calipers and measurement systems for physical testing
+- Avid gardener of bonsai trees, with a miniature forest on their office windowsill.
+- Writes a monthly newsletter jokingly titled 'Torque Talk' for the office.
+- Sees AI as an advisor for exploring alternative solutions to engineering problems
+- Prefers to sketch ideas with colored chalk on small blackboards instead of digital devices.
+- Company culture emphasizes innovation and continuous learning
+- Proficient with leading CAD and simulation packages (SolidWorks, ANSYS, COMSOL)
+- Advocates for clear accountability and human oversight in AI-driven workflows
+- Motivated by the potential for increased efficiency and automation
+- Has a tradition of gifting coworkers small handmade mechanical gadgets during holidays.
+- Views learning new tech as essential for career growth
+- Practices calligraphy as a relaxing hobby, often gifting handmade cards to colleagues.
+- Has 1-2 years of experience as a Mechanical Engineer
+- Company requires human approval for any automated changes to design files
+- Can propose new test methodologies and suggest design iterations

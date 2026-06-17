@@ -1,0 +1,496 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s Degree from an accredited university",
+          "Completed undergraduate studies in Health Administration",
+          "Attended several continuing education workshops on medical office management",
+          "Obtained certification in Medical Office Administration",
+          "Participated in annual compliance and privacy training required for healthcare staff"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Official job title: Medical Secretary and Administrative Assistant",
+          "Supervises nursing staff within clinical and administrative contexts",
+          "Responsible for documenting patient care, maintaining records, and managing communications",
+          "Coordinates between doctors, nurses, managers, and investors",
+          "Acts as a liaison during meetings, handling minutes and follow-up documentation"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Employed in the healthcare sector",
+          "Works specifically within a medical facility setting, such as a clinic or hospital",
+          "Focuses on administrative and support functions in a clinical environment"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works in a medium-sized medical organization with 100-300 employees",
+          "Facility includes multiple departments: clinical care, administration, and support services",
+          "Work environment is fast-paced, multidisciplinary, and highly collaborative"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Operates in private healthcare services",
+          "Caters to outpatient and inpatient medical treatment",
+          "Serves both direct patient care and business administration needs"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has worked as a medical secretary and administrative assistant for over 10 years",
+          "Accumulated more than a decade of experience in both clinical and administrative tasks",
+          "Has seen significant changes in technology and workflow over their tenure"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds a senior-level administrative position",
+          "Responsible for supervising and delegating work to junior staff",
+          "Acts as a key point of contact for medical, administrative, and managerial stakeholders"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Supervises nurses and oversees daily patient care documentation",
+          "Assists doctors with clinical duties, including patient intake and medication administration",
+          "Prepares meeting minutes, reports, and business documents for managers and investors",
+          "Coordinates scheduling, workflow assignments, and task delegation among nursing staff",
+          "Handles confidential information and ensures compliance with healthcare regulations"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 40% of time on direct supervision and nurse management",
+          "Dedicates about 25% to administrative tasks like minute-taking and report generation",
+          "Allocates 20% to clinical support, such as patient assessments and doctor assistance",
+          "Uses the remaining 15% for meetings, communication, and workflow optimization"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has significant autonomy in assigning tasks and managing daily workflows",
+          "Authorized to make on-the-spot decisions regarding staff needs and patient care priorities",
+          "Consults with managers or doctors for complex or high-impact decisions",
+          "Empowered to implement small process improvements independently"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Taking meeting minutes and drafting routine reports are second nature due to years of practice",
+          "Delegating tasks and supervising nursing staff feels intuitive after extensive experience",
+          "Basic patient care procedures like taking vitals are performed confidently and efficiently"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Managing unexpected staff shortages or emergencies requires complex decision-making",
+          "Reconciling conflicting demands from doctors, management, and investors can be challenging",
+          "Ensuring full regulatory compliance while handling sensitive patient and business information involves detailed, precise work"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Compiling daily reports and updating patient data are repetitive and time-consuming",
+          "Scheduling staff shifts and routine appointments involve significant manual data entry",
+          "Formatting standard business documents is a data-heavy process well-suited for automation"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys direct patient interaction and problem-solving with staff",
+          "Finds creating new workflow solutions or process improvements engaging",
+          "Considers repetitive documentation and manual data entry to be tedious",
+          "Enjoys using AI tools for brainstorming or visualizing schedules"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual entry of data into multiple, non-integrated systems causes inefficiency",
+          "Last-minute changes in schedules often require rework and cause delays",
+          "Difficulty in keeping up with regulatory paperwork and compliance checks",
+          "Occasional software compatibility issues slow down administrative processes"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "High skill level in documentation leads to fast, accurate report generation and greater enjoyment",
+          "Feels more productive and engaged when solving complex problems or optimizing processes",
+          "Tedious, low-skill repetitive tasks lower overall job satisfaction and productivity"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Has a positive attitude toward adopting new tools that improve workflow",
+          "Sees value in learning new technologies, especially those that automate routine work",
+          "Enjoys exploring productivity features in both standard and AI-driven software"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Considers self highly adaptable due to extensive experience with evolving healthcare tech",
+          "Able to quickly pick up new software interfaces with minimal formal training",
+          "Relies on self-learning and online tutorials to stay updated"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate several hours per month to training if tools are relevant to daily work",
+          "Prefers hands-on, practical training over theoretical instruction",
+          "Sees tech training as an investment in reducing future workload"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by time-saving and productivity gains",
+          "Occasional barrier: high workload can limit availability for formal training",
+          "Most likely to adopt new tech when clear benefits to patient care or efficiency are demonstrated"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often share tips and shortcuts, encouraging further exploration",
+          "Supportive management increases willingness to try new platforms",
+          "Participates in informal peer-training or knowledge-sharing sessions"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Microsoft Office suite daily (Word, PowerPoint, Excel)",
+          "Accesses patient management software for record-keeping and scheduling",
+          "Relies on email clients (e.g., Outlook) and messaging apps for internal communication",
+          "Utilizes LLM-based AI tools for task automation and content generation"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Standard desktop or laptop computer is central to daily tasks",
+          "Uses mobile phone for urgent staff communication and updates",
+          "Employs physical notepads and pens for quick notes during ward rounds"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient in industry-standard EHR (Electronic Health Record) systems",
+          "Familiar with digital appointment scheduling platforms",
+          "Experienced with secure document storage and sharing protocols common in healthcare"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Faces challenges linking EHR systems with reporting software",
+          "Manual transfer is sometimes required between scheduling and documentation platforms",
+          "Occasional formatting errors when moving documents between different software suites"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands the basics of large language models and their applications",
+          "Familiar with common AI terminology like 'prompt', 'output', and 'model training'",
+          "Able to distinguish between generative AI and traditional automation tools",
+          "Keeps updated on developments in AI for healthcare administration"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT or similar LLM tools for content generation and analysis",
+          "Employs Microsoft Copilot within Office 365 for document drafting",
+          "Occasionally uses AI-based scheduling assistants integrated with email"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies AI tools daily for drafting reports, emails, and meeting minutes",
+          "Uses AI to generate charts and create timetables for staff rotations",
+          "Employs LLMs to brainstorm solutions to workflow bottlenecks"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used AI to automate repetitive document formatting, saving hours each week",
+          "Encountered occasional inaccuracies in AI-generated content, requiring manual review",
+          "Found AI-generated charts highly effective for visualizing schedules, but sometimes needed customization"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company provided initial webinars on safe AI usage in the workplace",
+          "Peers frequently share AI prompts and tips in informal meetings",
+          "No formal certification required, but informal learning is encouraged"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers a step-by-step collaboration style when working with AI tools",
+          "Often refines AI-generated content iteratively rather than relying solely on initial output",
+          "Feels most comfortable when AI assists but leaves final decisions to the user"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant or co-worker for administrative tasks",
+          "Uses AI as an advisor when seeking new ideas or analyzing situations",
+          "Prefers to retain oversight and final editorial control over AI-generated outputs"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Very open to experimenting with new AI-driven workflows",
+          "Actively seeks out new AI features or integrations that could improve efficiency",
+          "Willing to advocate for AI adoption among peers if benefits are clear"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and exploratory tasks",
+          "Uses command-based inputs for structured, repetitive requests (e.g., 'summarize this report')",
+          "Finds conversational AI more user-friendly, especially for idea generation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many administrative decisions depend on deep understanding of healthcare workflows",
+          "Patient care documentation and compliance require tacit, context-specific knowledge",
+          "Relies on personal experience to validate AI outputs in sensitive situations"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for drafting and brainstorming but always reviews outputs before use",
+          "Wary of relying solely on AI for regulatory or compliance-sensitive content",
+          "Confident in AI for routine documentation, less so for nuanced or high-stakes decisions"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to automate repetitive, low-risk documentation and scheduling",
+          "Believes human oversight is essential for clinical or compliance-related decisions",
+          "Seeks a hybrid model where AI accelerates workflow but final judgment remains human"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for standardized, low-stakes administrative tasks",
+          "Views high automation in patient care or regulatory areas as potentially risky",
+          "Believes transparency and override options are crucial when automating sensitive tasks"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "AI enhances the value of supervisory and problem-solving skills",
+          "Routine documentation skills are less critical due to automation",
+          "Communication and oversight abilities remain essential despite automation"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning to craft effective AI prompts is a new, valuable skill",
+          "Tasked with evaluating and correcting AI-generated outputs",
+          "Increasingly responsible for training peers in AI tool adoption"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Unconcerned about full job replacement due to need for human judgment and context",
+          "Recognizes some routine tasks may be phased out by automation",
+          "Focuses on upskilling to remain relevant as job evolves"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always reviews AI-generated content before finalizing documents",
+          "Manual approval is required for any critical or compliance-related output",
+          "AI tool settings allow adjustment of output detail and tone"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Organization has become more open to AI experimentation in the last few years",
+          "Policies now encourage responsible AI use, with guidelines for sensitive data",
+          "Team culture supports upskilling and knowledge sharing around AI tools"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will continue to streamline administrative healthcare processes",
+          "Optimistic about AI improving patient outcomes through efficiency gains",
+          "Sees potential for AI to free up time for more meaningful human interaction"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Stresses the importance of data privacy and patient confidentiality with AI use",
+          "Believes AI should augment, not replace, human decision-making in critical contexts",
+          "Warns against over-reliance on AI without adequate human oversight"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires better AI integration between EHR, scheduling, and reporting systems",
+          "Would benefit from AI tools capable of real-time compliance checking",
+          "Seeks more intuitive AI-driven dashboards for monitoring staff performance and patient flow"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine documentation and scheduling to be almost fully automated",
+          "Anticipates taking on more oversight, training, and workflow optimization responsibilities",
+          "Foresees increased emphasis on data analysis and process improvement skills"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Wants clear guidelines on appropriate AI use and manual oversight requirements",
+          "Recommends ongoing training and peer support for AI adoption",
+          "Advocates for periodic review of AI tools for relevance, accuracy, and compliance"
+        ]
+      }
+    ]
+  }
+]

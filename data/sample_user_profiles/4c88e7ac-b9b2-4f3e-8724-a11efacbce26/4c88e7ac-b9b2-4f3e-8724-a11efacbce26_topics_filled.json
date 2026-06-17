@@ -1,0 +1,492 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master\u2019s Degree in Molecular or Cellular Biology",
+          "Completed undergraduate studies in a biology-related field before pursuing advanced degrees",
+          "Received additional specialized training in molecular biology techniques such as PCR and Western blotting",
+          "Attended professional workshops and seminars to stay updated on lab methodologies"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Lab Director for a molecular and microbiology laboratory",
+          "Responsible for overseeing undergraduate and graduate student research projects",
+          "Directly involved in experimental design, troubleshooting, and mentoring students",
+          "Ensures smooth laboratory operations and compliance with protocols"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the academic research sector",
+          "Specializes in life sciences, specifically molecular and cellular biology",
+          "Collaborates within a university or higher education institution environment"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works in a medium-sized academic laboratory",
+          "Lab typically comprises 10-20 people including faculty, graduate, and undergraduate students",
+          "Collaborative, educational environment focused on research and learning"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Academic research laboratory within a university or college",
+          "Focuses on basic and applied research in molecular and microbiology",
+          "Supports both teaching and research missions"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has more than 10 years of experience in molecular and cellular biology",
+          "Served in a lab leadership or director role for several years",
+          "Has mentored multiple cohorts of undergraduate and graduate students over the past decade"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds a senior-level position as a lab director",
+          "Considered an expert in molecular and cellular biology techniques",
+          "Experience includes both bench science and supervisory responsibilities"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Guides and supervises undergraduate and graduate students in experimental work",
+          "Designs, plans, and troubleshoots molecular biology experiments (e.g., PCR, Western blot)",
+          "Conducts hands-on bench experiments as needed, especially for time-sensitive tasks",
+          "Reviews and verifies experimental protocols and calculations with students"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Time at the bench varies daily, sometimes significant, sometimes minimal",
+          "A substantial portion of time is devoted to troubleshooting experiments",
+          "At certain times of the year, more time is spent supporting undergraduates with their projects",
+          "Administrative and supervisory duties balance out with hands-on laboratory work"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates with a high degree of autonomy in both scientific and managerial decisions",
+          "Has authority to design experiments and approve protocols",
+          "Decides on allocation of resources and task assignments within the lab",
+          "Mentors students in decision-making while retaining final oversight"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Mentoring students and explaining core molecular biology concepts",
+          "Designing standard PCR experiments and setting up master mixes",
+          "Identifying common experimental errors and offering quick troubleshooting steps"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Troubleshooting experiments with ambiguous or inconsistent results",
+          "Managing time-sensitive or multi-step experiments under tight deadlines",
+          "Balancing the diverse skill levels of undergraduate and graduate students during collaborative projects"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Preparing and calculating reagent dilutions for multiple PCR setups",
+          "Recording and organizing experimental results into spreadsheets or lab notebooks",
+          "Routine background research on genes or protocols prior to experiments"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Finds experimental troubleshooting and successful mentoring highly rewarding",
+          "Enjoys collaborative problem-solving sessions with students",
+          "Considers repetitive calculations and data entry less engaging",
+          "Tedious tasks include updating lab inventories and reagent logs"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Frequent need to re-explain basic experimental concepts to new students",
+          "Time lost to manual calculations and data transcription",
+          "Occasional miscommunication or errors due to inconsistent protocol adherence"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Higher productivity and enjoyment when working on complex experiments and troubleshooting",
+          "Skill level allows for efficient multitasking and rapid identification of errors",
+          "Less enjoyment during repetitive or administrative tasks, which can slow overall productivity"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open and curious about adopting new technologies that improve workflow",
+          "Encourages students to experiment with new tools, including AI platforms",
+          "Believes in staying current with technological advancements in the field"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new software, particularly when it has clear relevance to lab work",
+          "Comfortable with trying emerging AI tools and integrating them into existing workflows",
+          "Often leads by example in exploring new digital resources"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate time to learning tools that offer clear benefits",
+          "Participates in workshops or webinars on technological advancements",
+          "Supports students in their own tech learning journeys"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by potential for increased efficiency and accuracy in experiments",
+          "Workload can sometimes limit time available for in-depth tech training",
+          "Relevance to daily tasks is a primary factor in prioritizing which tools to learn"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers and students\u2019 enthusiasm for new tools positively influences adoption",
+          "Lab culture encourages knowledge sharing about new software and tech",
+          "Positive experiences from colleagues validate investing time in tool adoption"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Google for literature searches and background research",
+          "Employs ChatGPT and similar LLMs for calculations, troubleshooting, and background queries",
+          "Relies on digital lab manuals and protocol databases"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Uses PCR machines, gel electrophoresis equipment, and Western blot apparatus",
+          "Maintains physical and electronic lab notebooks for record-keeping",
+          "References printed and digital lab protocols regularly"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Highly familiar with standard molecular biology instrumentation and techniques",
+          "Proficient with commonly used lab management and data recording systems",
+          "Stays informed about new lab technologies through professional development"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces difficulty transferring data between digital notebooks and analysis software",
+          "Some AI tools lack integration with proprietary lab management systems",
+          "Manual steps are often needed to bridge gaps between calculation tools and experimental documentation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic concepts of large language models and their capabilities",
+          "Knowledgeable about the distinction between generative AI and traditional automation",
+          "Regularly discusses AI use cases with students and colleagues"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT for calculations, troubleshooting, and background research",
+          "Students occasionally use other AI chatbots or calculators for experiment planning",
+          "Faculty colleagues also use ChatGPT for writing test questions and summaries"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "AI tools are used several times a week for experiment-related queries",
+          "Commonly applies AI for calculating reagent dilutions and master mixes",
+          "Uses AI to generate background on target genes and expected product sizes",
+          "AI is consulted for troubleshooting unexpected experimental results"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI successfully helps with quick calculations and protocol clarifications",
+          "On occasion, AI-generated suggestions require manual verification due to potential inaccuracies",
+          "Learned to always cross-check AI outputs with trusted sources, especially for critical experiments",
+          "Students have sometimes relied too heavily on AI, underscoring the need for domain expertise"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal organizational AI training programs in place yet",
+          "Peers and students frequently share tips and best practices informally",
+          "Adoption of AI is primarily self-directed, supported by community knowledge sharing"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI, especially when troubleshooting",
+          "Frequently interacts with AI in tandem with student input for educational value",
+          "Occasionally uses AI independently for quick checks or confirmations"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Treats AI as an assistant or advisor during experimental planning",
+          "Encourages students to view AI as a supplementary resource, not a replacement for critical thinking",
+          "Utilizes AI as a co-worker for repetitive calculation tasks"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to piloting AI-driven workflow enhancements",
+          "Encourages the lab team to explore new AI features as they become available",
+          "Believes AI-driven processes will become increasingly integral to lab work"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for flexibility and ease of use",
+          "Finds chat-based AI interactions more accessible for students and faculty",
+          "Values the ability to refine requests in real-time based on AI responses"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many laboratory tasks require significant tacit domain knowledge",
+          "AI is primarily used for routine or well-defined aspects, not nuanced experimental design",
+          "Human oversight remains essential for interpreting complex or unexpected results"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Moderate trust in AI for straightforward calculations and protocol lookups",
+          "Does not fully trust AI for critical or safety-sensitive decisions without human verification",
+          "Checks AI recommendations against established protocols and literature"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive or computationally intensive tasks",
+          "Believes human expertise should guide experimental design and interpretation",
+          "Supports a collaborative approach where AI augments but does not replace human judgment"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "High automation is acceptable for routine calculations and data management",
+          "Finds it threatening if AI is used for tasks requiring contextual, domain-specific insight",
+          "Advocates for human review of all critical AI-generated outputs"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "AI enhances the importance of critical thinking and experimental design skills",
+          "Some routine technical skills may be deprioritized as AI improves",
+          "Mentorship and interpretation skills remain highly valued"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Requires proficiency in evaluating and validating AI-generated outputs",
+          "Emergence of digital literacy as a core skill for students and faculty",
+          "Responsibility for teaching responsible AI use and verification techniques"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Low concern about AI replacing core mentoring or experimental design roles",
+          "Some awareness that repetitive calculation and data entry tasks may become automated",
+          "Overall role seen as secure due to reliance on human expertise"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Manual review and cross-verification are standard practices for AI-supported tasks",
+          "Lab requires human sign-off on critical calculations and experimental plans",
+          "Override mechanisms include reverting to traditional calculation methods when needed"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "AI adoption is becoming normalized across the lab and broader institution",
+          "Policies are evolving to encourage responsible AI use and verification",
+          "No formal mandates yet, but increasing expectation to leverage AI tools"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Views AI as an increasingly integral part of academic and research workflows",
+          "Believes AI will drive greater efficiency and accessibility in science",
+          "Acknowledges potential for both positive and disruptive industry-wide changes"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes ethical AI use requires transparency and human oversight",
+          "Worries about over-reliance on AI leading to loss of foundational skills",
+          "Advocates for responsible use, with proper cross-checking and data privacy safeguards"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires deeper integration between AI tools and lab management systems",
+          "Would benefit from AI that can auto-document experiments and generate standardized reports",
+          "Sees value in AI assistants capable of real-time protocol verification and alerting to potential errors"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Anticipates teaching AI literacy as a regular part of student mentoring",
+          "Expects AI to handle more routine lab tasks, freeing time for complex research and mentoring",
+          "Believes core scientific skills will remain essential for interpreting AI outputs"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Recommends formal training programs for faculty, staff, and students on AI tool use",
+          "Supports development of guidelines for responsible AI adoption and verification",
+          "Advocates for investment in AI-lab integration to maximize productivity and data integrity"
+        ]
+      }
+    ]
+  }
+]

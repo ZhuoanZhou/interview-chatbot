@@ -1,0 +1,503 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s degree in Urban Planning from a state university",
+          "Completed coursework in GIS, zoning law, and municipal policy during undergraduate studies",
+          "Attended several professional development workshops on land use and permitting processes",
+          "Participated in a capstone project focused on revitalizing small-town downtown districts"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Currently holds the title of Senior Urban and Regional Planner",
+          "Works for a government department serving smaller municipal entities",
+          "Acts as a primary contact for zoning and permitting questions for part-time city officials",
+          "Frequently reviews zoning changes and building permit applications for compliance"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the public sector, specifically local government planning",
+          "Industry focus is urban and regional planning, zoning, and permitting",
+          "Supports municipalities with limited in-house planning resources"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed by a mid-sized regional government department with approximately 50 staff",
+          "Works in a collaborative, office-based environment with hybrid remote options",
+          "Team includes planners, GIS specialists, and administrative staff",
+          "Supports a network of dozens of small towns and rural communities"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Serves the public sector, focusing on municipal and regional planning",
+          "Primary clients are smaller towns and rural entities lacking full-time planners",
+          "Work involves both residential and commercial development review"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 6-10 years of experience in the urban planning field",
+          "Spent the majority of professional career within the same department",
+          "Progressed from junior planner to senior planner over the past decade"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds a senior-level position, making independent decisions on complex cases",
+          "Often mentors newer planning staff and interns",
+          "Trusted to represent the department in meetings with municipal officials"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Reviews and approves zoning and permitting applications for compliance",
+          "Advises small municipalities on zoning law and permitting procedures",
+          "Conducts phone calls and meetings with local officials to resolve planning issues",
+          "Uses GIS software to analyze land use and generate maps for reports"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 40% of time on plan and permit review",
+          "Allocates around 30% to meetings and phone consultations with local officials",
+          "Uses about 20% of time for email correspondence and follow-ups",
+          "Devotes the remaining 10% to research, reporting, and tax incentive analysis"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has significant autonomy in interpreting and applying zoning codes",
+          "Authorized to approve or request revisions for most standard permit applications",
+          "Seeks guidance from department leadership only on highly unusual or controversial cases",
+          "Empowered to initiate meetings with local officials to resolve complex issues"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Quickly assesses routine zoning permit applications for residential builds",
+          "Comfortably uses GIS software to create and annotate basic land-use maps",
+          "Efficiently responds to common zoning inquiries via email or phone"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Navigating complex zoning variances or appeals that involve multiple stakeholders",
+          "Researching and applying new or ambiguous state-level development regulations",
+          "Resolving disputes between developers and local residents over proposed projects",
+          "Coordinating multi-entity meetings to address inter-jurisdictional planning issues"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Extracting and cross-referencing zoning codes for permit applications",
+          "Compiling standard data tables and summary reports on permit approvals",
+          "Responding to frequently asked questions about zoning rules",
+          "Scheduling routine meetings with municipal contacts"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys collaborating with local officials on strategic community planning",
+          "Finds interpreting complex zoning issues intellectually stimulating",
+          "Considers repetitive data entry and checking for permit completeness tedious",
+          "Prefers in-person or interactive meetings over lengthy email chains"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Experiences delays due to inconsistent data formats from different municipalities",
+          "Manual data entry for permit tracking is time-consuming and error-prone",
+          "Lack of standardized forms and workflows across entities creates confusion",
+          "Difficulty retrieving historical permit data for reference"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Highest productivity occurs when working on tasks that require both expertise and creative problem-solving",
+          "Enjoys tasks more when able to use advanced GIS features to visualize solutions",
+          "Skill level in zoning law correlates with confidence and efficiency in application review",
+          "Tedious, low-skill tasks tend to negatively impact both enjoyment and output"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Views adoption of new technology as essential for efficiency",
+          "Embraces opportunities to test out improved planning software",
+          "Enjoys exploring new AI features that can automate routine tasks",
+          "Prefers hands-on learning to theoretical instruction"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to updates in GIS and permitting software",
+          "Regularly seeks out online resources or tutorials for new tools",
+          "Occasionally assists colleagues in troubleshooting software problems"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate several hours per month to formal or self-guided tech training",
+          "Participated in recent AI and automation webinars offered by the department",
+          "Believes tech training is a good investment for reducing long-term workload"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by potential for reducing repetitive tasks and streamlining workflows",
+          "Occasional barrier: heavy workload can make it challenging to prioritize training",
+          "Prefers new tech that directly relates to core planning responsibilities"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often share tips about new GIS plugins or AI tools, encouraging experimentation",
+          "Management supports tech adoption by providing training resources",
+          "Team culture values sharing knowledge and best practices for tool use"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses ESRI ArcGIS daily for mapping and spatial analysis",
+          "Relies on proprietary permitting management software tailored for municipal entities",
+          "Regularly utilizes Microsoft Excel for data analysis and reporting",
+          "Drafts correspondence and reports in Microsoft Word"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Uses Outlook for email communication and scheduling",
+          "Refers to state and municipal zoning code databases",
+          "Participates in phone and video calls via Microsoft Teams"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient in GIS platforms including ArcGIS and QGIS",
+          "Experienced in using standard permitting and workflow management software",
+          "Familiar with document version control and digital signature tools"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces data export/import issues between GIS and permitting software",
+          "Manual re-entry of permit data required when systems lack integration",
+          "Discrepancies arise when municipalities use outdated or non-standard file formats",
+          "Would benefit from better integration between email/calendar and workflow management"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands concepts such as natural language processing and machine learning",
+          "Comfortable with terminology like LLM (Large Language Model), prompt, and dataset",
+          "Familiar with the basics of AI-powered document summarization and chatbots",
+          "Keeps up-to-date with AI innovation via webinars and professional groups"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses OpenAI's ChatGPT daily for research and drafting responses",
+          "Employs Microsoft Copilot within Office 365 for document and email drafting",
+          "Tests proprietary AI-powered permit pre-screening tool piloted by the department"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs daily to draft responses to zoning inquiries and summarize regulations",
+          "Applies AI tools to extract and cross-reference relevant code sections for permits",
+          "Employs AI assistants for scheduling meetings and generating standard reports",
+          "Leverages AI to analyze public feedback on planning proposals"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI-based document summarization saved hours on reviewing lengthy commission meeting minutes",
+          "Experienced occasional errors when AI misinterpreted legal zoning language, requiring manual correction",
+          "Found AI chatbots helpful for answering basic zoning FAQs, but struggled with nuanced cases",
+          "Learned to always verify AI-generated reports before submission"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Department offers quarterly training sessions on new AI tools",
+          "Peers frequently share custom AI prompts and workflows via internal forums",
+          "Access to help documents and video tutorials for AI applications is readily available",
+          "Leadership encourages ongoing learning and experimentation with AI"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI for complex or unfamiliar tasks",
+          "Uses AI independently for routine document drafting or information retrieval",
+          "Finds iterative feedback with AI helpful for refining zoning memos"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for administrative and research tasks",
+          "Occasionally leverages AI as an advisor when brainstorming solutions to new zoning issues",
+          "Relies on AI as a co-worker when handling large volumes of permit applications"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Very open to adopting AI-driven workflows when they improve efficiency",
+          "Advocates for piloting AI tools before full-scale implementation",
+          "Willing to help design and test new AI workflow integrations for planning processes"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for exploring zoning queries with LLMs",
+          "Finds command-based interfaces more efficient for batch data processing",
+          "Believes a mixed approach (conversational for brainstorming, command-based for tasks) is ideal"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many zoning decisions require deep understanding of local codes and precedents",
+          "Tacit knowledge about local politics and stakeholder preferences often guides recommendations",
+          "AI can assist with research but final decisions require human judgment"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for gathering and summarizing information, but not for final permit approvals",
+          "Always manually reviews AI outputs for accuracy before acting on them",
+          "Confidence in AI increases when outputs are transparent and explainable"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI automation for repetitive data analysis and initial document drafting",
+          "Believes human oversight is necessary for interpreting zoning law or handling exceptions",
+          "Envisions a workflow where AI handles 60% of routine tasks and humans focus on higher-level decisions"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for standardized, low-risk permitting processes",
+          "Feels automation is threatening when it risks overlooking local context or stakeholder input",
+          "Supports manual override and review mechanisms for all AI-driven decisions"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the value of analytical and critical thinking skills",
+          "Sees reduced need for manual data entry and routine documentation skills",
+          "Views domain expertise as increasingly important for interpreting AI outputs"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developed skill in prompt engineering for effective LLM use",
+          "Increasingly responsible for validating and auditing AI-generated content",
+          "Learning to design workflows that combine AI automation with human oversight"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Some concern about automation of basic permitting, but confident in continued need for expert review",
+          "Believes nuanced tasks and stakeholder engagement will remain human-driven",
+          "Open to role evolving toward more strategic and oversight functions"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All AI-generated permit recommendations require human approval before issuance",
+          "Department maintains clear protocols for manual review of AI outputs",
+          "Regular spot-checks and audits are conducted on AI-assisted workflows"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Department has formalized guidelines for responsible AI use in planning",
+          "Recent policy updates mandate transparency and accountability in AI-assisted decisions",
+          "Team is encouraged to provide feedback on AI tool performance for continuous improvement"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Sees AI as having potential to level the playing field for under-resourced communities",
+          "Believes AI will significantly streamline government operations and service delivery",
+          "Cautiously optimistic about the impact of AI on job quality and public engagement"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes AI must be transparent, accountable, and free from bias in public sector use",
+          "Concerned about overreliance on AI for decisions that affect community well-being",
+          "Supports ongoing ethical review and public input on AI deployment in planning"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would benefit from an AI-powered zoning code navigator with real-time Q&A",
+          "Desires an AI assistant that can auto-generate meeting summaries from recordings",
+          "Sees value in an AI tool for automated cross-municipality permit status tracking"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine permitting and code lookup tasks to be mostly automated",
+          "Foresees a shift toward more community engagement and strategic planning work",
+          "Anticipates greater oversight responsibility for AI-driven workflows"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Wants organization to invest in continuous AI training and upskilling for staff",
+          "Recommends establishment of an AI ethics committee for planning applications",
+          "Advocates for pilot programs to test AI solutions before broad deployment",
+          "Supports creating feedback loops to refine AI tools based on user experience"
+        ]
+      }
+    ]
+  }
+]

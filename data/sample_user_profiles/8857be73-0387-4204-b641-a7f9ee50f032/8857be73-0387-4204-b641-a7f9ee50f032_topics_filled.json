@@ -1,0 +1,512 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master\u2019s Degree in Information Technology",
+          "Completed undergraduate studies in Computer Science",
+          "Has taken specialized courses in network administration and cybersecurity",
+          "Earned certifications such as CompTIA Network+ and Cisco CCNA",
+          "Attended workshops on emerging network technologies during graduate studies"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Computer Network Support Specialist",
+          "Responsible for maintaining, troubleshooting, and supporting company network infrastructure",
+          "Acts as the primary contact for employee technical issues related to connectivity",
+          "Assists with installation and configuration of network devices and user accounts"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the technology sector",
+          "Supports IT infrastructure for a mid-sized company",
+          "Industry focus includes business services and internal IT operations"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a company with approximately 200-500 employees",
+          "Organization has a dedicated IT department with 5-10 technical staff",
+          "Company operates a hybrid environment with both onsite and remote employees",
+          "Collaborates with multiple departments to ensure network reliability"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Company operates in the B2B services segment",
+          "Provides internal technological support rather than consumer-facing products",
+          "Focuses on ensuring seamless business operations through robust IT infrastructure"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 6-10 years of experience as a Computer Network Support Specialist",
+          "Joined current organization soon after completing graduate studies",
+          "Has grown responsibilities steadily over tenure in the role"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Considered mid-level in the IT support career track",
+          "Serves as a go-to resource for complex technical issues within the team",
+          "Mentors junior support staff and interns",
+          "Participates in departmental decision-making about network upgrades"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Monitors network systems and server health using tools like Wireshark",
+          "Troubleshoots connectivity and access issues for employees",
+          "Performs software updates and security patch installations",
+          "Documents incidents and resolutions for future reference",
+          "Guides employees through technical issues via remote support tools"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends about 40% of time on monitoring and maintenance tasks",
+          "Troubleshooting and user support take up roughly 35% of daily activity",
+          "Approximately 15% dedicated to software updates and patch management",
+          "Allocates remaining time to documentation and device setup"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has discretion to resolve most network and user issues independently",
+          "Consults with team leads or management for major system changes or incidents",
+          "Can select troubleshooting methods and tools as needed",
+          "Makes recommendations on hardware and software upgrades"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Quickly identifies and resolves common Wi-Fi and printer connectivity issues",
+          "Efficient at performing routine software updates and security patches",
+          "Comfortable using remote desktop tools for basic troubleshooting",
+          "Skilled at guiding users through straightforward technical problems"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Diagnosing intermittent or multi-user network outages",
+          "Resolving issues caused by misconfigured switches or routers",
+          "Handling complex security incidents or potential breaches",
+          "Integrating new devices or systems into the existing network architecture"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Sorting and assigning incoming support tickets",
+          "Generating and distributing routine network status reports",
+          "Monitoring system logs for common error patterns",
+          "Applying standardized security patches across multiple endpoints"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys troubleshooting unique or complex technical problems",
+          "Finds satisfaction in successfully restoring network connectivity after outages",
+          "Considers repetitive ticket triage and routine updates less engaging",
+          "Prefers user-facing problem-solving over administrative reporting tasks"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Dealing with vague or incomplete user reports of technical issues",
+          "Switching between multiple, non-integrated monitoring and ticketing systems",
+          "Repeating basic troubleshooting steps for recurring problems",
+          "Limited by lack of proactive alerts for emerging network issues"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Feels most productive when working on tasks that align with technical strengths",
+          "Higher engagement is often linked to more challenging problem-solving work",
+          "Routine, low-skill tasks are completed efficiently but with less enthusiasm",
+          "Continuous learning and upskilling contribute to both enjoyment and effectiveness"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Enthusiastic about exploring new IT and network tools",
+          "Views learning as essential for staying effective in the role",
+          "Actively seeks out information on emerging tech trends"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to updates in familiar platforms like Windows and Linux",
+          "Comfortable incorporating new monitoring or remote access tools into routine",
+          "Rarely needs extended onboarding to become fluent in new IT solutions"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Regularly dedicates time after work for online courses or tutorials",
+          "Participates in company-sponsored training sessions when available",
+          "Believes ongoing training is crucial for career development"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by desire to solve complex problems more efficiently",
+          "Sometimes workload peaks limit time available for deep learning",
+          "Prefers training that is directly relevant to current job tasks"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often share tips and encourage trying new technologies",
+          "Management supports adoption of tools that improve workflow",
+          "Team culture values continuous improvement and tech adoption"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses TeamViewer and AnyDesk for remote desktop support",
+          "Employs Wireshark for network traffic monitoring and diagnostics",
+          "Relies on Microsoft Teams for internal communication and collaboration",
+          "Uses Jira to track support requests and incident tickets"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Command-line utilities like ipconfig, ping, and traceroute for diagnostics",
+          "Windows Defender for antivirus and endpoint security",
+          "Active Directory for managing user accounts and permissions",
+          "Physical tools such as cable testers for hardware troubleshooting"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient with Windows and Linux operating systems",
+          "Experienced with Cisco networking equipment",
+          "Familiar with enterprise firewall and VPN solutions",
+          "Understands standards like TCP/IP, DHCP, and DNS"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally encounters compatibility issues between remote access tools and endpoint security software",
+          "Ticketing and monitoring platforms lack seamless integration, requiring manual updates",
+          "Some legacy hardware causes challenges when interfacing with modern management systems",
+          "Periodically needs to export data manually between systems for reporting"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic AI and machine learning terms like model, training, and inference",
+          "Regularly uses large language models (LLMs) in daily workflow",
+          "Has explored AI-driven diagnostic and recommendation systems",
+          "Follows industry news on AI trends relevant to IT support"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT and similar LLMs for troubleshooting advice and scripting help",
+          "Leverages built-in AI features in Microsoft Teams for meeting summaries",
+          "Occasionally tests AI-powered ticket triage in Jira",
+          "Experiments with AI-driven anomaly detection tools in network monitoring"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Accesses LLMs daily to generate solutions for uncommon network issues",
+          "Uses AI to draft responses for repeat support queries",
+          "Employs AI chatbots to assist with first-level employee questions",
+          "Applies AI tools for log file analysis and pattern detection"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI chatbots have successfully resolved simple password reset requests, freeing up time",
+          "LLMs provided helpful diagnostic scripts that reduced troubleshooting time",
+          "Occasionally received AI-generated suggestions that were outdated or contextually irrelevant",
+          "Learned to always verify AI recommendations before implementation"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company offers periodic workshops on AI tool integration",
+          "Peers actively share tips and use cases for LLMs in team meetings",
+          "Internal documentation includes AI usage guidelines",
+          "Encouraged to experiment with AI tools and share results with the team"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers stepping through troubleshooting with AI as a collaborative assistant",
+          "Uses LLMs for brainstorming solutions before finalizing actions independently",
+          "Finds value in both autonomous and guided interactions, depending on task complexity"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for information retrieval and suggestion",
+          "Considers AI a co-worker for routine ticket triage and initial diagnostics",
+          "Relies on human judgement for final decision-making, with AI as advisor"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to integrating AI into daily processes where beneficial",
+          "Actively seeks out new AI features or updates in core tools",
+          "Willing to pilot new AI-driven workflows and provide feedback to IT leadership"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational AI interfaces for brainstorming and problem-solving",
+          "Utilizes command-based interactions for structured tasks like scripting",
+          "Appreciates flexibility to switch between modes based on context"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many troubleshooting scenarios demand deep contextual knowledge of the company\u2019s network setup",
+          "User support often requires understanding specific workflows and business processes",
+          "AI tools sometimes lack access to detailed, environment-specific information"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for routine diagnostics and common troubleshooting steps",
+          "Verifies AI-generated recommendations for critical incidents before applying",
+          "Treats AI as a supportive tool rather than a sole decision-maker",
+          "Level of trust increases with AI transparency and explainability"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers high automation for repetitive tasks like ticket triage and reporting",
+          "Believes human oversight is essential for incident resolution and security decisions",
+          "Sees value in AI assisting but not replacing human-driven root cause analysis"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for low-risk, standardized processes",
+          "Concerned if automation reduces ability to catch subtle, contextual issues",
+          "Prefers manual checks for tasks involving sensitive data or security implications"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Views AI as enhancing core technical skills by enabling focus on complex issues",
+          "Believes routine troubleshooting skills may become less critical",
+          "Anticipates greater emphasis on analytical and critical thinking abilities"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning to interpret and validate AI-generated recommendations",
+          "Developing skills in configuring and integrating AI-driven tools",
+          "Assuming responsibility for monitoring AI performance and mitigating errors"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Low concern about AI replacing complex troubleshooting or high-context tasks",
+          "Recognizes potential for automation to reduce manual workload",
+          "Believes human oversight will remain vital for the foreseeable future"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All AI-driven actions require human approval for critical system changes",
+          "Manual review is standard for AI-flagged security incidents",
+          "Can intervene and adjust AI recommendations as needed"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Team is increasingly open to piloting AI solutions",
+          "Company has begun updating IT policies to include AI tool usage guidelines",
+          "Ongoing discussions about balancing automation with job enrichment"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will significantly improve efficiency in IT and network support",
+          "Expects AI to create new career opportunities in tech management",
+          "Recognizes potential for AI to address skills gaps in the industry",
+          "Cautious about risks of over-reliance on automation"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports responsible AI use with clear accountability measures",
+          "Concerned about data privacy and potential biases in AI-driven decisions",
+          "Believes transparency and human oversight are essential for ethical AI adoption"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires more accurate AI-driven predictive maintenance tools for networks",
+          "Wishes for seamless integration between AI chatbots and ticketing systems",
+          "Seeks AI tools capable of real-time, context-aware threat detection"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Anticipates a shift towards more strategic, oversight-focused responsibilities",
+          "Expects routine troubleshooting to become largely automated",
+          "Foresees increased collaboration with AI systems on proactive issue prevention",
+          "Predicts need for continuous upskilling to manage and audit AI tools"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Develop comprehensive AI adoption and ethics guidelines",
+          "Invest in ongoing AI literacy and skills training for IT staff",
+          "Pilot and evaluate AI tools before company-wide rollout",
+          "Establish clear oversight and accountability for AI-driven processes"
+        ]
+      }
+    ]
+  }
+]

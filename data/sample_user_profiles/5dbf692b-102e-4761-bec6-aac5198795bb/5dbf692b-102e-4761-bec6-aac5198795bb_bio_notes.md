@@ -1,0 +1,202 @@
+# Biographical Notes
+
+- AI-generated research sometimes contains hallucinations, requiring manual review
+- Finds hybrid interfaces (e.g., guided chat with advanced settings) most flexible
+- Recognizes that some research tasks may become fully automated over time
+- Supports transparent use of AI, with clear disclosure to stakeholders
+- Assessing the commercial viability of highly technical open source projects
+- Wants more explainable AI outputs for due diligence transparency
+- Enjoys learning new card games and often teaches obscure ones during lunch breaks.
+- Is known for sending personalized, handwritten thank-you notes after meetings or events.
+- Collects unique bookmarks from bookstores around the world and swaps them with friends.
+- Manual review and editing are built into all AI-augmented workflows
+- Works at an early-career to mid-level manager position
+- Uses command-based prompts for structured, repeatable tasks
+- Company encourages experimentation but expects accountability for outputs
+- AI enhances research and data analysis skills by increasing throughput
+- Productivity is highest when working on research and strategic advising, which are also the most enjoyable
+- Holds a Master’s Degree, completed at age 22
+- Uses Clay’s AI-driven enrichment for contact and contributor data
+- Successful AI use has allowed scaling research capacity to more projects simultaneously
+- Able to integrate multiple new tools into daily work with minimal friction
+- Invests in and incubates companies based on open source software projects
+- Has a habit of doodling abstract patterns during meetings, which have turned into framed artwork.
+- Decorated their office with vintage airline travel posters collected on business trips.
+- Team members frequently share prompts and best practices for LLM use
+- Routine administrative skills have become less central due to automation
+- Sees value in blended workflows: AI for speed, humans for quality control
+- Treats AI primarily as an assistant to automate repetitive or data-heavy steps
+- Occasionally practices calligraphy and uses handwritten envelopes for holiday cards.
+- Familiar with integration between project management and communication platforms
+- Minimal concern about AI replacing the core investment manager role
+- Acts as an advisor to portfolio company founders
+- Recognizes that AI can miss context or misinterpret technical signals
+- Assessing project viability often requires nuanced understanding of open source communities
+- Sees AI as a tool for amplification, not replacement
+- AI-generated research templates increase speed by 30-40% over manual drafting
+- Collects vintage typewriters and has five fully functional ones displayed in their home office.
+- Believes human judgment should remain central in ethical decision-making
+- Prefers independent use of AI for initial drafts, followed by manual refinement
+- Clay for data enrichment of leads and contacts
+- Oversees operational processes for portfolio companies (e.g., scaling, hiring)
+- Joined OpenCore Ventures shortly after completing Master’s degree
+- Current title: Investment Fund Manager at OpenCore Ventures
+- Has a habit of rewriting favorite movie dialogues in investment-related puns for office humor.
+- Skill level in using automation tools increases enjoyment by reducing busywork
+- Volunteers monthly at a local urban garden project on weekends.
+- Favors AI automation for repetitive, structured information gathering
+- Motivated by direct productivity gains and process improvements
+- Anticipates the need to develop new skills in AI oversight and prompt design
+- Relies on human judgment for final decisions and nuanced analysis
+- Runs a small blog about the intersection of travel, food, and unexpected cultural discoveries.
+- Efficiently coordinates team communications via Slack
+- Expects research tasks to become almost fully automated, freeing time for strategic work
+- Writes haikus about market trends but never shares them outside close friends.
+- Hosts an annual Halloween party where everyone must dress as a famous investor or entrepreneur.
+- Would be concerned if AI were used to make final investment decisions without oversight
+- Tedious or repetitive tasks are less enjoyable, even when performed efficiently
+- Has a quirky superstition about always wearing mismatched socks on important presentation days.
+- Is an amateur magician and occasionally performs card tricks during office socials.
+- Daily use of OpenAI’s API for auto-generating research document drafts
+- Occasionally works iteratively with AI when prompts require tuning
+- Team culture values sharing and collective vetting of new tools
+- Maintains a small collection of bonsai trees, each with its own backstory and name.
+- High automation is acceptable for low-impact, low-risk data tasks
+- Built a miniature zen garden on their desk to help with focus during intense days.
+- Invest in internal AI literacy and upskilling programs
+- Researches emerging and existing open source projects for investment potential
+- Less likely to explore tools without clear relevance to open source or investment tasks
+- Manual effort required to consolidate analytics across platforms
+- Prefers conversational interfaces for brainstorming and content generation
+- Is a night owl who prefers doing creative brainstorming late in the evening with ambient lighting.
+- Comfortable using LLMs to generate boilerplate research documents
+- Prefers black coffee but insists on using a French press for every cup.
+- Operates in a highly collaborative, startup-like environment
+- Collecting contributor names and engagement analytics from project repositories
+- Occasional barrier: high workload can limit time for deep learning of complex tools
+- Works at the intersection of venture capital and open source technology
+- Is fascinated by astronomy and owns a telescope used to stargaze during weekend camping trips.
+- Has a collection of rare tea blends from every country visited for work trips.
+- Prefers hands-on experimentation over lengthy formal training
+- Views AI as a tool for scaling capacity, not as a substitute for expertise
+- Quickly identifies promising projects on platforms like GitHub and Hacker News
+- OpenCore Ventures is a small-to-mid-size firm with under 50 employees
+- Ability to critically review and edit AI outputs is now essential
+- Organizational process requires human sign-off on investment decisions
+- Adapts quickly to new software platforms and workflow changes
+- Has a small shelf dedicated to quirky motivational books ranging from humor to philosophy.
+- Final investment decisions made collaboratively with senior partners
+- Enjoys writing and exchanging anonymous ‘gratitude letters’ with coworkers to brighten the day.
+- AI adoption is increasing, with a bias toward responsible implementation
+- Sees potential for AI to democratize startup funding and reduce barriers for founders
+- Anticipates greater access to information and more efficient market analysis
+- Uses LLMs every day to produce boilerplate research on new projects
+- Keeps a journal of inspirational quotes handwritten on colorful index cards.
+- Proficient with venture capital and startup operations tools (Carta, HubSpot)
+- Team culture encourages skepticism and double-checking of AI-generated facts
+- Keeps a quirky desk toy collection, including a Newton's cradle with custom metal balls.
+- Occasionally seeks guidance from more technical colleagues on optimizing AI workflows
+- Has a habit of learning a new joke every week and sharing it at Friday team meetings.
+- Approximately 20% advising founders and supporting portfolio operations
+- Keeps up with major AI trends relevant to investment and open source
+- Lean teams with interns supporting research-heavy workflows
+- Has a unique coffee mug rotation system where each week features a mug from a different decade.
+- Google Drive for document collaboration and storage
+- Implement structured review processes for AI-generated outputs
+- Desires better multi-tool integration and automated workflow chaining
+- Some limitations in automating workflows between Asana and Slack
+- No blanket automation: human oversight remains a policy requirement
+- Peers and leaders at OpenCore Ventures encourage experimentation with new technologies
+- Has 3-5 years of professional experience in investment management
+- Conducts outreach to open source contributors and project authors
+- Is a fan of jazz improv and plays a digital keyboard to unwind after long days.
+- Advocates for experimentation with emerging AI features
+- Regularly updates processes as new technologies become available
+- Once completed a triathlon and uses cycling as a primary form of exercise and commuting.
+- Participates in webinars or workshops when relevant to immediate job needs
+- Remainder on administrative tasks and fund operations
+- Has a daily ritual of sketching a small comic strip about office life before starting work.
+- Prefers human analysis for complex or high-stakes decisions
+- Highly enthusiastic about adopting new tech that increases efficiency
+- Comfortable adjusting workflows to incorporate AI-driven efficiencies
+- Loom for recording video demos and walkthroughs
+- Primary industry: Venture-backed technology investment
+- Regularly uses GitHub to investigate open source project activity
+- Considers repetitive data gathering and template filling tedious
+- Is a passionate homebrewer and brings small batches of craft beer for friends and colleagues to try.
+- Has an elaborate Lego city model on their desk inspired by a famous financial district skyline.
+- Increased need to understand data sources and model limitations
+- Routine data collection is less reliant on domain expertise and more suitable for automation
+- Establish guidelines for ethical and transparent AI deployment
+- Undergraduate studies included coursework in economics and data analysis
+- Prioritize development of custom AI tools tailored to open source investment workflows
+- Directly manages interns and supports founders in an advisory capacity
+- Encourages team members to share new tool discoveries
+- Spends roughly 50% of time on research and due diligence
+- Understands basic concepts such as large language models, training data, and prompt engineering
+- Does not rely solely on AI for investment or strategic decisions
+- Keeps a playlist of quirky 80s synth-pop to boost energy during afternoon slumps.
+- Degree focused on finance, business, or a related quantitative field
+- Building trust and rapport with diverse open source contributors
+- Soft skills such as networking and founder advising remain critical and irreplaceable
+- Has significant autonomy in identifying and researching investment opportunities
+- Believes AI will fundamentally reshape research and due diligence in venture capital
+- Uses AI as a first-pass assistant rather than a real-time collaborator
+- Once took a sabbatical to learn pottery and still keeps several handmade mugs on their desk.
+- Some tasks, like founder advising, depend on soft skills and industry experience
+- Has a tradition of gifting small succulents to clients as a symbol of growth and partnership.
+- Organizes weekend hiking trips with friends to decompress from the workweek.
+- Responsible for operational oversight of portfolio companies
+- Enjoys deep dives into new open source projects and emerging communities
+- Prompt engineering and effective query formulation have become valuable
+- Has a miniature library of graphic novels and classic literature that neighbors both sides of their desk.
+- Finds strategic advising and founder mentorship highly engaging
+- Management supports tool adoption if it streamlines core workflows
+- Market segment: Early-stage tech startups and software infrastructure
+- No formal in-house AI training program; relies on peer knowledge sharing
+- Carta for cap table management
+- Wears a lucky vintage watch on days when making important decisions or signing contracts.
+- Focus on early-stage startups built around open source projects
+- Integrating data across multiple tools (e.g., HubSpot, Google Drive) can be clunky
+- Foresees a shift toward more high-touch founder advising and relationship building
+- Prefers to listen to vinyl records while working from home, especially jazz and classic rock.
+- Has a habit of making thematic playlists based on moods or seasons and sharing them with the team.
+- Grows hot peppers on the office windowsill and challenges coworkers to spicy food contests.
+- Generating preliminary research templates using OpenAI's API
+- Relies on AI outputs as starting points, then reviews for accuracy
+- Has encountered hallucinated facts in LLM outputs, requiring careful human review
+- Independently manages research interns and their workflows
+- Acts as a primary point of contact for open source project outreach
+- Occasionally leverages AI-powered features in HubSpot (e.g., email categorization)
+- Occasional friction when syncing data between HubSpot and Google Drive
+- Enjoys cooking international dishes from cuisines discovered during travels, and hosts themed dinner nights.
+- Concerned about AI hallucinations and the risk of propagating false information
+- HubSpot for managing research pipelines and contributor outreach
+- Trusts AI for generating initial research drafts, but always verifies outputs
+- Role centers on sourcing and evaluating open source projects for investment
+- Helping founders navigate scaling challenges and community management
+- Believes strongly in power naps and uses a reclining chair in the office for quick breaks.
+- Has a signature smoothie recipe that is known around the office and occasionally shared at meetings.
+- Manual data entry for project analytics is time-consuming
+- Hosts an informal monthly ‘story swap’ where team members share non-work-related personal tales.
+- Actively seeks out and experiments with emerging tools, especially in AI
+- Current role held for approximately 2-3 years
+- Can distinguish between supervised and unsupervised learning at a high level
+- Owns a vintage Polaroid camera and decorates the office wall with instant snapshots of team events.
+- Data enrichment tasks using tools like Clay
+- Very open to integrating new AI tools and automations into daily work
+- Prefers to retain human oversight on tasks involving judgment or interpersonal interaction
+- Applies AI to automate repetitive data gathering and enrichment tasks
+- Is passionate about urban photography and has a rotating gallery of cityscape prints in the office.
+- Likes to explore local flea markets on business trips to find quirky souvenirs.
+- Uses an old-fashioned fountain pen for signing all official documents.
+- Around 20% devoted to outreach and networking with open source communities
+- Would benefit from AI that can reliably assess open source community health
+- Asana for project management and task tracking
+- Is a dedicated fan of classic board games and hosts monthly game nights with coworkers.
+- Slack for real-time team and project communications
+- Greenhouse for recruiting and applicant tracking
+- Advises founders on company formation and go-to-market strategy
+- Business model involves both funding and operational support
+- Invests time in self-directed learning and online tutorials for new tools
+- Participated in extracurriculars such as university investment clubs

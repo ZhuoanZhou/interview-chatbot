@@ -1,0 +1,536 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s Degree in Architecture from a state university",
+          "Completed coursework in CAD drafting, construction documentation, and building codes",
+          "Attended continuing education seminars on BIM (Building Information Modeling) and sustainable design",
+          "Has received on-the-job training in project management and code compliance",
+          "Participated in a certificate program for advanced architectural drafting"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Works as a Senior Architectural and Civil Drafter",
+          "Role includes drafting, design support, and construction documentation",
+          "Project manages small to medium-sized architectural projects",
+          "Occasionally responsible for producing renderings and handling project filing",
+          "Acts as a liaison between junior drafters and project architects"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Employed in the architecture, engineering, and construction (AEC) sector",
+          "Industry focus on commercial, educational, and municipal buildings",
+          "Regularly collaborates with civil engineers and surveyors",
+          "Projects often intersect with real estate development and urban planning"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works at a mid-sized architectural firm with around 40 employees",
+          "Open office environment that encourages collaboration",
+          "Firm has a dedicated drafting and design team alongside project managers",
+          "Company culture values efficiency, accuracy, and client satisfaction"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Firm specializes in architectural and civil drafting services",
+          "Primary market segment is mid-rise commercial and public sector projects",
+          "Also serves residential developers and local municipalities",
+          "Offers project management and construction documentation as core services"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has been in the architectural and civil drafting profession for over 10 years",
+          "Current role as Senior Drafter held for the past 6 years",
+          "Previously worked as a junior and then mid-level drafter before current position",
+          "Has overseen more than 30 completed projects in current role"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds a senior-level position within the drafting team",
+          "Regularly mentors junior staff and interns",
+          "Participates in departmental decision-making and process improvements",
+          "Recognized as a technical expert in code compliance and documentation standards"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Drafts existing conditions and prepares as-built documentation",
+          "Develops construction documentation sets per project requirements",
+          "Manages small to medium-sized projects, coordinating with internal and external stakeholders",
+          "Performs occasional design work, renderings, and project filing",
+          "Ensures all drawings comply with applicable building codes"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 60% of time on drafting and documentation",
+          "Project management tasks account for about 20% of work hours",
+          "Design and rendering activities comprise around 10% of workload",
+          "Administrative and filing duties take up the remaining 10%"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates with considerable autonomy on drafting and documentation decisions",
+          "Empowered to make project management decisions for small to medium projects",
+          "Consults project architect or principal for major design changes",
+          "Has authority to select drafting techniques and tools, including AI/LLM usage"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Drafting standard floor plans and elevations is highly routine",
+          "Applying building code requirements to typical situations is straightforward",
+          "Project filing and documentation organization completed with minimal effort",
+          "Creating basic renderings using established templates is second nature"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Coordinating cross-disciplinary input (e.g., structural, MEP) for construction sets can be complex",
+          "Interpreting ambiguous code requirements for unique project scenarios is challenging",
+          "Managing tight project timelines and multiple overlapping deadlines",
+          "Resolving conflicts between architectural intent and code compliance"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Populating drawing title blocks across multiple sheets is repetitive",
+          "Extracting and formatting room finish schedules is data-heavy",
+          "Checking standard code requirements (e.g., door clearances) could be automated",
+          "Updating drawing references and sheet indexes across sets is suitable for automation"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Problem-solving code compliance for unique designs is highly engaging",
+          "Collaborating on design iterations with architects is enjoyable",
+          "Routine document filing and data entry are considered tedious",
+          "Repetitive drafting of standard details is less engaging"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual cross-checking of code requirements against drawings is time-consuming",
+          "Software interoperability issues between drafting and rendering tools",
+          "Delays in receiving input from project stakeholders",
+          "Repetitive manual updates to drawing sets lead to inefficiencies"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Tasks where technical skill is high (e.g., drafting) are completed most efficiently",
+          "Enjoyment is highest when solving novel problems or collaborating on design",
+          "Productivity dips during repetitive administrative tasks",
+          "Learning new tools or methods can increase both engagement and productivity"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open and curious about adopting new software solutions",
+          "Regularly experiments with new features in drafting and rendering tools",
+          "Sees technology adoption as essential for staying competitive",
+          "Values tools that demonstrably improve efficiency or accuracy"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Highly adaptable, with a history of self-teaching new tools",
+          "Comfortable integrating AI/LLM-assisted workflows into daily tasks",
+          "Able to quickly learn and apply updates to existing drafting software",
+          "Occasionally assists colleagues with onboarding to new tools"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Regularly dedicates time each month to upskilling in new software features",
+          "Attends webinars and online tutorials after work hours",
+          "Participates in firm-sponsored training sessions when available",
+          "Views tech training as a valuable investment in career longevity"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Main motivation is to reduce manual workload and increase accuracy",
+          "High current project workload can occasionally limit training time",
+          "Most interested in tools directly relevant to drafting and code research",
+          "Less likely to learn tools perceived as peripheral to core responsibilities"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often share recommendations for new drafting plugins",
+          "Management encourages adoption of productivity-enhancing software",
+          "Firm culture rewards early adoption of useful technologies",
+          "Peer demonstrations of new tools can accelerate adoption"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses AutoCAD daily for drafting and documentation",
+          "Renders images using SketchUp and Lumion",
+          "Employs Bluebeam Revu for PDF markups and review",
+          "Utilizes Microsoft Excel for schedules and data management",
+          "Uses ChatGPT or similar LLMs for code research and clarifications"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on physical codebooks and printed standards for reference",
+          "Uses a desktop scanner for digitizing marked-up drawings",
+          "Employs standard office software (Word, Outlook) for communication",
+          "Utilizes a plotter for producing large-format construction documents"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Highly proficient in AutoCAD and Revit",
+          "Familiar with BIM workflows and 3D modeling techniques",
+          "Has used ArcGIS for site analysis in select projects",
+          "Comfortable navigating various digital plan review platforms"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasional data loss when transferring models between AutoCAD and Revit",
+          "Rendering software exports sometimes require manual adjustments",
+          "PDF markups from Bluebeam sometimes do not sync seamlessly with CAD files",
+          "Manual re-entry of schedule data from Excel to CAD can cause errors"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic concepts of large language models (LLMs) and natural language processing",
+          "Familiar with AI-assisted drafting and code analysis tools",
+          "Regularly follows updates in AI applications for the AEC sector",
+          "Can explain the difference between generative AI and rule-based automation"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT daily to answer code and standards questions",
+          "Has experimented with Autodesk\u2019s AI-powered features in Revit",
+          "Utilizes Grammarly AI for technical writing and report proofreading",
+          "Occasionally tries plugins with AI-powered drafting automation"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs every day for code lookups and clarifications",
+          "AI is applied to generate checklists for project compliance reviews",
+          "Employs AI tools to draft template language for specifications",
+          "Relies on AI to summarize lengthy code documents into key points"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used ChatGPT to quickly find egress requirements for a new jurisdiction",
+          "AI-generated code summaries have saved hours on research tasks",
+          "Encountered occasional inaccuracies in AI code interpretations, requiring manual verification",
+          "Learned to always cross-check AI-generated answers with official sources"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Firm has not yet formalized AI training programs",
+          "Peers share tips and best practices for using LLMs in drafting tasks",
+          "Occasionally attends webinars on AI in architecture, often self-initiated",
+          "Relies on online AI communities and forums for troubleshooting"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers independent use of AI tools for rapid code research",
+          "Uses step-by-step collaboration with AI when tackling complex compliance issues",
+          "Finds batch processing tasks with AI more efficient than interactive sessions",
+          "Adjusts interaction mode based on task complexity and urgency"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as a research assistant for code and standards questions",
+          "Occasionally uses AI as a brainstorming partner for design alternatives",
+          "Treats AI as a 'first pass' advisor before consulting human experts",
+          "Relies on AI to automate repetitive documentation tasks"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to integrating AI into daily work, especially for research and drafting support",
+          "Actively seeks out new AI-driven plugins and workflow enhancements",
+          "Encourages colleagues to experiment with AI tools",
+          "Evaluates AI workflows for accuracy and time savings before full adoption"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for code queries and exploratory tasks",
+          "Uses command-based prompts for well-defined drafting or automation operations",
+          "Finds conversational UIs more intuitive for multi-step questions",
+          "Appreciates the option to switch between interface styles depending on context"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Drafting and documentation require deep understanding of architectural standards",
+          "Successful code interpretation draws on years of accumulated professional experience",
+          "Project management decisions often require nuanced judgment and client knowledge",
+          "Tacit knowledge is critical for resolving ambiguous or conflicting requirements"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Generally trusts AI for initial research and routine code lookups",
+          "Always verifies AI-generated outputs for critical project decisions",
+          "Trust is higher for AI tasks backed by authoritative sources",
+          "Cautious about using AI recommendations without manual review in final documentation"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive and data-heavy aspects of drafting",
+          "Retains human oversight for code interpretation and final design decisions",
+          "Sees optimal balance as AI assisting, but not replacing, domain expertise",
+          "Uses AI as a time-saver, but not as a sole decision-maker"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for standardized tasks with clear rules (e.g., title block population)",
+          "Finds high automation threatening if it risks loss of quality control or professional judgment",
+          "Supports automation where manual errors are common and stakes are low",
+          "Prefers human oversight for tasks impacting safety, compliance, or client satisfaction"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances value of domain knowledge by freeing time for higher-order tasks",
+          "Routine drafting skills may become less central due to automation",
+          "Problem-solving and code interpretation skills remain highly relevant",
+          "Communication and project management become even more important as AI is adopted"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing proficiency in prompt engineering for LLMs",
+          "Learning to validate and cross-check AI-generated code interpretations",
+          "Assuming responsibility for integrating AI workflows into project processes",
+          "Facilitating AI training and onboarding for junior staff"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Minimal concern about AI replacing overall role due to need for holistic expertise",
+          "Anticipates some drafting and documentation tasks may be fully automated",
+          "Believes human judgment in design and code compliance cannot be easily replicated",
+          "Views AI as a tool for augmentation, not replacement"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always performs manual review of AI-generated documents before final submission",
+          "Firm requires human sign-off on all code compliance recommendations",
+          "Can override or edit results from AI plugins within drafting software",
+          "Regularly cross-verifies AI outputs with authoritative sources"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Firm is becoming more open to experimentation with AI tools",
+          "No formal AI policy yet, but informal guidelines are emerging",
+          "Team encourages knowledge sharing on best AI practices",
+          "Management is monitoring industry trends before mandating AI-driven processes"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Sees AI as a transformative force in the architectural and construction industries",
+          "Believes AI will increase efficiency and reduce errors across the sector",
+          "Anticipates new roles emerging as routine tasks are automated",
+          "Recognizes potential for AI to improve code compliance and safety"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes ethical AI use requires transparency and clear oversight",
+          "Concerned about risks of over-reliance on AI for critical compliance tasks",
+          "Supports responsible adoption with robust manual checks",
+          "Advocates for data privacy and protection in AI-enabled workflows"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires AI tools that can provide definitive code citations with source links",
+          "Wants automation for cross-referencing multiple code standards in complex projects",
+          "Needs AI that can flag potential compliance conflicts in real-time as drawings are developed",
+          "Would benefit from AI-driven visual checks of drawings for code adherence"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine drafting to become highly automated, shifting focus to oversight and project management",
+          "Anticipates greater collaboration between human experts and AI tools",
+          "Foresees new responsibilities in AI workflow integration and quality assurance",
+          "Believes design creativity and code interpretation will remain core human contributions"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement formal training sessions on effective AI tool use",
+          "Develop clear guidelines for verifying and documenting AI-generated outputs",
+          "Pilot advanced AI plugins for compliance checking and drafting automation",
+          "Foster a culture of ongoing evaluation and feedback on AI tool performance"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,501 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s Degree from an accredited university",
+          "Degree is in Information Security or a closely related field such as Computer Science",
+          "Completed coursework in cybersecurity, information systems, and compliance frameworks",
+          "Has attended industry webinars and short courses on audit frameworks and cybersecurity trends"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Security and Compliance Analyst",
+          "Acts as an internal consultant on compliance matters within the cybersecurity team",
+          "Responsible for preparing audit documentation, writing policies, and maintaining compliance evidence",
+          "Tasked with running cybersecurity training programs and phishing simulation campaigns"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the cybersecurity sector",
+          "Specifically part of a compliance-focused team within an IT department",
+          "Operates in a heavily regulated environment, likely in tech or a compliance-driven industry"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-to-large organization with hundreds of policies and procedures",
+          "Works within a structured, process-driven workplace",
+          "Company has external audits and strict regulatory oversight"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Organization operates in a compliance-sensitive segment, possibly finance, healthcare, or managed IT services",
+          "Services include risk management, cybersecurity, and compliance consulting",
+          "Regularly interacts with external auditors and regulatory bodies"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has between 3 and 5 years of experience in the current compliance analyst role",
+          "Joined the current organization soon after completing undergraduate studies",
+          "Has participated in at least one full audit cycle from preparation to completion"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Considered early-career or associate level, but with hands-on expertise",
+          "Works closely with a manager but holds significant responsibility for core deliverables",
+          "Not in a management role but serves as a subject matter resource for compliance documentation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Drafts, edits, and maintains cybersecurity policies and procedures",
+          "Prepares and collects evidence for upcoming external audits",
+          "Designs and executes phishing awareness training campaigns",
+          "Monitors security events and assists with basic IT troubleshooting",
+          "Conducts policy reviews and updates to align with changing compliance frameworks"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 80% of work hours on writing-related tasks",
+          "Policy and procedure creation/revision constitute the majority of the workload",
+          "The remaining 20% is split between technical support, campaign management, and event triage"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has moderate autonomy in drafting and editing compliance documentation",
+          "Follows established checklists and frameworks for policy updates",
+          "Works under the supervision of a manager, especially for major framework changes",
+          "Can independently initiate phishing campaigns and propose process improvements"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Editing and updating existing procedures and policies using templates",
+          "Drafting standard sections of audit evidence based on previous examples",
+          "Responding to straightforward IT support requests",
+          "Composing brief, informative emails using AI-powered writing aids"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Translating new audit framework requirements into updated policies",
+          "Coordinating documentation changes across multiple stakeholders",
+          "Managing the transition between major framework versions under tight deadlines",
+          "Ensuring all compliance evidence is thorough, accurate, and up-to-date for audits"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Routine editing and formatting of large policy documents",
+          "Updating procedural checklists with minor version changes",
+          "Compiling evidence tables for audit submissions",
+          "Bulk creation or distribution of phishing simulation emails"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys designing new phishing campaigns and cybersecurity training materials",
+          "Finds satisfaction in streamlining procedure documents for clarity",
+          "Considers monotonous editing of lengthy documents to be tedious",
+          "Bulk data entry and formatting are least engaging aspects"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Managing volume and complexity of policy updates for multiple frameworks",
+          "Difficulty maintaining document consistency and avoiding 'alphabet soup' wording",
+          "Limited access to advanced AI tools due to organizational restrictions",
+          "Repetitive nature of documentation work can lead to fatigue and oversight"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Higher enjoyment and skill level in creative or analytical tasks, such as training design, correlates with increased productivity",
+          "Monotonous or repetitive editing tasks reduce engagement and slow overall output",
+          "Use of AI writing aids can boost both productivity and job satisfaction when permitted",
+          "Skill with frameworks and templates accelerates completion of routine documentation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open and proactive about exploring new tech, especially AI-powered tools",
+          "Sees technology adoption as essential for keeping pace in cybersecurity compliance",
+          "Appreciates tools that save time or improve accuracy in documentation tasks"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new platforms, particularly writing or workflow aids",
+          "Comfortable experimenting with new versions of existing tools (e.g., Word AI features)",
+          "Relatively fast learner when it comes to integrating new tech into daily processes"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to spend personal and work time learning tools that improve workflow",
+          "Prefers hands-on exploration and self-guided tutorials over formal courses",
+          "Prioritizes tech training for tools directly impacting core job responsibilities"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by potential productivity gains and reduction of tedious work",
+          "Barriers include heavy workload, restrictive company policies, and tool relevance",
+          "Only pursues training when tools are allowed within regulatory guidelines"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Management sets policies on tool usage, especially concerning AI and security",
+          "Peer recommendations often drive adoption of permitted productivity tools",
+          "Team discussions help identify best practices for leveraging new technologies"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Microsoft Word and Excel extensively for policy and evidence documentation",
+          "Employs PowerPoint for internal training and presentations",
+          "Leverages database tools for information gathering and tabulation",
+          "Utilizes Google Workspace (Docs, Sheets) for collaborative editing"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on antivirus platforms for security event monitoring and triage",
+          "Uses internal ticketing systems for IT support requests",
+          "Applies phishing simulation platforms to manage training campaigns",
+          "Depends on standardized document templates to accelerate policy writing"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient with core Microsoft Office and Google Workspace products",
+          "Experienced in using compliance and audit management tools",
+          "Familiar with basic security solutions like antivirus and endpoint protection suites"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces integration issues when transferring data between Word and database platforms",
+          "Limited ability to connect external AI tools due to company security policies",
+          "Collaborative editing can be hindered by versioning conflicts between Google and Microsoft products"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Regular user of LLMs; understands basic principles of large language models",
+          "Comfortable with AI-related terminology such as prompt, model, and training data",
+          "Has an applied, practical understanding of AI's capabilities and limitations in writing tasks"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT for document drafting and rewriting (when permitted)",
+          "Employs Grammarly for grammar checking and wording suggestions",
+          "Utilizes Claude for rephrasing and document structuring",
+          "Experiments with built-in AI features in Word and Google Docs"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies AI tools weekly for rewording policy sections and condensing lengthy drafts",
+          "Uses AI to generate phishing campaign content and training communications",
+          "Relies on AI for email summarization and tone adjustment",
+          "Employs AI to ensure consistency and clarity in large documents"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used Grammarly to improve clarity and reduce redundancy in a 100-page policy update",
+          "AI once suggested inaccurate compliance terminology, requiring manual correction",
+          "AI-powered summarization greatly reduced time spent editing lengthy emails",
+          "Encountered occasional formatting issues when pasting AI-generated text into official templates"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal organizational training for AI tools due to regulatory restrictions",
+          "Relies on informal peer sharing and self-learning for AI tool tips",
+          "Occasionally references vendor-provided tutorials for permitted AI platforms"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI for complex or nuanced writing tasks",
+          "Uses AI independently for straightforward drafting and summarization",
+          "Finds iterative feedback from AI most helpful when revising dense documents"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI as an assistant that enhances productivity and suggests improvements",
+          "Occasionally treats AI as a co-worker for brainstorming content variations",
+          "Relies on AI as an advisor for grammar and tone recommendations"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to integrating new AI workflows when allowed by company policy",
+          "Advocates for broader AI adoption in documentation and training tasks",
+          "Eager to experiment with workflow automations that reduce manual effort"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational, prompt-based interfaces for brainstorming and drafting",
+          "Finds command-based interfaces useful for specific, repeatable queries",
+          "Values flexibility to switch between conversational and command-driven modes as needed"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many tasks require specialized knowledge of compliance frameworks and audit standards",
+          "Writing effective phishing simulations demands understanding of organizational behavior",
+          "Judgment is needed to interpret evolving regulatory requirements"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for grammar, clarity, and summarization but not for final compliance content",
+          "Manually reviews all AI-generated text for accuracy and regulatory alignment",
+          "Skeptical of AI recommendations on nuanced legal or policy interpretations"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI assistance for repetitive drafting and editing, while retaining human oversight for compliance details",
+          "Envisions 60-70% automation for routine content, with 30-40% human review and customization",
+          "Believes human expertise is essential for final sign-off on all official documents"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "High automation is acceptable for low-risk, non-customer-facing documents",
+          "Resists automation in areas with regulatory ambiguity or legal exposure",
+          "Views unchecked automation as risky for policy interpretation and audit responses"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances efficiency but does not replace the need for compliance expertise",
+          "Sees increased value in skills related to critical review and policy adaptation",
+          "Feels written communication skills remain essential despite AI assistance"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Gains responsibility for evaluating and integrating AI-generated content safely",
+          "Develops prompt engineering skills to extract precise outputs from LLMs",
+          "Learns to troubleshoot and correct AI-related errors in policy documentation"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mildly concerned about automation of repetitive editing tasks",
+          "Confident that high-level compliance and stakeholder management roles are secure",
+          "Monitors industry trends on AI-driven changes to compliance analyst roles"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All AI-generated content is subject to manual review before submission",
+          "No official documents are finalized without human approval",
+          "Company policy restricts unsupervised automation in compliance-critical areas"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Recent increase in company guidelines for permitted AI tool usage",
+          "Team discussions focus on balancing productivity with regulatory compliance",
+          "Growing openness to AI integration, but with strict data privacy controls"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Views AI as transformative for both cybersecurity and the wider business landscape",
+          "Believes AI will streamline documentation and audit processes across industries",
+          "Recognizes the potential for both increased productivity and new risks"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Concerned about data privacy and potential misuse of sensitive information by AI systems",
+          "Believes ethical AI use requires transparency and human oversight",
+          "Supports clear organizational policies on acceptable AI applications"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires an AI tool that can cross-reference current policy text with new framework updates automatically",
+          "Wants AI to flag outdated or noncompliant wording in real time",
+          "Would benefit from AI-driven workflow automation for audit evidence compilation"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects increased automation of routine compliance documentation",
+          "Predicts greater focus on oversight and interpretation rather than basic content creation",
+          "Anticipates new responsibilities for validating and supervising AI-driven processes"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement clear, detailed policies on permitted AI tool use and data handling",
+          "Provide periodic training on safe and effective AI adoption",
+          "Invest in secure, enterprise-grade AI solutions tailored to compliance environments",
+          "Encourage feedback loops between users and IT for continuous improvement of AI workflows"
+        ]
+      }
+    ]
+  }
+]

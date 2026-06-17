@@ -1,0 +1,555 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s Degree from an accredited university",
+          "Majored in Business Administration with a focus on nonprofit management",
+          "Completed elective coursework in marketing, finance, and communications",
+          "Participated in workshops on fundraising and investor relations during university",
+          "Attended online certificate programs in startup fundraising post-graduation"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Current job title: Senior Fundraising Manager",
+          "Oversees fundraising strategy and execution for a startup organization",
+          "Responsible for investor outreach, pitch deck development, and market research",
+          "Acts as lead negotiator during funding rounds",
+          "Manages relationships with existing and prospective investors"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the technology startup sector",
+          "Focuses primarily on early-stage venture fundraising",
+          "Has experience with both impact-driven and revenue-driven investment models",
+          "Industry intersects with fintech and SaaS verticals",
+          "Engages with angel investors, venture capitalists, and family offices"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works at a startup with fewer than 50 employees",
+          "Company culture emphasizes agility, innovation, and cross-functional collaboration",
+          "Flat organizational structure with direct access to executive leadership",
+          "Remote/hybrid work environment with distributed teams",
+          "Regularly interacts with founders, product, and legal teams"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Business operates in the B2B SaaS market",
+          "Targets clients in the enterprise and SME segments",
+          "Focuses on scalable solutions addressing industry-specific needs",
+          "Operates at the intersection of tech innovation and social impact",
+          "Actively seeks both financial and strategic investors"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 6-10 years of professional fundraising experience",
+          "Has been in the current Senior Fundraising Manager role for 3 years",
+          "Previously held similar roles at two other startups",
+          "Cumulative fundraising experience spans both seed and Series A-B rounds"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds a senior individual contributor position",
+          "Leads fundraising functions with significant autonomy",
+          "Acts as primary point of contact for investor relations",
+          "Participates in company strategy and planning meetings",
+          "Mentors junior fundraising staff and interns"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Conducts detailed market research to identify and rank potential investors",
+          "Prepares and customizes pitch decks based on investor profiles",
+          "Leads outreach campaigns, automates follow-ups, and manages investor communications",
+          "Performs due diligence checks and reviews legal documents for compliance",
+          "Negotiates terms and acts as the main liaison during funding negotiations"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 30% of time on market/investor research",
+          "Devotes 20% of work week to document and pitch deck preparation",
+          "Allocates 25% to investor outreach and follow-ups",
+          "15% of time is spent on negotiation and legal review",
+          "10% focuses on relationship building and stakeholder updates"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Exercises high autonomy in setting outreach strategy and investor targeting",
+          "Has authority to negotiate initial terms and bring recommendations to leadership",
+          "Independently prepares market research and analysis reports",
+          "Consults with founders for final investment decisions",
+          "Empowered to select and implement new tools or workflows"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Customizing pitch decks to align with different investor types",
+          "Building and maintaining relationships with existing investors",
+          "Drafting outreach messages and follow-up email templates",
+          "Synthesizing market research findings into actionable insights",
+          "Managing stakeholder communications and monthly updates"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Negotiating term sheets and identifying hidden unfavorable clauses",
+          "Comparing multiple investor offers against market standards",
+          "Conducting compliance checks for regulatory and legal requirements",
+          "Coordinating cross-platform investor communications (email, LinkedIn, Whatsapp)",
+          "Automating outreach to portfolio companies with personalized messaging"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Scraping and updating investor databases regularly",
+          "Ranking and scoring investors based on alignment and reference checks",
+          "Generating and sending cold outreach emails in bulk",
+          "Following up on unanswered investor communications",
+          "Populating data rooms with standardized legal and financial documents"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Finds storytelling and pitch deck creation highly engaging",
+          "Enjoys strategic negotiation and relationship building",
+          "Considers database scraping and manual data entry tedious",
+          "Finds repeated email follow-ups monotonous",
+          "Prefers tasks involving creativity and strategic thinking"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual data scraping from multiple sources is time-consuming",
+          "Difficulty in integrating data across different CRM and outreach tools",
+          "Repetitive customization of investor communications across platforms",
+          "High volume of administrative tasks reduces time for relationship building",
+          "Inconsistent data formats when consolidating investor feedback"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Productivity peaks when working on tasks that require creativity and strategy",
+          "High skill level in relationship management makes these tasks enjoyable",
+          "Low enjoyment and productivity during repetitive administrative work",
+          "Skill development in negotiation has improved job satisfaction",
+          "Learning new automation tools increases both enjoyment and efficiency"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Proactive and enthusiastic about adopting new tech solutions",
+          "Views technology as a key enabler for efficiency in fundraising",
+          "Regularly experiments with new tools to streamline workflows",
+          "Seeks out webinars and online demos for emerging fundraising platforms"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new software with minimal formal training",
+          "Comfortable exploring new features and troubleshooting issues independently",
+          "Frequently helps colleagues onboard to new fundraising tools",
+          "Has a track record of piloting new CRM and outreach platforms"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to invest several hours monthly in learning advanced tool features",
+          "Attends industry workshops and vendor training sessions when available",
+          "Balances training time with workload by prioritizing tools with clear ROI",
+          "Sees tech training as essential to maintaining a competitive edge"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the promise of reducing manual workload",
+          "Main barrier is the occasional lack of time due to tight fundraising deadlines",
+          "Prioritizes learning tools that integrate well with existing systems",
+          "Less inclined to adopt tools that require complex onboarding or disrupt workflow"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often share recommendations for new fundraising platforms",
+          "Management encourages adoption of technologies that improve efficiency",
+          "Participates in peer-led tool demos and best practice sharing sessions",
+          "Positive team culture around tech experimentation and feedback"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses HubSpot CRM to manage investor pipeline and communications",
+          "Relies on Excel and Google Sheets for financial modeling and data aggregation",
+          "Employs Pitch.com and Canva for pitch deck creation",
+          "Utilizes LinkedIn Sales Navigator for investor research and outreach",
+          "Leverages Zapier for workflow automation between tools"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Gmail and Outlook for daily investor correspondence",
+          "DocuSign for digital signatures on NDAs and contracts",
+          "Slack for internal team communication",
+          "Dropbox and Google Drive for storing and sharing due diligence documents",
+          "Calendly for scheduling investor meetings"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient in using DocSend to share and track pitch deck engagement",
+          "Experienced with Airtable for building custom investor databases",
+          "Familiar with Crunchbase and PitchBook for investor and market research",
+          "Understands the basics of Salesforce CRM, though not used daily"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces syncing issues between CRM and email platforms",
+          "Manual data transfer required from LinkedIn to CRM",
+          "Limited automation between document storage and investor tracking tools",
+          "Integration gaps sometimes lead to duplicated data entry",
+          "API limitations hinder seamless updating of investor databases"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands core AI/ML concepts such as natural language processing and predictive analytics",
+          "Familiar with prompt engineering to improve LLM output",
+          "Can explain basic differences between supervised and unsupervised learning",
+          "Has read industry articles on AI in fundraising and deal sourcing",
+          "Comfortable using terms like 'training data', 'fine-tuning', and 'model inference'"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses OpenAI\u2019s ChatGPT weekly for pitch deck drafting and email generation",
+          "Employs Clay for automating investor research and generating outreach lists",
+          "Leverages Lavender AI to optimize cold email subject lines and content",
+          "Tests Copy.ai for drafting personalized investor follow-ups",
+          "Experiments with Google Bard for market research summaries"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies LLMs weekly to generate, edit, or tailor pitch materials",
+          "Uses AI tools several times a week for scraping and summarizing investor data",
+          "Relies on AI for automating repetitive messaging and cold outreach tasks",
+          "Employs AI-powered platforms to analyze competitor fundraising strategies",
+          "Checks AI-generated legal summaries against original documents for compliance"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI-generated investor messaging improved email response rates by 20%",
+          "LLM occasionally produced generic content requiring significant human editing",
+          "AI flagged an unfavorable term in a term sheet that was missed during manual review",
+          "An automated outreach campaign included outdated company data, highlighting the need for regular database updates",
+          "AI-powered sentiment analysis misinterpreted investor feedback tone, necessitating manual review"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Organization provides access to online AI tool tutorials and documentation",
+          "Peers often share AI prompt templates and workflow tips in Slack channels",
+          "No formal in-house AI training program established yet",
+          "Occasional lunch-and-learn sessions cover new AI features or best practices",
+          "Relies on external webinars and online communities for advanced AI learning"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI for complex tasks like negotiation",
+          "Uses independent mode for routine content generation and data scraping",
+          "Appreciates the option to provide feedback and refine AI outputs iteratively",
+          "Finds collaborative AI workflows helpful for brainstorming and ideation"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an intelligent assistant for drafting and research tasks",
+          "Uses AI as a co-worker during data-heavy workflow automation",
+          "Relies on AI as an advisor for benchmarking term sheets and deal terms",
+          "Maintains final decision-making authority on all critical outputs"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to integrating AI-driven workflows that save time",
+          "Actively experiments with new AI features as they become available",
+          "Encourages colleagues to adopt AI tools for repetitive or data-intensive tasks",
+          "Provides feedback to AI vendors to improve workflow integration"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and content generation",
+          "Uses command-based prompts for structured data tasks and automation",
+          "Finds conversational UIs more intuitive for exploring new ideas",
+          "Appreciates hybrid interfaces offering both quick commands and natural language interaction"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Investor negotiation and relationship management require deep domain expertise",
+          "Tailoring pitches depends on nuanced understanding of investor psychology",
+          "Due diligence checks benefit from industry-specific regulatory knowledge",
+          "AI assists with data aggregation but human judgment remains critical for final decisions"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for generating drafts and initial analyses but always reviews critical outputs",
+          "Cross-checks all AI-generated legal and financial documents before sharing externally",
+          "Views AI as a valuable second set of eyes, not a replacement for domain expertise",
+          "Trust level increases with transparent, explainable outputs from AI tools"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers high automation for repetitive data scraping and analysis",
+          "Maintains human oversight for investor communications and negotiation",
+          "Combines AI-generated drafts with manual customization for pitch decks",
+          "Delegates routine follow-ups to AI, but handles sensitive investor queries personally"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for tasks with low risk and clear guidelines",
+          "Finds full automation threatening if it risks losing personal touch in investor relations",
+          "Requires human review for any AI-driven legal or compliance processes",
+          "Willing to automate more when AI tools demonstrate consistent accuracy and transparency"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "AI has enhanced the importance of strategic thinking and relationship management",
+          "Routine technical skills like data entry are becoming less critical",
+          "Storytelling and negotiation remain irreplaceable by AI",
+          "AI frees up time to focus on high-value, human-centric tasks"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Prompt engineering and AI workflow design are now part of daily work",
+          "Responsible for evaluating the reliability and biases in AI-generated outputs",
+          "Required to learn integration of AI tools with existing platforms",
+          "Acts as a resource for team members on best practices for AI adoption"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Minimal concern about AI replacing core fundraising and negotiation responsibilities",
+          "Expects some administrative and data processing tasks to be fully automated",
+          "Sees AI as a tool to augment, not replace, the human element of the role",
+          "Monitors industry trends to stay ahead of potential AI-driven disruptions"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All AI-generated communications are reviewed before sending to investors",
+          "Manual approval required for final legal and compliance documents",
+          "Can pause or edit automated outreach sequences at any time",
+          "Maintains logs of AI activity for post-process review and audit"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company is increasingly supportive of AI pilots and experimentation",
+          "Recent policies encourage responsible AI use with mandatory human oversight",
+          "Team meetings now regularly include updates on AI tool performance",
+          "Management seeks employee input before adopting new AI-driven workflows"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will democratize access to fundraising intelligence for startups",
+          "Expects AI to accelerate deal flow and market transparency",
+          "Anticipates new ethical and regulatory challenges as AI adoption grows",
+          "Sees AI as a catalyst for innovation in the fundraising sector"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports transparent and explainable AI systems for workplace use",
+          "Concerned about potential bias in AI-generated investor scoring and profiling",
+          "Believes in maintaining human accountability for critical fundraising decisions",
+          "Advocates for clear disclosure when AI is used in investor communications"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires an AI-driven investor matching engine that factors in nuanced company metrics",
+          "Wants seamless AI integration across all communication and document platforms",
+          "Seeks advanced AI support for regulatory compliance and cross-border fundraising",
+          "Would benefit from AI that can simulate negotiation scenarios and outcomes"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects core fundraising tasks to become more strategic as AI handles routine work",
+          "Foresees increased focus on relationship management and creative deal structuring",
+          "Predicts greater reliance on data-driven insights for investor targeting",
+          "Anticipates needing to upskill in AI oversight and ethical data use"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement regular training on new AI tools and best practices",
+          "Establish clear guidelines for human oversight of AI-generated outputs",
+          "Invest in customizable AI platforms that integrate with existing workflows",
+          "Foster a culture of experimentation while maintaining ethical standards"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,538 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master\u2019s Degree in Sustainable Design and Construction",
+          "Undergraduate degree in Environmental Engineering",
+          "Completed coursework in building decarbonization, clean energy systems, and energy modeling",
+          "Participated in research projects focused on sustainable building practices",
+          "Attended workshops on advanced simulation tools and sustainable material selection"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Title: Sustainability Specialist (Graduate Student/Research Assistant)",
+          "Focuses on clean energy integration and building decarbonization in academic projects",
+          "Responsible for energy modeling, site logistics planning, and reporting simulation results",
+          "Works on optimizing building design for energy efficiency and sustainability",
+          "Collaborates with faculty and peers on research and coursework assignments"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Active in the construction and sustainable design industry",
+          "Works primarily within the academic and research sector",
+          "Engages with clean energy and building technology markets",
+          "Involved in the green building and environmental engineering sector"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Operates within a mid-to-large academic institution (graduate program)",
+          "Research group size typically ranges from 5 to 20 members",
+          "Collaborates with interdisciplinary teams across architecture, engineering, and construction management",
+          "Environment fosters innovation, research, and practical project applications"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Focused on sustainable building design and construction",
+          "Engaged in the academic research and education segment",
+          "Projects address energy optimization and decarbonization for commercial and institutional buildings",
+          "Participates in the clean energy and green technology market"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 1-2 years of experience as a sustainability specialist and graduate student",
+          "Started current role immediately after undergraduate graduation",
+          "Experience includes both coursework and hands-on research projects",
+          "Participated in internships prior to beginning master's program"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Early-career professional at the graduate student/entry-level specialist tier",
+          "Holds a junior/associate position within research groups",
+          "Typically supervised by professors or senior researchers",
+          "Starting to take on more independent responsibilities in projects"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Performs energy modeling for building projects using OpenStudio and Insight",
+          "Conducts site logistics planning and creates 2D/3D site maps using AutoCAD and FUZOR",
+          "Tracks construction schedules and project timelines in ALICE",
+          "Prepares detailed reports based on simulation and modeling results",
+          "Analyzes climate data and environmental context for optimizing site and building design"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Energy modeling and simulation: ~40% of weekly workload",
+          "Site logistics mapping and planning: ~20%",
+          "Schedule tracking and project management: ~15%",
+          "Report writing and data analysis: ~20%",
+          "Meetings and collaboration: ~5%"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has moderate autonomy in selecting modeling parameters and simulation tools",
+          "Consults with supervisors for major design decisions and project direction",
+          "Independently generates initial analysis and recommendations for energy optimization",
+          "Collaborates with peers on project teams but is responsible for assigned work segments",
+          "Can propose changes to design based on simulation outcomes, subject to approval"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Constructing 2D site maps in AutoCAD is a routine and comfortable task",
+          "Running basic energy modeling simulations in OpenStudio is straightforward",
+          "Compiling and formatting reports in Excel is familiar",
+          "Extracting and analyzing climate data for environmental reports comes easily"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Optimizing building orientation and window placement for maximum energy efficiency is complex",
+          "Integrating multiple software platforms (e.g., REVIT with OpenStudio) can be technically demanding",
+          "Interpreting simulation results when conflicting outcomes arise requires critical analysis",
+          "Selecting the best material combinations for decarbonization involves balancing trade-offs"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Transcribing meeting notes and converting them into action points is repetitive",
+          "Organizing and cleaning large data sheets in Excel is data-heavy and suitable for automation",
+          "Batch processing of simulation runs with minor parameter tweaks could be automated",
+          "Generating standard sections of reports (such as boilerplate content) is repetitive"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys conceptualizing sustainable design strategies and seeing simulated improvements",
+          "Finds early-stage design iterations with AI tools like SketchPro engaging",
+          "Considers repetitive data entry and report formatting tedious",
+          "Gets satisfaction from visualizing simulation results and identifying efficiency gains"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual data entry and cleaning in Excel is time-consuming",
+          "Software incompatibility or file conversion issues slow down workflow",
+          "Running multiple simulation iterations can be slow and computationally intensive",
+          "Switching between different platforms (e.g., REVIT, OpenStudio, FUZOR) introduces friction"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Feels most productive when working on tasks that align with personal interests in sustainability",
+          "Skill level is highest in areas of repeated practice, such as energy modeling and AutoCAD drafting",
+          "Enjoyment increases when learning leads to tangible project improvements",
+          "Productivity dips when faced with repetitive, low-skill tasks such as manual data entry"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Has a positive and proactive attitude toward adopting new tech solutions",
+          "Sees technology as essential for improving workflow efficiency",
+          "Enjoys exploring how new tools can lead to better sustainability outcomes",
+          "Views tech learning as integral to staying current in the field"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Considers self adaptable and quick to pick up new platforms",
+          "Able to learn new simulation software within a short timeframe (1-2 weeks)",
+          "Comfortable experimenting with beta versions of emerging AI tools",
+          "Occasionally seeks guidance from more experienced peers during initial adoption"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate several hours per week to learning new tools",
+          "Participates in online webinars and workshops when relevant",
+          "Prefers hands-on, project-based training over theoretical instruction",
+          "Balances training time with academic and project deadlines"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Primary motivation is increased efficiency and project impact",
+          "Relevance to current projects is a strong factor in prioritizing what to learn",
+          "High workload can occasionally delay tech adoption",
+          "Will avoid learning tools perceived as outdated or not widely used in industry"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often recommend new tools and share tips in group settings",
+          "Faculty advisors encourage the exploration of cutting-edge technologies",
+          "Collaborative culture promotes knowledge sharing and experimentation",
+          "Feedback from others helps in assessing tool effectiveness and relevance"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses REVIT for building modeling and documentation",
+          "Runs energy simulations in OpenStudio and Insight",
+          "Relies on Microsoft Excel for data management and reporting",
+          "Implements ALICE for generative construction schedule simulations",
+          "Utilizes FUZOR for 3D site logistics planning"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "AutoCAD is essential for 2D site mapping and drafting",
+          "QGIS is used for environmental and geospatial analysis",
+          "Excel is the primary tool for data entry, analysis, and visualization",
+          "SketchUp occasionally used for quick 3D conceptual modeling"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Comfortable with BIM platforms such as REVIT and AutoCAD",
+          "Has working knowledge of energy modeling software like OpenStudio and Insight",
+          "Familiar with 3D simulation tools (FUZOR) and geospatial platforms (QGIS)",
+          "Understands the basics of project management tools common in construction"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces file compatibility issues between REVIT and OpenStudio",
+          "Data transfer between AutoCAD and QGIS requires manual adjustments",
+          "Integration of simulation outputs into Excel for reporting is sometimes cumbersome",
+          "Switching between platforms can cause version control and data loss concerns"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic concepts such as machine learning, generative design, and automation",
+          "Familiar with terms like 'training data,' 'model inference,' and 'optimization algorithms'",
+          "Has attended introductory workshops or webinars on AI applications in construction",
+          "Can explain the difference between rule-based automation and AI-driven solutions"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ALICE for generative simulation and construction scheduling",
+          "Employs OpenAI (e.g., ChatGPT) for meeting transcription and note organization",
+          "Utilizes SketchPro and Finch for AI-assisted conceptual design iterations",
+          "Leverages Excel\u2019s AI-driven features for data organization and workflow optimization"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses ALICE weekly for optimizing construction schedules in class projects",
+          "Occasionally employs OpenAI tools to transcribe and organize meeting notes",
+          "Applies Finch or SketchPro at the conceptual design stage for early visualizations",
+          "Uses Excel\u2019s AI features when handling large datasets or automating repetitive formatting"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used ALICE to identify more efficient construction sequencing options, reducing project timelines in simulations",
+          "AI transcription tools occasionally misinterpret technical jargon, requiring manual editing",
+          "AI-assisted conceptual design tools accelerated early-stage iterations, improving team creativity",
+          "Initial attempts at automating energy model parameter sweeps with AI had mixed success due to data input inconsistencies"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Receives informal peer-to-peer support for AI tool adoption",
+          "Occasional workshops provided by university or research group on emerging AI technologies",
+          "Online resources and forums are primary sources for troubleshooting",
+          "Faculty advisors sometimes recommend new AI tools or share best practices"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers a mix of independent exploration and step-by-step guidance when learning new AI tools",
+          "Often starts independently, then consults tutorials or peers for advanced features",
+          "Enjoys experimenting solo but values collaborative brainstorming during implementation",
+          "Adjusts interaction style based on complexity of the tool or task"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant or co-worker that enhances productivity",
+          "Leverages AI as an advisor during early design and simulation stages",
+          "Uses AI to handle repetitive or data-intensive tasks, freeing up time for creative work",
+          "Prefers AI systems that can suggest but not override human decisions"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to integrating new AI-driven processes that improve efficiency",
+          "Willing to experiment with generative design AI in conceptual phases",
+          "Actively seeks out workflows where AI can automate or enhance routine tasks",
+          "Approaches highly automated workflows with cautious optimism, especially for critical tasks"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and clarifying requirements",
+          "Uses command-based interfaces for precise, repeatable tasks",
+          "Values the ability to switch between conversational and structured input modes",
+          "Finds that conversational AI aids in learning and troubleshooting new tools"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Optimizing building decarbonization requires deep understanding of sustainability principles",
+          "Site-specific context and climate data interpretation often depend on tacit expertise",
+          "Material selection for sustainability involves nuanced trade-offs best understood by specialists",
+          "AI tools are more effective when guided by human domain knowledge"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI to generate options and organize data, but reviews outputs manually",
+          "Relies on AI for initial suggestions, not for final decisions in critical design tasks",
+          "Confidence in AI increases with tool transparency and ability to validate results",
+          "Skeptical of AI outputs in cases with high context sensitivity or novel scenarios"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to automate repetitive data entry and simulation parameter sweeps",
+          "Wants human oversight for interpreting results and making design recommendations",
+          "Sees value in human-AI collaboration for complex problem-solving",
+          "Supports partial automation for reporting, with manual quality control"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for low-risk, routine tasks like data sorting or transcription",
+          "Finds full automation threatening when nuanced decision-making is required",
+          "Prefers to retain manual control or override options for simulation and design outputs",
+          "Supports high automation when AI outputs can be easily audited and validated"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the value of analytical and critical thinking skills",
+          "Technical proficiency in simulation software remains essential despite automation",
+          "Routine skills like data entry are becoming less important due to AI",
+          "Sees communication and interpretation skills as increasingly vital in an AI-rich workflow"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning to interpret and validate AI-generated outputs is a new responsibility",
+          "Developing prompt engineering skills for conversational AI tools",
+          "Becoming adept at integrating and troubleshooting new AI tools within existing workflows",
+          "Responsible for identifying opportunities to automate tasks with AI"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mildly concerned about automation of data-heavy, repetitive tasks",
+          "Not worried about AI replacing core sustainability expertise or creative design work",
+          "Views AI as a tool for augmentation rather than replacement in the current stage",
+          "Monitors industry developments regarding AI-driven job market shifts"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Manual review is standard practice for all AI-generated reports and designs",
+          "Can adjust or override AI-suggested schedules in ALICE before finalizing",
+          "Double-checks AI transcriptions for accuracy and context",
+          "Maintains backup copies of original data before applying AI-driven transformations"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Research group increasingly encourages experimentation with AI tools",
+          "No formal policy, but growing awareness of AI\u2019s role in sustainable design education",
+          "Peers are more open to adopting AI than faculty in some cases",
+          "Anticipates formal guidelines as AI tool use becomes more widespread"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will drive significant efficiency gains in the construction sector",
+          "Expects AI to accelerate progress toward sustainability and decarbonization goals",
+          "Recognizes potential for job displacement in highly repetitive roles",
+          "Sees AI as a catalyst for interdisciplinary collaboration and innovation"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports ethical AI development with transparent decision-making processes",
+          "Concerned about bias in AI outputs, especially in design and planning",
+          "Believes human oversight is essential to ensure responsible AI use",
+          "Wary of overreliance on AI for critical decisions without validation"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Wishes for AI tools that leverage historical design data for optimal building decarbonization strategies",
+          "Sees value in AI that can seamlessly integrate data across all modeling and simulation platforms",
+          "Desires more intuitive AI-driven design suggestion engines for early-stage projects",
+          "Would benefit from AI that can automatically flag and explain inconsistencies in simulation results"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine tasks to be almost fully automated, focusing human effort on creative and strategic aspects",
+          "Predicts increased collaboration with AI as a design co-creator, not just an assistant",
+          "Foresees need for advanced skills in AI validation and cross-disciplinary integration",
+          "Believes sustainability specialists will be more data-driven, leveraging AI for decision support"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Develop clear guidelines and best practices for AI tool use in projects",
+          "Invest in ongoing training and upskilling for AI literacy across teams",
+          "Encourage pilot projects and experimentation with emerging AI technologies",
+          "Promote an open culture for sharing AI successes and failures to accelerate learning"
+        ]
+      }
+    ]
+  }
+]

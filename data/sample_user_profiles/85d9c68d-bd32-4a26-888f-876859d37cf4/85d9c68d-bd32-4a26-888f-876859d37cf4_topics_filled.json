@@ -1,0 +1,532 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds an Associate Degree from a community college in Health Information Management.",
+          "Completed coursework in medical terminology, healthcare administration, and billing/coding.",
+          "Participated in continuing education seminars on compliance and medical billing updates.",
+          "Maintains certification in healthcare compliance auditing."
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Quality Assurance Auditor \u2013 Revenue Cycle Department.",
+          "Audits medical billing and revenue cycle analyst accounts for compliance.",
+          "Ensures that account notes are accurate, complete, and in accordance with regulatory and company guidelines.",
+          "Monitors staff adherence to correction protocols and timely follow-ups."
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the healthcare administration sector.",
+          "Specializes in medical billing, auditing, and compliance.",
+          "Operates within the broader medical and health services management industry."
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-sized healthcare organization with approximately 200-500 employees.",
+          "Works in an office environment with both in-person and remote staff.",
+          "Belongs to a team of 10-15 auditors and analysts within the Revenue Cycle Management department.",
+          "The company has a structured hierarchy and formal process documentation."
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Company provides medical billing and revenue cycle management services to healthcare providers.",
+          "Focuses on compliance and efficiency for insurance claims processing.",
+          "Serves clinics, hospitals, and physician practices as primary clients.",
+          "Operates in the outsourced healthcare services market."
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 6-10 years of experience in medical and health services management roles.",
+          "Worked as a Quality Assurance Auditor for the past 7 years.",
+          "Started career in medical billing and transitioned into auditing after 2-3 years.",
+          "Has seen the department grow and processes evolve over this period."
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Considered mid-career and holds a senior non-managerial position.",
+          "Acts as a lead auditor on several projects.",
+          "Mentors new auditors and participates in process improvement initiatives.",
+          "Has influence on auditing standards and workflow adjustments."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Reviews and audits medical billing records for accuracy and compliance.",
+          "Evaluates documentation and notations entered by billers and analysts.",
+          "Flags non-compliant accounts and initiates corrective action steps.",
+          "Prepares audit findings reports for management and relevant teams.",
+          "Collaborates with billing staff to clarify issues and provide feedback."
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 70% of daily work hours on account auditing.",
+          "Devotes 15% of time to report writing and documentation.",
+          "Allocates around 10% to staff communication and follow-up.",
+          "Reserves 5% for training, meetings, and workflow process review."
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates with moderate autonomy in selecting accounts and determining audit priorities.",
+          "Follows established auditing guidelines but can escalate unusual cases for further review.",
+          "Empowered to recommend workflow improvements based on audit findings.",
+          "Consults with management for high-risk or systemic compliance issues."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Quickly identifies missing or incomplete notations in billing records.",
+          "Efficient at verifying dates of service and patient identifiers.",
+          "Comfortable preparing standard audit reports using templates.",
+          "Easily communicates routine corrections to billing staff."
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Auditing accounts with multiple overlapping insurance coverages.",
+          "Interpreting ambiguous or incomplete provider documentation.",
+          "Managing high-volume periods with tight turnaround times.",
+          "Addressing recurrent compliance issues that require root cause analysis."
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Scanning large batches of accounts for basic compliance checks.",
+          "Verifying standard billing codes against service dates.",
+          "Aggregating and sorting audit data for monthly reporting.",
+          "Flagging accounts missing required notations using rule-based criteria."
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Most enjoys collaborating with colleagues to resolve complex audit cases.",
+          "Finds satisfaction in identifying trends and recommending process improvements.",
+          "Considers repetitive data validation and report formatting tedious.",
+          "Least enjoys chasing down missing documentation from busy providers."
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual searching for specific accounts or documentation slows down workflow.",
+          "Frequent data entry errors from billing staff create rework.",
+          "Limited interoperability between billing and audit software causes duplication.",
+          "Delays in staff responses to audit queries can hold up corrective actions."
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Feels most productive and engaged when working on challenging audits.",
+          "High skill level in compliance review leads to faster, more accurate audits.",
+          "Repetitive, low-skill tasks decrease enjoyment and are prone to distraction.",
+          "Prefers tasks where experience and judgment directly impact outcomes."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally open and curious about new technologies, especially those that improve efficiency.",
+          "Sees value in adopting tools that automate repetitive tasks.",
+          "Cautious about adopting unproven or disruptive software without clear benefits.",
+          "Willing to experiment with AI tools when they are relevant to workflow."
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Considers self moderately adaptable, able to learn most new tools with some training.",
+          "Adapts best when software is user-friendly and offers clear documentation.",
+          "Occasionally relies on colleagues or online resources for troubleshooting.",
+          "Prefers gradual rollouts over abrupt software changes."
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate several hours per month to software or AI training.",
+          "More likely to engage in training if management encourages or mandates it.",
+          "Prefers short, targeted training modules over lengthy seminars.",
+          "Sees training as valuable if it leads to time savings in daily tasks."
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the promise of reducing repetitive work.",
+          "Barriers include heavy audit workloads and limited downtime for training.",
+          "More likely to learn tools directly related to compliance or billing efficiency.",
+          "Lack of technical support can discourage adoption of complex tools."
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers who demonstrate success with new tools increase willingness to try them.",
+          "Management endorsement is a strong motivator for adoption.",
+          "Relies on peer recommendations for practical tips or shortcuts.",
+          "Collaborative team culture helps ease the transition to new software."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Epic or Cerner EHR platforms to access patient billing records.",
+          "Employs Microsoft Excel and Access for audit tracking and reporting.",
+          "Utilizes proprietary audit management software for workflow.",
+          "Accesses claims data via payer web portals (e.g., UnitedHealthcare, Medicare)."
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on dual-monitor workstation for efficient account review.",
+          "Uses secure email and Microsoft Teams for team communication.",
+          "Employs PDF viewers/editors for reviewing documentation.",
+          "Keeps printed compliance checklists as quick desk references."
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient in EHR systems common in healthcare administration.",
+          "Comfortable with Excel's advanced features, such as pivot tables and lookups.",
+          "Has used several medical coding tools (e.g., EncoderPro, SuperCoder).",
+          "Familiar with standard claims submission software (e.g., Availity, Office Ally)."
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces challenges transferring data between EHR and audit software.",
+          "Manual data entry is required when exporting from claims portals.",
+          "Limited integration results in duplicate work and reconciliation errors.",
+          "Company is exploring API-based solutions to improve cross-system compatibility."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands the basics of machine learning, such as training data and predictions.",
+          "Familiar with concepts like natural language processing and classification.",
+          "Recognizes difference between rule-based automation and AI-driven tools.",
+          "Has read articles or attended webinars on AI in healthcare compliance."
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses OpenAI's ChatGPT for summarizing audit documentation and drafting reports.",
+          "Employs Microsoft Copilot in Excel for data analysis and formula suggestions.",
+          "Has trialed Olive AI for automating claim status checks.",
+          "Uses built-in AI features in Epic EHR for identifying anomalous billing patterns."
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies LLM tools weekly to summarize lengthy documentation.",
+          "Uses AI chatbots to assist with coding questions or compliance lookups.",
+          "Employs AI in Excel to generate error reports and highlight outliers.",
+          "Tests new AI features as they are rolled out for audit preparation."
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully reduced audit report preparation time by 30% using LLM summaries.",
+          "AI missed nuanced cases where human domain expertise was required.",
+          "Encountered occasional hallucinated outputs from LLMs, requiring manual verification.",
+          "Learned to cross-check AI-generated findings against source data."
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company offers periodic lunch-and-learn sessions on AI tool best practices.",
+          "Peers often share tips and prompt templates for using LLMs efficiently.",
+          "Limited formal documentation exists for AI tool integration in audit workflow.",
+          "Relies on online knowledge bases and user forums for troubleshooting."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI tools, especially for complex audits.",
+          "Uses AI independently for routine summarization and initial data checks.",
+          "Likes to maintain human oversight at key decision points.",
+          "Adapts interaction style based on the complexity of the task."
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for automating repetitive tasks.",
+          "Occasionally uses AI as an advisor for compliance questions or coding rules.",
+          "Does not see AI as a replacement for human judgment in final audits.",
+          "Values AI as a 'co-worker' for batch data processing."
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to piloting AI-driven workflow automation, provided oversight remains.",
+          "Willing to integrate AI tools if they demonstrably save time or reduce errors.",
+          "Prefers gradual adoption with opportunities for feedback and adjustment.",
+          "Seeks clear documentation and training when workflows change."
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for LLMs and chatbots.",
+          "Finds command-based UIs efficient for repetitive, structured queries.",
+          "Uses a mix of both depending on the tool and task.",
+          "Believes conversational interfaces help uncover insights during audits."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many audit decisions depend on nuanced understanding of payer guidelines.",
+          "Recognizes that context from provider notes often requires human interpretation.",
+          "Tacit knowledge is critical for identifying patterns of non-compliance.",
+          "AI is most useful for structured, rule-based tasks rather than subjective judgments."
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Has moderate trust in AI for routine data checks and summarization.",
+          "Maintains skepticism for AI-generated compliance assessments without human review.",
+          "Trusts AI more for flagging potential issues than making final decisions.",
+          "Always verifies AI outputs before submitting audit findings."
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle initial data filtering, flagging, and summarization.",
+          "Believes humans should perform final reviews and interpret complex cases.",
+          "Envisions a 70/30 split for routine versus judgment-heavy tasks.",
+          "Supports AI-driven automation for reporting and trend analysis."
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Acceptable for high-volume, low-risk audits where rules are clear.",
+          "Finds high automation threatening if it removes necessary human oversight.",
+          "Supports automation if override mechanisms and transparency exist.",
+          "Cautious about automation in ambiguous or high-stakes compliance scenarios."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the importance of critical thinking and compliance expertise.",
+          "Sees routine data entry and simple audits as diminishing in value.",
+          "Recognizes need to upskill in AI tool usage and data interpretation.",
+          "Feels human judgment remains essential despite automation gains."
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing proficiency in prompt engineering for LLMs.",
+          "Learning to validate and interpret AI-generated recommendations.",
+          "Contributing to the design and testing of AI audit workflows.",
+          "Collaborating with IT on data integration and AI system feedback."
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Moderately concerned about automation of repetitive audit tasks.",
+          "Confident that complex compliance and judgment work will remain human-led.",
+          "Stays informed about AI trends to understand potential role shifts.",
+          "Views job evolution as likely rather than outright replacement."
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Manual review is built into all AI-augmented audit workflows.",
+          "Auditors can override or annotate AI-generated findings.",
+          "Company policy requires human sign-off on all compliance reports.",
+          "Regular QA checks performed on both human and AI outputs."
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has formalized guidelines for responsible AI tool use.",
+          "Regularly updates policies as new AI features are introduced.",
+          "Team discussions now include AI ethics and data privacy topics.",
+          "Increased emphasis on transparency and auditability of AI processes."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will broadly improve efficiency and reduce errors in healthcare administration.",
+          "Anticipates increased demand for AI-literate professionals in the industry.",
+          "Sees potential for AI to uncover systemic compliance risks previously missed.",
+          "Remains cautious about over-reliance on AI at the expense of human expertise."
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes human oversight is essential to prevent bias and errors in AI outputs.",
+          "Values transparency in how AI tools make decisions or flag issues.",
+          "Concerned about possible data privacy risks with cloud-based AI solutions.",
+          "Supports ongoing review of AI ethics and compliance with regulatory standards."
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires AI tools that can accurately contextualize compliance exceptions.",
+          "Wants seamless integration between EHR, billing, and audit platforms.",
+          "Hopes for conversational AI that can explain audit findings in plain language.",
+          "Seeks AI-driven root cause analysis for recurring compliance failures."
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects to become more of an AI supervisor and workflow designer.",
+          "Anticipates fewer manual audits and more oversight of automated processes.",
+          "Foresees increased focus on exception handling and process optimization.",
+          "Believes ongoing learning and adaptation will be critical for future success."
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Advocates for regular training and upskilling opportunities in AI use.",
+          "Wants clear policies for AI oversight and accountability.",
+          "Recommends piloting new tools before full-scale adoption.",
+          "Supports investment in integrated AI solutions tailored to audit needs."
+        ]
+      }
+    ]
+  }
+]

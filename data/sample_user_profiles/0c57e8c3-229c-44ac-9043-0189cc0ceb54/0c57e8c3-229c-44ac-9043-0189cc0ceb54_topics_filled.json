@@ -1,0 +1,533 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s Degree from a U.S. university, majoring in Law or Pre-Law.",
+          "Participated in moot court and legal research seminars during undergraduate studies.",
+          "Completed coursework in legal writing, constitutional law, and technology law.",
+          "Received additional training in AI regulation as part of academic focus.",
+          "Served as a research assistant to law professors during studies."
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Judicial Law Clerk supporting legal research and case analysis.",
+          "Works as a research assistant for law professors, focusing on legal research and academic writing.",
+          "Contributes to academic journals through legal essays and case commentaries.",
+          "Participates in moot court competitions, preparing briefs and oral arguments."
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the legal sector, with a focus on academia and judicial research.",
+          "Specializes in technology law and AI regulation within the legal field.",
+          "Engages regularly with regulatory and compliance aspects of artificial intelligence.",
+          "Operates at the intersection of law and technology."
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed within a university law faculty setting.",
+          "Works closely with small academic teams and other clerks.",
+          "Collaborates with professors, journal editors, and moot court teams.",
+          "Environment is research-focused, with access to legal databases and advanced tech tools."
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Academic legal research and higher education segment.",
+          "Supports both educational objectives and scholarly legal publications.",
+          "Involved in legal technology and regulatory research projects.",
+          "Market segment includes legal academia, judicial support, and technology law."
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has less than 1 year of experience as a judicial law clerk and research assistant.",
+          "Started current law clerk and research assistant roles immediately after undergraduate graduation.",
+          "Experience includes both academic and court-related legal research."
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Entry-level professional, early in legal career.",
+          "Holds junior or early-career research positions within academia.",
+          "Acts as a supporting member of legal research and moot court teams.",
+          "Regularly receives mentorship and supervision from law professors."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Performs extensive legal research using LexisNexis, Westlaw, and online databases.",
+          "Drafts academic essays, journal articles, and legal memos.",
+          "Prepares case briefs and analyses for moot court and classroom discussions.",
+          "Supports law professors with research for publications and class material.",
+          "Uses AI tools to summarize and analyze lengthy legal documents."
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 40% of work hours on legal research and case reading.",
+          "Dedicates 30% of time to writing academic and legal materials.",
+          "Allocates 20% to AI-assisted document analysis and tool integration.",
+          "Reserves around 10% for meetings, moot court preparation, and administrative tasks."
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates under guidance of law professors and journal editors.",
+          "Has autonomy in selecting research strategies and initial case sources.",
+          "Responsible for synthesizing findings and drafting initial analyses.",
+          "Major decisions (e.g., final arguments, publication content) require supervisor approval."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Summarizing case facts and legal holdings.",
+          "Using AI tools to generate initial drafts or summaries of legal texts.",
+          "Searching for precedents in LexisNexis or Westlaw using established queries.",
+          "Writing case briefs and preparing outlines for class discussions."
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Analyzing and synthesizing conflicting legal precedents.",
+          "Drafting original legal arguments for complex, novel issues.",
+          "Navigating ambiguous or poorly-structured legal databases.",
+          "Ensuring precision and accuracy in AI-assisted legal research outputs."
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Bulk reading and summarization of hundreds of pages of court cases.",
+          "Extracting statutory references or case citations from lengthy documents.",
+          "Compiling bibliographies for academic legal papers.",
+          "Transcribing or organizing legal notes and case facts."
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys formulating novel legal arguments and engaging in moot court advocacy.",
+          "Finds satisfaction in deep-diving into regulatory and compliance research on AI.",
+          "Considers repetitive data extraction and citation formatting tedious.",
+          "Prefers interactive, analytical work over rote summarization or manual document parsing."
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Managing extremely long case documents with limited search/filter capabilities.",
+          "Manually verifying the accuracy of AI-generated summaries or citations.",
+          "Integrating AI tools with legacy legal databases (e.g., Westlaw export issues).",
+          "Switching between multiple platforms increases friction and time spent."
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Productivity is highest when using AI tools to automate repetitive research tasks.",
+          "Enjoyment increases with opportunities for creative legal analysis and advocacy.",
+          "Skill development is fastest in areas where AI tools supplement, not replace, work.",
+          "Tedious, manual tasks tend to reduce engagement and perceived productivity."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Highly proactive in exploring emerging AI and legal tech solutions.",
+          "Views technology adoption as essential for efficiency in legal research.",
+          "Enjoys experimenting with new legal AI tools in workflow.",
+          "Feels comfortable being an early adopter in the academic legal environment."
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new digital research platforms and AI tools.",
+          "Has successfully integrated Google AI Studio and Notebook LM into daily tasks.",
+          "Able to troubleshoot and locally deploy open-source AI models as needed.",
+          "Finds minimal friction when switching between different legal tech tools."
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to invest time in learning features of advanced AI platforms.",
+          "Has self-trained on Google AI Studio, Notebook LM, and legal database integrations.",
+          "Regularly keeps up-to-date with latest developments in legal AI tools.",
+          "Views tech training as beneficial for both current role and future career growth."
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by desire to improve efficiency and reduce manual labor.",
+          "Learning is prioritized if tools directly enhance legal research or writing.",
+          "Heavy workload during academic peaks can limit available time for new tech exploration.",
+          "Occasional frustration with lack of integration between legal and AI platforms."
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers in academic setting often share recommendations on effective AI tools.",
+          "Law professors encourage adoption of technology for research and compliance tasks.",
+          "Collaborative environment supports knowledge sharing on tool usage.",
+          "Positive peer feedback encourages continued experimentation with new legal tech."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Google AI Studio for long-context document analysis and summarization.",
+          "Relies on Notebook LM by Google for audio-based case review and artificial 'podcast' summaries.",
+          "Accesses LexisNexis and Westlaw daily for legal research and precedent search.",
+          "Utilizes cloud-based storage for organizing legal documents and notes."
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Uses Microsoft Word and Google Docs for drafting legal memos and essays.",
+          "Manages references and citations with Zotero or similar bibliography tools.",
+          "Employs PDF annotation tools (like Adobe Acrobat) for case highlighting.",
+          "Occasionally uses Excel or Google Sheets for tracking research progress."
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Highly proficient with LexisNexis and Westlaw advanced search features.",
+          "Familiar with Google AI Studio's prompt engineering and context management.",
+          "Has working knowledge of Notebook LM and its conversational summarization functions.",
+          "Understands basic integration between legal research platforms and cloud storage."
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Experiences some friction exporting data from Westlaw/LexisNexis to AI platforms.",
+          "Manual transfer of case files between legal databases and AI tools is occasionally required.",
+          "Integration between reference managers and AI tools is limited or non-existent.",
+          "Switching between multiple platforms can disrupt workflow continuity."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands core concepts like large language models, tokenization, and hallucination.",
+          "Familiar with terms such as prompt engineering, context window, and model fine-tuning.",
+          "Has basic knowledge of machine learning risks, including bias and data privacy.",
+          "Can explain the difference between open-source and proprietary AI models."
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses Google AI Studio daily for analyzing lengthy legal texts.",
+          "Employs Notebook LM by Google for summarizing batches of case readings.",
+          "Has experimented with local deployment of open-source language models.",
+          "Rarely uses ChatGPT; prefers alternatives with longer context windows."
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses AI tools every day to process, summarize, and analyze legal documents.",
+          "Applies AI for note-taking, extracting relevant legal issues, and drafting briefs.",
+          "Relies on AI for quickly reviewing large volumes of assigned readings.",
+          "Uses AI to create artificial 'podcasts' for passive review of case content."
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI tools have significantly reduced time spent on summarizing hundreds of pages.",
+          "Occasionally, AI-generated summaries miss subtle legal nuances or misstate holdings.",
+          "Learned to always verify AI outputs before including them in academic writing.",
+          "Success with Google AI Studio is attributed to its long-context handling and low hallucination rate."
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal organizational training, but peer-to-peer learning is common.",
+          "Regularly exchanges tips and best practices with other law students and researchers.",
+          "Access to online legal tech forums and university-sponsored webinars.",
+          "Relies on self-guided exploration and community documentation for AI tools."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI tools for complex legal analysis.",
+          "Uses AI independently for simple tasks like summarization or extraction.",
+          "Combines human review with AI output to ensure accuracy and compliance.",
+          "Adapts interaction mode based on the complexity of the legal issue at hand."
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for drafting and research tasks.",
+          "Occasionally treats AI as a co-worker, especially for brainstorming arguments.",
+          "Uses AI as an advisor when seeking alternative perspectives on legal reasoning.",
+          "Maintains final editorial control over all AI-generated content."
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to experimenting with new AI-driven workflows.",
+          "Adopts AI solutions that demonstrably improve efficiency or accuracy.",
+          "Regularly integrates new AI features as they become available.",
+          "Advocates for increased AI use in legal education and research."
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational AI interfaces for complex reasoning and iterative tasks.",
+          "Uses command-based prompts for quick, targeted information extraction.",
+          "Finds conversational interfaces more intuitive for legal analysis discussions.",
+          "Switches between interfaces based on task urgency and depth required."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Legal research and advocacy require deep understanding of jurisdiction-specific precedents.",
+          "Case analysis often depends on nuanced interpretation of legal reasoning.",
+          "AI tools can assist, but not fully replace, tacit knowledge in legal argumentation.",
+          "Regularly supplements AI outputs with personal expertise and professor guidance."
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Moderate trust in AI for initial research and summarization tasks.",
+          "Low trust in AI for final drafting of legal arguments or academic submissions.",
+          "Always performs manual review and verification before relying on AI-generated content.",
+          "Trust increases with platforms (like Google AI Studio) known for low hallucination rates."
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers high AI automation for repetitive or data-heavy tasks (e.g., summarization).",
+          "Maintains human involvement for tasks requiring critical analysis or creativity.",
+          "Ideal workflow is AI-assisted but always human-edited for legal work.",
+          "Sees AI as a tool to streamline, not replace, core responsibilities."
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for administrative and citation-related tasks.",
+          "Views high automation as risky for tasks involving legal judgment or advocacy.",
+          "Threat perception increases if AI bypasses mandatory human review steps.",
+          "Supports automation as long as override and audit mechanisms are present."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "AI has enhanced the importance of critical thinking and legal synthesis skills.",
+          "Routine research and summarization skills are less emphasized due to automation.",
+          "Effective use of AI requires adapting traditional legal research techniques.",
+          "Emphasizes the need to develop skills in prompt engineering and AI oversight."
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Prompt engineering and crafting effective AI queries are increasingly important.",
+          "Oversight and verification of AI-generated legal content is a new responsibility.",
+          "Understanding AI risk, bias, and compliance in legal settings is now essential.",
+          "Exposure to open-source AI deployment and legal tech integration has expanded skill set."
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mild concern about automation of repetitive research and citation tasks.",
+          "Believes core legal analysis and advocacy roles are less susceptible to AI replacement.",
+          "Monitors industry trends for potential shifts in job responsibilities due to AI.",
+          "Views AI as a complement rather than a threat to overall career trajectory."
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Manual review of all AI outputs is a standard part of workflow.",
+          "No critical legal documents are submitted without human verification.",
+          "Maintains version control and retains original documents for cross-checking.",
+          "Seeks AI tools that provide transparency and audit logs for all outputs."
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Academic environment is increasingly supportive of AI tool experimentation.",
+          "No formal AI policies yet, but best practices are evolving through peer discussions.",
+          "Professors encourage responsible AI use with proper oversight.",
+          "Anticipates future institutional guidelines as AI adoption grows."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will fundamentally reshape legal research and compliance.",
+          "Sees potential for improved access to justice via AI-driven legal tools.",
+          "Recognizes risks related to bias, misinformation, and over-automation.",
+          "Values AI's ability to increase legal research efficiency and accessibility."
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Prioritizes accuracy, transparency, and accountability in AI applications.",
+          "Concerned about potential for AI-generated errors in legal documents.",
+          "Supports robust oversight and human-in-the-loop approaches for legal AI.",
+          "Advocates for responsible AI deployment, especially in high-stakes contexts."
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires seamless integration between AI platforms and legacy legal databases.",
+          "Wishes for AI tools with built-in citation verification and error detection.",
+          "Needs more advanced, context-aware summarization for complex legal cases.",
+          "Would benefit from AI models trained specifically on jurisdictional law."
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Anticipates increased reliance on AI for initial legal research and document review.",
+          "Expects human roles to shift further toward oversight, quality control, and strategic analysis.",
+          "Foresees emergence of new legal tech specialties and interdisciplinary roles.",
+          "Believes AI will drive greater demand for tech-savvy legal professionals."
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Develop formal guidelines for responsible AI use in academic legal research.",
+          "Offer structured training on AI tool integration and risk management.",
+          "Encourage interdisciplinary collaboration between law and computer science departments.",
+          "Invest in AI tools tailored for legal research and compliance."
+        ]
+      }
+    ]
+  }
+]

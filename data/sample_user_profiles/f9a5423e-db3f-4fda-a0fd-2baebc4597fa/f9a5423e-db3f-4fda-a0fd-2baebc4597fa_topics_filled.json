@@ -1,0 +1,529 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master\u2019s Degree in Finance from a reputable university",
+          "Undergraduate degree in Economics",
+          "Completed coursework in portfolio management, asset allocation, and macroeconomics",
+          "Participated in advanced seminars on investment research and financial modeling",
+          "Attended workshops on financial software and data analysis tools"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Personal Financial Advisor",
+          "Primary responsibilities include portfolio construction, asset allocation, and investment research",
+          "Conducts macroeconomic and market analysis for portfolio decisions",
+          "Engages regularly with private banks and external asset managers",
+          "Tracks and reports on investment performance, proposing adjustments as necessary"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the finance and investment industry",
+          "Specializes in wealth management and personal financial advising",
+          "Focuses on private banking and asset management clients",
+          "Operates primarily within the securities and investment sector"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-sized wealth management firm",
+          "Team comprises around 20-50 employees",
+          "Collaborates closely with investment analysts, portfolio managers, and relationship managers",
+          "Firm culture emphasizes ongoing learning and adoption of new technologies"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Firm caters primarily to high-net-worth individuals and families",
+          "Focuses on discretionary portfolio management and personalized investment solutions",
+          "Engages with both domestic and international financial markets",
+          "Provides advisory services on fixed income, equities, and alternative assets"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 1-2 years of professional experience as a Personal Financial Advisor",
+          "Started current role immediately after completing Master\u2019s degree",
+          "Has grown responsibilities over the past year, especially in research and portfolio management"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Considered early-career/associate level within the organization",
+          "Reports to a senior portfolio manager or team lead",
+          "Regularly collaborates with more experienced advisors and analysts",
+          "Assigned increasing autonomy in research and client presentations"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Constructs and adjusts client investment portfolios based on risk profiles and objectives",
+          "Performs asset allocation decisions using macroeconomic and market analysis",
+          "Conducts in-depth investment research on securities, funds, and alternative asset classes",
+          "Tracks and analyzes the performance of existing investments",
+          "Holds meetings with private banks and external asset managers to source new investment opportunities"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends roughly 40% of time on investment research and security analysis",
+          "Allocates about 25% of time to portfolio construction and asset allocation decisions",
+          "Approximately 20% of time is devoted to tracking performance and preparing reports",
+          "Around 15% of time spent on meetings with banks, asset managers, and internal teams"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Makes independent recommendations on security selection and asset allocation",
+          "Final investment decisions typically require sign-off from senior advisors or the investment committee",
+          "Has autonomy to conduct research and propose portfolio adjustments",
+          "Responsible for initial screening of opportunities before escalation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Using financial terminals like Bloomberg for basic market data retrieval",
+          "Building and updating Excel-based portfolio models",
+          "Preparing PowerPoint presentations for client meetings",
+          "Summarizing macroeconomic trends from research reports"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Identifying actionable investment opportunities in volatile or uncertain markets",
+          "Conducting deep-dive security analysis that requires synthesizing multiple data sources",
+          "Staying abreast of rapidly evolving financial products and regulatory changes",
+          "Balancing conflicting client objectives and risk tolerances"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Routine data entry and portfolio performance tracking in Excel",
+          "Compiling historical price and return data for reports",
+          "Generating summary statistics for client statements",
+          "Initial screening of securities based on quantitative filters"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys conducting investment research and discussing market outlooks with peers",
+          "Finds client meetings and relationship building with banks stimulating",
+          "Considers repetitive data entry and manual report generation tedious",
+          "Engages most deeply when analyzing new asset classes or complex investment products"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Lack of integration between financial terminals and internal reporting tools",
+          "Manual reconciliation of data from multiple sources can be time-consuming",
+          "Difficulty in quickly extracting actionable insights from large datasets",
+          "Occasional delays in receiving quotes or information from external banks"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Productivity is highest when working on complex research that leverages both market knowledge and analytical skills",
+          "Enjoyment increases with tasks that offer learning opportunities or client interaction",
+          "Repetitive, low-skill tasks feel less engaging and are typically completed less efficiently",
+          "Regular use of AI and automation has improved productivity for routine data analysis"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Proactively seeks out new tech solutions for streamlining workflow",
+          "Open-minded and enthusiastic about adopting innovative financial software",
+          "Views technology as an essential enabler for productivity and competitiveness"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Considers self highly adaptable to new platforms and updates",
+          "Learns new tools quickly, often by self-guided exploration",
+          "Comfortable experimenting with beta features or recently released apps"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate several hours per month to learning new software or features",
+          "Participates in firm-organized training sessions when available",
+          "Invests time in online courses or tutorials to strengthen technical proficiency"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential for time savings and enhanced analysis",
+          "Prefers learning tools directly relevant to daily responsibilities",
+          "Occasional high workloads can delay adoption of non-essential tools",
+          "Reluctant to invest time in systems with unclear long-term value"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers regularly share tips and best practices for financial software",
+          "Management encourages experimentation with new AI and analytics platforms",
+          "Collaborative culture fosters group adoption of high-impact tools",
+          "Team success stories with new tech increase personal willingness to try"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Microsoft Excel daily for portfolio modeling, performance tracking, and analysis",
+          "Prepares client and internal presentations with Microsoft PowerPoint",
+          "Accesses Bloomberg Terminal and Refinitiv Eikon for market data and security research",
+          "Utilizes AI tools such as ChatGPT and DeepSeek for research and idea generation"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on Microsoft Word for report writing and documentation",
+          "Employs trading platforms like Moomoo and Tiger for security execution and monitoring",
+          "Uses internal CRM to log client interactions and manage investment proposals"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient in Bloomberg Terminal and Refinitiv Eikon for market research",
+          "Familiar with Excel-based VBA macros for task automation",
+          "Understands basics of trading and execution platforms used by industry peers"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Data exported from Bloomberg often requires manual formatting for Excel analysis",
+          "Limited integration between CRM and external portfolio management platforms",
+          "Occasionally faces challenges in synchronizing updates across multiple tools",
+          "Desires more seamless AI integration within financial terminals"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands key AI concepts such as natural language processing, machine learning, and generative AI",
+          "Regularly reads articles and research on AI applications in finance",
+          "Comfortable with terminology like language models, prompt engineering, and model fine-tuning",
+          "Can explain the basics of supervised vs. unsupervised learning"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT for drafting research summaries and generating investment ideas",
+          "Employs DeepSeek for macroeconomic analysis and scenario planning",
+          "Tests new AI-powered features in Bloomberg Terminal and Refinitiv",
+          "Occasionally explores third-party AI plug-ins for Excel"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies AI tools daily to assist with investment research and summarizing market trends",
+          "Uses LLMs to screen for emerging opportunities based on real-time data",
+          "Leverages AI for drafting sections of client reports and presentations",
+          "Relies on AI for quick synthesis of large volumes of financial news"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used ChatGPT to identify overlooked risks in a fixed income portfolio",
+          "Experienced an instance where AI-generated research missed a key regulatory change, prompting manual review",
+          "Learned to cross-check AI outputs with primary data sources for critical decisions",
+          "Found AI most reliable for summarization and idea generation, less so for final recommendations"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Firm offers periodic workshops on integrating AI tools into workflow",
+          "Peers often share prompt templates and tips for effective LLM usage",
+          "Access to an internal knowledge base with AI tool best practices",
+          "Occasionally receives vendor-led training on new AI features in financial terminals"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI for complex research tasks",
+          "Uses independent mode for straightforward summarization or drafting tasks",
+          "Combines both approaches depending on the complexity and stakes of the task",
+          "Adjusts interaction mode based on time constraints and task urgency"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an intelligent assistant for research and analysis",
+          "Treats AI as a co-worker for brainstorming and idea generation",
+          "Occasionally relies on AI as an advisor for exploring market trends",
+          "Maintains final decision-making authority on all recommendations"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to experimenting with new AI-driven processes",
+          "Advocates for piloting AI features within the team before firm-wide rollout",
+          "Regularly provides feedback on AI tool usability and integration",
+          "Sees AI-driven workflow as a way to gain competitive advantage"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for exploratory research and brainstorming",
+          "Uses command-based prompts for structured data retrieval or analysis",
+          "Finds conversational AI more intuitive for multi-step reasoning tasks",
+          "Switches interface styles depending on the required output"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Portfolio construction and security selection depend heavily on deep financial expertise",
+          "Macroeconomic analysis requires contextual judgment that may be difficult to encode in AI",
+          "Client-specific needs and preferences involve nuance beyond standard data inputs",
+          "AI tools are most useful for information synthesis, less so for final judgment calls"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI outputs for initial research and data aggregation",
+          "Exercises caution and manual review for critical investment decisions",
+          "Relies on human oversight for high-stakes recommendations",
+          "Confidence in AI increases when models are transparent and explainable"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle routine data processing and preliminary screening",
+          "Believes human expertise is essential for portfolio construction and client advising",
+          "Envisions a workflow where AI augments, but does not replace, analyst judgment",
+          "Supports automation for repetitive reporting, with manual review for exceptions"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for standard reporting and quantitative analysis",
+          "Finds full automation threatening when it encroaches on client relationship or strategic advisory tasks",
+          "Supports automation if override mechanisms and transparency are in place",
+          "Concerns increase when automation lacks explainability or traceability"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the need for analytical and interpretive skills",
+          "Routine technical skills may become less critical as automation increases",
+          "Communication and client management skills remain highly valuable",
+          "Sees a shift toward higher-order judgment and holistic thinking"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Prompt engineering and effective AI querying have become essential",
+          "Increased responsibility for validating and interpreting AI-generated insights",
+          "New focus on integrating AI recommendations with traditional research methods",
+          "Developing familiarity with AI ethics and compliance considerations"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Some concern about automation of data-heavy tasks like report generation",
+          "Minimal worry about AI replacing client-facing or relationship-driven responsibilities",
+          "Believes strategic advisory work will remain human-led in the near term",
+          "Monitors industry trends to stay ahead of potential job shifts"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All AI-generated research is reviewed and validated by a human analyst",
+          "Firm maintains manual approval processes for portfolio changes",
+          "Override mechanisms are built into most AI-assisted tools used in daily work",
+          "Encouraged to flag discrepancies or errors in AI outputs"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Recent updates to internal guidelines reflect increased AI adoption",
+          "Team actively discusses responsible use and limits of AI in client work",
+          "Company invests in pilot programs for new AI solutions",
+          "Emphasis on transparency and explainability in AI-supported decisions"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will drive greater efficiency and democratization of financial advice",
+          "Expects increased competition as AI lowers barriers to entry in investment management",
+          "Anticipates broader shifts in workforce skill requirements across finance",
+          "Views AI as a net positive if implemented ethically and transparently"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports the use of AI when outputs are explainable and bias is managed",
+          "Concerns about over-reliance on AI for critical decisions without sufficient oversight",
+          "Believes data privacy and client confidentiality must be prioritized",
+          "Advocates for clear industry-wide standards on AI ethics in finance"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires seamless AI integration within Bloomberg and other financial terminals",
+          "Wants AI-powered visualization tools for market scenarios and portfolio stress testing",
+          "Needs better natural language search for historical investment cases",
+          "Seeks more granular control over AI model parameters for tailored research"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine research and reporting to become fully automated",
+          "Believes role will shift toward strategic advisory and client relationship management",
+          "Foresees increased demand for hybrid skills combining finance and AI proficiency",
+          "Anticipates greater focus on synthesizing and communicating AI-driven insights"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Invest in AI-powered tools that integrate seamlessly with existing platforms",
+          "Provide regular training and upskilling for staff on AI capabilities and ethics",
+          "Establish clear guidelines for human oversight and accountability in AI-driven processes",
+          "Pilot new AI features with feedback loops before full-scale rollout"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,494 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Completed high school diploma in the United States",
+          "Did not attend college or university after high school",
+          "Received on-the-job training at the auto auction facility",
+          "Attended company safety and compliance briefings during onboarding"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Works as a Transportation Planner at an auto auction company",
+          "Role is part of the CRC (Customer Receiving Center) department",
+          "Responsible for checking in vehicles, tagging them, and managing their movement to reconditioning",
+          "Acts as the first point of contact for incoming vehicle shipments"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Employed in the automotive remarketing and auction industry",
+          "Works within the transportation and logistics sector",
+          "Focuses on the movement, preparation, and sale of used vehicles"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Company has a mid-sized workforce, with multiple operational departments",
+          "Works on a large auto auction lot with both indoor and outdoor facilities",
+          "Team is part of a fast-paced, high-volume environment, especially before weekly auctions"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Business specializes in wholesale auto auctions for dealerships and commercial buyers",
+          "Operates in the used vehicle remarketing segment",
+          "Handles vehicle intake, reconditioning, and preparation for weekly auctions"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 1-2 years of experience in current transportation planning role",
+          "Joined the company in the last two years",
+          "Gained all relevant industry experience within this job tenure"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds an entry-level to junior position within the CRC department",
+          "Not in a managerial or supervisory role",
+          "Reports to a department supervisor or manager"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Checks in incoming vehicles by scanning VIN numbers using a handheld device",
+          "Tags vehicles and records their status in the company system",
+          "Marks vehicle windows with pencil crayon to indicate reconditioning instructions",
+          "Moves vehicles to the reconditioning center for cleaning and preparation",
+          "Handles paperwork to ensure cars are properly logged and accounted for"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 60% of the day scanning and checking in vehicles",
+          "Allocates around 20% of time to moving vehicles to the reconditioning center",
+          "Uses 10% of work time on documentation and paperwork related to vehicle intake",
+          "Devotes about 10% to communication with the detail shop and coordinating logistics"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates within a clearly defined process for checking in and tagging vehicles",
+          "Limited autonomy; follows established procedures and checklists",
+          "Can make minor decisions about vehicle flow and timing, but major issues are escalated",
+          "Relies on supervisor guidance for exceptions or unusual situations"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Scanning VIN numbers and logging vehicles into the system is straightforward",
+          "Tagging cars and marking windows with instructions is done quickly and accurately",
+          "Physically moving cars to the designated area is routine and requires little thought"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Managing vehicle intake during high-volume periods is stressful",
+          "Dealing with discrepancies between paperwork and actual vehicle condition can be complex",
+          "Coordinating with multiple teams (e.g., detail shop, reconditioning) when vehicles have special requirements"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "VIN scanning and data entry is highly repetitive",
+          "Tagging and logging routine vehicle information is data-heavy and could be automated",
+          "Transcribing information from paperwork to digital systems is monotonous"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys tasks that involve moving and organizing cars on the lot",
+          "Finds repetitive scanning and paperwork to be tedious",
+          "Prefers hands-on work over administrative or data entry tasks",
+          "Engagement increases when working as part of a team during busy periods"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Occasional connectivity issues with handheld devices slow down intake",
+          "Paperwork errors or missing documentation cause delays",
+          "Limited automation leads to duplicated data entry",
+          "High volume of cars in short timeframes can create bottlenecks"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Feels more productive and satisfied when tasks are hands-on and active",
+          "Enjoyment decreases when performing repetitive or purely clerical tasks",
+          "Skill level is higher for physical and procedural tasks than for troubleshooting technology issues",
+          "Productivity peaks during well-coordinated team efforts"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open to learning new technology if it improves workflow or efficiency",
+          "Mildly cautious; prefers hands-on demonstrations over manuals",
+          "Sees value in practical applications rather than theoretical tech knowledge"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts moderately well to new software with proper training",
+          "May require additional time or repetition to master unfamiliar systems",
+          "Can incorporate new methods if they are clearly presented and relevant to daily work"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to attend short, focused training sessions during work hours",
+          "Less likely to pursue tech training on personal time",
+          "Prefers training that is directly related to current job responsibilities"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by potential for time savings and reduced manual work",
+          "Heavy workload can be a barrier to participating in training",
+          "Skeptical of technology that seems unrelated to job tasks"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "More likely to adopt new tools if peers and supervisors endorse them",
+          "Looks to coworkers for informal tips and troubleshooting advice",
+          "Management support increases confidence in new technology rollouts"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses a proprietary handheld device for VIN scanning and vehicle check-in",
+          "Accesses the company\u2019s vehicle inventory management system multiple times per shift",
+          "Relies on Wi-Fi or mobile network connectivity for data syncing"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Utilizes pencil crayons for window marking and instruction",
+          "Uses paper logs and checklists for backup documentation",
+          "Regularly references printed intake paperwork attached to each vehicle"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Understands basic features of handheld inventory scanners",
+          "Familiar with digital systems for tracking and logging vehicle information",
+          "Limited experience with more advanced transportation planning software"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasional syncing delays between handheld device and main inventory system",
+          "Manual data entry required when paperwork does not match digital records",
+          "No direct integration between window markings and digital systems"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Has basic understanding of AI as software that can automate or assist with tasks",
+          "Recognizes terms like 'machine learning' and 'language models' from workplace discussions",
+          "Limited technical knowledge of how AI works under the hood"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Has occasionally used large language models (LLMs) for specific tasks at work",
+          "No formal AI platforms implemented at the auto auction company yet",
+          "Experience with LLMs likely through web interfaces or basic chatbots"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs on an occasional basis for ad hoc tasks, not daily",
+          "May have used LLMs for drafting emails or quick information lookups",
+          "No current AI workflow for core vehicle intake or logistics tasks"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Found LLM helpful for quickly summarizing procedures or generating checklists",
+          "LLM occasionally misunderstood industry-specific terminology, requiring manual correction",
+          "No critical errors, but noticed limitations in LLM's understanding of auction processes"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal organizational training on AI tools at this time",
+          "Relies on informal advice from coworkers familiar with LLM usage",
+          "Would benefit from structured training if AI tools are rolled out more widely"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers clear, step-by-step guidance when using AI tools",
+          "Values being able to work independently but appreciates AI support for complex tasks",
+          "Wants the option to override or adjust AI recommendations"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI as an assistant that helps with repetitive or data-heavy tasks",
+          "Wants final decision-making authority to remain with human staff",
+          "Comfortable with AI suggesting next steps or flagging potential issues"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to adopting AI-driven workflows if they demonstrate clear efficiency gains",
+          "Would like to see pilot programs or phased rollouts before full adoption",
+          "Prefers gradual change over abrupt process overhauls"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Finds conversational interfaces user-friendly for quick information requests",
+          "Prefers command-based interfaces for structured, repetitive tasks",
+          "Would like the flexibility to choose interface style based on task complexity"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Some tasks, like identifying unusual vehicle conditions, require on-the-ground judgment",
+          "Basic intake and tagging are largely procedural and could be standardized",
+          "Special instructions for reconditioning may depend on tacit knowledge and experience"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for routine data entry and checklist generation",
+          "Wants human review on tasks involving exceptions or unusual cases",
+          "Skeptical of AI recommendations without clear explanations"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive scanning and logging tasks",
+          "Believes humans should oversee quality control and exception handling",
+          "Sees value in AI augmenting, not replacing, human expertise"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for routine, low-risk tasks",
+          "Concerned about automation for tasks that require judgment or customer interaction",
+          "Wants assurance that jobs will not be eliminated solely due to automation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI could reduce the need for manual data entry skills",
+          "Thinks soft skills like teamwork and communication will remain important",
+          "Sees potential for AI to enhance problem-solving skills by freeing up time"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "May need to learn how to troubleshoot or manage AI-assisted workflows",
+          "Could take on roles in training others on new systems",
+          "Might be responsible for interpreting and validating AI-generated outputs"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mildly concerned about automation of basic intake tasks",
+          "Does not feel immediate threat to job security, but is watchful of future changes",
+          "Believes core responsibilities will evolve rather than disappear"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Insists on having manual override options for all AI-supported processes",
+          "Believes human review should be mandatory for exceptions",
+          "Would be uncomfortable with fully automated decision-making in current context"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "No formal company policies on AI adoption yet",
+          "Anticipates that future policies will require transparency and training",
+          "Believes company will move cautiously and seek input from staff before major changes"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will increase efficiency in the automotive and logistics industries",
+          "Worries about potential job displacement in certain roles",
+          "Sees AI as a tool that can improve service quality if implemented thoughtfully"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports ethical guidelines for AI use to protect worker interests",
+          "Concerns about privacy and surveillance if AI tracks employee actions",
+          "Believes in transparency about how AI decisions are made"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would like AI tools that automate check-in and tagging based on image recognition",
+          "Desires voice-activated interfaces for hands-free data entry",
+          "Wants AI-driven alerts for paperwork discrepancies or missing information"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects more automation of routine intake and logging tasks",
+          "Believes focus will shift to quality control and exception management",
+          "Anticipates new responsibilities in AI oversight and troubleshooting"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Wants early involvement of frontline staff in AI tool evaluation",
+          "Recommends phased pilot programs before full-scale rollout",
+          "Requests clear training and support resources for all employees",
+          "Prefers transparent communication about the goals and limitations of AI adoption"
+        ]
+      }
+    ]
+  }
+]

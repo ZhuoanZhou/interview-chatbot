@@ -1,0 +1,537 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s degree in Aerospace Engineering",
+          "Completed undergraduate coursework in aerodynamics, propulsion, aircraft structures, and control systems",
+          "Attended a university with a strong aviation or engineering program",
+          "Participated in hands-on lab work and design projects during degree",
+          "Received additional safety and compliance training required for the aviation industry"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Works as an Aeronautic Engineer at Delta Air Lines",
+          "Responsibilities include maintenance, repairs, and design of aircraft",
+          "Focuses on ensuring aircraft safety, efficiency, and compliance",
+          "Supports the development and testing of aircraft systems",
+          "Collaborates with multidisciplinary teams for operational readiness"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Employed in the aerospace industry",
+          "Specifically works in the commercial aviation sector",
+          "Focuses on aircraft design, maintenance, and engineering",
+          "Operates within the transportation and logistics domain"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works at Delta Air Lines, a major global airline with over 90,000 employees",
+          "Company operates large-scale maintenance and engineering facilities",
+          "Work environment combines office, hangar, and on-site aircraft settings",
+          "Collaborates with both large engineering teams and cross-functional departments"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Delta Air Lines operates in the commercial passenger airline segment",
+          "Company provides scheduled air transportation services",
+          "Engineering division supports both fleet operations and innovation",
+          "Market segment is highly regulated and safety-critical"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 3-5 years of professional experience as an aerospace engineer",
+          "Joined Delta Air Lines shortly after completing undergraduate degree",
+          "Has progressed from junior to mid-level responsibilities within the role",
+          "Experience includes exposure to both routine maintenance and design projects"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds an early to mid-career position (equivalent to Engineer I or II)",
+          "Acts as a contributing team member rather than a manager",
+          "Has increasing autonomy but still works under supervision for critical tasks",
+          "Frequently collaborates with more senior engineers and subject matter experts"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Designs, develops, and tests aircraft and related systems",
+          "Performs regular maintenance checks and troubleshooting on commercial airplanes",
+          "Uses CAD and simulation software to model and analyze components",
+          "Documents maintenance and design changes in compliance with aviation regulations",
+          "Collaborates with other engineers and maintenance teams to resolve technical issues"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends about 40% of work hours on design and simulation tasks",
+          "Allocates 30% to hands-on maintenance and repair work",
+          "Devotes 20% to documentation, compliance checks, and reporting",
+          "Uses the remaining 10% for team meetings, training, and process improvement"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has autonomy to make technical recommendations within defined parameters",
+          "Responsible for routine decision-making in maintenance and design tasks",
+          "Requires supervisor approval for major design changes or safety-critical decisions",
+          "Can independently troubleshoot and resolve common technical issues",
+          "Participates in team-based decision-making for complex projects"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Using CAD tools for routine component modeling",
+          "Performing scheduled maintenance procedures according to established checklists",
+          "Interpreting engineering drawings and technical manuals",
+          "Documenting standard maintenance actions and updates"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Diagnosing unexpected or complex engine failures",
+          "Integrating new design elements into existing aircraft systems",
+          "Simulating airflow and structural stresses for novel components",
+          "Ensuring compliance with evolving regulatory standards"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Reviewing large volumes of maintenance logs for patterns or anomalies",
+          "Filling out regulatory compliance forms and checklists",
+          "Running routine simulation scenarios with minor parameter changes",
+          "Compiling regular reports on aircraft performance metrics"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Most enjoyable: Solving complex engineering problems in design or troubleshooting",
+          "Engaging: Collaborating on cross-functional teams for aircraft upgrades",
+          "Tedious: Entering repetitive data for maintenance documentation",
+          "Least enjoyable: Manual review of paperwork and compliance logs"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Difficulty quickly identifying root causes of engine problems",
+          "Manual data entry for compliance and regulatory requirements",
+          "Limited automation in cross-referencing parts and maintenance records",
+          "Occasional software compatibility issues between CAD and analysis tools"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Enjoyment is highest when working on challenging problems that leverage engineering skills",
+          "Tasks that match skill level tend to be completed more quickly and accurately",
+          "Productivity drops when tasks are overly repetitive or administrative",
+          "Learning new tools increases both skill level and engagement, leading to higher productivity"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally enthusiastic about exploring new engineering and AI tools",
+          "Believes ongoing learning is essential in aerospace engineering",
+          "Sees tech adoption as a way to improve work quality and efficiency",
+          "Prefers hands-on experimentation over passive learning"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new CAD and simulation platforms",
+          "Comfortable with iterative learning processes for complex software",
+          "Seeks out tutorials and peer guidance when encountering unfamiliar tools",
+          "Occasionally requires structured training for major platform changes"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate several hours per month to formal or informal tech training",
+          "Participates in company-offered workshops and online courses",
+          "Balancing training with workload can be challenging during peak project periods",
+          "Prefers bite-sized, on-demand learning resources over lengthy seminars"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the need to stay current in a rapidly evolving field",
+          "Wants to use tech to make daily tasks easier and more accurate",
+          "Main barriers: high workload and unclear ROI of some new tools",
+          "Motivation increases when peers or supervisors endorse a tool's value"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers\u2019 positive experiences with tools influence adoption decisions",
+          "Management endorsement accelerates willingness to try new platforms",
+          "Regularly exchanges tips and best practices with team members",
+          "Company culture generally supports technological experimentation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Autodesk AutoCAD and SolidWorks for CAD modeling and drafting",
+          "Employs CATIA for advanced surface modeling and assemblies",
+          "Runs ANSYS Fluent and STAR-CCM+ for computational fluid dynamics (CFD) simulations",
+          "Utilizes Nastran for finite element analysis (FEA) of structural components",
+          "Integrates Microsoft Office Suite for documentation and reporting"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Hand tools and diagnostic instruments for on-site aircraft maintenance",
+          "Standard operating procedures and checklists for compliance",
+          "Technical manuals specific to Delta Air Lines\u2019 fleet",
+          "Company maintenance management system for scheduling and logging work"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient with core aerospace engineering software suites (CAD, CFD, FEA)",
+          "Understands requirements and limitations of each tool in daily workflow",
+          "Familiar with FAA and EASA regulatory documentation systems",
+          "Occasionally explores emerging tools through webinars and industry forums"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces file compatibility problems between CATIA and SolidWorks",
+          "Data transfer between simulation (CFD/FEA) and CAD tools can require manual adjustment",
+          "Managing version control across multiple platforms is sometimes challenging",
+          "Some legacy systems are difficult to integrate with newer AI-assisted tools"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands AI basics such as natural language processing, image recognition, and predictive analytics",
+          "Has practical exposure to machine learning concepts within engineering applications",
+          "Recognizes differences between rule-based automation and learning algorithms",
+          "Keeps up-to-date with AI trends relevant to aerospace engineering"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT and other LLM-based assistants for technical queries and documentation",
+          "Employs AI modules within ANSYS Fluent for automated mesh generation",
+          "Utilizes predictive maintenance analytics tools provided by Delta Air Lines",
+          "Occasionally tests AI-powered visual inspection tools for aircraft components"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs daily for drafting reports, troubleshooting, and code generation",
+          "Applies AI-driven analytics for early fault detection in engine data",
+          "Employs AI image analysis tools for visual inspection pilot projects",
+          "Relies on AI suggestions for optimizing design parameters in simulation tasks"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI-driven fault detection flagged an early-stage engine issue that was confirmed by manual inspection",
+          "Encountered a false positive with AI visual inspection, highlighting the need for human verification",
+          "LLM successfully automated parts of maintenance documentation, saving several hours weekly",
+          "Observed that AI-generated design suggestions sometimes lacked context-specific constraints"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company offers periodic workshops on AI and data analytics in engineering",
+          "Peers share tips and custom LLM prompts through internal chat forums",
+          "Access to online self-paced AI learning modules sponsored by Delta Air Lines",
+          "Mentoring available from experienced staff on integrating AI tools into workflow"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers a step-by-step, collaborative approach when using AI for complex tasks",
+          "Uses AI independently for routine queries and documentation assistance",
+          "Appreciates being able to pause and review AI suggestions before implementation",
+          "Occasionally switches to independent use for time-sensitive maintenance issues"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant or advisor during engineering tasks",
+          "Relies on AI as a co-worker for repetitive data analysis and report generation",
+          "Prefers to retain final decision-making authority, treating AI as a support tool",
+          "Collaborates with AI to brainstorm design alternatives before consulting the team"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to experimenting with new AI-driven processes",
+          "Advocates for pilot-testing AI tools before full-scale deployment",
+          "Willing to adapt personal workflow if AI demonstrates clear value",
+          "Seeks feedback from colleagues before integrating new AI tools long-term"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and technical Q&A",
+          "Uses command-based interaction for precise simulation or analysis tasks",
+          "Finds conversational AI useful for exploring options, but switches to commands for execution",
+          "Believes hybrid interfaces offer the most flexibility in engineering contexts"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many maintenance and troubleshooting tasks require tacit knowledge from hands-on experience",
+          "AI tools are valuable for pattern recognition but may not capture all context-specific nuances",
+          "Design decisions often rely on a mix of formal training and practical intuition",
+          "Domain knowledge critical for safety and regulatory compliance in aviation"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI outputs for initial analysis and documentation preparation",
+          "Requires manual review of AI-generated reports before final submission",
+          "Skeptical of AI suggestions that lack transparency or explainability",
+          "Trust increases when AI results are corroborated by physical inspection or simulation"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to automate repetitive data processing and routine analysis",
+          "Believes humans should oversee final decisions in maintenance and design for safety",
+          "Supports semi-automated workflows where AI proposes and humans verify",
+          "Wants AI to handle time-consuming regulatory documentation with human oversight"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for non-critical, well-defined tasks (e.g., report generation)",
+          "Feels automation is threatening if it eliminates opportunities for skill development",
+          "Requires robust override mechanisms for any AI-driven changes affecting safety",
+          "Worries about over-reliance on AI for tasks requiring context or judgment"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances analytical and creative engineering skills by reducing manual workload",
+          "Sees communication and collaboration skills becoming more important with AI adoption",
+          "Worries that routine technical skills may become less valued if fully automated",
+          "Feels continuous learning is essential to stay relevant in an AI-augmented environment"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning to critically evaluate AI-generated outputs for accuracy and relevance",
+          "Developing expertise in prompt engineering for LLM-based tools",
+          "Participating in pilot projects to integrate AI into engineering workflows",
+          "Providing feedback to improve AI tools for aviation-specific applications"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mild concern about AI automating repetitive documentation and analysis tasks",
+          "Does not fear full role replacement due to the need for hands-on and safety-critical work",
+          "Believes the human element in troubleshooting and compliance remains indispensable",
+          "Views AI as a tool to augment rather than replace skilled engineers"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All AI-generated maintenance recommendations require human signoff",
+          "Manual review steps are integrated into AI-driven documentation workflows",
+          "Can override or adjust AI-generated simulation parameters before finalizing designs",
+          "Company policy mandates human checks for safety-critical AI outputs"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has introduced new guidelines for responsible AI use",
+          "Team is encouraged to share feedback on AI tool performance",
+          "Policy shifts increasingly support pilot-testing AI before wide rollout",
+          "Greater emphasis on transparency and documentation of AI-influenced decisions"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Optimistic that AI will improve safety and efficiency in the aviation industry",
+          "Believes AI can help address labor shortages and skills gaps in engineering",
+          "Predicts AI will drive new innovations in aircraft design and operations",
+          "Recognizes the need for careful management of AI\u2019s societal risks"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes transparency and explainability are critical for ethical AI adoption",
+          "Worries about bias and data quality issues in AI decision-making",
+          "Supports strong governance and oversight for AI in safety-critical roles",
+          "Values privacy and data protection in AI-driven workplace tools"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Wants AI tools that can accurately diagnose complex engine issues in real time",
+          "Desires seamless integration of AI-driven insights with existing maintenance dashboards",
+          "Would benefit from AI that can cross-validate engineering designs against regulatory standards",
+          "Seeks improved natural language interfaces for technical documentation generation"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine tasks to become increasingly automated",
+          "Anticipates a shift towards more oversight, analysis, and creative problem-solving",
+          "Predicts greater collaboration with digital and AI co-workers",
+          "Foresees ongoing need for human verification in safety-critical engineering tasks"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Invest in ongoing training and upskilling for engineers in AI and data analytics",
+          "Establish clear guidelines for responsible and ethical AI use",
+          "Foster cross-functional teams to evaluate and pilot new AI tools",
+          "Promote transparency and clear communication about AI\u2019s role in engineering workflows"
+        ]
+      }
+    ]
+  }
+]

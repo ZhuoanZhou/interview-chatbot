@@ -1,0 +1,506 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s degree in Health Informatics from an accredited university",
+          "Completed coursework in healthcare data management, medical terminology, and health information systems",
+          "Attended specialized workshops on HIPAA compliance and electronic health records",
+          "Participated in a capstone project focused on EHR implementation in a clinical setting"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Health Informatics Specialist",
+          "Role focuses on managing and analyzing healthcare data to improve patient outcomes",
+          "Responsible for ensuring accurate data entry, storage, and sharing among healthcare providers",
+          "Supports clinical decision-making and regulatory compliance within the organization"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the healthcare industry",
+          "Specializes in health informatics\u2014a sector at the intersection of healthcare and information technology",
+          "Collaborates with clinical, administrative, and IT teams within a healthcare setting"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-sized healthcare provider organization with approximately 500 employees",
+          "Work environment is a mix of clinical and administrative settings with a strong focus on digital health technologies",
+          "Regularly collaborates with IT, clinicians, and compliance teams"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Works for a healthcare provider organization, primarily serving outpatient clinics and specialty centers",
+          "Organization is focused on patient care, healthcare data integration, and operational efficiency",
+          "Operates within the health information technology market segment"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 1-2 years of experience in the current Health Informatics Specialist role",
+          "Began working in the present position shortly after completing undergraduate studies",
+          "Experience includes both core health informatics tasks and exposure to new technologies"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Operates at an entry-level to early-career specialist level",
+          "Works under supervision but has growing autonomy in decision-making",
+          "Regularly collaborates with more senior informatics and IT staff"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Manages and updates electronic health records (EHR) using systems like Epic and Cerner",
+          "Analyzes healthcare data to identify trends and support clinical decision making",
+          "Ensures compliance with regulations such as HIPAA in all data management activities",
+          "Develops data reports and dashboards for healthcare providers and administrators",
+          "Collaborates with IT teams to integrate new health technologies and maintain data interoperability"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends about 40% of time on EHR data management and validation",
+          "Dedicates approximately 30% to data analysis and report generation",
+          "Allocates 15% to collaboration with IT and clinical teams on system integration projects",
+          "Devotes 10% to regulatory compliance and staying informed on industry standards",
+          "Spends about 5% on professional development and process improvement initiatives"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has moderate autonomy in daily data management and analysis tasks",
+          "Makes independent decisions about data integrity, minor process improvements, and report structures",
+          "Major system changes or technology integrations require approval from supervisors or IT leads",
+          "Regularly provides input and recommendations to project teams and management"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Routine updates and validation of patient records in EHR systems are straightforward",
+          "Generating standard data reports using Excel or Tableau feels intuitive",
+          "Communicating data findings to clinical and administrative teams is comfortable",
+          "Applying established data quality checks is a familiar process"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Integrating new health technologies with existing EHR systems can be technically complex",
+          "Ensuring complete compliance with evolving healthcare regulations requires constant attention",
+          "Analyzing large, unstructured datasets to identify subtle trends is challenging",
+          "Resolving data interoperability issues across different platforms can be demanding"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Manual data entry and routine validation of EHR fields are repetitive and time-consuming",
+          "Data cleaning and formatting for reports involve repetitive steps",
+          "Cross-checking records for completeness or consistency is a data-heavy process",
+          "Routine report generation on standard metrics presents automation opportunities"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys analyzing healthcare trends and collaborating with teams to solve data challenges",
+          "Finds it rewarding to develop dashboards that directly impact clinical decision making",
+          "Considers routine data entry and validation tasks to be less engaging",
+          "Prefers collaborative, problem-solving tasks over repetitive compliance documentation"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "EHR systems can be slow or cumbersome, leading to workflow bottlenecks",
+          "Data integration between disparate systems often produces errors or inconsistencies",
+          "Manual data validation is time-consuming and prone to human error",
+          "Keeping up with frequent changes in healthcare regulations can be overwhelming"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Feels most productive and engaged when working on data analysis and process improvement tasks",
+          "Enjoyment increases with tasks that require problem-solving and creativity",
+          "Repetitive tasks, despite being less enjoyable, are performed efficiently due to high proficiency",
+          "Skill development is prioritized in areas that align with both enjoyment and organizational impact"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Demonstrates a proactive attitude toward adopting new health IT solutions",
+          "Views new technology as an opportunity to improve efficiency and patient care",
+          "Regularly seeks out resources to stay updated on industry trends",
+          "Enjoys experimenting with new data analysis platforms and tools"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new EHR updates and data integration tools",
+          "Comfortable navigating both legacy systems and modern cloud-based platforms",
+          "Has a track record of successfully integrating new workflows into daily tasks"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate personal and work time to learn technologies that improve outcomes",
+          "Participated in internal workshops and online courses to enhance tech skills",
+          "Sees ongoing tech training as essential for career development"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the direct impact of new technologies on workflow efficiency",
+          "Occasionally limited by project deadlines and high workload, making it challenging to prioritize training",
+          "Prefers technologies with clear, practical benefits for daily tasks"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers who actively share knowledge create a positive environment for tech adoption",
+          "Management support for training and experimentation encourages willingness to try new tools",
+          "Collaborative team culture makes it easier to learn and adopt new technologies"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Epic and Cerner EHR platforms daily for patient data management",
+          "Employs Excel and Tableau for data analysis and visualization",
+          "Regularly uses Microsoft Teams and Slack for team communication",
+          "Works with HL7 and FHIR standards for data integration and interoperability"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on clinical decision support systems for evidence-based recommendations",
+          "Uses secure email and file sharing platforms to communicate sensitive information",
+          "References online regulatory databases to stay current on HIPAA and data standards"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient in navigating major EHR platforms such as Epic and Cerner",
+          "Familiar with HL7 and FHIR for health data exchange",
+          "Understands the basics of data warehousing and health information exchange (HIE) systems"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Has encountered data mapping errors between EHR systems and reporting tools",
+          "Experiences delays when integrating third-party applications into existing platforms",
+          "Requires frequent collaboration with IT to resolve interface and compatibility issues",
+          "Recognizes the need for better standardization across health IT systems"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands concepts such as natural language processing, machine learning, and predictive analytics",
+          "Is aware of how AI can be applied to analyze large healthcare datasets",
+          "Familiar with terminology like algorithm bias, model training, and data labeling",
+          "Regularly reads industry articles about AI advancements in healthcare"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Has used large language models (LLMs) like ChatGPT for drafting reports and documentation",
+          "Utilizes built-in AI features in Tableau for data trend identification",
+          "Tested clinical decision support algorithms embedded within EHR systems",
+          "Occasionally uses AI-powered data cleaning tools for preprocessing healthcare data"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs occasionally for summarizing research and generating report drafts",
+          "Applies AI functionalities in Tableau to automatically identify data patterns",
+          "Leverages AI features in EHR systems for real-time clinical alerts and recommendations",
+          "Employs AI tools as needed rather than as part of a daily routine"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used LLMs to expedite drafting of compliance documentation, saving several hours",
+          "Noted inaccuracies in AI-generated summaries, requiring manual review for critical decisions",
+          "AI-based trend analysis in Tableau helped identify an operational inefficiency missed by manual review",
+          "Learned that AI outputs are most reliable when supplemented with domain expertise"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Organization offers periodic webinars on AI applications in health informatics",
+          "Peers share practical tips and resources for using AI tools via internal communication channels",
+          "Formal, in-depth training on AI is limited and primarily self-initiated",
+          "Access to online tutorials and documentation for most AI platforms used"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI tools for complex or unfamiliar tasks",
+          "Works independently with AI for routine or well-understood processes",
+          "Finds hybrid approaches most productive\u2014starting with AI suggestions, then refining manually"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI as an assistant for automating repetitive tasks and providing data insights",
+          "Occasionally relies on AI as an advisor when exploring new healthcare trends",
+          "Maintains final decision-making authority, using AI outputs as recommendations rather than directives"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to experimenting with new AI-driven workflows, especially for data-heavy tasks",
+          "Evaluates new workflows based on impact on accuracy and efficiency",
+          "Prefers to pilot AI changes on a small scale before full adoption"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for tasks involving explanation or clarification",
+          "Finds command-based interfaces more efficient for structured, repetitive actions",
+          "Believes a mix of both interface types is ideal, depending on context"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many tasks require understanding of clinical workflows and healthcare regulations",
+          "Interpreting healthcare data often depends on context and patient-specific details",
+          "Routine data entry is less dependent on tacit knowledge, but analysis and compliance monitoring are highly specialized"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI outputs for preliminary analysis and routine documentation tasks",
+          "Exercises caution and always reviews AI-generated content before using in critical decisions",
+          "Relies more on human oversight for outputs affecting patient care or compliance"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to automate repetitive, high-volume data processing",
+          "Believes humans should lead in interpretation, analysis, and compliance verification",
+          "Supports a collaborative approach where AI augments, not replaces, human expertise"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for non-critical, low-risk tasks such as data cleaning and formatting",
+          "Views automation as threatening if it removes necessary human oversight from clinical or compliance decisions",
+          "Supports increased automation only if robust audit and override mechanisms are in place"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the importance of analytical and interpretation skills",
+          "Routine technical skills such as data entry may become less critical over time",
+          "Communication skills remain vital for translating AI outputs to clinical teams"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing proficiency in AI prompt engineering for LLMs",
+          "Learning to evaluate and validate AI-generated reports and analyses",
+          "Increasing focus on data governance and ethical use of AI in healthcare"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mildly concerned about automation reducing the need for manual data entry roles",
+          "Confident that specialized analysis and compliance oversight will remain human-driven",
+          "Views AI as a tool that shifts, rather than eliminates, core responsibilities"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always performs manual review of AI-generated outputs for compliance and accuracy",
+          "EHR and analytics platforms have built-in approval workflows for critical actions",
+          "Organization maintains clear protocols for when human intervention is required"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Team has started to formalize guidelines for AI use in documentation and analysis",
+          "Company encourages careful experimentation with AI while prioritizing patient safety",
+          "Policies are evolving to address data privacy and ethical considerations in AI deployment"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI has the potential to revolutionize healthcare delivery and patient outcomes",
+          "Sees AI as essential for handling growing volumes of health data",
+          "Recognizes societal risks such as data privacy and algorithmic bias"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Strongly values transparency in how AI algorithms are used in health settings",
+          "Worried about potential biases in AI models affecting patient care",
+          "Advocates for robust privacy protections and clear accountability in AI-driven processes"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires AI tools for real-time, automated compliance checks within EHR systems",
+          "Would benefit from AI-driven interoperability solutions to connect disparate health IT platforms",
+          "Wants better explainability and audit trails for AI-generated outputs"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine data management tasks to become largely automated",
+          "Anticipates a greater focus on interpreting AI outputs and ensuring ethical use",
+          "Foresees expanded collaboration with AI developers and data scientists"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Recommends providing regular, role-specific AI training for staff",
+          "Wants clear guidelines and protocols for safe and ethical AI use",
+          "Supports investment in AI tools that directly enhance patient care and operational efficiency",
+          "Advocates for ongoing evaluation of AI systems for bias, accuracy, and compliance"
+        ]
+      }
+    ]
+  }
+]

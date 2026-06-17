@@ -1,0 +1,501 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master\u2019s Degree in Biostatistics from a recognized university",
+          "Undergraduate degree in Statistics or a related quantitative field",
+          "Completed coursework in statistical modeling, data analysis, and epidemiology",
+          "Participated in graduate research projects involving clinical trial design",
+          "Attended workshops and short courses on SAS and R programming"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Current job title: Biostatistician",
+          "Responsible for statistical programming and data analysis for clinical studies",
+          "Supports specification and creation of analysis datasets, tables, listings, and figures",
+          "Performs data cleaning, quality control, and randomization schedule planning",
+          "Collaborates closely with data management and clinical teams"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the pharmaceutical and clinical research sector",
+          "Focuses on biostatistics within clinical trials and drug development",
+          "Contributes to studies supporting regulatory submissions and publications"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-size Contract Research Organization (CRO)",
+          "Typical team size ranges from 8-15 statisticians and programmers",
+          "Collaborative environment with cross-functional project teams",
+          "Company emphasizes process standardization and quality control"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Company operates in the clinical research services and biopharma support market",
+          "Provides statistical analysis and data management for clinical trials",
+          "Clients include pharmaceutical companies and medical device manufacturers"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 3-5 years of professional experience as a biostatistician",
+          "Joined current organization shortly after completing Master\u2019s degree",
+          "Progressed from entry-level to mid-level responsibilities over tenure"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Currently at an early-career to mid-level position",
+          "Serves as a key contributor to project teams, not yet in a formal management role",
+          "Mentors junior staff or interns on programming and data review tasks"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Writes and validates SAS and R code for clinical trial data analysis",
+          "Develops and maintains analysis datasets per study protocols",
+          "Generates statistical deliverables: tables, listings, and figures (TLFs)",
+          "Performs data cleaning, identifies missing or inconsistent data, and queries data issues",
+          "Conducts quality control checks on programs and outputs"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 40% of time on statistical programming and dataset creation",
+          "About 25% of time is dedicated to data cleaning and quality control",
+          "Roughly 20% involves preparing and reviewing TLFs",
+          "The remaining 15% is spent on documentation, meetings, and process development"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Works independently on assigned analyses within project guidelines",
+          "Makes decisions about data cleaning strategies and programming approaches",
+          "Collaborates with statisticians and project leads on study-specific issues",
+          "Has limited authority over study design but influences data handling best practices"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Writing standard statistical analysis code in SAS and R",
+          "Generating routine summary tables and listings",
+          "Identifying and correcting missing data or obvious data entry errors",
+          "Applying established data cleaning procedures"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Developing specifications for complex derived variables or endpoints",
+          "Interpreting ambiguous or incomplete protocol requirements",
+          "Handling unexpected data inconsistencies or protocol deviations",
+          "Designing randomization schedules for adaptive or multi-arm trials"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Routine data cleaning and missing data checks across datasets",
+          "Applying standard quality control checks on deliverables",
+          "Formatting and generating basic summary tables and listings",
+          "Reconciling database exports with analysis datasets"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys problem-solving in statistical modeling and programming challenges",
+          "Finds data visualization and interpretation of results rewarding",
+          "Considers repetitive data cleaning and documentation tasks tedious",
+          "Enjoys collaborating with cross-functional teams on study design questions"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual data checks can be time-consuming and prone to oversight",
+          "Formatting deliverables to meet inconsistent sponsor requirements",
+          "Dealing with slow or incompatible software tools",
+          "Rewriting similar code for different studies due to lack of standardization"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Productivity is highest when working on tasks that match statistical programming strengths",
+          "Enjoyment increases when work involves creative problem-solving or learning new techniques",
+          "Repetitive tasks decrease engagement and can lower overall productivity",
+          "Skill development often leads to greater job satisfaction and efficiency"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open and enthusiastic about learning new software relevant to work",
+          "Actively seeks out new programming libraries or tools that improve workflow",
+          "Views technology adoption as essential for staying current in the field"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to updates in SAS, R, and related statistical tools",
+          "Comfortable experimenting with new packages or automation tools",
+          "Relies on both formal training and self-directed exploration for learning"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Regularly dedicates time to online courses or webinars on new tools",
+          "Participates in internal or external workshops when available",
+          "Balances training time with project deadlines but prioritizes skill development"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential to automate repetitive tasks and increase accuracy",
+          "Main barriers include tight project timelines and high workload periods",
+          "More likely to learn tools that directly impact current projects"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often share scripts or solutions, encouraging tech adoption",
+          "Management supports tool experimentation if it improves efficiency",
+          "Team culture values continuous improvement through technology"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Primarily uses SAS for statistical programming and dataset creation",
+          "Regularly utilizes R for data analysis and visualization tasks",
+          "Employs Microsoft Excel for data review and basic calculations",
+          "Accesses clinical trial databases via EDC (Electronic Data Capture) systems"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Uses Microsoft Word and PowerPoint for documentation and presentations",
+          "Employs Git for version control and code collaboration",
+          "Relies on email and instant messaging for team communication"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient in CDISC standards such as SDTM and ADaM for clinical data",
+          "Experienced with common statistical analysis software (SAS, R)",
+          "Familiar with data visualization tools like ggplot2 and SAS Graph"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces challenges transferring data between SAS and R environments",
+          "Formatting inconsistencies arise when exporting tables from statistical software to Word or PowerPoint",
+          "Integrating EDC system exports with analysis datasets sometimes requires manual adjustments"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic machine learning concepts such as regression, classification, and clustering",
+          "Familiar with terminology like 'training data', 'model validation', and 'feature selection'",
+          "Has read literature on AI/ML applications in biostatistics and clinical research"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Occasionally uses large language models (LLMs) like OpenAI GPT for code generation and documentation",
+          "Has experimented with ML libraries in R (caret, randomForest) for exploratory analyses",
+          "Uses AI-based spellcheck and grammar tools (e.g., Grammarly) for documentation"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs occasionally to troubleshoot coding errors or generate template scripts",
+          "Applies AI-assisted tools for automating sections of data cleaning and reporting",
+          "Tests machine learning models on exploratory data when relevant to study objectives"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Found LLM-generated template code helpful for speeding up repetitive programming tasks",
+          "Encountered issues when AI-generated code did not fully align with clinical data standards",
+          "Learned to always manually review AI outputs before integrating into deliverables"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company has offered introductory webinars on AI/ML in clinical research",
+          "Peers often share tips and best practices for using LLMs and automation tools",
+          "Formal, structured AI training is limited but informal support is readily available"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers using AI tools as on-demand assistants for specific questions or tasks",
+          "Appreciates the ability to interact step-by-step when troubleshooting complex code",
+          "Uses independent mode for simple, well-defined queries"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI as an assistant for automating routine or repetitive steps",
+          "Occasionally uses AI tools as advisors when exploring new statistical methods",
+          "Maintains final decision-making responsibility for all critical outputs"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to integrating AI-driven workflows that demonstrably save time or improve accuracy",
+          "Willing to pilot new AI tools on non-critical tasks before full adoption",
+          "Prefers gradual integration of AI to allow for learning and adjustment"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Enjoys conversational AI interfaces for brainstorming or exploring new ideas",
+          "Uses command-based AI tools for direct code generation or data manipulation",
+          "Values flexibility to switch between conversational and command-based modes depending on context"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many tasks require understanding of clinical protocols and statistical standards",
+          "Tacit knowledge is essential for interpreting ambiguous or unusual data patterns",
+          "Expertise is needed to ensure analysis aligns with regulatory requirements"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI outputs for routine or well-defined tasks after manual verification",
+          "Skeptical of AI-generated results for novel or complex analyses without expert review",
+          "Never fully delegates critical decisions to AI tools"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive and rule-based tasks, such as data cleaning",
+          "Believes human oversight is crucial for study-specific analyses and interpretation",
+          "Supports hybrid workflows where AI assists but human experts make final calls"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for standardized, low-risk tasks with clear validation steps",
+          "Finds high automation threatening when context-specific judgment is needed",
+          "Prefers transparency and override options in any automated system"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Views AI as enhancing the value of programming and data interpretation skills",
+          "Believes critical thinking and domain knowledge remain essential despite automation",
+          "Expects some routine programming tasks to become less central over time"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing skills in AI tool evaluation and integration",
+          "Gaining experience in validating and interpreting machine learning outputs",
+          "Taking on responsibilities for maintaining and updating automated workflows"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Moderately concerned about automation of repetitive programming and data cleaning tasks",
+          "Not worried about total job replacement due to the complexity of clinical studies",
+          "Sees opportunity to focus on higher-value analytical and consulting tasks as automation grows"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Manual review and sign-off is required for all deliverables, regardless of AI involvement",
+          "AI-driven outputs are always subjected to human quality control",
+          "Organization encourages double-checking automated results before submission"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Team is gradually adopting more AI-assisted tools for routine tasks",
+          "Company policy currently favors human review for any critical outputs",
+          "Pilots and evaluations of AI tools are underway but adoption is incremental"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will greatly improve efficiency in clinical research and healthcare",
+          "Sees potential for AI to enhance data quality and reduce human error",
+          "Worried about potential job displacement in roles focused solely on routine tasks",
+          "Expects AI to drive new innovations in personalized medicine and trial design"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports ethical guidelines to ensure AI transparency and accountability",
+          "Believes human oversight is critical to prevent bias and errors in AI-driven outputs",
+          "Wants clear policies on data privacy when using AI for patient-level data"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Wishes for AI tools that can reliably interpret complex clinical protocols",
+          "Desires automated error-checking that adapts to study-specific requirements",
+          "Would benefit from AI that recommends optimal statistical models based on input criteria"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine coding and data cleaning to become highly automated",
+          "Predicts greater focus on advanced analytics, study design, and interpretation",
+          "Anticipates the need for continual upskilling in AI and data science methods"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Encourages structured AI training and upskilling programs for staff",
+          "Wants clear guidelines for quality control and validation of AI outputs",
+          "Recommends phased implementation and evaluation of new AI tools"
+        ]
+      }
+    ]
+  }
+]

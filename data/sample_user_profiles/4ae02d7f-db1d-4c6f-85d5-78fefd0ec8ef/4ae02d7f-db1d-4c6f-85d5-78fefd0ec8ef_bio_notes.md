@@ -1,0 +1,244 @@
+# Biographical Notes
+
+- Sees upskilling as important for career progression in a technical field
+- Role involves designing and optimizing extraction methods for oil & gas reservoirs
+- Keeps a small Zen garden on the desk to relax during busy days.
+- Considers repetitive data cleaning and manual report formatting tedious
+- Wary of full automation for complex field operations or safety-critical tasks
+- Uses large language models (LLMs) for drafting reports, summarizing findings, and code generation
+- Believes hands-on field knowledge becomes even more important in an AI-driven environment
+- Manual reformatting required when moving datasets from SCADA to analysis platforms
+- Highly open to experimenting with AI-driven workflows that promise efficiency gains
+- Cross-verifies AI recommendations with domain knowledge and team input
+- Believes humans should retain oversight on recommendations affecting safety or production
+- Frequently employs Petrel and Techlog for geological interpretation and reservoir modeling
+- Wishes for more intuitive, domain-aware AI assistants for technical troubleshooting
+- Allocates 20% to meetings, reporting, and cross-team communication
+- Anticipates new emphasis on data interpretation and cross-disciplinary skills
+- Uses the remaining 10% for technology reviews, software evaluation, and continuous improvement
+- Willing to pilot new AI features and provide feedback to tool developers
+- Prioritizes training that addresses current bottlenecks or pain points
+- Regularly relies on PI System or SCADA platforms for real-time production data
+- Maintains a detailed map of all the cities and countries visited for work.
+- Sees risk of reduced value for basic data processing or routine reporting skills
+- Online documentation and tutorials are made available for self-paced learning
+- Regularly imports and formats data from SCADA/PI systems, a process prone to manual errors
+- Uses AI-powered anomaly detection weekly to flag unusual production trends
+- Keeps an emergency stash of assorted teas in a vintage metal tin.
+- Prepares reports and communicates findings to stakeholders
+- Many tasks require practical field experience and understanding of reservoir behavior
+- AI-driven anomaly detection once flagged a sensor error as a real production drop, highlighting need for human oversight
+- Occasionally uses Python-based AI/ML tools for custom data analysis
+- Sees AI as a catalyst for innovation across the energy industry
+- Views new software as opportunities to improve efficiency and productivity
+- Employs machine learning models to forecast well performance under different scenarios
+- Sees value in advanced predictive maintenance AI for field equipment
+- Devotes 30% to planning and coordinating field operations
+- Has used both legacy and newer versions of core industry tools
+- Believes ethical guidelines are needed to govern AI use in safety-critical environments
+- Repetitive or overly manual tasks reduce both motivation and productivity
+- Has an impressive collection of colorful bandanas worn during field visits.
+- Has a custom coffee mug featuring a hilarious oil rig cartoon.
+- Keeps a travel journal filled with sketches from site visits.
+- Occasionally treats AI as a co-worker, especially when iteratively refining analyses
+- Is an avid fan of crossword puzzles, completing one daily at lunch.
+- Sees AI as a tool to augment, not eliminate, engineering roles
+- Collects pins and badges from every conference attended, displayed on a fabric board.
+- Desires seamless integration of AI analytics across all production and reservoir tools
+- Adapts communication style to the context and intended outcome
+- Expects routine data analysis and reporting to become near-fully automated
+- Eager to experiment with tools that promise automation or data insights
+- Automated data cleaning scripts reduced manual workload but required careful validation to avoid data loss
+- Manual validation steps are built into key workflows (e.g., production forecasts)
+- Prefers AI to handle repetitive, data-heavy, or time-consuming tasks
+- Interest is highest when tech is directly applicable to daily tasks
+- Manual data entry and validation are prone to human error and slow down analysis
+- Main barrier is balancing training time with urgent project deadlines
+- Basic communication platforms (e.g., email, Teams) are critical for team coordination
+- Regularly manages well data entry and validation with minimal supervision
+- Enjoys casual sketching of animals and scenery seen during weekend hikes.
+- Participates in company-offered workshops and tutorials for new tools
+- Trusts AI for automating routine tasks and initial data analysis
+- Spends approximately 40% of time on data analysis and performance assessment
+- Generally open and enthusiastic about adopting new work technologies
+- Recommends piloting AI solutions in low-risk workflows before wider rollout
+- Initial attempts to use generic ML models for production prediction underperformed until tailored with domain data
+- AutoCAD and Civil 3D are used occasionally for reviewing facility layouts and well site plans
+- Received on-the-job training in petroleum engineering practices after entering the field
+- Feels threatened if automation obscures reasoning or lacks transparency
+- Has a tradition of watching one nature documentary every Sunday evening.
+- Delays in obtaining updated field data can bottleneck decision-making
+- Participates mainly as a team member, occasionally leading minor initiatives
+- Mildly concerned about automation of routine reporting and monitoring tasks
+- Contributes recommendations to operational or technical decisions but requires supervisor approval for major changes
+- Enjoyment increases when learning new technologies or solving technical challenges
+- Learning basic Python scripting to automate and tune AI workflows
+- Enjoys photography, focusing on landscapes from field trip locations.
+- Team policies still emphasize human review and accountability for critical tasks
+- Interpreting complex geological or petrophysical datasets can be intimidating
+- Has a habit of bringing exotic spices back from business trips.
+- Enjoys problem-solving tasks like optimizing production or troubleshooting well issues
+- Has a habit of pairing different gourmet chocolate flavors with afternoon coffee.
+- Experience includes both project-based and ongoing operational assignments
+- Supports automation for routine reporting but values manual review for critical analyses
+- Believes AI will significantly increase efficiency and safety in oil and gas operations
+- Employs AI features in Power BI and Spotfire for automated trend detection
+- Values human oversight to mitigate unintended consequences
+- Company policy requires human sign-off for operational changes proposed by AI
+- Peers frequently share tips and best practices for AI tool integration
+- Work environment includes both office-based data analysis and periodic field visits
+- Uses AI independently for routine document drafting and data cleaning
+- Finds natural language queries helpful for exploring new AI features
+- Mentorship from more experienced colleagues helps accelerate AI adoption
+- Can revert to traditional analysis tools if AI outputs are questionable
+- Greater trust in AI for well-defined, structured problems than for novel cases
+- Organizes an annual fantasy football league with colleagues.
+- Actively seeks out opportunities to automate routine reporting and monitoring
+- Engages with both engineering and operations segments of the energy industry
+- Not yet in a supervisory or management role
+- Uses Microsoft Excel daily for data analysis, decline curve analysis, and production tracking
+- Lists ‘learning to sail’ as a bucket list goal.
+- Prefers commuting by electric scooter on sunny days.
+- Keeps a small collection of quirky fridge magnets from site locations.
+- Focuses on maximizing recovery from existing assets as well as new development
+- Always carries a reusable water bottle decorated with adventure stickers.
+- Recognizes potential for job transformation but not widespread displacement in the near term
+- Business segment: Upstream oil and gas exploration and production
+- Uses command-based interfaces for structured data analysis or when scripting in Python
+- Works in the upstream oil and gas sector
+- Oversees field operations to ensure safety and efficiency
+- Applies LLMs daily to accelerate report writing and automate documentation
+- Foresees a shift toward more strategic, cross-disciplinary engineering roles
+- Once took a pottery class and still proudly displays a handmade mug at work.
+- Wants clear policies for human oversight and accountability in AI-driven decisions
+- Bakes themed cupcakes for coworkers’ birthdays and celebrations.
+- Relies on AI tools to auto-generate data visualizations and suggest operational improvements
+- Owns a vintage typewriter inherited from a relative, displayed at home.
+- Serves primarily regional markets but may supply global energy companies
+- Success stories from colleagues increase willingness to try new tools
+- Always reviews AI-generated reports before distribution
+- Company operates in both mature and developing fields
+- Volunteers at a local community garden on weekends.
+- Maintains a succulent plant terrarium on their desk, named 'Petro'.
+- Participates in projects aligned with energy production and resource management
+- Comfortable discussing supervised and unsupervised learning in practical terms
+- Practices morning yoga before heading to the office.
+- Has a desk calendar featuring classic cars from the 1960s.
+- Management encourages use of automation and data-driven tools
+- Experiments with built-in AI modules in reservoir simulation software for scenario prediction
+- Motivated by potential for increased efficiency and reduced manual workload
+- Views AI primarily as an assistant for automating repetitive or data-heavy tasks
+- Power BI and Spotfire are essential for building and sharing performance dashboards
+- Can quote lines from old adventure movies during coffee breaks.
+- Supports transparent and explainable AI models to maintain trust
+- Frequent need to export/import files increases risk of data inconsistency
+- Does not feel immediate threat to core engineering responsibilities
+- Considers self to be a quick learner when it comes to digital tools
+- Keeps a Rubik’s cube on the desk as a stress-relief toy.
+- Tacit knowledge is critical for interpreting ambiguous data or troubleshooting anomalies
+- Seeks a partnership where AI augments decision-making, not replaces it
+- Exercises caution and reviews AI-generated outputs before making critical decisions
+- Completed internal company training modules on drilling and production technology
+- Familiar with terminology like model training, validation, and data labeling
+- Has a working knowledge of how AI can be applied to time series production data
+- Brews cold brew coffee at home and shares samples with the team.
+- Switches between modes depending on task complexity and urgency
+- Has a habit of doodling oil pumps in meeting notebooks.
+- Proficient with widely used petroleum engineering software like Eclipse, CMG, and tNavigator
+- Growing focus on training and upskilling related to AI
+- Job title: Petroleum Engineer
+- Decorates the workspace with vintage oil company logos and memorabilia.
+- Hosts a monthly online trivia night with friends from different industries.
+- Cleaning and validating large volumes of production and pressure data is repetitive
+- Feels AI enhances technical analysis skills by enabling deeper data exploration
+- Once built a miniature oil rig model out of LEGO bricks.
+- Has a pet goldfish named 'Gusher' that watches over the workspace.
+- Prefers gradual integration of AI into established processes to minimize disruption
+- Company increasingly encourages experimentation with AI-based solutions
+- Running advanced reservoir simulations (e.g., with Eclipse or CMG) is challenging due to technical depth
+- Occasionally faces challenges transferring data between Petrel, Excel, and simulation software
+- Occasionally hesitant if new tech seems disconnected from field realities
+- Comfortable using Excel for data analysis, production tracking, and routine calculations
+- Still developing expertise and expanding responsibilities
+- Peers often recommend new software or share tips for better workflows
+- Prefers hands-on learning over lengthy theoretical courses
+- Retains final decision-making authority, using AI as a support tool
+- Brings homemade spicy chili to the office potluck every fall.
+- Willing to dedicate personal and work time to tech training if directly relevant
+- Analyzes well and reservoir data to assess performance and identify optimization opportunities
+- Advocates for ongoing AI training and upskilling opportunities for all staff
+- Works directly with field teams and multidisciplinary colleagues to plan operations
+- Employed by a mid-sized oil & gas company with several hundred employees
+- Wears a lucky hat passed down from a family member during site visits.
+- Always writes daily to-do lists using colorful gel pens.
+- Coordinating multi-team field operations under time constraints is demanding
+- Able to pick up new software features with minimal formal training
+- Anticipates AI-driven optimization leading to more sustainable resource extraction
+- Collaborates closely with senior engineers and field leads for critical interventions
+- Notices a shift toward more open discussion of AI opportunities and risks
+- Routine report generation and dashboard updates are time-consuming
+- Finds basic production monitoring and decline curve analysis straightforward
+- Team culture favors early adoption and experimentation with new technologies
+- Anticipates increased focus on interpreting and validating AI outputs
+- Becoming more involved in data validation and quality assurance for AI inputs
+- Gains confidence and efficiency as experience with analysis tools grows
+- Collaborates within small project teams as well as larger, cross-functional groups
+- Evaluating and integrating new technologies requires significant learning
+- Company offers periodic internal training sessions on AI and data analytics
+- Feels most productive and engaged when working on tasks that match current skill level
+- Wears a lucky wristband gifted by a mentor on the first big project.
+- Lack of seamless integration between analysis tools (e.g., Petrel and Excel) creates extra steps
+- Has 1-2 years of experience as a petroleum engineer
+- Joined the current company shortly after completing high school
+- Company emphasizes safety, efficiency, and adoption of new technology
+- Industry focus on extraction of hydrocarbons from underground reservoirs
+- Prefers tasks involving technology evaluation or continuous improvement initiatives
+- Understands basic concepts such as machine learning, predictive analytics, and anomaly detection
+- Keeps an assortment of novelty erasers collected from different countries.
+- Likes to experiment with gourmet grilled cheese recipes on weekends.
+- Holds an entry-level engineering position
+- Has a habit of writing motivational quotes on sticky notes around the office.
+- Some decisions, such as recommending interventions, depend on hard-to-codify expertise
+- WellView and OpenWells are used for well data management and reporting
+- Preparation of standard reports and basic dashboards feels intuitive
+- Attended industry workshops focused on reservoir engineering and field operations
+- Enjoys hosting themed movie nights for colleagues, often featuring 80s classics.
+- Adapts workflows based on industry trends and team recommendations
+- Finds cross-team collaboration and field visits engaging
+- Always wears mismatched socks on Fridays for good luck.
+- Loves to learn phrases in new languages encountered during travels.
+- Believes AI will enable faster, more accurate decision-making in field operations
+- Responsible for analyzing geological and production data to support decisions
+- Holds a high school diploma as highest completed formal education
+- Familiar with standard workflows for integrating well logs and reservoir simulations
+- Formatting data for different software platforms adds unnecessary complexity
+- Develops drilling and production plans based on technical analysis
+- Has a small collection of geology-themed board games.
+- Prefers step-by-step collaboration with AI for complex analyses or unfamiliar workflows
+- Relies on a combination of software outputs and personal judgment for key calls
+- Appreciates interactive guidance when exploring new features or tools
+- Known for bringing fresh homemade hummus and pita to lunch gatherings.
+- Collaborates with multidisciplinary teams (geologists, field engineers, production staff)
+- Successfully used LLM to automate decline curve analysis report drafts, saving hours per week
+- Developing skills in AI tool customization and prompt engineering for LLMs
+- Applies Prosper, GAP, and MBAL for nodal analysis and integrated production system modeling
+- Prefers conversational interfaces for brainstorming, troubleshooting, or generating text
+- Enjoys baking bread and often shares loaves with neighbors.
+- Automation is acceptable when override and manual intervention options are available
+- Monitoring real-time well performance metrics is data-heavy and could be automated
+- Limited direct integration between PI System and some proprietary modeling tools
+- Makes independent decisions on routine analysis and reporting tasks
+- Obtained safety certifications required for field work (e.g., H2S awareness, first aid)
+- Occasionally needs support for complex simulation or modeling software
+- Taking on informal roles as an AI advocate or peer resource in the team
+- Aware of best practices for data management in upstream operations
+- Believes human oversight is essential for safety, troubleshooting, and complex judgment
+- Concerned about biases and errors if AI is not properly validated
+- Contributes to technology evaluation and continuous improvement initiatives
+- Accepts high automation for standardized, low-risk processes like data cleaning
+- Supports investment in robust data infrastructure and integration platforms
+- Has some discretion in selecting analysis methods or software tools
+- Leverages AI as an advisor for scenario modeling and operational recommendations
+- Is a devoted fan of classic rock vinyl records and plays them at home.
+- Would benefit from AI-driven real-time optimization of choke settings and lift equipment
+- Enjoys running early morning trails and has completed a half marathon.

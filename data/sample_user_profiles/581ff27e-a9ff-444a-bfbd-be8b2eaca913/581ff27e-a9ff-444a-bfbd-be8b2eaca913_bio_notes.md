@@ -1,0 +1,226 @@
+# Biographical Notes
+
+- Proficient in industry-standard design tools (Adobe Suite, Canva)
+- Tasks that align with skill strengths, such as visual content creation, are completed quickly
+- Empowered to select tools and workflows for the team's content creation
+- Crafting copy for unfamiliar or technical subjects (e.g., healthcare topics) is challenging
+- Familiar with major social media platforms' business tools (e.g., Facebook Business Suite, Instagram Insights)
+- Spends remaining time on planning, analytics, and reporting tasks
+- Willing to dedicate several hours per month to learning new features
+- Team relies on both explicit guidelines and tacit knowledge gained from experience
+- Social media management tools like Hootsuite or Buffer for scheduling
+- Team includes marketing, design, and content professionals
+- Looks for smarter analytics insights generated automatically by AI
+- Workload occasionally limits time available for in-depth training
+- Team has clear guidelines for when to override or edit AI outputs
+- Occasionally tests new AI plugins or beta features integrated into Adobe products
+- Routine analytics reporting is less enjoyable and can feel tedious
+- Collects funny fridge magnets from every city visited
+- Completed elective courses in graphic design and marketing during undergraduate studies
+- Wants regular training sessions for staff on new AI tools and best practices
+- Relies on Adobe Creative Cloud for core content production
+- Has a standing desk that's never been lowered in 3 years
+- Encourages team members to try AI tools and share feedback
+- Uses a vintage camera to take analog photos on weekend hikes
+- Holds a mid-level management position
+- Allocates about 15% of time to coordinating with team members and reviewing content
+- Participated in internships related to media or social media management
+- Has a collection of novelty socks featuring famous memes
+- Company is considering future AI training as tool adoption grows
+- Learns a phrase in a new language every week and tries to use it in conversation
+- Understands basic AI concepts such as natural language processing and generative models
+- Spends approximately 40% of time creating or editing visual and video content
+- Workflow sometimes slowed by limited direct integration between AI tools and creative software
+- Believes in balancing automation with ethical considerations around bias and misinformation
+- Designing custom graphics and experimenting with new formats is engaging
+- Often iterates on AI-generated copy in collaboration with team members
+- Schedules and publishes posts across multiple social networks
+- ChatGPT is employed for generating and editing marketing copy
+- Leverages AI to quickly produce drafts for unfamiliar or technical subject areas
+- Participates in strategic planning for social media initiatives
+- Revising content to fit minor platform updates can be monotonous
+- Has experience with video and audio editing software relevant to social content
+- Has a quirky habit of naming office supplies, like pens and staplers
+- All AI-generated content undergoes manual review before publication
+- Has attended online workshops on content creation and social media algorithms
+- Expects to spend less time on manual content production and more on strategy and creative direction
+- Has learned AI concepts primarily through practical use and online articles
+- Encourages open dialogue about ethical considerations in AI adoption
+- Uses smartphone apps for capturing and uploading photo/video content
+- Employed at a mid-sized company with approximately 50-200 employees
+- Can explain how AI tools generate text or images for marketing content
+- Volunteers as a story reader at the local library every month
+- Bakes a different international dessert for the team every month
+- Relies on AI for routine or repetitive tasks, freeing up time for creative work
+- Spent 2-4 years in junior content creation roles prior to current position
+- Has significant autonomy to plan and execute social media campaigns
+- Designing graphics and images in Canva or Photoshop comes naturally
+- Attends weekend improv comedy classes
+- Responsible for planning, creating, and publishing content across multiple platforms
+- Keeps an air plant that thrived for over 2 years without soil
+- Company specializes in social media campaigns, influencer partnerships, and content marketing
+- Owns a vintage typewriter inherited from their grandfather
+- Finds natural language prompts more intuitive than command-line or scripted interactions
+- Prefers learning tools directly relevant to daily tasks
+- Uses Adobe Photoshop, Illustrator, and Premiere for graphics and video editing
+- Mildly concerned about automation replacing repetitive content scheduling
+- Anticipates new roles focused on AI oversight and ethical content management
+- Bulk resizing images for different platforms is a repetitive process
+- Practices calligraphy and uses it to handwrite thank-you notes
+- Regularly participates in weekend escape room challenges with friends
+- Uses LLMs like ChatGPT daily to generate and refine marketing copy
+- Sees AI as a major driver of efficiency and creativity in the media industry
+- Sings karaoke at least once a month with friends
+- Is known for crafting themed playlists tailored to different moods
+- Creates graphics, copy, video, and images for social media posts
+- Works within the media and communications industry
+- Sees value in a hybrid workflow where AI accelerates early stages and humans refine outputs
+- Does not rely on AI for final approval of sensitive or high-stakes posts
+- Concerned about potential loss of human creativity if over-reliant on AI
+- Learned to play ukulele during pandemic lockdown
+- Views technology learning as essential to staying competitive
+- In winter, drinks hot chocolate with marshmallows every afternoon
+- Learning new skills (e.g., video editing) increases both engagement and perceived productivity
+- Keeps a mini basketball hoop above the office trash can
+- Believes AI enhances creative and strategic skills by freeing up time from repetitive tasks
+- Favourite coffee order is an oat milk latte with extra cinnamon
+- Brainstorming creative campaigns with the team is highly enjoyable
+- Receiving incomplete briefs from clients or other departments causes delays
+- Believes continuous upskilling in AI technologies will be necessary to stay relevant
+- Has a rotating playlist of 80s hits that plays softly while working
+- Team culture values early adoption of effective technology
+- Wants better AI integration with Adobe Creative Cloud for seamless content workflows
+- Successfully used ChatGPT to generate copy for a campaign in a niche industry with little prior knowledge
+- Finds automation threatening if it reduces opportunities for creative input or oversight
+- Collects vintage coffee mugs from client cities visited
+- Motivated by desire to improve efficiency and creative output
+- Employs Canva's AI-powered design suggestions and background removal features
+- Final approval for major campaigns may require input from senior management
+- Peers often share tool recommendations within the team
+- Keeps a bowl of assorted candy on the desk for coworkers' sweet cravings
+- AI assists with summarizing analytics data and drafting reports
+- Delegating straightforward tasks to team members is effortless
+- Employs Trello or Asana for project and task management
+- Found AI-generated ideas useful for breaking creative blocks
+- Encouraged by seeing direct workflow improvements from new tools
+- Regularly explores updates to Adobe Suite and social media platforms
+- Keeps updated on new features released by social media networks
+- Once participated in a flash mob dance in a public park
+- Generating initial drafts of copy or hashtags is easily automated with AI tools
+- Has an impressive collection of colorful notebooks for different projects
+- Positive peer experiences with new software increase willingness to adopt
+- Uses ChatGPT daily to generate copy ideas and draft captions
+- Cautiously optimistic about AI's ability to democratize content creation
+- Managing last-minute changes or client requests adds complexity
+- Operates in the B2C (business-to-consumer) digital marketing segment
+- Works in an open office or remote/hybrid setup typical for creative roles
+- Prefers a step-by-step collaborative approach with AI, using it to generate drafts and then refining outputs
+- Occasionally participates in webinars about AI in marketing
+- Started a mini succulent garden on the windowsill of the workspace
+- Brings homemade cookies to team meetings every Friday
+- Supports investing in AI technologies that directly enhance creative workflows
+- Technical or regulated content (e.g., medical topics) often demands domain-specific expertise
+- Views AI as an assistant that accelerates content creation
+- Responsible for training team members on safe and effective AI tool use
+- Writing engaging social media captions is a routine strength
+- Owns a pair of custom-made sneakers with social media icons
+- Commutes by bicycle even in winter
+- Uses AI tools every day to generate and refine written content for posts
+- Studied communications, digital media, or a related field
+- Has a secret stash of spicy hot sauces in the office drawer
+- Prefers AI to handle repetitive or low-stakes content generation
+- Some campaigns require nuanced understanding of brand voice and audience preferences
+- Sees copywriting and editing skills as still essential for final outputs
+- Occasional compatibility issues when transferring assets between Adobe and Canva
+- Engages with brands and organizations targeting consumer audiences
+- Has a collection of rubber ducks on desk for debugging companionship
+- Supports automation for bulk tasks but insists on human checks for brand-critical campaigns
+- Switching between multiple software tools can slow down workflow
+- Believes creative direction and brand strategy roles are less likely to be automated
+- Highly open to integrating AI-driven workflows that enhance efficiency
+- Encourages responsible experimentation with emerging AI features
+- Occasionally treats AI as a brainstorming partner for new ideas
+- Occasionally uses structured prompts to guide AI outputs for specific campaign needs
+- Familiar with terms like 'large language model,' 'prompt engineering,' and 'content automation'
+- Has experimented with other LLM-based tools for brainstorming campaign ideas
+- Open and enthusiastic about trying new creative tools and platforms
+- Oversees the end-to-end process of social media campaigns, including ideation, approval, and scheduling
+- Productivity is highest when working on creative design tasks, which are also most enjoyable
+- Has a bookcase dedicated solely to mysteries and thrillers
+- Has helped onboard team members onto new platforms (e.g., Canva, ChatGPT)
+- Attends webinars and online tutorials to stay updated
+- Is known for bringing elaborate homemade bento lunches
+- Edits video and audio content using Adobe Premiere and other tools
+- Enjoys experimenting with beta features and plug-ins
+- Trusts AI-generated content for idea generation and first drafts, but always reviews final outputs
+- Would benefit from AI tools that can automate image resizing and platform adaptation
+- Owns a quirky mug that changes color with heat and features cats
+- Direct supervisor for a small team of content creators
+- Employs AI for brainstorming creative campaign concepts and hashtags
+- Starts every morning with a 10-minute doodle session
+- Can revert to manual processes if AI tools produce unsatisfactory results
+- Has 6-10 years of experience in social media and media programming roles
+- Scheduling posts and updating content calendars are repetitive tasks
+- Keeps a journal of daily gratitude and occasionally shares excerpts with the team
+- Adapts quickly to new software, often self-taught via online resources
+- Uses Google Drive and Docs for team collaboration and asset storage
+- Always eats lunch at exactly 12:30 PM
+- Always greets coworkers with a personalized meme sticker
+- Occasional integration issues between Adobe Suite and Canva
+- Ensuring consistent brand voice across multiple platforms can be demanding
+- Company is increasingly open to AI adoption but maintains human oversight requirements
+- Believes human oversight is crucial for editing, brand alignment, and creative vision
+- Quickly adapts to new social media trends and platform features
+- Has a tradition of wearing funky socks on Fridays
+- Once hosted a podcast episode about underrated travel destinations
+- Coordinates and reviews content produced by team members
+- No formal company training on AI tools, but team members share best practices informally
+- Views technical skills in AI prompt engineering as increasingly important
+- Learned to always review and edit AI outputs for brand alignment and factual accuracy
+- Desires AI that can learn and mimic specific brand voices more accurately
+- Less enjoyable tasks, like manual analytics, tend to be deprioritized or delegated
+- Is ambidextrous and uses both hands for typing
+- Office is decorated with posters from 1990s tech conferences
+- Sector focus is digital marketing and online content creation
+- Integration between scheduling tools and certain social networks can be inconsistent
+- Accepts high automation for routine scheduling or analytics, as long as final review is possible
+- Compiling weekly analytics reports involves routine data handling
+- Organizes monthly book club focusing on sci-fi novels
+- Office plant is named Gerald and receives daily motivational talks
+- Prefers conversational interfaces like ChatGPT for generating and refining content
+- Company has a collaborative, creative environment
+- Management supports experimentation with new content creation tools
+- Promoted to team coordinator after demonstrating strong performance and leadership skills
+- Enjoys making pixel art during lunch breaks
+- Must stay updated on AI-generated content best practices and ethical guidelines
+- Reports to the marketing director or head of digital content
+- Holds a Bachelor’s Degree from an accredited university
+- Producing and editing complex video content requires significant effort
+- Devotes around 30% of time to writing or refining copy
+- Has a whiteboard filled with inspirational quotes written in different colors
+- Clients and campaigns often target young adult demographics
+- Some file formats require manual conversion before uploading to social platforms
+- Has a collection of vintage postcards pinned on a corkboard
+- Writes haikus about daily life and posts them anonymously on a community board
+- Policies are evolving to provide more structured guidance on appropriate AI use
+- Prompt engineering and crafting effective AI instructions are now part of daily work
+- Supports transparent disclosure of AI-generated content when appropriate
+- Keeps a small zen garden on the desk to meditate during breaks
+- Comfortable switching between different creative and productivity tools
+- Time-consuming process to manually adapt content for each platform's requirements
+- Relies on online tutorials and peer discussions for learning AI features
+- Manages a small team of social media content creators
+- Experienced occasional inaccuracies or tone mismatches in AI-generated text, requiring manual editing
+- Willing to experiment with new AI features and process changes
+- Sees ongoing tech training as a valuable investment in career growth
+- Uses AI outputs as a starting point rather than final product
+- Has a habit of collecting quirky enamel pins from conferences
+- Enjoys making stop-motion video shorts with office supplies
+- Monitors industry trends to stay ahead of potential job shifts due to AI
+- Believes AI will create new job roles even as it automates routine work
+- Writes and illustrates short comics about office life
+- Current job title is Social Media Coordinator
+- Makes day-to-day decisions on content creation and scheduling
+- Advocates for clear guidelines on responsible AI use in content creation
+- Trust in AI increases when outputs are in familiar subject areas
+- Canva is used daily for quick design tasks and collaborative projects

@@ -1,0 +1,240 @@
+# Biographical Notes
+
+- Envisions a workflow where AI augments, but does not replace, analyst judgment
+- Data exported from Bloomberg often requires manual formatting for Excel analysis
+- Maintains a digital photo album of all client celebrations and milestones (with permission).
+- Needs better natural language search for historical investment cases
+- Employs DeepSeek for macroeconomic analysis and scenario planning
+- Works in the finance and investment industry
+- Employed at a mid-sized wealth management firm
+- Using financial terminals like Bloomberg for basic market data retrieval
+- Switches interface styles depending on the required output
+- Keeps a tiny whiteboard calendar with motivational doodles and funny reminders.
+- Specializes in wealth management and personal financial advising
+- Firm culture emphasizes ongoing learning and adoption of new technologies
+- Increased responsibility for validating and interpreting AI-generated insights
+- Takes a creative writing class once a month to unwind from numbers and spreadsheets.
+- Team actively discusses responsible use and limits of AI in client work
+- Organizes an annual themed potluck dinner for colleagues, with themes like ‘Foods of the 80s.’
+- Accesses Bloomberg Terminal and Refinitiv Eikon for market data and security research
+- Team success stories with new tech increase personal willingness to try
+- Views technology as an essential enabler for productivity and competitiveness
+- Some concern about automation of data-heavy tasks like report generation
+- Macroeconomic analysis requires contextual judgment that may be difficult to encode in AI
+- Comfortable experimenting with beta features or recently released apps
+- Routine technical skills may become less critical as automation increases
+- Occasionally explores third-party AI plug-ins for Excel
+- Keeps a daily gratitude journal tucked in a drawer for quick reflections during breaks.
+- Desires more seamless AI integration within financial terminals
+- Prompt engineering and effective AI querying have become essential
+- Conducts in-depth investment research on securities, funds, and alternative asset classes
+- Learns new tools quickly, often by self-guided exploration
+- Conducting deep-dive security analysis that requires synthesizing multiple data sources
+- Has a collection of quirky coffee mugs from client cities, and rotates which one to use daily.
+- Always eats a fruit salad for lunch, which they prepare fresh each morning.
+- Portfolio construction and security selection depend heavily on deep financial expertise
+- Supports automation if override mechanisms and transparency are in place
+- Initial screening of securities based on quantitative filters
+- Sees a shift toward higher-order judgment and holistic thinking
+- Limited integration between CRM and external portfolio management platforms
+- Has grown responsibilities over the past year, especially in research and portfolio management
+- Routine data entry and portfolio performance tracking in Excel
+- Utilizes AI tools such as ChatGPT and DeepSeek for research and idea generation
+- Anticipates broader shifts in workforce skill requirements across finance
+- Relies on Microsoft Word for report writing and documentation
+- Occasional high workloads can delay adoption of non-essential tools
+- Prefers learning tools directly relevant to daily responsibilities
+- Operates primarily within the securities and investment sector
+- Around 15% of time spent on meetings with banks, asset managers, and internal teams
+- Applies AI tools daily to assist with investment research and summarizing market trends
+- Experienced an instance where AI-generated research missed a key regulatory change, prompting manual review
+- Open-minded and enthusiastic about adopting innovative financial software
+- Occasionally relies on AI as an advisor for exploring market trends
+- Collects rare postcards from every country they've traveled to, displayed in a rotating gallery at home.
+- Considered early-career/associate level within the organization
+- Conducts macroeconomic and market analysis for portfolio decisions
+- Was part of a flash mob dance crew in college and still loves spontaneous dance breaks.
+- Has a goal to learn five new languages and practices with language exchange partners online.
+- Sees AI-driven workflow as a way to gain competitive advantage
+- Concerns increase when automation lacks explainability or traceability
+- Enjoys conducting investment research and discussing market outlooks with peers
+- Employs trading platforms like Moomoo and Tiger for security execution and monitoring
+- Believes role will shift toward strategic advisory and client relationship management
+- Learned to cross-check AI outputs with primary data sources for critical decisions
+- Exercises caution and manual review for critical investment decisions
+- Is a self-taught home barista and experiments with latte art during slow mornings.
+- Has a weekend ritual of hiking a new trail each month to disconnect and refresh.
+- Summarizing macroeconomic trends from research reports
+- Invests time in online courses or tutorials to strengthen technical proficiency
+- Completed coursework in portfolio management, asset allocation, and macroeconomics
+- Started current role immediately after completing Master’s degree
+- Uses Microsoft Excel daily for portfolio modeling, performance tracking, and analysis
+- Tunes into vintage radio dramas during weekend mornings to get a nostalgic vibe.
+- Focuses on discretionary portfolio management and personalized investment solutions
+- Believes strategic advisory work will remain human-led in the near term
+- Has 1-2 years of professional experience as a Personal Financial Advisor
+- Client-specific needs and preferences involve nuance beyond standard data inputs
+- Regular use of AI and automation has improved productivity for routine data analysis
+- Reluctant to invest time in systems with unclear long-term value
+- Tracks and reports on investment performance, proposing adjustments as necessary
+- Communication and client management skills remain highly valuable
+- Has a collection of bookmarks from classic novels, even though much of their reading is digital.
+- Believes AI enhances the need for analytical and interpretive skills
+- Encouraged to flag discrepancies or errors in AI outputs
+- Writes and exchanges postcards with pen pals in different countries.
+- Relies on AI for quick synthesis of large volumes of financial news
+- Has a small succulent garden by the office window named after famous economists.
+- Has a quirky habit of collecting magnet souvenirs from financial districts worldwide.
+- Is an avid fan of vintage travel posters, decorating their office with reproductions.
+- Is part of a local choir and performs at seasonal charity events.
+- Provides advisory services on fixed income, equities, and alternative assets
+- Makes independent recommendations on security selection and asset allocation
+- Tests new AI-powered features in Bloomberg Terminal and Refinitiv
+- Building and updating Excel-based portfolio models
+- Views AI primarily as an intelligent assistant for research and analysis
+- Engages regularly with private banks and external asset managers
+- Staying abreast of rapidly evolving financial products and regulatory changes
+- Regularly reads articles and research on AI applications in finance
+- Has a tradition of bringing homemade cookies to Friday afternoon team meetings.
+- Firm maintains manual approval processes for portfolio changes
+- Practices calligraphy on weekends and sends beautifully handwritten thank-you notes to close friends.
+- Runs a blog about affordable gourmet cooking, sharing recipes inspired by client travels.
+- Wears a lucky tie or scarf to every client presentation, believing it brings good vibes.
+- Performs asset allocation decisions using macroeconomic and market analysis
+- Brews their own coffee blend at home and brings a thermos to the office every morning.
+- Anticipates greater focus on synthesizing and communicating AI-driven insights
+- New focus on integrating AI recommendations with traditional research methods
+- Considers repetitive data entry and manual report generation tedious
+- Keeps a whiteboard in the office for doodling and sketching motivational cartoons.
+- Prepares client and internal presentations with Microsoft PowerPoint
+- Loves puzzles of all types and keeps a challenging jigsaw puzzle in the office break room.
+- Proactively seeks out new tech solutions for streamlining workflow
+- Preparing PowerPoint presentations for client meetings
+- Manual reconciliation of data from multiple sources can be time-consuming
+- Prefers AI to handle routine data processing and preliminary screening
+- Collaborates closely with investment analysts, portfolio managers, and relationship managers
+- Undergraduate degree in Economics
+- Occasionally receives vendor-led training on new AI features in financial terminals
+- Believes AI will drive greater efficiency and democratization of financial advice
+- Collects quirky socks and believes they bring personality to business attire.
+- Believes human expertise is essential for portfolio construction and client advising
+- Compiling historical price and return data for reports
+- Enjoys learning salsa dancing and attends weekly social dance nights downtown.
+- Developing familiarity with AI ethics and compliance considerations
+- Finds conversational AI more intuitive for multi-step reasoning tasks
+- Uses LLMs to screen for emerging opportunities based on real-time data
+- Wants AI-powered visualization tools for market scenarios and portfolio stress testing
+- Willing to dedicate several hours per month to learning new software or features
+- Peers often share prompt templates and tips for effective LLM usage
+- Desires seamless AI integration within Bloomberg and other financial terminals
+- Provide regular training and upskilling for staff on AI capabilities and ethics
+- Assigned increasing autonomy in research and client presentations
+- Approximately 20% of time is devoted to tracking performance and preparing reports
+- Views AI as a net positive if implemented ethically and transparently
+- Expects routine research and reporting to become fully automated
+- Keeps a secret stash of dark chocolate to celebrate small wins throughout the day.
+- Adjusts interaction mode based on time constraints and task urgency
+- Refers to their office chair as ‘The Throne’ and claims it’s ergonomically royal.
+- Proficient in Bloomberg Terminal and Refinitiv Eikon for market research
+- Familiar with Excel-based VBA macros for task automation
+- Motivated by the potential for time savings and enhanced analysis
+- Treats AI as a co-worker for brainstorming and idea generation
+- Enjoyment increases with tasks that offer learning opportunities or client interaction
+- Comfortable with terminology like language models, prompt engineering, and model fine-tuning
+- Regularly provides feedback on AI tool usability and integration
+- Confidence in AI increases when models are transparent and explainable
+- Found AI most reliable for summarization and idea generation, less so for final recommendations
+- Minimal worry about AI replacing client-facing or relationship-driven responsibilities
+- Refuses to drink coffee after 2 PM, swapping it for herbal tea to keep evenings relaxed.
+- Prefers conversational interfaces for exploratory research and brainstorming
+- Difficulty in quickly extracting actionable insights from large datasets
+- Firm caters primarily to high-net-worth individuals and families
+- Enjoys astronomy and has a modest telescope to stargaze on clear nights.
+- Access to an internal knowledge base with AI tool best practices
+- Uses independent mode for straightforward summarization or drafting tasks
+- Tracks and analyzes the performance of existing investments
+- Monitors industry trends to stay ahead of potential job shifts
+- Concerns about over-reliance on AI for critical decisions without sufficient oversight
+- Regularly collaborates with more experienced advisors and analysts
+- Advocates for piloting AI features within the team before firm-wide rollout
+- Once took a pottery class and still makes hand-crafted mugs for personal use.
+- Finds client meetings and relationship building with banks stimulating
+- Finds full automation threatening when it encroaches on client relationship or strategic advisory tasks
+- Loves trying out new smoothie recipes and shares favorites with colleagues during lunch.
+- Constructs and adjusts client investment portfolios based on risk profiles and objectives
+- Spends roughly 40% of time on investment research and security analysis
+- Peers regularly share tips and best practices for financial software
+- Uses command-based prompts for structured data retrieval or analysis
+- Leverages AI for drafting sections of client reports and presentations
+- Generating summary statistics for client statements
+- Management encourages experimentation with new AI and analytics platforms
+- Believes data privacy and client confidentiality must be prioritized
+- Repetitive, low-skill tasks feel less engaging and are typically completed less efficiently
+- Enjoys improv comedy and attends open mic nights to improve public speaking and have fun.
+- Responsible for initial screening of opportunities before escalation
+- Has a standing desk that’s been upgraded with colorful custom decals and stickers.
+- Occasional delays in receiving quotes or information from external banks
+- Engages with both domestic and international financial markets
+- Relies on human oversight for high-stakes recommendations
+- Company invests in pilot programs for new AI solutions
+- Override mechanisms are built into most AI-assisted tools used in daily work
+- Can explain the basics of supervised vs. unsupervised learning
+- Expects increased competition as AI lowers barriers to entry in investment management
+- Has autonomy to conduct research and propose portfolio adjustments
+- Invest in AI-powered tools that integrate seamlessly with existing platforms
+- Is working on a personal project writing a historical fiction novel set in 1920s Wall Street.
+- Final investment decisions typically require sign-off from senior advisors or the investment committee
+- Trusts AI outputs for initial research and data aggregation
+- Understands key AI concepts such as natural language processing, machine learning, and generative AI
+- Allocates about 25% of time to portfolio construction and asset allocation decisions
+- Practices mindfulness meditation every morning, starting with a five-minute breathing exercise.
+- Has a tiny zen garden on their office desk that they tend to between meetings.
+- Supports the use of AI when outputs are explainable and bias is managed
+- Knits scarves and hats for charity during the winter holidays.
+- Advocates for clear industry-wide standards on AI ethics in finance
+- Plays weekly board games with friends, with Settlers of Catan being the all-time favorite.
+- Attends a weekly yoga class to balance out the desk-bound lifestyle.
+- Engages most deeply when analyzing new asset classes or complex investment products
+- Has a pet goldfish named 'Dividend' that sits beside their desk.
+- Firm offers periodic workshops on integrating AI tools into workflow
+- Prefers step-by-step collaboration with AI for complex research tasks
+- Pilot new AI features with feedback loops before full-scale rollout
+- Seeks more granular control over AI model parameters for tailored research
+- Volunteers as a guide at the local history museum on weekends.
+- Occasionally faces challenges in synchronizing updates across multiple tools
+- Team comprises around 20-50 employees
+- Uses internal CRM to log client interactions and manage investment proposals
+- Lack of integration between financial terminals and internal reporting tools
+- Accepts high automation for standard reporting and quantitative analysis
+- Collaborative culture fosters group adoption of high-impact tools
+- Holds meetings with private banks and external asset managers to source new investment opportunities
+- Productivity is highest when working on complex research that leverages both market knowledge and analytical skills
+- Recent updates to internal guidelines reflect increased AI adoption
+- Primary responsibilities include portfolio construction, asset allocation, and investment research
+- Holds a Master’s Degree in Finance from a reputable university
+- Establish clear guidelines for human oversight and accountability in AI-driven processes
+- Identifying actionable investment opportunities in volatile or uncertain markets
+- Job title: Personal Financial Advisor
+- Has a mini basketball hoop on the office door for quick stress-relieving shots.
+- Reports to a senior portfolio manager or team lead
+- Supports automation for repetitive reporting, with manual review for exceptions
+- Considers self highly adaptable to new platforms and updates
+- Highly open to experimenting with new AI-driven processes
+- Participated in advanced seminars on investment research and financial modeling
+- Successfully used ChatGPT to identify overlooked risks in a fixed income portfolio
+- Understands basics of trading and execution platforms used by industry peers
+- Keeps a jar of inspirational quotes on their desk, adding a new one every Monday morning.
+- Maintains final decision-making authority on all recommendations
+- Focuses on private banking and asset management clients
+- Balancing conflicting client objectives and risk tolerances
+- Collects vinyl records of jazz and blues musicians, and has a classic turntable at home.
+- Foresees increased demand for hybrid skills combining finance and AI proficiency
+- Attended workshops on financial software and data analysis tools
+- Uses ChatGPT for drafting research summaries and generating investment ideas
+- All AI-generated research is reviewed and validated by a human analyst
+- Participates in firm-organized training sessions when available
+- Loves exploring local farmers' markets on Saturdays for fresh ingredients and inspiration.
+- Owns a vintage typewriter from the 1950s displayed proudly in their home office.
+- AI tools are most useful for information synthesis, less so for final judgment calls
+- Emphasis on transparency and explainability in AI-supported decisions
+- Combines both approaches depending on the complexity and stakes of the task

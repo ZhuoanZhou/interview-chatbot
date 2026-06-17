@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Interview Chat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .instructions-panel {
+            background: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .instructions-panel h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .instructions-panel ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .instructions-panel li {
+            margin: 8px 0;
+            color: #666;
+        }
+        .control-panel {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+        .toggle-switch {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .toggle-switch input[type="checkbox"] {
+            width: 40px;
+            height: 20px;
+            cursor: pointer;
+        }
+        .toggle-switch label {
+            cursor: pointer;
+            user-select: none;
+        }
+        #end-session-btn {
+            background-color: #ff9800;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-left: auto;
+        }
+        #end-session-btn:hover {
+            background-color: #f57c00;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        #status {
+            margin-top: 10px;
+            color: #666;
+            font-style: italic;
+        }
+        .tts-indicator {
+            display: inline-block;
+            margin-left: 5px;
+            color: #2196F3;
+        }
+        #chat-form {
+            display: flex !important;
+            align-items: center !important;
+            justify-content: flex-start !important;
+            gap: 10px !important;
+            position: relative !important;
+            padding: 10px 0;
+        }
+        #chat-input {
+            flex: 1 !important;
+            min-height: 42px;
+            padding: 10px;
+            border-radius: 18px;
+            border: 1px solid #ccc;
+            resize: none;
+            margin: 0 !important;
+        }
+        #record-toggle {
+            width: 40px !important;
+            height: 40px !important;
+            min-width: 40px !important;
+            border-radius: 50%;
+            background: #eee;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            border: none;
+            cursor: pointer;
+            margin: 0 !important;
+            position: static !important;
+            flex-shrink: 0 !important;
+            z-index: 1;
+        }
+        .chat-send {
+            width: 40px !important;
+            height: 40px !important;
+            min-width: 40px !important;
+            border-radius: 50%;
+            border: none;
+            background: #4CAF50;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            margin: 0 !important;
+            position: static !important;
+            flex-shrink: 0 !important;
+            z-index: 1;
+        }
+        #record-toggle::before { content: "🎤"; font-size: 18px; }
+        #record-toggle.recording::before { content: "⏹️"; }
+        .chat-send:disabled {
+            background: #bdbdbd !important;
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+        #record-toggle:disabled {
+            background: #e0e0e0 !important;
+            cursor: not-allowed;
+            opacity: 0.6;
+        }
+        #chat-input:disabled {
+            background: #f3f3f3;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <h2>AI Interview Assistant</h2>
+        
+        <div class="instructions-panel" id="instructions-panel">
+            <h3>📋 Interview Instructions</h3>
+            <ul>
+                <li><strong>Text Mode:</strong> Type your responses in the text box below</li>
+                <li><strong>Voice Mode:</strong> Click "Start Recording" to speak your answer</li>
+                <li><strong>TTS:</strong> Toggle voice responses on/off using the switch</li>
+                <li><strong>Tips:</strong> Speak clearly and in a quiet environment for best results</li>
+            </ul>
+        </div>
+
+        <div class="control-panel">            
+            <div class="toggle-switch">
+                <input type="checkbox" id="tts-toggle" checked>
+                <label for="tts-toggle">🔊 Voice Responses</label>
+            </div>
+            <button id="end-session-btn" disabled style="opacity: 0.5; cursor: not-allowed;">🚪 End Session</button>
+        </div>
+
+        <div id="status"></div>
+
+        <div id="chat-box">
+            <!-- Messages will appear here -->
+        </div>
+
+        <form id="chat-form">
+            <textarea id="chat-input" placeholder="Type your message..." required></textarea>
+            <button type="button" id="record-toggle" class="chat-mic"></button>
+            <button type="submit" class="chat-send">➤</button>
+        </form>
+    </div>
+
+    <script>
+        // ===================================================================
+        // STATE VARIABLES
+        // ===================================================================
+        let sessionToken = null;  // REMOVED localStorage
+        let sessionStartTime = null;  // REMOVED localStorage
+        let isRecording = false;
+        let mediaRecorder = null;
+        let audioChunks = [];
+        let seenMessageIds = new Set();
+        let currentAudio = null;
+        let ttsEnabled = true;
+        let isSessionCompleted = false;
+        let pollingInterval = null;  // NEW: Track polling interval
+        let isInitializing = false;  // NEW: Prevent duplicate initialization
+        const MIN_SESSION_DURATION_MS = 45 * 60 * 1000;
+
+        // ===================================================================
+        // UTILITY FUNCTIONS
+        // ===================================================================
+        function updateStatus(message) {
+            document.getElementById('status').textContent = message;
+        }
+
+        function scrollToBottom() {
+            const chatBox = document.getElementById('chat-box');
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        function disableChatInputs() {
+            const input = document.getElementById('chat-input');
+            const sendBtn = document.querySelector('#chat-form button[type="submit"]');
+            const micBtn = document.getElementById('record-toggle');
+
+            input.disabled = true;
+            input.placeholder = "Session has ended";
+            sendBtn.disabled = true;
+            micBtn.disabled = true;
+
+            document.querySelector('.chat-container').classList.add('session-ended');
+            document.getElementById('chat-form').onsubmit = function (e) {
+                e.preventDefault();
+                return false;
+            };
+        }
+
+        function appendMessage(role, text, messageId) {
+            if (messageId && seenMessageIds.has(messageId)) {
+                return false;
+            }
+            
+            if (messageId) {
+                seenMessageIds.add(messageId);
+            }
+
+            const chatBox = document.getElementById('chat-box');
+            const isUser = role === 'user' || role === 'User';
+            const className = isUser ? 'user' : 'bot';
+            const imgUrl = isUser 
+                ? "https://e7.pngegg.com/pngimages/178/595/png-clipart-user-profile-computer-icons-login-user-avatars-monochrome-black-thumbnail.png"
+                : "https://uploads-ssl.webflow.com/64e02bd14ada8a57fa327cbe/64e445ced8cf185ffb9bb1b9_Rex%20Small_.png";
+            
+            chatBox.innerHTML += `
+                <div class="message ${className}" data-msg-id="${messageId || ''}">
+                    <img src="${imgUrl}" alt="${role}">
+                    <p>${text.replace(/\n/g, '<br>')}</p>
+                </div>`;
+            scrollToBottom();
+            return true;
+        }
+
+        function stopCurrentAudio() {
+            if (currentAudio) {
+                currentAudio.pause();
+                currentAudio.currentTime = 0;
+                currentAudio = null;
+                updateStatus('');
+            }
+        }
+
+        // ===================================================================
+        // AUDIO PLAYBACK
+        // ===================================================================
+        async function playMessageAudio(messageId, retries = 5) {
+            if (!messageId || !ttsEnabled) return;
+
+            for (let i = 0; i < retries; i++) {
+                try {
+                    const response = await fetch(`/api/get-voice-response?session_token=${sessionToken}&message_id=${messageId}`);
+                    
+                    if (response.status === 202) {
+                        await new Promise(resolve => setTimeout(resolve, 1000));
+                        continue;
+                    }
+
+                    if (!response.ok) {
+                        console.warn(`TTS fetch failed: ${response.status}`);
+                        return;
+                    }
+
+                    const blob = await response.blob();
+                    const audioUrl = URL.createObjectURL(blob);
+                    
+                    stopCurrentAudio();
+                    
+                    currentAudio = new Audio(audioUrl);
+                    currentAudio.onended = () => {
+                        URL.revokeObjectURL(audioUrl);
+                        currentAudio = null;
+                        updateStatus('');
+                    };
+                    currentAudio.onplay = () => {
+                        updateStatus('🔊 Playing response...');
+                    };
+                    
+                    await currentAudio.play();
+                    return;
+                } catch (error) {
+                    console.warn(`TTS attempt ${i + 1} failed:`, error);
+                }
+            }
+        }
+
+        // ===================================================================
+        // SESSION INITIALIZATION - FIXED!
+        // ===================================================================
+        async function initializeSession() {
+            // Prevent duplicate initialization
+            if (isInitializing || sessionToken) {
+                console.log('Session already initializing or exists');
+                return;
+            }
+
+            isInitializing = true;
+            
+            try {
+                updateStatus('Initializing session...');
+                
+                const response = await fetch('/api/start-session', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' }
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    sessionToken = data.session_token;
+                    sessionStartTime = Date.now();
+                    
+                    console.log('Session initialized:', sessionToken);
+                    updateStatus('Session started. Ready to chat!');
+                    
+                    // Start polling ONCE
+                    if (!pollingInterval) {
+                        pollingInterval = setInterval(pollForMessages, 1500);
+                    }
+                    
+                    // Start button update timer
+                    setInterval(updateEndSessionButton, 1000);
+                    
+                    // Do initial poll
+                    pollForMessages();
+                } else {
+                    updateStatus('Failed to start session: ' + (data.error || 'Unknown error'));
+                    console.error('Failed to start session', data);
+                }
+            } catch (e) {
+                updateStatus('Error starting session');
+                console.error('Error starting session', e);
+            } finally {
+                isInitializing = false;
+            }
+        }
+
+        // ===================================================================
+        // MESSAGE POLLING
+        // ===================================================================
+        async function pollForMessages() {
+            if (!sessionToken) return;
+            
+            try {
+                const response = await fetch(`/api/get-messages?session_token=${sessionToken}`);
+                
+                if (response.status === 400) {
+                    const err = await response.json();
+                    console.warn('Session invalid:', err);
+                    sessionToken = null;
+                    clearInterval(pollingInterval);
+                    pollingInterval = null;
+                    return;
+                }
+
+                const data = await response.json();
+                
+                if (data.success && data.messages && data.messages.length > 0) {
+                    data.messages.forEach(msg => {
+                        if (msg.role === 'Interviewer' || msg.role === 'assistant') {
+                            const wasNew = appendMessage('bot', msg.content, msg.id);
+                            if (wasNew && msg.id) {
+                                playMessageAudio(msg.id);
+                            }
+                        } else if (msg.role === 'User' || msg.role === 'user') {
+                            appendMessage('user', msg.content, msg.id);
+                        }
+                    });
+                }
+
+                if (data.session_completed) {
+                    updateStatus('Session completed');
+                    isSessionCompleted = true;
+                    updateEndSessionButton();
+                    disableChatInputs();
+                    
+                    // Stop polling
+                    if (pollingInterval) {
+                        clearInterval(pollingInterval);
+                        pollingInterval = null;
+                    }
+                }
+            } catch (error) {
+                console.error('Polling error', error);
+            }
+        }
+
+        // ===================================================================
+        // END SESSION BUTTON
+        // ===================================================================
+        function updateEndSessionButton() {
+            const btn = document.getElementById('end-session-btn');
+            if (!btn) return;
+
+            if (isSessionCompleted) {
+                btn.disabled = true;
+                btn.title = "Session has ended";
+                btn.style.opacity = "0.5";
+                btn.style.cursor = "not-allowed";
+                return;
+            }
+
+            if (sessionStartTime) {
+                const elapsed = Date.now() - sessionStartTime;
+                
+                if (elapsed < MIN_SESSION_DURATION_MS) {
+                    btn.disabled = true;
+                    const remaining = Math.ceil((MIN_SESSION_DURATION_MS - elapsed) / 60000);
+                    btn.title = `Session must be at least 45 minutes long (${remaining}m remaining)`;
+                    btn.style.opacity = "0.5";
+                    btn.style.cursor = "not-allowed";
+                } else {
+                    btn.disabled = false;
+                    btn.title = "End Session";
+                    btn.style.opacity = "1";
+                    btn.style.cursor = "pointer";
+                }
+            }
+        }
+
+        // ===================================================================
+        // VOICE RECORDING
+        // ===================================================================
+        function startRecording(stream) {
+            mediaRecorder = new MediaRecorder(stream);
+            audioChunks = [];
+            
+            mediaRecorder.ondataavailable = function(event) {
+                audioChunks.push(event.data);
+            };
+            
+            mediaRecorder.onstop = sendAudioToServer;
+            mediaRecorder.start();
+            updateStatus('🎤 Recording...');
+        }
+
+        async function sendAudioToServer() {
+            if (!sessionToken) {
+                console.error('Session not initialized');
+                updateStatus('Session not initialized');
+                return;
+            }
+
+            updateStatus('Processing your speech...');
+
+            const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+            const formData = new FormData();
+            formData.append('audio', audioBlob);
+            formData.append('session_token', sessionToken);
+
+            try {
+                const response = await fetch('/api/send-voice', { 
+                    method: 'POST', 
+                    body: formData 
+                });
+                const data = await response.json();
+                
+                if (data.success) {
+                    const tempId = 'user-' + Date.now();
+                    appendMessage('user', data.transcribed_text, tempId);
+                    updateStatus('Waiting for response...');
+                } else {
+                    console.error('send-voice failed', data);
+                    updateStatus('Failed to process voice');
+                }
+            } catch (error) {
+                console.error('Error sending voice', error);
+                updateStatus('Error sending voice');
+            }
+        }
+
+        function toggleRecording() {
+            if (isSessionCompleted) {
+                updateStatus('Session has ended. Recording disabled.');
+                return;
+            }
+
+            const recordButton = document.getElementById('record-toggle');
+            
+            if (isRecording) {
+                if (mediaRecorder && mediaRecorder.state !== 'inactive') {
+                    mediaRecorder.stop();
+                }
+                recordButton.classList.remove('recording');
+                recordButton.title = "Start Recording";
+            } else {
+                stopCurrentAudio();
+                
+                navigator.mediaDevices.getUserMedia({ audio: true })
+                    .then(stream => {
+                        startRecording(stream);
+                        recordButton.classList.add('recording');
+                        recordButton.title = "Stop Recording";
+                    })
+                    .catch(error => {
+                        console.error('Error accessing microphone:', error);
+                        updateStatus('Error: Could not access microphone');
+                    });
+            }
+            
+            isRecording = !isRecording;
+        }
+
+        // ===================================================================
+        // TEXT CHAT
+        // ===================================================================
+        document.getElementById('chat-form').onsubmit = async function(event) {
+            event.preventDefault();
+
+            if (isSessionCompleted) {
+                updateStatus('Session has ended. You can no longer send messages.');
+                return;
+            }
+            
+            if (!sessionToken) {
+                updateStatus('Session not initialized yet. Please wait.');
+                return;
+            }
+
+            const input = document.getElementById('chat-input');
+            const text = input.value.trim();
+            
+            if (!text) return;
+            
+            input.value = '';
+            stopCurrentAudio();
+
+            const tempMsgId = 'user-' + Date.now();
+            appendMessage('user', text, tempMsgId);
+
+            try {
+                const response = await fetch('/api/send-message', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ 
+                        session_token: sessionToken,
+                        message: text,
+                        type: "CONVERSATION"
+                    }),
+                });
+
+                const result = await response.json();
+                
+                if (!result.success) {
+                    console.error('Message send failed:', result);
+                    if (result.session_completed) {
+                        updateStatus('Session has ended');
+                    }
+                }
+            } catch (error) {
+                console.error('Error sending message:', error);
+            }
+        };
+
+        // ===================================================================
+        // EVENT LISTENERS
+        // ===================================================================
+        document.getElementById('chat-input').addEventListener('keydown', function(event) {
+            if (event.key === 'Enter' && !event.shiftKey) {
+                event.preventDefault();
+                document.getElementById('chat-form').dispatchEvent(new Event('submit'));
+            }
+        });
+
+        document.getElementById('tts-toggle').addEventListener('change', function(event) {
+            ttsEnabled = event.target.checked;
+            if (!ttsEnabled) {
+                stopCurrentAudio();
+            }
+            updateStatus(ttsEnabled ? 'Voice responses enabled' : 'Voice responses disabled');
+            setTimeout(() => updateStatus(''), 2000);
+        });
+
+        document.getElementById('record-toggle').onclick = toggleRecording;
+
+        document.getElementById('end-session-btn').onclick = async function() {
+            if (!confirm('Are you sure you want to end this session? Your interview will be completed.')) {
+                return;
+            }
+
+            if (!sessionToken) {
+                updateStatus('No active session to end');
+                return;
+            }
+
+            try {
+                updateStatus('Ending session...');
+                stopCurrentAudio();
+
+                const response = await fetch('/api/end-session', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ 
+                        session_token: sessionToken
+                    })
+                });
+
+                const result = await response.json();
+                
+                if (result.success) {
+                    updateStatus('Session ended. Thank you for participating!');
+                    isSessionCompleted = true;
+                    updateEndSessionButton();
+                    disableChatInputs();
+                    
+                    if (pollingInterval) {
+                        clearInterval(pollingInterval);
+                        pollingInterval = null;
+                    }
+                } else {
+                    updateStatus('Failed to end session: ' + (result.error || 'Unknown error'));
+                }
+            } catch (error) {
+                console.error('Error ending session:', error);
+                updateStatus('Error ending session');
+            }
+        };
+
+        // ===================================================================
+        // INITIALIZATION - ONLY CALLED ONCE!
+        // ===================================================================
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Page loaded, initializing session...');
+            initializeSession();
+        });
+    </script>
+</body>
+</html>

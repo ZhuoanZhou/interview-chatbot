@@ -1,0 +1,199 @@
+# Biographical Notes
+
+- Less likely to invest time if the perceived ROI is low
+- Writes haikus inspired by everyday office life in a shared Slack channel
+- May require familiarity with AI tool configuration and error correction
+- Frequently mentors or advises less experienced transcriptionists
+- Keeps a mini whiteboard with daily motivational quotes in the workspace
+- Less concern for legal transcription due to its complexity and risk
+- Peers discuss gradual exploration of AI but maintain human quality control
+- Has worked in the transcription field continuously since early 2010s
+- Considered a senior-level transcriptionist based on tenure and skill set
+- Practices daily stretching exercises learned from online yoga tutorials
+- Prefers to work independently with full control over the transcription process
+- No integration of LLM-based platforms into daily legal transcription work
+- Collects and trades enamel pins featuring obscure literary characters
+- Transcribes audio into formatted Word documents according to client specifications
+- Prefers to retain the role of final quality checker and editor
+- Practices calligraphy on envelopes for birthday cards to friends and family
+- Decides on audio processing techniques and formatting choices as needed
+- Sees skill enhancement opportunities in editing and quality assurance for AI outputs
+- Open to learning new software if it demonstrably improves efficiency
+- Anticipates need for AI transcript post-editing and validation expertise
+- Sees potential in developing skills for managing hybrid human-AI workflows
+- Listens to vinyl records on a vintage turntable while working from home
+- Basic formatting and timestamping might be handled by software in the future
+- Occasionally encounters compatibility issues between audio file formats and playback software
+- Received on-the-job training in transcription software and legal terminology
+- Has a mug that changes colors with heat and refuses to let anyone else use it
+- Believes core skills like legal knowledge and attention to detail remain critical
+- Enjoys binge-watching 90’s sitcoms to unwind after intensive workdays
+- Utilizes Audacity for audio cleaning and reformatting when needed
+- Always wears mismatched socks for good luck on transcription deadlines
+- Collects vintage typewriter keys and has turned them into earrings and necklaces
+- Is an avid puzzle enthusiast, often completing crossword puzzles during breaks
+- Views AI as a potential assistant for routine or repetitive segments
+- Keeps a small zen garden on the desk for stress relief during busy afternoons
+- Inserting standard legal headers and footers could be automated
+- Formatting documents in Word is second nature after years of repetition
+- Has a ritual of drinking exactly three sips of water before starting any new transcript
+- Automated tools often miss subtle distinctions important in legal transcripts
+- Sees the role shifting toward higher-value, specialized legal transcription projects
+- Uses Express Scribe and Audacity to control playback and manipulate audio quality
+- AI tools often fail to accurately transcribe multi-speaker legal audio
+- Switching between Express Scribe, Word, and Audacity can be cumbersome
+- Sees value in AI handling basic, repetitive segments but not critical legal passages
+- Has a custom playlist titled ‘Typing Zen’ that helps maintain focus
+- Would benefit from AI that can flag unclear audio segments for human review
+- Serves the legal transcription market, focused on depositions, court hearings, and legal interviews
+- Some concern about automation replacing basic transcription tasks
+- Client communication and delivery of final files make up the remaining 5-10%
+- Open to step-by-step collaboration if AI tools can reliably assist with specific tasks
+- Able to self-teach new transcription tools with online tutorials
+- Is known among friends for legendary homemade spicy chili dishes
+- Has found that AI-produced transcripts require extensive manual correction
+- Collects quirky fridge magnets from client cities visited for meetings
+- Sees AI as likely to transform basic transcription for general and low-risk audio
+- More likely to trust AI for clear, single-speaker, or non-legal recordings
+- Heavy workload may limit time available for tech exploration
+- Occasionally partners with small transcription agencies for overflow work
+- Typing verbatim transcripts of lengthy depositions is highly repetitive
+- Maintains a handwritten journal of interesting words learned each week
+- Transcribing clear, well-recorded legal proceedings feels straightforward
+- Typically collaborates with small law firms and individual practitioners
+- Switching between multiple software programs disrupts workflow
+- Hosts a weekend board game night featuring classic and obscure titles
+- Favors workflows that allow full manual review and correction of AI outputs
+- Also provides transcription services for general audio such as interviews and seminars
+- Leans toward command-based interfaces for efficiency in transcription tasks
+- Completed coursework in medical terminology and transcription techniques
+- Well-versed in formatting and editing within MS Word
+- Once co-hosted a podcast about vintage typewriters and their quirks
+- Enjoyment increases when working on challenging or meaningful cases
+- Proficient with major transcription software like Express Scribe and Audacity
+- Holds an Associate Degree from a community college
+- Expects increased demand for quality control and editing of AI-generated transcripts
+- Has witnessed major industry changes such as the shift to digital audio and remote work
+- Clarifying unclear client instructions can delay project timelines
+- Writes short horror stories in a notebook during lunch breaks
+- Familiar with common audio file types and standard legal document templates
+- Advocate for ongoing human oversight and robust error correction mechanisms
+- Has not used AI tools for any paid or client-facing transcription tasks
+- Keeps a daily log of weather patterns to find correlations with typing speed
+- Legal transcription requires understanding of court procedures and terminology
+- Once built a birdhouse from recycled office supplies as a weekend project
+- Organizes a monthly virtual book club focusing on science fiction and fantasy novels
+- Desires AI tools capable of accurately parsing legal jargon and multiple speakers
+- Would use whichever interface minimizes friction and maximizes productivity
+- Believes AI tools are not yet reliable for nuanced legal work
+- Productivity is highest when audio quality is good and task variety is present
+- Skeptical of new tech if it lacks a clear application for legal transcription tasks
+- Recognizes AI's potential to improve efficiency but worries about accuracy and ethics
+- Audio downloading, document review, and file preparation take about 10-15% of time
+- Occasionally tests AI transcription services to benchmark accuracy on legal audio
+- Runs a succulent plant nursery on the windowsill that has tripled in size over two years
+- Industry trends and recommendations from trusted colleagues are persuasive
+- Swaps homemade cookie recipes with coworkers every holiday season
+- Relies on MS Word for document creation, formatting, and editing
+- Has a tradition of sending hand-written thank you notes to longtime clients
+- Uses Express Scribe daily for audio playback and control
+- Determines when to request clarification from clients on unclear audio or instructions
+- May take longer to adopt tools with complex interfaces or unclear benefits
+- Finds automation threatening if it reduces quality or introduces legal liability
+- Volunteers as a local library reading buddy on weekends
+- Relies on online forums and peer discussions for AI tool insights
+- Peers in online transcription forums often influence tool choices
+- Would require demonstrable improvement over manual processes before switching
+- Identifying standard legal terms and phrases is now intuitive
+- Does not use any AI-powered transcription tools in professional workflow
+- Tacit knowledge is crucial for identifying context, speaker intent, and legal nuances
+- Decorates their workspace with postcards from every vacation spot visited
+- No formal team or company policies as an independent worker
+- Favors a human-led process with AI assisting in routine formatting or timestamping
+- Role involves preparing accurate, formatted transcripts from audio recordings
+- Occasionally accesses user-generated reviews of AI transcription services
+- Success with AI is higher on clear, single-speaker, non-legal recordings
+- Works as an independent contractor or freelancer
+- Previously worked in the medical transcription segment, mainly for psychologists
+- Sees potential in conversational interfaces for complex queries or troubleshooting
+- No formal organizational training available as an independent contractor
+- Brings homemade chai lattes to share with coworkers on rainy days
+- Frequent need to manually reformat or clean up client-supplied audio files
+- Recommend piloting AI tools on non-sensitive projects before broader rollout
+- Prefers concise, hands-on training over lengthy theoretical sessions
+- Has an extensive collection of novelty bookmarks from around the world
+- Believes robust human checks are essential for legal compliance
+- Has previous experience in the healthcare administration sector (psychological transcription)
+- Believes AI should not be used for sensitive or privileged information without safeguards
+- Always dresses in a lucky color on days with important client calls
+- Enjoys creating miniature dioramas during vacation to unwind from screen time
+- Works primarily in the legal services industry
+- Often trusted with complex or sensitive legal transcription assignments
+- Has a unique coffee mug that says ‘Error 404: Sleep Not Found’
+- Resistant to workflow changes that risk introducing errors or loss of nuance
+- Practices speed-reading in idle moments to improve general knowledge
+- Has a basic understanding of AI concepts such as speech-to-text and machine learning
+- Believes overall role security remains high if focused on specialized or sensitive projects
+- Has attended periodic continuing education workshops on legal documentation
+- Occasionally takes on general audio transcription projects from other sectors
+- Has a cat named ‘Comma’ who occasionally ‘types’ on the keyboard
+- PDFs with complex formatting may not convert cleanly to Word, requiring manual adjustment
+- Would use AI as a first-pass tool but not as a co-worker for nuanced legal work
+- Anticipates more hybrid workflows where AI drafts are reviewed and perfected by humans
+- Feels cautious about adopting tools that might disrupt proven workflows
+- Legal jargon or unfamiliar case-specific terminology requires additional research
+- Has a tradition of baking banana bread every Sunday morning
+- Enjoys working on high-profile or interesting legal cases for variety
+- Encourage continuous skills training for adapting to evolving AI capabilities
+- Participates in a monthly local trivia night focusing on pop culture
+- Believes specialized legal and medical transcription will remain human-led for now
+- Open to AI-driven workflows if accuracy and legal compliance can be guaranteed
+- Wishes for seamless integration between audio processing and word processing tools
+- Willing to dedicate time to learning if tool is widely recommended in the industry
+- Supports transparent AI processes and clear lines of accountability
+- Has experimented with online AI transcription services in personal projects
+- Takes a brisk 10-minute walk every hour to stimulate creativity and avoid burnout
+- Works independently and manages own workflow and schedule
+- WordPad is occasionally used for opening legacy or non-standard file types
+- Skeptical of delegating critical or nuanced tasks to AI without oversight
+- Finds routine transcription of simple interviews less stimulating
+- Would not use AI-driven processes without easy override or editing options
+- No direct management pressure as an independent contractor
+- Keeps a lucky charm from a childhood camping trip pinned to the bulletin board
+- Uses AI tools recreationally or for general curiosity, not for work deliverables
+- Primary focus is on legal transcription with occasional general and medical transcription work
+- Transcription of audio accounts for approximately 70-80% of daily work hours
+- Carves intricate wooden bookmarks as a relaxing hobby
+- Responsible for client communication, audio processing, and document delivery
+- Uses Adobe Acrobat Reader to access and review client-supplied PDFs
+- High automation is acceptable for non-sensitive or low-risk transcription
+- Has a custom-made mousepad featuring a collage of favorite classic novels
+- Has a standing desk decorated with glow-in-the-dark stars on the underside
+- Anecdotally aware that some agencies are piloting AI tools for low-risk cases
+- Enjoys experimenting with different tea blends and labels their favorites
+- Maintains a collection of 90’s tech conference stickers plastered on their laptop
+- Grew a small herb garden on the balcony that supplies fresh basil for cooking
+- Familiar with popular large language models (LLMs) from a general user perspective
+- Understands the limitations of AI transcription, especially with complex legal audio
+- Downloads audio files and relevant documents from client portals or email
+- Has over 10 years of professional transcription experience
+- Has an old-school wall calendar covered with stickers marking favorite movie releases
+- Transcribing poor quality or heavily accented audio can be labor-intensive
+- Concerned about privacy and confidentiality with AI handling legal audio
+- Has a collection of rubber ducks on the desk, each with a unique story
+- Handling files with multiple speakers talking over each other is particularly demanding
+- Current job title: Transcriptionist
+- Prefers manual review and editing of any AI-generated content
+- Higher skill level in legal terminology leads to faster and more accurate transcription
+- Prefers tasks that require problem-solving, such as audio cleanup or deciphering unclear speech
+- Keeps a jar of inspirational quotes on the desk for spontaneous morale boosts
+- Adapts quickly to updates in MS Word and audio processing programs
+- Views AI as potentially reducing the need for basic typing but not domain expertise
+- Has a habit of doodling tiny cartoons in the margins of notepads
+- Prefers tools that are intuitive and require minimal setup
+- Hosts an annual themed potluck with friends, like 80s movies or international cuisine
+- Would only trust automation if it can be rigorously audited and corrected by a human
+- Employs online converters for audio reformatting as required
+- Reads supporting documents before transcription to ensure context and accuracy
+- Motivated by the potential to reduce repetitive work and increase accuracy
+- Trust in AI is low for legal and sensitive audio transcription

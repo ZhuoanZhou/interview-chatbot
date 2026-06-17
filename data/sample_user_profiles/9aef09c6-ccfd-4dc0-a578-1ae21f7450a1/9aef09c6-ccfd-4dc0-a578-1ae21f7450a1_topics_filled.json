@@ -1,0 +1,500 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master\u2019s Degree in Accounting from a recognized university.",
+          "Completed undergraduate studies with a Bachelor\u2019s in Business Administration, focusing on accounting.",
+          "Undertook formal coursework in financial reporting, taxation, and auditing during graduate studies.",
+          "Participated in a university-sponsored internship at a mid-sized accounting firm.",
+          "Attended continuing education workshops on updates in tax law and financial regulations."
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Accountant (occasionally Auditor during audit cycles).",
+          "Responsible for managing company and client financial records, preparing financial statements, and ensuring compliance.",
+          "Conducts regular audits and provides recommendations for financial process improvements.",
+          "Assists in budgeting and forecasting activities for organizational financial planning."
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works within the finance and professional services sector.",
+          "Clients and employers are primarily small to medium-sized businesses, spanning retail, manufacturing, and services.",
+          "Has some exposure to tech sector clients due to demand for digital accounting solutions."
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-sized accounting firm with approximately 60 employees.",
+          "Firm has a collaborative office environment, with open workspaces and regular team meetings.",
+          "Supports both in-office and remote work, depending on project requirements.",
+          "Firm serves a roster of around 200 active client accounts annually."
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Firm specializes in providing accounting, audit, and tax services for SMEs.",
+          "Clients include retail operations, tech startups, and local service providers.",
+          "Market segment emphasizes compliance, efficiency, and cost-saving financial strategies."
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has worked as an accountant for 3-5 years post-graduation.",
+          "Joined current firm shortly after completing Master\u2019s degree.",
+          "Completed a year-long internship during graduate studies, counting toward total experience."
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Currently at an intermediate career level, not entry but not yet senior.",
+          "Supervises junior accountants on certain projects, especially during audit season.",
+          "Involved in peer training and onboarding of new hires within the team."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Maintains and reconciles general ledgers and subsidiary accounts daily.",
+          "Prepares financial statements (balance sheets, income statements, cash flow statements) each month.",
+          "Calculates and files client tax returns using professional tax software.",
+          "Participates in audit planning, execution, and reporting for select clients.",
+          "Analyzes financial data to identify trends and recommend process improvements."
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends 40% of time on bookkeeping and transaction recording.",
+          "Devotes 25% to preparing financial reports and statements.",
+          "Allocates 20% to tax preparation and compliance activities, especially in Q1.",
+          "Uses 10% for auditing and internal control testing.",
+          "Reserves 5% for meetings, peer reviews, and professional development."
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates with moderate autonomy in managing accounts and preparing reports.",
+          "Makes independent decisions on categorizing transactions and identifying discrepancies.",
+          "Major financial recommendations and large adjustments require supervisor approval.",
+          "Has authority to propose improvements to internal processes and suggest software adoption."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Recording daily transactions and maintaining ledgers is routine and feels natural.",
+          "Reconciling bank statements with ledgers is straightforward due to standardized processes.",
+          "Generating basic financial reports using templates in accounting software is highly familiar."
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Interpreting complicated tax code changes and applying them to unique client situations is challenging.",
+          "Auditing large or multi-entity accounts requires complex data analysis and detailed documentation.",
+          "Resolving discrepancies in legacy financial records can be difficult due to incomplete or inconsistent data."
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Bulk data entry from invoices and receipts is repetitive and often automated.",
+          "Routine account reconciliations and transaction matching are prime for automation.",
+          "Generating standard monthly reports and tax form population can be efficiently handled by software or AI tools."
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys financial analysis and identifying trends to support strategic recommendations.",
+          "Finds audit planning and working in teams on process improvements engaging.",
+          "Considers repetitive data entry and manual reconciliation tedious without automation.",
+          "Tax return preparation can be monotonous during peak season but rewarding when optimizing client outcomes."
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual data entry and correcting duplicate records are time-consuming.",
+          "Integrating data from multiple client systems can cause delays due to format incompatibility.",
+          "Late or incomplete documentation from clients hampers timely report preparation.",
+          "Switching between multiple software platforms can interrupt workflow."
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Achieves higher productivity and accuracy in tasks that align with developed skills, such as financial analysis.",
+          "Enjoyment is highest when using expertise to solve complex problems, such as optimizing tax positions.",
+          "Repetitive or low-skill tasks can reduce engagement and productivity unless partially automated.",
+          "Learning new tools or advanced features often increases both skill level and enjoyment over time."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally enthusiastic about testing and adopting new accounting technologies.",
+          "Views technology adoption as essential for staying competitive in the field.",
+          "Participates in pilot programs for new software and process automation tools."
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new accounting and tax software due to strong technical skills.",
+          "Frequently explores new features in existing tools to improve workflow.",
+          "Comfortable with both desktop and cloud-based platforms."
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate several hours per month to formal or self-guided tech training.",
+          "Has completed firm-sponsored training on AI tools and advanced Excel functions.",
+          "Sees ongoing training as integral to career advancement."
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential for time savings and improved accuracy.",
+          "Occasional high workloads during tax season can delay personal training goals.",
+          "Adoption is highest when the relevance to daily tasks is clear and immediate."
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often recommend useful tool integrations, accelerating adoption.",
+          "Management supports experimentation with new tech and provides resources for training.",
+          "Team success stories with new tools increase overall willingness to adopt."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses QuickBooks and Xero daily for bookkeeping and financial reporting.",
+          "Relies on Microsoft Excel for data analysis, financial modeling, and custom reporting.",
+          "Employs ProSeries and Drake Tax for tax preparation and filing.",
+          "Uses CaseWare for audit planning and execution."
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Uses Google Sheets for collaborative budgeting and forecasting.",
+          "Employs DocuSign for digital signature management and document workflows.",
+          "Relies on Asana for tracking project milestones and team assignments."
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient in ERP systems such as SAP and Oracle NetSuite for integrated accounting.",
+          "Experienced with leading tax software platforms and their compliance modules.",
+          "Familiar with document management systems for secure record-keeping."
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces data import/export challenges between QuickBooks and Excel.",
+          "Tax software sometimes requires manual data entry due to limited API integrations.",
+          "Document management tools may not always sync seamlessly with accounting software."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic AI/ML terms such as 'natural language processing' and 'predictive analytics.'",
+          "Regularly uses large language models (LLMs) and is familiar with their core functionalities.",
+          "Can explain the role of AI in automating repetitive accounting tasks."
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses AI-powered features in QuickBooks (e.g., automatic transaction categorization).",
+          "Employs ChatGPT and similar LLMs for drafting client emails and report summaries.",
+          "Tests machine learning-based anomaly detection tools during audit projects.",
+          "Occasionally integrates AI modules in Excel for data analysis."
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs daily for drafting, summarizing, and reviewing documentation.",
+          "Applies AI features in accounting software several times weekly to flag unusual transactions.",
+          "Utilizes AI chatbots to answer client FAQs or provide basic compliance information.",
+          "Employs predictive analytics tools during quarterly forecasting."
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully reduced manual data entry by 30% using AI-powered invoice processing.",
+          "Encountered occasional misclassification of transactions by AI, requiring manual review.",
+          "Learned that AI-generated financial summaries improve client understanding but require final human edits.",
+          "Realized the need for ongoing training to ensure AI models remain accurate as regulations change."
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Firm offers periodic webinars on AI adoption in accounting.",
+          "Peers frequently share tips on optimizing LLM prompts for accounting use cases.",
+          "Management circulates internal guides for best practices in AI tool implementation."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI for complex tasks such as audit planning.",
+          "Uses AI independently for routine document drafting and information retrieval.",
+          "Appreciates the option to escalate tasks to human colleagues if AI output is uncertain."
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Treats AI primarily as an assistant for routine and repetitive work.",
+          "Occasionally utilizes AI as an advisor when seeking suggestions for process improvements.",
+          "Views AI as a co-worker during collaborative workflows, such as report generation and review."
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Eager to experiment with AI-driven workflows that promise efficiency gains.",
+          "Supports pilot programs and provides feedback to refine AI processes.",
+          "Advocates for gradual, well-documented workflow changes to ease team adoption."
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming, drafting, and knowledge search.",
+          "Utilizes command-based interfaces for structured data analysis or batch processing.",
+          "Finds hybrid interfaces most effective for complex accounting workflows."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many tasks, such as tax optimization and interpreting regulations, require deep accounting expertise.",
+          "Judgment calls during audits depend on years of experience and contextual awareness.",
+          "AI tools currently complement, but do not replace, tacit domain knowledge for high-stakes decisions."
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for routine data processing and standard document generation.",
+          "Carefully reviews AI-generated outcomes for complex or regulatory-sensitive tasks.",
+          "Maintains a protocol for human oversight and approval on all critical financial deliverables."
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers maximized automation for repetitive bookkeeping and data validation.",
+          "Advocates for human-AI collaboration on analysis and recommendations.",
+          "Insists on human control for final sign-off on financial statements and tax filings."
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for well-defined, low-risk tasks with clear audit trails.",
+          "Considers automation threatening if it bypasses regulatory compliance or reduces transparency.",
+          "Requires clear override mechanisms and audit logs to mitigate risks of over-automation."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the value of analytical and advisory skills by reducing manual workload.",
+          "Sees a gradual shift away from pure data entry towards higher-order thinking tasks.",
+          "Views staying current with AI tools as necessary to maintain professional relevance."
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing skills in prompt engineering for effective LLM interactions.",
+          "Gaining responsibility for validating and interpreting AI-generated financial insights.",
+          "Increasing involvement in selecting and customizing AI tools for the team."
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Recognizes that some data entry and reconciliation tasks are at risk of full automation.",
+          "Does not feel immediate threat to overall role due to need for expert judgment.",
+          "Sees opportunity to shift focus to client advisory and complex analysis as automation expands."
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All AI outputs are subject to manual review before submission to clients or regulators.",
+          "Accounting software includes audit trails and rollback features for AI-processed transactions.",
+          "Firm mandates human validation for high-impact deliverables, such as tax filings."
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Firm has adopted a formal policy on responsible AI use in accounting workflows.",
+          "Team regularly reviews and updates protocols for AI tool evaluation and deployment.",
+          "Management actively encourages pilot projects but requires compliance reviews before full rollout."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Views AI as a major driver of efficiency and innovation in the accounting industry.",
+          "Believes AI will create new roles focused on oversight, analysis, and advisory services.",
+          "Anticipates challenges related to workforce upskilling and job displacement."
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Believes ethical use of AI requires transparency, auditability, and fair treatment of employees.",
+          "Highlights the risk of bias or errors in AI-generated financial analysis.",
+          "Advocates for strict data privacy controls when using AI with sensitive financial information."
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires more robust AI integration across different accounting platforms for seamless data flow.",
+          "Wishes for advanced AI assistants capable of proactive compliance monitoring.",
+          "Seeks AI-driven insights for real-time fraud detection and risk assessment."
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects shift towards advisory roles and strategic financial consulting.",
+          "Anticipates near-total automation of routine transaction processing and reconciliations.",
+          "Foresees increased demand for AI oversight and ethical compliance expertise."
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Recommends structured training programs for all staff on emerging AI tools.",
+          "Calls for regular audits of AI systems to ensure compliance and accuracy.",
+          "Advocates for transparent communication about AI deployment and its impact on roles."
+        ]
+      }
+    ]
+  }
+]

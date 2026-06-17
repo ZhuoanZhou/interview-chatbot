@@ -1,0 +1,215 @@
+# Biographical Notes
+
+- Photo and video file transfers between devices can be cumbersome
+- Enjoys brainstorming creative campaigns and visual storytelling
+- Learned to play the ukulele during the pandemic lockdown and occasionally performs at team events.
+- Operates primarily in suburban and urban housing markets
+- Some posts require nuanced understanding of target audience preferences
+- Practices calligraphy as a weekend hobby and decorates reports with personalized headers.
+- Switching between multiple editing and scheduling platforms disrupts flow
+- Data integration between analytics tools and reporting spreadsheets is not automated
+- Has a habit of sketching quick cartoon mascots for different marketing campaigns.
+- Often needs to export files between Canva, Adobe, and social media platforms
+- Uses ChatGPT for idea generation and copywriting support
+- Maintains a secret recipe for homemade lemonade that’s a hit at summer office picnics.
+- Supports ethical guidelines for responsible AI adoption in marketing
+- Has a 'happy hour' tradition of trying a new local craft beer after big project deliveries.
+- Motivated by the potential to save time and improve content quality
+- Has a ritual of lighting a scented candle during late-night work sessions at home.
+- Coursework included market research, consumer behavior, and digital marketing
+- Needs to evaluate and edit AI-generated content for relevance and tone
+- Collects quirky desk toys, such as mini bowling sets and magnetic sculptures, to decompress between meetings.
+- Considers manual data entry and formatting as tedious
+- Has autonomy in selecting content angles and social media trends to pursue
+- Keeps a ‘mystery snack drawer’ at work, supplying unexpected treats to teammates.
+- Editing advanced graphics or videos in Adobe Photoshop or Premiere requires extra effort
+- Has a habit of organizing themed potlucks, with dishes inspired by different regions where projects took place.
+- Finds property visits and on-site content production engaging
+- Schedules and manages posts via Instagram, TikTok, Facebook, and LinkedIn
+- Job title: Market Research Analyst and Marketing Specialist
+- Relies on Canva for quick graphic design tasks
+- Prefers conversational interfaces for brainstorming and Q&A tasks
+- Is an avid fan of escape rooms and organizes quarterly office challenges.
+- Has a standing desk that hasn’t been lowered in over three years.
+- Enjoys weekend hikes and often shares photos of scenic views with coworkers.
+- Keeps a jar of foreign coins from trips and gifts, arranged by continent.
+- Less motivated and slower with repetitive administrative tasks
+- Has a desktop aquarium with neon tetras named after famous marketing gurus.
+- Regularly practices morning meditation to clear the mind before starting work.
+- Actively seeks out new tools that can streamline workflow
+- Manual collection and aggregation of competitor data is time-consuming
+- Uses Adobe Lightroom for photo editing and enhancement
+- Devotes around 40% to content creation and editing
+- Knits scarves and hats during winter, gifting them to the office team and neighbors.
+- Prefers editing creative reels over routine spreadsheet updates
+- Primary clients include real estate agents, homeowners, and property developers
+- Edits graphics using Canva and Adobe Photoshop
+- Uses remaining 10% for administrative tasks and team meetings
+- Peers frequently share tips about new marketing apps or AI tools
+- Organizes workflows using Microsoft Excel and Google Sheets
+- Believes AI enhances creative and strategic skills by freeing up time
+- No formal in-house training for AI tools, but informal peer support is common
+- Management is supportive of tech adoption if it boosts efficiency
+- Productivity is highest when working on creative or visual projects
+- Uses ChatGPT weekly for content ideation and copywriting
+- Desires seamless integration between AI, analytics, and scheduling tools
+- Once hand-carved a small wooden model of a townhouse as a surprise gift for a client.
+- Prefers short, hands-on tutorials or YouTube walkthroughs over lengthy courses
+- Recommends establishing a feedback loop for continuous improvement of AI-driven workflows
+- Accepts high automation for scheduling and analytics reporting
+- Compiling weekly competitor social media metrics is repetitive
+- Decorates the office cubicle with postcards from classic literature novels to inspire creativity.
+- Collects vintage advertising posters from the 1950s to decorate the workspace.
+- Maintains final editorial control over all AI-generated outputs
+- Has a positive, curious attitude toward trying new marketing tech
+- Prefers step-by-step collaboration with AI for brainstorming and refining content
+- Uses quirky, brightly colored sticky notes to create mini-mosaics on the office window.
+- Has completed at least one annual cycle of marketing campaigns
+- Feels automation is threatening if it risks generic, off-brand content
+- More likely to adopt new tech if recommended by peers or managers
+- Prefers clear guidelines on acceptable AI use and human oversight
+- Generating initial content ideas or hashtags is often handled by AI tools
+- Enjoys experimenting with emerging AI features and apps
+- Learns new mobile apps or social media features with minimal guidance
+- Occasionally faces compatibility issues with image/video formats
+- Does not believe creative, on-site content work can be fully replaced by AI
+- Content must reflect current real estate trends and company branding
+- Google Drive is used for file storage and team collaboration
+- Occasionally tests Canva’s Magic Write and other AI-powered tools
+- Spends approximately 30% of time on market and competitor research
+- Participated in hands-on projects involving social media campaigns during college
+- Believes creative direction and brand messaging should remain human-led
+- Has a whiteboard wall at home covered with motivational quotes and random travel bucket list items.
+- Started position shortly after completing undergraduate degree
+- More skilled and experienced at tasks that are personally enjoyable, like content creation
+- Company specializes in marketing residential real estate properties
+- Wishes for an AI tool that can automatically tailor content to each social platform’s unique style
+- Enjoys learning new languages and surprises the team by greeting clients in their native tongue.
+- Early-career professional (entry-level to junior)
+- Basic competitor research using Google and social media is comfortable
+- Regularly travels to properties to gather content and ensure presentation standards
+- Sees a direct link between enjoyment and willingness to experiment or improve skills
+- Collects vintage postcards from every city visited on business trips.
+- Coordinating property visits with multiple stakeholders can be logistically complex
+- Keeps a cheerful bobblehead of a superhero on the desk as a ‘motivation mascot.’
+- Expects a shift toward more strategic and creative responsibilities
+- Has a vintage typewriter on display at home as a nod to ‘old school’ marketing days.
+- Company has approximately 25-50 employees
+- Routine editing and data entry skills are becoming less critical
+- Skeptical of tools that seem irrelevant to day-to-day tasks
+- Keeps a meticulously curated playlist of 80s pop songs for focus during data analysis.
+- Prioritizes learning tools that offer immediate value to current projects
+- Familiar with social analytics platforms for measuring campaign performance
+- Small marketing team responsible for broad range of tasks
+- Manages digital content for company’s social media platforms
+- Has 1-2 years of experience in current role
+- Writing engaging captions and social posts for Instagram is intuitive
+- Regular informal team discussions about best practices influence tool choices
+- Tacit knowledge of property features and visual appeal guides content selection
+- Worries about potential bias or misinformation in AI outputs
+- Ensures properties are presentable and ready for content production
+- Works in the real estate marketing sector
+- Views AI as a tool for augmentation rather than direct replacement
+- Learned that AI can suggest outdated or irrelevant trends without proper prompts
+- Proficient in social media scheduling tools such as Buffer or Hootsuite
+- Primarily focused on execution rather than strategic planning
+- Wants regular training sessions on new AI tools and features
+- Uses LLMs for brainstorming post ideas and writing captions
+- Is known for crafting elaborate paper airplanes during breaks to lighten the mood.
+- Company encourages experimentation with AI but requires human oversight
+- Collaborates with other team members to brainstorm and execute campaigns
+- Would benefit from AI that can predict emerging content trends before they peak
+- Comfortable with full Adobe Creative Cloud suite for content editing
+- Loves discovering hidden coffee shops during travel and keeps a journal of favorite brews.
+- Maintains a rotating collection of funky socks, always spotted wearing mismatched pairs on casual Fridays.
+- Applies AI tools at least 2-3 times per week
+- Sees best results when AI supports, but does not replace, human decision-making
+- Writes short fictional stories combining marketing concepts with fantasy themes for fun.
+- Enjoys cooking international dishes on weekends, often sharing leftovers with coworkers.
+- Has trialed other LLM chatbots such as Google Bard for comparison
+- Cross-checks AI-generated information, especially market data, for accuracy
+- Developing content ideas that consistently outperform competitors is challenging
+- Prefers AI to handle repetitive and data-heavy aspects, like hashtag generation
+- Analyzing large sets of competitor data can be overwhelming
+- Open office layout with regular inter-departmental communication
+- Using Canva for creating simple graphic designs is straightforward
+- Prompt engineering for getting better outputs from LLMs is now a key skill
+- Runs a small succulent garden on the windowsill that doubles as an office oxygen bar.
+- Focuses on residential property marketing and promotion
+- Occasionally attends free online webinars or tutorials on new AI features
+- Responsible for market analysis, competitor research, and content creation
+- Has a collection of rubber ducks on the desk, each representing different project milestones.
+- Visits properties to take photos and videos for marketing purposes
+- Often starts with an independent idea, then uses AI to expand or edit
+- Views AI as transformative for creative industries and marketing
+- Found AI-generated captions sometimes lacked brand-specific voice, requiring manual editing
+- No strict policies yet, but best practices for AI use are emerging
+- Supports pilot programs to test emerging AI platforms before full adoption
+- Expectations for transparency and attribution of AI-generated content are increasing
+- Allocates about 20% to property visits and content gathering
+- May delay learning if current workload is especially high
+- Completed an internship with a real estate marketing firm during junior year
+- Is a self-taught amateur photographer who loves snapping city architecture during business trips.
+- Last-minute changes to property access can delay content production
+- Business is focused on digital outreach and social media engagement
+- Brings homemade cookies to team meetings every Friday, often experimenting with new cookie recipes.
+- Understands basic concepts like prompt engineering, large language models, and content generation
+- Does not rely solely on AI for final content approval
+- Willing to spend several hours a month on learning new tech skills
+- Finds conversational AI more engaging for creative collaboration
+- Can pick up new editing software functions after brief tutorials
+- Capturing photos and videos of properties comes naturally
+- Can always revert to original drafts if AI outputs are unsatisfactory
+- Occasionally treats AI as an advisor for exploring new marketing trends
+- Basic editing of photos for brightness and cropping could use batch automation
+- Moderately concerned about automation of repetitive content tasks
+- Manual upload of content to each social channel can be time-consuming
+- Creates and schedules content for Instagram, TikTok, Facebook, and LinkedIn
+- Conducts competitor research and tracks trends in real estate marketing
+- Happy to experiment with beta features and emerging platforms
+- Takes a 10-minute desk stretching routine religiously every afternoon to stay energized.
+- Discovered combining human creativity with AI speeds up campaign planning
+- Finds guided AI workflows helpful when learning new content formats
+- Responsible for identifying and adopting new AI-powered marketing tools
+- Relies on Grammarly AI for refining longer social posts or blog entries
+- Organizes a monthly book club that focuses on sci-fi novels and futuristic themes.
+- Commutes by bicycle to the office even when the weather dips below freezing.
+- Enjoys making hand-drawn doodles of houses and neighborhoods during brainstorming sessions.
+- Believes success will depend on the ability to guide and curate AI-generated material
+- Environment is collaborative with a mix of office-based and field work
+- Acknowledges potential for job shifts but sees new opportunities emerging
+- Has a pet hamster named ‘Pixel’ who often features in Zoom background photos.
+- Reports to a senior marketing manager
+- Sees increased value in brand storytelling and campaign planning abilities
+- Keeps a small zen garden on the office desk for midday relaxation.
+- Believes AI will lead to more efficient and personalized marketing campaigns
+- Believes transparency about AI use in content is important
+- Evaluates new AI tools based on their track record and peer reviews
+- Has a tradition of celebrating ‘new client wins’ by bringing a themed cake to the office.
+- Scheduling posts across multiple platforms could be automated
+- Can suggest new content formats or campaign ideas independently
+- Successfully used ChatGPT to break creative blocks and generate fresh content angles
+- Wants manual review for any public-facing marketing outputs
+- Holds a Bachelor’s degree in Marketing from a recognized university
+- Has an extensive collection of quirky pins and badges from networking events and conferences.
+- Views AI primarily as an assistant for creative tasks
+- Trusts AI for initial ideas but always reviews and customizes outputs
+- All AI-generated content is manually reviewed and approved before publication
+- Employs Grammarly’s AI features for spelling and grammar checks
+- Industry involves a blend of real estate, digital marketing, and content creation
+- Employs Microsoft Word for drafting reports and content plans
+- Owns a quirky collection of novelty ties and scarves worn on important presentation days.
+- Team members often share AI prompt tips via chat groups
+- Predicts AI will handle most routine content production and analytics
+- Team maintains editorial guidelines that override AI suggestions
+- Very open to adopting new AI-powered content tools that save time
+- Quickly adapts to new platforms, especially for content creation
+- Familiar with terms such as ‘machine learning,’ ‘automation,’ and ‘NLP’ through regular usage
+- Leverages AI for generating lists of trending hashtags or content themes
+- Can explain how AI tools like ChatGPT function at a user level
+- Has a tradition of bringing a new plant for the office every time a big project launches.
+- Regularly volunteers at local animal shelters and shares adorable pet photos in the office chat.
+- Owns a series of quirky coffee mugs, each gifted by a client from a different state.
+- Major marketing strategies are set by management, with input from team
+- Final content is reviewed by a senior team member before publication
+- Uses command-based interfaces for quick, repeatable editing actions

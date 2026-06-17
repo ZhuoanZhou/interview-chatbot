@@ -1,0 +1,248 @@
+# Biographical Notes
+
+- Occasional lunch-and-learn sessions feature demonstrations of new AI plugins.
+- Taking initiative to educate peers about responsible AI adoption.
+- Practices yoga poses named after animals seen in satellite wildlife surveys—like 'eagle' and 'cobra.'
+- Participates in amateur drone racing as a way to combine interest in aerial tech with outdoor fun.
+- Organizes a bi-annual potluck with coworkers featuring foods from regions visible in recent satellite maps.
+- Spreadsheet and GIS data integration sometimes involves tedious formatting steps.
+- Prepares maps, reports, and visual presentations for project stakeholders.
+- Familiar with the concept of natural language processing (NLP) and large language models (LLMs).
+- Regularly learns new features or plugins in core GIS applications.
+- Company policy now encourages responsible use of LLMs for documentation and reporting tasks.
+- Reports to a senior analyst or project manager.
+- Version mismatches between team members can cause minor workflow hiccups.
+- Generating standard summary tables or charts in Excel or Google Sheets.
+- Peers often share prompt templates and best practices for LLM usage.
+- Actively seeks out tutorials and online resources related to GIS and remote sensing.
+- Organization provides informal Slack channels for discussing AI tool tips.
+- Finds conversational AI interfaces intuitive for writing, editing, and brainstorming tasks.
+- Believes human oversight is essential when stakes are high or data quality is uncertain.
+- Employs Gmail and Outlook for communication and project updates.
+- Management encourages experimentation with new tools, provided deadlines are met.
+- Understanding subtle land cover changes often requires local context not captured in data.
+- Finds step-by-step collaboration with AI helpful when tackling unfamiliar problems.
+- Employed at a medium-sized geospatial consulting firm with approximately 50-150 employees.
+- Field data collection is sometimes performed using handheld GPS devices.
+- Anticipates some reduction in demand for basic data entry or formatting abilities.
+- Most motivated when new tech directly addresses a current pain point.
+- Sees potential for AI to improve disaster response and environmental monitoring.
+- Holds a Bachelor’s Degree in Geography with a concentration in Remote Sensing and GIS.
+- Generally enthusiastic about trying new software or methods that improve workflow.
+- Comfortable troubleshooting basic technical issues independently.
+- Practices calligraphy and sends hand-lettered thank-you notes for client feedback.
+- Prefers starting independently, then seeking AI assistance for refinement or troubleshooting.
+- Answering routine information requests via email or messaging apps.
+- Open to increasing AI automation as long as robust override mechanisms exist.
+- Exercises caution and manual review for AI-generated spatial analysis outputs.
+- Completed an online certification in Python for Geospatial Applications post-graduation.
+- Supports projects related to agriculture, infrastructure, and environmental assessment.
+- Enjoys the flexibility of switching between conversational and command-driven modes as needed.
+- Approximately 10% of time is allocated to communication and answering queries.
+- Has a collection of over 100 postcards from national parks visited on weekend trips.
+- Frequently searches for geospatial data and technical resources via Google.
+- Enjoys geocaching on weekends and has found over 300 caches so far.
+- Highly open to experimenting with new AI-driven features that save time.
+- Organization encourages double-checking AI outputs, especially in critical projects.
+- Has a rotating trophy called 'Best Field Verifier' that they won after a challenging remote site visit.
+- Field verification and accuracy checks account for about 15% of weekly work.
+- Wears quirky enamel pins representing different countries visited for field verification.
+- Believes AI will significantly accelerate data analysis and reporting in geospatial fields.
+- Has an extensive playlist of 80s synthwave music they say matches the vibe of satellite data streams.
+- Believes job titles and responsibilities will evolve to reflect new human-AI collaboration models.
+- Relies on Microsoft Word and Google Docs for report writing and documentation.
+- Uses AI-generated code snippets or formulas to accelerate data analysis.
+- Started a succulent garden on the windowsill that now has 25 different species.
+- Skill growth is closely linked to tackling challenging projects, boosting long-term job satisfaction.
+- Batch processing of large imagery datasets with standard classification routines.
+- Would benefit from more seamless integration between GIS and LLM platforms.
+- Concerned about potential for bias or errors in automated geospatial analyses.
+- Built a custom standing desk out of reclaimed wood from old satellite dish parts.
+- Plays the ukulele to relax and once performed a song inspired by satellite orbits for a friend's wedding.
+- Views AI primarily as an assistant for drafting and editing tasks.
+- Keeps a jar of colorful glass beads on the desk as a tactile stress reliever.
+- Seeks improved AI automation for time-consuming field data validation.
+- Familiar with remote sensing data formats (GeoTIFF, shapefiles, etc.).
+- Views technology adoption as essential for staying current in the field.
+- Prefers self-paced online courses or interactive workshops over lengthy lectures.
+- Classified as an early-career professional.
+- Uses LLMs daily for drafting, editing, and proofreading documents.
+- Bakes a new cookie recipe every month and shares the digital recipe with coworkers.
+- Company delivers both technical services and consultative solutions.
+- Started learning Spanish using podcasts and tries to use it during client meetings for fun.
+- Engaged by: Collaborating with colleagues to solve unique project challenges.
+- Can explain terms like 'model accuracy,' 'training set,' and 'feature extraction.'
+- Made a playlist of nature sounds to listen to during long data processing sessions.
+- Unlikely to adopt tools that don’t integrate well with existing workflow.
+- Maintains a rotating collection of novelty socks featuring maps, compasses, and stars.
+- Regularly conducts field verification to ensure data accuracy.
+- Believes communication and critical thinking remain essential despite increased automation.
+- Decorated their home office with framed topographic maps from their favorite hiking spots.
+- Peer recommendations and visible productivity gains are strong motivators.
+- Uses ArcGIS Pro and QGIS for spatial data analysis and map production.
+- Brews their own specialty coffee blends at home and brings samples to Zoom meetings.
+- Documents findings and maintains organized data records.
+- Supports full automation for repetitive and low-risk formatting tasks.
+- Requires transparency and clear audit trails for automated decisions in production workflows.
+- Occasionally runs multiple AI prompts in parallel to compare output approaches.
+- Prefers a hybrid approach: AI for initial drafts/data processing, human review for accuracy.
+- Believes overall role will evolve, not disappear, with increased AI adoption.
+- Cautiously optimistic about AI's role in democratizing access to geospatial insights.
+- Has a habit of naming their computer files after mythical creatures for luck.
+- Attended several workshops on satellite data processing and GIS software during university.
+- Completed coursework in geospatial analysis, cartography, and environmental science.
+- Has a secret stash of vintage satellite mission patches collected at conferences.
+- Routine data cleaning and reformatting for consistency across projects.
+- Peers often share tips and best practices for new GIS software features.
+- Clients include government agencies, environmental organizations, and private developers.
+- Team has become more open to experimenting with new AI tools over the past year.
+- AI-based feature extraction in GIS reduced manual mapping time by 40% on a recent project.
+- Trello is used for personal and team task tracking.
+- Enjoys baking bread and gifts freshly made sourdough to neighbors once a month.
+- Holds a junior-to-mid level technical role within the team.
+- Report writing for technical audiences demands knowledge of geospatial standards.
+- Paints miniatures from sci-fi and fantasy universes as a way to unwind after work.
+- Operates within the broader technology and engineering consulting industry.
+- Views AI as enhancing core technical skills by automating routine aspects.
+- Believes human oversight is critical to ensure ethical use of AI tools.
+- Expects a shift toward more complex analytical and consultancy tasks as AI handles routine processing.
+- Interpreting ambiguous or low-quality satellite imagery with limited ground truth data.
+- Keeps a doodle journal filled with sketches of imaginary landscapes and satellite dishes.
+- Developing prompt engineering skills for effective LLM usage.
+- Has completed at least one online certification since starting current role.
+- Encourage ongoing feedback and iteration on adopted AI workflows.
+- Major decisions, such as methodology changes, are reviewed by senior staff.
+- Successfully used ChatGPT to rephrase technical explanations for client presentations.
+- Total industry experience since graduation: 1-2 years.
+- Supports engineers, planners, and government agencies with mapping and reporting products.
+- Practices daily mindfulness meditation using an app that features satellite imagery visuals.
+- No formal, structured AI training program yet, but peer learning is encouraged.
+- Heavy project workload can occasionally limit time available for learning.
+- The workplace culture is collaborative with a focus on project-based teamwork.
+- Uses AI as a second set of eyes for document review and error checking.
+- Repetitive tasks, even if easy, can lower both engagement and output quality over time.
+- Job title: Remote Sensing Technician.
+- Projects often involve land use planning, environmental monitoring, and disaster assessment.
+- Collects quirky coffee mugs, each representing a country with satellite ground stations.
+- Organizes virtual trivia nights focused on geography and world cultures for coworkers.
+- Accepts high automation for non-critical, repetitive processes like data cleaning.
+- Feels threatened if automation is proposed for nuanced analysis or client-facing deliverables.
+- Values transparency and explainability of AI-driven processes.
+- Supports responsible AI adoption to minimize job displacement and maximize value.
+- Mix of in-office and remote work, with flexible work arrangements.
+- Volunteers remotely as a virtual tour guide for national parks, sharing photos and trivia.
+- Early adopter of AI tools within peer group, often shares feedback.
+- Troubleshooting GIS software errors or unexpected analysis results.
+- Enjoyment increases with opportunities to learn new techniques or apply creative problem-solving.
+- Processes and analyzes satellite images and aerial photographs using GIS software.
+- Utilizes Excel and Google Sheets for tabular data management and basic analysis.
+- Primary focus on environmental monitoring, land development, and urban planning.
+- Participated in a capstone project involving land use change detection using satellite imagery.
+- Spends approximately 40% of time on data processing and analysis.
+- Experienced occasional hallucinations from LLMs, requiring manual fact-checking.
+- Mildly concerned about automation of repetitive data processing tasks.
+- Field verification and interpretation of ambiguous imagery rely heavily on practical experience.
+- Has discretion in organizing daily workflow and prioritizing tasks.
+- Comfortable with major GIS platforms such as ESRI ArcGIS and open-source alternatives.
+- Occasionally employs AI-based plugins in ArcGIS for feature extraction.
+- Difficulty in tracking revisions or consolidating feedback from multiple reviewers.
+- Occasionally participates in group learning sessions or demo days.
+- Has read introductory articles about AI in geospatial analysis.
+- Responds to information requests from engineers, planners, and clients.
+- Management emphasizes human oversight for all client-facing deliverables involving AI.
+- Develop formal training programs for both general and geospatial-specific AI tools.
+- Likes to make paper lanterns that glow softly during late-night work sessions.
+- Willing to dedicate several hours per month to structured tech learning.
+- Least enjoyable: Manual data entry and repetitive formatting tasks.
+- Team culture values knowledge-sharing and collaborative problem solving.
+- Establish clear guidelines for ethical and responsible AI use.
+- Gaining proficiency in evaluating and validating AI-generated outputs.
+- Sees learning new tools as an opportunity rather than a burden.
+- Has a tradition of watching a documentary about space exploration every Sunday night.
+- Integrating data from multiple sources with differing formats or projections.
+- Believes creative problem-solving and client communication should remain human-led.
+- Proactively seeks opportunities to automate routine or repetitive tasks.
+- Creating and formatting clear, well-structured reports using Microsoft Word or Google Docs.
+- Explaining complex geospatial findings to non-technical stakeholders.
+- Writes a monthly blog about hiking trails they explore near satellite ground stations.
+- Values the ability to ask follow-up questions or clarify outputs in conversational AI tools.
+- Productivity is highest when working on tasks that match both interest and expertise, such as spatial analysis.
+- Employs AI plugins in GIS software for automated classification of land cover.
+- Knows how to juggle and sometimes entertains colleagues during virtual coffee breaks.
+- Responsible for processing, analyzing, and verifying spatial data from satellite and aerial sources.
+- Foresees increased demand for interdisciplinary skills combining geospatial expertise and AI literacy.
+- Is an amateur astronomer who photographs meteor showers and shares images with the team.
+- Progressed from entry-level tasks to taking on more complex data analysis projects.
+- Prefers command-based or scripting interfaces when batch-processing data in GIS.
+- Initial spelling and grammar checks on documents.
+- Keeps a rock collection from places visited during field verification trips, each stone labeled by GPS coordinates.
+- Wears a smartwatch that vibrates every hour reminding them to stretch and look outside at real landscapes.
+- Owns a vintage Polaroid camera and displays the photos on a corkboard behind their desk.
+- Understands basics of machine learning, such as classification, regression, and training data.
+- Invests around 25% of time producing maps and reports.
+- Performs quality assurance checks and field verification of spatial data.
+- Keeps a whiteboard calendar with impossible-to-pronounce place names from satellite data projects.
+- Acts as a supervisor, reviewing and validating AI outputs before final use.
+- Tedious: Resolving minor software glitches or version compatibility issues.
+- Basic map production using familiar GIS software templates.
+- Wants AI tools to better support collaborative editing and feedback tracking.
+- Trust increases when AI tools are transparent about data sources and methodology.
+- Ongoing discussions about developing formal guidelines for AI usage.
+- Uses AI as an advisor for quick research or summarization needs.
+- Exporting maps or graphics to Adobe products can require manual adjustments.
+- Firm specializes in remote sensing, GIS services, and spatial data analysis.
+- Has experimented with Google Bard for quick research and brainstorming.
+- Some spatial analysis workflows are based on established best practices and expert judgment.
+- Prepares visual presentations and documentation for client and internal use.
+- Has a cat named Terra who often 'helps' by walking across the keyboard during remote work.
+- Monitors industry trends on AI and remote sensing job impacts.
+- Is a weekend cyclist who logs hundreds of miles on trails near their city.
+- Time-consuming manual checks due to lack of automated validation tools.
+- Sees a shift toward higher-level problem-solving as AI handles more basic tasks.
+- Has basic experience with Python scripting for geospatial analysis.
+- Confident that field verification and nuanced analysis will remain human-driven.
+- Uses a vintage typewriter for jotting down personal notes and ideas unrelated to work.
+- Responsible for flagging any data anomalies or inconsistencies to supervisors.
+- Works in the geospatial technology sector.
+- Has been in the current remote sensing technician role for 1.5 years.
+- In-house file storage systems are used to manage project datasets.
+- Operates with moderate autonomy in selecting methods for routine data processing.
+- Once encountered formatting errors in AI-generated tables, leading to additional cleanup work.
+- Anticipates greater involvement in AI model oversight and audit roles.
+- Team structure includes technicians, analysts, and project managers.
+- Supports regular review and updating of AI-related workplace policies.
+- Occasionally helps peers onboard to new software tools.
+- Owns a collection of sci-fi novels signed by authors met at fan conventions.
+- Never relies solely on AI for critical project decisions without human validation.
+- Knits scarves inspired by topographic lines and cloud patterns seen in satellite images.
+- Frequent need to switch between multiple software platforms with limited integration.
+- Remainder is spent on learning, tool setup, and administrative tasks.
+- Organizing project files and maintaining to-do lists for daily workflow.
+- Has a custom coffee mug with a printed map of hometown satellite footprints.
+- Considers self quick to adapt to new digital platforms after initial orientation.
+- Prefers incremental workflow changes to ensure reliability and maintain quality.
+- Standard operating procedures include steps for human validation of automated results.
+- Desires smarter, context-aware AI assistants for geospatial data interpretation.
+- Occasional software crashes or slow performance with large datasets.
+- Regularly collaborates with peers and occasionally assists in guiding newer hires.
+- Invest in custom AI tool development tailored to core business needs.
+- Can recommend process improvements and propose workflow optimizations.
+- Generally trusts AI for language-related tasks such as editing and summarization.
+- Adobe Illustrator and Photoshop are used occasionally for map visualization.
+- Always wears mismatched socks on days when satellite data quality is highest.
+- Delays in receiving ground truth data for field verification.
+- Utilizes Grammarly AI for grammar and style correction in reports.
+- Applies AI summarization tools to condense lengthy research materials.
+- Has a ritual of making a cup of herbal tea exactly at 3 PM, no matter what.
+- Always keeps a plant called Gerald on the desk and gives him daily motivational talks.
+- Always performs manual review of AI-generated maps and reports before delivery.
+- Previous internship experience in similar geospatial work during university.
+- Prioritizes training that has clear, immediate applicability to daily work.
+- Occasionally faces compatibility issues when moving data between QGIS and ArcGIS.
+- Most enjoyable: Exploring new datasets and uncovering unexpected spatial patterns.
+- Peers collaborate to spot-check AI-generated deliverables for accuracy.
+- Learning to integrate AI tools with existing GIS and reporting workflows.
+- Occasionally treats AI as a brainstorming partner for generating new analysis ideas.
+- Uses ChatGPT and other LLMs (e.g., Claude, Gemini) for writing assistance and data summarization.
+- Understands fundamentals of spatial databases like PostGIS.
+- Once tried learning origami and folded tiny paper satellites that now decorate the workspace.

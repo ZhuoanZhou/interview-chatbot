@@ -1,0 +1,249 @@
+# Biographical Notes
+
+- Once completed a 1000-piece jigsaw puzzle depicting a famous tech company’s original building.
+- Management encourages experimentation with AI and process improvements
+- Uses command-based scripting for more precise, repeatable automation tasks
+- Responsible for end-to-end documentation projects but under supervision
+- Utilizes AI for initial quality checks and consistency reviews of documentation
+- Extracting accurate technical details from incomplete or informal sources
+- Fully assembled and maintains a model train set in their living room, complete with tiny LED lights.
+- Occasionally encounters syncing issues between JIRA and Bitbucket branches
+- Has an extensive playlist of ‘80s synth-pop that plays quietly in the background while working.
+- Allocates about 10% to reviewing and merging documentation pull requests
+- AI is most valuable as a time-saving assistant, not a full replacement
+- Collects postcards from every city they visit for work or leisure and pins them on a corkboard.
+- Regularly collaborates with more senior technical writers and engineers
+- Concerned about potential for AI to propagate errors or bias in documentation
+- Monitors industry trends to stay ahead of potential job shifts
+- Keeps a small zen garden on their desk for stress relief during tight deadlines.
+- Uses Bitbucket pull requests for peer review and versioning
+- Balances excitement for automation with caution about content accuracy
+- Has a habit of writing funny, fake error messages on sticky notes as inside jokes for developers.
+- Operates within a fast-paced, agile development environment
+- Management encourages responsible experimentation with AI technologies
+- Has learned basic phrases in five different languages to surprise international teammates with greetings.
+- Using ChatGPT to generate draft content or rephrase complex explanations
+- Keeps a small collection of vintage tech catalogs and manuals at home as coffee table books.
+- Practices calligraphy in their free time and occasionally handwrites thank you notes to colleagues.
+- Difficulty tracking documentation changes when product requirements shift rapidly
+- Keeps a vintage typewriter on their bookshelf as a nostalgic desk decoration.
+- Anticipates increased collaboration with AI agents for drafting and information retrieval
+- Believes ethical AI use requires transparency and human oversight
+- Mastery of tools like ChatGPT and Docusaurus directly improves output quality and speed
+- Spends 10% on building and maintaining AI scripts and agents
+- Relies on human review for critical or high-risk documentation sections
+- Hosts an annual cookie exchange with friends where everyone brings a dozen of their best recipes.
+- Learned to always review and validate AI-generated documentation with SMEs
+- Emphasizes collaboration between engineering, product, and documentation teams
+- Develops scripts and agents leveraging the Autogen Agent Framework
+- Job title: Technical Writer
+- Most enjoyable: Conducting interviews and synthesizing complex technical info
+- Believes AI will drive major increases in productivity and content quality
+- Occasional tool integration issues between documentation, version control, and ticketing systems
+- Is the unofficial office historian, compiling funny and memorable quotes from team meetings.
+- Has a ritual of listening to vinyl records during late-night writing sessions.
+- Staying current with evolving AI capabilities relevant to technical writing
+- Enjoys problem-solving when automating parts of the documentation process
+- Regularly review and update AI adoption policies based on user feedback and outcomes
+- Finds automation threatening if it risks introducing errors or misrepresentations
+- Highly open to experimenting with new documentation tools and AI assistants
+- Manual review and editing is required before publication of AI-generated docs
+- Heavy workload or urgent release cycles can delay tech upskilling
+- Compiling release notes from JIRA tickets and Slack threads
+- Needs to manually transfer certain information from Slack or JIRA to documentation
+- Regularly allocates time to explore new features in existing tools (e.g., VS Code extensions)
+- Sees a shift toward higher-level skills like critical review and domain expertise
+- Willing to learn scripting and automation for documentation purposes
+- Cycled across three different states on a summer road trip and documented it in a travel journal.
+- Responsible for creating, editing, and maintaining technical documentation for data security and disaster recovery software
+- No formal, company-wide AI policy yet, but informal guidelines are evolving
+- Aware of other documentation tools like Read the Docs and Sphinx
+- Company culture supports human-in-the-loop practices for critical documentation
+- Keeps a ‘mystery book’ shelf, where coworkers can borrow a book wrapped in brown paper with only a cryptic clue on the cover.
+- Works in the technology sector
+- Hosts a virtual trivia night every quarter with questions about obscure tech history facts.
+- No formal company-wide training, but guidance is shared via internal docs and Slack
+- Proficient in docs-as-code pipelines and static site generators
+- Collaborates with stakeholders for major decisions or content approval
+- Seeks feedback from both AI tools and human peers during the documentation cycle
+- Writes handwritten inspirational notes and leaves them randomly on coworkers’ desks.
+- Peers exchange prompt templates and automation scripts to improve workflows
+- Involved in automating documentation processes using AI tools and agents
+- Not in a management or lead role
+- Implement formal training programs on AI tool usage and best practices
+- Participated in a community theater play as a stagehand, sparking a lifelong love of backstage work.
+- Understands basic concepts such as large language models (LLMs), prompts, and outputs
+- Sends handwritten holiday cards to former coworkers and mentors every year.
+- Tedious, low-skill tasks like formatting reduce motivation and efficiency
+- Wants clear override mechanisms and manual review options in all AI workflows
+- Uses AI as an advisor for exploring alternative phrasing or explanations
+- Trusts AI for initial drafts and summarizations, but not for unreviewed publication
+- Runs a weekend blog reviewing classic science fiction books and movies.
+- Recognizes the potential for both positive and negative societal impacts
+- Organizes monthly lunch outings to explore new international cuisines with coworkers.
+- Documentation targets both technical and non-technical end users
+- Communicates and coordinates via Slack channels
+- Collected over 50 different styles of mechanical pencils and tests a new one every month.
+- Uses docs-as-code pipeline tools such as Docusaurus, Markdown, and Bitbucket
+- Custom scripts include options for human intervention and review
+- Company has a distributed, hybrid or remote-friendly workforce
+- Collaborative team environment accelerates adoption of useful tools
+- Pull request process allows peers to catch and correct AI errors
+- Wants more customizable LLMs tailored to specific product domains
+- Decorates their workspace with retro computer game posters from the 1980s.
+- Recognizes the distinction between generative AI and rule-based automation
+- Peer sharing of AI tools and scripts has increased
+- Expects AI to change the skills and roles required in the tech industry
+- Has autonomy to structure and organize documentation within established guidelines
+- Actively looks for opportunities to automate repetitive documentation tasks
+- Participates in online tutorials, webinars, and peer-led training sessions
+- Self-taught in Markdown, Git workflows, and related documentation technologies
+- Has a collection of quirky enamel pins from tech conferences pinned to their laptop bag.
+- Team has adopted a more open stance on AI automation in the past year
+- Specializes in data security and disaster recovery solutions
+- Collaborates closely with developers, QA, and product managers to gather technical information
+- Believes AI enhances the value of technical writing by speeding up routine tasks
+- Expects technical writing to focus more on content strategy and curation
+- Waiting on stakeholder feedback can delay publication timelines
+- Prefers conversational interfaces (e.g., ChatGPT web UI) for brainstorming and drafting
+- Reserves 5% for publishing, admin tasks, and miscellaneous activities
+- Employs Python-based linting and style analysis tools
+- Willing to advocate for broader AI adoption within the documentation team
+- Has successfully integrated AI-powered agents into everyday workflow
+- Conducts interviews with developers, QA, and product managers for clarifications
+- Routine editing and drafting skills may become less central over time
+- Uses ChatGPT (via Teams web interface and API) for content drafting
+- Owns a collection of vintage science fiction magazines from the 1950s and ’60s.
+- Operates in a highly regulated, security-conscious market segment
+- Taking on responsibility for AI output validation and correction
+- Joined the current organization shortly after starting in the field
+- Experienced with Git-based version control workflows
+- Enjoys experimenting with making homemade herbal infused oils and occasionally gifts them to friends.
+- Drafting initial documentation based on well-defined requirements
+- Enjoys building intricate LEGO sets themed around famous landmarks during weekends.
+- Adjusts interaction style based on the complexity and sensitivity of the documentation
+- Company develops B2B software products for data security and disaster recovery
+- Uses AI as a tool, but maintains editorial control and accountability
+- Tacit knowledge from developer interviews is often critical for accuracy
+- Would benefit from AI-powered search and recommendation systems for existing docs
+- Final documentation always reviewed by subject matter experts before publication
+- Managing conflicting feedback from multiple stakeholders
+- Adapts quickly to new documentation platforms and version control systems
+- Switches between modes depending on task requirements and desired control
+- Supports automation when it complements, not replaces, human expertise
+- Comfortable switching between different markdown editors and linting tools
+- Familiar with terms like supervised learning, model fine-tuning, and inference
+- Occasionally treats AI as a co-worker for brainstorming or large-scale updates
+- Takes a brisk 15-minute walk outside after lunch each day, no matter the weather.
+- Reviews JIRA tickets, internal docs, and Slack messages to gather information
+- Has a tradition of wearing themed socks on Fridays, often matching team inside jokes.
+- Studied subjects related to English, technical communication, or information technology
+- Grows a variety of hot peppers on their apartment balcony and uses them in homemade salsa recipes.
+- Inserting standard warnings, notes, or security disclaimers
+- Automating nuanced tasks that require deep product knowledge
+- Desires AI tools that can reliably extract and synthesize information from multiple sources (JIRA, Slack, internal docs)
+- Practices meditation for 10 minutes before starting work to clear the mind.
+- Predicts automation will handle most routine documentation, freeing time for higher-value work
+- Has a whiteboard dedicated solely to writing and swapping pun-filled motivational quotes.
+- Developing skills in AI prompt engineering and workflow automation
+- Completed some college coursework but did not obtain a degree
+- Bakes bread from scratch on Sundays and shares slices with teammates on Mondays.
+- Is an avid fan of board games and organizes monthly game nights with friends and coworkers.
+- Maintains a gratitude journal where they jot down three positive things every day before logging off.
+- Productivity is higher when working on tasks that match personal skill set, such as drafting and editing
+- Learned software documentation standards through on-the-job training and mentorship
+- Applies AI for automating extraction of information from JIRA and Slack
+- Receives informal peer support for AI tool usage and troubleshooting
+- Critical decisions and sensitive information require human oversight
+- Time-consuming manual collation of details from JIRA, Slack, and internal docs
+- Primary customers are enterprise IT departments and managed service providers
+- Works at a medium-sized tech company (approximately 100-500 employees)
+- Ability to guide and validate AI outputs is increasingly important
+- Spends approximately 60% of time writing and editing documentation
+- Manages version control and reviews in Bitbucket
+- Motivated by potential time savings and improved documentation quality
+- Human writers should lead content structuring and validation
+- Peer experience and documented best practices increase confidence in new tech
+- Successfully used ChatGPT to draft user guides that required minimal editing
+- Devotes around 15% to stakeholder interviews and information gathering
+- Discovered that AI can introduce factual inaccuracies if prompts are vague
+- Experience covers multiple release cycles and product updates
+- Peers often share tips and recommend new tools for documentation automation
+- Moderately concerned about automation of basic drafting and formatting tasks
+- More likely to invest in learning if the tools are directly relevant to documentation tasks
+- Invest in developing or integrating advanced AI-powered documentation tools
+- Uses Docusaurus for documentation site generation
+- Linting scripts sometimes conflict with Markdown formatting guidelines
+- Faced issues when AI-generated content missed subtle security requirements
+- Prefers drinking herbal tea over coffee and has a rotating selection of blends at their desk.
+- Enjoys hands-on testing and prototyping of new workflows
+- Uses AI independently for straightforward drafting and content rephrasing
+- Is an amateur astronomer and often shares pictures of the night sky from their backyard.
+- Has experience customizing prompt templates for AI-driven drafting
+- Volunteers at a local library, helping with literacy programs for adults.
+- Writes and edits documentation in Markdown with VS Code
+- Noted that AI is most helpful for initial drafts, less so for nuanced or sensitive content
+- Employs AI-powered agents to rephrase or simplify complex explanations
+- Collects novelty stationery items like washi tapes and quirky paper clips for desk decoration.
+- Least engaging tasks involve manual data entry or copying content between systems
+- Experiments with AI to streamline repetitive or large-scale content updates
+- Views AI primarily as an assistant for drafting and information extraction
+- Editing and formatting Markdown documents in VS Code
+- Reviewing and merging straightforward documentation updates in Bitbucket
+- Final publication of docs requires peer or management review
+- Seeks better integration between AI agents and documentation pipelines
+- Views AI as a tool for augmentation rather than replacement
+- Generating boilerplate or template documentation for new features
+- Supports responsible adoption that maintains user trust and safety
+- Encourage cross-team collaboration to share AI-driven automation workflows
+- Wary of over-reliance on AI for critical or sensitive content
+- Participated in several online courses and webinars on technical writing and documentation tools
+- Balances training time with project deadlines and workload constraints
+- Views AI as transformative for technical writing and knowledge work
+- Explores integration with other LLM APIs for task automation
+- Establish clear guidelines for responsible and ethical use of AI in documentation
+- Many documentation tasks require deep understanding of software security concepts
+- Builds and maintains AI agents to automate drafting and information extraction tasks
+- Retains ultimate responsibility for accuracy and quality of documentation
+- Has a habit of naming their tech gadgets after famous science fiction characters.
+- Peer recommendations and management support encourage tech adoption
+- Prefers AI to handle repetitive or formulaic documentation tasks
+- Occupies an early-career or associate-level position
+- Enjoyment increases when learning new tools or automating repetitive work
+- AI tools sometimes miss subtle product-specific or industry-specific nuances
+- Actively follows industry trends in technical writing technology
+- Able to learn new APIs and frameworks with minimal supervision
+- Brings homemade scones to morning meetings every Wednesday.
+- Prefers step-by-step collaboration with AI tools, especially for complex tasks
+- Independently identifies documentation requirements based on product changes
+- Maintains a secret stash of novelty socks to lighten up dreary Monday morning meetings.
+- Has 1-2 years of experience as a technical writer
+- Understands integration of documentation with CI/CD processes
+- Has a collection of novelty coffee mugs shaped like classic typewriters and old-school computers.
+- Believes nuanced, context-heavy writing will remain human-led
+- Finds conversational AI intuitive for non-technical queries
+- Management encourages self-directed exploration of AI capabilities
+- Believes future roles will require deeper domain knowledge and AI literacy
+- Relies on Markdown and VS Code for writing and editing
+- Learned to juggle during a virtual summer camp and occasionally shows off the skill at company picnics.
+- Focuses on SaaS and enterprise software for IT operations
+- Finds repetitive formatting or style corrections tedious
+- Tracks documentation tasks and requirements in JIRA
+- Can suggest and implement automation tools but must align with team processes
+- Very open to experimenting with new AI workflows to improve efficiency
+- Limited direct integration between documentation tools and AI agent frameworks
+- Operates in a cross-functional team environment
+- Started a succulent garden on their windowsill that has outlived every office plant around.
+- Sees tech learning as key to streamlining documentation processes
+- Drafts, edits, and publishes technical documentation for software products
+- Accepts high automation for template-based or low-risk documentation updates
+- Linting and style-checking documentation for consistency
+- Works on both internal and user-facing documentation
+- Employs Python modules for AI-driven linting and style analysis
+- Uses AI tools daily to generate draft documentation and summarize technical details
+- Ensuring documentation stays synchronized with rapid product changes
+- Regularly cross-checks AI-generated content with original sources
+- Learning to build and maintain custom AI agents for documentation
+- Has a habit of doodling little robots in the margins of notebooks during brainstorming sessions.
+- Writes and mails postcards to friends around the world despite living in the digital age.
+- Documenting features with limited or evolving requirements

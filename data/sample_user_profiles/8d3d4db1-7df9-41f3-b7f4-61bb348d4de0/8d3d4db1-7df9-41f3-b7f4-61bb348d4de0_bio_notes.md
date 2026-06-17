@@ -1,0 +1,239 @@
+# Biographical Notes
+
+- Open and positive about adopting new digital tools for work
+- Manual review of AI outputs is standard practice before implementation
+- Keeps updated on AI trends to maintain relevance and employability
+- Always carries a tiny sketchbook for sudden bursts of inspiration on the go.
+- Practices morning yoga stretches in the office to start the day energized.
+- No formalized, ongoing AI training program at the company
+- Mildly concerned about routine care and inventory tasks being automated
+- Employs barcode scanners for inventory checks
+- Manual data entry or reporting is among the least enjoyable activities
+- Coordinating displays for large events or special promotions can be complex
+- Began working in the commercial floral design sector soon after completing degree
+- Team discussions about AI adoption are more frequent and collaborative
+- Has a habit of doodling little floral motifs on every notepad corner.
+- Started a community herb swap among local office buildings.
+- Integrating new product lines into existing displays requires problem-solving
+- Employed at a mid-sized retail company with multiple store locations
+- Sees potential for AI to improve sustainability in floral and plant care
+- Prefers hands-on or video-based training formats
+- Sometimes finds new tools less relevant if not tailored to floral design
+- Enjoys making scented candles with floral notes during weekends.
+- Enjoyment and skill level are highest during hands-on design work
+- Believes AI enhances skills by providing faster access to information and inspiration
+- Learning about new floral varieties and design trends is stimulating
+- Roughly 20% of the time is dedicated to product care (watering, pruning, discarding)
+- Views AI as a powerful force for efficiency and innovation in retail
+- Always wears mismatched socks on Fridays as a personal lucky charm.
+- Keeps a small collection of quirky rubber stamps for decorating notes and sketches.
+- Believes AI will transform routine roles but leave creative work largely intact
+- Keeps a running list of best local food trucks to visit on lunchtime outings.
+- Sees best results from combining AI-generated ideas with personal style
+- Developed prompt engineering skills for effective AI communication
+- Involved in maintaining product quality and freshness in floral sections
+- Role includes both creative design and hands-on implementation of displays
+- Willing to adjust existing workflows to incorporate AI efficiencies
+- Values human creativity and judgment for final display decisions
+- Early-career professional
+- Management encouragement is effective if paired with clear benefits
+- Sorting and discarding expired products is a routine, manual task
+- Predicts increased demand for tech-savvy, design-oriented team members
+- Retains authority to override AI recommendations in all workflow stages
+- Encourage regular feedback loops for improving AI tool adoption and effectiveness
+- Learned the importance of double-checking AI outputs for factual accuracy in critical decisions
+- Grows a tiny herb garden on the office windowsill, sharing fresh basil with coworkers.
+- Watering schedules could benefit from automated reminders or sensors
+- Peer demonstrations of new tools help accelerate adoption
+- AI can assist, but cannot fully replace the domain knowledge required for high-quality displays
+- Believes human creativity will remain essential for customer experience
+- Unpacking and prepping new floral products is a familiar task
+- Skeptical of AI outputs when results seem generic or out of context
+- Company has become more open to piloting AI-driven tools in the last year
+- Troubleshooting app or technology issues occasionally presents difficulties
+- Once trained in floral-themed calligraphy and uses it for personal notes.
+- Views creative and interpersonal skills as becoming more important in the AI era
+- Brews homemade chai tea every morning using a secret family recipe.
+- Primary focus is on hands-on design and implementation rather than strategy
+- Utilizes carts and trolleys for transporting products within the store
+- Works in the retail sector, specifically within grocery or specialty stores
+- Occasionally uses image recognition apps for plant identification
+- Completed undergraduate studies in Industrial Design
+- Designs and arranges floral displays throughout the store according to planograms
+- Moderately trusts AI-generated advice for research and ideation
+- Positive experiences shared by co-workers increase willingness to adopt
+- Adopts a ‘no email after 6 PM’ rule to maintain healthy work-life balance.
+- Recognizes risks of job displacement in less creative sectors
+- Has a vintage floral pattern wallpaper sample taped to the cubicle wall for inspiration.
+- Creative floral display requires nuanced, tacit knowledge of color, trends, and space
+- Adapts quickly to updates in store apps and communication platforms
+- Skill development is linked to trying new design concepts and arrangements
+- Participated in design studio projects during university coursework
+- Able to learn new industry-standard software with minimal training
+- Creative arranging of displays is highly enjoyable and engaging
+- Consults with co-workers or supervisors for major changes or special promotions
+- Has a collection of miniature architectural models from travels abroad.
+- Has a tradition of gifting coworkers hand-crafted flower crowns on the first day of spring.
+- Leadership encourages experimentation but emphasizes human oversight
+- Collects quirky enamel pins and swaps them with colleagues during lunch breaks.
+- Work environment is collaborative but fast-paced
+- Occasionally faces issues when planogram software does not sync with inventory systems
+- Uses both interface types depending on the task at hand
+- Has an ongoing journal documenting favorite flower varieties encountered through work.
+- Has moderate autonomy in choosing display layouts and arrangement techniques
+- Has a carefully curated playlist of 80s synth-pop for design brainstorming sessions.
+- Some apps lack integration, requiring manual data transfer between platforms
+- Advocates for clear data privacy policies in AI tools
+- Prefers conversational AI interfaces for brainstorming and idea generation
+- Supports automation when it frees up time for more creative or customer-facing tasks
+- Develop clear guidelines for AI use and human oversight
+- Occasionally mentors new team members on display techniques
+- Physical layout constraints sometimes limit creative display options
+- Participates in a weekend pottery class to unwind creatively.
+- Believes some manual oversight should remain for quality control
+- Basic communication (e.g., shift check-ins) could be streamlined with automation
+- Occasionally seeks out online tutorials for advanced features
+- Industry focus: Commercial floral display and merchandising
+- The company employs between 100 and 500 people
+- Caters to walk-in customers seeking fresh floral arrangements and plants
+- Enjoys urban sketching sessions at local farmers markets on Sundays.
+- Cares for flowers by watering, pruning, and removing expired products
+- Drinks green tea exclusively, believing it fuels creative thinking.
+- Has 1-2 years of experience in the current role
+- Sees risk of some skills (inventory, routine care) becoming less central due to automation
+- Utilizes AI for drafting customer-facing display descriptions
+- Responsible for designing and arranging floral displays for retail environments
+- Appreciates being able to consult AI at various workflow stages as needed
+- Cautions against overreliance on AI in customer-facing or aesthetic decisions
+- Most productive when working on creative display design tasks
+- Inconsistent updates across email and app notifications can cause confusion
+- Believes AI should augment, not replace, human judgment and artistry
+- Has a desk calendar featuring hand-drawn sketches of plants and flowers.
+- Confident that creative, customer-facing aspects of the role remain secure
+- Leverages AI-powered design suggestion tools for display planning
+- Motivated by the potential to save time or enhance creativity
+- Invest in integrating AI tools with existing store management systems
+- Business specializes in floral sales and merchandising within retail
+- Views technology as a means to improve efficiency and creativity
+- Works primarily in-store, as part of a small design and merchandising team
+- Occasionally leads lunchtime mindfulness sessions focusing on nature imagery.
+- Finds command-based interfaces efficient for quick, specific queries
+- Main barrier is high workload or lack of dedicated training time
+- Company offers occasional workshops on AI tool integration
+- Judging product freshness and customer preferences relies on on-the-ground expertise
+- Uses LLMs weekly to research plant care and compatibility
+- Keeps physical planogram printouts for reference during display setup
+- Hosts monthly pizza-and-game nights for the local design community.
+- Became adept at integrating digital content into physical displays
+- Operates within a customer-facing environment
+- Prefers systems where human approval is required for critical actions
+- Gained responsibility for verifying and curating AI-generated suggestions
+- Caring for plants (watering, pruning) is routine and straightforward
+- Communicating with co-workers via store apps is comfortable and efficient
+- Resists automation when it might reduce creative input or job satisfaction
+- Uses digital references and apps for planning and communication
+- Has experience with basic inventory management systems
+- May use Grammarly or similar AI tools for professional communication
+- Market segment: Commercial retail floral displays for consumer shopping experiences
+- Practices origami as a mid-afternoon creative break ritual.
+- Encourages team to cross-check AI-driven scheduling and planning
+- Started the position at age 34-35
+- Can distinguish between generative AI (like LLMs) and predictive analytics tools
+- Tends to try new tools suggested during team meetings or workshops
+- Keeps an assortment of colorful sticky notes shaped like leaves and petals.
+- Always orders a lavender latte when visiting new coffee shops on business trips.
+- Is known for bringing elaborate charcuterie boards to team celebrations.
+- Plant care combines explicit guidelines with intuition built from experience
+- Understands basic AI concepts such as machine learning and natural language processing
+- Collects handmade bookmarks crafted from pressed flowers.
+- Holds a Bachelor’s Degree
+- Opens and inspects new floral shipments and prepares them for display
+- Prefers independent use of AI for quick research and ideation
+- Accepts high automation for inventory tracking and routine care reminders
+- Would benefit from a unified dashboard integrating all workflow tools
+- Expects greater automation of repetitive and administrative tasks
+- Regularly updates skills as new retail tech becomes available
+- Values AI input but retains final decision-making authority
+- Seeks a real-time, mobile-accessible dashboard for all display and inventory information
+- 10% of time is spent on communication and coordination using apps and email
+- Enjoys crafting personalized greeting cards for coworkers' birthdays.
+- Wishes for seamless integration of AI-generated design ideas into planogram software
+- Occasional delays in receiving updated planograms or instructions
+- Uses store management apps for communication and scheduling
+- Comfortable discussing prompt engineering and AI-assisted design
+- Managing inventory levels and predicting demand is challenging
+- Keeps a small music box on the desk that plays a gentle floral waltz melody.
+- Keeps a small fish tank in the office as a calming visual presence.
+- Treats AI as an on-demand advisor for creative and factual queries
+- Trust increases when AI recommendations align with personal expertise
+- AI recommendation improved seasonal display planning by suggesting trending color palettes
+- Spends more time educating colleagues about AI tools and best practices
+- Frequently seeks out new apps or resources relevant to floral design
+- Arranging floral displays according to color and season comes naturally
+- Has a pet cactus named 'Spike' that’s survived over five years on the desk.
+- Relies on email (Gmail/Outlook) for official updates and supplier communication
+- Implement structured AI training programs for all team members
+- Willing to dedicate time to tech training if it improves workflow
+- Organizes an annual office costume contest inspired by favorite movie characters.
+- Experienced occasional inaccuracies in AI-generated plant compatibility advice, leading to manual verification
+- The remaining 10% involves consulting digital references and planning future displays
+- Regularly experiments with new features in AI and design tools
+- Desires automated reminders for plant care tailored to specific varieties
+- Has not pursued postgraduate education but has attended several industry workshops
+- Participates in any company-offered training sessions on new tools
+- Has an impressive collection of patterned scarves inspired by botanical prints.
+- Peers frequently share AI tips and best practices informally
+- Decides independently when to remove, discard, or refresh floral stock
+- Peer recommendations frequently influence motivation to learn
+- Inventory checks and stock updates are repetitive and could be automated
+- Comfortable using mobile communication apps specific to the retail sector
+- Finds automation threatening if it risks oversimplifying customer experience
+- Keeps a vintage typewriter at home as a nostalgic writing tool.
+- Occasionally uses design inspiration platforms like Pinterest for ideas
+- Familiar with digital planogramming tools used in retail merchandising
+- Prefers AI automation for repetitive or information-gathering tasks
+- Supports transparent use of AI with clear human oversight
+- Once painted a mural on a local coffee shop wall during a weekend art fest.
+- Productivity drops when required to perform repetitive or data-heavy tasks
+- Difficulty accessing all needed information quickly on mobile apps
+- Volunteers at a local community garden on weekends to stay connected with nature.
+- Relies on online resources and team discussions for upskilling
+- Inventory management and repetitive product care tasks can feel tedious
+- Brings a vintage camera to work and takes daily snapshots of office moments.
+- Open to experimenting with new AI-driven processes if clear benefits are shown
+- Careful to evaluate the reliability and relevance of new AI workflows before full adoption
+- Has a signature coffee mug that reads 'Designing Dreams, One Petal at a Time.'
+- Has a habit of wearing floral-patterned face masks as a subtle style statement.
+- Uses manual tools such as pruning shears, vases, and watering cans daily
+- Considers adaptability to new tech as an increasingly vital skill
+- Successfully used ChatGPT to quickly find optimal care instructions for rare flowers
+- Keeps a miniature zen garden on the desk for quick stress relief.
+- Comfortable troubleshooting minor software issues independently
+- Does not view AI as a co-worker but more as a digital support tool
+- Consults AI for troubleshooting care issues with specific plant species
+- Foresees a shift towards more strategic and creative responsibilities
+- Wears a lucky bracelet made from recycled materials found on hiking trips.
+- Received foundational training in design principles, color theory, and materials
+- Has a running bet with colleagues on who spots the first spring bloom each year.
+- Has a tradition of baking seasonal pies for holiday office parties.
+- Uses AI as an assistant to streamline routine administrative tasks
+- Follows store planograms but adapts creatively based on available inventory
+- Not currently in a supervisory or management position
+- Values intuitive, user-friendly AI interactions
+- Always double-checks AI outputs for accuracy before applying to critical tasks
+- Occasionally collaborates step-by-step with AI for complex or novel displays
+- Once competed in a flower arranging contest for charity and won third place.
+- Spends approximately 60% of work hours on physical display creation and maintenance
+- Views AI as a tool to augment, not replace, the core value of the role
+- Applies AI tools to brainstorm new floral arrangement themes
+- Collaborates with co-workers to ensure displays are appealing and aligned with store guidelines
+- Regularly uses ChatGPT or similar LLMs for information and ideation
+- Collects vintage postcards from cities visited during business trips.
+- Uses AI as a supplement rather than a constant partner
+- Job title: Commercial and Industrial Designer
+- Would benefit from an AI tool that recommends plant pairings based on compatibility and aesthetics
+- No formal AI policy yet, but informal guidelines are emerging
+- Accesses planogram software via web or mobile interface
+- Stays updated on AI advancements relevant to design and retail
+- Manual tracking of stock levels is time-consuming and prone to errors
+- Runs a small book exchange rack in the breakroom focusing on travel adventures.

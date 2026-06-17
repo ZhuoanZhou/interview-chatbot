@@ -1,0 +1,515 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master\u2019s Degree in Radiologic Technology",
+          "Completed undergraduate studies in Medical Imaging or a related health science field",
+          "Has undergone formal training in advanced imaging modalities such as MRI, CT, and ultrasound",
+          "Participated in clinical internships at accredited hospitals during education",
+          "Holds state licensure and ARRT certification required for radiologic technologists"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Radiologic Technologist (occasionally referred to as Radiology Doctor in practice setting)",
+          "Role focuses on performing and interpreting X-ray, CT, MRI, and ultrasound scans",
+          "Responsible for both image acquisition and preliminary diagnostic assessment",
+          "Collaborates closely with radiologists and referring physicians for treatment planning"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the healthcare sector",
+          "Employed in a hospital or medical imaging center setting",
+          "Specializes in diagnostic and therapeutic radiology services",
+          "Interacts with other medical professionals such as physicians, nurses, and technologists"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-sized urban hospital with approximately 300-500 beds",
+          "Works in a multidisciplinary team environment within the radiology department",
+          "Facility includes modern imaging suites and supports a moderate-to-high patient volume",
+          "Participates in departmental meetings and quality assurance activities"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Operates within the medical diagnostics and patient care segment",
+          "Focuses on diagnostic imaging and radiological services",
+          "Serves both inpatient and outpatient populations",
+          "Supports emergency, elective, and follow-up cases"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 3-5 years of professional experience as a radiologic technologist",
+          "Started current role shortly after completing Master's degree and certification",
+          "Has gained experience across multiple imaging modalities over the years"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds an early to mid-career professional level",
+          "Considered a competent and independent practitioner within the department",
+          "Occasionally assists in mentoring newer technologists or trainees"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Performs diagnostic imaging procedures including X-ray, CT scans, MRI, and ultrasound",
+          "Prepares patients and explains procedures to ensure comfort and accuracy",
+          "Reviews and analyzes images for quality and initial findings before submission to radiologists",
+          "Maintains and calibrates imaging equipment for optimal performance",
+          "Documents patient records and imaging findings in electronic health systems"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Approximately 70% of daily time is spent on direct imaging procedures",
+          "Around 15% dedicated to patient preparation and care",
+          "Roughly 10% spent on administrative documentation and reporting",
+          "5% of time allocated to equipment maintenance and quality assurance"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Exercises independent judgment in choosing appropriate imaging protocols",
+          "Handles initial troubleshooting of equipment and minor patient care decisions",
+          "Consults with radiologists for complex cases or unexpected findings",
+          "Adheres to established guidelines for safety and diagnostic accuracy"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Conducting routine X-ray imaging is highly familiar and efficient",
+          "Patient communication and preparation are well-practiced skills",
+          "Standard protocol MRI and CT scans are performed with confidence",
+          "Basic equipment checks and calibrations are managed smoothly"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Interpreting ambiguous or borderline imaging results requires extra consultation",
+          "Performing advanced imaging for rare or complex conditions is challenging",
+          "Handling uncooperative or critically ill patients during scans adds complexity",
+          "Keeping up with rapidly evolving imaging technologies and protocols"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Routine image categorization and annotation for electronic records",
+          "Repetitive patient data entry and documentation tasks",
+          "Preliminary image quality assurance checks",
+          "Appointment scheduling and patient follow-up reminders"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys hands-on imaging procedures, especially complex MRI or CT scans",
+          "Finds diagnostic problem-solving and collaborative case reviews engaging",
+          "Patient interactions, especially explaining procedures, are rewarding",
+          "Administrative paperwork and repetitive data entry are perceived as tedious"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Slow or outdated equipment can delay imaging and increase frustration",
+          "Manual data entry and redundant paperwork are time-consuming",
+          "Occasional scheduling conflicts lead to workflow bottlenecks",
+          "Integration issues between imaging software and hospital EHR systems"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Tasks where skill level is high (such as X-ray imaging) tend to be more enjoyable and productive",
+          "Learning new imaging techniques initially decreases productivity but increases engagement",
+          "Enjoyment rises when working on challenging diagnostic cases that utilize a broad skill set",
+          "Productivity suffers during tedious administrative work, leading to lower engagement"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally open and curious about adopting new imaging technologies",
+          "Views innovation as essential for professional growth and patient outcomes",
+          "Sees value in upgrading skills to keep pace with industry standards"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Considers self moderately adaptable to new software and imaging protocols",
+          "Adjusts quickly to updated versions of familiar platforms (e.g., PACS, RIS)",
+          "May require some hands-on training for more complex AI or advanced imaging tools"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to participate in regular training sessions provided by employer",
+          "Has attended workshops and webinars on advanced imaging and AI applications",
+          "Prefers concise, practical training over lengthy theoretical modules"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential to improve diagnostic accuracy and patient care",
+          "Heavy workload sometimes limits available time for in-depth tech training",
+          "Seeks direct relevance to daily tasks when deciding to invest in new skills"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peer enthusiasm and success stories encourage adoption of new technologies",
+          "Management support through resource allocation and incentives increases willingness",
+          "Skepticism from colleagues occasionally slows department-wide adoption"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses PACS (Picture Archiving and Communication System) daily to store and retrieve images",
+          "Operates radiology information system (RIS) for scheduling and reporting",
+          "Interacts with hospital electronic health record (EHR) systems for patient data",
+          "Occasionally uses online reference platforms for case review"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Utilizes X-ray, CT, MRI, and ultrasound machines for core imaging tasks",
+          "Employs lead shields and positioning aids for patient safety",
+          "Uses barcode scanners and printers for patient identification",
+          "Depends on standard radiology protocols and checklists for procedure accuracy"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Highly familiar with Siemens and GE imaging systems commonly used in hospitals",
+          "Experienced with DICOM standards for medical image formatting and transfer",
+          "Regularly uses industry-standard reporting templates for diagnostic summaries"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasional issues arise when images fail to transfer seamlessly between PACS and EHR",
+          "Some legacy imaging machines have limited compatibility with new software updates",
+          "Manual reconciliation sometimes needed for incomplete data syncs",
+          "Integration between AI tools and RIS/EHR systems is still a work in progress"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic AI concepts such as image recognition and pattern detection",
+          "Familiar with terms like algorithm, model training, and false positives/negatives",
+          "Has read about AI applications in radiology, such as automated lesion detection"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Has used Aidoc for AI-assisted diagnostic suggestions in CT scans",
+          "Tested Zebra Medical Vision for automated image analysis",
+          "Used LLM-based tools (e.g., ChatGPT) for drafting procedure notes and quick literature reviews",
+          "Explored in-house AI modules integrated with PACS for image triage"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses AI tools occasionally, primarily for second-opinion image analysis",
+          "Applies LLMs to draft clinical documentation and patient instructions",
+          "Employs AI for prioritizing urgent cases based on algorithmic triage",
+          "Relies on AI-driven quality checks for certain imaging procedures"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI successfully flagged a subtle lung nodule missed on initial review",
+          "Experienced a false positive alert from AI, requiring extra manual review",
+          "AI-generated report summaries saved time but occasionally missed contextual details",
+          "Learned importance of manual verification and not fully relying on AI outputs"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Employer has offered introductory workshops on AI in radiology",
+          "Peers often share tips and use-cases during team huddles",
+          "Advanced AI tool training is limited and usually self-directed",
+          "Access to vendor support for troubleshooting AI software"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers independent initial review, followed by step-by-step AI collaboration for complex cases",
+          "Finds value in running AI checks after forming a preliminary diagnosis",
+          "Uses AI as a secondary reviewer rather than a primary decision-maker"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI as an assistant, providing suggestions for further review",
+          "Considers AI an advisor for confirming or challenging diagnostic impressions",
+          "Does not delegate full case responsibility to AI; retains ultimate clinical judgment"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to integrating AI, especially for efficiency gains and error reduction",
+          "Willing to test new workflows that streamline repetitive or data-heavy tasks",
+          "Prefers gradual workflow changes, with ample opportunity for feedback"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Finds conversational interfaces like chatbots user-friendly for quick information retrieval",
+          "Prefers command-based interfaces for structured data entry and report generation",
+          "Uses both interface types depending on the task and context"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Image interpretation often requires nuanced understanding of anatomy and pathology",
+          "Patient history and clinical context are key factors not always available to AI",
+          "Adjusting protocols for unique cases relies on hands-on experience",
+          "AI tools are currently limited in capturing tacit and contextual knowledge"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI to flag potential findings but always performs manual verification",
+          "Considers AI outputs as supportive, not definitive, for critical decisions",
+          "More trusting of AI for routine tasks than for complex or rare conditions"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to automate repetitive, data-heavy tasks like image sorting",
+          "Believes human expertise should remain central in diagnostic interpretation",
+          "Supports a hybrid model where AI augments, but does not replace, clinical judgment"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for administrative and quality assurance tasks",
+          "Feels threatened if AI seeks to replace nuanced diagnostic decision-making",
+          "Needs transparency and override options for all automated processes",
+          "Wants clear accountability for AI-driven recommendations"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI will enhance the value of interpretive and clinical skills",
+          "Routine technical tasks may become less central due to automation",
+          "Anticipates need to upskill in areas like AI oversight and data literacy",
+          "Sees interpersonal and patient communication skills remaining critical"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning to validate and audit AI-generated findings",
+          "Gaining proficiency in interpreting AI analytics and performance metrics",
+          "Developing workflow integration skills for new AI tools",
+          "Participating in the customization or selection of AI platforms for the department"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Some concern about automation of routine image processing tasks",
+          "Believes complex diagnostic reasoning will remain human-led for the foreseeable future",
+          "Monitors industry trends for potential job displacement but feels current role is secure"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Manual review and override of AI suggestions is standard practice",
+          "All critical diagnostic decisions require human sign-off",
+          "Can adjust or reject AI-generated reports before submission",
+          "Department protocols require dual review for high-risk findings"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Team is gradually introducing formal guidelines for AI tool use",
+          "Management encourages experimentation but stresses human accountability",
+          "Policies are being updated to address data privacy and AI auditability"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will significantly improve medical imaging accuracy and efficiency",
+          "Recognizes potential for AI to democratize healthcare access and reduce disparities",
+          "Acknowledges risks of over-reliance and bias in AI-driven systems"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Advocates for transparency and explainability in AI recommendations",
+          "Worries about data privacy and security in AI-enabled workflows",
+          "Supports robust human oversight to prevent errors or bias"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires AI tools that better integrate with EHR and PACS platforms",
+          "Wants predictive analytics for personalized treatment planning",
+          "Seeks improved natural language processing for streamlined report generation",
+          "Would benefit from real-time AI support during live imaging procedures"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects to spend more time validating and interpreting AI findings",
+          "Routine tasks will become highly automated, shifting focus to complex case management",
+          "Will likely need to continuously upskill in AI literacy and informatics",
+          "Patient communication and interdisciplinary collaboration will remain central roles"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement ongoing, practical AI training programs for clinical staff",
+          "Establish transparent protocols for AI tool validation and auditing",
+          "Engage frontline users in the selection and customization of AI platforms",
+          "Prioritize data privacy and cybersecurity in all AI initiatives"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,496 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Completed some college coursework in Mechanical Engineering Technology, but did not earn a degree",
+          "Received hands-on technical training during onboarding at the manufacturing factory",
+          "Participated in safety and machine calibration workshops provided by the employer",
+          "No formal industry certifications yet, but considering pursuing them in the future"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Mechanical Engineering Technician",
+          "Primary role is to operate and calibrate manufacturing presses for airplane parts",
+          "Responsible for daily production reports and quality control documentation",
+          "Involved in both physical manufacturing tasks and digital reporting duties"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the aerospace manufacturing sector",
+          "Factory specializes in producing parts for commercial and private airplanes",
+          "Role is firmly within the manufacturing industry, focused on mechanical processes"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-sized manufacturing facility with around 150-200 employees",
+          "Factory environment requires adherence to strict safety protocols (gloves, glasses, etc.)",
+          "Work shifts are structured and task-oriented, with a mix of individual and team activities"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Business focuses on supplying precision airplane parts to the aviation industry",
+          "Market segment includes both OEM (original equipment manufacturer) and aftermarket airplane components",
+          "Client base primarily consists of aerospace companies and airplane manufacturers"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 1-2 years of experience as a Mechanical Engineering Technician",
+          "Started working at the current factory shortly after completing some college",
+          "Current role is the first professional position in the aerospace manufacturing field"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds an entry-level to junior technician position",
+          "Works under the supervision of more experienced technicians and engineers",
+          "Responsible for executing assigned tasks rather than leading teams or projects"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Begins each shift with paperwork and machine log entries",
+          "Performs machine calibration 2-4 times per shift to ensure accuracy",
+          "Operates a manufacturing press to produce airplane parts for several hours per shift",
+          "Completes end-of-shift reports and creates graphs summarizing production data",
+          "Maintains adherence to safety protocols throughout all tasks"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "About 10% of shift spent on paperwork and logging machine numbers",
+          "Roughly 30% of shift dedicated to machine calibration (multiple sessions)",
+          "Around 50% of time spent actively manufacturing parts (operating press, handling materials)",
+          "Final 10% focused on shutdown procedures, recalibration, and reporting"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Makes independent decisions on machine calibration and minor troubleshooting",
+          "Follows established protocols for most tasks, with limited ability to deviate",
+          "Escalates complex technical issues to senior technicians or supervisors",
+          "Has autonomy over daily workflow for assigned machine, but not broader production planning"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Routine paperwork and logging machine numbers at the start of each shift",
+          "Operating the press machine after proper calibration has been completed",
+          "Packing finished airplane parts into boxes according to standard procedure"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Calibrating the manufacturing machine, especially when issues arise",
+          "Troubleshooting unexpected errors or inconsistencies during production",
+          "Creating detailed graphs and accurate reports at the end of the shift"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Manual entry of machine numbers and production data into reports",
+          "Repetitive quality checks and data logging throughout the shift",
+          "Generating routine graphs and summaries from collected data"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys hands-on operation of the press and seeing tangible production results",
+          "Finds machine calibration satisfying when it goes smoothly",
+          "Considers repetitive paperwork and data entry the most tedious part of the job",
+          "End-of-shift reporting can feel monotonous, especially when rushed"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual data entry increases risk of mistakes and slows down workflow",
+          "Machine calibration can take longer than expected if issues arise",
+          "Switching between physical tasks and computer-based reporting disrupts focus",
+          "Lack of integration between factory machines and reporting software adds extra steps"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Feels most productive and skilled during hands-on machine operation",
+          "Higher skill in calibration leads to fewer production errors and greater efficiency",
+          "Enjoyment is highest when tasks run smoothly and visible progress is made",
+          "Tedious or repetitive tasks tend to lower motivation and reduce perceived productivity"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally open to learning new tools if they make work easier",
+          "Initially cautious about new tech, but becomes more comfortable with practice",
+          "Motivated to adopt technologies that streamline repetitive tasks"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts fairly quickly to software updates and new digital tools",
+          "Needs some initial guidance but becomes proficient with regular use",
+          "Comfortable experimenting with new features in familiar systems"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to spend time in short training sessions during work hours",
+          "Prefers hands-on, task-based training over theoretical instruction",
+          "Sees value in learning tech that directly impacts daily workflow"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential to save time and reduce manual effort",
+          "Heavy workloads can limit time available for training",
+          "Less interested in tech that feels unrelated to core responsibilities"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers sharing positive experiences with new tools encourages adoption",
+          "Management support and clear expectations make it easier to try new tech",
+          "More likely to use tools that are widely adopted by the team"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses company-provided production management software for data entry and reporting",
+          "Utilizes ChatGPT weekly for report writing and calculations",
+          "Relies on spreadsheet tools (e.g., Microsoft Excel) to create graphs and track numbers"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Operates a mechanical press designed for making airplane parts",
+          "Uses safety equipment daily, including gloves and protective glasses",
+          "Relies on physical logbooks and forms for some paperwork"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Basic familiarity with digital manufacturing management systems",
+          "Understands standard safety monitoring devices and calibration tools",
+          "Aware of common reporting and documentation practices in manufacturing"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Company software does not fully integrate with AI tools, requiring manual data transfer",
+          "Graphs and reports sometimes need to be recreated in different formats for managers",
+          "Occasional compatibility issues between machine output data and reporting systems"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Has a basic understanding of what artificial intelligence is",
+          "Knows that LLMs (like ChatGPT) are AI systems that can process language",
+          "Familiar with terms like automation, algorithm, and machine learning at a high level",
+          "Not deeply versed in technical AI/ML concepts or programming"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT for drafting and editing production reports",
+          "Has experimented with AI-powered features in spreadsheet software (e.g., Excel's Copilot)",
+          "No use of specialized AI platforms beyond language models in daily workflow"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses ChatGPT at least once a week to help word reports and summarize data",
+          "Occasionally uses AI to check calculations or suggest ways to visualize production data",
+          "AI tools are not yet integrated into real-time manufacturing processes"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI has helped reduce the time spent rewriting reports for clarity and professionalism",
+          "Once received a graph suggestion from AI that didn't match the data format needed for management",
+          "Learned to always verify AI-generated calculations and data before submitting reports",
+          "Found that AI is most helpful for routine language tasks, less so for technical troubleshooting"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Received a brief introduction to ChatGPT from a supervisor",
+          "Peers occasionally share AI tips and best practices informally",
+          "No formal, ongoing company-wide training on AI tools as of now"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers to use AI tools independently for quick tasks like editing reports",
+          "Occasionally uses step-by-step prompts when unsure about complex requests",
+          "Appreciates the flexibility to choose between modes depending on the task"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI as a helpful assistant, especially for writing and calculations",
+          "Does not see AI as a replacement for technical judgment or machine operation",
+          "Uses AI as a second opinion rather than a decision-maker"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to using AI more if it proves reliable and saves time",
+          "Willing to experiment with new AI features as they are introduced",
+          "Prefers gradual integration of AI into workflow rather than abrupt changes"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Finds conversational AI interfaces easier to use for drafting and editing text",
+          "Rarely uses command-based AI interfaces, except for simple calculations",
+          "Prefers natural language prompts over complex scripting or coding"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Machine calibration and troubleshooting require hands-on experience and practical know-how",
+          "Production quality assessments depend on visual and tactile inspection skills",
+          "Paperwork and reporting are more standardized and can be supported by AI"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for routine language tasks and basic calculations",
+          "Always double-checks AI-generated numbers and summaries before submission",
+          "Does not rely on AI for technical or safety-critical decisions"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive paperwork and initial drafts of reports",
+          "Believes human oversight is essential for machine calibration and safety checks",
+          "Values human judgment for troubleshooting and quality assurance"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts automation for non-critical, repetitive tasks where errors have low impact",
+          "Finds high automation concerning if it reduces ability to catch mistakes in production",
+          "Wants manual override options for AI-driven processes that affect product quality"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Sees AI as enhancing efficiency in reporting and documentation",
+          "Believes hands-on technical skills remain essential for machine operation",
+          "Thinks communication and digital literacy are becoming more important"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning to prompt AI systems effectively for specific work tasks",
+          "Becoming responsible for verifying and editing AI-generated content",
+          "Developing basic data analysis skills to interpret AI-assisted graphs"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mildly concerned that repetitive paperwork may become fully automated",
+          "Does not feel core technical or machine operation tasks are at risk from AI",
+          "Sees potential for AI to change, but not eliminate, technician roles"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All AI-generated reports are manually reviewed before submission",
+          "Human sign-off is still required for production data and quality checks",
+          "No fully automated decision-making in any critical workflow areas"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has recently encouraged more frequent use of AI tools for reporting",
+          "No formal policy on AI adoption yet; practices are evolving informally",
+          "Team is gradually becoming more open to digital and AI-assisted workflows"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will increase efficiency across many industries, including manufacturing",
+          "Thinks widespread AI adoption will change the nature of many entry-level jobs",
+          "Sees potential for both positive impacts (e.g., safety, productivity) and disruptions"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports responsible use of AI with human oversight",
+          "Worried about potential job losses if AI replaces too many manual tasks",
+          "Believes transparency and accountability are important for AI adoption"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would like AI tools that automatically transfer data from machines to reports",
+          "Hopes for AI assistants that can spot and flag production anomalies in real time",
+          "Wants better integration between company software and AI tools"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects to spend less time on repetitive paperwork as AI automates more reporting",
+          "Anticipates learning new digital skills to work alongside more advanced AI systems",
+          "Believes hands-on machine operation and troubleshooting will remain important"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Provide regular training sessions on new AI tools and features",
+          "Develop clear guidelines for when and how to use AI in production tasks",
+          "Solicit feedback from frontline workers before rolling out major AI changes",
+          "Invest in better integration between existing systems and AI platforms"
+        ]
+      }
+    ]
+  }
+]

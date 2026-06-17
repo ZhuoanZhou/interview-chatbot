@@ -1,0 +1,535 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a high school diploma as highest formal education credential",
+          "Completed several online courses on web design and digital graphics (e.g., Udemy, Coursera)",
+          "Self-taught in web design principles using free online resources and video tutorials",
+          "No formal college or university degree",
+          "Attended a local workshop on accessibility in web design"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Graphic Designer (Web Design focus)",
+          "Designs and edits webpages for clients using no-code and low-code platforms",
+          "Responsible for adapting client ideas into digital layouts and color schemes",
+          "Frequently reconstructs existing designs to better suit client needs",
+          "Balances visual creativity with usability and accessibility requirements"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the digital design and web development sector",
+          "Part of the creative/technology industry",
+          "Focuses on small business and personal brand website projects",
+          "Operates within the broader technology-enabled services sector"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works independently as a freelancer or in a small design studio (2-5 people)",
+          "Remote work is common, with occasional in-person meetings",
+          "Collaborates online with clients and occasional project partners",
+          "Company culture values flexibility, creativity, and fast turnaround"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Primarily serves small businesses, entrepreneurs, and personal brands",
+          "Focuses on web design for non-technical clients needing accessible websites",
+          "Works on projects in e-commerce, portfolio sites, and informational business pages",
+          "Occasionally assists with rebranding or visual refresh projects for existing websites"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 1-2 years of experience as a graphic/web designer",
+          "Started working in this role at age 22 or 23",
+          "Experience includes both design and editing of web pages",
+          "Gained practical experience through freelance projects and client work"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Considers self an early-career/junior graphic designer",
+          "Occupies an entry-level to associate position in the industry",
+          "Still building a professional portfolio and expanding client base",
+          "Seeks mentorship and peer feedback to accelerate skill growth"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Designs webpage layouts using platforms like Squarespace and Wix",
+          "Selects and customizes color schemes for optimal user experience and accessibility",
+          "Edits and reconstructs existing webpages to better fit client requirements",
+          "Communicates with clients to gather design feedback and requirements",
+          "Prepares visual assets using Canva and other design tools"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends about 40% of time designing webpage layouts",
+          "Dedicates roughly 30% of time to editing and reconstructing existing designs",
+          "Allocates 20% of time to color scheme selection and accessibility adjustments",
+          "The remaining 10% is spent on client communication and administrative tasks"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Exercises significant creative autonomy within client guidelines",
+          "Responsible for major design decisions on most projects",
+          "Consults clients for final approval but independently decides most visual elements",
+          "Occasionally seeks input from peers or online design communities for tricky problems"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Selecting and combining color palettes using built-in tools in Canva and Squarespace",
+          "Applying and tweaking pre-made templates to match client branding",
+          "Basic webpage layout structuring (headers, footers, navigation)",
+          "Resizing and placing images or visual elements within a template"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Customizing templates beyond standard options to achieve unique client requests",
+          "Ensuring full accessibility compliance (e.g., color contrast, keyboard navigation)",
+          "Troubleshooting layout issues that appear differently on mobile vs. desktop",
+          "Integrating third-party widgets or advanced functionality into no-code platforms"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Batch updating color schemes across multiple pages for brand consistency",
+          "Reformatting or resizing images for different device breakpoints",
+          "Populating template fields with client data or text content",
+          "Checking for broken links and basic SEO settings on each webpage"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys experimenting with new color combinations and creative layouts",
+          "Finds reconstructing and improving existing designs engaging",
+          "Editing text or swapping out images repeatedly can feel tedious",
+          "Routine accessibility checks and link testing are necessary but less exciting"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Limited customization options in template-based platforms can be frustrating",
+          "Manually updating repetitive content across multiple pages is time-consuming",
+          "Ensuring accessibility compliance sometimes requires extra research and trial-and-error",
+          "Platform integration issues (e.g., importing assets from Canva to Wix) can slow workflow"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Feels most productive and creative when working on visually engaging layouts",
+          "Skill growth is strongest when tackling slightly challenging design problems",
+          "Boredom with repetitive tasks can lower motivation and output quality",
+          "Enjoyment increases when learning new tricks or shortcuts in design tools"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Feels enthusiastic about trying out new design tools and features",
+          "Regularly explores updates in Squarespace, Wix, and Canva",
+          "Views tech learning as essential for staying competitive in the field",
+          "Open to recommendations from peers and online design communities"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Considers self quick to adapt to new web design platforms",
+          "Can learn basic functionality of a new tool within a few days",
+          "Occasionally needs extra support for advanced features or integrations",
+          "Prefers hands-on experimentation to formal training courses"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to spend several hours weekly on self-paced learning",
+          "Prioritizes practical skills that can be applied to current projects",
+          "Prefers short, focused tutorials over lengthy certifications",
+          "Will invest more time if a tool promises significant workflow improvements"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the opportunity to speed up processes and impress clients",
+          "Main barrier is high workload, which can limit time for self-education",
+          "Sometimes hesitates to learn tools that seem only marginally relevant",
+          "Cost of paid courses can occasionally be a deterrent"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often share recommendations for new design plugins or AI tools",
+          "Online design communities are a primary source of tech discovery",
+          "As an independent worker, rarely receives direct management pressure",
+          "Peer success stories with new tools encourage experimentation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Squarespace for most client website builds and edits",
+          "Relies on Wix for clients who need more flexible design options",
+          "Canva is used daily for creating and editing graphics and assets",
+          "Occasionally uses browser-based color palette generators (e.g., Coolors)"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Browser-based HTML/CSS preview tools for layout checks",
+          "Google Drive for storing and sharing design assets with clients",
+          "Slack or email for client and team communication",
+          "Built-in accessibility checkers in Squarespace or Wix"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Comfortable with no-code website builders (Squarespace, Wix)",
+          "Basic familiarity with image formats (PNG, JPEG, SVG)",
+          "Limited experience with Adobe Creative Suite due to cost and learning curve",
+          "Knows key principles of responsive design and accessibility"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces formatting issues when importing Canva graphics into Wix",
+          "Squarespace and Wix have limited direct integration with third-party design tools",
+          "Manually exporting and uploading design assets can be repetitive",
+          "Inconsistent rendering of fonts and colors between platforms requires extra checks"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic concepts like machine learning, large language models, and generative AI",
+          "Knows how to use prompt-based AI tools for text and image generation",
+          "Follows AI developments relevant to design through online communities",
+          "Recognizes the potential of AI for automating repetitive design tasks"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT for brainstorming design ideas and troubleshooting issues",
+          "Has experimented with Canva's Magic Design (AI-powered layout suggestions)",
+          "Tried DALL\u00b7E for generating unique design assets when needed",
+          "Occasionally uses Grammarly (AI writing assistant) for editing website copy"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs like ChatGPT regularly, at least several times per week",
+          "Applies AI tools mainly for creative brainstorming and generating design variations",
+          "Occasionally uses AI for automating routine content generation (e.g., placeholder text)",
+          "Relies on AI to help solve tricky layout or color matching challenges"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Used ChatGPT to quickly generate multiple tagline options for a client, reducing brainstorming time",
+          "AI-generated color palettes sometimes lack accessibility contrast, requiring manual adjustments",
+          "Tried using AI to create a website layout, but the output needed significant editing to meet client standards",
+          "Learned that AI is most useful for idea generation, not for final design output"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal in-house training, relies on self-directed learning",
+          "Peers in online forums often share AI tool tips and best practices",
+          "Finds tutorials and guides on YouTube and design blogs helpful",
+          "Occasionally attends free online webinars on AI in graphic design"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers a hybrid approach: starts independently, then consults AI for specific challenges",
+          "Uses AI as a support tool rather than a constant collaborator",
+          "Finds step-by-step suggestions from AI useful when exploring new design techniques",
+          "Appreciates being able to ask AI for help at any point in the process"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for brainstorming and error-checking",
+          "Occasionally treats AI as an advisor for accessibility and usability ideas",
+          "Does not rely on AI as a co-worker for full project execution",
+          "Uses AI to double-check decisions but maintains creative control"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to integrating more AI-powered features if they improve speed and quality",
+          "Willing to try new AI tools that automate repetitive design tasks",
+          "Cautious about over-relying on AI for creative decisions",
+          "Interested in experimenting with AI-driven accessibility checkers"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational AI interfaces (e.g., ChatGPT) for brainstorming and troubleshooting",
+          "Finds command-based interfaces helpful for batch tasks (e.g., image resizing)",
+          "Would like the option to switch between conversational and direct command modes",
+          "Values clear, concise AI responses without excessive jargon"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Believes web design requires a mix of technical skills and creative intuition",
+          "Many client requests involve subjective judgment not easily captured by AI",
+          "Accessibility and brand alignment often require context-specific knowledge",
+          "Uses AI mainly for generic suggestions, not for nuanced brand decisions"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for initial drafts and brainstorming but verifies all outputs manually",
+          "Rarely accepts AI-generated layouts or color schemes without review",
+          "More confident in AI-generated text than design recommendations",
+          "Trust level increases as AI tools improve in context awareness"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive or data-driven tasks (e.g., batch resizing, color checks)",
+          "Retains human control over creative and client-facing decisions",
+          "Sees AI as a partner in efficiency, not a replacement for design sense",
+          "Wants the option to override or modify all AI-generated outputs"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for back-end or repetitive design updates",
+          "Feels automation is threatening if it replaces client-facing creativity",
+          "Wants clear manual override options to retain control",
+          "More comfortable with automation when tasks are well-defined and low-risk"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances need for creative and critical thinking",
+          "Some technical skills (e.g., basic layout, color picking) may become less critical",
+          "Client communication and brand alignment remain highly valuable skills",
+          "Views AI as a tool to boost, not replace, core competencies"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning how to prompt and evaluate AI-generated designs is a new required skill",
+          "Staying current with AI tool updates is becoming part of the job",
+          "Responsible for verifying AI outputs for accessibility and client standards",
+          "Must explain to clients how AI is used in the design process"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Some concern about AI automating basic design tasks",
+          "Believes creative, client-specific work is less at risk of automation",
+          "Watches industry trends to stay ahead of potential job changes",
+          "Feels moderate job security due to focus on tailored, creative services"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Manually reviews all AI-generated outputs before client delivery",
+          "Built-in platform tools allow for easy editing of AI-suggested elements",
+          "Prefers AI tools that offer transparent, editable suggestions",
+          "No processes are fully automated without human oversight"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "As an independent worker, sets own policies on AI use",
+          "Peers are increasingly open to AI tools for design support",
+          "No formal policies, but client transparency about AI usage is growing",
+          "Industry shift toward accepting AI as a standard part of the workflow"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Sees AI as a major driver of efficiency and innovation in design",
+          "Believes AI will democratize access to professional-quality websites",
+          "Worries about potential for generic, cookie-cutter design if overused",
+          "Anticipates AI will free up time for more creative and strategic work"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports ethical AI use with transparency to clients",
+          "Concerned about data privacy when using cloud-based AI design tools",
+          "Believes human review is essential to prevent biased or inappropriate AI outputs",
+          "Wants fair credit for original creative work, even if AI-assisted"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Wants AI tools that can check and guarantee full accessibility compliance",
+          "Desires smarter AI suggestions that account for brand identity and user demographics",
+          "Looks for AI that can automate bulk updates across multiple client pages",
+          "Seeks better integration between design platforms and AI-powered asset generators"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine design work to become highly automated",
+          "Predicts greater focus on creative direction and client strategy",
+          "Foresees need to master 'AI prompting' as a core skill",
+          "Believes client expectations for rapid turnaround will increase with AI adoption"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Would encourage regular training and knowledge-sharing on new AI tools",
+          "Supports setting clear guidelines on when and how to disclose AI use to clients",
+          "Recommends investing in accessible, user-friendly AI solutions",
+          "Wants ongoing evaluation of AI tools for ethical and creative impact"
+        ]
+      }
+    ]
+  }
+]

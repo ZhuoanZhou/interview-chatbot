@@ -1,0 +1,515 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Completed some college coursework, but did not receive a degree",
+          "Studied information technology and cybersecurity fundamentals during college",
+          "Participated in online cybersecurity bootcamps and workshops",
+          "Completed several self-paced online courses on network security and IT systems",
+          "Holds CompTIA Security+ certification"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Public Safety Telecommunicator with a focus on cybersecurity and IT systems",
+          "Acts as the sole IT and cybersecurity specialist within the organization",
+          "Responsible for managing all tech infrastructure, including networks, websites, and security protocols",
+          "Provides frontline response to technical incidents and cyber threats",
+          "Serves as the primary point of contact for all technical troubleshooting and cybersecurity issues"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the public safety sector, with a strong emphasis on IT and cybersecurity",
+          "Supports digital infrastructure for a public-facing or municipal organization",
+          "Ensures secure communication and data protection relevant to public safety operations",
+          "Operates at the intersection of emergency services and technology management"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed in a small to mid-sized organization with limited dedicated IT staff",
+          "Often acts as the only technical expert or 'one-person tech department'",
+          "Company relies heavily on individual initiative for IT management and cybersecurity",
+          "Work environment is fast-paced and requires high adaptability"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Works in public safety communications, likely serving a local or municipal agency",
+          "Supports digital interfaces for complaint submissions, order processing, and public suggestions",
+          "Handles technology needs related to both internal operations and public-facing digital services",
+          "Market segment includes emergency communication and tech-driven public services"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 1-2 years of professional experience in the current role",
+          "Started current position shortly after completing initial college coursework",
+          "Has grown into the primary IT and cybersecurity position within a short time frame"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Occupies an entry- to early-career level position, but with significant responsibility due to being the sole IT staff",
+          "Not a manager by title, but holds primary accountability for all tech and security matters",
+          "Demonstrates high autonomy and ownership for someone early in their career"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Monitors network traffic and detects potential security threats using specialized software",
+          "Implements, manages, and updates firewalls and antivirus/anti-malware systems",
+          "Maintains and troubleshoots the organization's website and digital platforms",
+          "Responds to IT incidents, including attempted breaches or technical outages",
+          "Conducts user training sessions to promote cybersecurity awareness among staff"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends roughly 40% of time on network monitoring and threat detection",
+          "Devotes about 25% to incident response and troubleshooting",
+          "Allocates 20% to maintaining and updating web and IT infrastructure",
+          "Spends 10% on staff training and user support",
+          "Reserves 5% for research and process improvement, including AI tool evaluation"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates with significant autonomy as the sole tech and cybersecurity expert",
+          "Has authority to implement immediate security measures during cyber incidents",
+          "Makes independent decisions on minor upgrades, configurations, and technical fixes",
+          "Consults supervisor and IT team for major policy changes or purchases",
+          "Directly advises management on technical risks and recommended actions"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Routine monitoring of network activity and reviewing alerts",
+          "Applying software updates and routine system maintenance",
+          "Troubleshooting common hardware or software issues",
+          "Supporting users with basic IT and security questions"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Handling sophisticated or persistent cyber-attacks requiring advanced mitigation",
+          "Diagnosing and resolving zero-day vulnerabilities",
+          "Balancing multiple simultaneous technical incidents during high-stress periods",
+          "Implementing organization-wide security upgrades with minimal downtime"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Analyzing daily network logs for anomalies",
+          "Running scheduled scans for malware and vulnerabilities",
+          "Documenting and reporting routine IT incidents",
+          "Resetting user passwords and managing simple access requests"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Finds real-time threat detection and incident response most engaging",
+          "Enjoys using AI tools for predictive analysis and pen testing",
+          "Considers routine log review and password resets somewhat tedious",
+          "Likes troubleshooting unexpected system issues due to the challenge"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Lack of automation for repetitive security checks increases workload",
+          "Integration issues between legacy systems and new security tools",
+          "Limited staff resources result in high multitasking and occasional delays",
+          "Some manual documentation steps are time-consuming and error-prone"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "High enjoyment correlates with tasks that require problem-solving and quick thinking",
+          "Feels most productive when using advanced tools, including AI, to streamline processes",
+          "Routine or repetitive tasks are less enjoyable, leading to lower engagement",
+          "Skill development (e.g., learning new tools) increases both enjoyment and task efficiency"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Very open and proactive about learning new cybersecurity and IT tools",
+          "Regularly seeks out new solutions to improve efficiency and security",
+          "Views tech learning as essential to staying relevant in the field",
+          "Enjoys experimenting with AI and automation platforms"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new software, especially security platforms",
+          "Comfortable with self-directed learning and troubleshooting unfamiliar systems",
+          "Relies on online resources, forums, and peer advice to overcome learning curves"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate significant after-hours time to learning new cybersecurity trends",
+          "Participates in webinars, online courses, and tech forums regularly",
+          "Actively pursues certifications to build credibility and knowledge"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by desire to stay ahead of cyber threats and protect organization",
+          "Occasional barrier: high operational workload limits available time for structured learning",
+          "Motivation increases when tech is directly relevant to current work challenges"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers and management provide general support but rely on individual initiative for tool adoption",
+          "Often serves as the early adopter and influencer for tech choices in the organization",
+          "Management is receptive to new solutions if presented with clear security or efficiency benefits"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses firewall management software such as pfSense or Fortinet daily",
+          "Relies on antivirus and anti-malware tools like Malwarebytes and Windows Defender",
+          "Employs network monitoring tools such as Wireshark or Nagios",
+          "Manages web infrastructure using WordPress or similar CMS platforms",
+          "Accesses AI-powered detection systems for real-time threat analysis"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Configures and manages physical and virtual network appliances",
+          "Uses command-line utilities for system diagnostics and troubleshooting",
+          "Maintains documentation with tools like Microsoft OneNote or Google Docs",
+          "Performs backups using dedicated backup software solutions"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Familiar with SIEM (Security Information and Event Management) solutions such as Splunk",
+          "Understands VPN technologies and secure remote access protocols",
+          "Experienced with basic scripting (e.g., Bash, PowerShell) to automate tasks",
+          "Comfortable with web server administration and SSL/TLS encryption"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasional compatibility issues between legacy systems and modern security tools",
+          "Some manual steps required to integrate AI detection outputs with incident response logs",
+          "Limited resources mean some software integrations are handled with workarounds or scripts",
+          "Desires more seamless data flow between monitoring, reporting, and alerting platforms"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic AI/ML concepts such as supervised learning, anomaly detection, and neural networks",
+          "Comfortable discussing how AI can support cybersecurity through pattern recognition",
+          "Familiar with terms like 'predictive analysis', 'automated response', and 'natural language processing'",
+          "Regularly applies LLMs (Large Language Models) to work tasks"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses OpenAI's GPT (e.g., ChatGPT) for scripting, troubleshooting, and security policy drafting",
+          "Employs AI-powered threat detection modules in security platforms (e.g., CrowdStrike, SentinelOne)",
+          "Leverages AI chatbots for user support and routine IT queries",
+          "Utilizes Google Bard or similar LLMs for research and analysis"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies AI tools at least weekly for network threat detection and automated responses",
+          "Uses LLMs multiple times per week to generate code snippets and test scripts",
+          "Employs AI to analyze past incidents for predictive threat modeling",
+          "Relies on AI chatbots for basic troubleshooting and user FAQs"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used AI to flag and halt a brute-force login attempt in real time",
+          "AI-based anomaly detection once missed a low-profile phishing attempt, highlighting need for human oversight",
+          "Generated security documentation more efficiently with LLM assistance",
+          "Learned to always review AI output for accuracy and context before taking action"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Formal AI training is limited; relies on self-learning and online tutorials",
+          "Peers offer occasional tips, but primary knowledge comes from independent experimentation",
+          "Organization encourages AI adoption but lacks structured support or onboarding",
+          "Would benefit from more comprehensive AI-specific training resources"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers independent exploration of AI tools, learning by trial and error",
+          "Uses step-by-step AI support for complex or high-risk tasks",
+          "Comfortable toggling between independent and guided AI interaction as needed"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI tools as an assistant for routine tasks and data analysis",
+          "Relies on AI as an advisor for threat prediction and mitigation strategies",
+          "Considers AI a collaborative partner, especially for automating repetitive work"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to AI-driven process changes that improve efficiency or security",
+          "Advocates for piloting new AI tools if potential benefits are demonstrated",
+          "Sees AI workflows as a way to compensate for limited staff resources"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational AI interfaces (e.g., chatbots, LLMs) for research and documentation",
+          "Uses command-based interfaces for technical scripting and direct system control",
+          "Finds conversational UIs helpful for brainstorming and troubleshooting"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many tasks, such as interpreting subtle security alerts, require hands-on experience and intuition",
+          "Relies on domain-specific knowledge for assessing the credibility of AI-generated recommendations",
+          "User training and incident response benefit from human judgment and communication skills"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for initial detection and reporting, but always verifies before acting on critical alerts",
+          "Moderate trust in AI-generated documentation, with manual review for accuracy",
+          "Skeptical of fully automated responses in cases of ambiguous or complex threats"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle repetitive monitoring and data analysis",
+          "Believes human oversight is essential for incident response and user training",
+          "Supports a hybrid approach, with AI suggestions reviewed and confirmed by a human"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for routine, low-risk tasks (e.g., malware scans, basic log analysis)",
+          "Finds high automation threatening if it bypasses human review for critical incidents",
+          "Prefers transparent AI processes with clear override options"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Views AI as enhancing the value of technical and analytical skills",
+          "Believes soft skills (communication, judgment) remain crucial alongside AI tools",
+          "Sees emerging need for skills in AI oversight and prompt engineering"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing skills in configuring and maintaining AI-powered security systems",
+          "Learning to interpret and refine AI-generated reports and recommendations",
+          "Responsible for evaluating AI tool performance and identifying false positives/negatives"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Low concern about AI replacing the overall role, due to need for human oversight",
+          "Recognizes that AI may automate some routine tasks, freeing time for higher-level work",
+          "Monitors industry trends to stay prepared for future shifts in required skills"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Manual review is standard practice for all critical security incidents flagged by AI",
+          "Maintains direct access to system controls for intervention as needed",
+          "Configures AI tools to require human confirmation before executing high-impact actions"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has become more open to AI adoption over the past year",
+          "Policies now encourage experimentation with AI tools for efficiency and threat detection",
+          "Still lacks formal guidelines for AI oversight and ethical use"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will significantly improve threat detection and response times in cybersecurity",
+          "Sees potential for AI to reduce workload in understaffed IT teams",
+          "Acknowledges risks of misuse or overreliance on AI in critical infrastructure"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports ethical AI use with transparency, accountability, and human oversight",
+          "Concerned about data privacy and potential bias in AI-driven decisions",
+          "Advocates for clear policies on AI usage and data handling"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires more advanced AI tools for real-time, context-aware incident response",
+          "Would benefit from AI that learns organization-specific threats and adapts accordingly",
+          "Wants seamless integration of AI insights with existing security dashboards"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Anticipates spending more time overseeing automated systems and less on routine monitoring",
+          "Expects job to shift toward strategic planning, AI oversight, and user education",
+          "Believes demand for cybersecurity expertise will remain strong despite increased automation"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement structured AI training and onboarding for all tech-facing staff",
+          "Develop formal guidelines for AI use, oversight, and ethical considerations",
+          "Invest in AI tools that integrate smoothly with current security infrastructure",
+          "Encourage ongoing evaluation and updating of AI-driven processes to address evolving threats"
+        ]
+      }
+    ]
+  }
+]

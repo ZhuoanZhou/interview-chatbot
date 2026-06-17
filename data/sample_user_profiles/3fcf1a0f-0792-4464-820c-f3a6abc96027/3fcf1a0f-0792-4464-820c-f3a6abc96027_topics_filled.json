@@ -1,0 +1,505 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a high school diploma from a local public school.",
+          "Participated in elective business and economics classes during high school.",
+          "Completed on-the-job training provided by the employer for loan processing and compliance.",
+          "Attended several short courses on customer service and financial basics offered by a community training provider."
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title is 'Loan Officer.'",
+          "Responsible for guiding clients through loan applications and approval processes.",
+          "Works closely with underwriters, clients, and internal teams to gather required documentation.",
+          "Acts as the main point of contact for clients seeking personal or small business loans."
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the finance sector.",
+          "Specifically employed by a consumer banking institution.",
+          "Role is focused on lending and credit evaluation."
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a regional bank with approximately 100-300 employees.",
+          "Works within a branch office that has about 20 staff members.",
+          "Company culture emphasizes customer service and regulatory compliance."
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Works in the retail banking segment.",
+          "Handles personal loans, auto loans, and small business loans.",
+          "Serves primarily local community clients."
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 3-5 years of experience as a loan officer.",
+          "Started in the current role immediately after finishing high school.",
+          "Has worked exclusively at the current employer since entering the workforce."
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Considered an early-career professional.",
+          "Holds an individual contributor position (not in management).",
+          "Recognized internally as a reliable team member but not yet at a senior or supervisory level."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Meets daily with clients to discuss loan needs and explain available lending products.",
+          "Reviews and processes loan applications, including verifying income and credit history.",
+          "Coordinates with underwriters to ensure all documentation is complete and meets policy requirements.",
+          "Follows up with clients and internal teams to resolve outstanding questions and keep applications moving forward."
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 40% of time in direct client meetings and consultations.",
+          "Allocates about 30% of the day to reviewing applications and assessing risk.",
+          "Uses around 20% of work hours on follow-up communications and coordination.",
+          "Dedicates the remaining 10% to administrative work, training, and policy updates."
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has autonomy to recommend or decline standard loan applications based on established criteria.",
+          "More complex or borderline cases require escalation to a supervisor or senior underwriter.",
+          "Makes independent judgments on document completeness and initial risk assessment.",
+          "Limited authority to approve exceptions or override lending rules."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Client consultations and explaining loan options come naturally.",
+          "Comfortable processing straightforward loan applications with clear documentation.",
+          "Enjoys building rapport and trust during initial client meetings.",
+          "Efficient at conducting routine credit and background checks."
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Handling applications with incomplete or inconsistent documentation.",
+          "Assessing risk for clients with unusual financial situations.",
+          "Staying current on frequent changes in lending regulations and compliance.",
+          "Resolving disputes or difficult conversations about loan denials."
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Manual data entry from physical forms into the loan management system.",
+          "Routine credit checks and populating financial details.",
+          "Verifying standard documentation like pay stubs and tax returns.",
+          "Generating templated follow-up emails and reminders."
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Finds client interactions and successful loan approvals most fulfilling.",
+          "Enjoys problem-solving with clients to find the right loan product.",
+          "Views repetitive data entry and document verification as tedious.",
+          "Least enjoys administrative reporting and manual compliance checklists."
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Dealing with missing or incorrect client documentation slows down processing.",
+          "Manual entry of client data into multiple systems is time-consuming.",
+          "Waiting on responses from underwriters or other departments can cause delays.",
+          "Difficulty tracking status of multiple applications at once."
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Feels most productive when engaging directly with clients and solving their problems.",
+          "High skill and enjoyment in client-facing tasks leads to better outcomes and faster processing.",
+          "Tedious or repetitive tasks decrease motivation and can slow productivity.",
+          "Learning and using automation increases both enjoyment and efficiency."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open and positive about adopting new tech, especially if it streamlines work.",
+          "Frequently seeks out tips on using software more efficiently.",
+          "Enjoys experimenting with new tools to improve workflow."
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to updates in loan management systems and CRM platforms.",
+          "Regularly incorporates feedback from training into daily routines.",
+          "Comfortable troubleshooting minor issues with software independently."
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to spend several hours per month on online tutorials or webinars.",
+          "Prefers short, focused training sessions over lengthy seminars.",
+          "Sees value in training if it leads to tangible time savings in daily work."
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential to reduce manual workload and errors.",
+          "Sometimes hesitates to learn tools that seem unrelated to core responsibilities.",
+          "High workload periods can make it difficult to prioritize training.",
+          "Peer recommendations increase willingness to try new platforms."
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Frequently exchanges tech tips with colleagues during breaks.",
+          "Management encouragement or mandates significantly increase adoption rates.",
+          "More likely to try a new tool if a peer demonstrates success with it."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Encompass Loan Origination System for processing applications.",
+          "Relies on Salesforce CRM daily to manage client contacts and track interactions.",
+          "Accesses Experian or TransUnion platforms for credit checks.",
+          "Utilizes Microsoft Outlook for client communications and scheduling."
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Uses Excel to track and report on loan application status.",
+          "Handles physical paperwork with standard office equipment (scanners, printers).",
+          "Depends on telephone and in-person meetings for client consultations."
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient in using industry-specific LOS platforms like Encompass or Calyx.",
+          "Familiar with basic banking software for account verification.",
+          "Understands the use of digital signature platforms such as DocuSign."
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Sometimes faces challenges transferring data between LOS and CRM systems.",
+          "Manual entry needed when digital signatures do not auto-sync with loan files.",
+          "Occasional delays when credit check platforms do not directly integrate with loan origination software."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands the basics of large language models (LLMs) and their application.",
+          "Can explain terms like 'natural language processing,' 'automation,' and 'predictive analytics.'",
+          "Has learned about AI through online tutorials and professional webinars.",
+          "Familiar with AI\u2019s role in data extraction and document classification."
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT regularly to draft client emails and summarize documentation.",
+          "Employs built-in AI features in the LOS for document verification and flagging inconsistencies.",
+          "Experiments with Microsoft Copilot in Outlook for drafting and managing communications."
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs every week to generate customer correspondence and template responses.",
+          "Applies AI-powered document scanning tools to extract key financial data from client uploads.",
+          "Utilizes AI chatbots to answer common client questions after hours.",
+          "Employs predictive analytics in LOS to assess applicant risk profiles."
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI-generated summary emails have reduced time spent on client updates by 30%.",
+          "Once had to correct an AI-summarized document that missed a key financial detail.",
+          "AI chatbots have improved client satisfaction for routine inquiries but struggle with complex questions.",
+          "Learned to always double-check AI outputs before final submission to clients."
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company has provided short video tutorials on using AI features within core platforms.",
+          "Peers frequently share tips on prompt engineering and troubleshooting LLM responses.",
+          "No formal, in-depth AI training program exists yet, but informal support is common."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers a step-by-step approach when using AI to ensure accuracy in complex tasks.",
+          "Uses AI independently for routine drafting and summarization.",
+          "Appreciates guided workflows for unfamiliar or high-stakes processes."
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for automating repetitive or data-heavy tasks.",
+          "Relies on AI as an advisor for drafting client communications.",
+          "Considers AI outputs as suggestions, always performing a manual review before finalizing."
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to AI-driven workflows if they save time and reduce errors.",
+          "Willing to experiment with new AI features as they become available in current platforms.",
+          "Prefers gradual integration rather than sudden, large-scale changes."
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and drafting content.",
+          "Finds command-based interfaces more efficient for repetitive tasks.",
+          "Uses both styles depending on the complexity and context of the task."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Loan approvals often require understanding nuanced financial situations beyond standard rules.",
+          "Client interactions benefit from empathy and interpersonal skills not fully replicable by AI.",
+          "Risk assessment involves both quantitative data and qualitative judgment.",
+          "Certain exceptions and compliance issues require domain-specific intuition."
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for routine document processing and drafting but always verifies outputs.",
+          "Skeptical of AI making final loan approval decisions without human oversight.",
+          "Believes AI is reliable for flagging inconsistencies but not for interpreting complex cases."
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI to handle data extraction, document verification, and routine communications.",
+          "Human review is essential for final risk assessment and client consultations.",
+          "Envisions a workflow where AI acts as a first-pass filter, escalating complex cases to humans."
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Comfortable with full automation for back-end data checks and templated messaging.",
+          "Views high automation in client-facing negotiations or risk assessment as potentially risky.",
+          "Accepts automation as long as manual override and review options remain available."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances focus on relationship-building and advisory skills.",
+          "Routine data entry and documentation skills are becoming less critical due to automation.",
+          "Sees a growing need for digital literacy and AI prompt engineering in daily work."
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing expertise in AI tool configuration and customization.",
+          "Learning how to validate AI outputs and handle exceptions.",
+          "Taking on informal roles as a peer resource for troubleshooting AI-related issues."
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Not concerned about full role replacement due to the need for human judgment.",
+          "Anticipates some routine tasks will be phased out.",
+          "Watches industry trends to stay ahead of automation-related changes."
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All AI-generated outputs are reviewed by a human before being shared with clients.",
+          "Manual override options are available in most core platforms.",
+          "Underwriting decisions always require human sign-off, even if AI is used in analysis."
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Notices gradual increase in AI adoption and encouragement from management.",
+          "Policies now require documentation of AI use in key workflows.",
+          "Team discussions increasingly focus on balancing efficiency with compliance and client service."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will drive significant efficiency gains in banking.",
+          "Expects AI to make financial services more accessible to underserved clients.",
+          "Recognizes potential risks of bias and over-reliance on automation.",
+          "Sees opportunity for new job roles centered on AI oversight and ethics."
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports strict data privacy and transparency standards for AI use.",
+          "Worries about potential for AI to introduce or amplify bias in lending decisions.",
+          "Believes in the necessity of human oversight for all critical decisions.",
+          "Ethical use of AI is a regular discussion point in team meetings."
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Would benefit from AI tools that can automatically reconcile conflicting documents.",
+          "Desires smarter AI that can flag nuanced compliance risks, not just standard errors.",
+          "Wants seamless integration between all platforms to eliminate duplicate data entry.",
+          "Hopes for more intuitive AI-powered client communication assistants."
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects to spend less time on manual paperwork and more on client advisory roles.",
+          "Anticipates AI will take over most standard application processing within five years.",
+          "Sees future loan officers focusing on complex cases and personalized financial planning."
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Advocates for structured AI training programs for all staff.",
+          "Recommends regular reviews of AI-driven processes for fairness and accuracy.",
+          "Supports the creation of an internal AI advisory group with cross-functional representation.",
+          "Wants clear guidelines on human oversight and escalation procedures."
+        ]
+      }
+    ]
+  }
+]

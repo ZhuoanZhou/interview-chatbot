@@ -1,0 +1,512 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor\u2019s Degree in Library and Information Science",
+          "Completed coursework in cataloging, reference services, and collection development",
+          "Participated in hands-on practicum at a local public library during final year",
+          "Attended workshops on digital resources and emerging library technologies"
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Librarian and Media Collections Specialist",
+          "Responsible for assisting patrons, managing collections, and supporting digital resources",
+          "Role involves event planning, community outreach, and administrative duties",
+          "Acts as a technology point person for troubleshooting and digital literacy support"
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the library and information services sector",
+          "Sector includes public libraries, educational institutions, and community centers",
+          "Industry focus on resource management, information access, and community engagement"
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a mid-sized public library serving a population of approximately 30,000",
+          "Library staff comprises about 20 full-time and part-time employees",
+          "Work environment is collaborative with a mix of individual and team tasks",
+          "Library supports a diverse patron community with varying information needs"
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Operates in the public library segment within the nonprofit sector",
+          "Focuses on information access, digital literacy, and community programming",
+          "Serves a broad demographic, including students, seniors, and working professionals"
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 3-5 years of professional experience as a librarian",
+          "Started in an entry-level librarian position and progressed to media collections specialist",
+          "Gained experience in both front-line patron service and behind-the-scenes operations"
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds an early-career, but not entry-level, librarian position",
+          "Considered a junior to mid-level professional within the organization",
+          "Supervises volunteers and occasionally mentors new hires or interns"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Answers patron questions and provides research assistance at the reference desk",
+          "Manages circulation duties including check-in, check-out, and handling overdue items",
+          "Selects and orders new materials for the collection, based on community needs",
+          "Catalogs and classifies new acquisitions for easy access and retrieval",
+          "Organizes and promotes library programs for different age groups"
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends approximately 35% of time assisting patrons",
+          "Circulation and collection maintenance account for about 30%",
+          "Cataloging and acquisitions comprise 15% of weekly hours",
+          "Program planning and community outreach make up 10-15%",
+          "Administrative tasks (budgeting, reporting) take up the remaining 5-10%"
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Has autonomy to recommend and select materials within set budget parameters",
+          "Makes independent decisions on cataloging, classification, and shelving",
+          "Follows established policies for circulation but can resolve minor patron disputes",
+          "Collaborates with supervisors on major programming or policy changes"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Assisting patrons with locating materials and basic research questions",
+          "Processing check-ins and check-outs using the ILS system",
+          "Shelving books and maintaining order in the stacks",
+          "Helping patrons with simple technology issues, like printing"
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Cataloging unique or foreign-language materials requiring detailed subject analysis",
+          "Troubleshooting technical issues with digital library platforms",
+          "Managing budget allocations and justifying collection development choices",
+          "Planning events for new or underserved community segments"
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Data entry for new catalog records and item barcoding",
+          "Routine inventory checks and shelf-reading for misplaced items",
+          "Processing overdue notices and routine holds management",
+          "Standardized reporting of circulation statistics for monthly reports"
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys conducting one-on-one research consultations with patrons",
+          "Finds program planning and community partnerships personally rewarding",
+          "Considers repetitive data entry and shelf-reading to be tedious",
+          "Prefers technology troubleshooting over administrative paperwork"
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual cataloging can be time-consuming for large acquisitions",
+          "ILS software occasionally experiences slowdowns affecting circulation speed",
+          "Lack of integration between digital resource platforms leads to duplicate work",
+          "Managing multiple communication channels for program promotion can be cumbersome"
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Higher enjoyment is linked with tasks that involve direct patron interaction",
+          "Feels most productive when balancing routine tasks with creative programming",
+          "Skill level is highest in areas with frequent practice, like circulation",
+          "Challenging tasks are more engaging when opportunities for skill growth exist"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally positive and open to experimenting with new library technologies",
+          "Views tech learning as part of professional development",
+          "Enjoys exploring new features that enhance patron experience",
+          "Occasionally feels overwhelmed by the rapid pace of tech updates"
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to core updates in ILS and digital library platforms",
+          "Requires some initial guidance for complex system migrations",
+          "Prefers hands-on learning and real-world examples over manuals",
+          "Finds peer support helpful when learning new software"
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate a few hours per month for tech workshops or webinars",
+          "Prioritizes training that is relevant to current or upcoming job responsibilities",
+          "More likely to participate in training if it offers practical, immediate benefits"
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential to improve efficiency and patron service",
+          "Busy periods (e.g., summer reading, school year start) can limit training time",
+          "Prefers learning tools that address clear workflow gaps",
+          "Occasionally hesitant if new tech seems tangential to core duties"
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers\u2019 positive experiences encourage adoption of new tools",
+          "Management endorsement increases motivation to complete tech training",
+          "Collaborative culture means tech adoption is often discussed as a team",
+          "Shares discoveries about useful features with colleagues"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Koha ILS for cataloging, circulation, and acquisitions processes",
+          "Accesses EBSCO Discovery Service for enhanced patron searches",
+          "Utilizes OCLC WorldShare ILL for interlibrary loan requests",
+          "Employs Zotero for reference management and citation support"
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Barcode scanners for item check-in and check-out",
+          "Label printers for cataloging and shelving",
+          "Standard office suite (word processor, spreadsheet) for reports and documentation",
+          "Physical repair kits for book maintenance"
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Experienced with major ILS platforms, including Koha and Alma",
+          "Comfortable navigating digital library software like DSpace",
+          "Understands basics of ERM systems for managing e-resource licenses",
+          "Familiar with popular discovery layers and their features"
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally encounters issues syncing ILS with digital repository systems",
+          "Discovery layer updates sometimes lag behind catalog changes",
+          "Manual data entry is required when moving records between platforms",
+          "Limited integration between reference management tools and library OPAC"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic concepts such as natural language processing and machine learning",
+          "Familiar with terminology like 'large language models', 'recommendation systems', and 'chatbots'",
+          "Learned foundational AI concepts through webinars and professional reading"
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Occasionally uses OpenAI\u2019s ChatGPT for drafting program descriptions and summarizing materials",
+          "Explored EBSCO\u2019s AI-driven resource recommendation features",
+          "Tested automated subject tagging tools integrated within the ILS"
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs a few times per month, mainly for creating resource guides or quick content summaries",
+          "Occasionally leverages AI features for keyword expansion in cataloging",
+          "AI chatbots are sometimes used to answer routine patron queries after hours"
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "AI-generated summaries saved time during a large weeding project",
+          "Found that AI recommendations sometimes miss local context, requiring manual review",
+          "Chatbot failed to address a nuanced research question, highlighting need for human oversight",
+          "AI subject tagging reduced data entry errors but occasionally misclassified niche materials"
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Organization has offered introductory AI webinars and resource guides",
+          "Peers share tips on AI tool use during regular staff meetings",
+          "Access to online tutorials and documentation provided by library consortia"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI tools for complex cataloging tasks",
+          "Uses AI independently for drafting summaries or quick content checks",
+          "Appreciates when AI allows for human intervention at key decision points"
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant that augments routine tasks",
+          "Relies on AI as an advisor for basic recommendations, but not for final decisions",
+          "Occasionally treats AI as a co-worker when collaborating on large projects (e.g., inventory)"
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to experimenting with new AI-driven processes, especially for repetitive tasks",
+          "Prefers gradual integration of AI into existing workflows",
+          "Seeks clear documentation and examples before adopting new AI-driven tools"
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Finds conversational interfaces more intuitive for research and patron interactions",
+          "Uses command-based tools for batch processing or cataloging tasks",
+          "Believes conversational AI can improve accessibility for less tech-savvy patrons"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Reference and research consultations require deep understanding of resources",
+          "Collection development decisions draw on local community knowledge",
+          "Subject classification often hinges on nuanced interpretation",
+          "Routine tasks (e.g., circulation) require less tacit knowledge"
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for basic cataloging suggestions and content summaries",
+          "Maintains skepticism about AI handling sensitive or complex patron needs",
+          "Requires human validation for AI-generated recommendations and subject headings"
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI automation for repetitive or data-heavy processes (e.g., batch cataloging)",
+          "Believes human oversight is essential for final decision-making and nuanced tasks",
+          "Supports a hybrid model where AI provides options but humans select the best fit"
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for inventory tracking and overdue notifications",
+          "Feels automation is threatening if it bypasses patron privacy safeguards",
+          "Resists full automation for tasks involving ethical or community-sensitive decisions",
+          "Supports automation if robust override mechanisms are available"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the importance of critical thinking and information literacy skills",
+          "Routine data entry skills may become less relevant as automation increases",
+          "Communication and community engagement skills remain vital despite AI adoption"
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing skills in prompt engineering for effective AI interactions",
+          "Becoming proficient in evaluating AI-generated metadata and summaries",
+          "Assuming responsibility for training patrons and colleagues in AI tool use"
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mildly concerned about AI automating repetitive cataloging or circulation functions",
+          "Believes core librarian tasks requiring empathy and judgment are less at risk",
+          "Views AI as more likely to shift job focus rather than eliminate roles entirely"
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Manual review is standard for AI-generated catalog records",
+          "Patron-facing AI systems include human escalation options",
+          "ILS and digital platforms allow edits to AI-suggested data before publishing"
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Organization encourages pilot projects to test new AI features",
+          "Policies emphasize transparency and human oversight in AI use",
+          "Ongoing discussions about data privacy and ethical AI deployment"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Optimistic about AI expanding access to information and personalizing learning",
+          "Acknowledges potential for AI to widen digital divides if not implemented thoughtfully",
+          "Believes AI can free up librarians for higher-value services"
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Cautious about AI\u2019s effect on patron privacy and data security",
+          "Supports transparent, explainable AI decision-making processes",
+          "Believes in maintaining human accountability for critical decisions"
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires AI-driven catalog cleanup tools to identify and correct legacy errors",
+          "Wishes for more robust AI-powered personalized learning recommendations",
+          "Would benefit from AI capable of nuanced multilingual subject classification",
+          "Sees value in AI that can automate inventory and physical item location"
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Anticipates more time spent on digital literacy and AI tool training for patrons",
+          "Expects routine cataloging and reporting to become highly automated",
+          "Foresees a shift toward curating digital collections and guiding research in complex areas",
+          "Believes new roles will emerge around AI oversight and ethical information management"
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Develop clear policies on ethical AI use and patron privacy",
+          "Invest in ongoing staff training and upskilling for AI technologies",
+          "Pilot and assess new AI tools before wider rollout",
+          "Foster open communication about AI\u2019s impact on workflows and job roles"
+        ]
+      }
+    ]
+  }
+]

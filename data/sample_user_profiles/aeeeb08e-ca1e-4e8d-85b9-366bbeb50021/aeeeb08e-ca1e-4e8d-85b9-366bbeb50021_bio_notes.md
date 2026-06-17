@@ -1,0 +1,206 @@
+# Biographical Notes
+
+- Expects increased productivity and shorter project timelines due to automation
+- Physical blueprints for on-site reference
+- Siloed data between AutoCAD, Excel, and Word complicates workflow
+- Initial drafting of proposal templates is suitable for automation
+- Has experimented with Microsoft Copilot within Office applications
+- Sees potential for AI to improve safety and quality monitoring on sites
+- Owns a vintage camera collection and occasionally hosts ‘photo walks’ for colleagues interested in urban photography.
+- Prefers AI to handle repetitive and data-heavy workloads
+- Maintains version control for both AI-generated and human-edited drafts
+- Actively seeks out digital solutions for repetitive tasks
+- Has a secret stash of artisanal hot sauces used to spice up ordinary office lunches with a punch.
+- Uses independent AI output for routine or template-based tasks
+- Collects vintage coffee mugs from every city visited on business trips, proudly displaying them in the office kitchen.
+- Team culture encourages responsible experimentation with new AI technologies
+- Uses LLM-based AI tools daily for proposal drafting and report editing
+- Uses AutoCAD for project design and layout planning
+- On-site supervision and team management come most naturally
+- Coordinates with design teams using AutoCAD for project layouts
+- Once built a rooftop garden with donated plants to create a green space for office workers to unwind during breaks.
+- Familiar with project scheduling software like Microsoft Project
+- Employed at a mid-sized real estate development firm
+- Drafting standard project reports and proposals is routine
+- Progressed from a junior project manager to current senior management position
+- Finds solving on-the-spot construction issues engaging
+- Routine documentation and data analysis likely to be fully automated
+- Peers who successfully implement new tech increase personal interest
+- Organizational environment is project-driven with multiple active construction sites
+- Site supervision and quality assessment require significant domain expertise
+- Allocates 25% to data computation and analysis
+- Occasionally sneaks in miniature Lego builds on the desk as conversation starters during slow afternoons.
+- Works in the real estate development industry
+- Manual transfer of data from design files to Excel is required
+- Holds a senior career position as a systems manager
+- Manual measuring devices (e.g., tape measures, laser distance meters) for site inspections
+- Job title: Quality Control Systems Manager
+- Desires AI-driven dashboards for real-time project status updates
+- AI-generated draft proposals have reduced writing time by over 30%
+- Conducts manual data computation and analysis using Excel
+- Runs a small blog featuring quirky stories and trivia about architecture and historical buildings encountered during travels.
+- Holds a Master’s Degree in Construction Management
+- Wears a signature lucky hat during site visits that’s been with them through every major project milestone.
+- Enjoys brewing small batches of craft beer at home, experimenting with unusual flavors like hibiscus or smoked malt.
+- Participates in local theater productions, often playing roles unrelated to construction or engineering to unwind creatively.
+- Targets both middle-income and premium market segments
+- Uses command-based prompts for structured data analysis
+- Developing prompt engineering skills for optimal AI use
+- Sees full automation of site supervision as risky due to safety concerns
+- Company staff includes approximately 50-100 employees
+- LLMs occasionally make factual errors in technical sections, requiring manual correction
+- Not concerned about AI replacing site supervision or client relations
+- Analyzing large, multi-source datasets in Excel can be time-consuming
+- Team discussions often include sharing experiences with new tools
+- Specializes in the development of residential housing and office spaces
+- Keeps a miniature zen garden on the desk to smooth out stressful days with a quick five-minute rake session.
+- Supports equitable access to AI tools for all team members
+- Always reviews and edits AI outputs before finalization
+- Self-taught through online AI tool documentation and tutorials
+- Views AI primarily as an assistant for drafting and data analysis
+- Manual override is standard policy for all critical documents
+- Finds hybrid interfaces (mix of conversation and commands) most versatile
+- Volunteers monthly at a local animal shelter and occasionally brings photos of the newest furry friends to the office.
+- Comfortable transitioning between different types of software (e.g., AutoCAD, Excel, Word)
+- Proposal customization often relies on tacit understanding of client needs
+- Drafts project proposals and reports using MS Word
+- Open to experimenting with AI tools in workflow
+- Repetitive, low-skill tasks reduce motivation and can slow overall output
+- Is an avid amateur photographer, often sharing stunning sunset photos from various weekend hikes.
+- Sees data analysis skills evolving to include AI-assisted techniques
+- Aware of cloud-based document management platforms common in real estate
+- Has a whiteboard dedicated solely to tracking personal goals, from running marathons to reading classic novels.
+- Responsible for approving final project quality before client handover
+- Wishes for seamless integration between AutoCAD, Excel, and Word via AI
+- Has a desk plant named Gerald who ‘receives’ daily motivational talks to boost office morale.
+- Spends roughly 40% of time supervising site operations
+- Employs ChatGPT for drafting and editing proposals
+- Has a habit of sketching floor plans or building layouts in free moments just for fun, filling several notebooks.
+- Devotes 20% to drafting proposals and client communications
+- Believes AI will streamline administrative and reporting tasks industry-wide
+- Focuses specifically on residential housing and office building projects
+- Prefers conversational interfaces for drafting and brainstorming
+- Switching between AutoCAD, Excel, and Word disrupts workflow
+- Has a habit of doodling small cartoons on every meeting note, some of which have been framed and displayed around the office.
+- Keeps a collection of quirky rubber ducks on the desk, each named after a famous engineer, for debugging inspiration.
+- Managing unexpected site delays or contractor disputes is challenging
+- Occasional miscommunication between team members leads to rework
+- Discovered that AI struggles with highly customized or nuanced project details
+- Understands basic concepts such as language models and automation
+- Believes that transparent AI usage policies are essential
+- Business model includes both new builds and redevelopment projects
+- Sees AI as a tool for augmentation, not replacement
+- Is a self-taught magician and performs simple card tricks to break the ice at company parties.
+- Attends online tutorials and webinars for relevant software updates
+- Envisions a workflow where AI drafts and humans finalize
+- Insists on human oversight for quality checks and client-facing proposals
+- Motivated by the prospect of automating repetitive tasks
+- Willing to dedicate time for training if the tool offers clear productivity benefits
+- Joined current company 7 years ago
+- Enjoys collaborating with design team on new layouts
+- Comfortable using Excel for straightforward data entry and analysis
+- Keeps a playlist of classic rock and 80s pop tunes that plays softly during afternoon work sessions.
+- Adjusts interaction style based on task complexity and required oversight
+- Celebrates each project completion by trying out a new dessert recipe and sharing it with the team.
+- Has successfully integrated LLMs into daily work processes
+- Has a tradition of gifting custom-made bookmarks featuring architectural sketches to close colleagues.
+- Generating routine quality control reports could be automated
+- Drafts proposals and reports using Microsoft Word
+- Foresees increased use of AI for risk assessment and predictive analytics
+- Would find automation threatening if it bypassed essential quality checks
+- Integrating complex design changes into ongoing projects requires careful coordination
+- Completed undergraduate studies in Civil Engineering
+- Company is gradually increasing support for AI tools in documentation
+- Smartphones for team communication and coordination
+- Most enjoys site visits and direct interaction with teams
+- No formal company-wide AI training program yet implemented
+- Establish clear guidelines and oversight procedures for AI use
+- Management support for tech adoption encourages experimentation
+- Manual data computation and spreadsheet entry are highly repetitive
+- Responsible for ensuring the quality and timely delivery of residential housing and office developments
+- Actively seeks AI solutions for repetitive and data-heavy tasks
+- Commutes by bicycle year-round, including through snowy winter mornings, wearing a reflective neon jacket for safety.
+- Maintains a standing desk that hasn’t been lowered even once since it was set up three years ago.
+- Decorated the office space with posters from tech conferences dating back to the 1990s, creating a retro tech vibe.
+- Has 6-10 years of experience in quality control and project management roles
+- Believes AI enhances efficiency but does not replace core construction expertise
+- Consults with senior leadership for major project changes or investments
+- Takes part in an annual charity run dressed as a construction worker to raise funds for building homes for those in need.
+- Reviews all AI-generated outputs for technical accuracy
+- Informal peer-to-peer knowledge sharing is common for AI tool tips
+- Invest in integrated AI solutions for design and reporting
+- Trusts AI for drafting standard documents and summarizing text
+- Generally positive towards adopting new technologies that enhance efficiency
+- Policies require human oversight for all client-facing outputs
+- Empowered to make decisions on workflow adjustments and resource allocation
+- Once built a full-sized treehouse with friends, which now serves as a weekend getaway spot.
+- Views communication and client management skills as increasingly important
+- Expecting shift toward more strategic and supervisory functions
+- Uses OpenAI’s GPT models regularly for text generation
+- Learning to interpret and validate AI-generated data
+- Has a collection of over 50 different kinds of teas and brews a fresh pot every afternoon for the team.
+- Proficient in AutoCAD and Microsoft Office Suite
+- Directly oversees multiple teams and junior staff
+- Very open to adopting AI-driven processes that reduce manual work
+- Relies on Microsoft Excel for data computation and analysis
+- Enjoyment and skill level are closely linked for site management tasks
+- Ensuring proposals meet unique client specifications demands extra attention
+- Practices yoga every morning before work to help maintain focus and reduce tension during busy days.
+- Owns a vintage typewriter inherited from a grandparent, which is kept as a nostalgic desk ornament.
+- Accepts high automation for reporting, provided manual review is possible
+- Routine data computation can be standardized with minimal specialized input
+- Occasionally treats AI as a co-worker for brainstorming proposal ideas
+- Is a competitive board game player, often organizing after-work game nights featuring strategic classics like Settlers of Catan.
+- Learned that prompt specificity greatly improves AI output quality
+- Regularly liaises with clients to understand project requirements and expectations
+- Can explain how LLMs generate text and analyze data
+- Has a collection of quirky enamel pins related to engineering, construction, and quality control to brighten up jackets and backpacks.
+- Considers self adaptable and quick to learn new software
+- Implement formal AI training programs for staff
+- Occasionally uses AI to generate client communication templates
+- Compiling progress statistics for multiple sites is data-heavy
+- Brings homemade cookies to team meetings every Friday, often experimenting with unusual flavors like rosemary lemon or matcha.
+- Familiar with terminology like prompt engineering and AI-assisted drafting
+- Keeps a ‘gratitude jar’ in the office where team members drop notes of appreciation for one another.
+- Quickly identifies quality issues during site walkthroughs
+- Manual data computation in Excel is time-intensive and prone to error
+- More likely to invest in learning tech with immediate job relevance
+- Is working on a personal project to write a children’s book inspired by construction site adventures.
+- Never starts lunch before exactly 12:30 PM, a habit that coworkers now follow out of respect (or superstition).
+- Productivity is highest when engaged in team supervision and problem-solving
+- Oversees project timelines and monitors progress against milestones
+- Enjoys baking bread from scratch and often shares fresh loaves on Monday mornings for a carb boost.
+- Applies AI for summarizing project documentation
+- Supervises on-site workers to ensure adherence to quality standards
+- Willing to pilot new AI features as they become available
+- Has an impressive collection of novelty ties featuring city skylines, construction motifs, and safety gear icons.
+- Has a small aquarium on the windowsill with brightly colored fish named after famous city landmarks.
+- Heavy project workload can limit time available for training
+- Relies on personal expertise for final reviews and quality checks
+- Has attended several professional development workshops on quality control and real estate development
+- Keeps a stress ball shaped like a hard hat within arm’s reach during long conference calls.
+- Encourages team members to upskill in new software
+- Learning new tools that improve workflow increases both enjoyment and productivity
+- Regularly consults LLM-based AI tools for text generation and editing
+- Prefers step-by-step collaboration with AI for complex tasks
+- Considers repetitive data entry and basic report writing tedious
+- Would benefit from AI that can analyze site photos for quality control
+- Taking on a more strategic role in integrating AI into workflows
+- Limited automation between proposal templates and data analysis outputs
+- Participated in industry seminars focused on residential project management
+- Recognizes risk of automation in basic data entry and reporting tasks
+- Operates within the construction and property management sector
+- Hosts an annual chili cook-off during the winter holidays, inviting colleagues to showcase their best recipes.
+- Has significant autonomy in day-to-day site supervision and quality enforcement
+- Involved in high-level decision-making regarding project quality and delivery
+- Enjoys making custom playlists for different moods and shares them with the team to brighten office days.
+- Wears mismatched socks deliberately as a quirky tradition believed to bring creative problem-solving vibes.
+- Acts as the primary supervisor for on-site construction teams
+- Learned to play the ukulele during the pandemic and occasionally serenades the team during lunch breaks.
+- Keeps a hidden stash of stress-relief squeeze toys with construction themes, like miniature cranes and bulldozers.
+- Organizes a monthly book club for coworkers, with a rotating theme—most recently focused on sci-fi thrillers.
+- Lack of integration between design and reporting tools creates bottlenecks
+- Keeps a rotating gallery of postcards from international trips above the monitor as a reminder of exploration.
+- Does not rely solely on AI for final project decisions or client communication
+- Emphasizes the importance of human oversight to prevent critical errors
+- Uses remaining 15% for meetings, coordination, and administrative tasks

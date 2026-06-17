@@ -1,0 +1,535 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Master\u2019s Degree completed at age 18, indicating accelerated academic progress.",
+          "Master's degree field is likely in finance, economics, or business, aligning with investment fund management.",
+          "Has undertaken coursework in investment analysis, portfolio management, and financial markets.",
+          "Participated in university projects or internships related to venture capital or startup evaluation.",
+          "No mention of professional certifications yet, consistent with early career stage."
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Investment Fund Manager (entry-level).",
+          "Role focuses on sourcing high-quality startup projects for potential investment.",
+          "Frequently communicates with entrepreneurs to explain investment criteria and processes.",
+          "Responsible for preparing industry research reports and staying informed on technology trends.",
+          "Coordinates with internal and external stakeholders via digital platforms."
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the finance sector, with a specialization in venture capital and investment management.",
+          "Focuses on sourcing and evaluating startups, primarily within the technology sector.",
+          "Industry role bridges finance and technology, requiring awareness of both markets.",
+          "Engages with entrepreneurs and startup founders, often in early-stage tech ventures."
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works at a small-to-mid-sized investment fund, typical for early-career fund managers.",
+          "Company environment is fast-paced and collaborative, reflecting the startup-focused investment space.",
+          "Team structure likely involves close interaction with a handful of senior managers and analysts.",
+          "Remote and digital communication are integral, utilizing platforms like Feishu, WeChat, and LinkedIn."
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Business operates as a venture capital or private equity fund.",
+          "Focuses on early-stage and growth-stage startup investments, primarily in technology.",
+          "Market segment emphasizes high-growth, innovative companies.",
+          "Regularly assesses market trends and emerging technologies for investment opportunities."
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has less than 1 year of experience in the current investment fund manager role.",
+          "Started the role immediately after completing a Master\u2019s degree.",
+          "Rapid transition from education to professional investment work.",
+          "Brings fresh academic insights but is still developing practical industry expertise."
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds an entry-level professional position within the investment fund.",
+          "Acts under guidance from more senior fund managers and partners.",
+          "Role provides significant learning and exposure to industry best practices.",
+          "Expected to rapidly build expertise and take on greater responsibility over time."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Sources and screens startup projects for potential investment (majority of daily workload).",
+          "Communicates investment processes and criteria to entrepreneurs via digital channels.",
+          "Conducts in-depth industry research, particularly in the technology sector.",
+          "Prepares and writes research reports to inform fund decision-makers.",
+          "Coordinates with team members and maintains communication records using Feishu."
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Devotes approximately 75% of time to sourcing projects and explaining investment matters.",
+          "Spends about 25% of time on industry research and report writing.",
+          "Regularly balances inbound startup pitches with proactive market scouting.",
+          "Splits communication tasks between entrepreneurs (external) and colleagues (internal)."
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates with moderate autonomy in initial project sourcing and screening.",
+          "Final investment decisions are made by senior managers or investment committee.",
+          "Independently manages day-to-day communication with entrepreneurs.",
+          "Relies on guidance for complex evaluations or high-value investment opportunities."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Quickly identifies promising startup projects using established screening criteria.",
+          "Efficient at digital communication with entrepreneurs via WeChat and Feishu.",
+          "Comfortable navigating LinkedIn to expand professional network.",
+          "Finds it straightforward to summarize basic industry news for internal reports."
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Evaluating startups with complex or unfamiliar business models requires extra effort.",
+          "Writing detailed, in-depth industry research reports can be time-consuming.",
+          "Assessing founder credibility and potential for success is nuanced and difficult.",
+          "Synthesizing large volumes of market data into actionable insights poses challenges."
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Initial data gathering on startups (e.g., scraping basic information) is highly repetitive.",
+          "Compiling lists and basic profiles of market competitors can be automated.",
+          "Routine formatting and updating of industry reports is data-heavy and suitable for AI tools.",
+          "Filtering inbound startup inquiries for relevance could be delegated to automation."
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Most enjoys direct conversations with passionate entrepreneurs.",
+          "Finds researching new technology trends intellectually stimulating.",
+          "Feels bored by manual data entry and report formatting.",
+          "Tedious tasks include chasing down missing information from applicants."
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual collation of startup data from multiple sources is time-consuming.",
+          "Information silos across different communication platforms can cause delays.",
+          "Occasional duplication of work due to lack of integration between Feishu and LinkedIn.",
+          "Difficulty in quickly validating self-reported data from entrepreneurs."
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Productivity is highest when working on tasks that are both enjoyable and well-practiced, such as networking online.",
+          "Skill level in digital research and communication directly increases task enjoyment.",
+          "Repetitive, low-skill tasks are less enjoyable and tend to be completed less efficiently.",
+          "Challenging tasks are more enjoyable when they align with personal learning goals."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Enthusiastic about adopting the latest digital tools, especially AI/LLM platforms.",
+          "Views technology learning as essential for career advancement in finance.",
+          "Regularly experiments with new productivity apps and research tools.",
+          "Actively seeks out best practices for using communication platforms."
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts quickly to new software, given regular exposure throughout education and early career.",
+          "Comfortable with frequent updates or changes to existing work platforms.",
+          "Able to troubleshoot basic issues with digital tools independently.",
+          "Shows resilience in overcoming initial learning curves."
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate time outside of work hours for self-guided training on AI and research tools.",
+          "Participates in webinars and online tutorials relevant to investment and tech.",
+          "Prefers concise, actionable training materials over lengthy manuals.",
+          "Open to peer-led training sessions for new internal tools."
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential for increased efficiency and accuracy in work.",
+          "Seeks to maintain a competitive edge by staying updated on technology.",
+          "Heavy workload can occasionally delay deep dives into unfamiliar tools.",
+          "Relevance to daily tasks is a key factor in prioritizing which technologies to learn."
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers who champion new tech inspire quicker adoption.",
+          "Positive management attitudes toward innovation encourage experimentation.",
+          "Team discussions about tool effectiveness influence individual adoption decisions.",
+          "Management provides recommendations for AI tools to streamline workflow."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Feishu (Lark) as the primary platform for internal communication and document collaboration.",
+          "WeChat is used extensively for external communication with entrepreneurs.",
+          "Leverages LinkedIn for professional networking and sourcing potential startup founders.",
+          "Utilizes AI-driven language models (LLMs) for research and report drafting."
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on Feishu for task management and process tracking.",
+          "Uses WeChat for real-time messaging and voice calls with startup founders.",
+          "Employs LinkedIn to keep abreast of industry trends and make new connections.",
+          "May use spreadsheet software (e.g., Excel) for basic data analysis."
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Familiar with CRM systems commonly used in investment management, though not the primary tool.",
+          "Understands the basics of data rooms and secure document sharing platforms.",
+          "Has been exposed to financial modeling tools during academic training.",
+          "Comfortable with widely-used communication and collaboration platforms."
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Lack of seamless integration between Feishu, WeChat, and LinkedIn creates workflow friction.",
+          "Must manually transfer data between platforms for comprehensive project tracking.",
+          "Occasional challenges synchronizing contact information or conversation histories.",
+          "AI tools may not directly integrate with all communication platforms, requiring copy-paste workflows."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic concepts such as natural language processing, machine learning, and prompt engineering.",
+          "Regularly uses terminology like 'LLM,' 'fine-tuning,' and 'knowledge graph' when discussing AI tools.",
+          "Able to explain how LLMs are trained and their limitations in generating factual content.",
+          "Has explored prompt optimization for more accurate research outputs."
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Uses ChatGPT or similar LLM platforms for drafting research reports.",
+          "Employs Feishu's built-in AI features for meeting summaries and document editing.",
+          "Occasionally tests new AI-driven tools suggested by colleagues, such as Notion AI or Perplexity.",
+          "May use language translation AI for cross-border communications."
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Applies AI tools daily for research, summarization, and report drafting.",
+          "Uses LLMs to generate executive summaries and investment memos.",
+          "Relies on AI for quickly extracting market trends from large datasets.",
+          "Employs AI-driven chatbots to automate initial screening of startup applications."
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used LLMs to produce a comprehensive industry research report in record time.",
+          "Noted that AI-generated summaries occasionally missed nuanced insights, requiring manual review.",
+          "Experienced minor factual inaccuracies in AI outputs, leading to stricter verification processes.",
+          "Learned to iterate on prompts for more relevant and accurate AI responses."
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Relies primarily on self-guided learning and online resources to develop AI skills.",
+          "Peers occasionally share tips and effective prompts in team chats.",
+          "No formal internal AI training program yet, consistent with small company environment.",
+          "Management supports professional development but has not mandated AI certification."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration with AI tools when tackling complex research tasks.",
+          "Uses LLMs independently for quick queries and routine report drafts.",
+          "Iterative feedback loop between human and AI is favored for refining outputs.",
+          "Adjusts interaction style based on task complexity and urgency."
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for data processing and report writing.",
+          "Treats LLMs as a research advisor when exploring new market segments.",
+          "Occasionally uses AI as a co-worker to brainstorm investment criteria.",
+          "Sees human judgment as the final authority on important decisions."
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Highly open to experimenting with new AI workflows to improve efficiency.",
+          "Actively seeks ways to delegate repetitive tasks to automation.",
+          "Open-minded about integrating AI into communication platforms.",
+          "Prefers to pilot new workflows before full adoption."
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for brainstorming and exploratory research.",
+          "Uses command-based prompts for structured tasks, such as report formatting.",
+          "Finds natural language queries more intuitive for complex information retrieval.",
+          "Enjoys blended interfaces that allow both conversational and direct commands."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Startup evaluation often depends on nuanced market understanding not easily replicated by AI.",
+          "Assessing founder credibility and team dynamics requires tacit knowledge.",
+          "Some financial modeling tasks are standardized; others are highly context-dependent.",
+          "Relies on human judgment for final investment recommendations."
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for initial drafts and data aggregation, but always reviews outputs.",
+          "AI-generated insights are considered a starting point rather than final authority.",
+          "Critical investment decisions are never made solely based on AI recommendations.",
+          "Trust increases with transparent AI processes and clear source attribution."
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers high automation for data collection and basic report writing.",
+          "Favors human-led analysis and decision-making for investment evaluations.",
+          "Sees optimal workflow as human-AI collaboration, blending speed and expertise.",
+          "Wants to automate repetitive tasks to free up time for high-value work."
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for non-critical, repetitive, or data-heavy tasks.",
+          "Would find automation threatening if it compromised decision transparency.",
+          "Maintains manual checks for tasks with financial or reputational risk.",
+          "Supports automation that enhances, not replaces, human expertise."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the value of analytical and critical thinking skills.",
+          "Routine research and data entry skills are becoming less critical due to automation.",
+          "Communication and relationship-building remain essential and irreplaceable.",
+          "Sees a shift toward skills in prompt engineering and AI oversight."
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Prompt engineering and effective AI tool usage are new core competencies.",
+          "Responsible for validating and contextualizing AI-generated content.",
+          "Needs to understand data privacy and ethical considerations in AI deployment.",
+          "Developing skills in integrating AI with traditional research methodologies."
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Low concern about AI replacing core investment decision-making tasks.",
+          "Expects some repetitive research and reporting tasks to be fully automated.",
+          "Believes human judgment will remain central to investment management.",
+          "Views AI as a tool for augmentation rather than replacement."
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Always reviews and edits AI-generated reports before distribution.",
+          "Manual verification of key data points is standard practice.",
+          "Ensures human sign-off on all investment recommendations.",
+          "Can revert to manual workflows if AI outputs are unreliable."
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Team is increasingly open to piloting new AI tools.",
+          "No formal AI adoption policy yet, but discussions are ongoing.",
+          "Peers are encouraged to share AI best practices.",
+          "Company culture supports experimentation but emphasizes human oversight."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will dramatically increase efficiency in finance and investment sectors.",
+          "Recognizes potential for AI to democratize access to financial insights.",
+          "Cautiously optimistic about AI's ability to drive innovation.",
+          "Aware of risks related to job displacement and ethical misuse."
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports transparent AI processes and clear accountability.",
+          "Concerned about potential biases in AI-generated recommendations.",
+          "Values data privacy and secure handling of sensitive information.",
+          "Advocates for human review in high-stakes decision making."
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires seamless integration of LLMs with Feishu, WeChat, and LinkedIn for unified workflows.",
+          "Wants AI tools capable of real-time validation of startup claims.",
+          "Seeks advanced AI summarization for multi-language industry reports.",
+          "Would benefit from AI-driven market trend prediction tailored to venture investments."
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine screening and reporting tasks to be highly automated.",
+          "Anticipates greater emphasis on creative analysis and strategic relationship-building.",
+          "Foresees need for continual upskilling in AI tool usage and oversight.",
+          "Predicts tighter collaboration between human analysts and AI systems."
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Develop clear guidelines for responsible AI adoption and oversight.",
+          "Invest in staff training on advanced AI functionalities.",
+          "Encourage cross-team sharing of AI use cases and best practices.",
+          "Pilot integrated AI tools for report generation and communication management."
+        ]
+      }
+    ]
+  }
+]

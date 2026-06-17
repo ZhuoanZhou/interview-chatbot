@@ -1,0 +1,535 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Doctorate (PhD) in Chemical Engineering with a research focus on electrochemical energy storage.",
+          "Completed undergraduate and master's degrees in Chemical Engineering prior to doctorate studies.",
+          "Doctoral research involved advanced battery modeling and experimental techniques.",
+          "Attended international battery conferences and technical workshops during doctoral studies.",
+          "Participated in industry-academia collaborative research projects on battery technologies."
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Works as a Battery Engineer within the R&D division.",
+          "Primary responsibilities include designing algorithms for fast charging, power performance, and battery longevity.",
+          "Regularly conducts battery testing and develops advanced battery models.",
+          "Collaborates with cross-functional teams including data scientists and hardware engineers.",
+          "Involved in translating physical processes of batteries into computational models."
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Employed in the energy storage and battery technology sector.",
+          "Works within the broader chemical engineering industry, specifically targeting advanced battery applications.",
+          "Company operates at the intersection of manufacturing, materials science, and applied technology.",
+          "Sector focuses on innovation in energy storage solutions for automotive, grid, and consumer electronics."
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Works at a mid-sized company with approximately 200-500 employees.",
+          "R&D team comprises about 25 engineers and scientists.",
+          "Company culture encourages innovation and cross-disciplinary collaboration.",
+          "Environment is fast-paced, with an emphasis on rapid prototyping and iterative development."
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Company focuses on designing and manufacturing advanced battery systems.",
+          "Targets markets such as electric vehicles, grid storage, and portable electronics.",
+          "Specializes in developing proprietary battery management algorithms.",
+          "Competes in the high-performance, energy-dense battery market segment."
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has 3-5 years of experience as a battery engineer post-PhD.",
+          "Joined the current company immediately after completing doctorate studies.",
+          "Has taken on increasing responsibilities within the R&D team over the past several years.",
+          "Has participated in multiple product development cycles since joining the organization."
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds an early-to-mid career position (e.g., Engineer II or Senior Engineer).",
+          "Acts as a technical contributor with opportunities for mentorship.",
+          "Occasionally leads small project teams or sub-projects within R&D.",
+          "Regularly presents technical findings to senior management and cross-functional stakeholders."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Designs and validates battery charging and discharging protocols.",
+          "Develops and refines mathematical models for battery performance.",
+          "Analyzes large datasets from battery test cycles using Matlab.",
+          "Prepares technical reports and presentations summarizing test results.",
+          "Collaborates with software and hardware engineers to integrate models into products."
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends roughly 40% of time on battery modeling and simulation tasks.",
+          "Allocates about 30% of time to laboratory testing and data collection.",
+          "Dedicates 20% of time to documentation, reporting, and presentations.",
+          "Spends the remaining 10% in meetings and cross-functional collaboration."
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates with moderate autonomy on technical aspects of projects.",
+          "Makes independent decisions regarding model design and data analysis methods.",
+          "Major project directions are set by team leads or R&D managers.",
+          "Consults with peers on complex issues or when introducing new methodologies."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Setting up and running standard battery test procedures.",
+          "Performing routine data analysis in Matlab and Excel.",
+          "Documenting experimental protocols and results.",
+          "Communicating technical findings to peers with similar backgrounds."
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Developing models that accurately capture battery degradation over time.",
+          "Interpreting anomalous test results that deviate from expected behavior.",
+          "Integrating physical chemistry insights into computational frameworks.",
+          "Troubleshooting unexpected failures in prototype batteries."
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Cleaning and preprocessing large datasets generated by battery tests.",
+          "Generating routine summary statistics and plots for test cycles.",
+          "Compiling standardized reports for regulatory or quality purposes.",
+          "Updating inventory logs for test materials and consumables."
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys formulating new hypotheses and designing innovative test protocols.",
+          "Finds satisfaction in successfully validating model predictions with experimental data.",
+          "Considers repetitive data entry and manual formatting of reports to be tedious.",
+          "Prefers collaborative problem-solving sessions over solo documentation work."
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual data cleaning is time-consuming and error-prone.",
+          "Formatting presentation slides can disrupt workflow focus.",
+          "Transferring data between Matlab and Excel sometimes leads to compatibility issues.",
+          "Re-running similar analyses for different battery configurations feels redundant."
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Productivity is highest when working on tasks that align with technical expertise, such as model development.",
+          "Greater enjoyment is experienced when learning something new or solving challenging problems.",
+          "Repetitive, low-skill tasks tend to decrease engagement and slow overall progress.",
+          "Skill development is often motivated by the desire to improve efficiency and tackle more complex projects."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Generally open to adopting new tools that improve workflow or accuracy.",
+          "Prefers technologies with clear documentation and community support.",
+          "Sees technology adoption as a valuable aspect of professional growth.",
+          "Occasionally cautious about unproven or rapidly changing solutions."
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts relatively quickly to new software if it complements existing skills.",
+          "Has experience transitioning from legacy data analysis tools to more advanced platforms.",
+          "Enjoys experimenting with new features and beta releases in familiar programs.",
+          "May require initial guidance or training for highly specialized software."
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to dedicate time to structured training if the tool is directly relevant to core tasks.",
+          "Prefers on-demand tutorials or short workshops over multi-day seminars.",
+          "Occasionally self-studies new programming libraries in Matlab or Excel.",
+          "Less inclined to invest time if immediate benefits are unclear."
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the potential to automate repetitive data processing.",
+          "High current workload can delay learning new tools.",
+          "Relevance to current projects strongly influences willingness to learn.",
+          "Peer recommendations can help overcome initial reluctance."
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers often share tips on improving workflow efficiency, which encourages experimentation.",
+          "Management supports adoption of new tools if there is a clear productivity benefit.",
+          "Team workshops and knowledge sharing sessions occasionally spark interest in new technologies.",
+          "Resistance from less tech-savvy colleagues can slow down team-wide adoption."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses Matlab extensively for data analysis, modeling, and simulation.",
+          "Employs Excel for data organization, visualization, and basic statistical analysis.",
+          "Occasionally utilizes company-specific laboratory management systems.",
+          "Accesses shared network drives for collaborative document editing."
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Relies on battery cyclers and electrochemical workstations for experimental work.",
+          "Uses laboratory notebooks (physical or digital) for recording procedures and observations.",
+          "Employs version control systems (e.g., Git) for code and model management.",
+          "Uses standard office software (Word, PowerPoint) for reporting and presentations."
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Proficient in Matlab and Excel, both widely used in battery research.",
+          "Has exposure to Python and related data analysis libraries (e.g., NumPy, pandas) through collaborations.",
+          "Familiar with standard battery testing protocols such as CCCV and EIS.",
+          "Understands the basics of laboratory automation and data acquisition systems."
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally encounters data formatting issues when transferring results between Matlab and Excel.",
+          "Limited direct integration between laboratory equipment and analysis software requires manual data import.",
+          "Version incompatibilities in Matlab scripts can disrupt workflow.",
+          "Collaboration with colleagues using different data analysis platforms sometimes necessitates file conversions."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic machine learning concepts such as regression, classification, and clustering.",
+          "Familiar with the principles of neural networks and model training.",
+          "Recognizes terminology like 'feature engineering', 'overfitting', and 'cross-validation'.",
+          "Has read technical papers on the application of ML to battery research."
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Has used OpenAI's ChatGPT and similar LLMs for code assistance and report drafting.",
+          "Tested Matlab's built-in machine learning toolbox for exploratory data analysis.",
+          "Occasionally accessed online AI-powered data visualization tools.",
+          "Has not yet implemented custom deep learning models in daily workflow."
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs occasionally for writing scripts that process experimental data.",
+          "Employs AI tools to generate technical summaries or presentation outlines.",
+          "Consults AI chatbots for troubleshooting Matlab code errors.",
+          "Explores AI-driven suggestions for improving battery model parameters."
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used ChatGPT to automate repetitive data formatting tasks in Matlab.",
+          "Encountered inaccurate technical explanations from LLMs when querying domain-specific battery issues.",
+          "AI-generated code occasionally required manual debugging before use.",
+          "Learned to cross-verify AI outputs with authoritative sources before implementation."
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "Company offers occasional lunch-and-learn sessions on AI and data science topics.",
+          "Peers sometimes share tips and code snippets for leveraging AI tools.",
+          "No formal, mandatory AI training program in place for R&D staff.",
+          "Self-directed learning and experimentation are encouraged for early adopters."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers starting independently, then seeking AI assistance for specific bottlenecks.",
+          "Uses AI tools as secondary resources rather than primary workflow drivers.",
+          "Appreciates iterative, step-by-step guidance when troubleshooting code.",
+          "Switches between independent work and collaborative AI use based on task complexity."
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for routine or information-heavy tasks.",
+          "Relies on AI as an advisor when exploring unfamiliar coding techniques.",
+          "Does not delegate final decision-making to AI\u2014uses AI as a support tool.",
+          "Occasionally treats AI as a brainstorming partner for data analysis strategies."
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to adopting AI-driven workflows if they demonstrably improve speed or accuracy.",
+          "Prefers to pilot new workflows on low-risk tasks before full-scale adoption.",
+          "Seeks clear documentation and support when transitioning to AI-driven processes.",
+          "Remains cautious about fully automating critical or novel modeling steps."
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Finds conversational AI interfaces more intuitive for brainstorming and instructional queries.",
+          "Prefers command-based or script-oriented interfaces for precise, repeatable tasks.",
+          "Alternates between both interfaces depending on the nature of the problem.",
+          "Appreciates the ability to switch seamlessly between conversational and command modes."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Battery modeling and testing require deep understanding of electrochemical phenomena.",
+          "Successful algorithm design depends on nuanced interpretation of physical processes.",
+          "Many tasks involve integrating tacit knowledge gained from hands-on laboratory experience.",
+          "AI tools often lack context for interpreting subtle anomalies in experimental data."
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI-generated outputs for routine data processing and code generation.",
+          "Exercises caution when using AI recommendations for high-stakes modeling decisions.",
+          "Regularly cross-checks AI outputs against experimental results and literature.",
+          "Skeptical of AI-generated suggestions that lack transparency or explainability."
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers AI automation for repetitive data cleaning and report generation.",
+          "Reserves human judgment for hypothesis formulation and result interpretation.",
+          "Envisions a workflow where AI accelerates low-level tasks, freeing up time for creative problem-solving.",
+          "Supports a hybrid approach for tasks that combine standard protocols with expert insights."
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for standardized, low-risk tasks with clear validation benchmarks.",
+          "Views automation as threatening when it bypasses necessary domain expertise or manual checks.",
+          "Supports incremental automation with built-in override options.",
+          "Would resist automation that reduces opportunities for professional growth or learning."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances the value of domain expertise by automating routine analysis.",
+          "Sees coding and data literacy as increasingly important in the AI era.",
+          "Views hands-on laboratory skills as less likely to be replaced by automation.",
+          "Anticipates a shift toward hybrid skill sets combining engineering and data science."
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Developing proficiency in prompt engineering for LLM-based tools.",
+          "Gaining experience in integrating AI outputs into traditional modeling workflows.",
+          "Learning to critically evaluate machine-generated code and recommendations.",
+          "Becoming familiar with basic concepts of explainable AI relevant to the field."
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Mildly concerned about automation of data-heavy, repetitive tasks.",
+          "Does not view core engineering judgment or physical experimentation as replaceable.",
+          "Sees AI as a complement rather than a threat to the overall role.",
+          "Believes ongoing skill development is key to remaining indispensable."
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "All AI-generated code and analyses are manually reviewed before implementation.",
+          "Workflow includes regular checkpoints for human validation of AI outputs.",
+          "Team culture emphasizes the importance of cross-verification and peer review.",
+          "Organizational policy requires critical decisions to be signed off by qualified engineers."
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company has become more proactive in exploring AI-enabled tools over the past two years.",
+          "Management encourages pilot projects to assess the impact of AI on productivity.",
+          "Team discussions increasingly include consideration of AI integration opportunities.",
+          "Formal AI governance policies are still in early development stages."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI has significant potential to accelerate innovation in battery technology.",
+          "Recognizes the risk of job displacement in routine-heavy roles across industries.",
+          "Sees AI as a driver for more sustainable and efficient energy solutions.",
+          "Anticipates that AI will reshape R&D workflows in chemical engineering."
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports transparent, explainable AI to ensure accountability in engineering decisions.",
+          "Concerned about the risk of bias or error propagation from unchecked automation.",
+          "Advocates for ongoing human oversight in safety-critical applications.",
+          "Believes ethical guidelines are essential as AI takes on more complex tasks."
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires AI tools that can automate complex data preprocessing and cleaning.",
+          "Would benefit from AI assistants that generate customizable technical presentations.",
+          "Seeks AI features that can intelligently summarize literature relevant to ongoing projects.",
+          "Envisions integration of AI with laboratory equipment for real-time experimental feedback."
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects a shift toward higher-level problem-solving as routine tasks are automated.",
+          "Anticipates closer collaboration with data scientists and AI specialists.",
+          "Foresees growing importance of interdisciplinary skills in engineering and informatics.",
+          "Believes continuous learning will be essential to keep pace with AI advancements."
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Implement structured training programs for AI and data science skills.",
+          "Invest in integrating AI tools with core laboratory and modeling platforms.",
+          "Develop clear policies for human oversight and error management in AI-assisted workflows.",
+          "Encourage pilot projects to evaluate AI tools before large-scale deployment."
+        ]
+      }
+    ]
+  }
+]

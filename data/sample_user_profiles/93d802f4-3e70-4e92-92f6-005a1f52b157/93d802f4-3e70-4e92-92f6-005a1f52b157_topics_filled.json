@@ -1,0 +1,528 @@
+[
+  {
+    "topic": "Introduction & Background",
+    "subtopics": [
+      {
+        "subtopic_id": "1.1",
+        "subtopic_description": "Educational background or training",
+        "notes": [
+          "Holds a Bachelor's Degree, likely in business administration or a related field.",
+          "Completed coursework in insurance principles, customer relations, and business communication.",
+          "Participated in on-the-job training programs provided by current employer.",
+          "Attended several industry webinars on insurance regulations and claims processing."
+        ]
+      },
+      {
+        "subtopic_id": "1.2",
+        "subtopic_description": "Specific job title and role description",
+        "notes": [
+          "Job title: Insurance Claims and Policy Processing Clerk.",
+          "Responsible for managing incoming leads, customer communication, and account maintenance.",
+          "Handles both new customer onboarding and servicing of existing policies.",
+          "Regularly conducts outreach to inform clients of new products and potential upgrades."
+        ]
+      },
+      {
+        "subtopic_id": "1.3",
+        "subtopic_description": "Current industry or sector (e.g., tech, finance, manufacturing)",
+        "notes": [
+          "Works in the insurance sector, specifically property and casualty insurance.",
+          "Operates within the broader financial services industry.",
+          "Interacts with both individual and small business insurance clients."
+        ]
+      },
+      {
+        "subtopic_id": "1.4",
+        "subtopic_description": "Company size and environment",
+        "notes": [
+          "Employed at a medium-sized insurance agency with approximately 50-150 employees.",
+          "Work environment is office-based with some remote capabilities.",
+          "Collaborates regularly with a team of agents, account managers, and administrative staff."
+        ]
+      },
+      {
+        "subtopic_id": "1.5",
+        "subtopic_description": "Type of business or market segment",
+        "notes": [
+          "Agency focuses on selling and servicing personal and commercial insurance policies.",
+          "Serves local and regional markets, primarily covering auto, home, and small business insurance.",
+          "Targets both new client acquisition and retention of existing policyholders."
+        ]
+      },
+      {
+        "subtopic_id": "1.6",
+        "subtopic_description": "Duration/years of experience in current role",
+        "notes": [
+          "Has between 3 and 5 years of experience in the current role.",
+          "Joined the company shortly after completing bachelor's degree.",
+          "Has seen two annual renewal cycles for most accounts."
+        ]
+      },
+      {
+        "subtopic_id": "1.7",
+        "subtopic_description": "Professional seniority or career level",
+        "notes": [
+          "Holds an intermediate-level position (not entry-level, but not yet supervisory).",
+          "Serves as a point of reference for junior staff regarding policy and claims procedures.",
+          "Has taken on additional responsibilities such as training new hires in basic tasks."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Core Responsibilities and Decision-Making",
+    "subtopics": [
+      {
+        "subtopic_id": "2.1",
+        "subtopic_description": "Primary job responsibilities and regular daily tasks",
+        "notes": [
+          "Answers emails and texts from clients and leads each morning.",
+          "Processes incoming leads by calling, texting, and emailing potential clients.",
+          "Manages current customer accounts, including policy updates and renewals.",
+          "Reaches out to existing customers to promote relevant insurance products.",
+          "Coordinates with claims department for information and follow-up."
+        ]
+      },
+      {
+        "subtopic_id": "2.2",
+        "subtopic_description": "Approximate proportion of time spent on core activities",
+        "notes": [
+          "Spends roughly 30% of the day on new lead management and outreach.",
+          "Approximately 40% of time is dedicated to servicing existing accounts and customer requests.",
+          "Around 20% is spent on administrative tasks, including documentation and data entry.",
+          "About 10% is spent on internal communication and coordination with colleagues."
+        ]
+      },
+      {
+        "subtopic_id": "2.3",
+        "subtopic_description": "Level of autonomy and scope of decision-making in the role",
+        "notes": [
+          "Operates with moderate autonomy in day-to-day client communication and account management.",
+          "Follows established protocols for claims and policy changes, with limited authority to make exceptions.",
+          "Requires supervisor approval for non-standard policy adjustments or escalated claims.",
+          "Can independently prioritize daily workload and follow up with leads as needed."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Task Proficiency, Challenge, and Engagement",
+    "subtopics": [
+      {
+        "subtopic_id": "3.1",
+        "subtopic_description": "Tasks that feel easiest or most natural to perform",
+        "notes": [
+          "Answering emails and texts quickly due to strong written communication skills.",
+          "Following up with existing clients about renewals and routine updates.",
+          "Processing standard policy changes using agency management software.",
+          "Using templates for common customer responses and documentation."
+        ]
+      },
+      {
+        "subtopic_id": "3.2",
+        "subtopic_description": "Tasks perceived as most challenging or complex",
+        "notes": [
+          "Handling complex claims that require coordination between multiple parties.",
+          "Addressing customer complaints about denied claims or premium increases.",
+          "Learning and applying new regulatory requirements to policy updates.",
+          "Troubleshooting unusual policy scenarios not covered by standard procedures."
+        ]
+      },
+      {
+        "subtopic_id": "3.3",
+        "subtopic_description": "Tasks that are repetitive, data-heavy, or suitable for automation",
+        "notes": [
+          "Sending daily follow-up emails and texts to leads and clients.",
+          "Inputting policy data and updating account information in CRM systems.",
+          "Generating and sending out routine renewal notices.",
+          "Compiling basic claims information for internal processing."
+        ]
+      },
+      {
+        "subtopic_id": "3.4",
+        "subtopic_description": "Tasks that are most enjoyable or engaging versus those that feel boring or tedious",
+        "notes": [
+          "Enjoys engaging with clients to identify new coverage needs and build relationships.",
+          "Finds satisfaction in resolving complex situations and helping clients understand their coverage.",
+          "Considers repetitive data entry and form processing to be tedious.",
+          "Prefers problem-solving tasks over routine administrative work."
+        ]
+      },
+      {
+        "subtopic_id": "3.5",
+        "subtopic_description": "Common pain points or inefficiencies in completing tasks",
+        "notes": [
+          "Manual data entry between disparate systems can be time-consuming.",
+          "Redundant communication (emails/texts) due to lack of integrated outreach tools.",
+          "Occasional delays in claims processing due to incomplete information from clients.",
+          "Difficulty tracking follow-ups when working with a high volume of leads."
+        ]
+      },
+      {
+        "subtopic_id": "3.6",
+        "subtopic_description": "How enjoyment, skill level, and productivity relate to one another",
+        "notes": [
+          "Feels most productive and engaged when working on tasks that match expertise, such as client communication.",
+          "Higher skill level in customer service leads to greater enjoyment and efficiency.",
+          "Productivity drops when performing repetitive or manual tasks that could be automated.",
+          "Enjoyment increases when using technology that streamlines workflow."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Tech Learning Comfort",
+    "subtopics": [
+      {
+        "subtopic_id": "4.1",
+        "subtopic_description": "Attitude towards learning new technologies and tools",
+        "notes": [
+          "Open to exploring new software if it improves efficiency.",
+          "Views technology as a necessary part of modern insurance work.",
+          "Sometimes hesitant if new tools require significant time investment upfront.",
+          "Generally positive about technology, especially if user-friendly."
+        ]
+      },
+      {
+        "subtopic_id": "4.2",
+        "subtopic_description": "Perceived adaptability to new software/methods",
+        "notes": [
+          "Adapts to new tools with moderate ease, especially with good documentation or training.",
+          "Can self-learn simple features but prefers guided walkthroughs for complex systems.",
+          "Has successfully transitioned to at least one new CRM or policy management platform.",
+          "Occasionally needs extra time to fully integrate new workflows into routine."
+        ]
+      },
+      {
+        "subtopic_id": "4.3",
+        "subtopic_description": "Willingness to invest time in tech training",
+        "notes": [
+          "Willing to set aside time for training if it leads to long-term time savings.",
+          "Prefers short, focused training sessions over lengthy courses.",
+          "Sometimes struggles to find uninterrupted time during busy workdays.",
+          "More motivated to train when new tools are directly relevant to daily tasks."
+        ]
+      },
+      {
+        "subtopic_id": "4.4",
+        "subtopic_description": "Motivations or barriers to learning new tech (e.g., workload, relevance)",
+        "notes": [
+          "Motivated by the prospect of reducing manual work and errors.",
+          "Reluctant to adopt tools that don\u2019t integrate with existing systems.",
+          "Heavy workload can make it difficult to prioritize tech learning.",
+          "More likely to adopt technology if supported by management and team."
+        ]
+      },
+      {
+        "subtopic_id": "4.5",
+        "subtopic_description": "Influence of peers or management on willingness to adopt new tools",
+        "notes": [
+          "Peers\u2019 positive experiences encourage experimentation with new tools.",
+          "Management endorsement increases likelihood of adoption.",
+          "Prefers to see real-world examples from colleagues before fully committing.",
+          "Participates in group training sessions when offered by the company."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Primary Tools and Technologies Used in Work",
+    "subtopics": [
+      {
+        "subtopic_id": "5.1",
+        "subtopic_description": "Specific software, platforms, or systems used daily",
+        "notes": [
+          "Uses agency management software (e.g., Applied Epic or Vertafore AMS360) for policies and client records.",
+          "Relies on Microsoft Outlook for email and calendar management.",
+          "Utilizes phone and SMS platforms for client communication.",
+          "Employs CRM tools to track leads and follow-up actions."
+        ]
+      },
+      {
+        "subtopic_id": "5.2",
+        "subtopic_description": "Essential non-AI tools for workflow",
+        "notes": [
+          "Spreadsheets (Microsoft Excel or Google Sheets) for tracking client lists and renewals.",
+          "Document management tools for storing policy documents and claims paperwork.",
+          "Fax and scanning tools for transmitting and receiving signed forms.",
+          "Basic office equipment (printer, scanner, landline phone)."
+        ]
+      },
+      {
+        "subtopic_id": "5.3",
+        "subtopic_description": "Familiarity with industry-standard technologies",
+        "notes": [
+          "Comfortable navigating core insurance platforms and databases.",
+          "Has working knowledge of e-signature tools for policy agreements (e.g., DocuSign).",
+          "Understands the basics of customer relationship management (CRM) in insurance.",
+          "Aware of regulatory compliance systems for data handling in the industry."
+        ]
+      },
+      {
+        "subtopic_id": "5.4",
+        "subtopic_description": "Interoperability or integration issues between tools",
+        "notes": [
+          "Occasionally faces challenges syncing data between CRM and agency management systems.",
+          "Manual data entry is sometimes required due to lack of integration between platforms.",
+          "Duplicate communication occurs when email and SMS systems are not coordinated.",
+          "Would benefit from better integration of lead tracking and policy management tools."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Experience and Tool Adoption",
+    "subtopics": [
+      {
+        "subtopic_id": "6.1",
+        "subtopic_description": "Familiarity with fundamental AI/ML concepts and terminology",
+        "notes": [
+          "Understands basic concepts such as machine learning, natural language processing, and automation.",
+          "Has encountered AI terminology through webinars and industry articles.",
+          "Can explain the difference between rule-based automation and AI-driven systems.",
+          "Has a general awareness of large language models (LLMs) and their applications."
+        ]
+      },
+      {
+        "subtopic_id": "6.2",
+        "subtopic_description": "Names of specific AI software/platforms currently used in work",
+        "notes": [
+          "Has used ChatGPT or similar LLM-based tools for drafting client communications.",
+          "Experimented with AI-powered email sorting tools (e.g., Outlook Focused Inbox).",
+          "Tested AI chatbots for preliminary customer inquiries on company website.",
+          "May have used simple AI features in CRM, such as lead scoring or task recommendations."
+        ]
+      },
+      {
+        "subtopic_id": "6.3",
+        "subtopic_description": "Frequency and purpose of AI tool application (specific use cases)",
+        "notes": [
+          "Uses LLMs occasionally to draft or proofread customer emails.",
+          "Applies AI tools for summarizing lengthy policy documents for client explanations.",
+          "Utilizes AI chatbots or templates for standard client inquiries.",
+          "Employs AI features sporadically, not as a core part of daily workflow."
+        ]
+      },
+      {
+        "subtopic_id": "6.4",
+        "subtopic_description": "Specific examples of AI success and failure experiences (lessons learned)",
+        "notes": [
+          "Successfully used ChatGPT to generate a clear policy summary for a client.",
+          "Encountered confusion when an AI chatbot provided outdated information about coverage options.",
+          "Learned that AI-generated emails still require careful review for tone and accuracy.",
+          "Noted that AI tools work best for routine, low-risk communications."
+        ]
+      },
+      {
+        "subtopic_id": "6.5",
+        "subtopic_description": "Availability of organizational training or peer resources for AI use",
+        "notes": [
+          "No formal company-wide AI training, but informal peer sharing is common.",
+          "Occasionally attends vendor webinars or online tutorials about new AI features.",
+          "Peers sometimes share tips or recommended prompts for LLM use.",
+          "Would benefit from more structured internal resources or best-practices guides."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Interaction Style and Workflow Change",
+    "subtopics": [
+      {
+        "subtopic_id": "7.1",
+        "subtopic_description": "Preferred mode of interaction: independent versus step-by-step collaboration",
+        "notes": [
+          "Prefers step-by-step collaboration for unfamiliar or complex tasks.",
+          "Comfortable working independently when using AI for routine communications.",
+          "Seeks guidance or confirmation from AI for policy-related content.",
+          "Likes to maintain control over final outputs even when using AI assistance."
+        ]
+      },
+      {
+        "subtopic_id": "7.2",
+        "subtopic_description": "Style of human-AI teaming (e.g., advisor, assistant, co-worker)",
+        "notes": [
+          "Views AI primarily as an assistant for drafting and organizing communication.",
+          "Occasionally treats AI as an advisor for suggestions or process improvements.",
+          "Rarely relies on AI as a co-worker for decision-making.",
+          "Prefers to make the final call on customer-facing actions."
+        ]
+      },
+      {
+        "subtopic_id": "7.3",
+        "subtopic_description": "Willingness and openness to adopting new AI-driven workflows",
+        "notes": [
+          "Open to experimenting with AI-driven workflows if they save time.",
+          "Seeks assurance that AI adoption won\u2019t compromise accuracy or client trust.",
+          "More willing to automate repetitive or low-stakes tasks.",
+          "Prefers gradual adoption over abrupt changes to daily routines."
+        ]
+      },
+      {
+        "subtopic_id": "7.4",
+        "subtopic_description": "Preference for conversational vs. command-based interfaces (communication dynamics)",
+        "notes": [
+          "Prefers conversational interfaces for drafting or brainstorming tasks.",
+          "Uses command-based interfaces for simple, repetitive actions (e.g., form generation).",
+          "Finds conversational AI more intuitive for generating customer communications.",
+          "Appreciates clear prompts and feedback from AI tools."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Trust and Control Over AI",
+    "subtopics": [
+      {
+        "subtopic_id": "8.1",
+        "subtopic_description": "Extent to which tasks rely on specialized, tacit domain knowledge",
+        "notes": [
+          "Many client interactions require nuanced understanding of insurance products.",
+          "Tacit knowledge is critical for interpreting unique customer needs and exceptions.",
+          "Routine tasks (e.g., renewal reminders) require less domain expertise.",
+          "Judgment is needed for handling sensitive claims or escalations."
+        ]
+      },
+      {
+        "subtopic_id": "8.2",
+        "subtopic_description": "Level of trust in AI outputs for work tasks and critical decisions",
+        "notes": [
+          "Trusts AI for drafting routine emails and summarizing information.",
+          "Requires manual review of AI outputs before sending to clients.",
+          "Skeptical about using AI for decisions involving policy changes or claims approvals.",
+          "Open to AI suggestions but ultimately relies on personal judgment."
+        ]
+      },
+      {
+        "subtopic_id": "8.3",
+        "subtopic_description": "Ideal balance of human effort and AI automation for specific tasks",
+        "notes": [
+          "Prefers high automation for repetitive communications and data entry.",
+          "Favors human oversight for sensitive or high-stakes client interactions.",
+          "Sees value in AI handling initial drafts, with humans reviewing and customizing.",
+          "Suggests a 70/30 split: AI for routine, human for complex or exception cases."
+        ]
+      },
+      {
+        "subtopic_id": "8.4",
+        "subtopic_description": "Conditions under which high automation is acceptable or threatening",
+        "notes": [
+          "Accepts high automation for tasks with low risk of errors (e.g., reminders).",
+          "Finds automation threatening if it bypasses necessary compliance checks.",
+          "Worries about job security if too many core tasks become automated.",
+          "Supports automation only when override or review options are available."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Impact on Skills and Job Security",
+    "subtopics": [
+      {
+        "subtopic_id": "9.1",
+        "subtopic_description": "Perceived impact of AI on the importance of existing skills (enhanced vs. reduced)",
+        "notes": [
+          "Believes AI enhances efficiency but may reduce reliance on manual skills.",
+          "Sees communication and relationship-building as more valuable than ever.",
+          "Anticipates less need for repetitive data entry skills.",
+          "Views adaptability and tech proficiency as increasingly important."
+        ]
+      },
+      {
+        "subtopic_id": "9.2",
+        "subtopic_description": "Emerging skills or new areas of responsibility created by AI",
+        "notes": [
+          "Learning prompt engineering for effective AI-assisted communication.",
+          "Developing skills to review and edit AI-generated content.",
+          "Responsible for identifying which tasks are best suited for automation.",
+          "Exploring data analysis and process optimization with AI support."
+        ]
+      },
+      {
+        "subtopic_id": "9.3",
+        "subtopic_description": "Level of concern about AI replacing specific tasks or the overall role",
+        "notes": [
+          "Slightly concerned about automation of routine administrative tasks.",
+          "Sees core role (client relationship management) as less likely to be replaced.",
+          "Watches industry trends for signs of increased automation in insurance.",
+          "Actively seeks ways to add value beyond what AI can provide."
+        ]
+      },
+      {
+        "subtopic_id": "9.4",
+        "subtopic_description": "Availability of override mechanisms or manual checks for AI-driven processes",
+        "notes": [
+          "Most current AI tools require human review before finalizing communications.",
+          "Prefers systems with clear override and revision options.",
+          "Ensures that all client-facing outputs are personally checked for accuracy.",
+          "Would not support full automation of sensitive processes without manual checks."
+        ]
+      },
+      {
+        "subtopic_id": "9.5",
+        "subtopic_description": "Perceived change in team or company policies regarding AI adoption",
+        "notes": [
+          "Company is cautiously exploring AI adoption for operational efficiency.",
+          "Recent policy changes encourage experimentation with approved AI tools.",
+          "Team culture is open to AI but values transparency and control.",
+          "No mandates for AI use; adoption is optional and based on individual comfort."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "AI Attitudes and Future Outlook",
+    "subtopics": [
+      {
+        "subtopic_id": "10.1",
+        "subtopic_description": "General outlook on AI's broader societal and industry impact",
+        "notes": [
+          "Believes AI will streamline routine tasks and improve service speed.",
+          "Sees potential for AI to reduce human error in data-heavy industries.",
+          "Expects some workforce disruption but also new roles and opportunities.",
+          "Anticipates positive impact if AI is implemented ethically and transparently."
+        ]
+      },
+      {
+        "subtopic_id": "10.2",
+        "subtopic_description": "Personal beliefs about the ethics and risks of AI in the workplace",
+        "notes": [
+          "Supports responsible AI use with clear accountability for errors.",
+          "Concerned about data privacy and security with AI-driven processes.",
+          "Believes human oversight is essential to prevent bias or unfair outcomes.",
+          "Values transparency in how AI systems make decisions affecting clients."
+        ]
+      },
+      {
+        "subtopic_id": "10.3",
+        "subtopic_description": "Missing AI tools or features that would be most beneficial in the future",
+        "notes": [
+          "Desires seamless integration of AI across email, SMS, and CRM platforms.",
+          "Wants AI to automate lead follow-up and renewal reminders without manual triggers.",
+          "Would like AI tools that can accurately summarize complex policy changes for clients.",
+          "Hopes for AI that assists with regulatory compliance checks and documentation."
+        ]
+      },
+      {
+        "subtopic_id": "10.4",
+        "subtopic_description": "Predicted evolution of their job in the next 5-10 years with AI integration",
+        "notes": [
+          "Expects routine communication and data entry to be fully automated.",
+          "Foresees spending more time on client consultation and relationship building.",
+          "Anticipates needing stronger skills in tech oversight and process management.",
+          "Believes role will shift towards quality control and exception handling."
+        ]
+      },
+      {
+        "subtopic_id": "10.5",
+        "subtopic_description": "Concrete steps they would want their organization to take regarding AI strategy",
+        "notes": [
+          "Invest in structured AI training programs for all staff.",
+          "Involve frontline employees in AI tool selection and workflow design.",
+          "Ensure robust manual review and override mechanisms are in place.",
+          "Regularly review and update data privacy and security policies related to AI."
+        ]
+      }
+    ]
+  }
+]
