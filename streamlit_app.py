@@ -109,6 +109,26 @@ def _get_or_create_folder(name, parent_id, svc):
     ).execute()["id"]
 
 
+def _upload_dir_tree(local_dir, drive_folder_id, svc, _folder_cache=None):
+    """Recursively mirror local_dir into drive_folder_id, creating subfolders as needed."""
+    if _folder_cache is None:
+        _folder_cache = {}
+    if not os.path.isdir(local_dir):
+        return
+    for entry in os.scandir(local_dir):
+        if entry.is_file():
+            try:
+                with open(entry.path, "rb") as f:
+                    _upsert_bytes(entry.name, f.read(), drive_folder_id, svc)
+            except Exception:
+                pass  # skip unreadable files silently
+        elif entry.is_dir():
+            key = (entry.name, drive_folder_id)
+            if key not in _folder_cache:
+                _folder_cache[key] = _get_or_create_folder(entry.name, drive_folder_id, svc)
+            _upload_dir_tree(entry.path, _folder_cache[key], svc, _folder_cache)
+
+
 def _upsert_bytes(name, data, folder_id, svc):
     """Upload bytes as name into folder_id, overwriting any existing file."""
     from googleapiclient.http import MediaIoBaseUpload
@@ -173,6 +193,12 @@ def _do_save(user_id, chat, config):
     if agenda_path:
         with open(agenda_path, "rb") as f:
             _upsert_bytes(f"session_agenda_s{session_num}.json", f.read(), pfolder, svc)
+
+    # Upload full agent logs tree (raw agent responses, token stats, etc.)
+    logs_user_dir = os.path.join("logs", user_id)
+    if os.path.isdir(logs_user_dir):
+        logs_drive = _get_or_create_folder("logs", pfolder, svc)
+        _upload_dir_tree(logs_user_dir, logs_drive, svc)
 
     # Update the researcher's participant log in the root folder
     _update_participants_log(user_id, root, svc)
