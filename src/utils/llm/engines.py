@@ -12,6 +12,7 @@ from src.utils.llm.models.vllm import VLLMEngine
 
 
 engine_constructor = {
+    "gpt-5-nano": ChatOpenAI,
     "gpt-4.1-mini": ChatOpenAI,
     "gpt-4.1-nano": ChatOpenAI,
     "gpt-4o-mini-2024-07-18": ChatOpenAI,

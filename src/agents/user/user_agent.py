@@ -14,7 +14,7 @@ from src.utils.constants.colors import ORANGE, RESET
 
 class UserAgent(BaseAgent, User):
     def __init__(self, user_id: str, interview_session, config: dict = None):
-        config["model_name"] = os.getenv("USER_MODEL_NAME", os.getenv("MODEL_NAME", "gpt-4.1-mini"))
+        config["model_name"] = os.getenv("USER_MODEL_NAME", os.getenv("MODEL_NAME", "gpt-5-nano"))
         config["base_url"] = os.getenv("USER_VLLM_BASE_URL", None)
         BaseAgent.__init__(
             self, name="UserAgent", 

@@ -43,7 +43,7 @@ class BaseAgent:
         # Initialize the LLM engine
         self.engine = get_engine(model_name= \
                                  config.get("model_name",
-                                            os.getenv("MODEL_NAME", "gpt-4.1-mini")),
+                                            os.getenv("MODEL_NAME", "gpt-5-nano")),
                                  base_url=config.get("base_url", None))
         self.tools = {}
 
