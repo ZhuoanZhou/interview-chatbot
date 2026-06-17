@@ -520,12 +520,14 @@ else:
         padding: 14px 18px !important;
         resize: none !important;
     }
-    /* Send button */
+    /* Send button — same height and font as mic recorder button */
     div[data-testid="stButton"] button[kind="primaryFormSubmit"],
     div[data-testid="stButton"] button[kind="primary"] {
-        font-size: 1.1rem !important;
-        padding: 0.65rem 1.5rem !important;
-        border-radius: 10px !important;
+        font-size: 1rem !important;
+        height: 46px !important;
+        padding: 0 1.2rem !important;
+        border-radius: 8px !important;
+        width: 100% !important;
     }
     </style>
     """, unsafe_allow_html=True)
@@ -539,8 +541,8 @@ else:
         label_visibility="collapsed",
     )
 
-    # Send + Mic side by side below the text area
-    send_col, mic_col, _ = st.columns([2, 2, 6])
+    # Send (left-aligned) and Mic (right-aligned) below the text area
+    send_col, spacer_col, mic_col = st.columns([2, 6, 2])
 
     with send_col:
         send_clicked = st.button("Send →", type="primary", use_container_width=True)
