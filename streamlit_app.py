@@ -498,39 +498,58 @@ elif not session.session_in_progress:
 
 else:
     # ------------------------------------------------------------------ #
-    # Input area: large textbox + mic button (record/stop toggle)          #
+    # Input area: full-width textbox, then Send + Mic buttons on one row  #
     # ------------------------------------------------------------------ #
     st.markdown("""
     <style>
-    div[data-testid="stTextArea"] textarea {
-        min-height: 120px !important;
+    /* Larger base font throughout the app */
+    html, body, [class*="css"], .stMarkdown, .stChatMessage {
+        font-size: 18px !important;
+    }
+    /* Chat messages */
+    div[data-testid="stChatMessage"] p {
         font-size: 1.05rem !important;
-        line-height: 1.65 !important;
+        line-height: 1.7 !important;
+    }
+    /* Text area */
+    div[data-testid="stTextArea"] textarea {
+        min-height: 130px !important;
+        font-size: 1.1rem !important;
+        line-height: 1.7 !important;
         border-radius: 14px !important;
         padding: 14px 18px !important;
         resize: none !important;
     }
+    /* Send button */
+    div[data-testid="stButton"] button[kind="primaryFormSubmit"],
+    div[data-testid="stButton"] button[kind="primary"] {
+        font-size: 1.1rem !important;
+        padding: 0.65rem 1.5rem !important;
+        border-radius: 10px !important;
+    }
     </style>
     """, unsafe_allow_html=True)
 
-    col_text, col_mic = st.columns([10, 1])
+    # Full-width text area
+    st.text_area(
+        "response",
+        key="user_draft",
+        height=140,
+        placeholder="Type your response here, or click 🎤 Speak to record...",
+        label_visibility="collapsed",
+    )
 
-    with col_text:
-        st.text_area(
-            "response",
-            key="user_draft",
-            height=130,
-            placeholder="Type your response here, or click 🎤 to speak...",
-            label_visibility="collapsed",
-        )
+    # Send + Mic side by side below the text area
+    send_col, mic_col, _ = st.columns([2, 2, 6])
 
-    with col_mic:
-        # mic_recorder shows a single button that toggles between
-        # 🎤 (start) and ⏹️ (stop); returns audio bytes when stopped.
+    with send_col:
+        send_clicked = st.button("Send →", type="primary", use_container_width=True)
+
+    with mic_col:
         audio = mic_recorder(
-            start_prompt="🎤",
-            stop_prompt="⏹️",
-            just_once=True,       # fire only once per recording
+            start_prompt="🎤  Speak",
+            stop_prompt="⏹️  Stop",
+            just_once=True,
             use_container_width=True,
             key="mic",
         )
@@ -548,11 +567,6 @@ else:
                 st.rerun()
             else:
                 st.warning("Could not transcribe. Please try again or type your response.")
-
-    # Send button
-    send_col, _ = st.columns([2, 9])
-    with send_col:
-        send_clicked = st.button("Send →", type="primary", use_container_width=True)
 
     if send_clicked:
         prompt = (st.session_state.get("user_draft") or "").strip()
