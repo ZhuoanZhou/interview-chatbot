@@ -375,21 +375,27 @@ def _create_session(user_id, previous_chat=None):
         },
     )
 
-    # For returning participants: inject previous conversation into SparkMe's
-    # internal chat_history BEFORE run() starts.  The interviewer reads this
-    # list when generating its first message, so it will produce a natural
-    # continuation ("Welcome back…") instead of a fresh introduction.
+    # For returning participants: the Interviewer decides whether to give a fresh
+    # introduction or a natural continuation by checking two things:
+    #   1. Its own event stream (always empty at session start — can't inject)
+    #   2. session_agenda.last_meeting_summary (non-empty → continuation prompt)
+    #
+    # SparkMe never writes session_agenda.json during a session (only snapshots),
+    # so restore_from_drive has nothing to download.  We therefore inject a
+    # summary directly into the live session_agenda object here, before run()
+    # fires.  The Interviewer will then use "introduction_continue_session".
     if previous_chat:
-        for msg in previous_chat:
-            role = "Interviewer" if msg["role"] == "assistant" else "User"
-            session.chat_history.append(Message(
-                id=str(uuid.uuid4()),
-                type=MessageType.CONVERSATION,
-                role=role,
-                content=msg["content"],
-                timestamp=datetime.now(),
-                metadata={},
-            ))
+        if not session.session_agenda.last_meeting_summary:
+            turns = []
+            for msg in previous_chat:
+                prefix = "Interviewer" if msg["role"] == "assistant" else "Participant"
+                body = msg["content"]
+                if len(body) > 300:
+                    body = body[:300] + "..."
+                turns.append(f" - {prefix}: {body}")
+            session.session_agenda.last_meeting_summary = (
+                "Previous session transcript:\n" + "\n".join(turns[:30])
+            )
 
     threading.Thread(target=_run_bg, args=(session, loop), daemon=True).start()
     return session, loop
@@ -463,13 +469,20 @@ if st.session_state.phase == "id_entry":
                 if found:
                     with st.spinner("Resuming your session..."):
                         session, loop = _create_session(pid, previous_chat=chat)
+                    # If the participant's last turn was from *them*, SparkMe will
+                    # still generate an opening message internally (we can't stop it),
+                    # but we should silently discard it — the participant should speak
+                    # next, not the chatbot.
+                    last_role = chat[-1]["role"] if chat else "assistant"
+                    skip_first = last_role == "user"
                     st.session_state.update(
                         user_id=pid,
                         drive_config=cfg,
                         chat=chat,
                         session=session,
                         loop=loop,
-                        waiting=True,
+                        waiting=not skip_first,   # don't show spinner if we'll discard the msg
+                        skip_first_bot_msg=skip_first,
                         phase="active",
                     )
                     st.rerun()
@@ -508,9 +521,21 @@ with st.sidebar:
 # Poll for new interviewer messages
 new_msgs = session.user.get_and_clear_messages()
 if new_msgs:
+    if st.session_state.get("skip_first_bot_msg"):
+        # Returning participant whose last turn was from them: discard SparkMe's
+        # automatic opening message so we don't add an unwanted chatbot turn.
+        st.session_state.skip_first_bot_msg = False
+        new_msgs = new_msgs[1:]
     for m in new_msgs:
         st.session_state.chat.append({"role": "assistant", "content": m["content"]})
     st.session_state.waiting = False
+    # Persist session_agenda.json so the next session can restore agenda state.
+    # SparkMe only saves snapshot files during a session, never session_agenda.json,
+    # so we must write it explicitly here before the Drive upload.
+    try:
+        session.session_agenda.save()
+    except Exception:
+        pass
     # Non-blocking save after every interviewer turn
     save_async(user_id, st.session_state.chat, cfg)
 
