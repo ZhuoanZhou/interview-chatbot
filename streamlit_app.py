@@ -367,7 +367,7 @@ def _create_session(user_id, previous_chat=None):
         interaction_mode="api",
         user_config={"user_id": user_id},
         interview_config={
-            "interview_description": "Understanding the impact of AI in the workforce",
+            "interview_description": "Formative study exploring reactions to a speech transcription and editing prototype for people with dysarthria",
             "interview_plan_path": os.getenv("INTERVIEW_PLAN_PATH", "data/configs/topics.json"),
             "interview_evaluation": os.getenv("COMPLETION_METRIC", "minimum_threshold"),
         },
