@@ -62,6 +62,34 @@ from src.interview_session.session_models import Message, MessageType
 
 
 # ==========================================================================
+# Demo video helper
+# ==========================================================================
+
+@st.cache_data(show_spinner=False)
+def _load_demo_video_bytes() -> bytes | None:
+    """Download the demo video via the existing Drive OAuth credentials.
+
+    Re-uses _get_drive_config() / _make_service() so no extra secrets are
+    needed.  Returns None on failure so callers show a fallback message.
+    """
+    try:
+        import io
+        from googleapiclient.http import MediaIoBaseDownload
+        config = _get_drive_config()
+        service = _make_service(config)
+        file_id = "1FCfzZslMnuyQAPhcZoiACrx0sWaYskxV"
+        request = service.files().get_media(fileId=file_id)
+        buf = io.BytesIO()
+        downloader = MediaIoBaseDownload(buf, request, chunksize=8 * 1024 * 1024)
+        done = False
+        while not done:
+            _, done = downloader.next_chunk()
+        return buf.getvalue()
+    except Exception:
+        return None
+
+
+# ==========================================================================
 # Google Drive helpers
 # ==========================================================================
 
@@ -541,7 +569,13 @@ You can skip any question, take a break, or stop at any time."""
     st.markdown(INTRO_TEXT)
 
     st.markdown("#### Demo Video")
-    st.video("https://drive.google.com/uc?export=download&id=1FCfzZslMnuyQAPhcZoiACrx0sWaYskxV")
+    _video_bytes = _load_demo_video_bytes()
+    if _video_bytes:
+        _, vid_col, _ = st.columns([1, 5, 1])
+        with vid_col:
+            st.video(_video_bytes, format="video/mp4")
+    else:
+        st.info("Video unavailable — please ask the researcher to share the demo link.")
 
     st.markdown("")
     if st.button("Continue to interview →", type="primary", key="btn_intro_continue"):
@@ -624,7 +658,13 @@ You can answer by selecting choices and typing extra comments if you want. \
 You can skip any question, take a break, or stop at any time."""
 
 st.markdown(INTRO_TEXT)
-st.video("https://drive.google.com/uc?export=download&id=1FCfzZslMnuyQAPhcZoiACrx0sWaYskxV")
+_video_bytes = _load_demo_video_bytes()
+if _video_bytes:
+    _, vid_col, _ = st.columns([1, 5, 1])
+    with vid_col:
+        st.video(_video_bytes, format="video/mp4")
+else:
+    st.info("Video unavailable — please ask the researcher to share the demo link.")
 st.divider()
 
 # Render chat history
