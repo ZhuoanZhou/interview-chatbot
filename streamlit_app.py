@@ -431,7 +431,7 @@ def _create_session(user_id, previous_chat=None):
 # Page setup
 # ==========================================================================
 
-st.set_page_config(page_title="SparkMe Interview", page_icon="mic", layout="centered")
+st.set_page_config(page_title="SparkMe Interview", page_icon="mic", layout="wide")
 st.title("SparkMe Interview")
 
 if "phase" not in st.session_state:
