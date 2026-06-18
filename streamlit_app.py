@@ -541,8 +541,6 @@ You can skip any question, take a break, or stop at any time."""
     st.markdown(INTRO_TEXT)
 
     st.markdown("#### Demo Video")
-    st.markdown(
-    )
     st.video("https://drive.google.com/uc?export=download&id=1FCfzZslMnuyQAPhcZoiACrx0sWaYskxV")
 
     st.markdown("")
