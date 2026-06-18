@@ -52,10 +52,11 @@ def get_engine(model_name, **kwargs):
         LangChain chat model instance or custom engine configured with the specified parameters
         All engines now return ModelResponse objects with token usage metadata populated
     """
-    # Set default temperature if not provided
-    # Note: reasoning models (e.g. gpt-5-nano, o-series) only support temperature=1
-    # so we skip setting it for those and let the API use its default
-    if "temperature" not in kwargs and model_name not in MAX_COMPLETION_TOKENS_MODELS:
+    # Reasoning models (gpt-5-nano, o-series) don't support custom temperature.
+    # Strip it entirely and let the API use its default (1).
+    if model_name in MAX_COMPLETION_TOKENS_MODELS:
+        kwargs.pop("temperature", None)
+    elif "temperature" not in kwargs:
         kwargs["temperature"] = 0.0
 
     # Standardize max token handling
