@@ -543,7 +543,7 @@ You can skip any question, take a break, or stop at any time."""
     st.markdown("#### Demo Video")
     st.markdown(
         '<iframe src="https://drive.google.com/file/d/1FCfzZslMnuyQAPhcZoiACrx0sWaYskxV/preview" '
-        'width="100%" height="450" allow="autoplay" style="border:none;"></iframe>',
+        'width="100%" height="720" allow="autoplay" style="border:none;"></iframe>',
         unsafe_allow_html=True,
     )
 
@@ -630,7 +630,7 @@ You can skip any question, take a break, or stop at any time."""
 st.markdown(INTRO_TEXT)
 st.markdown(
     '<iframe src="https://drive.google.com/file/d/1FCfzZslMnuyQAPhcZoiACrx0sWaYskxV/preview" '
-    'width="100%" height="450" allow="autoplay" style="border:none;"></iframe>',
+    'width="100%" height="720" allow="autoplay" style="border:none;"></iframe>',
     unsafe_allow_html=True,
 )
 st.divider()
