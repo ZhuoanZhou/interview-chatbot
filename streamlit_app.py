@@ -542,10 +542,8 @@ You can skip any question, take a break, or stop at any time."""
 
     st.markdown("#### Demo Video")
     st.markdown(
-        '<iframe src="https://drive.google.com/file/d/1FCfzZslMnuyQAPhcZoiACrx0sWaYskxV/preview" '
-        'width="100%" height="720" allow="autoplay" style="border:none;"></iframe>',
-        unsafe_allow_html=True,
     )
+    st.video("https://drive.google.com/uc?export=download&id=1FCfzZslMnuyQAPhcZoiACrx0sWaYskxV")
 
     st.markdown("")
     if st.button("Continue to interview →", type="primary", key="btn_intro_continue"):
@@ -628,11 +626,7 @@ You can answer by selecting choices and typing extra comments if you want. \
 You can skip any question, take a break, or stop at any time."""
 
 st.markdown(INTRO_TEXT)
-st.markdown(
-    '<iframe src="https://drive.google.com/file/d/1FCfzZslMnuyQAPhcZoiACrx0sWaYskxV/preview" '
-    'width="100%" height="720" allow="autoplay" style="border:none;"></iframe>',
-    unsafe_allow_html=True,
-)
+st.video("https://drive.google.com/uc?export=download&id=1FCfzZslMnuyQAPhcZoiACrx0sWaYskxV")
 st.divider()
 
 # Render chat history
