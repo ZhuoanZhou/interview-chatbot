@@ -34,7 +34,6 @@ os.environ.setdefault("LOGS_DIR", "logs")
 os.environ.setdefault("DATA_DIR", "data")
 os.environ.setdefault("USER_AGENT_PROFILES_DIR", "data/sample_user_profiles")
 os.environ.setdefault("INTERVIEW_PLAN_PATH", "data/configs/topics.json")
-os.environ.setdefault("USER_PORTRAIT_PATH", "data/configs/user_portrait.json")
 os.environ.setdefault("MODEL_NAME", "gpt-5-nano")
 os.environ.setdefault("AGENDA_MANAGER_MODEL_NAME", "gpt-5-nano")
 os.environ.setdefault("EXPLORATION_PLANNER_MODEL_NAME", "gpt-5-nano")
@@ -371,7 +370,6 @@ def _create_session(user_id, previous_chat=None):
             "interview_description": "Understanding the impact of AI in the workforce",
             "interview_plan_path": os.getenv("INTERVIEW_PLAN_PATH", "data/configs/topics.json"),
             "interview_evaluation": os.getenv("COMPLETION_METRIC", "minimum_threshold"),
-            "initial_user_portrait_path": os.getenv("USER_PORTRAIT_PATH", "data/configs/user_portrait.json"),
         },
     )
 
@@ -438,7 +436,7 @@ st.title("SparkMe Interview")
 
 if "phase" not in st.session_state:
     st.session_state.update(
-        phase="id_entry",   # "id_entry" | "active"
+        phase="id_entry",   # "id_entry" | "intro" | "active"
         user_id=None,
         session=None,
         loop=None,
@@ -471,15 +469,10 @@ if st.session_state.phase == "id_entry":
         if st.button("Start interview →", type="primary", key="btn_new"):
             user_id = "P-" + uuid.uuid4().hex[:6].upper()
             cfg = _get_drive_config()
-            with st.spinner("Starting your session..."):
-                session, loop = _create_session(user_id)
             st.session_state.update(
                 user_id=user_id,
                 drive_config=cfg,
-                session=session,
-                loop=loop,
-                waiting=True,
-                phase="active",
+                phase="intro",
             )
             st.rerun()
 
@@ -521,6 +514,54 @@ if st.session_state.phase == "id_entry":
                         "Please double-check your ID and try again.  \n"
                         "If you have not started before, use the **New participant** tab."
                     )
+
+    st.stop()
+
+
+# ==========================================================================
+# Phase: intro (new participants only — shown before session starts)
+# ==========================================================================
+
+if st.session_state.phase == "intro":
+
+    INTRO_TEXT = """\
+Thank you for attending this semi-structured interview today.
+
+We are studying an idea for helping people when others have trouble understanding their speech. \
+The idea is to use speech transcription as a starting point, and then allow the text to be edited \
+if needed to help repair meaning.
+
+In this session, we will show you a short demo of the idea. After that, we will ask what you think about it.
+
+This is not a test of you. We are testing the idea and learning from your experience.
+
+You can answer by selecting choices and typing extra comments if you want. \
+You can skip any question, take a break, or stop at any time."""
+
+    st.markdown(INTRO_TEXT)
+
+    st.markdown("#### Demo Video")
+    st.markdown(
+        '<iframe src="https://drive.google.com/file/d/1FCfzZslMnuyQAPhcZoiACrx0sWaYskxV/preview" '
+        'width="100%" height="450" allow="autoplay" style="border:none;"></iframe>',
+        unsafe_allow_html=True,
+    )
+
+    st.markdown("")
+    if st.button("Continue to interview →", type="primary", key="btn_intro_continue"):
+        uid = st.session_state.user_id
+        with st.spinner("Starting your session..."):
+            session, loop = _create_session(uid)
+        FIRST_QUESTION = "What is your first reaction to this idea?"
+        st.session_state.update(
+            session=session,
+            loop=loop,
+            chat=[{"role": "assistant", "content": FIRST_QUESTION}],
+            waiting=False,
+            skip_first_bot_msg=True,
+            phase="active",
+        )
+        st.rerun()
 
     st.stop()
 
