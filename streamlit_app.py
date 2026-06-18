@@ -612,6 +612,29 @@ if new_msgs:
         # Non-blocking save after every interviewer turn
         save_async(user_id, st.session_state.chat, cfg)
 
+# Intro text and video (always visible during active interview)
+INTRO_TEXT = """\
+Thank you for attending this semi-structured interview today.
+
+We are studying an idea for helping people when others have trouble understanding their speech. \
+The idea is to use speech transcription as a starting point, and then allow the text to be edited \
+if needed to help repair meaning.
+
+In this session, we will show you a short demo of the idea. After that, we will ask what you think about it.
+
+This is not a test of you. We are testing the idea and learning from your experience.
+
+You can answer by selecting choices and typing extra comments if you want. \
+You can skip any question, take a break, or stop at any time."""
+
+st.markdown(INTRO_TEXT)
+st.markdown(
+    '<iframe src="https://drive.google.com/file/d/1FCfzZslMnuyQAPhcZoiACrx0sWaYskxV/preview" '
+    'width="100%" height="450" allow="autoplay" style="border:none;"></iframe>',
+    unsafe_allow_html=True,
+)
+st.divider()
+
 # Render chat history
 for msg in st.session_state.chat:
     with st.chat_message(msg["role"]):
