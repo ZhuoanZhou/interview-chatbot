@@ -256,22 +256,41 @@ class InterviewSession:
         # Gets subscribers for the user that sent the message.
         subscribers = self._subscriptions.get(message.role, [])
         SessionLogger.log_to_file(
-            "execution_log", 
+            "execution_log",
             (
                 f"[NOTIFY] Notifying {len(subscribers)} subscribers "
                 f"for message from {message.role}"
             )
         )
 
-        # Create independent tasks for each subscriber
-        tasks = []
-        for sub in subscribers:
-            if self.session_in_progress:
-                task = asyncio.create_task(sub.on_message(message))
-                tasks.append(task)
-        
-        # Allow tasks to run concurrently without waiting for each other
-        await asyncio.sleep(0)  # Explicitly yield control
+        if message.role == "User":
+            # For User messages: run AgendaManager and ExplorationPlanner first,
+            # wait for both to finish, then run Interviewer.
+            # This ensures coverage/notes are updated before the Interviewer picks the next question.
+            background = [s for s in subscribers if s is not self._interviewer]
+            foreground = [s for s in subscribers if s is self._interviewer]
+
+            if background and self.session_in_progress:
+                SessionLogger.log_to_file(
+                    "execution_log",
+                    "[NOTIFY] Running background agents first (AgendaManager, ExplorationPlanner)"
+                )
+                await asyncio.gather(*[s.on_message(message) for s in background])
+
+            if foreground and self.session_in_progress:
+                SessionLogger.log_to_file(
+                    "execution_log",
+                    "[NOTIFY] Background agents done -- notifying Interviewer"
+                )
+                await foreground[0].on_message(message)
+        else:
+            # For Interviewer messages: fire all subscribers concurrently (only AgendaManager)
+            tasks = []
+            for sub in subscribers:
+                if self.session_in_progress:
+                    task = asyncio.create_task(sub.on_message(message))
+                    tasks.append(task)
+            await asyncio.sleep(0)  # Yield control
 
         # Special handling for user messages after notifying participants
         if message.role == "User":
