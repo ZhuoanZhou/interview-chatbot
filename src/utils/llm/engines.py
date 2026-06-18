@@ -22,6 +22,11 @@ engine_constructor = {
     "meta-llama/Llama-3.1-70B-Instruct": ChatTogether
 }
 
+# Models that require max_completion_tokens instead of max_tokens
+MAX_COMPLETION_TOKENS_MODELS = {
+    "gpt-5-nano", "gpt-5", "o1", "o1-mini", "o3", "o3-mini", "o4-mini"
+}
+
 def get_engine(model_name, **kwargs):
     """
     Creates and returns a language model engine based on the specified model name.
@@ -84,8 +89,11 @@ def get_engine(model_name, **kwargs):
         kwargs["max_tokens"] = token_limit
         return VLLMEngine(model_name=actual_model_name, **kwargs)
 
-    # For other models (OpenAI, Llama), use max_tokens
-    kwargs["max_tokens"] = token_limit
+    # For other models (OpenAI, Llama), use appropriate token parameter
+    if model_name in MAX_COMPLETION_TOKENS_MODELS:
+        kwargs["max_completion_tokens"] = token_limit
+    else:
+        kwargs["max_tokens"] = token_limit
     kwargs["model_name"] = model_name
     return engine_constructor[model_name](**kwargs)
 

@@ -61,6 +61,7 @@ class BaseAgent:
 
     def _call_engine(self, prompt: str):
         '''Calls the LLM engine with the given prompt.'''
+        last_exception = None
         for attempt in range(3):
             try:
                 response = invoke_engine(self.engine, prompt)
@@ -87,6 +88,7 @@ class BaseAgent:
 
                 return response.content
             except Exception as e:
+                last_exception = e
                 # Calculate exponential backoff sleep time (1s, 2s, 4s, 8s, etc.)
                 sleep_time = 2 ** attempt
                 SessionLogger.log_to_file(
@@ -98,7 +100,7 @@ class BaseAgent:
                 )
                 time.sleep(sleep_time)
 
-        raise e
+        raise last_exception
     
     async def call_engine_async(self, prompt: str) -> str:
         '''Asynchronously call the LLM engine with the given prompt.'''
