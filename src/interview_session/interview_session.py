@@ -284,13 +284,11 @@ class InterviewSession:
                 )
                 await foreground[0].on_message(message)
         else:
-            # For Interviewer messages: fire all subscribers concurrently (only AgendaManager)
-            tasks = []
+            # For Interviewer messages: await AgendaManager directly so _last_interviewer_message
+            # is guaranteed to be set before any subsequent User message is processed.
             for sub in subscribers:
                 if self.session_in_progress:
-                    task = asyncio.create_task(sub.on_message(message))
-                    tasks.append(task)
-            await asyncio.sleep(0)  # Yield control
+                    await sub.on_message(message)
 
         # Special handling for user messages after notifying participants
         if message.role == "User":

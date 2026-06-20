@@ -102,6 +102,7 @@ class Interviewer(BaseAgent, Participant):
             except Exception as e:
                 print(f"Error calling tool: {e}. Use the raw response as the output.")
                 await self._handle_response(response)
+                self._turn_to_respond = False
 
             iterations += 1
             if iterations >= self._max_consideration_iterations:
