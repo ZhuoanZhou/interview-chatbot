@@ -92,6 +92,14 @@ class Interviewer(BaseAgent, Participant):
         self._turn_to_respond = True
         iterations = 0
 
+        # Hardcoded opening question — no LLM call needed for the first turn
+        if not self.interview_session.chat_history:
+            await self._handle_response(
+                "Reflecting on the demo, what\u2019s your overall first reaction to the editing prototype\u2014positive, mixed, or negative?"
+            )
+            self._turn_to_respond = False
+            return
+
         while self._turn_to_respond and iterations < self._max_consideration_iterations:
             prompt = self._get_prompt()
             self.add_event(sender=self.name, tag="llm_prompt", content=prompt)
