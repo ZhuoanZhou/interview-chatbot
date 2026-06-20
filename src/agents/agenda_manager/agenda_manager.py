@@ -91,10 +91,10 @@ class AgendaManager(BaseAgent, Participant):
             self._add_question_to_session_agenda()
         elif message.role == "User":
             if self._last_interviewer_message:
-                asyncio.create_task(self._process_qa_pair(
+                await self._process_qa_pair(
                     interviewer_message=self._last_interviewer_message,
                     user_message=message
-                ))
+                )
                 self._last_interviewer_message = None
      
     async def augment_session_agenda(self, additional_context_path: Optional[str] = None):
