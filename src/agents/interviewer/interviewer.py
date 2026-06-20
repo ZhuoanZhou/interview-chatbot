@@ -180,23 +180,21 @@ class Interviewer(BaseAgent, Participant):
                 )
             format_params["questions_and_notes"] = questions_and_notes_str
 
-            # Get strategic question suggestions from ExplorationPlanner (only if not stale)
-            # Staleness is checked before formatting to avoid unnecessary work
+            # Always populate strategic_questions so the inner {strategic_questions}
+            # placeholder in the expanded prompt is always substituted.
             if self._should_include_strategic_questions():
-                strategic_questions_str = self._format_strategic_questions()
-                format_params["strategic_questions"] = strategic_questions_str
+                format_params["strategic_questions"] = self._format_strategic_questions()
+            else:
+                format_params["strategic_questions"] = (
+                    "No strategic question suggestions available yet. "
+                    "Use coverage-based heuristics to select questions from the topics list."
+                )
 
         # Use the baseline prompt if enabled
         if self.use_baseline:
             main_prompt = get_prompt("baseline")
         else:
             main_prompt = get_prompt("normal")
-
-            # Remove STRATEGIC_QUESTIONS section from template if stale
-            if not self.use_baseline and not self._should_include_strategic_questions():
-                # Remove the {STRATEGIC_QUESTIONS} line to exclude the section entirely
-                main_prompt = main_prompt.replace("\n{STRATEGIC_QUESTIONS}\n", "\n")
-                # Don't provide strategic_questions key in format_params (already omitted above)
 
         return format_prompt(main_prompt, format_params)
 
