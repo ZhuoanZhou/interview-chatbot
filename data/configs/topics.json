@@ -1,5 +1,11 @@
 [
   {
+    "topic": "Overall First Impression",
+    "subtopics": [
+      "Overall first reaction to the prototype (positive, mixed, negative)"
+    ]
+  },
+  {
     "topic": "Feature-by-Feature Evaluation",
     "subtopics": [
       "Speech-to-text: perceived value and concerns",
