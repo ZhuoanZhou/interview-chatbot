@@ -95,7 +95,7 @@ class Interviewer(BaseAgent, Participant):
         # Hardcoded opening question — no LLM call needed for the first turn
         if not self.interview_session.chat_history:
             await self._handle_response(
-                "Reflecting on the demo, what\u2019s your overall first reaction to the editing prototype\u2014positive, mixed, or negative?"
+                "What's your overall first reaction to the prototype in the demo video—positive, mixed, or negative?"
             )
             self._turn_to_respond = False
             return
