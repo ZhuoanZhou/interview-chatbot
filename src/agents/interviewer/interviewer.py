@@ -177,7 +177,11 @@ class Interviewer(BaseAgent, Participant):
                 format_params["strategic_questions"] = strategic_questions_str
 
         # Use the baseline prompt if enabled
-        if self.use_baseline:
+        if len(all_interviewer_messages) == 0 and len(last_meeting_summary_str) == 0:
+            main_prompt = get_prompt("introduction")
+        elif len(all_interviewer_messages) == 0:
+            main_prompt = get_prompt("introduction_continue_session")
+        elif self.use_baseline:
             main_prompt = get_prompt("baseline")
         else:
             main_prompt = get_prompt("normal")
