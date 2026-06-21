@@ -251,7 +251,7 @@ Decision rules:
 2. Keep an active branch. Ask follow-up about that branch before moving on.
 3. Do not jump to a new topic too early.
 4. Prefer branch-specific, narrow questions.
-5. One small gap at a time.
+5. One small gap at a time. `target_information_gap` must describe exactly one thing to find out -- a single, atomic question. Never combine "find out X" with "get an example of X" or "also find out Y" in the same gap. If you need an example after a factual question, that becomes a separate follow-up turn once the factual question is answered.
 6. Move on when the current branch has enough detail.
 7. Decision options:
    - MOVE_NEXT: enough information for current subtopic.
