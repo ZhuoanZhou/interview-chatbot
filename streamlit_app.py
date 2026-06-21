@@ -843,12 +843,14 @@ else:
 
     gen = st.session_state.form_generation
 
-    if current_q_msg and current_q_msg.get("options"):
-        answer_mode = current_q_msg.get("answer_mode", "single_choice")
-        options = current_q_msg["options"]
-        q_key = current_q_msg.get("question_id", "q")
+    # ── Interactive options ───────────────────────────────────────────────────
+    answer_mode = current_q_msg.get("answer_mode", "short_text") if current_q_msg else "short_text"
+    options = current_q_msg.get("options", []) if current_q_msg else []
+    q_key = current_q_msg.get("question_id", "q") if current_q_msg else "q"
 
+    if options:
         if answer_mode == "single_choice":
+            # Click to submit immediately (no typing needed)
             st.markdown("**Choose one:**")
             n_cols = min(3, len(options))
             cols = st.columns(n_cols)
@@ -858,37 +860,38 @@ else:
                                  use_container_width=True):
                         st.session_state.chat.append({"role": "user", "content": opt["label"]})
                         st.session_state.form_generation += 1
-                        st.session_state._pending_draft = ""
                         st.session_state.waiting = True
                         st.rerun()
 
         elif answer_mode in ("multiple_choice", "ranking"):
+            # Check boxes — collected at Send time
             st.markdown("**Choose all that apply:**")
             for i, opt in enumerate(options):
                 st.checkbox(opt["label"], key=f"mopt_{gen}_{q_key}_{i}")
 
         elif answer_mode == "yes_no_plus_optional_text":
-            st.markdown("**Choose one:**")
-            n_cols = min(3, len(options))
-            cols = st.columns(n_cols)
-            for i, opt in enumerate(options):
-                with cols[i % n_cols]:
-                    if st.button(opt["label"], key=f"ynopt_{gen}_{q_key}_{i}",
-                                 use_container_width=True):
-                        st.session_state.chat.append({"role": "user", "content": opt["label"]})
-                        st.session_state.form_generation += 1
-                        st.session_state._pending_draft = ""
-                        st.session_state.waiting = True
-                        st.rerun()
+            # Radio selection (non-submitting) + text area below
+            st.markdown("**Choose one (you can also add details below):**")
+            option_labels = [o["label"] for o in options]
+            st.radio(
+                "yes_no_radio",
+                option_labels,
+                index=None,
+                horizontal=True,
+                key=f"yn_{gen}_{q_key}",
+                label_visibility="collapsed",
+            )
 
-    st.text_area(
+    # ── Text area (always visible) ────────────────────────────────────────────
+    typed = st.text_area(
         "response",
         key="user_draft",
         height=100,
-        placeholder="Type your response here, or click mic Speak to record...",
+        placeholder="Type your response here, or click 🎤 Speak to record...",
         label_visibility="collapsed",
     )
 
+    # Enter key sends (Shift+Enter = newline)
     components.html("""
     <script>
     (function() {
@@ -914,19 +917,20 @@ else:
     </script>
     """, height=0)
 
+    # ── Mic + Send ────────────────────────────────────────────────────────────
     mic_col, spacer_col, send_col = st.columns([3, 5, 2])
 
     with mic_col:
         audio = mic_recorder(
-            start_prompt="mic  Speak",
-            stop_prompt="stop  Stop",
+            start_prompt="🎤  Speak",
+            stop_prompt="⏹️  Stop",
             just_once=True,
             use_container_width=True,
             key="mic",
         )
 
     with send_col:
-        send_clicked = st.button("Send ->", type="primary", use_container_width=True)
+        send_clicked = st.button("Send →", type="primary", use_container_width=True)
 
     if audio:
         audio_bytes = audio["bytes"]
@@ -936,35 +940,38 @@ else:
             with st.spinner("Transcribing..."):
                 transcript = _transcribe(audio_bytes)
             if transcript:
-                st.session_state._pending_draft = transcript
+                st.session_state.user_draft = transcript
                 st.rerun()
             else:
                 st.warning("Could not transcribe. Please try again or type your response.")
 
     if send_clicked:
-        typed = (st.session_state.get("user_draft") or "").strip()
+        # Use the widget's return value directly (more reliable than session state read)
+        typed_text = (typed or "").strip()
 
+        # Collect multiple-choice checkboxes
         selected = []
-        if current_q_msg:
-            answer_mode = current_q_msg.get("answer_mode", "short_text")
-            options = current_q_msg.get("options", [])
-            q_key = current_q_msg.get("question_id", "q")
-            if answer_mode in ("multiple_choice", "ranking"):
-                selected = [
-                    opt["label"]
-                    for i, opt in enumerate(options)
-                    if st.session_state.get(f"mopt_{gen}_{q_key}_{i}")
-                ]
+        if answer_mode in ("multiple_choice", "ranking"):
+            selected = [
+                opt["label"]
+                for i, opt in enumerate(options)
+                if st.session_state.get(f"mopt_{gen}_{q_key}_{i}")
+            ]
+
+        # Collect yes/no radio selection
+        yn_pick = st.session_state.get(f"yn_{gen}_{q_key}")
 
         parts = []
+        if yn_pick:
+            parts.append(yn_pick)
         if selected:
             parts.append("; ".join(selected))
-        if typed:
-            parts.append(typed)
+        if typed_text:
+            parts.append(typed_text)
         answer = ". ".join(parts) if parts else None
 
         if answer:
-            st.session_state._pending_draft = ""
+            st.session_state.user_draft = ""
             st.session_state.form_generation += 1
             st.session_state.chat.append({"role": "user", "content": answer})
             st.session_state.waiting = True
