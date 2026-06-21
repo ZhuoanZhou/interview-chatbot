@@ -930,7 +930,12 @@ else:
     with send_col:
         send_clicked = st.button("Send →", type="primary", use_container_width=True)
 
-    if audio:
+    if send_clicked:
+        # Session state fallback in case widget return value is empty
+        typed_text = (typed or st.session_state.get(draft_key) or "").strip()
+
+    elif audio:
+        # Only process audio if Send was not clicked in this same rerun
         audio_bytes = audio["bytes"]
         audio_hash = hashlib.md5(audio_bytes).hexdigest()
         if audio_hash != st.session_state.last_audio_hash:
@@ -942,10 +947,6 @@ else:
                 st.rerun()
             else:
                 st.warning("Could not transcribe. Please try again or type your response.")
-
-    if send_clicked:
-        # Use the widget's return value directly (more reliable than session state read)
-        typed_text = (typed or "").strip()
 
         # Collect multiple-choice checkboxes
         selected = []
