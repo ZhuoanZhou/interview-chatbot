@@ -395,7 +395,7 @@ def _create_session(user_id, previous_chat=None):
         interaction_mode="api",
         user_config={"user_id": user_id},
         interview_config={
-            "interview_description": "Formative study exploring reactions to a speech transcription and editing prototype for people with dysarthria",
+            "interview_description": "Formative study exploring reactions to a demo video of a prototype for people with dysarthria. The system uses speech transcription as a starting point and allows the person to edit or correct the text when needed, so that the intended meaning can be repaired and shared with a communication partner.",
             "interview_plan_path": os.getenv("INTERVIEW_PLAN_PATH", "data/configs/topics.json"),
             "interview_evaluation": os.getenv("COMPLETION_METRIC", "minimum_threshold"),
         },
