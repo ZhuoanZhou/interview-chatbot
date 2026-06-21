@@ -316,6 +316,7 @@ Core goals:
 2. Evaluate Completeness
    - STAR: Situation, Task, Action, Result all present -> covered.
    - Descriptive: main question explained with sufficient clarity -> covered.
+   - Descriptive background questions (Section A): if the participant has selected any options or provided any typed answer, mark as sufficiently_covered. Generate at most one FOLLOW_UP for clarification only if the answer was genuinely ambiguous. Do not drill into individual selected items.
    - If notes are already comprehensive, mark as covered and move on.
 
 3. Aggregation
