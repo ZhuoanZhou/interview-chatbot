@@ -850,17 +850,15 @@ else:
 
     if options:
         if answer_mode == "single_choice":
-            # Click to submit immediately (no typing needed)
-            st.markdown("**Choose one:**")
+            # Click pre-fills the text area; participant can edit before sending
+            st.markdown("**Choose one (or type your own answer below):**")
             n_cols = min(3, len(options))
             cols = st.columns(n_cols)
             for i, opt in enumerate(options):
                 with cols[i % n_cols]:
                     if st.button(opt["label"], key=f"sopt_{gen}_{q_key}_{i}",
                                  use_container_width=True):
-                        st.session_state.chat.append({"role": "user", "content": opt["label"]})
-                        st.session_state.form_generation += 1
-                        st.session_state.waiting = True
+                        st.session_state.user_draft = opt["label"]
                         st.rerun()
 
         elif answer_mode in ("multiple_choice", "ranking"):
@@ -870,17 +868,16 @@ else:
                 st.checkbox(opt["label"], key=f"mopt_{gen}_{q_key}_{i}")
 
         elif answer_mode == "yes_no_plus_optional_text":
-            # Radio selection (non-submitting) + text area below
-            st.markdown("**Choose one (you can also add details below):**")
-            option_labels = [o["label"] for o in options]
-            st.radio(
-                "yes_no_radio",
-                option_labels,
-                index=None,
-                horizontal=True,
-                key=f"yn_{gen}_{q_key}",
-                label_visibility="collapsed",
-            )
+            # Click pre-fills the text area; participant can add details before sending
+            st.markdown("**Choose one (you can add details below):**")
+            n_cols = min(3, len(options))
+            cols = st.columns(n_cols)
+            for i, opt in enumerate(options):
+                with cols[i % n_cols]:
+                    if st.button(opt["label"], key=f"ynopt_{gen}_{q_key}_{i}",
+                                 use_container_width=True):
+                        st.session_state.user_draft = opt["label"]
+                        st.rerun()
 
     # ── Text area (always visible) ────────────────────────────────────────────
     typed = st.text_area(
@@ -958,12 +955,7 @@ else:
                 if st.session_state.get(f"mopt_{gen}_{q_key}_{i}")
             ]
 
-        # Collect yes/no radio selection
-        yn_pick = st.session_state.get(f"yn_{gen}_{q_key}")
-
         parts = []
-        if yn_pick:
-            parts.append(yn_pick)
         if selected:
             parts.append("; ".join(selected))
         if typed_text:
