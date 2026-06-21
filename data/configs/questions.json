@@ -1,0 +1,43 @@
+[
+  {
+    "main_question": "When someone does not understand you, what do you usually do?",
+    "probes": [
+    ]
+  },
+  {
+    "main_question": "What most affects what you decide to do when communication breaks down?",
+    "probes": [
+    ]
+  },
+  {
+    "main_question": "How much effort does communication repair usually take for you?",
+    "probes": [
+      "What makes it easier or harder?"
+    ]
+  },
+  {
+    "main_question": "What is your first reaction to this idea?",
+    "probes": [
+      "What made you choose that reaction?"
+    ]
+  },
+  {
+    "main_question": "Please give feedback on each part of the system—which features seem most useful or most difficult?",
+    "probes": [
+      "How do you feel about seeing a transcript of what you said?",
+      "What about editing the transcript instead of starting from nothing?",
+      "Correcting one word and asking the system to re-transcribe the rest—does that make sense?",
+      "How about showing the corrected text to another person, or having the system speak it aloud?",
+      "What do you think of getting word suggestions or using shorthand to reduce typing?"
+    ]
+  },
+  {
+    "main_question": "Could you imagine using this in real life?",
+    "probes": [
+      "When would you use it, or why would you not use it?"
+    ]
+  },
+  {
+    "main_question": "What concerns would you have about using this in a real conversation?",
+    "probes": []
+ 

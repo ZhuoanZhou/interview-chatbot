@@ -1,0 +1,167 @@
+---
+
+title: "Semi-Structured Chatbot Interview Guide: Feedback on Transcription-Plus-Editing Communication Repair"
+study_type: "Formative chatbot interview"
+participant_group: "People with dysarthria"
+-------------------------------------------
+
+# Semi-Structured Chatbot Interview Guide: Feedback on Transcription-Plus-Editing Communication Repair
+
+## 1. Study Purpose
+
+This chatbot interview explores how people with dysarthria respond to an idea for using speech transcription plus editing to support communication repair.
+
+The system concept is that a person speaks, the system generates a transcript, and the person can edit or correct the transcript when needed so that the intended meaning can be shared with another person.
+
+The goal is to understand:
+
+* How participants currently handle communication breakdowns.
+* What makes communication repair difficult, tiring, or not worth the effort.
+* Whether transcription plus editing could be useful in real-life communication.
+* Which parts of the system seem useful, difficult, unrealistic, or unnecessary.
+* In what situations participants might or might not use this kind of system.
+* What design changes may make the system more usable, accessible, and practical.
+
+Participants will watch a short demo video of the prototype, but they will not be asked to try the prototype directly in this chatbot interview.
+
+This interview is not a test of the participant or their abilities. There are no right or wrong answers. The participant may answer using speech, typing, short phrases, AAC, gesture, pointing, or any other preferred method.
+
+The chatbot should ask follow-up questions only when the participant’s answer is unclear, especially relevant to system design, or suggests an important new issue.
+
+---
+
+# Section A. Brief Real-Life Communication Background
+
+## A1. Current Communication Repair
+
+**Main topic:**
+
+When someone does not understand you, what do you usually do?
+
+**Optional probes:**
+
+* Do you repeat, rephrase, type, gesture, use AAC, ask someone else to help, or do something else?
+* Does your strategy depend on the person, situation, or importance of the message?
+* Are there times when you decide not to keep trying?
+
+## A2. Repair Burden
+
+**Main topic:**
+
+What makes communication repair difficult or tiring for you?
+
+**Optional probes:**
+
+* Is the hard part speech effort, typing effort, time, frustration, stress, or something else?
+* Are there situations where repair feels too slow or too much work?
+* What currently helps reduce the effort?
+
+---
+
+# Section B. Reaction After Demo Video
+
+## B1. First Reaction to the Concept
+
+**Main topic:**
+
+What is your first reaction to this idea after seeing the demo?
+
+**Optional probes:**
+
+* What seems useful?
+* What seems difficult or unrealistic?
+* Could you imagine yourself using something like this?
+
+## B2. Feedback on System Features
+
+**Main topic:**
+
+Which parts of the system seem useful, difficult, or unnecessary?
+
+**Optional probes:**
+
+* Seeing a transcript of what you said.
+* Editing the transcript.
+* Correcting one word and asking the system to re-transcribe the rest.
+* Starting from a transcript instead of typing everything from scratch.
+* Showing the corrected text to another person.
+* Having the corrected text spoken aloud.
+* Getting word suggestions or other help to reduce typing.
+* Using shorthand, abbreviations, or first letters to reduce typing.
+* Is there any feature missing from the system?
+
+## B3. Real-Life Fit
+
+**Main topic:**
+
+In what situations would you want or not want to use something like this?
+
+**Optional probes:**
+
+* Would it fit better with strangers, familiar people, medical appointments, ordering food, work, school, or other situations?
+* Would it be more useful for short conversations, longer conversations, or important messages?
+* Are there situations where this system would feel too slow, awkward, tiring, or unnecessary?
+
+## B4. Conversation Partner and Social Concerns
+
+**Main topic:**
+
+What concerns would you have about using this with another person in a real conversation?
+
+**Optional probes:**
+
+* Would the other person wait while you edit?
+* Would using the system feel natural or awkward?
+* Would privacy, attention to the screen, or social pressure be a concern?
+* Would the other person’s reaction affect whether you use it?
+
+---
+
+# Section C. Overall Fit and Design Suggestions
+
+## C1. Good-Enough Transcript
+
+**Main topic:**
+
+When would the transcript be good enough to share with another person?
+
+**Optional probes:**
+
+* Does it need to be almost perfect, or is the main meaning enough?
+* What kinds of mistakes would matter most?
+* Are there mistakes you would be willing to leave unchanged?
+
+## C2. Overall Usefulness
+
+**Main topic:**
+
+Overall, would something like this be useful for you? Why or why not?
+
+**Optional probes:**
+
+* Would it be better than repeating, typing from scratch, or what you currently use?
+* Would it only be useful in certain situations or with certain people?
+* Would the effort be worth it?
+
+## C3. Design Improvements
+
+**Main topic:**
+
+What would need to change to make this system more useful for you?
+
+**Optional probes:**
+
+* Better transcription accuracy?
+* Less typing?
+* Easier editing?
+* Word suggestions?
+* Highlighting important mistakes?
+* Easier repeat or re-record option?
+* Support for shorthand, abbreviations, or first-letter input?
+* A better way to show or speak the message to another person?
+
+---
+
+# Closing prompt
+
+Thank you for sharing your experience and feedback with us. Your answers will help us understand whether transcription plus editing could support communication repair in everyday life, what parts may be useful or difficult, and how the system should be improved to better fit the needs of people with dysarthria.

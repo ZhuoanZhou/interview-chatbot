@@ -45,88 +45,163 @@ if not os.getenv("OPENAI_API_KEY"):
 MODEL = "gpt-5-nano"
 
 INTERVIEW_GUIDE = """\
-Section A. Brief Real-Life Communication Background
+## 1. Study Purpose
 
-A1. Current Communication Repair
-Main topic: When someone does not understand you, what do you usually do?
-Optional probes:
-- Do you repeat, rephrase, type, gesture, use AAC, ask someone else to help, or do something else?
-- Does your strategy depend on the person, situation, or importance of the message?
-- Are there times when you decide not to keep trying?
+This interview explores how people with dysarthria respond to an idea for using speech transcription plus editing to support communication repair.
 
-A2. Repair Burden
-Main topic: What makes communication repair difficult or tiring for you?
-Optional probes:
-- Is the hard part speech effort, typing effort, time, frustration, stress, or something else?
-- Are there situations where repair feels too slow or too much work?
-- What currently helps reduce the effort?
+The system concept is that a person speaks, the system generates a transcript, and the person can edit or correct the transcript when needed. The system also allows the user to correct one word, then re-transcribe the partial transcript after the corrected word, which can potentially correct the remaining mistakes in the transcript after where the user corrected. 
 
-Section B. Reaction After Demo Video (show video before B1)
+The goal is to understand:
 
-B1. First Reaction to the Concept
-Main topic: What is your first reaction to this idea after seeing the demo?
-Optional probes:
-- What seems useful?
-- What seems difficult or unrealistic?
-- Could you imagine yourself using something like this?
+* How participants currently handle communication breakdowns.
+* What makes communication repair difficult, tiring, or not worth the effort.
+* Whether transcription plus editing could be useful in real-life communication.
+* Which parts of the system seem useful, difficult, unrealistic, or unnecessary.
+* In what situations participants might or might not use this kind of system.
+* What design changes may make the system more usable, accessible, and practical.
 
-B2. Feedback on System Features
-Main topic: Which parts of the system seem useful, difficult, or unnecessary?
-Optional probes:
-- Seeing a transcript of what you said.
-- Editing the transcript.
-- Correcting one word and asking the system to re-transcribe the rest.
-- Starting from a transcript instead of typing everything from scratch.
-- Showing the corrected text to another person.
-- Having the corrected text spoken aloud.
-- Getting word suggestions or other help to reduce typing.
-- Using shorthand, abbreviations, or first letters to reduce typing.
-- Is there any feature missing from the system?
+Participants will watch a short demo video of the prototype, but they will not be asked to try the prototype directly in this chatbot interview.
 
-B3. Real-Life Fit
-Main topic: In what situations would you want or not want to use something like this?
-Optional probes:
-- Would it fit better with strangers, familiar people, medical appointments, ordering food, work, school, or other situations?
-- Would it be more useful for short conversations, longer conversations, or important messages?
-- Are there situations where this system would feel too slow, awkward, tiring, or unnecessary?
+This interview is not a test of the participant or their abilities. There are no right or wrong answers.
 
-B4. Conversation Partner and Social Concerns
-Main topic: What concerns would you have about using this with another person in a real conversation?
-Optional probes:
-- Would the other person wait while you edit?
-- Would using the system feel natural or awkward?
-- Would privacy, attention to the screen, or social pressure be a concern?
-- Would the other person's reaction affect whether you use it?
+---
 
-Section C. Overall Fit and Design Suggestions
+# Section A. Brief Real-Life Communication Background
 
-C1. Good-Enough Transcript
-Main topic: When would the transcript be good enough to share with another person?
-Optional probes:
-- Does it need to be almost perfect, or is the main meaning enough?
-- What kinds of mistakes would matter most?
-- Are there mistakes you would be willing to leave unchanged?
+## A1. Current Communication Repair
 
-C2. Overall Usefulness
-Main topic: Overall, would something like this be useful for you? Why or why not?
-Optional probes:
-- Would it be better than repeating, typing from scratch, or what you currently use?
-- Would it only be useful in certain situations or with certain people?
-- Would the effort be worth it?
+**Main topic:**
 
-C3. Design Improvements
-Main topic: What would need to change to make this system more useful for you?
-Optional probes:
-- Better transcription accuracy?
-- Less typing?
-- Easier editing?
-- Word suggestions?
-- Highlighting important mistakes?
-- Easier repeat or re-record option?
-- Support for shorthand, abbreviations, or first-letter input?
-- A better way to show or speak the message to another person?
+When someone does not understand you, what do you usually do?
 
-Closing: Thank you for sharing your experience and feedback with us.
+**Optional probes:**
+
+* Do you repeat, rephrase, type, gesture, use AAC, ask someone else to help, or do something else?
+* Does your strategy depend on the person, situation, or importance of the message?
+* Are there times when you decide not to keep trying?
+
+## A2. Repair Burden
+
+**Main topic:**
+
+What makes communication repair difficult or tiring for you?
+
+**Optional probes:**
+
+* Is the hard part speech effort, typing effort, time, frustration, stress, or something else?
+* Are there situations where repair feels too slow or too much work?
+* What currently helps reduce the effort?
+
+---
+
+# Section B. Reaction After Demo Video
+
+## B1. First Reaction to the Concept
+
+**Main topic:**
+
+What is your first reaction to this idea after seeing the demo?
+
+**Optional probes:**
+
+* What seems useful?
+* What seems difficult or unrealistic?
+* Could you imagine yourself using something like this?
+
+## B2. Feedback on System Features
+
+**Main topic:**
+
+Which parts of the system seem useful, difficult, or unnecessary?
+
+**Optional probes:**
+
+* Seeing a transcript of what you said.
+* Editing the transcript.
+* Correcting one word and asking the system to re-transcribe the rest.
+* Starting from a transcript instead of typing everything from scratch.
+* Showing the corrected text to another person.
+* Having the corrected text spoken aloud.
+* Getting word suggestions or other help to reduce typing.
+* Using shorthand, abbreviations, or first letters to reduce typing.
+* Is there any feature missing from the system?
+
+## B3. Real-Life Fit
+
+**Main topic:**
+
+In what situations would you want to use something like this?
+
+**Optional probes:**
+
+* Would it fit better with strangers, familiar people, medical appointments, ordering food, work, school, or other situations?
+* Would it be more useful for short conversations, longer conversations, or important messages?
+* Are there situations where this system would feel too slow, awkward, tiring, or unnecessary?
+
+## B4. Conversation Partner and Social Concerns
+
+**Main topic:**
+
+What concerns would you have about using this with another person in a real conversation?
+
+**Optional probes:**
+
+* Would the other person wait while you edit?
+* Would using the system feel natural or awkward?
+* Would privacy, attention to the screen, or social pressure be a concern?
+* Would the other person’s reaction affect whether you use it?
+
+---
+
+# Section C. Overall Fit and Design Suggestions
+
+## C1. Good-Enough Transcript
+
+**Main topic:**
+
+When would the transcript be good enough to share with another person?
+
+**Optional probes:**
+
+* Does it need to be almost perfect, or is the main meaning enough?
+* What kinds of mistakes would matter most?
+* Are there mistakes you would be willing to leave unchanged?
+
+## C2. Overall Usefulness
+
+**Main topic:**
+
+Overall, would something like this be useful for you?
+
+**Optional probes:**
+
+* Would it be better than repeating, typing from scratch, or what you currently use?
+* Would it only be useful in certain situations or with certain people?
+* Would the effort be worth it?
+
+## C3. Design Improvements
+
+**Main topic:**
+
+What would need to change to make this system more useful for you?
+
+**Optional probes:**
+
+* Better transcription accuracy?
+* Less typing?
+* Easier editing?
+* Word suggestions?
+* Highlighting important mistakes?
+* Easier repeat or re-record option?
+* Support for shorthand, abbreviations, or first-letter input?
+* A better way to show or speak the message to another person?
+
+---
+
+# Closing prompt
+
+Thank you for sharing your experience and feedback with us. Your answers will help us understand whether transcription plus editing could support communication repair in everyday life, what parts may be useful or difficult, and how the system should be improved to better fit the needs of people with dysarthria.
+
 """
 
 QUESTIONS = [
@@ -134,10 +209,10 @@ QUESTIONS = [
     {"id": "A2", "main_question": "What makes communication repair difficult or tiring for you?"},
     {"id": "B1", "main_question": "What is your first reaction to this idea after seeing the demo?"},
     {"id": "B2", "main_question": "Which parts of the system seem useful, difficult, or unnecessary?"},
-    {"id": "B3", "main_question": "In what situations would you want or not want to use something like this?"},
+    {"id": "B3", "main_question": "In what situations would you want to use something like this?"},
     {"id": "B4", "main_question": "What concerns would you have about using this with another person in a real conversation?"},
     {"id": "C1", "main_question": "When would the transcript be good enough to share with another person?"},
-    {"id": "C2", "main_question": "Overall, would something like this be useful for you? Why or why not?"},
+    {"id": "C2", "main_question": "Overall, would something like this be useful for you?"},
     {"id": "C3", "main_question": "What would need to change to make this system more useful for you?"},
 ]
 
@@ -922,49 +997,4 @@ else:
         audio = mic_recorder(
             start_prompt="🎤  Speak",
             stop_prompt="⏹️  Stop",
-            just_once=True,
-            use_container_width=True,
-            key="mic",
-        )
-
-    with send_col:
-        send_clicked = st.button("Send →", type="primary", use_container_width=True)
-
-    if send_clicked:
-        typed_text = (typed or st.session_state.get(draft_key) or "").strip()
-
-        selected = []
-        if answer_mode in ("multiple_choice", "ranking"):
-            selected = [
-                opt["label"]
-                for i, opt in enumerate(options)
-                if st.session_state.get(f"mopt_{gen}_{q_key}_{i}")
-            ]
-
-        parts = []
-        if selected:
-            parts.append("; ".join(selected))
-        if typed_text:
-            parts.append(typed_text)
-        answer = ". ".join(parts) if parts else None
-
-        if answer:
-            st.session_state.form_generation += 1
-            st.session_state.chat.append({"role": "user", "content": answer})
-            st.session_state.waiting = True
-            st.rerun()
-        else:
-            st.warning("Please type a response or choose an option before sending.")
-
-    elif audio:
-        audio_bytes = audio["bytes"]
-        audio_hash = hashlib.md5(audio_bytes).hexdigest()
-        if audio_hash != st.session_state.last_audio_hash:
-            st.session_state.last_audio_hash = audio_hash
-            with st.spinner("Transcribing..."):
-                transcript = _transcribe(audio_bytes)
-            if transcript:
-                st.session_state._prefill = transcript
-                st.rerun()
-            else:
-                st.warning("Could not transcribe. Please try again or type your response.")
+        
