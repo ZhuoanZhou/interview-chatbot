@@ -961,4 +961,3 @@ else:
             st.rerun()
         else:
             st.warning("Please type a response or choose an option before sending.")
-                             
