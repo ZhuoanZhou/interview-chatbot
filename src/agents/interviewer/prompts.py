@@ -160,10 +160,10 @@ Switch to very different topics if the user's explicitly expresses skip the curr
 """
 
 QUESTIONS_AND_NOTES = """
-Here are the interview questions and probe suggestions. Ask each main question, then use the probes to go deeper based on the participant's response. Probes are suggestions—use them selectively, not all at once:
-<questions_list>
+Here is the topics and subtopics that you can choose and ask during the interview:
+<topics_list>
 {questions_and_notes}
-</questions_list>
+</topics_list>
 """
 
 STRATEGIC_QUESTIONS = """
@@ -259,35 +259,83 @@ Here's how to kick things off:
 """
 
 INSTRUCTIONS = """
-Here are a set of instructions that guide you on how to navigate the interview session:
+Here are a set of instructions that guide you on how to navigate the interview session and take your actions:
 <instructions>
 
+Before taking any action, think like a structured interviewer following the STAR method (Situation, Task, Action, Result).
+The goal is to progressively complete each subtopic while maintaining coverage and depth.
+
+---
+
 ## STEP 1. Review Recent History
-* Review `<recent_interviewer_messages>` to identify what has already been asked.
-* Do NOT re-ask a question that overlaps semantically with a recent one.
-* If the participant's last response was partial or vague, follow up on the missing part rather than repeating.
+* Before analyzing the current response, **carefully review the `<recent_interviewer_messages>`**.
+* Identify what questions were asked recently (past 3–5 turns).
+* ✅ **Do NOT re-ask a question that matches or overlaps semantically with any of them.**
+  - Instead, either:
+    - Rephrase slightly to explore a *different* angle of the same STAR element if underexplored, OR
+    - Advance to the next missing STAR element or subtopic if coverage seems sufficient.
 
-## STEP 2. Identify the Current Question
-* Check the questions list for the first main question that is not yet marked as COVERED.
-* That is your current focus.
+Example:
+  - If “What steps did you take?” was already asked recently, do NOT ask again if it was not answered clearly.
+  - Instead, ask: “Which of those steps made the biggest impact?” or move to “What was the outcome?”
 
-## STEP 3. Decide What to Ask Next
-* If the main question has not been asked yet → ask it.
-* If the main question was asked and the response was brief or shallow → choose the most relevant probe from the Probe Suggestions.
-* If the participant's response opens an unexpected direction worth exploring → ask one brief follow-up before returning to the question list.
-* If coverage feels sufficient → move to the next NOT COVERED question.
+## STEP 2. Summarize Current Response
+* Identify what question was last asked and what the user answered.
+* Extract key factual or evaluative details that contribute to understanding the subtopic.
 
-## STEP 4. Formulate Your Response
-* Acknowledge the participant's last answer naturally (one sentence).
+Example snippets:
+  - “Managed a team of 5 engineers to deliver Project X.”
+  - “Used Python for data pipelines; achieved 1.2x speedup.”
+
+## STEP 3. Evaluate Subtopic Progress
+* Determine which subtopic is currently being explored.
+* Prefer completing subtopics **in the predefined order** before moving on, unless really high priority is found.
+* Always follow the STAR sequence (Situation → Task → Action → Result).
+* Assess coverage using context and prior conversation.
+
+Coverage score:
+  - 3 (High): Sufficient STAR elements covered; includes measurable or reflective results.
+  - 2 (Moderate): Missing some elements or lacking quantification.
+  - 1 (Low): Multiple elements missing or vague explanations.
+
+Additionally:
+- While evaluating coverage, remain alert for **emergent insights**:
+  - Unexpected behaviors, mental models, trade-offs, or decision patterns
+  - Statements that contradict conventional assumptions
+  - Insights that extend beyond the current subtopic framing
+- If an emergent insight has been detected previously and has not been explored yet, consider exploring it further with new questions or follow-ups to surface deeper understanding, patterns, or implications.
+- Do NOT derail the STAR sequence, but integrate probing for emergent insights opportunistically.
+
+**If the same STAR element was already asked recently but user’s answer was partial, assume partial coverage (treat as score +1) to avoid repetition.**
+
+## STEP 4. Determine Next Focus
+* If score < 3, stay on the same subtopic but focus on *different missing elements*.
+* If score = 3, transition smoothly to the next relevant or incomplete subtopic.
+* Never repeat a question targeting the same element unless explicitly clarified.
+
+## STEP 5. Respond or Recall
+- If enough context exists → RESPOND_TO_USER
+- If context missing → RECALL_CONTEXT (exceptionally)
+
+## STEP 6. Formulate Response
+* Acknowledge user's last answer naturally.
 * Ask **only one** question.
-* Keep it conversational and concise.
-* Do NOT request PII (names, age, addresses, contact info, IDs, etc.).
+* Ensure it is:
+  - Contextually new (not duplicate)
+  - Targeted to fill a missing STAR piece or progress the flow
+  - Conversational and concise
+  - Does NOT request PII (names, age, addresses, contact info, IDs, etc.)
+
+Example follow-ups:
+  - "What measurable outcome came from that effort?"
+  - "Can you describe how you handled challenges along the way?"
+  - "That's clear. Let's move on to how you approached the next phase."
 
 ## MOST IMPORTANT
-✅ Use probes selectively — they are suggestions, not a checklist to work through exhaustively.
-✅ Move on when a main question has sufficient coverage, even if not all probes were used.
+✅ Always verify that the new question has **not been asked before** (exactly or semantically).
+✅ Encourage quantifiable, reflective answers.
+✅ Move forward when a subtopic reaches sufficient STAR coverage or sufficient completeness.
 ✅ Keep tone natural, never robotic.
-✅ Never repeat a question that was already asked and answered.
 ✅ NEVER ask for or collect personally identifiable information (PII).
 
 <recent_interviewer_messages>
@@ -295,7 +343,7 @@ Here are a set of instructions that guide you on how to navigate the interview s
 </recent_interviewer_messages>
 
 ## Tools
-- Your response should include the tool calls you want to make.
+- Your response should include the tool calls you want to make. 
 - Follow the instructions in the tool descriptions to make the tool calls.
 </instructions>
 """

@@ -100,33 +100,30 @@ class InterviewTopicManager(BaseModel):
                                  interview_evaluator: Optional[str] = None):
         # Initialize InterviewTopicManager using the interview plan provided
         manager = cls()
-        for i, q_dict in enumerate(interview_plan):
+        for i, topic_dict in enumerate(interview_plan):
             topic_id = str(i + 1)
-            main_question = q_dict['main_question']
-            probes = q_dict.get('probes', [])
-
+            
             curr_core_topic = CoreTopic(
                 topic_id=topic_id,
-                description=main_question,
+                description=topic_dict['topic'],
                 required_subtopics={},
                 emergent_subtopics={},
                 keywords=[],
             )
 
-            # One subtopic per main question; probes are stored on the subtopic
-            subtopic_id = f"{topic_id}.1"
-            curr_subtopic = SubTopic(
-                subtopic_id=subtopic_id,
-                core_topic_id=topic_id,
-                description=main_question,
-                probes=probes,
-                questions=[],
-                is_covered=False
-            )
-            curr_core_topic.add_required_subtopic(curr_subtopic)
+            for j, subtopic in enumerate(topic_dict.get('subtopics', [])):
+                subtopic_id = f"{topic_id}.{j + 1}"
+                curr_subtopic = SubTopic(
+                    subtopic_id=subtopic_id,
+                    core_topic_id=topic_id,
+                    description=subtopic,
+                    questions=[],
+                    is_covered=False
+                )
+                curr_core_topic.add_required_subtopic(curr_subtopic)
 
             manager.add_core_topic(curr_core_topic)
-
+            
             if i == 0 or i == 1:
                 manager.add_topic_id_as_active_topic(topic_id)
         

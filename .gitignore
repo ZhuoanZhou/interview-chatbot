@@ -218,6 +218,3 @@ data/*/
 # OAuth helper files (contain credentials — never commit)
 client_secrets.json
 get_refresh_token.py
-
-# Local prompt tester (internal use only — not for repo)
-prompt_tester.ipynb

@@ -1,7 +1,7 @@
 """
-SparkMe -- Streamlit web chatbot
+Interview Chatbot — Two-agent pipeline (Decision Maker + Question Generator)
 Run locally:   streamlit run streamlit_app.py
-Deploy:        push to GitHub -> connect Streamlit Community Cloud
+Deploy:        push to GitHub → connect Streamlit Community Cloud
 
 Required Streamlit Secrets:
   OPENAI_API_KEY        -- your OpenAI key
@@ -11,44 +11,24 @@ Required Streamlit Secrets:
   GDRIVE_REFRESH_TOKEN  -- long-lived refresh token (run get_refresh_token.py once)
 """
 
-import asyncio
 import hashlib
 import io
 import json
 import os
+import re
 import threading
-import time
 import uuid
 from datetime import datetime
 
 import streamlit as st
 import streamlit.components.v1 as components
 from dotenv import load_dotenv
+from openai import OpenAI
 from streamlit_mic_recorder import mic_recorder
 
-# Load .env for local dev; Streamlit Cloud injects secrets as env vars
 load_dotenv(override=True)
 
-# SparkMe reads many env vars at import time.
-# Set defaults so the app works without adding every variable to Streamlit Secrets.
-os.environ.setdefault("LOGS_DIR", "logs")
-os.environ.setdefault("DATA_DIR", "data")
-os.environ.setdefault("USER_AGENT_PROFILES_DIR", "data/sample_user_profiles")
-os.environ.setdefault("INTERVIEW_PLAN_PATH", "data/configs/questions.json")
-os.environ.setdefault("MODEL_NAME", "gpt-5-nano")
-os.environ.setdefault("AGENDA_MANAGER_MODEL_NAME", "gpt-5-nano")
-os.environ.setdefault("EXPLORATION_PLANNER_MODEL_NAME", "gpt-5-nano")
-os.environ.setdefault("EMBEDDING_BACKEND", "openai")
-os.environ.setdefault("MAX_EVENTS_LEN", "10")
-os.environ.setdefault("MAX_CONSIDERATION_ITERATIONS", "4")
-os.environ.setdefault("USE_BASELINE_PROMPT", "false")
-os.environ.setdefault("EVAL_MODE", "false")
-os.environ.setdefault("COMPLETION_METRIC", "minimum_threshold")
-os.environ.setdefault("SESSION_TIMEOUT_MINUTES", "10")
-os.environ.setdefault("MEMORY_THRESHOLD_FOR_UPDATE", "10")
-os.environ.setdefault("EXPLORATION_PLANNER_GAMMA", "0")
-
-# --- Guard: OpenAI key must be present ------------------------------------
+# ── Key guard ─────────────────────────────────────────────────────────────────
 if not os.getenv("OPENAI_API_KEY"):
     st.error(
         "**OPENAI_API_KEY is not set.**\n\n"
@@ -57,42 +37,412 @@ if not os.getenv("OPENAI_API_KEY"):
     )
     st.stop()
 
-# --- SparkMe imports -------------------------------------------------------
-from src.interview_session.interview_session import InterviewSession
-from src.interview_session.session_models import Message, MessageType
+
+# =============================================================================
+# Constants
+# =============================================================================
+
+MODEL = "gpt-5-nano"
+
+INTERVIEW_GUIDE = """\
+Section A. Brief Real-Life Communication Background
+
+A1. Current Communication Repair
+Main topic: When someone does not understand you, what do you usually do?
+Optional probes:
+- Do you repeat, rephrase, type, gesture, use AAC, ask someone else to help, or do something else?
+- Does your strategy depend on the person, situation, or importance of the message?
+- Are there times when you decide not to keep trying?
+
+A2. Repair Burden
+Main topic: What makes communication repair difficult or tiring for you?
+Optional probes:
+- Is the hard part speech effort, typing effort, time, frustration, stress, or something else?
+- Are there situations where repair feels too slow or too much work?
+- What currently helps reduce the effort?
+
+Section B. Reaction After Demo Video (show video before B1)
+
+B1. First Reaction to the Concept
+Main topic: What is your first reaction to this idea after seeing the demo?
+Optional probes:
+- What seems useful?
+- What seems difficult or unrealistic?
+- Could you imagine yourself using something like this?
+
+B2. Feedback on System Features
+Main topic: Which parts of the system seem useful, difficult, or unnecessary?
+Optional probes:
+- Seeing a transcript of what you said.
+- Editing the transcript.
+- Correcting one word and asking the system to re-transcribe the rest.
+- Starting from a transcript instead of typing everything from scratch.
+- Showing the corrected text to another person.
+- Having the corrected text spoken aloud.
+- Getting word suggestions or other help to reduce typing.
+- Using shorthand, abbreviations, or first letters to reduce typing.
+- Is there any feature missing from the system?
+
+B3. Real-Life Fit
+Main topic: In what situations would you want or not want to use something like this?
+Optional probes:
+- Would it fit better with strangers, familiar people, medical appointments, ordering food, work, school, or other situations?
+- Would it be more useful for short conversations, longer conversations, or important messages?
+- Are there situations where this system would feel too slow, awkward, tiring, or unnecessary?
+
+B4. Conversation Partner and Social Concerns
+Main topic: What concerns would you have about using this with another person in a real conversation?
+Optional probes:
+- Would the other person wait while you edit?
+- Would using the system feel natural or awkward?
+- Would privacy, attention to the screen, or social pressure be a concern?
+- Would the other person's reaction affect whether you use it?
+
+Section C. Overall Fit and Design Suggestions
+
+C1. Good-Enough Transcript
+Main topic: When would the transcript be good enough to share with another person?
+Optional probes:
+- Does it need to be almost perfect, or is the main meaning enough?
+- What kinds of mistakes would matter most?
+- Are there mistakes you would be willing to leave unchanged?
+
+C2. Overall Usefulness
+Main topic: Overall, would something like this be useful for you? Why or why not?
+Optional probes:
+- Would it be better than repeating, typing from scratch, or what you currently use?
+- Would it only be useful in certain situations or with certain people?
+- Would the effort be worth it?
+
+C3. Design Improvements
+Main topic: What would need to change to make this system more useful for you?
+Optional probes:
+- Better transcription accuracy?
+- Less typing?
+- Easier editing?
+- Word suggestions?
+- Highlighting important mistakes?
+- Easier repeat or re-record option?
+- Support for shorthand, abbreviations, or first-letter input?
+- A better way to show or speak the message to another person?
+
+Closing: Thank you for sharing your experience and feedback with us. Your answers will help us
+understand whether transcription plus editing could support communication repair in everyday life,
+what parts may be useful or difficult, and how the system should be improved to better fit the
+needs of people with dysarthria.
+"""
+
+QUESTIONS = [
+    {"id": "A1", "main_question": "When someone does not understand you, what do you usually do?"},
+    {"id": "A2", "main_question": "What makes communication repair difficult or tiring for you?"},
+    {"id": "B1", "main_question": "What is your first reaction to this idea after seeing the demo?"},
+    {"id": "B2", "main_question": "Which parts of the system seem useful, difficult, or unnecessary?"},
+    {"id": "B3", "main_question": "In what situations would you want or not want to use something like this?"},
+    {"id": "B4", "main_question": "What concerns would you have about using this with another person in a real conversation?"},
+    {"id": "C1", "main_question": "When would the transcript be good enough to share with another person?"},
+    {"id": "C2", "main_question": "Overall, would something like this be useful for you? Why or why not?"},
+    {"id": "C3", "main_question": "What would need to change to make this system more useful for you?"},
+]
+
+B1_INDEX = 2  # index in QUESTIONS where demo video is shown before the question
+
+CLOSING_MESSAGE = (
+    "Thank you for sharing your experience and feedback with us. "
+    "Your answers will help us understand whether transcription plus editing could support "
+    "communication repair in everyday life, what parts may be useful or difficult, and how "
+    "the system should be improved to better fit the needs of people with dysarthria."
+)
 
 
-# ==========================================================================
-# Demo video helper
-# ==========================================================================
+# =============================================================================
+# Agent system prompts + user-message templates
+# =============================================================================
 
-@st.cache_data(show_spinner=False)
-def _load_demo_video_bytes() -> bytes | None:
-    """Download the demo video via the existing Drive OAuth credentials.
+_QG_SYSTEM = """\
+You are the Accessible Interview Question Composer.
+You write short, simple, participant-facing interview prompts for people who may have \
+dysarthric speech and may also have difficulty typing.
+Your goal is to make each question easy to answer in a few words while still collecting \
+useful qualitative data.
+You receive a decision from the Interview State Manager. Follow it exactly. Do not change \
+the interview direction.
 
-    Re-uses _get_drive_config() / _make_service() so no extra secrets are
-    needed.  Returns None on failure so callers show a fallback message.
-    """
+Question design rules:
+1. Ask only one question.
+2. Avoid broad prompts like "Can you tell me more?"
+3. Prefer narrowed questions that can be answered with one word, a short phrase, or one sentence.
+4. Provide answer options.
+5. Include "Skip" as an option.
+6. Do not suggest that one answer is better than another.
+7. Do not ask for names, exact age, address, phone number, email, or other personally \
+identifying information.
+8. Do not ask the participant to design a solution unless the interview guide explicitly \
+asks for design preferences.
+9. If mentioning technical terms such as "communication repair," "AAC," or "strategy", \
+explain them in simple language.
+10. Do not combine multiple questions into one.
+
+Option design rules:
+- Options should be short labels, not long sentences.
+- Options should cover common possibilities without forcing the participant.
+- Options should not imply judgment.
+- Options should include "Other / type your answer."
+- Options may include "I'm not sure" if appropriate.
+- For sensitive or difficult topics, include "Prefer not to answer."
+"""
+
+_QG_USER_TEMPLATE = """\
+# Interview guide
+{interview_guide}
+
+# Chat history:
+{chat_history}
+
+# Current main question:
+{current_main_question}
+
+# Decision from Interview State Manager:
+{decision}
+
+Generate the next participant-facing prompt.
+Return JSON in this format:
+{{
+  "question_id": "A1",
+  "question_text": "...",
+  "answer_mode": "single_choice | multiple_choice | short_text | yes_no_plus_optional_text | ranking",
+  "options": [
+    {{"label": "..."}},
+    ...
+  ],
+  "participant_instruction": "You can choose one option or type your own answer.",
+  "why_this_question": "...",
+  "target_information_gap": "..."
+}}"""
+
+_DM_SYSTEM = """\
+You are the Interview State Manager for an accessibility-aware semi-structured interview.
+The interview is with a participant who may have dysarthric speech and may also have difficulty \
+typing. The interview should reduce response burden while still collecting useful qualitative data.
+Your job is NOT to write the final participant-facing question. Your job is to decide the next \
+interview action.
+
+Core goals:
+1. Maintain semi-structured interview coverage.
+2. Avoid repeating questions already asked.
+3. Decide whether a follow-up is necessary.
+4. Prefer short, narrowed, answerable prompts over broad open-ended questions.
+5. Respect participant effort, fatigue, and accessibility needs.
+6. Preserve qualitative validity by avoiding leading questions.
+7. Allow participants to answer by selecting options or typing their own answer.
+8. Move forward when the current topic is sufficiently covered.
+
+## Process
+1. Determine Subtopic Nature
+   - Infer whether the subtopic is:
+     * STAR-appropriate: describes an event, project, or experience involving actions, \
+challenges, or outcomes.
+     * Descriptive: focuses on background, motivation, interest, reasoning, or conceptual \
+understanding rather than a specific event.
+
+2. Evaluate Completeness
+   - For STAR-appropriate subtopics:
+     * Coverage requires STAR components: Situation, Task, Action, Result.
+     * Fully covered when almost all components are clearly present and coherent.
+     * If notes are already comprehensive, mark as covered.
+   - For Descriptive subtopics:
+     * Coverage requires comprehensive factual, reflective, or conceptual detail.
+     * Fully covered when the main question is explained with sufficient clarity.
+
+3. Aggregation
+   - For fully covered subtopics, synthesize the notes into a coherent and concise final summary.
+   - Avoid repetition — focus on integration and clarity.
+
+Do not force every topic into STAR. Use event-style coverage only when the subtopic is about \
+a concrete event.
+
+Decision rules:
+1. Selected options create branches.
+   - Each selected option becomes a pending branch. Explore one branch at a time.
+2. Keep an active branch.
+   - Identify the current active branch from the most recent participant answer.
+   - Ask follow-up questions about that branch before moving to another branch.
+3. Do not jump to a new topic too early.
+   - Before moving to the next main topic, check whether the active branch has enough context.
+4. Prefer branch-specific questions.
+   - Avoid broad questions. Prefer grounded, specific questions about one branch.
+5. One small gap at a time.
+   - Ask about only one branch and one missing detail per turn.
+6. Move on only when appropriate.
+   - Move to the next branch if the current branch has enough detail.
+   - Move to the next interview-guide topic only after major selected branches have minimal coverage.
+7. Decision options:
+   - MOVE_NEXT: participant's answer gives enough information for the current subtopic.
+   - FOLLOW_UP: one important detail is missing and asking would add value.
+   - CLARIFY: participant's answer is unclear.
+   - REDUCE_BURDEN: participant seems tired or frustrated.
+   - END_INTERVIEW: all topics are covered or the participant wants to stop.
+   - If the participant refuses, skips, or says they do not know, accept it and move on.
+"""
+
+_DM_USER_TEMPLATE = """\
+# Interview guide:
+{interview_guide}
+
+Chat history:
+{chat_history}
+
+Current main question:
+{current_main_question}
+
+Available response modes:
+- participant can select one or more options
+- participant can type their own answer
+- participant can skip
+- participant can ask for clarification
+
+Decide the next action.
+Return JSON in this format:
+{{
+  "current_subtopic_status": "not_started | partially_covered | sufficiently_covered | skipped",
+  "subtopic_type": "event_based | descriptive",
+  "decision": "FOLLOW_UP | MOVE_NEXT | CLARIFY | REDUCE_BURDEN | END_INTERVIEW",
+  "active_branch": {{
+    "branch_label": "...",
+    "branch_context": "...",
+    "branch_status": "needs_story"
+  }},
+  "pending_branches": [
+    {{
+      "branch_label": "...",
+      "branch_status": "not_explored"
+    }}
+  ],
+  "target_information_gap": "...",
+  "reason_for_decision": "..."
+}}"""
+
+
+# =============================================================================
+# OpenAI helpers
+# =============================================================================
+
+def _call_llm_json(system_prompt, user_prompt):
+    """Call the LLM and return a parsed JSON dict."""
+    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     try:
-        import io
-        from googleapiclient.http import MediaIoBaseDownload
-        config = _get_drive_config()
-        service = _make_service(config)
-        file_id = "1FCfzZslMnuyQAPhcZoiACrx0sWaYskxV"
-        request = service.files().get_media(fileId=file_id)
-        buf = io.BytesIO()
-        downloader = MediaIoBaseDownload(buf, request, chunksize=8 * 1024 * 1024)
-        done = False
-        while not done:
-            _, done = downloader.next_chunk()
-        return buf.getvalue()
+        resp = client.chat.completions.create(
+            model=MODEL,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+            response_format={"type": "json_object"},
+        )
+        return json.loads(resp.choices[0].message.content)
     except Exception:
-        return None
+        # Fallback: try without response_format
+        resp = client.chat.completions.create(
+            model=MODEL,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+        )
+        text = resp.choices[0].message.content or ""
+        m = re.search(r"\{.*\}", text, re.DOTALL)
+        if m:
+            return json.loads(m.group())
+        raise ValueError(f"LLM did not return valid JSON. Raw output: {text[:500]}")
 
 
-# ==========================================================================
+def _format_chat_for_prompt(chat):
+    """Convert the chat list to a readable string for LLM prompts."""
+    lines = []
+    for msg in chat:
+        if msg.get("role") == "video":
+            lines.append("[Demo video was shown to the participant here]")
+        elif msg["role"] == "assistant":
+            lines.append(f"Interviewer: {msg['content']}")
+            if msg.get("options"):
+                opts = " | ".join(o["label"] for o in msg["options"])
+                lines.append(f"[Options shown: {opts}]")
+        elif msg["role"] == "user":
+            lines.append(f"Participant: {msg['content']}")
+    return "\n".join(lines) if lines else "(No conversation yet)"
+
+
+# =============================================================================
+# Agent turn
+# =============================================================================
+
+def run_agent_turn(skip_dm=False):
+    """
+    Run one agent turn: [Decision Maker →] Question Generator.
+    Updates st.session_state (current_question_index, video_shown, interview_ended).
+    Returns (show_video: bool, qg_result: dict | None).
+    qg_result is None if the interview has ended.
+    """
+    q_idx = st.session_state.current_question_index
+    chat_str = _format_chat_for_prompt(st.session_state.chat)
+    current_q = QUESTIONS[q_idx]["main_question"] if q_idx < len(QUESTIONS) else ""
+
+    decision = None
+    if not skip_dm:
+        decision = _run_decision_maker(chat_str, current_q)
+        action = decision.get("decision", "FOLLOW_UP")
+
+        if action == "MOVE_NEXT":
+            q_idx += 1
+            st.session_state.current_question_index = q_idx
+            if q_idx >= len(QUESTIONS):
+                st.session_state.interview_ended = True
+                return False, None
+            current_q = QUESTIONS[q_idx]["main_question"]
+        elif action == "END_INTERVIEW":
+            st.session_state.interview_ended = True
+            return False, None
+
+    # Check if we need to trigger the demo video before B1
+    show_video = q_idx == B1_INDEX and not st.session_state.get("video_shown", False)
+    if show_video:
+        st.session_state.video_shown = True
+
+    if q_idx >= len(QUESTIONS):
+        st.session_state.interview_ended = True
+        return show_video, None
+
+    result = _run_question_generator(chat_str, current_q, decision)
+    # Always override question_id with ground truth from QUESTIONS list
+    result["question_id"] = QUESTIONS[q_idx]["id"]
+    return show_video, result
+
+
+def _run_decision_maker(chat_str, current_main_question):
+    user_prompt = _DM_USER_TEMPLATE.format(
+        interview_guide=INTERVIEW_GUIDE,
+        chat_history=chat_str,
+        current_main_question=current_main_question,
+    )
+    return _call_llm_json(_DM_SYSTEM, user_prompt)
+
+
+def _run_question_generator(chat_str, current_main_question, decision):
+    decision_str = (
+        json.dumps(decision, indent=2) if decision
+        else "None — this is the opening question. Generate the first question for this topic."
+    )
+    user_prompt = _QG_USER_TEMPLATE.format(
+        interview_guide=INTERVIEW_GUIDE,
+        chat_history=chat_str,
+        current_main_question=current_main_question,
+        decision=decision_str,
+    )
+    return _call_llm_json(_QG_SYSTEM, user_prompt)
+
+
+# =============================================================================
 # Google Drive helpers
-# ==========================================================================
+# =============================================================================
 
 def _get_drive_config():
     """Capture Drive credentials from Streamlit secrets (call in main thread only)."""
@@ -108,7 +458,7 @@ def _get_drive_config():
 
 
 def _make_service(config):
-    """Build a Drive service authenticated as the real user via OAuth refresh token."""
+    """Build a Drive service authenticated via OAuth refresh token."""
     from googleapiclient.discovery import build
     from google.oauth2.credentials import Credentials
     from google.auth.transport.requests import Request
@@ -126,7 +476,6 @@ def _make_service(config):
 
 
 def _get_or_create_folder(name, parent_id, svc):
-    """Return the Drive folder ID for name under parent_id, creating it if needed."""
     q = (
         f"name='{name}' and '{parent_id}' in parents "
         "and mimeType='application/vnd.google-apps.folder' and trashed=false"
@@ -140,28 +489,7 @@ def _get_or_create_folder(name, parent_id, svc):
     ).execute()["id"]
 
 
-def _upload_dir_tree(local_dir, drive_folder_id, svc, _folder_cache=None):
-    """Recursively mirror local_dir into drive_folder_id, creating subfolders as needed."""
-    if _folder_cache is None:
-        _folder_cache = {}
-    if not os.path.isdir(local_dir):
-        return
-    for entry in os.scandir(local_dir):
-        if entry.is_file():
-            try:
-                with open(entry.path, "rb") as f:
-                    _upsert_bytes(entry.name, f.read(), drive_folder_id, svc)
-            except Exception:
-                pass  # skip unreadable files silently
-        elif entry.is_dir():
-            key = (entry.name, drive_folder_id)
-            if key not in _folder_cache:
-                _folder_cache[key] = _get_or_create_folder(entry.name, drive_folder_id, svc)
-            _upload_dir_tree(entry.path, _folder_cache[key], svc, _folder_cache)
-
-
 def _upsert_bytes(name, data, folder_id, svc):
-    """Upload bytes as name into folder_id, overwriting any existing file."""
     from googleapiclient.http import MediaIoBaseUpload
     q = f"name='{name}' and '{folder_id}' in parents and trashed=false"
     existing = svc.files().list(q=q, fields="files(id)").execute().get("files", [])
@@ -176,7 +504,6 @@ def _upsert_bytes(name, data, folder_id, svc):
 
 
 def _download_bytes(file_id, svc):
-    """Download a Drive file and return its bytes."""
     from googleapiclient.http import MediaIoBaseDownload
     buf = io.BytesIO()
     dl = MediaIoBaseDownload(buf, svc.files().get_media(fileId=file_id))
@@ -186,65 +513,7 @@ def _download_bytes(file_id, svc):
     return buf.getvalue()
 
 
-def _latest_agenda_path(user_id):
-    """Return (session_num, local_path) for the highest-numbered session_agenda.json, or (None, None)."""
-    base = os.path.join("logs", user_id, "execution_logs")
-    if not os.path.exists(base):
-        return None, None
-    dirs = [d for d in os.listdir(base) if d.startswith("session_") and os.path.isdir(os.path.join(base, d))]
-    if not dirs:
-        return None, None
-    dirs.sort(key=lambda d: int(d.split("_")[1]), reverse=True)
-    for d in dirs:
-        path = os.path.join(base, d, "session_agenda.json")
-        if os.path.exists(path):
-            return int(d.split("_")[1]), path
-    return None, None
-
-
-def _do_save(user_id, chat, config):
-    """Core Drive save: chat history + latest session agenda. Returns (ok, message)."""
-    if not config.get("folder_id") or not config.get("refresh_token"):
-        return False, "Drive not configured."
-    svc = _make_service(config)
-    root = config["folder_id"]
-
-    # Per-participant subfolder
-    pfolder = _get_or_create_folder(f"participant_{user_id}", root, svc)
-
-    # Chat history
-    _upsert_bytes(
-        "chat_history.json",
-        json.dumps(chat, ensure_ascii=False, indent=2).encode("utf-8"),
-        pfolder, svc,
-    )
-
-    # Latest session agenda (enables resume)
-    session_num, agenda_path = _latest_agenda_path(user_id)
-    if agenda_path:
-        with open(agenda_path, "rb") as f:
-            _upsert_bytes(f"session_agenda_s{session_num}.json", f.read(), pfolder, svc)
-
-    # Upload full agent logs tree (raw agent responses, token stats, etc.)
-    logs_user_dir = os.path.join("logs", user_id)
-    if os.path.isdir(logs_user_dir):
-        logs_drive = _get_or_create_folder("logs", pfolder, svc)
-        _upload_dir_tree(logs_user_dir, logs_drive, svc)
-
-    # Upload data files (memory bank, question bank) for resume continuity
-    data_user_dir = os.path.join("data", user_id)
-    if os.path.isdir(data_user_dir):
-        data_drive = _get_or_create_folder("data", pfolder, svc)
-        _upload_dir_tree(data_user_dir, data_drive, svc)
-
-    # Update the researcher's participant log in the root folder
-    _update_participants_log(user_id, root, svc)
-
-    return True, "Saved."
-
-
 def _update_participants_log(user_id, root_folder_id, svc):
-    """Maintain participants_log.json in the root Drive folder."""
     try:
         q = f"name='participants_log.json' and '{root_folder_id}' in parents and trashed=false"
         existing = svc.files().list(q=q, fields="files(id)").execute().get("files", [])
@@ -252,7 +521,6 @@ def _update_participants_log(user_id, root_folder_id, svc):
             data = json.loads(_download_bytes(existing[0]["id"], svc).decode("utf-8"))
         else:
             data = {}
-
         if user_id not in data:
             data[user_id] = {
                 "first_seen": datetime.utcnow().isoformat() + "Z",
@@ -263,26 +531,37 @@ def _update_participants_log(user_id, root_folder_id, svc):
         else:
             data[user_id]["last_seen"] = datetime.utcnow().isoformat() + "Z"
             data[user_id]["turns"] = data[user_id].get("turns", 0) + 1
-
         _upsert_bytes(
             "participants_log.json",
             json.dumps(data, ensure_ascii=False, indent=2).encode("utf-8"),
             root_folder_id, svc,
         )
     except Exception:
-        pass  # log errors silently; don't disrupt the interview
+        pass
+
+
+def _do_save(user_id, chat, config):
+    if not config.get("folder_id") or not config.get("refresh_token"):
+        return False, "Drive not configured."
+    svc = _make_service(config)
+    root = config["folder_id"]
+    pfolder = _get_or_create_folder(f"participant_{user_id}", root, svc)
+    _upsert_bytes(
+        "chat_history.json",
+        json.dumps(chat, ensure_ascii=False, indent=2).encode("utf-8"),
+        pfolder, svc,
+    )
+    _update_participants_log(user_id, root, svc)
+    return True, "Saved."
 
 
 def save_async(user_id, chat, config):
-    """Fire-and-forget background save (called after each interviewer turn)."""
-    threading.Thread(
-        target=lambda: _do_save(user_id, chat, config),
-        daemon=True,
-    ).start()
+    """Fire-and-forget background save."""
+    threading.Thread(target=lambda: _do_save(user_id, chat, config), daemon=True).start()
 
 
 def save_sync(user_id, chat, config):
-    """Blocking save (called at session end). Returns (ok, message)."""
+    """Blocking save (at session end). Returns (ok, message)."""
     try:
         return _do_save(user_id, chat, config)
     except Exception as e:
@@ -290,19 +569,12 @@ def save_sync(user_id, chat, config):
 
 
 def restore_from_drive(participant_id, config):
-    """
-    Download a returning participant's data from Drive.
-    Returns (chat_history: list, found: bool).
-    Side-effect: writes session_agenda file to the local filesystem so SparkMe
-    picks up the existing session state automatically on InterviewSession init.
-    """
+    """Download returning participant's chat history. Returns (chat: list, found: bool)."""
     try:
         if not config.get("folder_id") or not config.get("refresh_token"):
             return [], False
         svc = _make_service(config)
         root = config["folder_id"]
-
-        # Find participant subfolder
         q = (
             f"name='participant_{participant_id}' and '{root}' in parents "
             "and mimeType='application/vnd.google-apps.folder' and trashed=false"
@@ -311,8 +583,6 @@ def restore_from_drive(participant_id, config):
         if not folders:
             return [], False
         pfolder = folders[0]["id"]
-
-        # List files in the folder
         files = {
             f["name"]: f["id"]
             for f in svc.files().list(
@@ -320,174 +590,98 @@ def restore_from_drive(participant_id, config):
                 fields="files(id, name)",
             ).execute().get("files", [])
         }
-
-        # Download chat history for UI display
         chat = []
         if "chat_history.json" in files:
             chat = json.loads(_download_bytes(files["chat_history.json"], svc).decode("utf-8"))
-
-        # Restore latest session_agenda so SparkMe resumes the existing session
-        agenda_files = [(n, fid) for n, fid in files.items() if n.startswith("session_agenda_s")]
-        if agenda_files:
-            # Sort by session number (session_agenda_sN.json)
-            agenda_files.sort(key=lambda x: int(x[0].replace("session_agenda_s", "").replace(".json", "")))
-            latest_name, latest_id = agenda_files[-1]
-            session_num = int(latest_name.replace("session_agenda_s", "").replace(".json", ""))
-            local_path = os.path.join("logs", participant_id, "execution_logs", f"session_{session_num}", "session_agenda.json")
-            os.makedirs(os.path.dirname(local_path), exist_ok=True)
-            with open(local_path, "wb") as f:
-                f.write(_download_bytes(latest_id, svc))
-
-        # Restore data files (memory bank, question bank) so topic memory carries over
-        q_data = (
-            f"name='data' and '{pfolder}' in parents "
-            "and mimeType='application/vnd.google-apps.folder' and trashed=false"
-        )
-        data_folders = svc.files().list(q=q_data, fields="files(id)").execute().get("files", [])
-        if data_folders:
-            data_drive_id = data_folders[0]["id"]
-            local_data_dir = os.path.join("data", participant_id)
-            os.makedirs(local_data_dir, exist_ok=True)
-            data_files_list = svc.files().list(
-                q=f"'{data_drive_id}' in parents and trashed=false",
-                fields="files(id, name)",
-            ).execute().get("files", [])
-            for df in data_files_list:
-                local_file = os.path.join(local_data_dir, df["name"])
-                with open(local_file, "wb") as f:
-                    f.write(_download_bytes(df["id"], svc))
-
-        return chat, True
-
+        return chat, bool(chat)
     except Exception:
         return [], False
 
 
-# ==========================================================================
+def _infer_question_index(chat):
+    """Infer current_question_index from saved chat by looking at question_id fields."""
+    id_to_idx = {q["id"]: i for i, q in enumerate(QUESTIONS)}
+    for msg in reversed(chat):
+        if msg.get("role") == "assistant" and msg.get("question_id"):
+            idx = id_to_idx.get(msg["question_id"])
+            if idx is not None:
+                return idx
+    return 0
+
+
+# =============================================================================
+# Demo video helper
+# =============================================================================
+
+@st.cache_data(show_spinner=False)
+def _load_demo_video_bytes():
+    """Download demo video via Drive OAuth. Returns None on failure."""
+    try:
+        from googleapiclient.http import MediaIoBaseDownload
+        config = _get_drive_config()
+        service = _make_service(config)
+        file_id = "1FCfzZslMnuyQAPhcZoiACrx0sWaYskxV"
+        request = service.files().get_media(fileId=file_id)
+        buf = io.BytesIO()
+        downloader = MediaIoBaseDownload(buf, request, chunksize=8 * 1024 * 1024)
+        done = False
+        while not done:
+            _, done = downloader.next_chunk()
+        return buf.getvalue()
+    except Exception:
+        return None
+
+
+# =============================================================================
 # Whisper transcription
-# ==========================================================================
+# =============================================================================
 
 def _transcribe(audio_bytes):
-    """Send audio bytes to OpenAI Whisper API and return the transcript text."""
     try:
-        import openai
-        client = openai.OpenAI()
+        client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
         result = client.audio.transcriptions.create(
             model="whisper-1",
             file=("recording.wav", io.BytesIO(audio_bytes), "audio/wav"),
         )
         return result.text.strip()
-    except Exception as e:
+    except Exception:
         return ""
 
 
-# ==========================================================================
-# SparkMe session management
-# ==========================================================================
+# =============================================================================
+# Page setup & state init
+# =============================================================================
 
-def _run_bg(session, loop):
-    asyncio.set_event_loop(loop)
-    loop.run_until_complete(session.run())
-
-
-def _create_session(user_id, previous_chat=None):
-    loop = asyncio.new_event_loop()
-    session = InterviewSession(
-        interaction_mode="api",
-        user_config={"user_id": user_id},
-        interview_config={
-            "interview_description": "Formative study exploring reactions to a demo video of a prototype for people with dysarthria. The system uses speech transcription as a starting point and allows the person to edit or correct the text when needed, so that the intended meaning can be repaired and shared with a communication partner.",
-            "interview_plan_path": os.getenv("INTERVIEW_PLAN_PATH", "data/configs/questions.json"),
-            "interview_evaluation": os.getenv("COMPLETION_METRIC", "minimum_threshold"),
-        },
-    )
-
-    # For returning participants: the Interviewer decides whether to give a fresh
-    # introduction or a natural continuation by checking two things:
-    #   1. Its own event stream (always empty at session start — can't inject)
-    #   2. session_agenda.last_meeting_summary (non-empty → continuation prompt)
-    #
-    # SparkMe never writes session_agenda.json during a session (only snapshots),
-    # so restore_from_drive has nothing to download.  We therefore inject a
-    # summary directly into the live session_agenda object here, before run()
-    # fires.  The Interviewer will then use "introduction_continue_session".
-    if previous_chat:
-        if not session.session_agenda.last_meeting_summary:
-            turns = []
-            for msg in previous_chat:
-                prefix = "Interviewer" if msg["role"] == "assistant" else "Participant"
-                body = msg["content"]
-                if len(body) > 300:
-                    body = body[:300] + "..."
-                turns.append(f" - {prefix}: {body}")
-            summary = "Previous session transcript:\n" + "\n".join(turns[:30])
-
-            # Append covered subtopics from the restored session agenda so the
-            # AgendaManager knows which subtopics are already done and won't
-            # re-evaluate or re-ask about them in the new session.
-            _, agenda_path = _latest_agenda_path(user_id)
-            if agenda_path and os.path.exists(agenda_path):
-                try:
-                    with open(agenda_path) as f:
-                        agenda = json.load(f)
-                    covered_lines = []
-                    topic_dict = (
-                        agenda.get("interview_topic_manager", {})
-                              .get("core_topic_dict", {})
-                    )
-                    for topic in topic_dict.values():
-                        for sub_id, sub in topic.get("required_subtopics", {}).items():
-                            if sub.get("is_covered") and sub.get("final_summary"):
-                                covered_lines.append(
-                                    f" - {sub_id} ({sub['description']}): {sub['final_summary']}"
-                                )
-                    if covered_lines:
-                        summary += (
-                            "\n\nSubtopics already fully covered in previous sessions"
-                            " (do NOT revisit these):\n"
-                            + "\n".join(covered_lines)
-                        )
-                except Exception:
-                    pass  # If parsing fails, fall back to transcript-only summary
-
-            session.session_agenda.last_meeting_summary = summary
-
-    threading.Thread(target=_run_bg, args=(session, loop), daemon=True).start()
-    return session, loop
-
-
-# ==========================================================================
-# Page setup
-# ==========================================================================
-
-st.set_page_config(page_title="SparkMe Interview", page_icon="mic", layout="wide")
-st.title("SparkMe Interview")
+st.set_page_config(page_title="Interview", page_icon="🎤", layout="wide")
+st.title("Interview")
 
 if "phase" not in st.session_state:
     st.session_state.update(
-        phase="id_entry",   # "id_entry" | "intro" | "active"
+        phase="id_entry",           # "id_entry" | "intro" | "active"
         user_id=None,
-        session=None,
-        loop=None,
         chat=[],
         waiting=False,
         drive_config=None,
         session_saved=False,
-        last_audio_hash=None,   # dedup guard for audio recorder
-        user_draft="",          # text currently in the input box
+        last_audio_hash=None,
+        user_draft="",
+        current_question_index=0,
+        video_shown=False,
+        interview_ended=False,
+        form_generation=0,          # incremented each submission to reset option widgets
     )
 
 
-# ==========================================================================
+# =============================================================================
 # Phase: participant ID entry
-# ==========================================================================
+# =============================================================================
 
 if st.session_state.phase == "id_entry":
 
     st.markdown("### Welcome")
     st.info(
         "After clicking **Start**, you will be given a **Participant ID**.  \n"
-        "Please **write it down** -- you will need it to continue the interview "
+        "Please **write it down** — you will need it to continue the interview "
         "later if you close the browser or need a break."
     )
 
@@ -517,23 +711,15 @@ if st.session_state.phase == "id_entry":
                 with st.spinner(f"Looking up session for {pid}..."):
                     chat, found = restore_from_drive(pid, cfg)
                 if found:
-                    with st.spinner("Resuming your session..."):
-                        session, loop = _create_session(pid, previous_chat=chat)
-                    # If the chatbot was the last to speak, SparkMe will still
-                    # generate a continuation message internally (we can't stop it),
-                    # but we should silently discard it — the chatbot already asked
-                    # something, so just show the history and let the participant reply.
-                    # If the participant was last to speak, we DO want SparkMe's response.
-                    last_role = chat[-1]["role"] if chat else "user"
-                    skip_first = last_role == "assistant"
+                    q_idx = _infer_question_index(chat)
+                    video_shown = any(m.get("role") == "video" for m in chat)
                     st.session_state.update(
                         user_id=pid,
                         drive_config=cfg,
                         chat=chat,
-                        session=session,
-                        loop=loop,
-                        waiting=not skip_first,   # don't show spinner if we'll discard the msg
-                        skip_first_bot_msg=skip_first,
+                        current_question_index=q_idx,
+                        video_shown=video_shown,
+                        waiting=False,
                         phase="active",
                     )
                     st.rerun()
@@ -547,20 +733,20 @@ if st.session_state.phase == "id_entry":
     st.stop()
 
 
-# ==========================================================================
-# Phase: intro (new participants only — shown before session starts)
-# ==========================================================================
+# =============================================================================
+# Phase: intro (new participants only)
+# =============================================================================
 
 if st.session_state.phase == "intro":
 
     INTRO_TEXT = """\
-Thank you for attending this semi-structured interview today.
+Thank you for attending this interview today.
 
 We are studying an idea for helping people when others have trouble understanding their speech. \
-The idea is to use speech transcription as a starting point, and then allow the text to be edited \
+The idea is to use speech transcription as a starting point, and allow the text to be edited \
 if needed to help repair meaning.
 
-In this session, we will show you a short demo of the idea. After that, we will ask what you think about it.
+Later in the interview, we will show you a short demo of the idea and ask what you think about it.
 
 This is not a test of you. We are testing the idea and learning from your experience.
 
@@ -568,48 +754,41 @@ You can answer by selecting choices and typing extra comments if you want. \
 You can skip any question, take a break, or stop at any time."""
 
     st.markdown(INTRO_TEXT)
-
     st.markdown("")
+
     if st.button("Continue to interview →", type="primary", key="btn_intro_continue"):
-        uid = st.session_state.user_id
-        with st.spinner("Starting your session..."):
-            session, loop = _create_session(uid)
-        FIRST_QUESTION = "When someone does not understand you, what do you usually do?"
-        # Inject the hardcoded first question into the session's chat_history so
-        # the interviewer sees it as already asked when the user responds.
-        # Uses inject_message_to_chat_history (not add_message_to_chat_history)
-        # to avoid asyncio.create_task which requires a running event loop.
-        session.inject_message_to_chat_history(
-            role="Interviewer",
-            content=FIRST_QUESTION,
-            metadata={"subtopic_id": "1.1"},
-        )
-        st.session_state.update(
-            session=session,
-            loop=loop,
-            chat=[{"role": "assistant", "content": FIRST_QUESTION}],
-            waiting=False,
-            phase="active",
-        )
+        with st.spinner("Preparing your first question..."):
+            show_video, result = run_agent_turn(skip_dm=True)
+        new_chat = []
+        if show_video:
+            new_chat.append({"role": "video"})
+        if result:
+            new_chat.append({
+                "role": "assistant",
+                "content": result["question_text"],
+                "question_id": result.get("question_id", "A1"),
+                "answer_mode": result.get("answer_mode", "single_choice"),
+                "options": result.get("options", []),
+            })
+        st.session_state.chat = new_chat
+        st.session_state.phase = "active"
         st.rerun()
 
     st.stop()
 
 
-# ==========================================================================
+# =============================================================================
 # Phase: active interview
-# ==========================================================================
+# =============================================================================
 
 user_id = st.session_state.user_id
-session  = st.session_state.session
-cfg      = st.session_state.drive_config
+cfg = st.session_state.drive_config
 
-# Apply any pending draft (transcript or clear) BEFORE the text_area renders.
-# We can't set a widget key after the widget renders, so we use a bridge variable.
+# Apply any pending draft (transcript or clear) BEFORE the text_area renders
 if "_pending_draft" in st.session_state:
     st.session_state.user_draft = st.session_state.pop("_pending_draft")
 
-# Sidebar: show participant ID as a persistent reminder
+# Sidebar: participant ID reminder
 with st.sidebar:
     st.markdown("### Your Participant ID")
     st.code(user_id, language=None)
@@ -618,189 +797,8 @@ with st.sidebar:
         "use the **Returning participant** tab on the start screen and enter this ID."
     )
 
-# Poll for new interviewer messages
-new_msgs = session.user.get_and_clear_messages()
-if new_msgs:
-    if st.session_state.get("skip_first_bot_msg"):
-        # Chatbot was last to speak: discard SparkMe's automatic continuation
-        # message so the participant just sees their history and the input box.
-        st.session_state.skip_first_bot_msg = False
-        new_msgs = new_msgs[1:]
-    # If the interviewer signalled that the demo video should be shown, insert
-    # a video placeholder into the chat before the interviewer's first Section B message.
-    if getattr(session, 'video_pending', False):
-        st.session_state.chat.append({"role": "video"})
-        session.video_pending = False
-    for m in new_msgs:
-        st.session_state.chat.append({"role": "assistant", "content": m["content"]})
-    # Only stop waiting if we actually received real messages (not just discarded one).
-    # If new_msgs is empty after discarding, leave waiting as-is so the
-    # polling loop keeps running if the user has already sent a message.
-    if new_msgs:
-        st.session_state.waiting = False
-    if new_msgs:
-        # Persist session_agenda.json so the next session can restore agenda state.
-        try:
-            session.session_agenda.save()
-        except Exception:
-            pass
-        # Non-blocking save after every interviewer turn
-        save_async(user_id, st.session_state.chat, cfg)
-
-# Render chat history
-for msg in st.session_state.chat:
-    if msg.get("role") == "video":
-        st.markdown("#### Demo Video")
-        _video_bytes = _load_demo_video_bytes()
-        if _video_bytes:
-            _, vid_col, _ = st.columns([1, 5, 1])
-            with vid_col:
-                st.video(_video_bytes, format="video/mp4")
-        else:
-            st.info("Video unavailable — please ask the researcher to share the demo link.")
-    else:
-        with st.chat_message(msg["role"]):
-            st.write(msg["content"])
-
-# --- State machine ---
-
-if st.session_state.waiting:
-    with st.chat_message("assistant"):
-        with st.spinner("Thinking..."):
-            time.sleep(0.8)
-    st.rerun()
-
-elif not session.session_in_progress:
-    st.success("The interview has ended. Thank you for your time!")
-
-    if not st.session_state.session_saved:
-        with st.spinner("Saving your session to Google Drive..."):
-            ok, msg = save_sync(user_id, st.session_state.chat, cfg)
-        st.session_state.session_saved = True
-        if ok:
-            st.info(f"Session saved. Your Participant ID was **`{user_id}`**.")
-        else:
-            st.caption(f"(Note: auto-save encountered an issue: {msg})")
-
-else:
-    # ------------------------------------------------------------------ #
-    # Input area: full-width textbox, then Send + Mic buttons on one row  #
-    # ------------------------------------------------------------------ #
-    st.markdown("""
-    <style>
-    /* Larger base font throughout the app */
-    html, body, [class*="css"], .stMarkdown, .stChatMessage {
-        font-size: 18px !important;
-    }
-    /* Chat messages */
-    div[data-testid="stChatMessage"] p {
-        font-size: 1.05rem !important;
-        line-height: 1.7 !important;
-    }
-    /* Text area */
-    div[data-testid="stTextArea"] textarea {
-        min-height: 130px !important;
-        font-size: 1.1rem !important;
-        line-height: 1.7 !important;
-        border-radius: 14px !important;
-        padding: 14px 18px !important;
-        resize: none !important;
-    }
-    /* Send button */
-    div[data-testid="stButton"] button[kind="primaryFormSubmit"],
-    div[data-testid="stButton"] button[kind="primary"] {
-        font-size: 1rem !important;
-        height: 60px !important;
-        padding: 0 1.2rem !important;
-        border-radius: 8px !important;
-        width: 100% !important;
-    }
-    /* Mic recorder iframe — taller so the button is larger */
-    [data-testid="stColumn"]:first-child iframe {
-        height: 60px !important;
-        min-height: 60px !important;
-    }
-    </style>
-    """, unsafe_allow_html=True)
-
-    # Full-width text area
-    st.text_area(
-        "response",
-        key="user_draft",
-        height=140,
-        placeholder="Type your response here, or click 🎤 Speak to record...",
-        label_visibility="collapsed",
-    )
-
-    # Enter key sends (Shift+Enter still inserts a newline)
-    components.html("""
-    <script>
-    (function() {
-        function attach() {
-            var ta = window.parent.document.querySelector('textarea[aria-label="response"]');
-            if (!ta || ta._enterBound) return;
-            ta._enterBound = true;
-            ta.addEventListener('keydown', function(e) {
-                if (e.key === 'Enter' && !e.shiftKey) {
-                    e.preventDefault();
-                    var btns = window.parent.document.querySelectorAll('button');
-                    for (var i = 0; i < btns.length; i++) {
-                        if (btns[i].innerText.trim().startsWith('Send')) {
-                            btns[i].click();
-                            break;
-                        }
-                    }
-                }
-            });
-        }
-        attach();
-        var obs = new MutationObserver(attach);
-        obs.observe(window.parent.document.body, { childList: true, subtree: true });
-    })();
-    </script>
-    """, height=0)
-
-    # Mic (left-aligned) and Send (right-aligned) below the text area
-    mic_col, spacer_col, send_col = st.columns([3, 5, 2])
-
-    with mic_col:
-        audio = mic_recorder(
-            start_prompt="🎤  Speak",
-            stop_prompt="⏹️  Stop",
-            just_once=True,
-            use_container_width=True,
-            key="mic",
-        )
-
-    with send_col:
-        send_clicked = st.button("Send →", type="primary", use_container_width=True)
-
-    # Handle new recording
-    if audio:
-        audio_bytes = audio["bytes"]
-        audio_hash = hashlib.md5(audio_bytes).hexdigest()
-        if audio_hash != st.session_state.last_audio_hash:
-            st.session_state.last_audio_hash = audio_hash
-            with st.spinner("Transcribing..."):
-                transcript = _transcribe(audio_bytes)
-            if transcript:
-                st.session_state._pending_draft = transcript
-                st.rerun()
-            else:
-                st.warning("Could not transcribe. Please try again or type your response.")
-
-    if send_clicked:
-        prompt = (st.session_state.get("user_draft") or "").strip()
-        if prompt:
-            st.session_state._pending_draft = ""   # clear box on next run
-            st.session_state.chat.append({"role": "user", "content": prompt})
-
-            async def _submit(text=prompt):
-                session.user.add_user_message(text)
-
-            asyncio.run_coroutine_threadsafe(
-                _submit(), st.session_state.loop
-            ).result(timeout=10)
-
-            st.session_state.waiting = True
-            st.rerun()
+# Global CSS
+st.markdown("""
+<style>
+html, body, [class*="css"], .stMarkdown, .stChatMessage {
+    font-size:

@@ -58,7 +58,6 @@ class SubTopic(BaseModel):
     subtopic_id: str
     core_topic_id: str
     description: str
-    probes: List[str] = Field(default_factory=list)
     questions: List[InterviewQuestion] = Field(default_factory=list)
     notes: List[str] = Field(default_factory=list)
     emergent_insights: List[EmergentInsight] = Field(default_factory=list)
@@ -148,7 +147,6 @@ class SubTopic(BaseModel):
             'subtopic_id': self.subtopic_id,
             'core_topic_id': self.core_topic_id,
             'description': self.description,
-            'probes': self.probes,
             'questions': [q.to_dict() for q in self.questions],
             'notes': self.notes,
             'emergent_insights': [insight.to_dict() for insight in self.emergent_insights],
@@ -163,7 +161,6 @@ class SubTopic(BaseModel):
             subtopic_id=subtopic_dict['subtopic_id'],
             core_topic_id=subtopic_dict['core_topic_id'],
             description=subtopic_dict['description'],
-            probes=subtopic_dict.get('probes', []),
             questions=[InterviewQuestion.from_dict(sub_q) for sub_q in subtopic_dict['questions']],
             notes=subtopic_dict['notes'],
             emergent_insights=[EmergentInsight.from_dict(insight) for insight in subtopic_dict['emergent_insights']],

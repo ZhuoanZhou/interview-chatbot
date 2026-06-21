@@ -61,9 +61,6 @@ class Interviewer(BaseAgent, Participant):
 
         self._turn_to_respond = False
 
-    # Subtopic ID that triggers the demo video to be shown before the question
-    DEMO_VIDEO_TRIGGER_SUBTOPIC = "4.1"
-
     async def _handle_response(self, response: str, subtopic_id: str = "") -> str:
         """Handle responses from the RespondToUser tool and adding them to chat history.
         
@@ -72,11 +69,6 @@ class Interviewer(BaseAgent, Participant):
             topic_id: The topic ID of the response
             subtopic_id: The subtopic ID of the response
         """
-        # Signal Streamlit to show the demo video before this message is displayed
-        if subtopic_id == self.DEMO_VIDEO_TRIGGER_SUBTOPIC and not getattr(self.interview_session, 'video_shown', False):
-            self.interview_session.video_pending = True
-            self.interview_session.video_shown = True
-
         self.interview_session.add_message_to_chat_history(
             role=self.title,
             content=response,
@@ -99,15 +91,6 @@ class Interviewer(BaseAgent, Participant):
         
         self._turn_to_respond = True
         iterations = 0
-
-        # Hardcoded opening question — no LLM call needed for the first turn
-        if not self.interview_session.chat_history:
-            await self._handle_response(
-                "What's your overall first reaction to the prototype in the demo video—positive, mixed, or negative?",
-                subtopic_id="1.1"
-            )
-            self._turn_to_respond = False
-            return
 
         while self._turn_to_respond and iterations < self._max_consideration_iterations:
             prompt = self._get_prompt()
@@ -188,21 +171,23 @@ class Interviewer(BaseAgent, Participant):
                 )
             format_params["questions_and_notes"] = questions_and_notes_str
 
-            # Always populate strategic_questions so the inner {strategic_questions}
-            # placeholder in the expanded prompt is always substituted.
+            # Get strategic question suggestions from ExplorationPlanner (only if not stale)
+            # Staleness is checked before formatting to avoid unnecessary work
             if self._should_include_strategic_questions():
-                format_params["strategic_questions"] = self._format_strategic_questions()
-            else:
-                format_params["strategic_questions"] = (
-                    "No strategic question suggestions available yet. "
-                    "Use coverage-based heuristics to select questions from the topics list."
-                )
+                strategic_questions_str = self._format_strategic_questions()
+                format_params["strategic_questions"] = strategic_questions_str
 
         # Use the baseline prompt if enabled
         if self.use_baseline:
             main_prompt = get_prompt("baseline")
         else:
             main_prompt = get_prompt("normal")
+
+            # Remove STRATEGIC_QUESTIONS section from template if stale
+            if not self.use_baseline and not self._should_include_strategic_questions():
+                # Remove the {STRATEGIC_QUESTIONS} line to exclude the section entirely
+                main_prompt = main_prompt.replace("\n{STRATEGIC_QUESTIONS}\n", "\n")
+                # Don't provide strategic_questions key in format_params (already omitted above)
 
         return format_prompt(main_prompt, format_params)
 
