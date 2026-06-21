@@ -1,7 +1,7 @@
 """
 Interview Chatbot — Two-agent pipeline (Decision Maker + Question Generator)
 Run locally:   streamlit run streamlit_app.py
-Deploy:        push to GitHub → connect Streamlit Community Cloud
+Deploy:        push to GitHub -> connect Streamlit Community Cloud
 
 Required Streamlit Secrets:
   OPENAI_API_KEY        -- your OpenAI key
@@ -28,12 +28,12 @@ from streamlit_mic_recorder import mic_recorder
 
 load_dotenv(override=True)
 
-# ── Key guard ─────────────────────────────────────────────────────────────────
+# Key guard
 if not os.getenv("OPENAI_API_KEY"):
     st.error(
         "**OPENAI_API_KEY is not set.**\n\n"
         "- **Local:** add `OPENAI_API_KEY=sk-...` to your `.env` file.\n"
-        "- **Streamlit Cloud:** Settings → Secrets."
+        "- **Streamlit Cloud:** Settings -> Secrets."
     )
     st.stop()
 
@@ -126,10 +126,7 @@ Optional probes:
 - Support for shorthand, abbreviations, or first-letter input?
 - A better way to show or speak the message to another person?
 
-Closing: Thank you for sharing your experience and feedback with us. Your answers will help us
-understand whether transcription plus editing could support communication repair in everyday life,
-what parts may be useful or difficult, and how the system should be improved to better fit the
-needs of people with dysarthria.
+Closing: Thank you for sharing your experience and feedback with us.
 """
 
 QUESTIONS = [
@@ -144,7 +141,7 @@ QUESTIONS = [
     {"id": "C3", "main_question": "What would need to change to make this system more useful for you?"},
 ]
 
-B1_INDEX = 2  # index in QUESTIONS where demo video is shown before the question
+B1_INDEX = 2  # demo video shown when current_question_index first reaches this value
 
 CLOSING_MESSAGE = (
     "Thank you for sharing your experience and feedback with us. "
@@ -160,12 +157,9 @@ CLOSING_MESSAGE = (
 
 _QG_SYSTEM = """\
 You are the Accessible Interview Question Composer.
-You write short, simple, participant-facing interview prompts for people who may have \
-dysarthric speech and may also have difficulty typing.
-Your goal is to make each question easy to answer in a few words while still collecting \
-useful qualitative data.
-You receive a decision from the Interview State Manager. Follow it exactly. Do not change \
-the interview direction.
+You write short, simple, participant-facing interview prompts for people who may have dysarthric speech and may also have difficulty typing.
+Your goal is to make each question easy to answer in a few words while still collecting useful qualitative data.
+You receive a decision from the Interview State Manager. Follow it exactly. Do not change the interview direction.
 
 Question design rules:
 1. Ask only one question.
@@ -174,12 +168,9 @@ Question design rules:
 4. Provide answer options.
 5. Include "Skip" as an option.
 6. Do not suggest that one answer is better than another.
-7. Do not ask for names, exact age, address, phone number, email, or other personally \
-identifying information.
-8. Do not ask the participant to design a solution unless the interview guide explicitly \
-asks for design preferences.
-9. If mentioning technical terms such as "communication repair," "AAC," or "strategy", \
-explain them in simple language.
+7. Do not ask for names, exact age, address, phone number, email, or other personally identifying information.
+8. Do not ask the participant to design a solution unless the interview guide explicitly asks for design preferences.
+9. If mentioning technical terms such as "communication repair," "AAC," or "strategy", explain them in simple language.
 10. Do not combine multiple questions into one.
 
 Option design rules:
@@ -221,10 +212,8 @@ Return JSON in this format:
 
 _DM_SYSTEM = """\
 You are the Interview State Manager for an accessibility-aware semi-structured interview.
-The interview is with a participant who may have dysarthric speech and may also have difficulty \
-typing. The interview should reduce response burden while still collecting useful qualitative data.
-Your job is NOT to write the final participant-facing question. Your job is to decide the next \
-interview action.
+The interview is with a participant who may have dysarthric speech and may also have difficulty typing. The interview should reduce response burden while still collecting useful qualitative data.
+Your job is NOT to write the final participant-facing question. Your job is to decide the next interview action.
 
 Core goals:
 1. Maintain semi-structured interview coverage.
@@ -238,50 +227,31 @@ Core goals:
 
 ## Process
 1. Determine Subtopic Nature
-   - Infer whether the subtopic is:
-     * STAR-appropriate: describes an event, project, or experience involving actions, \
-challenges, or outcomes.
-     * Descriptive: focuses on background, motivation, interest, reasoning, or conceptual \
-understanding rather than a specific event.
+   - STAR-appropriate: event, project, or experience.
+   - Descriptive: background, motivation, reasoning, or conceptual understanding.
 
 2. Evaluate Completeness
-   - For STAR-appropriate subtopics:
-     * Coverage requires STAR components: Situation, Task, Action, Result.
-     * Fully covered when almost all components are clearly present and coherent.
-     * If notes are already comprehensive, mark as covered.
-   - For Descriptive subtopics:
-     * Coverage requires comprehensive factual, reflective, or conceptual detail.
-     * Fully covered when the main question is explained with sufficient clarity.
+   - STAR: Situation, Task, Action, Result all present -> covered.
+   - Descriptive: main question explained with sufficient clarity -> covered.
+   - If notes are already comprehensive, mark as covered and move on.
 
 3. Aggregation
-   - For fully covered subtopics, synthesize the notes into a coherent and concise final summary.
-   - Avoid repetition — focus on integration and clarity.
-
-Do not force every topic into STAR. Use event-style coverage only when the subtopic is about \
-a concrete event.
+   - Synthesize covered subtopics into a concise final summary.
 
 Decision rules:
-1. Selected options create branches.
-   - Each selected option becomes a pending branch. Explore one branch at a time.
-2. Keep an active branch.
-   - Identify the current active branch from the most recent participant answer.
-   - Ask follow-up questions about that branch before moving to another branch.
+1. Selected options create branches. Explore one branch at a time.
+2. Keep an active branch. Ask follow-up about that branch before moving on.
 3. Do not jump to a new topic too early.
-   - Before moving to the next main topic, check whether the active branch has enough context.
-4. Prefer branch-specific questions.
-   - Avoid broad questions. Prefer grounded, specific questions about one branch.
+4. Prefer branch-specific, narrow questions.
 5. One small gap at a time.
-   - Ask about only one branch and one missing detail per turn.
-6. Move on only when appropriate.
-   - Move to the next branch if the current branch has enough detail.
-   - Move to the next interview-guide topic only after major selected branches have minimal coverage.
+6. Move on when the current branch has enough detail.
 7. Decision options:
-   - MOVE_NEXT: participant's answer gives enough information for the current subtopic.
-   - FOLLOW_UP: one important detail is missing and asking would add value.
-   - CLARIFY: participant's answer is unclear.
+   - MOVE_NEXT: enough information for current subtopic.
+   - FOLLOW_UP: one important detail missing.
+   - CLARIFY: participant answer is unclear.
    - REDUCE_BURDEN: participant seems tired or frustrated.
-   - END_INTERVIEW: all topics are covered or the participant wants to stop.
-   - If the participant refuses, skips, or says they do not know, accept it and move on.
+   - END_INTERVIEW: all topics covered or participant wants to stop.
+   - If participant refuses, skips, or says they do not know, accept and move on.
 """
 
 _DM_USER_TEMPLATE = """\
@@ -342,7 +312,6 @@ def _call_llm_json(system_prompt, user_prompt, label="agent"):
         raw_text = resp.choices[0].message.content
         result = json.loads(raw_text)
     except Exception:
-        # Fallback: try without response_format
         resp = client.chat.completions.create(
             model=MODEL,
             messages=[
@@ -355,9 +324,8 @@ def _call_llm_json(system_prompt, user_prompt, label="agent"):
         if m:
             result = json.loads(m.group())
         else:
-            raise ValueError(f"LLM did not return valid JSON. Raw output: {raw_text[:500]}")
+            raise ValueError(f"LLM did not return valid JSON. Raw: {raw_text[:300]}")
 
-    # Append to agent_logs in session state for later Drive save
     if "agent_logs" in st.session_state:
         st.session_state.agent_logs.append({
             "timestamp": datetime.utcnow().isoformat() + "Z",
@@ -372,7 +340,6 @@ def _call_llm_json(system_prompt, user_prompt, label="agent"):
 
 
 def _format_chat_for_prompt(chat):
-    """Convert the chat list to a readable string for LLM prompts."""
     lines = []
     for msg in chat:
         if msg.get("role") == "video":
@@ -392,12 +359,6 @@ def _format_chat_for_prompt(chat):
 # =============================================================================
 
 def run_agent_turn(skip_dm=False):
-    """
-    Run one agent turn: [Decision Maker →] Question Generator.
-    Updates st.session_state (current_question_index, video_shown, interview_ended).
-    Returns (show_video: bool, qg_result: dict | None).
-    qg_result is None if the interview has ended.
-    """
     q_idx = st.session_state.current_question_index
     chat_str = _format_chat_for_prompt(st.session_state.chat)
     current_q = QUESTIONS[q_idx]["main_question"] if q_idx < len(QUESTIONS) else ""
@@ -406,7 +367,6 @@ def run_agent_turn(skip_dm=False):
     if not skip_dm:
         decision = _run_decision_maker(chat_str, current_q)
         action = decision.get("decision", "FOLLOW_UP")
-
         if action == "MOVE_NEXT":
             q_idx += 1
             st.session_state.current_question_index = q_idx
@@ -418,7 +378,6 @@ def run_agent_turn(skip_dm=False):
             st.session_state.interview_ended = True
             return False, None
 
-    # Check if we need to trigger the demo video before B1
     show_video = q_idx == B1_INDEX and not st.session_state.get("video_shown", False)
     if show_video:
         st.session_state.video_shown = True
@@ -428,7 +387,6 @@ def run_agent_turn(skip_dm=False):
         return show_video, None
 
     result = _run_question_generator(chat_str, current_q, decision)
-    # Always override question_id with ground truth from QUESTIONS list
     result["question_id"] = QUESTIONS[q_idx]["id"]
     return show_video, result
 
@@ -445,7 +403,7 @@ def _run_decision_maker(chat_str, current_main_question):
 def _run_question_generator(chat_str, current_main_question, decision):
     decision_str = (
         json.dumps(decision, indent=2) if decision
-        else "None — this is the opening question. Generate the first question for this topic."
+        else "None -- this is the opening question. Generate the first question for this topic."
     )
     user_prompt = _QG_USER_TEMPLATE.format(
         interview_guide=INTERVIEW_GUIDE,
@@ -461,7 +419,6 @@ def _run_question_generator(chat_str, current_main_question, decision):
 # =============================================================================
 
 def _get_drive_config():
-    """Capture Drive credentials from Streamlit secrets (call in main thread only)."""
     try:
         return {
             "folder_id": st.secrets.get("GDRIVE_FOLDER_ID", ""),
@@ -474,11 +431,9 @@ def _get_drive_config():
 
 
 def _make_service(config):
-    """Build a Drive service authenticated via OAuth refresh token."""
     from googleapiclient.discovery import build
     from google.oauth2.credentials import Credentials
     from google.auth.transport.requests import Request
-
     creds = Credentials(
         token=None,
         refresh_token=config["refresh_token"],
@@ -578,12 +533,10 @@ def _do_save(user_id, chat, agent_logs, config):
 
 
 def save_async(user_id, chat, agent_logs, config):
-    """Fire-and-forget background save."""
     threading.Thread(target=lambda: _do_save(user_id, chat, agent_logs, config), daemon=True).start()
 
 
 def save_sync(user_id, chat, agent_logs, config):
-    """Blocking save (at session end). Returns (ok, message)."""
     try:
         return _do_save(user_id, chat, agent_logs, config)
     except Exception as e:
@@ -591,7 +544,6 @@ def save_sync(user_id, chat, agent_logs, config):
 
 
 def restore_from_drive(participant_id, config):
-    """Download returning participant's chat history. Returns (chat: list, found: bool)."""
     try:
         if not config.get("folder_id") or not config.get("refresh_token"):
             return [], False
@@ -621,7 +573,6 @@ def restore_from_drive(participant_id, config):
 
 
 def _infer_question_index(chat):
-    """Infer current_question_index from saved chat by looking at question_id fields."""
     id_to_idx = {q["id"]: i for i, q in enumerate(QUESTIONS)}
     for msg in reversed(chat):
         if msg.get("role") == "assistant" and msg.get("question_id"):
@@ -632,12 +583,11 @@ def _infer_question_index(chat):
 
 
 # =============================================================================
-# Demo video helper
+# Demo video
 # =============================================================================
 
 @st.cache_data(show_spinner=False)
 def _load_demo_video_bytes():
-    """Download demo video via Drive OAuth. Returns None on failure."""
     try:
         from googleapiclient.http import MediaIoBaseDownload
         config = _get_drive_config()
@@ -674,12 +624,12 @@ def _transcribe(audio_bytes):
 # Page setup & state init
 # =============================================================================
 
-st.set_page_config(page_title="Interview", page_icon="🎤", layout="wide")
+st.set_page_config(page_title="Interview", page_icon="mic", layout="wide")
 st.title("Interview")
 
 if "phase" not in st.session_state:
     st.session_state.update(
-        phase="id_entry",           # "id_entry" | "intro" | "active"
+        phase="id_entry",
         user_id=None,
         chat=[],
         waiting=False,
@@ -690,8 +640,8 @@ if "phase" not in st.session_state:
         current_question_index=0,
         video_shown=False,
         interview_ended=False,
-        form_generation=0,          # incremented each submission to reset option widgets
-        agent_logs=[],              # raw prompts + responses from each LLM call
+        form_generation=0,
+        agent_logs=[],
     )
 
 
@@ -704,7 +654,7 @@ if st.session_state.phase == "id_entry":
     st.markdown("### Welcome")
     st.info(
         "After clicking **Start**, you will be given a **Participant ID**.  \n"
-        "Please **write it down** — you will need it to continue the interview "
+        "Please **write it down** -- you will need it to continue the interview "
         "later if you close the browser or need a break."
     )
 
@@ -712,20 +662,16 @@ if st.session_state.phase == "id_entry":
 
     with tab_new:
         st.markdown("Click the button to begin a new interview session.")
-        if st.button("Start interview →", type="primary", key="btn_new"):
+        if st.button("Start interview ->", type="primary", key="btn_new"):
             user_id = "P-" + uuid.uuid4().hex[:6].upper()
             cfg = _get_drive_config()
-            st.session_state.update(
-                user_id=user_id,
-                drive_config=cfg,
-                phase="intro",
-            )
+            st.session_state.update(user_id=user_id, drive_config=cfg, phase="intro")
             st.rerun()
 
     with tab_return:
         st.markdown("Enter the Participant ID you received when you started.")
         pid_input = st.text_input("Participant ID (e.g. P-ABC123):", key="pid_input")
-        if st.button("Resume interview →", key="btn_return"):
+        if st.button("Resume interview ->", key="btn_return"):
             pid = pid_input.strip().upper()
             if not pid:
                 st.warning("Please enter your Participant ID.")
@@ -737,13 +683,9 @@ if st.session_state.phase == "id_entry":
                     q_idx = _infer_question_index(chat)
                     video_shown = any(m.get("role") == "video" for m in chat)
                     st.session_state.update(
-                        user_id=pid,
-                        drive_config=cfg,
-                        chat=chat,
-                        current_question_index=q_idx,
-                        video_shown=video_shown,
-                        waiting=False,
-                        phase="active",
+                        user_id=pid, drive_config=cfg, chat=chat,
+                        current_question_index=q_idx, video_shown=video_shown,
+                        waiting=False, phase="active",
                     )
                     st.rerun()
                 else:
@@ -757,29 +699,26 @@ if st.session_state.phase == "id_entry":
 
 
 # =============================================================================
-# Phase: intro (new participants only)
+# Phase: intro
 # =============================================================================
 
 if st.session_state.phase == "intro":
 
-    INTRO_TEXT = """\
-Thank you for attending this interview today.
-
-We are studying an idea for helping people when others have trouble understanding their speech. \
-The idea is to use speech transcription as a starting point, and allow the text to be edited \
-if needed to help repair meaning.
-
-Later in the interview, we will show you a short demo of the idea and ask what you think about it.
-
-This is not a test of you. We are testing the idea and learning from your experience.
-
-You can answer by selecting choices and typing extra comments if you want. \
-You can skip any question, take a break, or stop at any time."""
+    INTRO_TEXT = (
+        "Thank you for attending this interview today.\n\n"
+        "We are studying an idea for helping people when others have trouble understanding their speech. "
+        "The idea is to use speech transcription as a starting point, and allow the text to be edited "
+        "if needed to help repair meaning.\n\n"
+        "Later in the interview, we will show you a short demo of the idea and ask what you think about it.\n\n"
+        "This is not a test of you. We are testing the idea and learning from your experience.\n\n"
+        "You can answer by selecting choices and typing extra comments if you want. "
+        "You can skip any question, take a break, or stop at any time."
+    )
 
     st.markdown(INTRO_TEXT)
     st.markdown("")
 
-    if st.button("Continue to interview →", type="primary", key="btn_intro_continue"):
+    if st.button("Continue to interview ->", type="primary", key="btn_intro_continue"):
         with st.spinner("Preparing your first question..."):
             show_video, result = run_agent_turn(skip_dm=True)
         new_chat = []
@@ -807,11 +746,9 @@ You can skip any question, take a break, or stop at any time."""
 user_id = st.session_state.user_id
 cfg = st.session_state.drive_config
 
-# Apply any pending draft (transcript or clear) BEFORE the text_area renders
 if "_pending_draft" in st.session_state:
     st.session_state.user_draft = st.session_state.pop("_pending_draft")
 
-# Sidebar: participant ID reminder
 with st.sidebar:
     st.markdown("### Your Participant ID")
     st.code(user_id, language=None)
@@ -820,40 +757,24 @@ with st.sidebar:
         "use the **Returning participant** tab on the start screen and enter this ID."
     )
 
-# Global CSS
 st.markdown("""
 <style>
-html, body, [class*="css"], .stMarkdown, .stChatMessage {
-    font-size: 18px !important;
-}
-div[data-testid="stChatMessage"] p {
-    font-size: 1.05rem !important;
-    line-height: 1.7 !important;
-}
+html, body, [class*="css"], .stMarkdown, .stChatMessage { font-size: 18px !important; }
+div[data-testid="stChatMessage"] p { font-size: 1.05rem !important; line-height: 1.7 !important; }
 div[data-testid="stTextArea"] textarea {
-    min-height: 80px !important;
-    font-size: 1.1rem !important;
-    line-height: 1.7 !important;
-    border-radius: 14px !important;
-    padding: 14px 18px !important;
-    resize: none !important;
+    min-height: 80px !important; font-size: 1.1rem !important;
+    line-height: 1.7 !important; border-radius: 14px !important;
+    padding: 14px 18px !important; resize: none !important;
 }
 div[data-testid="stButton"] button[kind="primary"] {
-    font-size: 1rem !important;
-    height: 52px !important;
-    border-radius: 8px !important;
-    width: 100% !important;
+    font-size: 1rem !important; height: 52px !important;
+    border-radius: 8px !important; width: 100% !important;
 }
-[data-testid="stColumn"]:first-child iframe {
-    height: 52px !important;
-    min-height: 52px !important;
-}
+[data-testid="stColumn"]:first-child iframe { height: 52px !important; min-height: 52px !important; }
 </style>
 """, unsafe_allow_html=True)
 
-
-# ── Render chat history ───────────────────────────────────────────────────────
-
+# Render chat history
 for msg in st.session_state.chat:
     if msg.get("role") == "video":
         st.markdown("#### Demo Video")
@@ -863,11 +784,10 @@ for msg in st.session_state.chat:
             with vid_col:
                 st.video(_video_bytes, format="video/mp4")
         else:
-            st.info("Video unavailable — please ask the researcher to share the demo link.")
+            st.info("Video unavailable -- please ask the researcher to share the demo link.")
     elif msg["role"] == "assistant":
         with st.chat_message("assistant"):
             st.write(msg["content"])
-            # Show past options as non-interactive text labels
             if msg.get("options"):
                 opts_text = "   ".join(f"`{o['label']}`" for o in msg["options"])
                 st.caption(f"Options: {opts_text}")
@@ -875,9 +795,7 @@ for msg in st.session_state.chat:
         with st.chat_message("user"):
             st.write(msg["content"])
 
-
-# ── State machine ─────────────────────────────────────────────────────────────
-
+# State machine
 if st.session_state.waiting:
     with st.chat_message("assistant"):
         with st.spinner("Thinking..."):
@@ -917,16 +835,13 @@ elif st.session_state.get("interview_ended"):
             st.caption(f"(Note: auto-save encountered an issue: {save_msg})")
 
 else:
-    # ── Interactive options for the current (last) question ─────────────────
-
-    # Find the most recent unanswered assistant message
     current_q_msg = None
     for msg in reversed(st.session_state.chat):
         if msg.get("role") == "assistant":
             current_q_msg = msg
             break
 
-    gen = st.session_state.form_generation  # changes each submission → resets widgets
+    gen = st.session_state.form_generation
 
     if current_q_msg and current_q_msg.get("options"):
         answer_mode = current_q_msg.get("answer_mode", "single_choice")
@@ -941,7 +856,6 @@ else:
                 with cols[i % n_cols]:
                     if st.button(opt["label"], key=f"sopt_{gen}_{q_key}_{i}",
                                  use_container_width=True):
-                        # Submit immediately — no second click needed
                         st.session_state.chat.append({"role": "user", "content": opt["label"]})
                         st.session_state.form_generation += 1
                         st.session_state._pending_draft = ""
@@ -961,24 +875,20 @@ else:
                 with cols[i % n_cols]:
                     if st.button(opt["label"], key=f"ynopt_{gen}_{q_key}_{i}",
                                  use_container_width=True):
-                        # Submit immediately
                         st.session_state.chat.append({"role": "user", "content": opt["label"]})
                         st.session_state.form_generation += 1
                         st.session_state._pending_draft = ""
                         st.session_state.waiting = True
                         st.rerun()
-        # short_text: no buttons, just the text area below
 
-    # ── Text area ─────────────────────────────────────────────────────────────
     st.text_area(
         "response",
         key="user_draft",
         height=100,
-        placeholder="Type your response here, or click 🎤 Speak to record...",
+        placeholder="Type your response here, or click mic Speak to record...",
         label_visibility="collapsed",
     )
 
-    # Enter-to-send (Shift+Enter = newline)
     components.html("""
     <script>
     (function() {
@@ -992,38 +902,72 @@ else:
                     var btns = window.parent.document.querySelectorAll('button');
                     for (var i = 0; i < btns.length; i++) {
                         if (btns[i].innerText.trim().startsWith('Send')) {
-                            btns[i].click();
-                            break;
+                            btns[i].click(); break;
                         }
                     }
                 }
             });
         }
         attach();
-        new MutationObserver(attach).observe(
-            window.parent.document.body, { childList: true, subtree: true }
-        );
+        new MutationObserver(attach).observe(window.parent.document.body, {childList:true, subtree:true});
     })();
     </script>
     """, height=0)
 
-    # ── Mic + Send row ────────────────────────────────────────────────────────
     mic_col, spacer_col, send_col = st.columns([3, 5, 2])
 
     with mic_col:
         audio = mic_recorder(
-            start_prompt="🎤  Speak",
-            stop_prompt="⏹️  Stop",
+            start_prompt="mic  Speak",
+            stop_prompt="stop  Stop",
             just_once=True,
             use_container_width=True,
             key="mic",
         )
 
     with send_col:
-        send_clicked = st.button("Send →", type="primary", use_container_width=True)
+        send_clicked = st.button("Send ->", type="primary", use_container_width=True)
 
-    # Handle new recording
     if audio:
         audio_bytes = audio["bytes"]
         audio_hash = hashlib.md5(audio_bytes).hexdigest()
-        if audio_hash != st.session_state.last_aud
+        if audio_hash != st.session_state.last_audio_hash:
+            st.session_state.last_audio_hash = audio_hash
+            with st.spinner("Transcribing..."):
+                transcript = _transcribe(audio_bytes)
+            if transcript:
+                st.session_state._pending_draft = transcript
+                st.rerun()
+            else:
+                st.warning("Could not transcribe. Please try again or type your response.")
+
+    if send_clicked:
+        typed = (st.session_state.get("user_draft") or "").strip()
+
+        selected = []
+        if current_q_msg:
+            answer_mode = current_q_msg.get("answer_mode", "short_text")
+            options = current_q_msg.get("options", [])
+            q_key = current_q_msg.get("question_id", "q")
+            if answer_mode in ("multiple_choice", "ranking"):
+                selected = [
+                    opt["label"]
+                    for i, opt in enumerate(options)
+                    if st.session_state.get(f"mopt_{gen}_{q_key}_{i}")
+                ]
+
+        parts = []
+        if selected:
+            parts.append("; ".join(selected))
+        if typed:
+            parts.append(typed)
+        answer = ". ".join(parts) if parts else None
+
+        if answer:
+            st.session_state._pending_draft = ""
+            st.session_state.form_generation += 1
+            st.session_state.chat.append({"role": "user", "content": answer})
+            st.session_state.waiting = True
+            st.rerun()
+        else:
+            st.warning("Please type a response or choose an option before sending.")
