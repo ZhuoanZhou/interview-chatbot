@@ -582,7 +582,7 @@ You can skip any question, take a break, or stop at any time."""
         uid = st.session_state.user_id
         with st.spinner("Starting your session..."):
             session, loop = _create_session(uid)
-        FIRST_QUESTION = "What is your first reaction to this idea?"
+        FIRST_QUESTION = "What's your overall first reaction to the prototype in the demo video—positive, mixed, or negative?"
         st.session_state.update(
             session=session,
             loop=loop,
