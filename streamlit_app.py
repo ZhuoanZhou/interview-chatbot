@@ -842,6 +842,11 @@ else:
             break
 
     gen = st.session_state.form_generation
+    draft_key = f"user_draft_{gen}"
+
+    # Apply any pending pre-fill (from audio transcription) before widgets render
+    if "_prefill" in st.session_state:
+        st.session_state[draft_key] = st.session_state.pop("_prefill")
 
     # ── Interactive options ───────────────────────────────────────────────────
     answer_mode = current_q_msg.get("answer_mode", "short_text") if current_q_msg else "short_text"
@@ -850,7 +855,7 @@ else:
 
     if options:
         if answer_mode == "single_choice":
-            # Click pre-fills the text area; participant can edit before sending
+            # Click pre-fills text area (set before text_area renders — allowed)
             st.markdown("**Choose one (or type your own answer below):**")
             n_cols = min(3, len(options))
             cols = st.columns(n_cols)
@@ -858,8 +863,7 @@ else:
                 with cols[i % n_cols]:
                     if st.button(opt["label"], key=f"sopt_{gen}_{q_key}_{i}",
                                  use_container_width=True):
-                        st.session_state.user_draft = opt["label"]
-                        st.rerun()
+                        st.session_state[draft_key] = opt["label"]
 
         elif answer_mode in ("multiple_choice", "ranking"):
             # Check boxes — collected at Send time
@@ -868,7 +872,7 @@ else:
                 st.checkbox(opt["label"], key=f"mopt_{gen}_{q_key}_{i}")
 
         elif answer_mode == "yes_no_plus_optional_text":
-            # Click pre-fills the text area; participant can add details before sending
+            # Click pre-fills text area; participant can add details before sending
             st.markdown("**Choose one (you can add details below):**")
             n_cols = min(3, len(options))
             cols = st.columns(n_cols)
@@ -876,13 +880,12 @@ else:
                 with cols[i % n_cols]:
                     if st.button(opt["label"], key=f"ynopt_{gen}_{q_key}_{i}",
                                  use_container_width=True):
-                        st.session_state.user_draft = opt["label"]
-                        st.rerun()
+                        st.session_state[draft_key] = opt["label"]
 
     # ── Text area (always visible) ────────────────────────────────────────────
     typed = st.text_area(
         "response",
-        key="user_draft",
+        key=draft_key,
         height=100,
         placeholder="Type your response here, or click 🎤 Speak to record...",
         label_visibility="collapsed",
@@ -937,7 +940,7 @@ else:
             with st.spinner("Transcribing..."):
                 transcript = _transcribe(audio_bytes)
             if transcript:
-                st.session_state.user_draft = transcript
+                st.session_state._prefill = transcript
                 st.rerun()
             else:
                 st.warning("Could not transcribe. Please try again or type your response.")
@@ -963,7 +966,6 @@ else:
         answer = ". ".join(parts) if parts else None
 
         if answer:
-            st.session_state.user_draft = ""
             st.session_state.form_generation += 1
             st.session_state.chat.append({"role": "user", "content": answer})
             st.session_state.waiting = True
