@@ -61,6 +61,9 @@ class Interviewer(BaseAgent, Participant):
 
         self._turn_to_respond = False
 
+    # Subtopic ID that triggers the demo video to be shown before the question
+    DEMO_VIDEO_TRIGGER_SUBTOPIC = "4.1"
+
     async def _handle_response(self, response: str, subtopic_id: str = "") -> str:
         """Handle responses from the RespondToUser tool and adding them to chat history.
         
@@ -69,6 +72,11 @@ class Interviewer(BaseAgent, Participant):
             topic_id: The topic ID of the response
             subtopic_id: The subtopic ID of the response
         """
+        # Signal Streamlit to show the demo video before this message is displayed
+        if subtopic_id == self.DEMO_VIDEO_TRIGGER_SUBTOPIC and not getattr(self.interview_session, 'video_shown', False):
+            self.interview_session.video_pending = True
+            self.interview_session.video_shown = True
+
         self.interview_session.add_message_to_chat_history(
             role=self.title,
             content=response,

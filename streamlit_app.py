@@ -568,21 +568,12 @@ You can skip any question, take a break, or stop at any time."""
 
     st.markdown(INTRO_TEXT)
 
-    st.markdown("#### Demo Video")
-    _video_bytes = _load_demo_video_bytes()
-    if _video_bytes:
-        _, vid_col, _ = st.columns([1, 5, 1])
-        with vid_col:
-            st.video(_video_bytes, format="video/mp4")
-    else:
-        st.info("Video unavailable — please ask the researcher to share the demo link.")
-
     st.markdown("")
     if st.button("Continue to interview →", type="primary", key="btn_intro_continue"):
         uid = st.session_state.user_id
         with st.spinner("Starting your session..."):
             session, loop = _create_session(uid)
-        FIRST_QUESTION = "What's your overall first reaction to the prototype in the demo video—positive, mixed, or negative?"
+        FIRST_QUESTION = "When someone does not understand you, what do you usually do?"
         st.session_state.update(
             session=session,
             loop=loop,
@@ -626,6 +617,11 @@ if new_msgs:
         # message so the participant just sees their history and the input box.
         st.session_state.skip_first_bot_msg = False
         new_msgs = new_msgs[1:]
+    # If the interviewer signalled that the demo video should be shown, insert
+    # a video placeholder into the chat before the interviewer's first Section B message.
+    if getattr(session, 'video_pending', False):
+        st.session_state.chat.append({"role": "video"})
+        session.video_pending = False
     for m in new_msgs:
         st.session_state.chat.append({"role": "assistant", "content": m["content"]})
     # Only stop waiting if we actually received real messages (not just discarded one).
@@ -642,35 +638,20 @@ if new_msgs:
         # Non-blocking save after every interviewer turn
         save_async(user_id, st.session_state.chat, cfg)
 
-# Intro text and video (always visible during active interview)
-INTRO_TEXT = """\
-Thank you for attending this semi-structured interview today.
-
-We are studying an idea for helping people when others have trouble understanding their speech. \
-The idea is to use speech transcription as a starting point, and then allow the text to be edited \
-if needed to help repair meaning.
-
-In this session, we will show you a short demo of the idea. After that, we will ask what you think about it.
-
-This is not a test of you. We are testing the idea and learning from your experience.
-
-You can answer by selecting choices and typing extra comments if you want. \
-You can skip any question, take a break, or stop at any time."""
-
-st.markdown(INTRO_TEXT)
-_video_bytes = _load_demo_video_bytes()
-if _video_bytes:
-    _, vid_col, _ = st.columns([1, 5, 1])
-    with vid_col:
-        st.video(_video_bytes, format="video/mp4")
-else:
-    st.info("Video unavailable — please ask the researcher to share the demo link.")
-st.divider()
-
 # Render chat history
 for msg in st.session_state.chat:
-    with st.chat_message(msg["role"]):
-        st.write(msg["content"])
+    if msg.get("role") == "video":
+        st.markdown("#### Demo Video")
+        _video_bytes = _load_demo_video_bytes()
+        if _video_bytes:
+            _, vid_col, _ = st.columns([1, 5, 1])
+            with vid_col:
+                st.video(_video_bytes, format="video/mp4")
+        else:
+            st.info("Video unavailable — please ask the researcher to share the demo link.")
+    else:
+        with st.chat_message(msg["role"]):
+            st.write(msg["content"])
 
 # --- State machine ---
 

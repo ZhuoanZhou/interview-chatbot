@@ -138,6 +138,7 @@ class InterviewSession:
         self.interaction_mode = interaction_mode
         self.session_in_progress = True
         self.session_completed = False
+        self.video_pending = False  # Set by Interviewer to signal Streamlit to show the demo video
         self._session_timeout = False
         self.max_turns = max_turns
 
