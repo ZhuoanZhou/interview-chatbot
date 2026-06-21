@@ -24,11 +24,11 @@
     ]
   },
   {
-    "main_question": "Please give feedback on each part of the system—which features seem most useful or most difficult?",
+    "main_question": "Please give feedback on each part of the system - which features seem most useful or most difficult?",
     "probes": [
       "How do you feel about seeing a transcript of what you said?",
       "What about editing the transcript instead of starting from nothing?",
-      "Correcting one word and asking the system to re-transcribe the rest—does that make sense?",
+      "Correcting one word and asking the system to re-transcribe the rest - does that make sense?",
       "How about showing the corrected text to another person, or having the system speak it aloud?",
       "What do you think of getting word suggestions or using shorthand to reduce typing?"
     ]
@@ -40,4 +40,44 @@
     ]
   },
   {
-    "main_question": "What concerns
+    "main_question": "What concerns would you have about using this in a real conversation?",
+    "probes": []
+  },
+  {
+    "main_question": "What would make this more useful or easier for you?",
+    "probes": [
+      "What is the single most important change you would want?"
+    ]
+  },
+  {
+    "main_question": "Would you like to briefly try the prototype?",
+    "probes": []
+  },
+  {
+    "main_question": "How did the interaction feel when you tried the prototype?",
+    "probes": []
+  },
+  {
+    "main_question": "What were you mostly trying to do when you used it?",
+    "probes": []
+  },
+  {
+    "main_question": "Based on what I observed, I have one follow-up question about how you used the system.",
+    "probes": [
+      "I noticed you repeated instead of editing. What made you choose that?",
+      "I noticed you fixed only one word and left the rest. What made that feel good enough?",
+      "I noticed you stopped editing after a while. Was it because the transcript was good enough, or because it felt like too much effort?",
+      "I noticed you used shorthand. Would it help if the system understood shorthand better?"
+    ]
+  },
+  {
+    "main_question": "When would the transcript feel good enough for you?",
+    "probes": [
+      "What kinds of mistakes matter most to you?"
+    ]
+  },
+  {
+    "main_question": "Is there anything important about this idea that we did not ask about?",
+    "probes": []
+  }
+]
