@@ -204,15 +204,98 @@ Thank you for sharing your experience and feedback with us. Your answers will he
 """
 
 QUESTIONS = [
-    {"id": "A1", "main_question": "When someone does not understand you, what do you usually do?"},
-    {"id": "A2", "main_question": "What makes communication repair difficult or tiring for you?"},
-    {"id": "B1", "main_question": "What is your first reaction to this idea after seeing the demo?"},
-    {"id": "B2", "main_question": "Which parts of the system seem useful, difficult, or unnecessary?"},
-    {"id": "B3", "main_question": "In what situations would you want to use something like this?"},
-    {"id": "B4", "main_question": "What concerns would you have about using this with another person in a real conversation?"},
-    {"id": "C1", "main_question": "When would the transcript be good enough to share with another person?"},
-    {"id": "C2", "main_question": "Overall, would something like this be useful for you?"},
-    {"id": "C3", "main_question": "What would need to change to make this system more useful for you?"},
+    {
+        "id": "A1",
+        "main_question": "When someone does not understand you, what do you usually do?",
+        "probes": [
+            "Does your strategy depend on the person, situation, or importance of the message?",
+            "Are there times when you decide not to keep trying?",
+        ],
+    },
+    {
+        "id": "A2",
+        "main_question": "What makes communication repair difficult or tiring for you?",
+        "probes": [
+            "Is the hard part speech effort, typing effort, time, frustration, stress, or something else?",
+            "Are there situations where repair feels too slow or too much work?",
+            "What currently helps reduce the effort?",
+        ],
+    },
+    {
+        "id": "B1",
+        "main_question": "What is your first reaction to this idea after seeing the demo?",
+        "probes": [
+            "What seems useful?",
+            "What seems difficult or unrealistic?",
+            "Could you imagine yourself using something like this?",
+        ],
+    },
+    {
+        "id": "B2",
+        "main_question": "Which parts of the system seem useful, difficult, or unnecessary?",
+        "probes": [
+            "Seeing a transcript of what you said.",
+            "Editing the transcript.",
+            "Correcting one word and asking the system to re-transcribe the rest.",
+            "Starting from a transcript instead of typing everything from scratch.",
+            "Showing the corrected text to another person.",
+            "Having the corrected text spoken aloud.",
+            "Getting word suggestions or other help to reduce typing.",
+            "Using shorthand, abbreviations, or first letters to reduce typing.",
+            "Is there any feature missing from the system?",
+        ],
+    },
+    {
+        "id": "B3",
+        "main_question": "In what situations would you want to use something like this?",
+        "probes": [
+            "Would it fit better with strangers, familiar people, medical appointments, ordering food, work, school, or other situations?",
+            "Would it be more useful for short conversations, longer conversations, or important messages?",
+            "Are there situations where this system would feel too slow, awkward, tiring, or unnecessary?",
+        ],
+    },
+    {
+        "id": "B4",
+        "main_question": "What concerns would you have about using this with another person in a real conversation?",
+        "probes": [
+            "Would the other person wait while you edit?",
+            "Would using the system feel natural or awkward?",
+            "Would privacy, attention to the screen, or social pressure be a concern?",
+            "Would the other person's reaction affect whether you use it?",
+        ],
+    },
+    {
+        "id": "C1",
+        "main_question": "When would the transcript be good enough to share with another person?",
+        "probes": [
+            "Does it need to be almost perfect, or is the main meaning enough?",
+            "What kinds of mistakes would matter most?",
+            "Are there mistakes you would be willing to leave unchanged?",
+        ],
+    },
+    {
+        "id": "C2",
+        "main_question": "Overall, would something like this be useful for you?",
+        "probes": [
+            "Would it be better than repeating, typing from scratch, or what you currently use?",
+            "Would it only be useful in certain situations or with certain people?",
+            "Would the effort be worth it?",
+        ],
+    },
+    {
+        "id": "C3",
+        "main_question": "What would need to change to make this system more useful for you?",
+        "probes": [
+            "Better transcription accuracy?",
+            "Less typing?",
+            "Easier editing?",
+            "Word suggestions?",
+            "Highlighting important mistakes?",
+            "Easier repeat or re-record option?",
+            "Support for shorthand, abbreviations, or first-letter input?",
+            "A better way to show or speak the message to another person?",
+        ],
+    },
 ]
 
 B1_INDEX = 2  # demo video shown when current_question_index first reaches this value
@@ -273,6 +356,9 @@ _QG_USER_TEMPLATE = """\
 
 # Current main question:
 {current_main_question}
+
+# Optional probes for the current question:
+{current_probes}
 
 # Decision from Interview State Manager:
 {decision}
@@ -343,11 +429,14 @@ _DM_USER_TEMPLATE = """\
 # Interview guide:
 {interview_guide}
 
+# Current main question:
+{current_main_question}
+
+# Optional probes for the current question:
+{current_probes}
+
 Chat history:
 {chat_history}
-
-Current main question:
-{current_main_question}
 
 Available response modes:
 - participant can select one or more options
@@ -443,14 +532,22 @@ def _format_chat_for_prompt(chat):
 # Agent turn
 # =============================================================================
 
+def _get_probes_str(q_idx):
+    if q_idx < len(QUESTIONS):
+        probes = QUESTIONS[q_idx].get("probes", [])
+        return "\n".join(f"- {p}" for p in probes) if probes else "(none)"
+    return "(none)"
+
+
 def run_agent_turn(skip_dm=False):
     q_idx = st.session_state.current_question_index
     chat_str = _format_chat_for_prompt(st.session_state.chat)
     current_q = QUESTIONS[q_idx]["main_question"] if q_idx < len(QUESTIONS) else ""
+    current_probes = _get_probes_str(q_idx)
 
     decision = None
     if not skip_dm:
-        decision = _run_decision_maker(chat_str, current_q)
+        decision = _run_decision_maker(chat_str, current_q, current_probes)
         action = decision.get("decision", "FOLLOW_UP")
         if action == "MOVE_NEXT":
             q_idx += 1
@@ -459,6 +556,7 @@ def run_agent_turn(skip_dm=False):
                 st.session_state.interview_ended = True
                 return False, None
             current_q = QUESTIONS[q_idx]["main_question"]
+            current_probes = _get_probes_str(q_idx)
         elif action == "END_INTERVIEW":
             st.session_state.interview_ended = True
             return False, None
@@ -471,21 +569,22 @@ def run_agent_turn(skip_dm=False):
         st.session_state.interview_ended = True
         return show_video, None
 
-    result = _run_question_generator(chat_str, current_q, decision)
+    result = _run_question_generator(chat_str, current_q, decision, current_probes)
     result["question_id"] = QUESTIONS[q_idx]["id"]
     return show_video, result
 
 
-def _run_decision_maker(chat_str, current_main_question):
+def _run_decision_maker(chat_str, current_main_question, current_probes):
     user_prompt = _DM_USER_TEMPLATE.format(
         interview_guide=INTERVIEW_GUIDE,
         chat_history=chat_str,
         current_main_question=current_main_question,
+        current_probes=current_probes,
     )
     return _call_llm_json(_DM_SYSTEM, user_prompt, label="decision_maker")
 
 
-def _run_question_generator(chat_str, current_main_question, decision):
+def _run_question_generator(chat_str, current_main_question, decision, current_probes):
     decision_str = (
         json.dumps(decision, indent=2) if decision
         else "None -- this is the opening question. Generate the first question for this topic."
@@ -494,6 +593,7 @@ def _run_question_generator(chat_str, current_main_question, decision):
         interview_guide=INTERVIEW_GUIDE,
         chat_history=chat_str,
         current_main_question=current_main_question,
+        current_probes=current_probes,
         decision=decision_str,
     )
     return _call_llm_json(_QG_SYSTEM, user_prompt, label="question_generator")
