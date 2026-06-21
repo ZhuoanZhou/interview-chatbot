@@ -200,7 +200,7 @@ Return JSON in this format:
 {{
   "question_id": "A1",
   "question_text": "...",
-  "answer_mode": "single_choice | multiple_choice | short_text | yes_no_plus_optional_text | ranking",
+  "answer_mode": "multiple_choice | yes_no_plus_optional_text | ranking",
   "options": [
     {{"label": "..."}},
     ...
@@ -729,7 +729,7 @@ if st.session_state.phase == "intro":
                 "role": "assistant",
                 "content": result["question_text"],
                 "question_id": result.get("question_id", "A1"),
-                "answer_mode": result.get("answer_mode", "single_choice"),
+                "answer_mode": result.get("answer_mode", "multiple_choice"),
                 "options": result.get("options", []),
             })
         st.session_state.chat = new_chat
@@ -813,7 +813,7 @@ if st.session_state.waiting:
             "role": "assistant",
             "content": result["question_text"],
             "question_id": result.get("question_id", ""),
-            "answer_mode": result.get("answer_mode", "short_text"),
+            "answer_mode": result.get("answer_mode", "multiple_choice"),
             "options": result.get("options", []),
         })
 
@@ -849,23 +849,12 @@ else:
         st.session_state[draft_key] = st.session_state.pop("_prefill")
 
     # ── Interactive options ───────────────────────────────────────────────────
-    answer_mode = current_q_msg.get("answer_mode", "short_text") if current_q_msg else "short_text"
+    answer_mode = current_q_msg.get("answer_mode", "multiple_choice") if current_q_msg else "multiple_choice"
     options = current_q_msg.get("options", []) if current_q_msg else []
     q_key = current_q_msg.get("question_id", "q") if current_q_msg else "q"
 
     if options:
-        if answer_mode == "single_choice":
-            # Click pre-fills text area (set before text_area renders — allowed)
-            st.markdown("**Choose one (or type your own answer below):**")
-            n_cols = min(3, len(options))
-            cols = st.columns(n_cols)
-            for i, opt in enumerate(options):
-                with cols[i % n_cols]:
-                    if st.button(opt["label"], key=f"sopt_{gen}_{q_key}_{i}",
-                                 use_container_width=True):
-                        st.session_state[draft_key] = opt["label"]
-
-        elif answer_mode in ("multiple_choice", "ranking"):
+        if answer_mode in ("multiple_choice", "ranking"):
             # Check boxes — collected at Send time
             st.markdown("**Choose all that apply:**")
             for i, opt in enumerate(options):
@@ -972,3 +961,4 @@ else:
             st.rerun()
         else:
             st.warning("Please type a response or choose an option before sending.")
+                             
