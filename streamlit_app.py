@@ -326,9 +326,10 @@ Return JSON in this format:
 # OpenAI helpers
 # =============================================================================
 
-def _call_llm_json(system_prompt, user_prompt):
-    """Call the LLM and return a parsed JSON dict."""
+def _call_llm_json(system_prompt, user_prompt, label="agent"):
+    """Call the LLM and return a parsed JSON dict. Appends raw log to session state."""
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    raw_text = None
     try:
         resp = client.chat.completions.create(
             model=MODEL,
@@ -338,7 +339,8 @@ def _call_llm_json(system_prompt, user_prompt):
             ],
             response_format={"type": "json_object"},
         )
-        return json.loads(resp.choices[0].message.content)
+        raw_text = resp.choices[0].message.content
+        result = json.loads(raw_text)
     except Exception:
         # Fallback: try without response_format
         resp = client.chat.completions.create(
@@ -348,11 +350,25 @@ def _call_llm_json(system_prompt, user_prompt):
                 {"role": "user", "content": user_prompt},
             ],
         )
-        text = resp.choices[0].message.content or ""
-        m = re.search(r"\{.*\}", text, re.DOTALL)
+        raw_text = resp.choices[0].message.content or ""
+        m = re.search(r"\{.*\}", raw_text, re.DOTALL)
         if m:
-            return json.loads(m.group())
-        raise ValueError(f"LLM did not return valid JSON. Raw output: {text[:500]}")
+            result = json.loads(m.group())
+        else:
+            raise ValueError(f"LLM did not return valid JSON. Raw output: {raw_text[:500]}")
+
+    # Append to agent_logs in session state for later Drive save
+    if "agent_logs" in st.session_state:
+        st.session_state.agent_logs.append({
+            "timestamp": datetime.utcnow().isoformat() + "Z",
+            "label": label,
+            "system_prompt": system_prompt,
+            "user_prompt": user_prompt,
+            "raw_response": raw_text,
+            "parsed_response": result,
+        })
+
+    return result
 
 
 def _format_chat_for_prompt(chat):
@@ -423,7 +439,7 @@ def _run_decision_maker(chat_str, current_main_question):
         chat_history=chat_str,
         current_main_question=current_main_question,
     )
-    return _call_llm_json(_DM_SYSTEM, user_prompt)
+    return _call_llm_json(_DM_SYSTEM, user_prompt, label="decision_maker")
 
 
 def _run_question_generator(chat_str, current_main_question, decision):
@@ -437,7 +453,7 @@ def _run_question_generator(chat_str, current_main_question, decision):
         current_main_question=current_main_question,
         decision=decision_str,
     )
-    return _call_llm_json(_QG_SYSTEM, user_prompt)
+    return _call_llm_json(_QG_SYSTEM, user_prompt, label="question_generator")
 
 
 # =============================================================================
@@ -540,7 +556,7 @@ def _update_participants_log(user_id, root_folder_id, svc):
         pass
 
 
-def _do_save(user_id, chat, config):
+def _do_save(user_id, chat, agent_logs, config):
     if not config.get("folder_id") or not config.get("refresh_token"):
         return False, "Drive not configured."
     svc = _make_service(config)
@@ -551,19 +567,25 @@ def _do_save(user_id, chat, config):
         json.dumps(chat, ensure_ascii=False, indent=2).encode("utf-8"),
         pfolder, svc,
     )
+    if agent_logs:
+        _upsert_bytes(
+            "agent_logs.json",
+            json.dumps(agent_logs, ensure_ascii=False, indent=2).encode("utf-8"),
+            pfolder, svc,
+        )
     _update_participants_log(user_id, root, svc)
     return True, "Saved."
 
 
-def save_async(user_id, chat, config):
+def save_async(user_id, chat, agent_logs, config):
     """Fire-and-forget background save."""
-    threading.Thread(target=lambda: _do_save(user_id, chat, config), daemon=True).start()
+    threading.Thread(target=lambda: _do_save(user_id, chat, agent_logs, config), daemon=True).start()
 
 
-def save_sync(user_id, chat, config):
+def save_sync(user_id, chat, agent_logs, config):
     """Blocking save (at session end). Returns (ok, message)."""
     try:
-        return _do_save(user_id, chat, config)
+        return _do_save(user_id, chat, agent_logs, config)
     except Exception as e:
         return False, str(e)
 
@@ -669,6 +691,7 @@ if "phase" not in st.session_state:
         video_shown=False,
         interview_ended=False,
         form_generation=0,          # incremented each submission to reset option widgets
+        agent_logs=[],              # raw prompts + responses from each LLM call
     )
 
 
@@ -873,7 +896,7 @@ if st.session_state.waiting:
         })
 
     st.session_state.waiting = False
-    save_async(user_id, st.session_state.chat, cfg)
+    save_async(user_id, st.session_state.chat, st.session_state.agent_logs, cfg)
     st.rerun()
 
 elif st.session_state.get("interview_ended"):
@@ -882,7 +905,7 @@ elif st.session_state.get("interview_ended"):
     st.success("The interview has ended. Thank you for your time!")
     if not st.session_state.session_saved:
         with st.spinner("Saving your session to Google Drive..."):
-            ok, save_msg = save_sync(user_id, st.session_state.chat, cfg)
+            ok, save_msg = save_sync(user_id, st.session_state.chat, st.session_state.agent_logs, cfg)
         st.session_state.session_saved = True
         if ok:
             st.info(f"Session saved. Your Participant ID was **`{user_id}`**.")
@@ -1007,29 +1030,4 @@ else:
         typed = (st.session_state.get("user_draft") or "").strip()
 
         # Collect checked options (multiple_choice / ranking)
-        selected = []
-        if current_q_msg:
-            answer_mode = current_q_msg.get("answer_mode", "short_text")
-            options = current_q_msg.get("options", [])
-            q_key = current_q_msg.get("question_id", "q")
-            if answer_mode in ("multiple_choice", "ranking"):
-                selected = [
-                    opt["label"]
-                    for i, opt in enumerate(options)
-                    if st.session_state.get(f"mopt_{gen}_{q_key}_{i}")
-                ]
-
-        # Compose final answer
-        parts = []
-        if selected:
-            parts.append("; ".join(selected))
-        if typed:
-            parts.append(typed)
-        answer = ". ".join(parts) if parts else None
-
-        if answer:
-            st.session_state._pending_draft = ""
-            st.session_state.form_generation += 1  # reset option widgets
-            st.session_state.chat.append({"role": "user", "content": answer})
-            st.session_state.waiting = True
-            st.rerun()
+   
