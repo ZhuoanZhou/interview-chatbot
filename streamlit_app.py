@@ -879,10 +879,14 @@ for msg in st.session_state.chat:
 # ── State machine ─────────────────────────────────────────────────────────────
 
 if st.session_state.waiting:
-    # Run the agent turn synchronously while showing a spinner
     with st.chat_message("assistant"):
         with st.spinner("Thinking..."):
-            show_video, result = run_agent_turn()
+            try:
+                show_video, result = run_agent_turn()
+            except Exception as e:
+                st.session_state.waiting = False
+                st.error(f"Something went wrong: {e}")
+                st.stop()
 
     if show_video:
         st.session_state.chat.append({"role": "video"})
@@ -937,8 +941,11 @@ else:
                 with cols[i % n_cols]:
                     if st.button(opt["label"], key=f"sopt_{gen}_{q_key}_{i}",
                                  use_container_width=True):
-                        # Single choice: clicking button pre-fills the text area
-                        st.session_state._pending_draft = opt["label"]
+                        # Submit immediately — no second click needed
+                        st.session_state.chat.append({"role": "user", "content": opt["label"]})
+                        st.session_state.form_generation += 1
+                        st.session_state._pending_draft = ""
+                        st.session_state.waiting = True
                         st.rerun()
 
         elif answer_mode in ("multiple_choice", "ranking"):
@@ -954,7 +961,11 @@ else:
                 with cols[i % n_cols]:
                     if st.button(opt["label"], key=f"ynopt_{gen}_{q_key}_{i}",
                                  use_container_width=True):
-                        st.session_state._pending_draft = opt["label"]
+                        # Submit immediately
+                        st.session_state.chat.append({"role": "user", "content": opt["label"]})
+                        st.session_state.form_generation += 1
+                        st.session_state._pending_draft = ""
+                        st.session_state.waiting = True
                         st.rerun()
         # short_text: no buttons, just the text area below
 
@@ -1015,19 +1026,4 @@ else:
     if audio:
         audio_bytes = audio["bytes"]
         audio_hash = hashlib.md5(audio_bytes).hexdigest()
-        if audio_hash != st.session_state.last_audio_hash:
-            st.session_state.last_audio_hash = audio_hash
-            with st.spinner("Transcribing..."):
-                transcript = _transcribe(audio_bytes)
-            if transcript:
-                st.session_state._pending_draft = transcript
-                st.rerun()
-            else:
-                st.warning("Could not transcribe. Please try again or type your response.")
-
-    # Handle Send
-    if send_clicked:
-        typed = (st.session_state.get("user_draft") or "").strip()
-
-        # Collect checked options (multiple_choice / ranking)
-   
+        if audio_hash != st.session_state.last_aud
