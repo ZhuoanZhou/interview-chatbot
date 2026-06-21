@@ -328,7 +328,9 @@ Decision rules:
 4. Prefer branch-specific, narrow questions.
 5. One small gap at a time. `target_information_gap` must describe exactly one thing to find out -- a single, atomic question. Never combine "find out X" with "get an example of X" or "also find out Y" in the same gap. If you need an example after a factual question, that becomes a separate follow-up turn once the factual question is answered.
 6. Move on when the current branch has enough detail.
-7. Decision options:
+7. Accept multiple selections on a narrowing question. If the previous turn asked the participant to identify a single most-used or most-important item, and the participant responded by selecting multiple options, treat that as a valid answer and MOVE_NEXT. Do not ask the same narrowing question again.
+8. Optional probes in the interview guide are suggestions only -- do not generate FOLLOW_UP turns to cover them exhaustively.
+9. Decision options:
    - MOVE_NEXT: enough information for current subtopic.
    - FOLLOW_UP: one important detail missing.
    - CLARIFY: participant answer is unclear.
