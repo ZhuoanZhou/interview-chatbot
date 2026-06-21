@@ -76,7 +76,6 @@ When someone does not understand you, what do you usually do?
 
 **Optional probes:**
 
-* Do you repeat, rephrase, type, gesture, use AAC, ask someone else to help, or do something else?
 * Does your strategy depend on the person, situation, or importance of the message?
 * Are there times when you decide not to keep trying?
 
@@ -332,6 +331,7 @@ Decision rules:
 7. Accept multiple selections on a narrowing question. If the previous turn asked the participant to identify a single most-used or most-important item, and the participant responded by selecting multiple options, treat that as a valid answer and MOVE_NEXT. Do not ask the same narrowing question again.
 8. Optional probes in the interview guide are suggestions only -- do not generate FOLLOW_UP turns to cover them exhaustively.
 9. Decision options:
+   - If current_subtopic_status is sufficiently_covered, you must choose MOVE_NEXT. Do not choose FOLLOW_UP on a sufficiently covered topic.
    - MOVE_NEXT: enough information for current subtopic.
    - FOLLOW_UP: one important detail missing.
    - CLARIFY: participant answer is unclear.
