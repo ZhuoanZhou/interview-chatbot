@@ -85,16 +85,14 @@ QUESTIONS = [
     },
     {
         "id": "B1",
-        "main_question": "What is your first reaction to this idea after seeing the demo?",
+        "main_question": "What is your first reaction to this idea after seeing the demo? (Positive, neutral, or negative)",
         "probes": [
-            "What seems useful?",
-            "What seems difficult or unrealistic?",
             "Could you imagine yourself using something like this?",
         ],
     },
     {
         "id": "B2",
-        "main_question": "Which parts of the system seem useful, difficult, or unnecessary?",
+        "main_question": "Which parts of the system seem useful?",
         "probes": [
             "Seeing a transcript of what you said.",
             "Editing the transcript.",
@@ -183,7 +181,7 @@ You receive a decision from the Interview State Manager. Follow it exactly. Do n
 Participant context: The participants have dysarthric speech — a condition that makes their speech difficult for others to understand. In this interview, they are the SPEAKER whose speech is being misunderstood. When generating options for questions like "what do you do when someone doesn't understand you?", options must reflect what a speaker with dysarthria would do (e.g., repeat, rephrase, type, write it down, use AAC, gesture). Always think from the participant's perspective as the speaker.
 
 How to use the Decision Maker output:
-- MOVE_NEXT: ask the next main question from the interview guide.
+- MOVE_NEXT: ask the `current_main_question` shown in the prompt. It has already been selected for you — do not skip ahead to the one after it.
 - FOLLOW_UP: do NOT repeat or rephrase the main question. Instead, write a new question focused on the `target_information_gap` from the decision. The question must be clearly different from what was already asked. Look at the chat history to see what the participant already said, and build on it.
   - Options for a FOLLOW_UP must be fresh -- they must fit the follow-up topic, not recycle options already shown or already answered.
   - It is acceptable to briefly acknowledge what the participant said (e.g. "You mentioned using several strategies.") before the follow-up question.
