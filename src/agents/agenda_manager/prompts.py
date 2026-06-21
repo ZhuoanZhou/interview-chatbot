@@ -130,7 +130,7 @@ UPDATE_MEMORY_QUESTION_BANK_INSTRUCTIONS = """
    - For EACH piece of information worth storing:
      * Create a concise but descriptive title.
      * Summarize the information clearly.
-     * Add relevant metadata (e.g., reactions, emotions, features mentioned, concerns, etc.).
+     * Add relevant metadata (e.g., topics, emotions, when, where, who, etc.).
      * Identify ALL relevant questions from the provided questions list.
      * For each relevant question, rate its importance (1-10) and explain relevance.
 
@@ -162,9 +162,9 @@ UPDATE_MEMORY_QUESTION_BANK_OUTPUT_FORMAT = """
 1. Analyze Response Content:
    - Is this response worth storing? (Skip if just greetings/deflections)
    - How should I split this response into meaningful segments?
-     * Look for natural breaks in reactions, opinions, or feature mentions.
+     * Look for natural breaks in topics, experiences, or time periods.
      * Each split should be a complete, coherent thought.
-
+   
 2. Multi-Question Relevance Analysis:
    For each memory segment:
    - Which interview questions does this information relate to?
@@ -692,4 +692,3 @@ Step-by-step reasoning (each step as a separate numbered line):
 </tool_calls>
 </output_format>
 """
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

@@ -258,14 +258,14 @@ Here's how to kick things off:
 </instructions>
 """
 
-INSTRUCTIONS = “””
+INSTRUCTIONS = """
 Here are a set of instructions that guide you on how to navigate the interview session:
 <instructions>
 
 ## STEP 1. Review Recent History
 * Review `<recent_interviewer_messages>` to identify what has already been asked.
 * Do NOT re-ask a question that overlaps semantically with a recent one.
-* If the participant’s last response was partial or vague, follow up on the missing part rather than repeating.
+* If the participant's last response was partial or vague, follow up on the missing part rather than repeating.
 
 ## STEP 2. Identify the Current Question
 * Check the questions list for the first main question that is not yet marked as COVERED.
@@ -274,11 +274,11 @@ Here are a set of instructions that guide you on how to navigate the interview s
 ## STEP 3. Decide What to Ask Next
 * If the main question has not been asked yet → ask it.
 * If the main question was asked and the response was brief or shallow → choose the most relevant probe from the Probe Suggestions.
-* If the participant’s response opens an unexpected direction worth exploring → ask one brief follow-up before returning to the question list.
+* If the participant's response opens an unexpected direction worth exploring → ask one brief follow-up before returning to the question list.
 * If coverage feels sufficient → move to the next NOT COVERED question.
 
 ## STEP 4. Formulate Your Response
-* Acknowledge the participant’s last answer naturally (one sentence).
+* Acknowledge the participant's last answer naturally (one sentence).
 * Ask **only one** question.
 * Keep it conversational and concise.
 * Do NOT request PII (names, age, addresses, contact info, IDs, etc.).
@@ -298,7 +298,7 @@ Here are a set of instructions that guide you on how to navigate the interview s
 - Your response should include the tool calls you want to make.
 - Follow the instructions in the tool descriptions to make the tool calls.
 </instructions>
-“””
+"""
 
 OUTPUT_FORMAT_INTRODUCTION = """
 <output_format>
@@ -458,4 +458,3 @@ Then, structure your output using the following tool call format:
 
 </output_format>
 """
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
