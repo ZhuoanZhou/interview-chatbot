@@ -786,6 +786,7 @@ div[data-testid="stButton"] button[kind="primary"] {
 for msg in st.session_state.chat:
     if msg.get("role") == "video":
         st.markdown("#### Demo Video")
+        st.caption("Please watch the short demo video below before answering the next question.")
         _video_bytes = _load_demo_video_bytes()
         if _video_bytes:
             _, vid_col, _ = st.columns([1, 5, 1])
@@ -967,5 +968,4 @@ else:
             st.session_state.chat.append({"role": "user", "content": answer})
             st.session_state.waiting = True
             st.rerun()
-        else:
-            st.warning("Please type a response or choose an option before sending.")
+ 
