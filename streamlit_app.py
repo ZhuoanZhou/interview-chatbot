@@ -801,4 +801,235 @@ with st.sidebar:
 st.markdown("""
 <style>
 html, body, [class*="css"], .stMarkdown, .stChatMessage {
-    font-size:
+    font-size: 18px !important;
+}
+div[data-testid="stChatMessage"] p {
+    font-size: 1.05rem !important;
+    line-height: 1.7 !important;
+}
+div[data-testid="stTextArea"] textarea {
+    min-height: 80px !important;
+    font-size: 1.1rem !important;
+    line-height: 1.7 !important;
+    border-radius: 14px !important;
+    padding: 14px 18px !important;
+    resize: none !important;
+}
+div[data-testid="stButton"] button[kind="primary"] {
+    font-size: 1rem !important;
+    height: 52px !important;
+    border-radius: 8px !important;
+    width: 100% !important;
+}
+[data-testid="stColumn"]:first-child iframe {
+    height: 52px !important;
+    min-height: 52px !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+
+# ── Render chat history ───────────────────────────────────────────────────────
+
+for msg in st.session_state.chat:
+    if msg.get("role") == "video":
+        st.markdown("#### Demo Video")
+        _video_bytes = _load_demo_video_bytes()
+        if _video_bytes:
+            _, vid_col, _ = st.columns([1, 5, 1])
+            with vid_col:
+                st.video(_video_bytes, format="video/mp4")
+        else:
+            st.info("Video unavailable — please ask the researcher to share the demo link.")
+    elif msg["role"] == "assistant":
+        with st.chat_message("assistant"):
+            st.write(msg["content"])
+            # Show past options as non-interactive text labels
+            if msg.get("options"):
+                opts_text = "   ".join(f"`{o['label']}`" for o in msg["options"])
+                st.caption(f"Options: {opts_text}")
+    elif msg["role"] == "user":
+        with st.chat_message("user"):
+            st.write(msg["content"])
+
+
+# ── State machine ─────────────────────────────────────────────────────────────
+
+if st.session_state.waiting:
+    # Run the agent turn synchronously while showing a spinner
+    with st.chat_message("assistant"):
+        with st.spinner("Thinking..."):
+            show_video, result = run_agent_turn()
+
+    if show_video:
+        st.session_state.chat.append({"role": "video"})
+    if result:
+        st.session_state.chat.append({
+            "role": "assistant",
+            "content": result["question_text"],
+            "question_id": result.get("question_id", ""),
+            "answer_mode": result.get("answer_mode", "short_text"),
+            "options": result.get("options", []),
+        })
+
+    st.session_state.waiting = False
+    save_async(user_id, st.session_state.chat, cfg)
+    st.rerun()
+
+elif st.session_state.get("interview_ended"):
+    with st.chat_message("assistant"):
+        st.write(CLOSING_MESSAGE)
+    st.success("The interview has ended. Thank you for your time!")
+    if not st.session_state.session_saved:
+        with st.spinner("Saving your session to Google Drive..."):
+            ok, save_msg = save_sync(user_id, st.session_state.chat, cfg)
+        st.session_state.session_saved = True
+        if ok:
+            st.info(f"Session saved. Your Participant ID was **`{user_id}`**.")
+        else:
+            st.caption(f"(Note: auto-save encountered an issue: {save_msg})")
+
+else:
+    # ── Interactive options for the current (last) question ─────────────────
+
+    # Find the most recent unanswered assistant message
+    current_q_msg = None
+    for msg in reversed(st.session_state.chat):
+        if msg.get("role") == "assistant":
+            current_q_msg = msg
+            break
+
+    gen = st.session_state.form_generation  # changes each submission → resets widgets
+
+    if current_q_msg and current_q_msg.get("options"):
+        answer_mode = current_q_msg.get("answer_mode", "single_choice")
+        options = current_q_msg["options"]
+        q_key = current_q_msg.get("question_id", "q")
+
+        if answer_mode == "single_choice":
+            st.markdown("**Choose one:**")
+            n_cols = min(3, len(options))
+            cols = st.columns(n_cols)
+            for i, opt in enumerate(options):
+                with cols[i % n_cols]:
+                    if st.button(opt["label"], key=f"sopt_{gen}_{q_key}_{i}",
+                                 use_container_width=True):
+                        # Single choice: clicking button pre-fills the text area
+                        st.session_state._pending_draft = opt["label"]
+                        st.rerun()
+
+        elif answer_mode in ("multiple_choice", "ranking"):
+            st.markdown("**Choose all that apply:**")
+            for i, opt in enumerate(options):
+                st.checkbox(opt["label"], key=f"mopt_{gen}_{q_key}_{i}")
+
+        elif answer_mode == "yes_no_plus_optional_text":
+            st.markdown("**Choose one:**")
+            n_cols = min(3, len(options))
+            cols = st.columns(n_cols)
+            for i, opt in enumerate(options):
+                with cols[i % n_cols]:
+                    if st.button(opt["label"], key=f"ynopt_{gen}_{q_key}_{i}",
+                                 use_container_width=True):
+                        st.session_state._pending_draft = opt["label"]
+                        st.rerun()
+        # short_text: no buttons, just the text area below
+
+    # ── Text area ─────────────────────────────────────────────────────────────
+    st.text_area(
+        "response",
+        key="user_draft",
+        height=100,
+        placeholder="Type your response here, or click 🎤 Speak to record...",
+        label_visibility="collapsed",
+    )
+
+    # Enter-to-send (Shift+Enter = newline)
+    components.html("""
+    <script>
+    (function() {
+        function attach() {
+            var ta = window.parent.document.querySelector('textarea[aria-label="response"]');
+            if (!ta || ta._enterBound) return;
+            ta._enterBound = true;
+            ta.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter' && !e.shiftKey) {
+                    e.preventDefault();
+                    var btns = window.parent.document.querySelectorAll('button');
+                    for (var i = 0; i < btns.length; i++) {
+                        if (btns[i].innerText.trim().startsWith('Send')) {
+                            btns[i].click();
+                            break;
+                        }
+                    }
+                }
+            });
+        }
+        attach();
+        new MutationObserver(attach).observe(
+            window.parent.document.body, { childList: true, subtree: true }
+        );
+    })();
+    </script>
+    """, height=0)
+
+    # ── Mic + Send row ────────────────────────────────────────────────────────
+    mic_col, spacer_col, send_col = st.columns([3, 5, 2])
+
+    with mic_col:
+        audio = mic_recorder(
+            start_prompt="🎤  Speak",
+            stop_prompt="⏹️  Stop",
+            just_once=True,
+            use_container_width=True,
+            key="mic",
+        )
+
+    with send_col:
+        send_clicked = st.button("Send →", type="primary", use_container_width=True)
+
+    # Handle new recording
+    if audio:
+        audio_bytes = audio["bytes"]
+        audio_hash = hashlib.md5(audio_bytes).hexdigest()
+        if audio_hash != st.session_state.last_audio_hash:
+            st.session_state.last_audio_hash = audio_hash
+            with st.spinner("Transcribing..."):
+                transcript = _transcribe(audio_bytes)
+            if transcript:
+                st.session_state._pending_draft = transcript
+                st.rerun()
+            else:
+                st.warning("Could not transcribe. Please try again or type your response.")
+
+    # Handle Send
+    if send_clicked:
+        typed = (st.session_state.get("user_draft") or "").strip()
+
+        # Collect checked options (multiple_choice / ranking)
+        selected = []
+        if current_q_msg:
+            answer_mode = current_q_msg.get("answer_mode", "short_text")
+            options = current_q_msg.get("options", [])
+            q_key = current_q_msg.get("question_id", "q")
+            if answer_mode in ("multiple_choice", "ranking"):
+                selected = [
+                    opt["label"]
+                    for i, opt in enumerate(options)
+                    if st.session_state.get(f"mopt_{gen}_{q_key}_{i}")
+                ]
+
+        # Compose final answer
+        parts = []
+        if selected:
+            parts.append("; ".join(selected))
+        if typed:
+            parts.append(typed)
+        answer = ". ".join(parts) if parts else None
+
+        if answer:
+            st.session_state._pending_draft = ""
+            st.session_state.form_generation += 1  # reset option widgets
+            st.session_state.chat.append({"role": "user", "content": answer})
+            st.session_state.waiting = True
+            st.rerun()
