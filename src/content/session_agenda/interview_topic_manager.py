@@ -418,4 +418,6 @@ class InterviewTopicManager(BaseModel):
             manager.add_core_topic(core_topic)
             
         for topic_id in active_topic_id_list_data:
-            manager.
+            manager.add_topic_id_as_active_topic(topic_id)
+
+        return manager

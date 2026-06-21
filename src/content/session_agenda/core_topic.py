@@ -274,4 +274,7 @@ class CoreTopic(BaseModel):
         return cls(
             topic_id=core_topic.topic_id,
             description=core_topic.description,
-            required_subtopic
+            required_subtopics=active_required_subtopics,
+            emergent_subtopics=active_emergent_subtopics,
+            keywords=core_topic.keywords,
+        )
