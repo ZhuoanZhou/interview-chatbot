@@ -100,8 +100,6 @@ QUESTIONS = [
             "Starting from a transcript instead of typing everything from scratch.",
             "Showing the corrected text to another person.",
             "Having the corrected text spoken aloud.",
-            "Getting word suggestions or other help to reduce typing.",
-            "Using shorthand, abbreviations, or first letters to reduce typing.",
             "Is there any feature missing from the system?",
         ],
     },
@@ -118,7 +116,6 @@ QUESTIONS = [
         "id": "B4",
         "main_question": "What concerns would you have about using this with another person in a real conversation?",
         "probes": [
-            "Would the other person wait while you edit?",
             "Would using the system feel natural or awkward?",
             "Would privacy, attention to the screen, or social pressure be a concern?",
             "Would the other person's reaction affect whether you use it?",
@@ -135,15 +132,6 @@ QUESTIONS = [
     },
     {
         "id": "C2",
-        "main_question": "Overall, would something like this be useful for you?",
-        "probes": [
-            "Would it be better than repeating, typing from scratch, or what you currently use?",
-            "Would it only be useful in certain situations or with certain people?",
-            "Would the effort be worth it?",
-        ],
-    },
-    {
-        "id": "C3",
         "main_question": "What would need to change to make this system more useful for you?",
         "probes": [
             "Better transcription accuracy?",
