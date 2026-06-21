@@ -22,6 +22,7 @@ import uuid
 from datetime import datetime
 
 import streamlit as st
+import streamlit.components.v1 as components
 from dotenv import load_dotenv
 from streamlit_mic_recorder import mic_recorder
 
@@ -722,6 +723,34 @@ else:
         placeholder="Type your response here, or click 🎤 Speak to record...",
         label_visibility="collapsed",
     )
+
+    # Enter key sends (Shift+Enter still inserts a newline)
+    components.html("""
+    <script>
+    (function() {
+        function attach() {
+            var ta = window.parent.document.querySelector('textarea[aria-label="response"]');
+            if (!ta || ta._enterBound) return;
+            ta._enterBound = true;
+            ta.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter' && !e.shiftKey) {
+                    e.preventDefault();
+                    var btns = window.parent.document.querySelectorAll('button');
+                    for (var i = 0; i < btns.length; i++) {
+                        if (btns[i].innerText.trim().startsWith('Send')) {
+                            btns[i].click();
+                            break;
+                        }
+                    }
+                }
+            });
+        }
+        attach();
+        var obs = new MutationObserver(attach);
+        obs.observe(window.parent.document.body, { childList: true, subtree: true });
+    })();
+    </script>
+    """, height=0)
 
     # Mic (left-aligned) and Send (right-aligned) below the text area
     mic_col, spacer_col, send_col = st.columns([3, 5, 2])
