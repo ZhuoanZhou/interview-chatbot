@@ -394,6 +394,21 @@ class InterviewSession:
             )
         )
 
+    def inject_message_to_chat_history(self, role: str, content: str, metadata: dict = {}):
+        """Inject a message directly into chat_history without async notification.
+        Safe to call from a non-async context (e.g. the Streamlit main thread)
+        before the session event loop has started."""
+        message = Message(
+            id=str(uuid.uuid4()),
+            type=MessageType.CONVERSATION,
+            role=role,
+            content=content,
+            timestamp=datetime.now(),
+            metadata=metadata,
+        )
+        self.chat_history.append(message)
+        SessionLogger.log_to_file("chat_history", f"{message.role}: {message.content}")
+
     async def run(self):
         """Run the interview session"""
         # Augment session agenda with existing profile if applicable
