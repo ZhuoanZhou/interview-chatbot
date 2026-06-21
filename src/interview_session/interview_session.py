@@ -405,8 +405,9 @@ class InterviewSession:
 
         # In-interview Processing
         try:
-            # Interviewer initiate the conversation (if not in API mode)
-            if self.user is not None:
+            # Interviewer initiate the conversation (skip in API mode —
+            # Streamlit injects FIRST_QUESTION into chat_history directly)
+            if self.user is not None and self.interaction_mode != 'api':
                 await self._interviewer.on_message(None)
 
             # Monitor the session for completion and timeout

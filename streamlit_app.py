@@ -575,12 +575,18 @@ You can skip any question, take a break, or stop at any time."""
         with st.spinner("Starting your session..."):
             session, loop = _create_session(uid)
         FIRST_QUESTION = "When someone does not understand you, what do you usually do?"
+        # Inject the hardcoded first question into the session's chat_history so
+        # the interviewer sees it as already asked when the user responds.
+        session.add_message_to_chat_history(
+            role="Interviewer",
+            content=FIRST_QUESTION,
+            metadata={"subtopic_id": "1.1"},
+        )
         st.session_state.update(
             session=session,
             loop=loop,
             chat=[{"role": "assistant", "content": FIRST_QUESTION}],
             waiting=False,
-            skip_first_bot_msg=True,
             phase="active",
         )
         st.rerun()
