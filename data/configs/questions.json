@@ -1,0 +1,33 @@
+[
+  {
+    "main_question": "What's your overall first reaction to the prototype in the demo video—positive, mixed, or negative?",
+    "probes": [
+      "What specific element stood out most—positive or negative?",
+      "Was there anything that surprised you?"
+    ]
+  },
+  {
+    "main_question": "Let's go through the individual features. Starting with the speech-to-text—how did you feel about it?",
+    "probes": [
+      "Did it seem accurate enough to be useful?",
+      "Would accuracy errors frustrate you, or is the editing easy enough to compensate?",
+      "How about the editing itself—does tapping words to correct them feel natural?",
+      "Re-transcribing a word after you edit it—did that make sense to you?",
+      "The text-to-speech with a cloned voice—what was your reaction to that?",
+      "The idea that the system improves its accuracy over time—how important is that to you?"
+    ]
+  },
+  {
+    "main_question": "Can you picture situations where you would or wouldn't use something like this?",
+    "probes": [
+      "Does this change how you'd handle a communication breakdown compared to what you do now?",
+      "How likely would you be to actually use this in daily life?"
+    ]
+  },
+  {
+    "main_question": "What's the single most important thing you'd want improved or changed?",
+    "probes": [
+      "Is there anything important we haven't touched on yet?"
+    ]
+  }
+]

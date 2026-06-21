@@ -33,7 +33,7 @@ load_dotenv(override=True)
 os.environ.setdefault("LOGS_DIR", "logs")
 os.environ.setdefault("DATA_DIR", "data")
 os.environ.setdefault("USER_AGENT_PROFILES_DIR", "data/sample_user_profiles")
-os.environ.setdefault("INTERVIEW_PLAN_PATH", "data/configs/topics.json")
+os.environ.setdefault("INTERVIEW_PLAN_PATH", "data/configs/questions.json")
 os.environ.setdefault("MODEL_NAME", "gpt-5-nano")
 os.environ.setdefault("AGENDA_MANAGER_MODEL_NAME", "gpt-5-nano")
 os.environ.setdefault("EXPLORATION_PLANNER_MODEL_NAME", "gpt-5-nano")
@@ -395,8 +395,8 @@ def _create_session(user_id, previous_chat=None):
         interaction_mode="api",
         user_config={"user_id": user_id},
         interview_config={
-            "interview_description": "Formative study exploring reactions to a demo video of a prototype for people with dysarthria. The system uses speech transcription as a starting point and allows the person to edit or correct the text when needed, so that the intended meaning can be repaired and shared with a communication partner.",
-            "interview_plan_path": os.getenv("INTERVIEW_PLAN_PATH", "data/configs/topics.json"),
+            "interview_description": "Formative study exploring reactions to a demo video of a prototype for people with dysarthria. The system uses speech transcription as a starting point and allows the person to edit or correct the text when needed, so that the intended meaning can be repaired and shared with a communication partner. During the interview, participants will first answer a few brief questions about their current communication experiences and repair strategies. Then, they will watch a short demo video of the prototype and share their reactions to the idea, including what seems useful, difficult, unrealistic, or missing. Participants will not be asked to try the prototype directly in this interview. The goal is not to evaluate the participant or test their abilities, but to understand whether this kind of transcription-plus-editing approach could be helpful in real-life communication and what design changes may make it more usable, accessible, and practical.",
+            "interview_plan_path": os.getenv("INTERVIEW_PLAN_PATH", "data/configs/questions.json"),
             "interview_evaluation": os.getenv("COMPLETION_METRIC", "minimum_threshold"),
         },
     )
@@ -763,26 +763,4 @@ else:
         audio_hash = hashlib.md5(audio_bytes).hexdigest()
         if audio_hash != st.session_state.last_audio_hash:
             st.session_state.last_audio_hash = audio_hash
-            with st.spinner("Transcribing..."):
-                transcript = _transcribe(audio_bytes)
-            if transcript:
-                st.session_state._pending_draft = transcript
-                st.rerun()
-            else:
-                st.warning("Could not transcribe. Please try again or type your response.")
-
-    if send_clicked:
-        prompt = (st.session_state.get("user_draft") or "").strip()
-        if prompt:
-            st.session_state._pending_draft = ""   # clear box on next run
-            st.session_state.chat.append({"role": "user", "content": prompt})
-
-            async def _submit(text=prompt):
-                session.user.add_user_message(text)
-
-            asyncio.run_coroutine_threadsafe(
-                _submit(), st.session_state.loop
-            ).result(timeout=10)
-
-            st.session_state.waiting = True
-            st.rerun()
+            with st.spinner("Transcri
