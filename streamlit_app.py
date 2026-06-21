@@ -931,24 +931,8 @@ else:
         send_clicked = st.button("Send →", type="primary", use_container_width=True)
 
     if send_clicked:
-        # Session state fallback in case widget return value is empty
         typed_text = (typed or st.session_state.get(draft_key) or "").strip()
 
-    elif audio:
-        # Only process audio if Send was not clicked in this same rerun
-        audio_bytes = audio["bytes"]
-        audio_hash = hashlib.md5(audio_bytes).hexdigest()
-        if audio_hash != st.session_state.last_audio_hash:
-            st.session_state.last_audio_hash = audio_hash
-            with st.spinner("Transcribing..."):
-                transcript = _transcribe(audio_bytes)
-            if transcript:
-                st.session_state._prefill = transcript
-                st.rerun()
-            else:
-                st.warning("Could not transcribe. Please try again or type your response.")
-
-        # Collect multiple-choice checkboxes
         selected = []
         if answer_mode in ("multiple_choice", "ranking"):
             selected = [
@@ -967,3 +951,20 @@ else:
         if answer:
             st.session_state.form_generation += 1
             st.session_state.chat.append({"role": "user", "content": answer})
+            st.session_state.waiting = True
+            st.rerun()
+        else:
+            st.warning("Please type a response or choose an option before sending.")
+
+    elif audio:
+        audio_bytes = audio["bytes"]
+        audio_hash = hashlib.md5(audio_bytes).hexdigest()
+        if audio_hash != st.session_state.last_audio_hash:
+            st.session_state.last_audio_hash = audio_hash
+            with st.spinner("Transcribing..."):
+                transcript = _transcribe(audio_bytes)
+            if transcript:
+                st.session_state._prefill = transcript
+                st.rerun()
+            else:
+                st.warning("Could not transcribe. Please try again or type your response.")
