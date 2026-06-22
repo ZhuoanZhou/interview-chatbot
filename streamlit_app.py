@@ -757,6 +757,13 @@ div[data-testid="stButton"] button[kind="primary"] {
     height: 100px !important; min-height: 100px !important;
     width: 100% !important;
 }
+/* Option grid cards */
+div[data-testid="stColumn"] div[data-testid="stButton"] button[kind="secondary"] {
+    min-height: 90px !important; height: auto !important;
+    white-space: normal !important; word-break: break-word !important;
+    border-radius: 12px !important; font-size: 1rem !important;
+    width: 100% !important;
+}
 </style>
 """, unsafe_allow_html=True)
 
@@ -946,19 +953,21 @@ else:
 
     if options:
         if answer_mode in ("multiple_choice", "ranking"):
-            # Toggle buttons — clicking selects/deselects; state collected at Send time
+            # 4-column grid of toggle cards — clicking selects/deselects
             st.markdown("**Choose all that apply:**")
+            grid_cols = st.columns(4)
             for i, opt in enumerate(options):
                 sel_key = f"mopt_{gen}_{q_key}_{i}"
                 if sel_key not in st.session_state:
                     st.session_state[sel_key] = False
                 is_sel = st.session_state[sel_key]
                 label = f"✓  {opt['label']}" if is_sel else opt["label"]
-                if st.button(label, key=f"mbtn_{gen}_{q_key}_{i}",
-                             type="primary" if is_sel else "secondary",
-                             use_container_width=True):
-                    st.session_state[sel_key] = not is_sel
-                    st.rerun()
+                with grid_cols[i % 4]:
+                    if st.button(label, key=f"mbtn_{gen}_{q_key}_{i}",
+                                 type="primary" if is_sel else "secondary",
+                                 use_container_width=True):
+                        st.session_state[sel_key] = not is_sel
+                        st.rerun()
 
         elif answer_mode == "yes_no_plus_optional_text":
             # Click pre-fills text area; participant can add details before sending
