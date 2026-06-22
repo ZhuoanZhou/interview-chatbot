@@ -1,1 +1,19 @@
-<!doctype html><html lang="en"><head><title>Streamlit Component</title><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Streamlit Component"/><link rel="stylesheet" href="bootstrap.min.css"/><script defer="defer" src="./static/js/main.010058c4.js"></script><link href="./static/css/main.27af0a20.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!doctype html><html lang="en"><head><title>Streamlit Component</title><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Streamlit Component"/><link rel="stylesheet" href="bootstrap.min.css"/><script defer="defer" src="./static/js/main.010058c4.js"></script><link href="./static/css/main.27af0a20.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div>
+<script>
+// Force the button to fill the full 100px and tell Streamlit the iframe is 100px tall
+function fixMicBtn() {
+    var btn = document.querySelector('.myButton');
+    if (btn) {
+        btn.style.height = '100px';
+        btn.style.width = '100%';
+        btn.style.boxSizing = 'border-box';
+        btn.style.fontSize = '1.1rem';
+    }
+    window.parent.postMessage({type: 'streamlit:setFrameHeight', height: 100}, '*');
+}
+window.addEventListener('load', function() {
+    fixMicBtn();
+    setInterval(fixMicBtn, 300);
+});
+</script>
+</body></html>
