@@ -20,11 +20,40 @@ import threading
 import uuid
 from datetime import datetime
 
+import base64
+
 import streamlit as st
 import streamlit.components.v1 as components
 from dotenv import load_dotenv
 from openai import OpenAI
-from streamlit_mic_recorder import mic_recorder
+
+# Custom mic recorder using local frontend so we can control button sizing
+_MIC_FRONTEND = os.path.join(os.path.dirname(os.path.abspath(__file__)), "mic_frontend")
+_mic_component = components.declare_component("streamlit_mic_recorder", path=_MIC_FRONTEND)
+
+def mic_recorder(start_prompt="🎤 Speak", stop_prompt="⏹️ Stop",
+                 just_once=True, use_container_width=True, key=None):
+    """Thin wrapper around the custom mic frontend. Returns same dict as the original package."""
+    if "_mic_last_id" not in st.session_state:
+        st.session_state._mic_last_id = 0
+    val = _mic_component(
+        start_prompt=start_prompt, stop_prompt=stop_prompt,
+        use_container_width=use_container_width, format="webm",
+        key=key, default=None,
+    )
+    if val is None:
+        return None
+    mid = val["id"]
+    if just_once and mid <= st.session_state._mic_last_id:
+        return None
+    st.session_state._mic_last_id = mid
+    return {
+        "bytes": base64.b64decode(val["audio_base64"]),
+        "sample_rate": val["sample_rate"],
+        "sample_width": val["sample_width"],
+        "format": val["format"],
+        "id": mid,
+    }
 
 load_dotenv(override=True)
 
@@ -982,28 +1011,6 @@ else:
         }
         attach();
         new MutationObserver(attach).observe(window.parent.document.body, {childList:true, subtree:true});
-
-        // Inject CSS into mic-recorder iframe to make its button fill the full 100px height
-        function resizeMicBtn() {
-            var iframes = window.parent.document.querySelectorAll('[data-testid="stColumn"] iframe');
-            iframes.forEach(function(iframe) {
-                if (iframe._micStyled) return;
-                try {
-                    var d = iframe.contentDocument || iframe.contentWindow.document;
-                    if (!d || !d.head) return;
-                    var style = d.createElement('style');
-                    style.textContent =
-                        'html, body { margin: 0 !important; padding: 0 !important; ' +
-                        '  height: 100px !important; overflow: hidden !important; }' +
-                        'button { width: 100% !important; height: 100px !important; ' +
-                        '  box-sizing: border-box !important; border-radius: 8px !important; ' +
-                        '  font-size: 1.1rem !important; cursor: pointer !important; }';
-                    d.head.appendChild(style);
-                    iframe._micStyled = true;
-                } catch(e) {}
-            });
-        }
-        setInterval(resizeMicBtn, 300);
     })();
     </script>
     """, height=0)
