@@ -946,10 +946,19 @@ else:
 
     if options:
         if answer_mode in ("multiple_choice", "ranking"):
-            # Check boxes — collected at Send time
+            # Toggle buttons — clicking selects/deselects; state collected at Send time
             st.markdown("**Choose all that apply:**")
             for i, opt in enumerate(options):
-                st.checkbox(opt["label"], key=f"mopt_{gen}_{q_key}_{i}")
+                sel_key = f"mopt_{gen}_{q_key}_{i}"
+                if sel_key not in st.session_state:
+                    st.session_state[sel_key] = False
+                is_sel = st.session_state[sel_key]
+                label = f"✓  {opt['label']}" if is_sel else opt["label"]
+                if st.button(label, key=f"mbtn_{gen}_{q_key}_{i}",
+                             type="primary" if is_sel else "secondary",
+                             use_container_width=True):
+                    st.session_state[sel_key] = not is_sel
+                    st.rerun()
 
         elif answer_mode == "yes_no_plus_optional_text":
             # Click pre-fills text area; participant can add details before sending
