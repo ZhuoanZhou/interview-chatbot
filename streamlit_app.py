@@ -102,8 +102,6 @@ QUESTIONS = [
             "Starting from a transcript instead of typing everything from scratch.",
             "Showing the corrected text to another person.",
             "Having the corrected text spoken aloud.",
-            "Getting word suggestions or other help to reduce typing.",
-            "Using shorthand, abbreviations, or first letters to reduce typing.",
             "Is there any feature missing from the system?",
         ],
     },
