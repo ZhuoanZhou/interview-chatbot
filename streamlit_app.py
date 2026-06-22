@@ -805,7 +805,7 @@ with st.sidebar:
 
 st.markdown("""
 <style>
-html, body, [class*="css"], .stMarkdown, .stChatMessage { font-size: 18px !important; }
+html, body, [class*="css"], .stMarkdown, .stChatMessage { font-size: 22px !important; }
 div[data-testid="stChatMessage"] p { font-size: 1.05rem !important; line-height: 1.7 !important; }
 div[data-testid="stTextArea"] textarea {
     min-height: 80px !important; font-size: 1.1rem !important;
