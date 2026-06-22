@@ -718,10 +718,13 @@ div[data-testid="stTextArea"] textarea {
     padding: 14px 18px !important; resize: none !important;
 }
 div[data-testid="stButton"] button[kind="primary"] {
-    font-size: 1rem !important; height: 52px !important;
+    font-size: 1rem !important; height: 100px !important;
     border-radius: 8px !important; width: 100% !important;
 }
-[data-testid="stColumn"]:first-child iframe { height: 52px !important; min-height: 52px !important; }
+[data-testid="stColumn"]:first-child iframe {
+    height: 100px !important; min-height: 100px !important;
+    width: 100px !important; max-width: 100px !important;
+}
 </style>
 """, unsafe_allow_html=True)
 
