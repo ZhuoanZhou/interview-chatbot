@@ -718,8 +718,11 @@ div[data-testid="stTextArea"] textarea {
     padding: 14px 18px !important; resize: none !important;
 }
 div[data-testid="stButton"] button[kind="primary"] {
-    font-size: 1rem !important; height: 100px !important;
+    font-size: 1rem !important;
     border-radius: 8px !important; width: 100% !important;
+}
+[data-testid="stColumn"] div[data-testid="stButton"] button[kind="primary"] {
+    height: 100px !important;
 }
 [data-testid="stColumn"]:first-child iframe {
     height: 100px !important; min-height: 100px !important;
