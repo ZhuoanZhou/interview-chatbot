@@ -946,42 +946,10 @@ else:
     if "_prefill" in st.session_state:
         st.session_state[draft_key] = st.session_state.pop("_prefill")
 
-    # ── Interactive options ───────────────────────────────────────────────────
+    # ── Interactive options (metadata only — rendered below input row) ──────────
     answer_mode = current_q_msg.get("answer_mode", "multiple_choice") if current_q_msg else "multiple_choice"
     options = current_q_msg.get("options", []) if current_q_msg else []
     q_key = current_q_msg.get("question_id", "q") if current_q_msg else "q"
-
-    if options:
-        if answer_mode in ("multiple_choice", "ranking"):
-            # 4-column grid of toggle cards — clicking selects/deselects
-            st.markdown("**Choose all that apply:**")
-            grid_cols = st.columns(4)
-            _opt_toggled = False
-            for i, opt in enumerate(options):
-                sel_key = f"mopt_{gen}_{q_key}_{i}"
-                if sel_key not in st.session_state:
-                    st.session_state[sel_key] = False
-                is_sel = st.session_state[sel_key]
-                label = f"✓  {opt['label']}" if is_sel else opt["label"]
-                with grid_cols[i % 4]:
-                    if st.button(label, key=f"mbtn_{gen}_{q_key}_{i}",
-                                 type="primary" if is_sel else "secondary",
-                                 use_container_width=True):
-                        st.session_state[sel_key] = not is_sel
-                        _opt_toggled = True
-            if _opt_toggled:
-                st.rerun()
-
-        elif answer_mode == "yes_no_plus_optional_text":
-            # Click pre-fills text area; participant can add details before sending
-            st.markdown("**Choose one (you can add details below):**")
-            n_cols = min(3, len(options))
-            cols = st.columns(n_cols)
-            for i, opt in enumerate(options):
-                with cols[i % n_cols]:
-                    if st.button(opt["label"], key=f"ynopt_{gen}_{q_key}_{i}",
-                                 use_container_width=True):
-                        st.session_state[draft_key] = opt["label"]
 
     # ── Speak | Text area | Send ──────────────────────────────────────────────
     mic_col, text_col, send_col = st.columns([1, 9, 2])
@@ -1032,6 +1000,46 @@ else:
     })();
     </script>
     """, height=0)
+
+    # ── Suggested answers (hidden until toggled) ──────────────────────────────
+    if options:
+        show_key = f"show_opts_{gen}_{q_key}"
+        if show_key not in st.session_state:
+            st.session_state[show_key] = False
+
+        if not st.session_state[show_key]:
+            if st.button("💡 Show suggested answers", key=f"show_opts_btn_{gen}_{q_key}"):
+                st.session_state[show_key] = True
+                st.rerun()
+        else:
+            if answer_mode in ("multiple_choice", "ranking"):
+                st.markdown("**Choose all that apply:**")
+                grid_cols = st.columns(4)
+                _opt_toggled = False
+                for i, opt in enumerate(options):
+                    sel_key = f"mopt_{gen}_{q_key}_{i}"
+                    if sel_key not in st.session_state:
+                        st.session_state[sel_key] = False
+                    is_sel = st.session_state[sel_key]
+                    label = f"✓  {opt['label']}" if is_sel else opt["label"]
+                    with grid_cols[i % 4]:
+                        if st.button(label, key=f"mbtn_{gen}_{q_key}_{i}",
+                                     type="primary" if is_sel else "secondary",
+                                     use_container_width=True):
+                            st.session_state[sel_key] = not is_sel
+                            _opt_toggled = True
+                if _opt_toggled:
+                    st.rerun()
+
+            elif answer_mode == "yes_no_plus_optional_text":
+                st.markdown("**Choose one (you can add details below):**")
+                n_cols = min(3, len(options))
+                cols = st.columns(n_cols)
+                for i, opt in enumerate(options):
+                    with cols[i % n_cols]:
+                        if st.button(opt["label"], key=f"ynopt_{gen}_{q_key}_{i}",
+                                     use_container_width=True):
+                            st.session_state[draft_key] = opt["label"]
 
     if send_clicked:
         typed_text = (typed or st.session_state.get(draft_key) or "").strip()
