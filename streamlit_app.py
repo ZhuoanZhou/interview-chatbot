@@ -146,6 +146,125 @@ QUESTIONS = [
     },
 ]
 
+QUESTIONS = [
+    {
+        "id": "A1",
+        "main_question": "When someone does not understand you, what do you usually do?",
+        "options": ["Repeat myself", "Rephrase what I said", "Type", "Write it down", "Use my AAC device", "Use gestures", "Other / type your answer", "Skip"],
+        "probes": [
+            {
+                "text": "Does your strategy depend on the person, situation, or importance of the message?",
+                "options": ["Who I'm talking to", "The situation I'm in", "How important the message is", "All of these", "None of these", "Other / type your answer", "Skip"]
+            },
+            {
+                "text": "Are there times when you decide not to keep trying?",
+                "options": ["Yes, I give up sometimes", "No, I always keep trying", "Depends on the situation", "Other / type your answer", "Skip"]
+            }
+        ],
+    },
+    {
+        "id": "A2",
+        "main_question": "What makes communication repair difficult or tiring for you?",
+        "options": ["The effort of speaking again", "The effort of typing", "It takes too much time", "It feels frustrating", "It causes stress", "Other / type your answer", "Skip"],
+        "probes": [
+            {
+                "text": "Is the hard part speech effort, typing effort, time, frustration, stress, or something else?",
+                "options": ["Speaking again takes effort", "Typing takes effort", "It takes too long", "I get frustrated", "It causes stress", "Other / type your answer", "Skip"]
+            },
+            {
+                "text": "Are there situations where repair feels too slow or too much work?",
+                "options": ["Yes, often", "Yes, sometimes", "No, not usually", "Other / type your answer", "Skip"]
+            },
+            {
+                "text": "What currently helps reduce the effort?",
+                "options": ["Typing instead of speaking", "Using my AAC device", "Using pre-made phrases", "Using gestures", "Nothing really helps", "Other / type your answer", "Skip"]
+            }
+        ],
+    },
+    {
+        "id": "B1",
+        "main_question": "What is your first reaction to this idea after seeing the demo?",
+        "options": ["Positive — I like it", "Neutral — not sure yet", "Negative — I don't think it would help", "Mixed feelings", "Other / type your answer", "Skip"],
+        "probes": [
+            {
+                "text": "Could you imagine yourself using something like this?",
+                "options": ["Yes, I can imagine using it", "No, I don't think I would", "Maybe, depending on the situation", "Other / type your answer", "Skip"]
+            }
+        ],
+    },
+    {
+        "id": "B2",
+        "main_question": "Which parts of the system seem useful?",
+        "options": ["Seeing a transcript of what I said", "Being able to edit the transcript", "Correcting one word and re-transcribing the rest", "Starting from a transcript instead of typing everything", "Showing the corrected text to another person", "Having the corrected text spoken aloud", "Other / type your answer", "Skip"],
+        "probes": [
+            {
+                "text": "Is there any feature missing from the system?",
+                "options": ["Yes, I can think of something", "No, it seems complete", "I'm not sure", "Other / type your answer", "Skip"]
+            }
+        ],
+    },
+    {
+        "id": "B3",
+        "main_question": "In what situations would you want to use something like this?",
+        "options": ["Talking to strangers", "Medical appointments", "Ordering food or shopping", "At work or school", "Talking with familiar people", "Important or urgent messages", "Other / type your answer", "Skip"],
+        "probes": [
+            {
+                "text": "Would it fit better for short or longer conversations?",
+                "options": ["Short conversations", "Longer conversations", "Both", "Neither", "Other / type your answer", "Skip"]
+            },
+            {
+                "text": "Are there situations where this system would feel too slow, awkward, tiring, or unnecessary?",
+                "options": ["Yes, in some situations", "No, I think it would always help", "I'm not sure", "Other / type your answer", "Skip"]
+            }
+        ],
+    },
+    {
+        "id": "B4",
+        "main_question": "What concerns would you have about using this with another person in a real conversation?",
+        "options": ["It might feel awkward", "Privacy of the transcript", "The other person might not wait", "I'd have to look at the screen a lot", "The other person might react negatively", "I don't have major concerns", "Other / type your answer", "Skip"],
+        "probes": [
+            {
+                "text": "Would using the system feel natural or awkward?",
+                "options": ["Natural", "Somewhat awkward", "Very awkward", "Depends on the situation", "Other / type your answer", "Skip"]
+            },
+            {
+                "text": "Would the other person's reaction affect whether you use it?",
+                "options": ["Yes, a lot", "Yes, a little", "No, not really", "Other / type your answer", "Skip"]
+            }
+        ],
+    },
+    {
+        "id": "C1",
+        "main_question": "When would the transcript be good enough to share with another person?",
+        "options": ["When it is almost perfect", "When the main meaning is clear", "When the key words are correct", "It depends on the situation", "Other / type your answer", "Skip"],
+        "probes": [
+            {
+                "text": "What kinds of mistakes would matter most?",
+                "options": ["Wrong words that change meaning", "Missing important words", "Wrong names or places", "Unclear or confusing sentences", "Other / type your answer", "Skip"]
+            },
+            {
+                "text": "Are there mistakes you would be willing to leave unchanged?",
+                "options": ["Yes, minor ones", "No, I'd fix everything", "Depends on the situation", "Other / type your answer", "Skip"]
+            }
+        ],
+    },
+    {
+        "id": "C2",
+        "main_question": "What would need to change to make this system more useful for you?",
+        "options": ["Better transcription accuracy", "Less typing required", "Easier editing", "Word or phrase suggestions", "Support for shorthand or abbreviations", "A better way to show or speak the message", "Other / type your answer", "Skip"],
+        "probes": [
+            {
+                "text": "Would highlighting important mistakes help?",
+                "options": ["Yes, that would help a lot", "Yes, a little", "No, not really", "Other / type your answer", "Skip"]
+            },
+            {
+                "text": "Would an easier repeat or re-record option help?",
+                "options": ["Yes, that would help a lot", "Yes, a little", "No, not really", "Other / type your answer", "Skip"]
+            }
+        ],
+    },
+]
+
 B1_INDEX = 2  # demo video shown when current_question_index first reaches this value
 
 CLOSING_MESSAGE = (
@@ -169,9 +288,12 @@ You receive a decision from the Interview State Manager. Follow it exactly. Do n
 Participant context: The participants have dysarthric speech — a condition that makes their speech difficult for others to understand. In this interview, they are the SPEAKER whose speech is being misunderstood. When generating options for questions like "what do you do when someone doesn't understand you?", options must reflect what a speaker with dysarthria would do (e.g., repeat, rephrase, type, write it down, use AAC, gesture). Always think from the participant's perspective as the speaker.
 
 How to use the Decision Maker output:
-- MOVE_NEXT: ask the `current_main_question` shown in the prompt. It has already been selected for you — do not skip ahead to the one after it. Ignore `pending_branches` in the decision output — it is for the Decision Maker's internal tracking only.
-- FOLLOW_UP: do NOT repeat or rephrase the main question. Instead, write a new question focused on the `target_information_gap` from the decision. The question must be clearly different from what was already asked. Look at the chat history to see what the participant already said, and build on it. Do not ask questions like "which one do you use most?", "which single one is most tiring for you?", or "which one is most important?" — these are not research questions and are not in the interview guide.
-  - Options for a FOLLOW_UP must be fresh -- they must fit the follow-up topic, not recycle options already shown or already answered.
+- MOVE_NEXT: ask the `current_main_question` shown in the prompt. It has already been selected for you — do not skip ahead to the one after it. Ignore `pending_branches` in the decision output — it is for the Decision Maker's internal tracking only. Use the options listed in `current_options` exactly as given.
+- FOLLOW_UP:
+  - Write a new question focused on the `target_information_gap` from the decision.
+- If `current_probe_options` is not "(none)", use those options exactly as given. Otherwise generate your own — options must be fresh, fit the follow-up topic, and not recycle options already shown or already answered.
+  - The question must be clearly different from what was already asked. Look at the chat history and build on what the participant said.
+  - Do not ask ranking questions like "which one do you use most?" or "which is most important?" — these are not research questions.
   - It is acceptable to briefly acknowledge what the participant said (e.g. "You mentioned using several strategies.") before the follow-up question.
 - CLARIFY: ask a short clarifying question about the unclear part of the participant's last answer.
 - REDUCE_BURDEN: shorten the question and offer fewer options.
@@ -206,6 +328,12 @@ _QG_USER_TEMPLATE = """\
 
 # Current main question:
 {current_main_question}
+
+# Current main question options:
+{current_options}
+
+# Current probe options (for FOLLOW_UP only):
+{current_probe_options}
 
 # Optional probes for the current question:
 {current_probes}
@@ -264,9 +392,11 @@ Decision rules:
 5. One small gap at a time. `target_information_gap` must describe exactly one thing to find out -- a single, atomic question. Never combine "find out X" with "get an example of X" or "also find out Y" in the same gap. If you need an example after a factual question, that becomes a separate follow-up turn once the factual question is answered.
 6. Move on when the current branch has enough detail.
 7. Accept multiple selections on a narrowing question. If the previous turn asked the participant to identify a single most-used or most-important item, and the participant responded by selecting multiple options, treat that as a valid answer and MOVE_NEXT. Do not ask the same narrowing question again.
-8. When generating a FOLLOW_UP, first look at the optional probes for the current question. If one is relevant to what the participant said, use it as the basis for target_information_gap, preserving its meaning exactly. Do not ask the participant to rank or narrow their selections down to one. Multiple selections are valid research data — the goal is to understand what factors matter to the participant, not which one matters most. Also, avoid multiple questions at the same time like "Describe a specific situation in which speech effort made communication repair more difficult. What happened, who was involved, and what was the outcome?" One question at a time.
-9. Optional probes cannot be revisited once the interview moves to the next main question. If a probe is relevant to what the participant said, explore it now before choosing MOVE_NEXT. Once a probe is answered, treat it as done — do not create sub-branches from the probe's content.
-10. Decision options:
+8. When generating a FOLLOW_UP, first look at the optional probes for the current question. If one is relevant to what the participant said, use it as the basis for target_information_gap, preserving its meaning exactly.
+9. Do not ask the participant to rank or narrow their selections down to one. Multiple selections are valid research data — the goal is to understand what factors matter to the participant, not which one matters most. Also, avoid multiple questions at the same time like "Describe a specific situation in which speech effort made communication repair more difficult. What happened, who was involved, and what was the outcome?" One question at a time.
+10. When your FOLLOW_UP is based on a probe, set `probe_index` to the integer index of that probe (e.g. 0 for the first probe). If the FOLLOW_UP is not based on any probe, set `probe_index` to null.
+11. Optional probes cannot be revisited once the interview moves to the next main question. If a probe is relevant to what the participant said, explore it now before choosing MOVE_NEXT. Once a probe is answered, treat it as done — do not create sub-branches from the probe's content.
+12. Decision options:
    - If current_subtopic_status is sufficiently_covered, you must choose MOVE_NEXT. Do not choose FOLLOW_UP on a sufficiently covered topic.
    - MOVE_NEXT: enough information for current subtopic.
    - FOLLOW_UP: one important detail missing.
@@ -282,6 +412,9 @@ _DM_USER_TEMPLATE = """\
 
 # Current main question:
 {current_main_question}
+
+# Current main question options:
+{current_options}
 
 # Optional probes for the current question:
 {current_probes}
@@ -301,10 +434,11 @@ Return JSON in this format:
   "current_subtopic_status": "not_started | partially_covered | sufficiently_covered | skipped",
   "subtopic_type": "event_based | descriptive",
   "decision": "FOLLOW_UP | MOVE_NEXT | CLARIFY | REDUCE_BURDEN | END_INTERVIEW",
+  "probe_index": null,
   "active_branch": {{
     "branch_label": "...",
     "branch_context": "...",
-    "branch_status": "needs_story"
+    "branch_status": "partially_covered"
   }},
   "pending_branches": [
     {{
@@ -386,7 +520,31 @@ def _format_chat_for_prompt(chat):
 def _get_probes_str(q_idx):
     if q_idx < len(QUESTIONS):
         probes = QUESTIONS[q_idx].get("probes", [])
-        return "\n".join(f"- {p}" for p in probes) if probes else "(none)"
+        lines = []
+        for i, p in enumerate(probes):
+            text = p["text"] if isinstance(p, dict) else p
+            lines.append(f"- [index {i}] {text}")
+        return "\n".join(lines) if lines else "(none)"
+    return "(none)"
+
+
+def _get_options_str(q_idx):
+    if q_idx < len(QUESTIONS):
+        options = QUESTIONS[q_idx].get("options", [])
+        return "\n".join(f"- {o}" for o in options) if options else "(none)"
+    return "(none)"
+
+
+def _get_probe_options_str(q_idx, probe_index):
+    if probe_index is None:
+        return "(none)"
+    if q_idx < len(QUESTIONS):
+        probes = QUESTIONS[q_idx].get("probes", [])
+        if isinstance(probe_index, int) and probe_index < len(probes):
+            p = probes[probe_index]
+            if isinstance(p, dict):
+                opts = p.get("options", [])
+                return "\n".join(f"- {o}" for o in opts) if opts else "(none)"
     return "(none)"
 
 
@@ -395,12 +553,17 @@ def run_agent_turn(skip_dm=False):
     chat_str = _format_chat_for_prompt(st.session_state.chat)
     current_q = QUESTIONS[q_idx]["main_question"] if q_idx < len(QUESTIONS) else ""
     current_probes = _get_probes_str(q_idx)
+    current_options = _get_options_str(q_idx)
 
     decision = None
+    current_probe_options = "(none)"
     if not skip_dm:
-        decision = _run_decision_maker(chat_str, current_q, current_probes)
+        decision = _run_decision_maker(chat_str, current_q, current_probes, current_options)
         action = decision.get("decision", "FOLLOW_UP")
-        if action == "MOVE_NEXT":
+        if action == "FOLLOW_UP":
+            probe_index = decision.get("probe_index")
+            current_probe_options = _get_probe_options_str(q_idx, probe_index)
+        elif action == "MOVE_NEXT":
             q_idx += 1
             st.session_state.current_question_index = q_idx
             if q_idx >= len(QUESTIONS):
@@ -408,6 +571,7 @@ def run_agent_turn(skip_dm=False):
                 return False, None
             current_q = QUESTIONS[q_idx]["main_question"]
             current_probes = _get_probes_str(q_idx)
+            current_options = _get_options_str(q_idx)
         elif action == "END_INTERVIEW":
             st.session_state.interview_ended = True
             return False, None
@@ -420,22 +584,23 @@ def run_agent_turn(skip_dm=False):
         st.session_state.interview_ended = True
         return show_video, None
 
-    result = _run_question_generator(chat_str, current_q, decision, current_probes)
+    result = _run_question_generator(chat_str, current_q, decision, current_probes, current_options, current_probe_options)
     result["question_id"] = QUESTIONS[q_idx]["id"]
     return show_video, result
 
 
-def _run_decision_maker(chat_str, current_main_question, current_probes):
+def _run_decision_maker(chat_str, current_main_question, current_probes, current_options):
     user_prompt = _DM_USER_TEMPLATE.format(
         interview_guide=INTERVIEW_GUIDE,
         chat_history=chat_str,
         current_main_question=current_main_question,
+        current_options=current_options,
         current_probes=current_probes,
     )
     return _call_llm_json(_DM_SYSTEM, user_prompt, label="decision_maker")
 
 
-def _run_question_generator(chat_str, current_main_question, decision, current_probes):
+def _run_question_generator(chat_str, current_main_question, decision, current_probes, current_options, current_probe_options):
     decision_str = (
         json.dumps(decision, indent=2) if decision
         else "None -- this is the opening question. Generate the first question for this topic."
@@ -444,6 +609,8 @@ def _run_question_generator(chat_str, current_main_question, decision, current_p
         interview_guide=INTERVIEW_GUIDE,
         chat_history=chat_str,
         current_main_question=current_main_question,
+        current_options=current_options,
+        current_probe_options=current_probe_options,
         current_probes=current_probes,
         decision=decision_str,
     )
