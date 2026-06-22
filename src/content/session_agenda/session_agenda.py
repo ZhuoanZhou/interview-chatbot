@@ -338,7 +338,7 @@ class SessionAgenda:
         return lines
 
     def get_questions_and_notes_str(self, hide_answered: str = "", active_topics_only: bool = True) -> str:
-        """Returns a hierarchical, structured string for topics, subtopics, and questions."""
+        """Returns a structured string of interview questions with probe suggestions and notes."""
         if hide_answered not in ["", "a", "qa", "all"]:
             raise ValueError('hide_answered must be "", "a", "qa", or "all"')
 
@@ -349,58 +349,54 @@ class SessionAgenda:
             topics_list = self.interview_topic_manager.get_active_topics()
 
         for topic in topics_list:
-            output.append("=== TOPIC ===")
-            output.append(f"Topic ID: {topic.topic_id}")
-            output.append(f"Topic Description: {topic.description}\n")
-
             for subtopic in topic:
-                output.append("    --- SUBTOPIC ---")
-                output.append(f"    Subtopic ID: {subtopic.subtopic_id}")
-                output.append(f"    Subtopic Description: {subtopic.description}")
-                # TODO I think if it's covered, can give the summary of subtopics; otherwise just notes
+                output.append("=== QUESTION ===")
+                output.append(f"Question ID: {subtopic.subtopic_id}")
+                output.append(f"Main Question: {subtopic.description}")
+
                 if subtopic.check_coverage():
-                    output.append(f"    Subtopic Status: COVERED")
-                    output.append(f"    [Subtopic SUMMARY]: {subtopic.get_final_summary()}")
+                    output.append(f"Status: COVERED")
+                    output.append(f"[Summary]: {subtopic.get_final_summary()}")
                 else:
-                    output.append(f"    Subtopic Status: NOT COVERED")
-                    notes_str = "\n         -".join(subtopic.notes) if subtopic.notes else ""
-                    output.append(f"    [Subtopic NOTES]: {notes_str}")
+                    output.append(f"Status: NOT COVERED")
+                    if subtopic.probes:
+                        probes_str = "\n  - ".join(subtopic.probes)
+                        output.append(f"Probe Suggestions:\n  - {probes_str}")
+                    notes_str = "\n  - ".join(subtopic.notes) if subtopic.notes else ""
+                    if notes_str:
+                        output.append(f"[Notes]:\n  - {notes_str}")
                     emergent_insights_str = (
-                        "\n         - ".join(insight.description for insight in subtopic.emergent_insights)
+                        "\n  - ".join(insight.description for insight in subtopic.emergent_insights)
                         if subtopic.emergent_insights else ""
                     )
-                    output.append(f"    [Subtopic Emergent Insights Observed So Far]: {emergent_insights_str}")
-                    if len(subtopic.get_coverage_feedback_gap()) > 0:
-                        output.append(f"    [Subtopic POSSIBLE GAPS TO EXPLORE]: {subtopic.get_coverage_feedback_gap()}")
+                    if emergent_insights_str:
+                        output.append(f"[Emergent Insights]:\n  - {emergent_insights_str}")
+                    if subtopic.get_coverage_feedback_gap():
+                        output.append(f"[Possible Gaps]: {subtopic.get_coverage_feedback_gap()}")
 
-                if not hide_answered.startswith("all"): # TODO fix this hack lol
+                if not hide_answered.startswith("all"):
                     for qa in subtopic:
-                        output.extend(self.format_qa(qa, hide_answered=hide_answered, indent=8))
-                output.append("")  # blank line between subtopics
-
-            output.append("")  # blank line between topics
+                        output.extend(self.format_qa(qa, hide_answered=hide_answered, indent=4))
+                output.append("")  # blank line between questions
 
         return "\n".join(output)
     
     def get_all_topics_and_subtopics(self, active_topics_only: bool = True) -> str:
+        """Returns a compact list of questions and their IDs (used by AgendaManager for memory linking)."""
         output = []
         if active_topics_only:
             topics_list = self.interview_topic_manager.get_active_topics()
         else:
             topics_list = self.interview_topic_manager.get_all_topics()
-        
+
         for topic in topics_list:
-            output.append("=== TOPIC ===")
-            output.append(f"Topic ID: {topic.topic_id}")
-            output.append(f"Topic Description: {topic.description}\n")
-
             for subtopic in topic:
-                output.append("    --- SUBTOPIC ---")
-                output.append(f"    Subtopic ID: {subtopic.subtopic_id}")
-                output.append(f"    Subtopic Description: {subtopic.description}")
-                output.append("")  # blank line between subtopics
-
-            output.append("")  # blank line between topics
+                output.append(f"Question ID: {subtopic.subtopic_id}")
+                output.append(f"Main Question: {subtopic.description}")
+                if subtopic.probes:
+                    probes_str = "\n  - ".join(subtopic.probes)
+                    output.append(f"Probe Suggestions:\n  - {probes_str}")
+                output.append("")
 
         return "\n".join(output)
     

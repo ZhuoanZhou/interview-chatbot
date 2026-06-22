@@ -91,10 +91,10 @@ class AgendaManager(BaseAgent, Participant):
             self._add_question_to_session_agenda()
         elif message.role == "User":
             if self._last_interviewer_message:
-                asyncio.create_task(self._process_qa_pair(
+                await self._process_qa_pair(
                     interviewer_message=self._last_interviewer_message,
                     user_message=message
-                ))
+                )
                 self._last_interviewer_message = None
      
     async def augment_session_agenda(self, additional_context_path: Optional[str] = None):
@@ -178,6 +178,12 @@ class AgendaManager(BaseAgent, Participant):
                         tag="memory_lock_message", 
                         content=user_message.content)
             await self._write_memory_notes_and_question_bank()
+            # Persist memory bank to disk immediately after each update so it
+            # is not lost if the session ends abnormally or files are checked
+            # mid-session (session_agenda already does this via its snapshot).
+            self.interview_session.memory_bank.save_to_file(
+                self.interview_session.user_id
+            )
             
     async def _locked_update_subtopic_coverage(self, interviewer_message: Message, user_message: Message) -> None:
         """Wrapper to handle update_subtopic_coverage with lock"""

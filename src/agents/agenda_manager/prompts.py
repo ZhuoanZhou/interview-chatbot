@@ -100,10 +100,10 @@ Here is the current question-answer exchange you need to process:
 {current_qa}
 </current_qa>
 
-Here is the topics and subtopics that you can link the memory to:
-<topics_list>
+Here are the interview questions you can link the memory to. Use the Question ID when linking:
+<questions_list>
 {topics_list}
-</topics_list>
+</questions_list>
 
 Reminder:
 - The external tag of each event indicates the role of the sender of the event.
@@ -130,24 +130,24 @@ UPDATE_MEMORY_QUESTION_BANK_INSTRUCTIONS = """
    - For EACH piece of information worth storing:
      * Create a concise but descriptive title.
      * Summarize the information clearly.
-     * Add relevant metadata (e.g., topics, emotions, when, where, who, etc.).
-     * Identify ALL relevant subtopics from the provided topics list.
-     * For each relevant subtopic, rate its importance (1-10) and explain relevance.
+     * Add relevant metadata (e.g., reactions, emotions, features mentioned, concerns, etc.).
+     * Identify ALL relevant questions from the provided questions list.
+     * For each relevant question, rate its importance (1-10) and explain relevance.
 
 2. Linking and coverage:
-   - Each memory can relate to MULTIPLE subtopics.
+   - Each memory can relate to MULTIPLE questions.
    - Use `subtopic_links` as a list of objects, where each object contains:
-     * `subtopic_id`: ID from <topics_list>
-     * `importance`: 1-10 score for how critical this memory is to THIS subtopic
-     * `relevance`: Brief explanation of why this memory matters to THIS subtopic
+     * `subtopic_id`: Question ID from <questions_list> (e.g., "1.1", "2.1")
+     * `importance`: 1-10 score for how critical this memory is to THIS question
+     * `relevance`: Brief explanation of why this memory matters to THIS question
    - Importance scoring guide:
-     * 9-10: Core, defining information for this subtopic
+     * 9-10: Core, defining information for this question
      * 7-8: Highly relevant, adds significant depth
      * 5-6: Moderately relevant, provides context
      * 3-4: Tangentially related, minor detail
      * 1-2: Barely relevant, mentioned in passing
-   - Do NOT invent subtopic_ids; only use ones explicitly listed in <topics_list>.
-   - A single memory should link to multiple subtopics when the information is relevant to multiple areas.
+   - Do NOT invent subtopic_ids; only use Question IDs explicitly listed in <questions_list>.
+   - A single memory should link to multiple questions when the information is relevant to multiple areas.
 
 3. Skip all tool calls if the response:
    - Contains no meaningful information,
@@ -162,26 +162,25 @@ UPDATE_MEMORY_QUESTION_BANK_OUTPUT_FORMAT = """
 1. Analyze Response Content:
    - Is this response worth storing? (Skip if just greetings/deflections)
    - How should I split this response into meaningful segments?
-     * Look for natural breaks in topics, experiences, or time periods.
+     * Look for natural breaks in reactions, opinions, or feature mentions.
      * Each split should be a complete, coherent thought.
-   
-2. Multi-Subtopic Relevance Analysis:
+
+2. Multi-Question Relevance Analysis:
    For each memory segment:
-   - Which subtopics does this information relate to?
-   - For EACH relevant subtopic:
-     * How important is this memory for understanding THAT subtopic? (1-10)
-     * Why does this memory matter to THAT subtopic specifically?
+   - Which interview questions does this information relate to?
+   - For EACH relevant question:
+     * How important is this memory for understanding THAT question? (1-10)
+     * Why does this memory matter to THAT question specifically?
    - Example reasoning:
-     "User worked at Google for 5 years on LLM team"
-     → career_history (importance: 9) - Core career experience defining professional background
-     → technical_expertise (importance: 7) - LLM team indicates AI/ML skills
-     → company_culture (importance: 4) - Google experience provides work environment context
+     "User says the editing feature feels natural but slow"
+     → 2.1 (importance: 9) - Directly addresses feature evaluation question
+     → 1.1 (importance: 5) - Also shapes overall first impression
 
 3. Coverage Check:
-   - Have I captured all key experiences, events, and opinions?
-   - For each memory, have I identified ALL relevant subtopics (not just the primary one)?
-   - Are importance scores differentiated across subtopics (same memory can have different importance)?
-   - Do the subtopic links collectively cover the full semantic space of the response?
+   - Have I captured all key reactions, opinions, and feature feedback?
+   - For each memory, have I identified ALL relevant questions (not just the primary one)?
+   - Are importance scores differentiated across questions?
+   - Do the question links collectively cover the full semantic space of the response?
 </thinking>
 
 <tool_calls>
@@ -342,19 +341,19 @@ UPDATE_SUBTOPIC_COVERAGE_PROMPT = """
 
 UPDATE_SUBTOPIC_COVERAGE_CONTEXT = """
 <agenda_manager_persona>
-You are a agenda manager who assists an interviewer. You observe the dialogue between the interviewer and the candidate, and your role is to determine investigate each subtopic and its notes to determine whether the subtopic has achieved full coverage or not.
+You are an agenda manager who assists an interviewer. You observe the dialogue between the interviewer and the participant, and your role is to review each interview question and its notes to determine whether the question has been sufficiently answered.
 
 Your objectives:
-1. Infer whether each subtopic is best evaluated using the STAR (Situation, Task, Action, Result) framework or a general descriptive evaluation.
-2. If the subtopic is complete, and mark the subtopic as covered and aggregate the subtopic's notes succinctly and faithfully.
+1. Review the notes for each question and determine if the participant's response is sufficiently complete.
+2. If a question is fully covered, mark it as covered and aggregate the notes into a concise summary.
 </agenda_manager_persona>
 """
 
 UPDATE_SUBTOPIC_COVERAGE_TOPICS_AND_SUBTOPICS = """
-Here are the topics and subtopics to review:
-<topics_list>
+Here are the interview questions to review:
+<questions_list>
 {topics_list}
-</topics_list>
+</questions_list>
 """
 
 UPDATE_SUBTOPIC_COVERAGE_ADDITIONAL_CONTEXT = """
@@ -376,33 +375,19 @@ UPDATE_SUBTOPIC_COVERAGE_INSTRUCTIONS = """
 
 ## Process
 
-1. **Determine Subtopic Nature**
-   - Infer whether the subtopic is:
-     * **STAR-appropriate** → if it describes an event, project, or experience involving actions, challenges, or outcomes.
-     * **Descriptive** → if it focuses on background, motivation, interest, reasoning, or conceptual understanding rather than a specific event.
+1. **Evaluate Completeness**
+   - A question is fully covered when the notes contain a clear, substantive reaction or opinion from the participant.
+   - Coverage does not require exhausting all probe suggestions — it only requires that the core question has been meaningfully answered.
+   - If notes are already comprehensive, mark the question as covered so the interview can move on to remaining questions.
 
-2. **Evaluate Completeness**
-   - For **STAR-appropriate** subtopics:
-       * Coverage requires STAR components:
-         - **Situation:** Context or background
-         - **Task:** Objective or responsibility
-         - **Action:** Steps taken or reasoning
-         - **Result:** Outcome, metric, or reflection
-       * Fully covered when almost all components are clearly present and coherent.
-       * However, if notes is already comprehensive, feel free to mark it as covered as there are more important subtopics to be covered in later section.
-   - For **Descriptive** subtopics:
-       * Coverage requires comprehensive factual, reflective, or conceptual detail.
-       * Fully covered when the main question or theme is explained with sufficient clarity, logic, and completeness (even if not quantifiable).
-       * However, if notes is already comprehensive, feel free to mark it as covered as there are more important subtopics to be covered in later section.
+2. **Aggregation**
+   - For fully covered questions, synthesize the notes into a coherent and concise final summary capturing the essence of what was discussed.
+   - Avoid repetition or rephrasing — focus on integration and clarity.
 
-3. **Aggregation**
-   - For fully covered subtopics, synthesize the notes into a coherent and concise final summary capturing the essence of what was discussed.
-   - Avoid repetition or rephrasing—focus on integration and clarity.
-
-4. **Tool Invocation (Fully Covered)**
-   - Only call `update_subtopic_coverage` for subtopics that are fully covered.
+3. **Tool Invocation (Fully Covered)**
+   - Only call `update_subtopic_coverage` for questions that are fully covered.
    - Each call should include:
-       * `subtopic_id`: the ID of the covered subtopic.
+       * `subtopic_id`: the ID of the covered question (e.g., "1.1", "2.1").
        * `aggregated_notes`: the aggregated summary notes.
 
 </instructions>
@@ -411,11 +396,10 @@ UPDATE_SUBTOPIC_COVERAGE_INSTRUCTIONS = """
 UPDATE_SUBTOPIC_COVERAGE_OUTPUT_FORMAT = """
 <output_format>
 <thinking>
-For each subtopic, you should:
+For each question, you should:
 1. Review its notes.
-2. Infer if STAR is relevant or not.
-3. Evaluate completeness based on the inferred type.
-4. For fully covered subtopics, aggregate the notes and call `update_subtopic_coverage`.
+2. Evaluate whether the core question has been meaningfully answered.
+3. For fully covered questions, aggregate the notes and call `update_subtopic_coverage`.
 </thinking>
 
 <tool_calls>
@@ -452,10 +436,10 @@ Notes may be duplicated across subtopics if relevant.
 """
 
 UPDATE_SUBTOPIC_NOTES_TOPICS_AND_SUBTOPICS = """
-Here are the topics and subtopics to review:
-<topics_list>
+Here are the interview questions to review:
+<questions_list>
 {topics_list}
-</topics_list>
+</questions_list>
 """
 
 UPDATE_SUBTOPIC_NOTES_ADDITIONAL_CONTEXT = """
