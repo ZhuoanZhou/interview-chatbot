@@ -1013,7 +1013,6 @@ else:
                 st.rerun()
         else:
             if answer_mode in ("multiple_choice", "ranking"):
-                st.markdown("**Choose all that apply:**")
                 grid_cols = st.columns(4)
                 _opt_toggled = False
                 for i, opt in enumerate(options):
