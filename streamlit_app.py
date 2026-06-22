@@ -982,6 +982,28 @@ else:
         }
         attach();
         new MutationObserver(attach).observe(window.parent.document.body, {childList:true, subtree:true});
+
+        // Inject CSS into mic-recorder iframe to make its button fill the full 100px height
+        function resizeMicBtn() {
+            var iframes = window.parent.document.querySelectorAll('[data-testid="stColumn"] iframe');
+            iframes.forEach(function(iframe) {
+                if (iframe._micStyled) return;
+                try {
+                    var d = iframe.contentDocument || iframe.contentWindow.document;
+                    if (!d || !d.head) return;
+                    var style = d.createElement('style');
+                    style.textContent =
+                        'html, body { margin: 0 !important; padding: 0 !important; ' +
+                        '  height: 100px !important; overflow: hidden !important; }' +
+                        'button { width: 100% !important; height: 100px !important; ' +
+                        '  box-sizing: border-box !important; border-radius: 8px !important; ' +
+                        '  font-size: 1.1rem !important; cursor: pointer !important; }';
+                    d.head.appendChild(style);
+                    iframe._micStyled = true;
+                } catch(e) {}
+            });
+        }
+        setInterval(resizeMicBtn, 300);
     })();
     </script>
     """, height=0)
