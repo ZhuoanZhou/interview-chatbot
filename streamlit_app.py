@@ -967,7 +967,6 @@ else:
                                  type="primary" if is_sel else "secondary",
                                  use_container_width=True):
                         st.session_state[sel_key] = not is_sel
-                        st.rerun()
 
         elif answer_mode == "yes_no_plus_optional_text":
             # Click pre-fills text area; participant can add details before sending
