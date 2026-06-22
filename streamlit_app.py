@@ -755,7 +755,7 @@ div[data-testid="stButton"] button[kind="primary"] {
 }
 [data-testid="stColumn"] iframe {
     height: 100px !important; min-height: 100px !important;
-    width: 100px !important; min-width: 100px !important;
+    width: 100% !important;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -966,7 +966,7 @@ else:
                         st.session_state[draft_key] = opt["label"]
 
     # ── Speak | Text area | Send ──────────────────────────────────────────────
-    mic_col, text_col, send_col = st.columns([2, 7, 2])
+    mic_col, text_col, send_col = st.columns([1, 9, 2])
 
     with mic_col:
         audio = mic_recorder(
