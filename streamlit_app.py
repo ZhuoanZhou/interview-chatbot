@@ -28,6 +28,8 @@ from streamlit_mic_recorder import mic_recorder
 
 load_dotenv(override=True)
 
+_openai_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
 # Key guard
 if not os.getenv("OPENAI_API_KEY"):
     st.error(
@@ -334,10 +336,9 @@ Return JSON in this format:
 
 def _call_llm_json(system_prompt, user_prompt, label="agent"):
     """Call the LLM and return a parsed JSON dict. Appends raw log to session state."""
-    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     raw_text = None
     try:
-        resp = client.chat.completions.create(
+        resp = _openai_client.chat.completions.create(
             model=MODEL,
             messages=[
                 {"role": "system", "content": system_prompt},
@@ -348,7 +349,7 @@ def _call_llm_json(system_prompt, user_prompt, label="agent"):
         raw_text = resp.choices[0].message.content
         result = json.loads(raw_text)
     except Exception:
-        resp = client.chat.completions.create(
+        resp = _openai_client.chat.completions.create(
             model=MODEL,
             messages=[
                 {"role": "system", "content": system_prompt},
