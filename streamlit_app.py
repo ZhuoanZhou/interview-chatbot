@@ -930,14 +930,29 @@ else:
                                  use_container_width=True):
                         st.session_state[draft_key] = opt["label"]
 
-    # ── Text area (always visible) ────────────────────────────────────────────
-    typed = st.text_area(
-        "response",
-        key=draft_key,
-        height=100,
-        placeholder="Type your response here, or click 🎤 Speak to record...",
-        label_visibility="collapsed",
-    )
+    # ── Speak | Text area | Send ──────────────────────────────────────────────
+    mic_col, text_col, send_col = st.columns([2, 7, 2])
+
+    with mic_col:
+        audio = mic_recorder(
+            start_prompt="🎤  Speak",
+            stop_prompt="⏹️  Stop",
+            just_once=True,
+            use_container_width=True,
+            key="mic",
+        )
+
+    with text_col:
+        typed = st.text_area(
+            "response",
+            key=draft_key,
+            height=100,
+            placeholder="Type your response here, or click 🎤 Speak to record...",
+            label_visibility="collapsed",
+        )
+
+    with send_col:
+        send_clicked = st.button("Send →", type="primary", use_container_width=True)
 
     # Enter key sends (Shift+Enter = newline)
     components.html("""
@@ -964,21 +979,6 @@ else:
     })();
     </script>
     """, height=0)
-
-    # ── Mic + Send ────────────────────────────────────────────────────────────
-    mic_col, spacer_col, send_col = st.columns([3, 5, 2])
-
-    with mic_col:
-        audio = mic_recorder(
-            start_prompt="🎤  Speak",
-            stop_prompt="⏹️  Stop",
-            just_once=True,
-            use_container_width=True,
-            key="mic",
-        )
-
-    with send_col:
-        send_clicked = st.button("Send →", type="primary", use_container_width=True)
 
     if send_clicked:
         typed_text = (typed or st.session_state.get(draft_key) or "").strip()
