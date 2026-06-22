@@ -724,9 +724,9 @@ div[data-testid="stButton"] button[kind="primary"] {
 [data-testid="stColumn"] div[data-testid="stButton"] button[kind="primary"] {
     height: 100px !important;
 }
-[data-testid="stColumn"]:first-child iframe {
+[data-testid="stColumn"] iframe {
     height: 100px !important; min-height: 100px !important;
-    width: 100px !important; max-width: 100px !important;
+    width: 100px !important; min-width: 100px !important;
 }
 </style>
 """, unsafe_allow_html=True)
