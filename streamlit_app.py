@@ -691,6 +691,23 @@ if "phase" not in st.session_state:
     )
 
 
+st.markdown("""
+<style>
+html, body, [class*="css"], .stMarkdown, .stChatMessage { font-size: 20px !important; }
+div[data-testid="stChatMessage"] p { font-size: 1.05rem !important; line-height: 1.7 !important; }
+div[data-testid="stTextArea"] textarea {
+    min-height: 80px !important; font-size: 1.1rem !important;
+    line-height: 1.7 !important; border-radius: 14px !important;
+    padding: 14px 18px !important; resize: none !important;
+}
+div[data-testid="stButton"] button[kind="primary"] {
+    font-size: 1rem !important; height: 52px !important;
+    border-radius: 8px !important; width: 100% !important;
+}
+[data-testid="stColumn"]:first-child iframe { height: 52px !important; min-height: 52px !important; }
+</style>
+""", unsafe_allow_html=True)
+
 # =============================================================================
 # Phase: participant ID entry
 # =============================================================================
@@ -803,22 +820,6 @@ with st.sidebar:
         "use the **Returning participant** tab on the start screen and enter this ID."
     )
 
-st.markdown("""
-<style>
-html, body, [class*="css"], .stMarkdown, .stChatMessage { font-size: 22px !important; }
-div[data-testid="stChatMessage"] p { font-size: 1.05rem !important; line-height: 1.7 !important; }
-div[data-testid="stTextArea"] textarea {
-    min-height: 80px !important; font-size: 1.1rem !important;
-    line-height: 1.7 !important; border-radius: 14px !important;
-    padding: 14px 18px !important; resize: none !important;
-}
-div[data-testid="stButton"] button[kind="primary"] {
-    font-size: 1rem !important; height: 52px !important;
-    border-radius: 8px !important; width: 100% !important;
-}
-[data-testid="stColumn"]:first-child iframe { height: 52px !important; min-height: 52px !important; }
-</style>
-""", unsafe_allow_html=True)
 
 # Render chat history
 for msg in st.session_state.chat:
