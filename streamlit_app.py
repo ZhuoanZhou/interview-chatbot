@@ -160,6 +160,23 @@ QUESTIONS = [
 
 B1_INDEX = 2  # demo video shown when current_question_index first reaches this value
 
+OPENING_QUESTION = {
+    "question_id": "A1",
+    "question_text": "When someone doesn't understand you, what do you usually do?",
+    "answer_mode": "multiple_choice",
+    "options": [
+        {"label": "Repeat"},
+        {"label": "Rephrase"},
+        {"label": "Write down / type"},
+        {"label": "Ask for clarification"},
+        {"label": "Gesture / point"},
+        {"label": "Use AAC"},
+        {"label": "Other / type your answer"},
+        {"label": "Skip"},
+    ],
+    "participant_instruction": "You can choose one option or type your own answer.",
+}
+
 CLOSING_MESSAGE = (
     "Thank you for sharing your experience and feedback with us. "
     "Your answers will help us understand whether transcription plus editing could support "
@@ -782,19 +799,13 @@ if st.session_state.phase == "intro":
     st.markdown("")
 
     if st.button("Continue to interview ->", type="primary", key="btn_intro_continue"):
-        with st.spinner("Preparing your first question..."):
-            show_video, result = run_agent_turn(skip_dm=True)
-        new_chat = []
-        if show_video:
-            new_chat.append({"role": "video"})
-        if result:
-            new_chat.append({
-                "role": "assistant",
-                "content": result["question_text"],
-                "question_id": result.get("question_id", "A1"),
-                "answer_mode": result.get("answer_mode", "multiple_choice"),
-                "options": result.get("options", []),
-            })
+        new_chat = [{
+            "role": "assistant",
+            "content": OPENING_QUESTION["question_text"],
+            "question_id": OPENING_QUESTION["question_id"],
+            "answer_mode": OPENING_QUESTION["answer_mode"],
+            "options": OPENING_QUESTION["options"],
+        }]
         st.session_state.chat = new_chat
         st.session_state.phase = "active"
         st.rerun()
