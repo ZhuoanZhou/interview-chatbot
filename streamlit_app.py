@@ -956,6 +956,7 @@ else:
             # 4-column grid of toggle cards — clicking selects/deselects
             st.markdown("**Choose all that apply:**")
             grid_cols = st.columns(4)
+            _opt_toggled = False
             for i, opt in enumerate(options):
                 sel_key = f"mopt_{gen}_{q_key}_{i}"
                 if sel_key not in st.session_state:
@@ -967,6 +968,9 @@ else:
                                  type="primary" if is_sel else "secondary",
                                  use_container_width=True):
                         st.session_state[sel_key] = not is_sel
+                        _opt_toggled = True
+            if _opt_toggled:
+                st.rerun()
 
         elif answer_mode == "yes_no_plus_optional_text":
             # Click pre-fills text area; participant can add details before sending
