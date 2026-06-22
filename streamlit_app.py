@@ -882,9 +882,6 @@ for msg in st.session_state.chat:
     elif msg["role"] == "assistant":
         with st.chat_message("assistant"):
             st.write(msg["content"])
-            if msg.get("options"):
-                opts_text = "   ".join(f"`{o['label']}`" for o in msg["options"])
-                st.caption(f"Options: {opts_text}")
     elif msg["role"] == "user":
         with st.chat_message("user"):
             st.write(msg["content"])
