@@ -1137,6 +1137,12 @@ for msg in st.session_state.chat:
     elif msg["role"] == "assistant":
         with st.chat_message("assistant"):
             st.write(msg["content"])
+            st.caption(
+                "You can respond in whatever way works best for you: "
+                "click “Speak” to use speech-to-text, "
+                "click the button below to see multiple-choice options and select one or more, "
+                "type your own answer, or use any combination of these."
+            )
     elif msg["role"] == "user":
         with st.chat_message("user"):
             st.write(msg["content"])
@@ -1256,7 +1262,7 @@ else:
             st.session_state[show_key] = False
 
         if not st.session_state[show_key]:
-            if st.button("💡 Show suggested answers", key=f"show_opts_btn_{gen}_{q_key}"):
+            if st.button("Multiple Choice Options", key=f"show_opts_btn_{gen}_{q_key}"):
                 st.session_state[show_key] = True
                 st.rerun()
         else:
