@@ -335,13 +335,12 @@ Suggestions if requested:
 - I need a break
 - Skip the demo
 - I'm not sure
-If the participant is ready, show the short demo video.
-After the demo, say:
-That was an early idea, not a finished system. We want to learn what seems useful, not useful, realistic, unrealistic, or too much work for you.
+If the participant answers yes, means they already saw the short demo video.
+If the participant selected Skip the demo or I'm not sure, skip Section B.
 
 B1. First reaction after demo
 Main question:
-After seeing the demo, what is your first reaction?
+That was an early idea, not a finished system. We want to learn what seems useful, not useful, realistic, unrealistic, or too much work for you. After seeing the demo, what is your first reaction?
 Suggestions if requested:
 - I like it
 - I partly like it
