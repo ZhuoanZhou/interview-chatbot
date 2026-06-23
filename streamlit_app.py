@@ -735,10 +735,20 @@ def run_agent_turn():
         st.session_state.interview_ended = True
         return False, None
 
-    # Trigger demo video when agent first moves into Section B
+    # Trigger demo video when section changes from A to any other section
+    # and the participant's last answer included "yes"
+    prev_q_ids = [m.get("question_id", "") for m in chat if m.get("role") == "assistant"]
+    was_in_a = bool(prev_q_ids) and all(
+        qid.upper().startswith("A") for qid in prev_q_ids if qid
+    )
+    now_non_a = bool(q_id) and not q_id.upper().startswith("A")
+    last_user = next((m for m in reversed(chat) if m.get("role") == "user"), None)
+    last_answer = last_user.get("content", "").lower() if last_user else ""
     show_video = (
         demo_status == "not_shown"
-        and q_id.upper().startswith("B")
+        and was_in_a
+        and now_non_a
+        and "yes" in last_answer
     )
     if show_video:
         st.session_state.demo_status = "shown"
