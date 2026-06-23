@@ -735,18 +735,13 @@ def run_agent_turn():
         st.session_state.interview_ended = True
         return False, None
 
-    # Trigger demo video when section changes from A to any other section
-    # and the participant's last answer included "yes"
-    prev_q_ids = [m.get("question_id", "") for m in chat if m.get("role") == "assistant"]
-    was_in_a = bool(prev_q_ids) and all(
-        qid.upper().startswith("A") for qid in prev_q_ids if qid
-    )
+    # Trigger demo video on the first non-A question when the participant's
+    # last answer included "yes". demo_status ensures it only fires once.
     now_non_a = bool(q_id) and not q_id.upper().startswith("A")
     last_user = next((m for m in reversed(chat) if m.get("role") == "user"), None)
     last_answer = last_user.get("content", "").lower() if last_user else ""
     show_video = (
         demo_status == "not_shown"
-        and was_in_a
         and now_non_a
         and "yes" in last_answer
     )
@@ -755,7 +750,16 @@ def run_agent_turn():
 
     # Normalise output to the fields the UI expects
     result["question_text"] = result.get("message_to_participant", "")
-    result["options"] = result.get("suggestions_if_requested", [])
+    options = result.get("suggestions_if_requested", [])
+    # Fallback: if it's a yes/no question with no suggestions, provide them
+    question_lower = result["question_text"].lower()
+    if not options and any(phrase in question_lower for phrase in ("okay time", "is now", "would you like", "are you ready")):
+        options = [
+            {"label": "Yes"},
+            {"label": "No"},
+            {"label": "Maybe later"},
+        ]
+    result["options"] = options
     result["answer_mode"] = "multiple_choice"
 
     return show_video, result
