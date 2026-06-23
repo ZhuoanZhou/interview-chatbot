@@ -1048,10 +1048,17 @@ if st.session_state.phase == "id_entry":
                     chat, found = restore_from_drive(pid, cfg)
                 if found:
                     video_shown = any(m.get("role") == "video" for m in chat)
+                    # If the session ended mid-turn (last message is from user,
+                    # agent never responded), resume in waiting state so the
+                    # agent fires immediately — this also handles the case where
+                    # the participant answered "yes" to the demo consent question
+                    # but the video was never shown.
+                    last_role = chat[-1].get("role") if chat else None
+                    resume_waiting = last_role == "user"
                     st.session_state.update(
                         user_id=pid, drive_config=cfg, chat=chat,
                         demo_status="shown" if video_shown else "not_shown",
-                        waiting=False, phase="active",
+                        waiting=resume_waiting, phase="active",
                     )
                     st.rerun()
                 else:
