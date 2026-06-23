@@ -696,20 +696,12 @@ def _build_interview_history(chat):
             if i + 1 < len(msgs) and msgs[i + 1].get("role") == "user":
                 i += 1
                 user_msg = msgs[i]
-                raw = user_msg.get("content", "")
-                # Split selected suggestions (prefixed with "✓ ") from free text
-                selected = [
-                    p.strip().lstrip("✓").strip()
-                    for p in raw.split("\n")
-                    if p.strip().startswith("✓")
-                ]
-                free = " ".join(
-                    p.strip() for p in raw.split("\n")
-                    if not p.strip().startswith("✓")
-                ).strip()
+                # Read structured fields stored at submission time
+                selected = user_msg.get("selected_suggestions", [])
+                free = user_msg.get("free_text", user_msg.get("content", ""))
                 entry["participant_response"] = {
-                    "selected_suggestions": selected,
-                    "free_text": free,
+                    "selected_suggestions": user_msg.get("selected_suggestions", []),
+                    "free_text": user_msg.get("free_text", user_msg.get("content", "")),
                 }
             history.append(entry)
         i += 1
@@ -1296,7 +1288,12 @@ else:
 
         if answer:
             st.session_state.form_generation += 1
-            st.session_state.chat.append({"role": "user", "content": answer})
+            st.session_state.chat.append({
+                "role": "user",
+                "content": answer,
+                "selected_suggestions": selected,
+                "free_text": typed_text,
+            })
             st.session_state.waiting = True
             st.rerun()
         else:
