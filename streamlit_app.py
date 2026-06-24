@@ -1081,14 +1081,14 @@ if st.session_state.phase == "id_entry":
 if st.session_state.phase == "intro":
 
     INTRO_TEXT = (
-        "Thank you for attending this interview today.\n\n"
-        "We are studying an idea for helping people when others have trouble understanding their speech. "
-        "The idea is to use speech transcription as a starting point, and allow the text to be edited "
-        "if needed to help repair meaning.\n\n"
-        "Later in the interview, we will show you a short demo of the idea and ask what you think about it.\n\n"
-        "This is not a test of you. We are testing the idea and learning from your experience.\n\n"
-        "You can answer by selecting choices and typing extra comments if you want. "
-        "You can skip any question, take a break, or stop at any time."
+        "Thank you for meeting with us.\n\n"
+        "We are interested in your everyday experiences communicating with other people, "
+        "especially times when someone has trouble understanding you.\n\n"
+        "Later, we will show you a short demo of an early technology idea and ask what you think about it.\n\n"
+        "This is not a test of you. We are learning from your experience.\n\n"
+        "There are no right or wrong answers. Short answers are fine. You can skip any question.\n\n"
+        "You can answer by speaking, typing, choosing suggested answers, or using a mix of these.\n\n"
+        "If helpful, you can press the suggestions button to see possible answers."
     )
 
     st.markdown(INTRO_TEXT)
