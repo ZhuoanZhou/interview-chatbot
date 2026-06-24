@@ -1095,8 +1095,29 @@ if st.session_state.phase == "intro":
     st.markdown("")
 
     if st.button("Continue to interview ->", type="primary", key="btn_intro_continue"):
-        st.session_state.chat = []
-        st.session_state.waiting = True
+        opening = (
+            "Thank you for meeting with us.\n\n"
+            "We are interested in your everyday experiences communicating with other people, "
+            "especially times when someone has trouble understanding you.\n\n"
+            "Later, we will show you a short demo of an early technology idea and ask what you think about it.\n\n"
+            "This is not a test of you. We are learning from your experience.\n\n"
+            "There are no right or wrong answers. Short answers are fine. You can skip any question.\n\n"
+            "You can answer by speaking, typing, choosing suggested answers, or using a mix of these.\n\n"
+            "If helpful, you can press the suggestions button to see possible answers.\n\n"
+            "Do you have any questions before we begin?"
+        )
+        st.session_state.chat = [{
+            "role": "assistant",
+            "content": opening,
+            "question_id": "A0",
+            "answer_mode": "multiple_choice",
+            "options": [
+                {"label": "Yes"},
+                {"label": "No"},
+                {"label": "I am not sure"},
+            ],
+        }]
+        st.session_state.waiting = False
         st.session_state.phase = "active"
         st.rerun()
 
