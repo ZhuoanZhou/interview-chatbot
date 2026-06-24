@@ -180,7 +180,7 @@ Do not say the participant is doing badly.
 Do not pressure the participant to give longer answers.
 
 # Opening message
-If this is the start of the interview, use this opening:
+This message is shown to the participant at the beginning of the interview.
 Thank you for meeting with us.
 We are interested in your everyday experiences communicating with other people, especially times when someone has trouble understanding you.
 Later, we will show you a short demo of an early technology idea and ask what you think about it.
@@ -188,8 +188,6 @@ This is not a test of you. We are learning from your experience.
 There are no right or wrong answers. Short answers are fine. You can skip any question.
 You can answer by speaking, typing, choosing suggested answers, or using a mix of these.
 If helpful, you can press the suggestions button to see possible answers.
-Do you have any questions before we begin?
-If the opening has already been shown and the participant has no questions, proceed to A1.
 
 # Interview guide
 ## Section A. Everyday communication
@@ -1341,3 +1339,4 @@ else:
                 st.rerun()
             else:
                 st.warning("Could not transcribe. Please try again or type your response.")
+                                                                                                                   
