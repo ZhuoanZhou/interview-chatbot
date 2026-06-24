@@ -177,13 +177,9 @@ When burden seems high:
 Do not say the participant is doing badly.
 Do not pressure the participant to give longer answers.
 
-# Interview guide
-## Section O. Opening message
-Design principle for Section O:
-Answer whatever question the participant has. Always ask if they have any other questions before starting the interview and provide suggestion if requested.
-Do not procede to A1 unless they do not have any question or inform to start the interview.
-
-O1. Thank you for meeting with us.
+# Opening message
+If this is the start of the interview, use this opening:
+Thank you for meeting with us.
 We are interested in your everyday experiences communicating with other people, especially times when someone has trouble understanding you.
 Later, we will show you a short demo of an early technology idea and ask what you think about it.
 This is not a test of you. We are learning from your experience.
@@ -191,15 +187,9 @@ There are no right or wrong answers. Short answers are fine. You can skip any qu
 You can answer by speaking, typing, choosing suggested answers, or using a mix of these.
 If helpful, you can press the suggestions button to see possible answers.
 Do you have any questions before we begin?
-Branching instruction:
-If the participant has questions, answer the questions and ask:
-- Do you have any other questions before we start?
-- Suggestions if requested:
-  - Yes
-  - No
-  - Not sure
-If the participant answers no or has no questions, process to A1.
+If the opening has already been shown and the participant has no questions, proceed to A1.
 
+# Interview guide
 ## Section A. Everyday communication
 Design principle for Section A:
 Questions should not ask the participant to tell a story, recall a specific episode, imagine a situation, or explain a sequence of events. Each question should be answerable with a short word, phrase, selected suggestion, or skip. Free text is always allowed, but not required.
@@ -616,7 +606,6 @@ Use this format:
   ],
   "question_type": "main | follow_up | transition | closing"
 }
-
 Do not include internal reasoning in the JSON.
 The participant should see only message_to_participant.
 The suggestions in suggestions_if_requested are for the suggestions button. Do not show them automatically unless the participant clicks the suggestions button or the interface requests them.
@@ -1046,34 +1035,7 @@ if st.session_state.phase == "id_entry":
         if st.button("Start interview ->", type="primary", key="btn_new"):
             user_id = "P-" + uuid.uuid4().hex[:6].upper()
             cfg = _get_drive_config()
-            opening = (
-                "Thank you for meeting with us.\n\n"
-                "We are interested in your everyday experiences communicating with other people, "
-                "especially times when someone has trouble understanding you.\n\n"
-                "Later, we will show you a short demo of an early technology idea and ask what you think about it.\n\n"
-                "This is not a test of you. We are learning from your experience.\n\n"
-                "There are no right or wrong answers. Short answers are fine. You can skip any question.\n\n"
-                "You can answer by speaking, typing, choosing suggested answers, or using a mix of these.\n\n"
-                "If helpful, you can press the suggestions button to see possible answers.\n\n"
-                "Do you have any questions before we begin?"
-            )
-            st.session_state.update(
-                user_id=user_id,
-                drive_config=cfg,
-                phase="active",
-                waiting=False,
-                chat=[{
-                    "role": "assistant",
-                    "content": opening,
-                    "question_id": "O1",
-                    "answer_mode": "multiple_choice",
-                    "options": [
-                        {"label": "Yes"},
-                        {"label": "No"},
-                        {"label": "I am not sure"},
-                    ],
-                }],
-            )
+            st.session_state.update(user_id=user_id, drive_config=cfg, phase="intro")
             st.rerun()
 
     with tab_return:
@@ -1111,6 +1073,34 @@ if st.session_state.phase == "id_entry":
 
     st.stop()
 
+
+# =============================================================================
+# Phase: intro
+# =============================================================================
+
+if st.session_state.phase == "intro":
+
+    INTRO_TEXT = (
+        "Thank you for attending this interview today.\n\n"
+        "We are studying an idea for helping people when others have trouble understanding their speech. "
+        "The idea is to use speech transcription as a starting point, and allow the text to be edited "
+        "if needed to help repair meaning.\n\n"
+        "Later in the interview, we will show you a short demo of the idea and ask what you think about it.\n\n"
+        "This is not a test of you. We are testing the idea and learning from your experience.\n\n"
+        "You can answer by selecting choices and typing extra comments if you want. "
+        "You can skip any question, take a break, or stop at any time."
+    )
+
+    st.markdown(INTRO_TEXT)
+    st.markdown("")
+
+    if st.button("Continue to interview ->", type="primary", key="btn_intro_continue"):
+        st.session_state.chat = []
+        st.session_state.waiting = True
+        st.session_state.phase = "active"
+        st.rerun()
+
+    st.stop()
 
 
 # =============================================================================
