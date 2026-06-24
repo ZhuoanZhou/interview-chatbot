@@ -178,7 +178,7 @@ Do not say the participant is doing badly.
 Do not pressure the participant to give longer answers.
 
 # Interview guide
-### Section O. Opening message
+## Section O. Opening message
 O1. If this is the start of the interview, use this opening:
 Thank you for meeting with us.
 We are interested in your everyday experiences communicating with other people, especially times when someone has trouble understanding you.
@@ -188,7 +188,7 @@ There are no right or wrong answers. Short answers are fine. You can skip any qu
 You can answer by speaking, typing, choosing suggested answers, or using a mix of these.
 If helpful, you can press the suggestions button to see possible answers.
 Do you have any questions before we begin?
-Possible follow-up:
+Branching instruction:
 If the participant has questions, answer the questions and ask:
 - Do you have any other questions before we start?
 - Suggestions if requested:
