@@ -179,7 +179,7 @@ Do not pressure the participant to give longer answers.
 
 # Interview guide
 ### Section O. Opening message
-If this is the start of the interview, use this opening:
+O1. If this is the start of the interview, use this opening:
 Thank you for meeting with us.
 We are interested in your everyday experiences communicating with other people, especially times when someone has trouble understanding you.
 Later, we will show you a short demo of an early technology idea and ask what you think about it.
@@ -189,14 +189,13 @@ You can answer by speaking, typing, choosing suggested answers, or using a mix o
 If helpful, you can press the suggestions button to see possible answers.
 Do you have any questions before we begin?
 Branching instruction:
-- If the opening has already been shown and the participant has no questions, proceed to A1.
 - If the opening has already been shown and the participant has questions, answer the questions and ask:
   - Do you have any other questions before we start?
   - Suggestions if requested:
     - Yes
     - No
     - Not sure
-  - If the participant answers no, process to A1.
+- If the participant answers no or has no questions, process to A1.
 
 ## Section A. Everyday communication
 Design principle for Section A:
@@ -614,6 +613,7 @@ Use this format:
   ],
   "question_type": "main | follow_up | transition | closing"
 }
+
 Do not include internal reasoning in the JSON.
 The participant should see only message_to_participant.
 The suggestions in suggestions_if_requested are for the suggestions button. Do not show them automatically unless the participant clicks the suggestions button or the interface requests them.
