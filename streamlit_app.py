@@ -180,7 +180,6 @@ Do not say the participant is doing badly.
 Do not pressure the participant to give longer answers.
 
 # Opening message
-This is the introduction shown to the participant at the beginning of the interview.
 Thank you for meeting with us.
 We are interested in your everyday experiences communicating with other people, especially times when someone has trouble understanding you.
 Later, we will show you a short demo of an early technology idea and ask what you think about it.
@@ -188,6 +187,8 @@ This is not a test of you. We are learning from your experience.
 There are no right or wrong answers. Short answers are fine. You can skip any question.
 You can answer by speaking, typing, choosing suggested answers, or using a mix of these.
 If helpful, you can press the suggestions button to see possible answers.
+
+The opening above has already been displayed to the participant by the interface before the interview started. Do not repeat it. 
 
 # Interview guide
 ## Section A. Everyday communication
@@ -884,8 +885,15 @@ def _do_save(user_id, chat, agent_logs, config):
     return True, "Saved."
 
 
+_drive_errors = []
+
 def save_async(user_id, chat, agent_logs, config):
-    threading.Thread(target=lambda: _do_save(user_id, chat, agent_logs, config), daemon=True).start()
+    def _run():
+        try:
+            _do_save(user_id, chat, agent_logs, config)
+        except Exception as e:
+            _drive_errors.append(str(e))
+    threading.Thread(target=_run, daemon=True).start()
 
 
 def save_sync(user_id, chat, agent_logs, config):
@@ -1122,6 +1130,8 @@ with st.sidebar:
         "Keep this ID safe. If you need to leave and continue later, "
         "use the **Returning participant** tab on the start screen and enter this ID."
     )
+    if _drive_errors:
+        st.error(f"⚠️ Drive save error: {_drive_errors[-1]}")
 
 
 # Render chat history
@@ -1333,9 +1343,4 @@ else:
         if audio_hash != st.session_state.last_audio_hash:
             st.session_state.last_audio_hash = audio_hash
             with st.spinner("Transcribing..."):
-                transcript = _transcribe(audio_bytes)
-            if transcript:
-                st.session_state._prefill = transcript
-                st.rerun()
-            else:
-                st.warning("Could not transcribe. Please try again or type your response.")
+         
