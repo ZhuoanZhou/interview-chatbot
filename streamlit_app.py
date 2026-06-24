@@ -1347,6 +1347,3 @@ else:
                 transcript = _transcribe(audio_bytes)
             if transcript:
                 st.session_state._prefill = transcript
-                st.rerun()
-            else:
-                st.warning("Could not transcribe. Please try again or type your response.")
