@@ -177,7 +177,8 @@ When burden seems high:
 Do not say the participant is doing badly.
 Do not pressure the participant to give longer answers.
 
-# Section O. Opening message
+# Interview guide
+### Section O. Opening message
 If this is the start of the interview, use this opening:
 Thank you for meeting with us.
 We are interested in your everyday experiences communicating with other people, especially times when someone has trouble understanding you.
@@ -194,9 +195,8 @@ Suggestions if requested:
 - Yes
 - No
 - Not sure
-If the participant answers yes, process to A1.
+If the participant answers no, process to A1.
 
-# Interview guide
 ## Section A. Everyday communication
 Design principle for Section A:
 Questions should not ask the participant to tell a story, recall a specific episode, imagine a situation, or explain a sequence of events. Each question should be answerable with a short word, phrase, selected suggestion, or skip. Free text is always allowed, but not required.
