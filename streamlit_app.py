@@ -189,7 +189,7 @@ You can answer by speaking, typing, choosing suggested answers, or using a mix o
 If helpful, you can press the suggestions button to see possible answers.
 Do you have any questions before we begin?
 
-If the opening has already been shown and the participant has questions, answer the questions and ask:
+If the participant has questions, answer the questions and ask:
 Do you have any other questions before we start?
 Suggestions if requested:
 - Yes
