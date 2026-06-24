@@ -1257,12 +1257,15 @@ else:
             ta.addEventListener('keydown', function(e) {
                 if (e.key === 'Enter' && !e.shiftKey) {
                     e.preventDefault();
-                    var btns = window.parent.document.querySelectorAll('button');
-                    for (var i = 0; i < btns.length; i++) {
-                        if (btns[i].innerText.trim().startsWith('Send')) {
-                            btns[i].click(); break;
+                    ta.blur();
+                    setTimeout(function() {
+                        var btns = window.parent.document.querySelectorAll('button');
+                        for (var i = 0; i < btns.length; i++) {
+                            if (btns[i].innerText.trim().startsWith('Send')) {
+                                btns[i].click(); break;
+                            }
                         }
-                    }
+                    }, 100);
                 }
             });
         }
