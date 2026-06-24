@@ -1062,7 +1062,7 @@ if st.session_state.phase == "id_entry":
                 chat=[{
                     "role": "assistant",
                     "content": opening,
-                    "question_id": "A0",
+                    "question_id": "O1",
                     "answer_mode": "multiple_choice",
                     "options": [
                         {"label": "Yes"},
