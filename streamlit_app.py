@@ -180,7 +180,7 @@ Do not pressure the participant to give longer answers.
 # Interview guide
 ## Section O. Opening message
 Design principle for Section O:
-Answer whatever question the participant has. Always ask if they have any other questions before starting the interview.
+Answer whatever question the participant has. Always ask if they have any other questions before starting the interview and provide suggestion if requested.
 Do not procede to A1 unless they do not have any question or inform to start the interview.
 
 O1. Thank you for meeting with us.
