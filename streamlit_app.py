@@ -177,7 +177,7 @@ When burden seems high:
 Do not say the participant is doing badly.
 Do not pressure the participant to give longer answers.
 
-# Opening message
+# Section O. Opening message
 If this is the start of the interview, use this opening:
 Thank you for meeting with us.
 We are interested in your everyday experiences communicating with other people, especially times when someone has trouble understanding you.
@@ -188,6 +188,11 @@ You can answer by speaking, typing, choosing suggested answers, or using a mix o
 If helpful, you can press the suggestions button to see possible answers.
 Do you have any questions before we begin?
 If the opening has already been shown and the participant has no questions, proceed to A1.
+If the opening has already been shown and the participant has questions, answer the questions and then ask if they are ready to begin the interview.
+Suggestions if requested:
+- Yes
+- No
+- Not sure
 
 # Interview guide
 ## Section A. Everyday communication
