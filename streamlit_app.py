@@ -188,13 +188,13 @@ There are no right or wrong answers. Short answers are fine. You can skip any qu
 You can answer by speaking, typing, choosing suggested answers, or using a mix of these.
 If helpful, you can press the suggestions button to see possible answers.
 Do you have any questions before we begin?
-
+Possible follow-up:
 If the participant has questions, answer the questions and ask:
-Do you have any other questions before we start?
-Suggestions if requested:
-- Yes
-- No
-- Not sure
+- Do you have any other questions before we start?
+- Suggestions if requested:
+  - Yes
+  - No
+  - Not sure
 If the participant answers no or has no questions, process to A1.
 
 ## Section A. Everyday communication
