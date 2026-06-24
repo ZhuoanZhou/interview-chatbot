@@ -179,8 +179,11 @@ Do not pressure the participant to give longer answers.
 
 # Interview guide
 ## Section O. Opening message
-O1. If this is the start of the interview, use this opening:
-Thank you for meeting with us.
+Design principle for Section O:
+Answer whatever question the participant has. Then, ask if they have any other questions before starting the interview.
+Do not procede to A1 unless they do not have any question or inform to start the interview.
+
+O1. Thank you for meeting with us.
 We are interested in your everyday experiences communicating with other people, especially times when someone has trouble understanding you.
 Later, we will show you a short demo of an early technology idea and ask what you think about it.
 This is not a test of you. We are learning from your experience.
