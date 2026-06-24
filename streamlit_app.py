@@ -866,7 +866,8 @@ def _update_participants_log(user_id, root_folder_id, svc):
 
 def _do_save(user_id, chat, agent_logs, config):
     if not config.get("folder_id") or not config.get("refresh_token"):
-        return False, "Drive not configured."
+        missing = [k for k in ("folder_id", "refresh_token") if not config.get(k)]
+        raise RuntimeError(f"Drive not configured — missing secrets: {', '.join(missing)}")
     svc = _make_service(config)
     root = config["folder_id"]
     pfolder = _get_or_create_folder(f"participant_{user_id}", root, svc)
@@ -1346,6 +1347,4 @@ else:
                 transcript = _transcribe(audio_bytes)
             if transcript:
                 st.session_state._prefill = transcript
-                st.rerun()
-            else:
-                st.warning("Could not transcribe. Please try again or type your response.")
+      
