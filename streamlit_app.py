@@ -180,7 +180,7 @@ Do not say the participant is doing badly.
 Do not pressure the participant to give longer answers.
 
 # Opening message
-This message is shown to the participant at the beginning of the interview.
+This is the introduction shown to the participant at the beginning of the interview.
 Thank you for meeting with us.
 We are interested in your everyday experiences communicating with other people, especially times when someone has trouble understanding you.
 Later, we will show you a short demo of an early technology idea and ask what you think about it.
@@ -1339,4 +1339,3 @@ else:
                 st.rerun()
             else:
                 st.warning("Could not transcribe. Please try again or type your response.")
-                                                                                                                   
