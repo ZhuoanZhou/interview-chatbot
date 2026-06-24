@@ -335,7 +335,6 @@ Before Section B, ask:
 Next, we would like to show a short demo video of an early idea. Is now an okay time to watch it?
 Suggestions if requested:
 - Yes
-- I need a break
 - Skip the demo
 - I'm not sure
 If the participant answers yes, means they already saw the short demo video.
@@ -1223,7 +1222,7 @@ else:
     q_key = current_q_msg.get("question_id", "q") if current_q_msg else "q"
 
     # ── Speak | Text area | Send ──────────────────────────────────────────────
-    mic_col, text_col, send_col = st.columns([1, 9, 2])
+    mic_col, right_col = st.columns([1, 11])
 
     with mic_col:
         audio = mic_recorder(
@@ -1234,17 +1233,19 @@ else:
             key="mic",
         )
 
-    with text_col:
-        typed = st.text_area(
-            "response",
-            key=draft_key,
-            height=100,
-            placeholder="Type your response here, or click 🎤 Speak to record...",
-            label_visibility="collapsed",
-        )
-
-    with send_col:
-        send_clicked = st.button("Send →", type="primary", use_container_width=True)
+    with right_col:
+        with st.form(key=f"response_form_{gen}", clear_on_submit=True):
+            text_col, send_col = st.columns([9, 2])
+            with text_col:
+                typed = st.text_area(
+                    "response",
+                    key=draft_key,
+                    height=100,
+                    placeholder="Type your response here, or click 🎤 Speak to record...",
+                    label_visibility="collapsed",
+                )
+            with send_col:
+                send_clicked = st.form_submit_button("Send →", type="primary", use_container_width=True)
 
     # Enter key sends (Shift+Enter = newline)
     components.html("""
@@ -1257,15 +1258,12 @@ else:
             ta.addEventListener('keydown', function(e) {
                 if (e.key === 'Enter' && !e.shiftKey) {
                     e.preventDefault();
-                    ta.blur();
-                    setTimeout(function() {
-                        var btns = window.parent.document.querySelectorAll('button');
-                        for (var i = 0; i < btns.length; i++) {
-                            if (btns[i].innerText.trim().startsWith('Send')) {
-                                btns[i].click(); break;
-                            }
+                    var btns = window.parent.document.querySelectorAll('button');
+                    for (var i = 0; i < btns.length; i++) {
+                        if (btns[i].innerText.trim().startsWith('Send')) {
+                            btns[i].click(); break;
                         }
-                    }, 100);
+                    }
                 }
             });
         }
