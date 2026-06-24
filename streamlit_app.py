@@ -126,7 +126,7 @@ Do not ask the participant to explain more just because the answer is short.
 Do not ask the participant to rephrase unless the meaning is unclear and the clarification is important.
 The interface includes a textbox, a microphone button, and a "suggestions" button.
 Suggestions are an optional accessibility support to the participants. They are not the default interview mode.
-But you must include suggestions with the question to give them options to select from the suggestions.
+Suggestions must be included with the question to give the participants options to select from the suggestions.
 Only show suggestions when:
 - the participant clicks or asks for suggestions,
 - the participant seems unsure or asks for examples,
@@ -614,6 +614,7 @@ clarification — use when the participant's last answer contained an abbreviati
 Do not include internal reasoning in the JSON.
 Do not show question_id, such as "A1" to the participant.
 The participant should see only message_to_participant.
+suggestions_if_requested must not be empty.
 The suggestions in suggestions_if_requested are for the suggestions button. Do not show them automatically unless the participant clicks the suggestions button or the interface requests them.
 The participant may always type, speak, select one suggestion, select multiple suggestions, combine selected suggestions with typed text, or skip. The interface should allow these options by default.
 """
