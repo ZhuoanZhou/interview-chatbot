@@ -155,8 +155,6 @@ Do not ask a follow-up only because the answer is short.
 Ask at most one follow-up after a main question unless the participant clearly wants to say more.
 If the participant skips, says "I don't know," seems tired, gives minimal answers, or appears frustrated, accept the answer and move on.
 If the participant has already answered a later topic, do not ask the same thing again. Mark that topic as covered and move to the next useful topic.
-If the participant's response contains abbreviations, shorthand, or terms that could be interpreted multiple ways (e.g., "pwd", "ppl", "AAC" used without context, or a word that may be a transcription error), treat the meaning as unclear. Begin the response by stating your interpretation — "It sounds like you mean [X]" — and ask them to confirm before moving on. Keep this short.
-
 Target length: 6–8 main questions, with 0–3 total follow-ups.
 If participant burden appears high, use the short version, reduce follow-ups, and prioritize the most important questions.
 
@@ -180,6 +178,7 @@ Do not say the participant is doing badly.
 Do not pressure the participant to give longer answers.
 
 # Opening message
+If this is the start of the interview, use this opening:
 Thank you for meeting with us.
 We are interested in your everyday experiences communicating with other people, especially times when someone has trouble understanding you.
 Later, we will show you a short demo of an early technology idea and ask what you think about it.
@@ -187,8 +186,8 @@ This is not a test of you. We are learning from your experience.
 There are no right or wrong answers. Short answers are fine. You can skip any question.
 You can answer by speaking, typing, choosing suggested answers, or using a mix of these.
 If helpful, you can press the suggestions button to see possible answers.
-
-The opening above has already been displayed to the participant by the interface before the interview started. Do not repeat it. 
+Do you have any questions before we begin?
+If the opening has already been shown and the participant has no questions, proceed to A1.
 
 # Interview guide
 ## Section A. Everyday communication
@@ -591,7 +590,7 @@ PARTICIPANT_BURDEN_NOTES:
 Any observed signs of burden, fatigue, frustration, slow typing, repeated skipping, or preference for suggestions.
 
 # Task
-Generate the next interview question or follow-up. Begin message_to_participant with a one-sentence natural acknowledgment of what you understood from the participant's last answer (e.g., "Got it — so you mainly use gestures when speech doesn't work."). Then ask the next question. If anything in the last answer was ambiguous or abbreviated, reflect your interpretation and invite a quick correction instead of assuming.
+Generate the next interview question or follow-up according to the guide and the interview history.
 Use the participant's previous answers to avoid repetition.
 Prefer moving forward over asking for more detail when the participant gives a short answer.
 Choose the next question based on the participant's prior answer when the guide gives branching instructions.
@@ -605,10 +604,8 @@ Use this format:
   "suggestions_if_requested": [
     {"label": "..."}
   ],
-  "question_type": "main | follow_up | clarification | transition | closing"
+  "question_type": "main | follow_up | transition | closing"
 }
-
-clarification — use when the participant's last answer contained an abbreviation, shorthand, or transcription artifact where the meaning is uncertain. The message should state your interpretation and ask them to confirm before continuing.
 Do not include internal reasoning in the JSON.
 The participant should see only message_to_participant.
 The suggestions in suggestions_if_requested are for the suggestions button. Do not show them automatically unless the participant clicks the suggestions button or the interface requests them.
@@ -866,8 +863,7 @@ def _update_participants_log(user_id, root_folder_id, svc):
 
 def _do_save(user_id, chat, agent_logs, config):
     if not config.get("folder_id") or not config.get("refresh_token"):
-        missing = [k for k in ("folder_id", "refresh_token") if not config.get(k)]
-        raise RuntimeError(f"Drive not configured — missing secrets: {', '.join(missing)}")
+        return False, "Drive not configured."
     svc = _make_service(config)
     root = config["folder_id"]
     pfolder = _get_or_create_folder(f"participant_{user_id}", root, svc)
@@ -886,15 +882,8 @@ def _do_save(user_id, chat, agent_logs, config):
     return True, "Saved."
 
 
-_drive_errors = []
-
 def save_async(user_id, chat, agent_logs, config):
-    def _run():
-        try:
-            _do_save(user_id, chat, agent_logs, config)
-        except Exception as e:
-            _drive_errors.append(str(e))
-    threading.Thread(target=_run, daemon=True).start()
+    threading.Thread(target=lambda: _do_save(user_id, chat, agent_logs, config), daemon=True).start()
 
 
 def save_sync(user_id, chat, agent_logs, config):
@@ -1092,14 +1081,14 @@ if st.session_state.phase == "id_entry":
 if st.session_state.phase == "intro":
 
     INTRO_TEXT = (
-        "Thank you for meeting with us.\n\n"
-        "We are interested in your everyday experiences communicating with other people, "
-        "especially times when someone has trouble understanding you.\n\n"
-        "Later, we will show you a short demo of an early technology idea and ask what you think about it.\n\n"
-        "This is not a test of you. We are learning from your experience.\n\n"
-        "There are no right or wrong answers. Short answers are fine. You can skip any question.\n\n"
-        "You can answer by speaking, typing, choosing suggested answers, or using a mix of these.\n\n"
-        "If helpful, you can press the suggestions button to see possible answers."
+        "Thank you for attending this interview today.\n\n"
+        "We are studying an idea for helping people when others have trouble understanding their speech. "
+        "The idea is to use speech transcription as a starting point, and allow the text to be edited "
+        "if needed to help repair meaning.\n\n"
+        "Later in the interview, we will show you a short demo of the idea and ask what you think about it.\n\n"
+        "This is not a test of you. We are testing the idea and learning from your experience.\n\n"
+        "You can answer by selecting choices and typing extra comments if you want. "
+        "You can skip any question, take a break, or stop at any time."
     )
 
     st.markdown(INTRO_TEXT)
@@ -1131,8 +1120,6 @@ with st.sidebar:
         "Keep this ID safe. If you need to leave and continue later, "
         "use the **Returning participant** tab on the start screen and enter this ID."
     )
-    if _drive_errors:
-        st.error(f"⚠️ Drive save error: {_drive_errors[-1]}")
 
 
 # Render chat history
@@ -1347,4 +1334,6 @@ else:
                 transcript = _transcribe(audio_bytes)
             if transcript:
                 st.session_state._prefill = transcript
-      
+                st.rerun()
+            else:
+                st.warning("Could not transcribe. Please try again or type your response.")
