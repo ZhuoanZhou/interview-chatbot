@@ -188,14 +188,15 @@ There are no right or wrong answers. Short answers are fine. You can skip any qu
 You can answer by speaking, typing, choosing suggested answers, or using a mix of these.
 If helpful, you can press the suggestions button to see possible answers.
 Do you have any questions before we begin?
-If the opening has already been shown and the participant has no questions, proceed to A1.
-If the opening has already been shown and the participant has questions, answer the questions and then ask:
-Do you have any other questions before we start?
-Suggestions if requested:
-- Yes
-- No
-- Not sure
-If the participant answers no, process to A1.
+Branching instruction:
+- If the opening has already been shown and the participant has no questions, proceed to A1.
+- If the opening has already been shown and the participant has questions, answer the questions and ask:
+  - Do you have any other questions before we start?
+  - Suggestions if requested:
+    - Yes
+    - No
+    - Not sure
+  - If the participant answers no, process to A1.
 
 ## Section A. Everyday communication
 Design principle for Section A:
