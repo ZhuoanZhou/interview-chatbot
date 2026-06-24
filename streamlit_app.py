@@ -610,6 +610,7 @@ Use this format:
 
 clarification — use when the participant's last answer contained an abbreviation, shorthand, or transcription artifact where the meaning is uncertain. The message should state your interpretation and ask them to confirm before continuing.
 Do not include internal reasoning in the JSON.
+Do not show question_id, such as "A1" to the participant.
 The participant should see only message_to_participant.
 The suggestions in suggestions_if_requested are for the suggestions button. Do not show them automatically unless the participant clicks the suggestions button or the interface requests them.
 The participant may always type, speak, select one suggestion, select multiple suggestions, combine selected suggestions with typed text, or skip. The interface should allow these options by default.
