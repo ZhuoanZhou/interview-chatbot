@@ -4,12 +4,13 @@
 function fixMicBtn() {
     var btn = document.querySelector('.myButton');
     if (btn) {
-        btn.style.height = '130px';
+        btn.style.height = '96px';
         btn.style.width = '100%';
         btn.style.boxSizing = 'border-box';
         btn.style.fontSize = '1.1rem';
+        btn.style.marginBottom = '4px';
     }
-    window.parent.postMessage({type: 'streamlit:setFrameHeight', height: 130}, '*');
+    window.parent.postMessage({type: 'streamlit:setFrameHeight', height: 100}, '*');
 }
 window.addEventListener('load', function() {
     fixMicBtn();
