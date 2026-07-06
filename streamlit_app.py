@@ -312,7 +312,7 @@ Understand variation by listener, setting, fatigue, urgency, and communication c
 
 A7. Desired support before demo
 Main question:
-What would you want help with, if anything?
+What kind of help would you want, if anything, to be understood more easily?
 Suggestions if requested:
 - Helping others understand my speech
 - Reducing how much I repeat
