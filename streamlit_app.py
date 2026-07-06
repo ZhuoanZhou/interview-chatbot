@@ -703,7 +703,7 @@ def _build_interview_history(chat):
                 user_msg = msgs[i]
                 # Read structured fields stored at submission time
                 selected = user_msg.get("selected_suggestions", [])
-                free = user_msg.get("free_text", user_msg.get("content", "")) or None
+                free = user_msg.get("free_text", user_msg.get("content", ""))
                 entry["participant_response"] = {
                     "selected_suggestions": selected,
                     "free_text": free,
