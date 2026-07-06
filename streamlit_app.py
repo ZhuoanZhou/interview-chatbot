@@ -1252,30 +1252,26 @@ else:
     q_key = current_q_msg.get("question_id", "q") if current_q_msg else "q"
 
     # ── Speak | Text area | Send ──────────────────────────────────────────────
-    mic_col, right_col = st.columns([1, 11])
-
-    with mic_col:
-        audio = mic_recorder(
-            start_prompt="🎤  Speak",
-            stop_prompt="⏹️  Stop",
-            just_once=True,
-            use_container_width=True,
-            key="mic",
-        )
-
-    with right_col:
-        with st.form(key=f"response_form_{gen}", clear_on_submit=True):
-            text_col, send_col = st.columns([9, 2])
-            with text_col:
-                typed = st.text_area(
-                    "response",
-                    key=draft_key,
-                    height=100,
-                    placeholder="Type your response here, or click 🎤 Speak to record...",
-                    label_visibility="collapsed",
-                )
-            with send_col:
-                send_clicked = st.form_submit_button("Send →", type="primary", use_container_width=True)
+    with st.form(key=f"response_form_{gen}", clear_on_submit=True):
+        mic_col, text_col, send_col = st.columns([1, 9, 2])
+        with mic_col:
+            audio = mic_recorder(
+                start_prompt="🎤  Speak",
+                stop_prompt="⏹️  Stop",
+                just_once=True,
+                use_container_width=True,
+                key="mic",
+            )
+        with text_col:
+            typed = st.text_area(
+                "response",
+                key=draft_key,
+                height=100,
+                placeholder="Type your response here, or click 🎤 Speak to record...",
+                label_visibility="collapsed",
+            )
+        with send_col:
+            send_clicked = st.form_submit_button("Send →", type="primary", use_container_width=True)
 
     # Enter key sends (Shift+Enter = newline)
     components.html("""
