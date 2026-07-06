@@ -1029,11 +1029,13 @@ div[data-testid="stTextArea"] textarea {
     line-height: 1.7 !important; border-radius: 14px !important;
     padding: 14px 18px !important; resize: none !important;
 }
-div[data-testid="stButton"] button[kind="primary"] {
+div[data-testid="stButton"] button[kind="primary"],
+div[data-testid="stFormSubmitButton"] button[kind="primaryFormSubmit"] {
     font-size: 1rem !important;
     border-radius: 8px !important; width: 100% !important;
 }
-[data-testid="stColumn"] div[data-testid="stButton"] button[kind="primary"] {
+[data-testid="stColumn"] div[data-testid="stButton"] button[kind="primary"],
+[data-testid="stColumn"] div[data-testid="stFormSubmitButton"] button[kind="primaryFormSubmit"] {
     height: 100px !important;
 }
 [data-testid="stColumn"] iframe {
