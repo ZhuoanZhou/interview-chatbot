@@ -594,7 +594,7 @@ PARTICIPANT_BURDEN_NOTES:
 Any observed signs of burden, fatigue, frustration, slow typing, repeated skipping, or preference for suggestions.
 
 # Task
-Generate the next interview question or follow-up. Begin message_to_participant with a one-sentence natural acknowledgment of what you understood from the participant's last answer (e.g., "Got it — so you mainly use gestures when speech doesn't work."). Then ask the next question. If anything in the last answer was ambiguous or abbreviated, reflect your interpretation and invite a quick correction instead of assuming.
+Generate the next interview question or follow-up. Begin message_to_participant with a one-sentence natural acknowledgment of what you understood from the participant's last answer (e.g., "Got it — so you mainly use gestures when speech doesn't work." "Ok, "pwd" means people with dysarthria."). Then ask the next question. If anything in the last answer was ambiguous or abbreviated, reflect your interpretation and invite a quick correction instead of assuming.
 Use the participant's previous answers to avoid repetition.
 Prefer moving forward over asking for more detail when the participant gives a short answer.
 Choose the next question based on the participant's prior answer when the guide gives branching instructions.
