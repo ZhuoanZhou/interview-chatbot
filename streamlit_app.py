@@ -713,25 +713,46 @@ def _build_interview_history(chat):
     return history
 
 
+_A1_RESULT = {
+    "question_id": "A1",
+    "message_to_participant": "Who do you communicate with most often?",
+    "suggestions_if_requested": [
+        {"label": "Family"},
+        {"label": "Friends"},
+        {"label": "Caregivers or support workers"},
+        {"label": "Doctors or health workers"},
+        {"label": "People at work or school"},
+        {"label": "Store or service workers"},
+        {"label": "Other"},
+        {"label": "Skip"},
+    ],
+    "question_type": "main",
+}
+
+
 def run_agent_turn():
     chat = st.session_state.chat
     demo_status = st.session_state.get("demo_status", "not_shown")
 
-    # Count skips / short answers for burden notes
-    skip_count = sum(
-        1 for m in chat
-        if m.get("role") == "user" and m.get("content", "").lower().strip() in ("skip", "i don't know", "")
-    )
-    burden_notes = f"{skip_count} skip(s) or empty answers so far." if skip_count else "No signs of high burden observed."
+    # First question is always A1 — no LLM call needed
+    if not any(m.get("role") == "user" for m in chat):
+        result = _A1_RESULT.copy()
+    else:
+        # Count skips / short answers for burden notes
+        skip_count = sum(
+            1 for m in chat
+            if m.get("role") == "user" and m.get("content", "").lower().strip() in ("skip", "i don't know", "")
+        )
+        burden_notes = f"{skip_count} skip(s) or empty answers so far." if skip_count else "No signs of high burden observed."
 
-    history = _build_interview_history(chat)
-    user_prompt = (
-        f"INTERVIEW_HISTORY:\n{json.dumps(history, indent=2)}\n\n"
-        f"DEMO_STATUS:\n{demo_status}\n\n"
-        f"PARTICIPANT_BURDEN_NOTES:\n{burden_notes}"
-    )
+        history = _build_interview_history(chat)
+        user_prompt = (
+            f"INTERVIEW_HISTORY:\n{json.dumps(history, indent=2)}\n\n"
+            f"DEMO_STATUS:\n{demo_status}\n\n"
+            f"PARTICIPANT_BURDEN_NOTES:\n{burden_notes}"
+        )
 
-    result = _call_llm_json(_AGENT_SYSTEM, user_prompt, label="agent")
+        result = _call_llm_json(_AGENT_SYSTEM, user_prompt, label="agent")
 
     # Detect end-of-interview
     q_type = result.get("question_type", "")
