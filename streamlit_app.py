@@ -564,19 +564,19 @@ A compact record of the interview so far. This should include the question IDs a
 Example:
 [
     {
-        "question_id": "A1",
-        "message_to_participant": "Who do you communicate with most often?",
+        "question_id": "AX",
+        "message_to_participant": <question text>,
         "participant_response": {
-            "selected_suggestions": ["Family"],
+            "selected_suggestions": ["<selected option 1>"],
             "free_text": ""
         }
     },
     {
-        "question_id": "A2",
-        "message_to_participant": "When someone does not understand you, what do you usually do?",
+        "question_id": "BY",
+        "message_to_participant": "<question text>",
         "participant_response": {
-            "selected_suggestions": ["Gesture or point", "Type or write"],
-            "free_text": "wife helps"
+            "selected_suggestions": ["<selected option 1>", "<selected option 2>"],
+            "free_text": "<typed text>"
         }
     }
 ]
