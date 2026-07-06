@@ -1039,7 +1039,7 @@ div[data-testid="stFormSubmitButton"] button[kind="primaryFormSubmit"] {
     height: 100px !important;
 }
 [data-testid="stColumn"] iframe {
-    height: 100px !important; min-height: 100px !important;
+    height: 130px !important; min-height: 130px !important;
     width: 100% !important;
 }
 /* Multiple Choice Options toggle button */
