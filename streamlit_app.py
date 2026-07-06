@@ -1042,7 +1042,14 @@ div[data-testid="stFormSubmitButton"] button[kind="primaryFormSubmit"] {
     height: 100px !important; min-height: 100px !important;
     width: 100% !important;
 }
-/* Option grid cards */
+/* Multiple Choice Options toggle button */
+div[data-testid="stButton"] button[kind="secondary"] {
+    height: 100px !important;
+    width: 100% !important;
+    font-size: 1rem !important;
+    border-radius: 8px !important;
+}
+/* Option grid cards (overrides above due to higher specificity) */
 div[data-testid="stColumn"] div[data-testid="stButton"] button[kind="secondary"] {
     min-height: 90px !important; height: auto !important;
     white-space: normal !important; word-break: break-word !important;
