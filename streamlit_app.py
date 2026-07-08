@@ -931,6 +931,50 @@ def save_sync(user_id, chat, agent_logs, config):
         return False, str(e)
 
 
+def _save_audio_async(user_id, question_id, audio_bytes, transcript, config):
+    """Save a .webm recording and update audio_log.json in Drive (async)."""
+    def _run():
+        try:
+            if not config.get("folder_id") or not config.get("refresh_token"):
+                return
+            svc = _make_service(config)
+            root = config["folder_id"]
+            pfolder = _get_or_create_folder(f"participant_{user_id}", root, svc)
+            afolder = _get_or_create_folder("audio", pfolder, svc)
+
+            ts = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
+            filename = f"{question_id}_{ts}.webm"
+
+            # Upload the audio file
+            from googleapiclient.http import MediaIoBaseUpload
+            media = MediaIoBaseUpload(
+                io.BytesIO(audio_bytes), mimetype="audio/webm"
+            )
+            svc.files().create(
+                body={"name": filename, "parents": [afolder]},
+                media_body=media,
+            ).execute()
+
+            # Update audio_log.json
+            q = f"name='audio_log.json' and '{pfolder}' in parents and trashed=false"
+            existing = svc.files().list(q=q, fields="files(id)").execute().get("files", [])
+            log = json.loads(_download_bytes(existing[0]["id"], svc).decode("utf-8")) if existing else []
+            log.append({
+                "timestamp": ts,
+                "question_id": question_id,
+                "filename": filename,
+                "transcript": transcript,
+            })
+            _upsert_bytes(
+                "audio_log.json",
+                json.dumps(log, ensure_ascii=False, indent=2).encode("utf-8"),
+                pfolder, svc,
+            )
+        except Exception as e:
+            _drive_errors.append(f"Audio save error: {e}")
+    threading.Thread(target=_run, daemon=True).start()
+
+
 def restore_from_drive(participant_id, config):
     try:
         if not config.get("folder_id") or not config.get("refresh_token"):
@@ -1385,4 +1429,11 @@ else:
                 transcript = _transcribe(audio_bytes)
             if transcript:
                 st.session_state._prefill = transcript
+                _save_audio_async(
+                    user_id,
+                    q_key,
+                    audio_bytes,
+                    transcript,
+                    cfg,
+                )
                 st.rerun()
