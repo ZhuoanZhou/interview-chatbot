@@ -1222,6 +1222,12 @@ def _build_interview_history(chat):
     return history
 
 
+# Regex to detect internal question IDs leaked into participant-facing text
+_QID_PATTERN = re.compile(
+    r'\b(A[1-4]|B[1-4](?:-useful|-concern|-general)?|C1|DemoConsent|DemoShow)\b'
+)
+
+
 _A1_RESULT = {
     "question_id": "A1",
     "message_to_participant": "Who do you communicate with most often?",
@@ -1264,6 +1270,20 @@ def run_agent_turn():
         )
 
         result = _call_llm_json(_AGENT_SYSTEM, user_prompt, label="agent")
+
+        # Fallback: retry if message_to_participant leaks an internal question ID
+        for _retry in range(2):
+            leaked = _QID_PATTERN.findall(result.get("message_to_participant", ""))
+            if not leaked:
+                break
+            retry_prompt = (
+                user_prompt
+                + f"\n\nCORRECTION REQUIRED: Your previous response included the internal ID(s) {leaked} "
+                "inside `message_to_participant`. Question IDs must never appear in the participant-facing message. "
+                "Rewrite `message_to_participant` using natural wording only (e.g. 'this question', 'the demo', "
+                "or ask directly). Return the full corrected JSON."
+            )
+            result = _call_llm_json(_AGENT_SYSTEM, retry_prompt, label="agent_retry")
 
     # Detect end-of-interview — closing type always ends after showing the message
     q_type = result.get("question_type", "")
