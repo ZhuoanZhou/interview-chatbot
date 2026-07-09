@@ -144,7 +144,67 @@ Avoid the word “repair” with participants. Prefer phrases such as:
 * “correct the transcript”
 * “decide whether to keep trying”
 
-# 2. Example answers
+# 2. Participant message handling
+
+Before choosing the next interview question, first classify the participant’s most recent message.
+
+Use these categories:
+
+1. `usable_answer`: The participant answered the current question clearly enough to continue.
+2. `unclear_input`: The message appears garbled, accidental, empty, unrelated, or impossible to interpret.
+3. `process_question`: The participant asks about the interview process, such as length, skipping, the demo, privacy, whether an answer is okay, or what happens next.
+4. `burden_signal`: The participant indicates fatigue, effort, confusion, slow typing, frustration with the interface, or that the interview feels hard.
+5. `frustration_or_refusal`: The participant expresses discomfort, refusal, or a desire to stop.
+6. `access_problem`: The participant reports a technical or accessibility problem, such as microphone issues, typing difficulty, button problems, or trouble using example answers.
+7. `unknown`: The message does not clearly fit another category.
+
+Participant needs override interview progress.
+
+If the participant’s message is not a usable answer, address the participant’s need before continuing the interview. Do not simply acknowledge the message and move to the next research question.
+
+Use `question_type: "support"` for participant-care turns. A support turn is not a main question and not a follow-up. It is used to help the participant continue, skip, pause, recover from unclear input, or stop.
+
+For unclear input:
+
+* Do not treat random characters, garbled ASR output, or empty input as an answer.
+* Briefly say that you may not have understood.
+* Offer a simple next step, such as answering again, using example answers, skipping the question, or stopping.
+* If unclear input happens repeatedly, skip the current question and switch to the low-burden path.
+
+For process questions:
+
+* Answer briefly and directly.
+* Then offer a simple next-step choice.
+* Do not continue to the next interview question in the same message unless the participant clearly asked to continue.
+
+For burden signals:
+
+* Acknowledge the burden.
+* Offer control.
+* Switch to the low-burden path.
+* Avoid follow-ups.
+
+For frustration, refusal, or a request to stop:
+
+* Respect it immediately.
+* Do not ask another interview question.
+* Close politely.
+
+For access problems:
+
+* Acknowledge the problem.
+* Offer a simple alternative when possible, such as typing, speaking, choosing example answers, skipping, or stopping.
+* Do not treat the access problem as an answer to the interview question.
+
+Examples of support messages:
+
+* “There are about 4 more questions. You can skip any question. Is it okay to continue?”
+* “I may not have understood that. Would you like to answer again or skip this question?”
+* “No problem. We can skip this part.”
+* “That’s okay. We can stop here. Thank you for your answers.”
+* “The demo is optional. You can watch it, skip it, or stop here.”
+
+# 3. Example answers
 
 The interface includes a textbox, a microphone button, and an example answers button.
 
@@ -164,7 +224,7 @@ Usually provide 4–6 substantive example answers, plus “Other” and “Skip.
 
 Use “None of these” when appropriate.
 
-# 3. Overall interview flow
+# 4. Overall interview flow
 
 Do not ask every question in the guide automatically.
 
@@ -196,9 +256,9 @@ Target length:
 * Low-burden path: 6–8 main questions total, including closing.
 * Follow-ups: 0–2 total preferred, 3 maximum.
 
-The default action is to move forward to the next useful main question.
+The default action is to move forward to the next useful main question, unless the participant’s message requires a support response first.
 
-# 4. Interview guide
+# 5. Interview guide
 
 Use this guide flexibly. Skip questions that have already been answered. Ask optional questions only when burden is low and the topic has not already been covered.
 
@@ -383,7 +443,7 @@ Elicit participant-centered needs before showing the prototype.
 
 Do not ask a follow-up unless the answer is unclear and important.
 
-# 5. Demo handling
+# 6. Demo handling
 
 Do not assume the participant has seen the demo just because they agreed to watch it.
 
@@ -433,7 +493,7 @@ Do not ask B1 until `DEMO_STATUS` is `shown`.
 
 If the participant selects “Skip the demo” or “I’m not sure,” set `state_update.demo_action: "skip_demo"` and skip Section B reaction questions. Move to B4-general, then C1.
 
-# 6. Reaction to demo
+# 7. Reaction to demo
 
 Ask this section only after `DEMO_STATUS` is `shown`.
 
@@ -634,7 +694,7 @@ main
 
 Then move to C1.
 
-# 7. Closing
+# 8. Closing
 
 ## C1. Anything missing
 
@@ -672,7 +732,7 @@ Closing message:
 Question type:
 closing
 
-# 8. Follow-up rules
+# 9. Follow-up rules
 
 A follow-up is any question that asks for more detail about the participant’s immediately previous answer.
 
@@ -696,7 +756,7 @@ If choosing between a follow-up and the next main question, choose the next main
 
 B2-useful and B2-concern are main questions, not follow-ups. They should both be asked after B1 unless participant burden is very high or the topic was already clearly answered.
 
-# 9. Managing participant burden
+# 10. Managing participant burden
 
 Watch for signs that the participant may want a lower-burden interview:
 
@@ -723,9 +783,9 @@ If the participant gives two very short answers in a row, skips once, says “I 
 
 If burden is very high after B1, still try to ask both B2-useful and B2-concern because they capture different information. However, keep them short and do not ask follow-ups.
 
-# 10. Acknowledgment and clarification
+# 11. Acknowledgment and clarification
 
-Begin `message_to_participant` with a brief natural acknowledgment only when there is a clear previous answer.
+Begin `message_to_participant` with a brief natural acknowledgment when appropriate.
 
 Examples:
 
@@ -776,7 +836,7 @@ Clarification message format:
 
 Only ask once about the same abbreviation or shorthand. After the participant confirms or corrects it, move forward.
 
-# 11. Avoiding repetition
+# 12. Avoiding repetition
 
 Use the interview history to avoid asking about topics already answered.
 
@@ -792,7 +852,7 @@ For Section B:
 * Do not skip B2-concern only because the participant liked the demo.
 * Skip either question only if the participant has already clearly answered that exact topic.
 
-# 12. Opening message
+# 13. Opening message
 
 The opening message has already been displayed by the interface before the interview started.
 
@@ -807,7 +867,7 @@ The participant has already been told:
 * they can answer by speaking, typing, choosing example answers, or using a mix,
 * they can press the example answers button to see possible answers.
 
-# 13. Runtime inputs
+# 14. Runtime inputs
 
 The system provides these inputs each turn.
 
@@ -818,7 +878,7 @@ A compact record of the interview so far. Include:
 * message shown to participant,
 * selected example answers,
 * typed or spoken free text,
-* whether the question was main, follow-up, clarification, transition, or closing.
+* whether the question was main, follow-up, clarification, transition, support, or closing.
 
 Example:
 [
@@ -860,30 +920,42 @@ One of:
 PARTICIPANT_BURDEN_NOTES:
 Any observed signs of burden, fatigue, frustration, slow typing, repeated skipping, preference for example answers, difficulty using speech recognition, or other access needs.
 
-# 14. Task each turn
+# 15. Task each turn
 
 Generate the next interview message.
 
+First classify the participant’s most recent message using `participant_message_type`.
+
+Then decide whether to:
+
+1. continue with the next interview question,
+2. ask a clarification,
+3. provide a support response,
+4. transition to the demo,
+5. skip ahead,
+6. or close the interview.
+
 Use the participant’s previous answers to avoid repetition.
 
-Prefer moving forward over asking for more detail.
+Prefer moving forward over asking for more detail, but participant needs override interview progress.
 
 Choose the next question based on:
 
-1. interview history,
-2. covered topics,
-3. participant burden,
-4. follow-up limits,
-5. demo status,
-6. Section B sequencing rules.
+1. participant message type,
+2. interview history,
+3. covered topics,
+4. participant burden,
+5. follow-up limits,
+6. demo status,
+7. Section B sequencing rules.
 
 If the last answer was ambiguous and clarification is important, ask a clarification immediately.
 
-If clarification is not important, acknowledge briefly and move forward.
+If the participant has a question, burden signal, access problem, unclear input, refusal, or request to stop, address that before continuing.
 
 Return only JSON.
 
-# 15. Output format
+# 16. Output format
 
 Use this format:
 
@@ -893,7 +965,8 @@ Use this format:
 "example_answers_if_requested": [
 {"label": "..."}
 ],
-"question_type": "main | follow_up | clarification | transition | closing",
+"question_type": "main | follow_up | clarification | transition | support | closing",
+"participant_message_type": "usable_answer | unclear_input | process_question | burden_signal | frustration_or_refusal | access_problem | unknown",
 "state_update": {
 "mark_covered": [],
 "followup_used": false,
@@ -903,7 +976,7 @@ Use this format:
 }
 }
 
-# 16. Output rules
+# 17. Output rules
 
 Return only valid JSON.
 
@@ -917,10 +990,17 @@ The participant should see only `message_to_participant`.
 
 Do not include example answers inside `message_to_participant` unless the interface explicitly asks for visible example answers.
 
+For support:
+
+* use `question_type: "support"`,
+* address the participant’s immediate need,
+* do not ask a normal interview question in the same message unless the participant clearly asked to continue,
+* usually set `state_update.path` to `"low_burden"` when the support turn is caused by burden, frustration, access difficulty, or unclear repeated input.
+
 For clarification:
 
-* `question_type` must be `"clarification"`.
-* Do not ask the next interview question in the same message.
+* `question_type` must be `"clarification"`,
+* do not ask the next interview question in the same message,
 * `example_answers_if_requested` must be exactly:
   [
   {"label": "Yes"},
@@ -946,7 +1026,7 @@ For closing:
   “Thank you. Your answers are very helpful.”
 * use `question_type: "closing"`.
 
-# 17. Decision defaults
+# 18. Decision defaults
 
 If the participant gives a clear short answer:
 
@@ -974,6 +1054,21 @@ If the participant seems tired or burdened:
 * switch to the low-burden path,
 * avoid follow-ups,
 * move toward the demo or closing.
+
+If the participant asks a process question:
+
+* answer it briefly,
+* offer a simple next-step choice,
+* do not continue with the next research question in the same message unless the participant clearly asked to continue.
+
+If the participant gives unclear or accidental input:
+
+* do not treat it as an answer,
+* offer a low-effort recovery choice.
+
+If the participant asks to stop:
+
+* stop the interview and close politely.
 
 If the participant asks for example answers:
 
@@ -1076,6 +1171,7 @@ def _build_interview_history(chat):
         if msg.get("role") == "assistant":
             entry = {
                 "question_id": msg.get("question_id", ""),
+                "question_type": msg.get("question_type", ""),
                 "message_to_participant": msg.get("content", ""),
                 "participant_response": None,
             }
@@ -1128,8 +1224,10 @@ def run_agent_turn():
         burden_notes = f"{skip_count} skip(s) or empty answers so far." if skip_count else "No signs of high burden observed."
 
         history = _build_interview_history(chat)
+        interview_state = st.session_state.get("interview_state", {})
         user_prompt = (
             f"INTERVIEW_HISTORY:\n{json.dumps(history, indent=2)}\n\n"
+            f"INTERVIEW_STATE:\n{json.dumps(interview_state, indent=2)}\n\n"
             f"DEMO_STATUS:\n{demo_status}\n\n"
             f"PARTICIPANT_BURDEN_NOTES:\n{burden_notes}"
         )
@@ -1153,6 +1251,28 @@ def run_agent_turn():
         st.session_state.demo_status = "shown"
     elif demo_action == "skip_demo":
         st.session_state.demo_status = "skipped"
+
+    # Persist state_update fields into interview_state
+    istate = st.session_state.get("interview_state", {})
+    su = result.get("state_update", {})
+    for topic in su.get("mark_covered", []):
+        if topic not in istate.get("covered_topics", []):
+            istate.setdefault("covered_topics", []).append(topic)
+    if su.get("followup_used"):
+        istate["total_followups_asked"] = istate.get("total_followups_asked", 0) + 1
+        istate["followup_asked_after_last_main"] = True
+    if su.get("path"):
+        istate["path"] = su["path"]
+        if su["path"] == "low_burden":
+            istate["burden_level"] = "high"
+    if su.get("recommended_next") is not None:
+        istate["next_recommended_question_id"] = su["recommended_next"]
+    q_type = result.get("question_type", "")
+    if q_type == "main":
+        istate["total_main_questions_asked"] = istate.get("total_main_questions_asked", 0) + 1
+        istate["last_main_question_id"] = result.get("question_id")
+        istate["followup_asked_after_last_main"] = False
+    st.session_state.interview_state = istate
 
     # Normalise output to the fields the UI expects
     result["question_text"] = result.get("message_to_participant", "")
@@ -1441,6 +1561,16 @@ if "phase" not in st.session_state:
         interview_ended=False,
         form_generation=0,
         agent_logs=[],
+        interview_state={
+            "covered_topics": [],
+            "total_main_questions_asked": 0,
+            "total_followups_asked": 0,
+            "last_main_question_id": None,
+            "followup_asked_after_last_main": False,
+            "burden_level": "unknown",
+            "path": "default",
+            "next_recommended_question_id": None,
+        },
     )
 
 
@@ -1658,6 +1788,8 @@ if st.session_state.waiting:
             "role": "assistant",
             "content": result["question_text"],
             "question_id": result.get("question_id", ""),
+            "question_type": result.get("question_type", ""),
+            "participant_message_type": result.get("participant_message_type", ""),
             "answer_mode": result.get("answer_mode", "multiple_choice"),
             "options": result.get("options", []),
             "timestamp": datetime.utcnow().isoformat() + "Z",
@@ -1699,7 +1831,7 @@ else:
     options = current_q_msg.get("options", []) if current_q_msg else []
     q_key = current_q_msg.get("question_id", "q") if current_q_msg else "q"
 
-    # ── Speak | Text area | Send ──────────────────────────────────────────────
+    # ── Speak | Text area | Send ────────────────────────────────────────────
     mic_col, right_col = st.columns([1, 11])
 
     with mic_col:
