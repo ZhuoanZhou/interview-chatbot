@@ -1107,6 +1107,14 @@ div[data-testid="stColumn"] div[data-testid="stButton"] button[kind="secondary"]
     background-color: #f0f4ff !important;
     color: #1a237e !important;
 }
+/* Speak + MCO row: never stack, and fix MCO button to same 100px height as Speak */
+div[data-testid="stColumns"]:has(iframe) {
+    flex-wrap: nowrap !important;
+}
+div[data-testid="stColumns"]:has(iframe) div[data-testid="stButton"] button[kind="secondary"] {
+    height: 100px !important; min-height: 100px !important;
+    width: 100% !important;
+}
 </style>
 """, unsafe_allow_html=True)
 
