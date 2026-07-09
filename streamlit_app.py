@@ -1087,7 +1087,7 @@ div[data-testid="stFormSubmitButton"] button[kind="primaryFormSubmit"] {
 }
 [data-testid="stColumn"] iframe {
     height: 100px !important; min-height: 100px !important;
-    width: 96px !important; max-width: 96px !important;
+    width: 100% !important; max-width: 96px !important;
 }
 /* Multiple Choice Options toggle button */
 div[data-testid="stButton"] button[kind="secondary"] {
@@ -1095,6 +1095,8 @@ div[data-testid="stButton"] button[kind="secondary"] {
     width: 100% !important;
     font-size: 1rem !important;
     border-radius: 8px !important;
+    background-color: #f0f4ff !important;
+    color: #1a237e !important;
 }
 /* Option grid cards (overrides above due to higher specificity) */
 div[data-testid="stColumn"] div[data-testid="stButton"] button[kind="secondary"] {
