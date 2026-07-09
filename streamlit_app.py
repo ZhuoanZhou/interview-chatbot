@@ -1218,30 +1218,30 @@ with st.sidebar:
 # Render chat history
 _first_assistant_seen = False
 for msg in st.session_state.chat:
-    if msg.get(“role”) == “video”:
-        st.markdown(“#### Demo Video”)
-        st.markdown(“<p style='font-size:18px; color:black;'>Please watch the short demo video below before answering the next question.</p>”, unsafe_allow_html=True)
+    if msg.get("role") == "video":
+        st.markdown("#### Demo Video")
+        st.markdown("<p style='font-size:18px; color:black;'>Please watch the short demo video below before answering the next question.</p>", unsafe_allow_html=True)
         _video_bytes = _load_demo_video_bytes()
         if _video_bytes:
             _, vid_col, _ = st.columns([1, 5, 1])
             with vid_col:
-                st.video(_video_bytes, format=”video/mp4”)
+                st.video(_video_bytes, format="video/mp4")
         else:
-            st.info(“Video unavailable -- please ask the researcher to share the demo link.”)
-    elif msg[“role”] == “assistant”:
-        with st.chat_message(“assistant”):
-            st.write(msg[“content”])
+            st.info("Video unavailable -- please ask the researcher to share the demo link.")
+    elif msg["role"] == "assistant":
+        with st.chat_message("assistant"):
+            st.write(msg["content"])
             if not _first_assistant_seen:
                 st.caption(
-                    “You can respond in whatever way works best for you: “
-                    “click “Speak” to use speech-to-text, “
-                    “click the button below to see multiple-choice options and select one or more, “
-                    “type your own answer, or use any combination of these.”
+                    'You can respond in whatever way works best for you: '
+                    'click "Speak" to use speech-to-text, '
+                    'click the button below to see multiple-choice options and select one or more, '
+                    'type your own answer, or use any combination of these.'
                 )
                 _first_assistant_seen = True
-    elif msg[“role”] == “user”:
-        with st.chat_message(“user”):
-            st.write(msg[“content”])
+    elif msg["role"] == "user":
+        with st.chat_message("user"):
+            st.write(msg["content"])
 
 # State machine
 if st.session_state.waiting:
