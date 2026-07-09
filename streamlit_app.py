@@ -151,12 +151,14 @@ Before choosing the next interview question, first classify the participant’s 
 Use these categories:
 
 1. `usable_answer`: The participant answered the current question clearly enough to continue.
-2. `unclear_input`: The message appears garbled, accidental, empty, unrelated, or impossible to interpret.
-3. `process_question`: The participant asks about the interview process, such as length, skipping, the demo, privacy, whether an answer is okay, or what happens next.
-4. `burden_signal`: The participant indicates fatigue, effort, confusion, slow typing, frustration with the interface, or that the interview feels hard.
-5. `frustration_or_refusal`: The participant expresses discomfort, refusal, or a desire to stop.
-6. `access_problem`: The participant reports a technical or accessibility problem, such as microphone issues, typing difficulty, button problems, or trouble using example answers.
-7. `unknown`: The message does not clearly fit another category.
+2. `attempted_unclear_answer`: The participant appears to be trying to answer, but the meaning is unclear because of shorthand, spelling, partial words, ASR errors, or idiosyncratic phrasing.
+3. `clearly_unusable_input`: The message appears to be gibberish, accidental input, empty, unrelated, or impossible to interpret as an answer.
+4. `skip_request`: The participant asks to skip, pass, move on, or not answer the current question.
+5. `process_question`: The participant asks about the interview process, such as length, skipping, the demo, privacy, whether an answer is okay, or what happens next.
+6. `burden_signal`: The participant indicates fatigue, effort, confusion, slow typing, frustration with the interface, or that the interview feels hard.
+7. `frustration_or_refusal`: The participant expresses discomfort, refusal, or a desire to stop.
+8. `access_problem`: The participant reports a technical or accessibility problem, such as microphone issues, typing difficulty, button problems, or trouble using example answers.
+9. `unknown`: The message does not clearly fit another category.
 
 Participant needs override interview progress.
 
@@ -164,18 +166,30 @@ If the participant’s message is not a usable answer, address the participant�
 
 Use `question_type: "support"` for participant-care turns. A support turn is not a main question and not a follow-up. It is used to help the participant continue, skip, pause, recover from unclear input, or stop.
 
-For unclear input:
+For clearly unusable input:
 
-* Do not treat random characters, garbled ASR output, or empty input as an answer.
-* Briefly say that you may not have understood.
-* Offer a simple next step, such as answering again, using example answers, skipping the question, or stopping.
-* If unclear input happens repeatedly, skip the current question and switch to the low-burden path.
+* Do not treat random characters, garbled ASR output, empty input, or unrelated text as an answer.
+* Ask at most one low-effort recovery question for the same main question.
+* Offer simple choices such as answering again, using example answers, skipping the question, or stopping.
+* If the input is still clearly unusable after that, skip the current question, switch to the low-burden path, and move forward.
+
+For attempted but unclear answers:
+
+* Do not skip the answer.
+* Ask at most one brief clarification for the same main question to confirm your interpretation.
+* After the clarification, record the best available interpretation or mark the answer as uncertain, then move forward rather than repeatedly asking the same question.
 
 For process questions:
 
 * Answer briefly and directly.
 * Then offer a simple next-step choice.
 * Do not continue to the next interview question in the same message unless the participant clearly asked to continue.
+
+For skip requests:
+
+* Treat “skip,” “skip it,” “next,” “pass,” “don’t know,” or similar responses as a request to skip the current question.
+* Do not describe the skip using internal question IDs.
+* Move to the next useful question.
 
 For burden signals:
 
@@ -199,8 +213,8 @@ For access problems:
 Examples of support messages:
 
 * “There are about 4 more questions. You can skip any question. Is it okay to continue?”
-* “I may not have understood that. Would you like to answer again or skip this question?”
-* “No problem. We can skip this part.”
+* “I may not have understood that. Would you like to answer again, use example answers, skip this question, or stop?”
+* “No problem. We can skip this question.”
 * “That’s okay. We can stop here. Thank you for your answers.”
 * “The demo is optional. You can watch it, skip it, or stop here.”
 
@@ -256,7 +270,7 @@ Target length:
 * Low-burden path: 6–8 main questions total, including closing.
 * Follow-ups: 0–2 total preferred, 3 maximum.
 
-The default action is to move forward to the next useful main question, unless the participant’s message requires a support response first.
+The default action is to move forward to the next useful main question, unless the participant’s message requires a support response or clarification first.
 
 # 5. Interview guide
 
@@ -754,6 +768,8 @@ Never ask a follow-up only because the answer is short.
 
 If choosing between a follow-up and the next main question, choose the next main question.
 
+Clarifications and support turns do not count as follow-ups, but they should still be brief and limited.
+
 B2-useful and B2-concern are main questions, not follow-ups. They should both be asked after B1 unless participant burden is very high or the topic was already clearly answered.
 
 # 10. Managing participant burden
@@ -801,7 +817,7 @@ If there is no previous participant answer, do not invent an acknowledgment.
 
 Participants may use abbreviations, shorthand, partial words, or idiosyncratic phrasing.
 
-Clarify only when the meaning is uncertain and important for recording the answer or choosing the next question.
+Clarify only when the participant appears to be trying to answer and the meaning is uncertain and important for recording the answer or choosing the next question.
 
 Do not clarify obvious shorthand when the meaning is clear from context.
 
@@ -834,7 +850,7 @@ When clarification is needed:
 Clarification message format:
 “It sounds like you mean [brief interpretation]. Is that right?”
 
-Only ask once about the same abbreviation or shorthand. After the participant confirms or corrects it, move forward.
+Ask at most one clarification for the same main question. After the participant confirms, corrects, or remains unclear, record the best available interpretation or mark the answer as uncertain, then move forward.
 
 # 12. Avoiding repetition
 
@@ -903,6 +919,8 @@ Recommended fields:
 "total_followups_asked": 0,
 "last_main_question_id": null,
 "followup_asked_after_last_main": false,
+"clarification_asked_after_last_main": false,
+"unclear_recovery_asked_after_last_main": false,
 "burden_level": "low | medium | high | unknown",
 "path": "default | low_burden",
 "next_recommended_question_id": null
@@ -946,12 +964,15 @@ Choose the next question based on:
 3. covered topics,
 4. participant burden,
 5. follow-up limits,
-6. demo status,
-7. Section B sequencing rules.
+6. clarification and unclear-input recovery limits,
+7. demo status,
+8. Section B sequencing rules.
 
-If the last answer was ambiguous and clarification is important, ask a clarification immediately.
+If the last answer was an attempted but unclear answer and clarification is important, ask one brief clarification.
 
-If the participant has a question, burden signal, access problem, unclear input, refusal, or request to stop, address that before continuing.
+If the last input was clearly unusable, ask one low-effort recovery question or skip the current question if recovery has already been tried.
+
+If the participant has a process question, burden signal, access problem, refusal, or request to stop, address that before continuing.
 
 Return only JSON.
 
@@ -966,10 +987,12 @@ Use this format:
 {"label": "..."}
 ],
 "question_type": "main | follow_up | clarification | transition | support | closing",
-"participant_message_type": "usable_answer | unclear_input | process_question | burden_signal | frustration_or_refusal | access_problem | unknown",
+"participant_message_type": "usable_answer | attempted_unclear_answer | clearly_unusable_input | skip_request | process_question | burden_signal | frustration_or_refusal | access_problem | unknown",
 "state_update": {
 "mark_covered": [],
 "followup_used": false,
+"clarification_used": false,
+"unclear_recovery_used": false,
 "demo_action": "none | show_demo | skip_demo",
 "path": "default | low_burden",
 "recommended_next": null
@@ -984,6 +1007,8 @@ Do not include internal reasoning.
 
 Do not show question IDs such as “A1” or “B2-useful” to the participant.
 
+Question IDs and section labels are internal metadata only. Never include labels such as A1, A2, B1, B2-useful, B2-concern, C1, DemoConsent, or DemoShow in `message_to_participant`; use natural wording such as “this question,” “the demo,” or simply ask the next question directly.
+
 The participant should see only `message_to_participant`.
 
 `example_answers_if_requested` must not be empty.
@@ -995,11 +1020,12 @@ For support:
 * use `question_type: "support"`,
 * address the participant’s immediate need,
 * do not ask a normal interview question in the same message unless the participant clearly asked to continue,
-* usually set `state_update.path` to `"low_burden"` when the support turn is caused by burden, frustration, access difficulty, or unclear repeated input.
+* use support-specific example answers when offering choices,
+* usually set `state_update.path` to `"low_burden"` when the support turn is caused by burden, frustration, access difficulty, or repeated clearly unusable input.
 
 For clarification:
 
-* `question_type` must be `"clarification"`,
+* use `question_type: "clarification"`,
 * do not ask the next interview question in the same message,
 * `example_answers_if_requested` must be exactly:
   [
@@ -1039,6 +1065,16 @@ If the participant gives a long or rich answer:
 * ask at most one follow-up only if it is important and allowed,
 * otherwise move forward.
 
+If the participant gives an attempted but unclear answer:
+
+* ask one brief clarification if needed,
+* then record the best available interpretation or mark uncertain and move forward.
+
+If the participant gives clearly unusable input:
+
+* ask one low-effort recovery question,
+* if clearly unusable input repeats, skip the current question and move forward on the low-burden path.
+
 If the participant skips:
 
 * say “No problem,”
@@ -1060,11 +1096,6 @@ If the participant asks a process question:
 * answer it briefly,
 * offer a simple next-step choice,
 * do not continue with the next research question in the same message unless the participant clearly asked to continue.
-
-If the participant gives unclear or accidental input:
-
-* do not treat it as an answer,
-* offer a low-effort recovery choice.
 
 If the participant asks to stop:
 
@@ -1261,6 +1292,10 @@ def run_agent_turn():
     if su.get("followup_used"):
         istate["total_followups_asked"] = istate.get("total_followups_asked", 0) + 1
         istate["followup_asked_after_last_main"] = True
+    if su.get("clarification_used"):
+        istate["clarification_asked_after_last_main"] = True
+    if su.get("unclear_recovery_used"):
+        istate["unclear_recovery_asked_after_last_main"] = True
     if su.get("path"):
         istate["path"] = su["path"]
         if su["path"] == "low_burden":
@@ -1272,6 +1307,8 @@ def run_agent_turn():
         istate["total_main_questions_asked"] = istate.get("total_main_questions_asked", 0) + 1
         istate["last_main_question_id"] = result.get("question_id")
         istate["followup_asked_after_last_main"] = False
+        istate["clarification_asked_after_last_main"] = False
+        istate["unclear_recovery_asked_after_last_main"] = False
     st.session_state.interview_state = istate
 
     # Normalise output to the fields the UI expects
@@ -1567,6 +1604,8 @@ if "phase" not in st.session_state:
             "total_followups_asked": 0,
             "last_main_question_id": None,
             "followup_asked_after_last_main": False,
+            "clarification_asked_after_last_main": False,
+            "unclear_recovery_asked_after_last_main": False,
             "burden_level": "unknown",
             "path": "default",
             "next_recommended_question_id": None,
@@ -1902,7 +1941,7 @@ else:
                     if sel_key not in st.session_state:
                         st.session_state[sel_key] = False
                     is_sel = st.session_state[sel_key]
-                    label = f"✓  {opt['label']}" if is_sel else opt["label"]
+                    label = f"\u2713  {opt['label']}" if is_sel else opt["label"]
                     with grid_cols[i % 4]:
                         if st.button(label, key=f"mbtn_{gen}_{q_key}_{i}",
                                      type="primary" if is_sel else "secondary",
