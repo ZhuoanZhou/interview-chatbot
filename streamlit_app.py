@@ -1260,6 +1260,7 @@ if st.session_state.waiting:
             "question_id": result.get("question_id", ""),
             "answer_mode": result.get("answer_mode", "multiple_choice"),
             "options": result.get("options", []),
+            "timestamp": datetime.utcnow().isoformat() + "Z",
         })
 
     st.session_state.waiting = False
@@ -1414,6 +1415,7 @@ else:
                 "content": answer,
                 "selected_suggestions": selected,
                 "free_text": typed_text,
+                "timestamp": datetime.utcnow().isoformat() + "Z",
             })
             st.session_state.waiting = True
             st.rerun()
