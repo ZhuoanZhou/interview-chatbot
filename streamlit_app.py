@@ -1087,7 +1087,7 @@ div[data-testid="stFormSubmitButton"] button[kind="primaryFormSubmit"] {
 }
 [data-testid="stColumn"] iframe {
     height: 100px !important; min-height: 100px !important;
-    width: 100% !important;
+    width: 160px !important;
 }
 /* Multiple Choice Options toggle button */
 div[data-testid="stButton"] button[kind="secondary"] {
