@@ -1085,9 +1085,22 @@ div[data-testid="stFormSubmitButton"] button[kind="primaryFormSubmit"] {
 [data-testid="stColumn"] div[data-testid="stFormSubmitButton"] button[kind="primaryFormSubmit"] {
     height: 100px !important;
 }
+/* Pin the mic column to a fixed width so Speak button never resizes */
+div[data-testid="stHorizontalBlock"]:has(iframe) > div[data-testid="stColumn"]:first-child,
+div[data-testid="stColumns"]:has(iframe) > div[data-testid="stColumn"]:first-child {
+    flex: 0 0 110px !important;
+    min-width: 110px !important;
+    max-width: 110px !important;
+}
+/* Text area column fills remaining space */
+div[data-testid="stHorizontalBlock"]:has(iframe) > div[data-testid="stColumn"]:last-child,
+div[data-testid="stColumns"]:has(iframe) > div[data-testid="stColumn"]:last-child {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+}
 [data-testid="stColumn"] iframe {
     height: 100px !important; min-height: 100px !important;
-    width: 100% !important; max-width: 96px !important;
+    width: 100% !important;
 }
 /* Multiple Choice Options toggle button */
 div[data-testid="stButton"] button[kind="secondary"] {
@@ -1428,19 +1441,4 @@ else:
             st.warning("Please type a response or choose an option before sending.")
 
     elif audio:
-        audio_bytes = audio["bytes"]
-        audio_hash = hashlib.md5(audio_bytes).hexdigest()
-        if audio_hash != st.session_state.last_audio_hash:
-            st.session_state.last_audio_hash = audio_hash
-            with st.spinner("Transcribing..."):
-                transcript = _transcribe(audio_bytes)
-            if transcript:
-                st.session_state._prefill = transcript
-                _save_audio_async(
-                    user_id,
-                    q_key,
-                    audio_bytes,
-                    transcript,
-                    cfg,
-                )
-                st.rerun()
+        audio_bytes
