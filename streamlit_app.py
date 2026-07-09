@@ -1087,7 +1087,7 @@ div[data-testid="stFormSubmitButton"] button[kind="primaryFormSubmit"] {
 }
 [data-testid="stColumn"] iframe {
     height: 100px !important; min-height: 100px !important;
-    width: 160px !important; max-width: 160px !important;
+    width: 96px !important; max-width: 96px !important;
 }
 /* Multiple Choice Options toggle button */
 div[data-testid="stButton"] button[kind="secondary"] {
@@ -1303,7 +1303,7 @@ else:
     q_key = current_q_msg.get("question_id", "q") if current_q_msg else "q"
 
     # ── Speak | Text area | Send ──────────────────────────────────────────────
-    mic_col, right_col = st.columns([2, 10])
+    mic_col, right_col = st.columns([1, 11])
 
     with mic_col:
         audio = mic_recorder(
