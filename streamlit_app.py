@@ -1107,12 +1107,28 @@ div[data-testid="stColumn"] div[data-testid="stButton"] button[kind="secondary"]
     background-color: #f0f4ff !important;
     color: #1a237e !important;
 }
-/* Speak + MCO row: never stack, and fix MCO button to same 100px height as Speak */
+/* Speak + MCO row: never stack, fixed Speak column, MCO fills rest, equal height */
+div[data-testid="stHorizontalBlock"]:has(iframe),
 div[data-testid="stColumns"]:has(iframe) {
+    flex-direction: row !important;
     flex-wrap: nowrap !important;
+    align-items: stretch !important;
 }
+div[data-testid="stHorizontalBlock"]:has(iframe) > div[data-testid="stColumn"]:first-child,
+div[data-testid="stColumns"]:has(iframe) > div[data-testid="stColumn"]:first-child {
+    flex: 0 0 180px !important;
+    min-width: 180px !important;
+    max-width: 180px !important;
+}
+div[data-testid="stHorizontalBlock"]:has(iframe) > div[data-testid="stColumn"]:nth-child(2),
+div[data-testid="stColumns"]:has(iframe) > div[data-testid="stColumn"]:nth-child(2) {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+}
+div[data-testid="stHorizontalBlock"]:has(iframe) div[data-testid="stButton"] button[kind="secondary"],
 div[data-testid="stColumns"]:has(iframe) div[data-testid="stButton"] button[kind="secondary"] {
-    height: 100px !important; min-height: 100px !important;
+    height: 100px !important;
+    min-height: 100px !important;
     width: 100% !important;
 }
 </style>
@@ -1348,8 +1364,32 @@ else:
                 }
             });
         }
+        function fixSpeakRow() {
+            var iframe = window.parent.document.querySelector('iframe[title="streamlit_mic_recorder"]');
+            if (!iframe) return;
+            var speakCol = iframe.closest('[data-testid="stColumn"]');
+            if (!speakCol) return;
+            var row = speakCol.parentElement;
+            if (!row) return;
+            row.style.setProperty('flex-direction', 'row', 'important');
+            row.style.setProperty('flex-wrap', 'nowrap', 'important');
+            row.style.setProperty('align-items', 'stretch', 'important');
+            speakCol.style.setProperty('flex', '0 0 180px', 'important');
+            speakCol.style.setProperty('min-width', '180px', 'important');
+            speakCol.style.setProperty('max-width', '180px', 'important');
+            var mcoCol = speakCol.nextElementSibling;
+            if (mcoCol) {
+                mcoCol.style.setProperty('flex', '1 1 auto', 'important');
+                mcoCol.style.setProperty('min-width', '0', 'important');
+                var btn = mcoCol.querySelector('button');
+                if (btn) btn.style.setProperty('height', '100px', 'important');
+            }
+        }
         attach();
-        new MutationObserver(attach).observe(window.parent.document.body, {childList:true, subtree:true});
+        fixSpeakRow();
+        new MutationObserver(function() { attach(); fixSpeakRow(); }).observe(
+            window.parent.document.body, {childList: true, subtree: true}
+        );
     })();
     </script>
     """, height=0)
