@@ -1085,14 +1085,19 @@ div[data-testid="stFormSubmitButton"] button[kind="primaryFormSubmit"] {
 [data-testid="stColumn"] div[data-testid="stFormSubmitButton"] button[kind="primaryFormSubmit"] {
     height: 100px !important;
 }
-/* Pin the mic column to a fixed width so Speak button never resizes */
+/* Keep Speak + text area on the same line; pin mic column to fixed width */
+div[data-testid="stHorizontalBlock"]:has(iframe),
+div[data-testid="stColumns"]:has(iframe) {
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: stretch !important;
+}
 div[data-testid="stHorizontalBlock"]:has(iframe) > div[data-testid="stColumn"]:first-child,
 div[data-testid="stColumns"]:has(iframe) > div[data-testid="stColumn"]:first-child {
     flex: 0 0 110px !important;
     min-width: 110px !important;
     max-width: 110px !important;
 }
-/* Text area column fills remaining space */
 div[data-testid="stHorizontalBlock"]:has(iframe) > div[data-testid="stColumn"]:last-child,
 div[data-testid="stColumns"]:has(iframe) > div[data-testid="stColumn"]:last-child {
     flex: 1 1 auto !important;
@@ -1435,10 +1440,4 @@ else:
                 "free_text": typed_text,
                 "timestamp": datetime.utcnow().isoformat() + "Z",
             })
-            st.session_state.waiting = True
-            st.rerun()
-        else:
-            st.warning("Please type a response or choose an option before sending.")
-
-    elif audio:
-        audio_bytes
+            st.session_state.waiting = T
