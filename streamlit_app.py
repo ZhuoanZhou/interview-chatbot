@@ -1087,14 +1087,16 @@ div[data-testid="stFormSubmitButton"] button[kind="primaryFormSubmit"] {
 }
 [data-testid="stColumn"] iframe {
     height: 100px !important; min-height: 100px !important;
-    width: 100% !important;
+    width: 160px !important;
 }
-/* Multiple Choice Options toggle button */
+/* Speak + Multiple Choice Options buttons */
 div[data-testid="stButton"] button[kind="secondary"] {
     height: 100px !important;
     width: 100% !important;
     font-size: 1rem !important;
     border-radius: 8px !important;
+    background-color: #f0f4ff !important;
+    color: #1a237e !important;
 }
 /* Option grid cards (overrides above due to higher specificity) */
 div[data-testid="stColumn"] div[data-testid="stButton"] button[kind="secondary"] {
@@ -1102,6 +1104,8 @@ div[data-testid="stColumn"] div[data-testid="stButton"] button[kind="secondary"]
     white-space: normal !important; word-break: break-word !important;
     border-radius: 12px !important; font-size: 1rem !important;
     width: 100% !important;
+    background-color: #f0f4ff !important;
+    color: #1a237e !important;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -1302,31 +1306,19 @@ else:
     options = current_q_msg.get("options", []) if current_q_msg else []
     q_key = current_q_msg.get("question_id", "q") if current_q_msg else "q"
 
-    # ── Speak | Text area | Send ──────────────────────────────────────────────
-    mic_col, right_col = st.columns([1, 11])
-
-    with mic_col:
-        audio = mic_recorder(
-            start_prompt="🎤  Speak",
-            stop_prompt="⏹️  Stop",
-            just_once=True,
-            use_container_width=True,
-            key="mic",
-        )
-
-    with right_col:
-        with st.form(key=f"response_form_{gen}", clear_on_submit=True):
-            text_col, send_col = st.columns([9, 2])
-            with text_col:
-                typed = st.text_area(
-                    "response",
-                    key=draft_key,
-                    height=100,
-                    placeholder="Type your response here, or click 🎤 Speak to record...",
-                    label_visibility="collapsed",
-                )
-            with send_col:
-                send_clicked = st.form_submit_button("Send →", type="primary", use_container_width=True)
+    # ── Text area | Send ──────────────────────────────────────────────────────
+    with st.form(key=f"response_form_{gen}", clear_on_submit=True):
+        text_col, send_col = st.columns([9, 2])
+        with text_col:
+            typed = st.text_area(
+                "response",
+                key=draft_key,
+                height=100,
+                placeholder="Type your response here, or click 🎤 Speak to record...",
+                label_visibility="collapsed",
+            )
+        with send_col:
+            send_clicked = st.form_submit_button("Send →", type="primary", use_container_width=True)
 
     # Enter key sends (Shift+Enter = newline)
     components.html("""
@@ -1354,16 +1346,27 @@ else:
     </script>
     """, height=0)
 
-    # ── Suggested answers (hidden until toggled) ──────────────────────────────
+    # ── Speak | Multiple Choice Options ───────────────────────────────────────
+    speak_col, opts_col = st.columns([2, 10])
+    with speak_col:
+        audio = mic_recorder(
+            start_prompt="🎤  Speak",
+            stop_prompt="⏹️  Stop",
+            just_once=True,
+            use_container_width=True,
+            key="mic",
+        )
+
     if options:
         show_key = f"show_opts_{gen}_{q_key}"
         if show_key not in st.session_state:
             st.session_state[show_key] = False
 
         if not st.session_state[show_key]:
-            if st.button("Multiple Choice Options", key=f"show_opts_btn_{gen}_{q_key}"):
-                st.session_state[show_key] = True
-                st.rerun()
+            with opts_col:
+                if st.button("Multiple Choice Options", key=f"show_opts_btn_{gen}_{q_key}"):
+                    st.session_state[show_key] = True
+                    st.rerun()
         else:
             if answer_mode in ("multiple_choice", "ranking"):
                 grid_cols = st.columns(4)
@@ -1436,7 +1439,7 @@ else:
                 st.session_state._prefill = transcript
                 _save_audio_async(
                     user_id,
-                    q_key,
+                          q_key,
                     audio_bytes,
                     transcript,
                     cfg,
