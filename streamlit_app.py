@@ -1285,6 +1285,18 @@ def run_agent_turn():
             )
             result = _call_llm_json(_AGENT_SYSTEM, retry_prompt, label="agent_retry")
 
+        # Fallback: retry if example_answers_if_requested is missing or empty
+        for _retry in range(2):
+            if result.get("example_answers_if_requested"):
+                break
+            retry_prompt = (
+                user_prompt
+                + "\n\nCORRECTION REQUIRED: Your previous response had an empty or missing "
+                "`example_answers_if_requested`. This field must always contain at least one option. "
+                "Return the full corrected JSON with a non-empty `example_answers_if_requested` list."
+            )
+            result = _call_llm_json(_AGENT_SYSTEM, retry_prompt, label="agent_retry")
+
     # Detect end-of-interview — closing type always ends after showing the message
     q_type = result.get("question_type", "")
     q_id = result.get("question_id", "")
