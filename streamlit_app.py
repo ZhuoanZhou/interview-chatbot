@@ -17,6 +17,7 @@ import json
 import os
 import re
 import threading
+import unicodedata
 import uuid
 from datetime import datetime
 
@@ -763,12 +764,14 @@ Output constraints:
 # OpenAI helpers
 # =============================================================================
 
-_CTRL_RE = re.compile(r'[\x00-\x08\x0b-\x1f\x7f]')
-
 def _strip_controls(obj):
-    """Recursively strip control characters from all strings in a parsed JSON object."""
+    """Recursively strip Unicode control characters (category Cc) from all strings,
+    keeping only tab and newline as legitimate whitespace."""
     if isinstance(obj, str):
-        return _CTRL_RE.sub('', obj)
+        return ''.join(
+            ch for ch in obj
+            if unicodedata.category(ch) != 'Cc' or ch in '\t\n'
+        )
     if isinstance(obj, dict):
         return {k: _strip_controls(v) for k, v in obj.items()}
     if isinstance(obj, list):
@@ -789,7 +792,6 @@ def _call_llm_json(system_prompt, user_prompt, label="agent"):
             response_format={"type": "json_object"},
         )
         raw_text = resp.choices[0].message.content
-        raw_text = re.sub(r'[\x00-\x08\x0b-\x1f\x7f]', '', raw_text)
         result = _strip_controls(json.loads(raw_text))
     except Exception:
         resp = _openai_client.chat.completions.create(
@@ -799,7 +801,7 @@ def _call_llm_json(system_prompt, user_prompt, label="agent"):
                 {"role": "user", "content": user_prompt},
             ],
         )
-        raw_text = re.sub(r'[\x00-\x08\x0b-\x1f\x7f]', '', resp.choices[0].message.content or "")
+        raw_text = resp.choices[0].message.content or ""
         m = re.search(r"\{.*\}", raw_text, re.DOTALL)
         if m:
             result = _strip_controls(json.loads(m.group()))
