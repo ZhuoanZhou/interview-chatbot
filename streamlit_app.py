@@ -776,6 +776,7 @@ def _call_llm_json(system_prompt, user_prompt, label="agent"):
             response_format={"type": "json_object"},
         )
         raw_text = resp.choices[0].message.content
+        raw_text = re.sub(r'[\x00\r]', '', raw_text)
         result = json.loads(raw_text)
     except Exception:
         resp = _openai_client.chat.completions.create(
@@ -785,7 +786,7 @@ def _call_llm_json(system_prompt, user_prompt, label="agent"):
                 {"role": "user", "content": user_prompt},
             ],
         )
-        raw_text = resp.choices[0].message.content or ""
+        raw_text = re.sub(r'[\x00\r]', '', resp.choices[0].message.content or "")
         m = re.search(r"\{.*\}", raw_text, re.DOTALL)
         if m:
             result = json.loads(m.group())
