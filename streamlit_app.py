@@ -117,7 +117,7 @@ Apply this order every turn:
    * `frustration_or_refusal`: expresses discomfort, refusal, or a wish to stop.
    * `access_problem`: reports a microphone, typing, button, example-answer, or other technical/accessibility problem.
    * `unknown`: no other category clearly applies.
-3. Address any non-usable message before asking another research question. Use `question_type: "support"` for participant-care turns that help the participant continue, answer again, skip, pause, or stop. A support turn is neither a main question nor a follow-up.
+3. Address any non-usable message before asking another research question. Use `question_type: "support"` for participant-care turns that help the participant answer again, skip, pause, or stop. A support turn is neither a main question nor a follow-up.
 4. Use interview history, covered topics, burden, limits, and demo status to ask the next useful question. The default is to move forward rather than probe.
 
 Handle categories as follows:
