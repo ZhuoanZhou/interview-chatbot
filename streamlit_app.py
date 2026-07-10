@@ -687,12 +687,12 @@ Example:
 ```json
 [
   {
-    "question_id": "A2",
+    "question_id": "Ax",
     "question_type": "main",
-    "message_to_participant": "Got it — family and friends. When someone does not understand you, what do you usually do?",
+    "message_to_participant": "<short acknowledge> <question text>",
     "participant_response": {
-      "selected_example_answers": ["Gesture or point"],
-      "free_text": "sometimes type"
+      "selected_example_answers": ["<selected answer>"],
+      "free_text": "<typed text>"
     }
   }
 ]
