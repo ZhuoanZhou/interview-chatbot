@@ -73,7 +73,7 @@ if not os.getenv("OPENAI_API_KEY"):
 # Constants
 # =============================================================================
 
-MODEL = "gpt-5-nano"
+MODEL = "gpt-5-mini"
 
 CLOSING_MESSAGE = (
     "Thank you for sharing your experience and feedback with us. "
