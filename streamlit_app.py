@@ -142,7 +142,7 @@ After executing a support choice, do not issue another support turn about the sa
 
 Useful support wording includes:
 
-* "There are about 4 more questions. You can skip any question. Is it okay to continue?"
+* "There are about 4 more questions. You can skip any question. Would you like to answer again, use example answers, skip this question, or stop?"
 * "I may not have understood that. Would you like to answer again, use example answers, skip this question, or stop?"
 * "No problem. We can skip this question."
 * "That's okay. We can stop here. Thank you for your answers."
