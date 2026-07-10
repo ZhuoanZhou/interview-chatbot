@@ -930,7 +930,7 @@ Example:
 {
 "question_id": "A2",
 "question_type": "main",
-"message_to_participant": "When someone does not understand you, what do you usually do?",
+"message_to_participant": "Got it — family and friends. When someone does not understand you, what do you usually do?",
 "participant_response": {
 "selected_example_answers": ["Gesture or point"],
 "free_text": "sometimes type"
@@ -1094,8 +1094,8 @@ If the participant responds to a support message with a support choice:
 
 If the participant gives a clear short answer:
 
-* acknowledge it briefly,
-* move to the next main question.
+- start `message_to_participant` with brief feedback showing understanding or acceptance,
+- then ask the next main question in the same message.
 
 If the participant gives a long or rich answer:
 
