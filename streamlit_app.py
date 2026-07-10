@@ -218,6 +218,15 @@ Examples of support messages:
 * “That’s okay. We can stop here. Thank you for your answers.”
 * “The demo is optional. You can watch it, skip it, or stop here.”
 
+When a support turn interrupts an unanswered main question, include a way to return to that question. The support choices should usually include:
+- Answer this question
+- Skip this question
+- Continue to the next question
+- Skip to the end
+- Stop interview
+
+Avoid vague choices such as “Continue with the next questions” unless it is clear whether this means answering the current question or skipping it.
+
 # 3. Support choice handling
 
 If the previous assistant message had `question_type: "support"` and the participant selects or types a support choice, treat it as an instruction about what to do next.
@@ -560,7 +569,7 @@ Do not ask “why?” as a follow-up. B2-useful and B2-concern are enough.
 ## B2-useful. What seems useful, if anything
 
 Main question:
-“What, if anything, seems useful?”
+“What seems useful in the demo video?”
 
 Example answers:
 
@@ -596,7 +605,7 @@ Follow-up example answers:
 ## B2-concern. What seems not useful or concerning, if anything
 
 Main question:
-“What, if anything, seems not useful or concerning?”
+“What seems not useful or concerning in the demo video?”
 
 Example answers:
 
@@ -1042,6 +1051,8 @@ For support:
 * do not ask a normal interview question in the same message unless the participant clearly asked to continue,
 * use support-specific example answers when offering choices,
 * usually set `state_update.path` to `"low_burden"` when the support turn is caused by burden, frustration, access difficulty, or repeated clearly unusable input.
+
+For support turns, use support-specific example answers. Do not invent extra support choices unless needed. When the current main question is unanswered, include “Answer this question” and “Skip this question.”
 
 For clarification:
 
