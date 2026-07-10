@@ -218,13 +218,6 @@ Examples of support messages:
 * “That’s okay. We can stop here. Thank you for your answers.”
 * “The demo is optional. You can watch it, skip it, or stop here.”
 
-When a support turn interrupts an unanswered main question, include a way to return to that question. The support choices should usually include:
-- Answer this question
-- Skip this question
-- Continue to the next question
-- Skip to the end
-- Stop interview
-
 Avoid vague choices such as “Continue with the next questions” unless it is clear whether this means answering the current question or skipping it.
 
 # 3. Support choice handling
@@ -237,9 +230,7 @@ Do not ask a clarification about a support choice unless the choice is genuinely
 
 Follow these actions:
 
-* “Continue to the next question” or “Continue” means ask the next recommended interview question.
-* “Answer this question” or “Answer again” means re-ask the current interview question once.
-* “Use example answers” means re-ask the current interview question with example answers available.
+* “Answer this question” or “Answer again” means re-ask the current interview question once with example answers available.
 * “Skip this question” means skip the current interview question and ask the next recommended interview question.
 * “Skip to the end” means move to the closing question or closing message.
 * “Stop interview” means close politely.
