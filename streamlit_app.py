@@ -763,6 +763,19 @@ Output constraints:
 # OpenAI helpers
 # =============================================================================
 
+_CTRL_RE = re.compile(r'[\x00-\x08\x0b-\x1f\x7f]')
+
+def _strip_controls(obj):
+    """Recursively strip control characters from all strings in a parsed JSON object."""
+    if isinstance(obj, str):
+        return _CTRL_RE.sub('', obj)
+    if isinstance(obj, dict):
+        return {k: _strip_controls(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_strip_controls(v) for v in obj]
+    return obj
+
+
 def _call_llm_json(system_prompt, user_prompt, label="agent"):
     """Call the LLM and return a parsed JSON dict. Appends raw log to session state."""
     raw_text = None
@@ -777,7 +790,7 @@ def _call_llm_json(system_prompt, user_prompt, label="agent"):
         )
         raw_text = resp.choices[0].message.content
         raw_text = re.sub(r'[\x00-\x08\x0b-\x1f\x7f]', '', raw_text)
-        result = json.loads(raw_text)
+        result = _strip_controls(json.loads(raw_text))
     except Exception:
         resp = _openai_client.chat.completions.create(
             model=MODEL,
@@ -789,7 +802,7 @@ def _call_llm_json(system_prompt, user_prompt, label="agent"):
         raw_text = re.sub(r'[\x00-\x08\x0b-\x1f\x7f]', '', resp.choices[0].message.content or "")
         m = re.search(r"\{.*\}", raw_text, re.DOTALL)
         if m:
-            result = json.loads(m.group())
+            result = _strip_controls(json.loads(m.group()))
         else:
             raise ValueError(f"LLM did not return valid JSON. Raw: {raw_text[:300]}")
 
