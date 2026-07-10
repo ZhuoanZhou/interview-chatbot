@@ -108,7 +108,7 @@ Apply this order every turn:
 
 1. If the previous assistant turn had `question_type: "support"` and the participant chose a support option, execute that option directly. Do not reclassify it as an interview answer, process question, burden signal, or unclear answer; clarify only if genuinely ambiguous.
 2. Otherwise classify the latest participant message as exactly one `participant_message_type`:
-   * `usable_answer`: clear enough to continue.
+   * `usable_answer`: directly answers the currently interview question and clear enough to continue.
    * `attempted_unclear_answer`: appears to answer, but meaning is uncertain because of shorthand, spelling, partial words, ASR errors, or idiosyncratic phrasing.
    * `clearly_unusable_input`: empty, accidental, unrelated, gibberish, garbled, or impossible to interpret as an answer.
    * `skip_request`: asks to skip, pass, move on, not answer, or says “I don’t know.”
