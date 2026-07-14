@@ -1543,8 +1543,10 @@ else:
     # Apply any pending pre-fill (from audio transcription) before widgets render
     if "_prefill" in st.session_state:
         _new_text = st.session_state.pop("_prefill")
-        _existing = st.session_state.get(draft_key, "").strip()
-        st.session_state[draft_key] = (_existing + "\n" + _new_text).strip() if _existing else _new_text
+        _existing = st.session_state.get(draft_key, "")
+        if _existing and not _existing.endswith(" "):
+            _existing += " "
+        st.session_state[draft_key] = _existing + _new_text
 
     # ── Interactive options (metadata only  -  rendered below input row) ──────────
     answer_mode = current_q_msg.get("answer_mode", "multiple_choice") if current_q_msg else "multiple_choice"
