@@ -1659,12 +1659,7 @@ else:
             _draft = st.session_state.get(draft_key, "")
             selected = [p for p in _picks if p in _draft]
 
-        parts = []
-        if selected:
-            parts.append("; ".join(selected))
-        if typed_text:
-            parts.append(typed_text)
-        answer = ". ".join(parts) if parts else None
+        answer = typed_text or None
 
         if answer:
             st.session_state.form_generation += 1
