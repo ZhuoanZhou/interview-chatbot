@@ -151,7 +151,7 @@ Useful support wording includes:
 
 # 3. Acknowledgment, shorthand, and clarification
 
-When there is a previous participant answer, begin `message_to_participant` with one short, natural acknowledgment showing understanding, acceptance, or respect, then ask the next question in the same message when appropriate. Examples: "Got it  -  family and friends." "Thanks  -  typing can be hard." "Sure, let's move on." "No problem, we can skip that." "That's okay." "I understand." Do not invent feedback when there is no previous answer.
+When there is a previous participant answer, begin `message_to_participant` with one short, natural acknowledgment showing understanding, acceptance, or respect, then ask the next question in the same message when appropriate. Examples: "Got it - family and friends." "Thanks - typing can be hard." "Sure, let's move on." "No problem, we can skip that." "That's okay." "I understand." Do not invent feedback when there is no previous answer.
 
 Interpret obvious shorthand from context without clarification, such as "fam" = family, "frnds" = friends, "doc" = doctor, contextually clear "ppl" = people, and "typing hard" = typing is hard. Clarify only when an unfamiliar or ambiguous expression materially affects the recorded answer or next question.
 
@@ -1295,21 +1295,16 @@ if "phase" not in st.session_state:
 
 st.markdown("""
 <style>
-html, body, [class*="css"], .stMarkdown, .stChatMessage { font-size: 20px !important; }
+html, body, [class*="css"], .stMarkdown, .stChatMessage { font-size: 22px !important; }
 div[data-testid="stChatMessage"] p { font-size: 1.05rem !important; line-height: 1.7 !important; }
 div[data-testid="stTextArea"] textarea {
     min-height: 80px !important; font-size: 1.1rem !important;
     line-height: 1.7 !important; border-radius: 14px !important;
     padding: 14px 18px !important; resize: none !important;
 }
-div[data-testid="stButton"] button[kind="primary"],
-div[data-testid="stFormSubmitButton"] button[kind="primaryFormSubmit"] {
+div[data-testid="stButton"] button[kind="primary"] {
     font-size: 1rem !important;
     border-radius: 8px !important; width: 100% !important;
-}
-[data-testid="stColumn"] div[data-testid="stButton"] button[kind="primary"],
-[data-testid="stColumn"] div[data-testid="stFormSubmitButton"] button[kind="primaryFormSubmit"] {
-    height: 100px !important;
 }
 /* Keep Speak + text area on the same line; pin mic column to fixed width */
 div[data-testid="stHorizontalBlock"]:has(iframe),
@@ -1342,8 +1337,9 @@ div[data-testid="stButton"] button[kind="secondary"] {
     background-color: #f0f4ff !important;
     color: #1a237e !important;
 }
-/* Option grid cards (overrides above due to higher specificity) */
-div[data-testid="stColumn"] div[data-testid="stButton"] button[kind="secondary"] {
+/* Option grid cards */
+div[data-testid="stColumn"] div[data-testid="stButton"] button[kind="secondary"],
+div[data-testid="stColumn"] div[data-testid="stButton"] button[kind="primary"] {
     min-height: 90px !important; height: auto !important;
     white-space: normal !important; word-break: break-word !important;
     border-radius: 12px !important; font-size: 1rem !important;
@@ -1424,6 +1420,7 @@ if st.session_state.phase == "intro":
         "Later, we will show you a short demo of an early technology idea and ask what you think about it.\n\n"
         "This is not a test of you. We are learning from your experience.\n\n"
         "There are no right or wrong answers. Short answers are fine. You can skip any question.\n\n"
+        "There are about 10 questions in total.\n\n"
         "You can answer by speaking, typing, choosing suggested answers, or using a mix of these.\n\n"
         "If helpful, you can press the suggestions button to see possible answers."
     )
@@ -1480,9 +1477,11 @@ for msg in st.session_state.chat:
             if not _first_assistant_seen:
                 st.caption(
                     'You can respond in whatever way works best for you: '
-                    'click "Speak" to use speech-to-text, '
-                    'click the button below to see multiple-choice options and select one or more, '
-                    'type your own answer, or use any combination of these.'
+                    'You can type your answer, click Speak to record it, '
+                    'or choose one or more example answers using the button below. '
+                    'You can also combine these options. '
+                    'When using Speak, press Stop when you are finished, '
+                    'and your words will appear in the text box.'
                 )
                 _first_assistant_seen = True
     elif msg["role"] == "user":
@@ -1543,7 +1542,9 @@ else:
 
     # Apply any pending pre-fill (from audio transcription) before widgets render
     if "_prefill" in st.session_state:
-        st.session_state[draft_key] = st.session_state.pop("_prefill")
+        _new_text = st.session_state.pop("_prefill")
+        _existing = st.session_state.get(draft_key, "").strip()
+        st.session_state[draft_key] = (_existing + "\n" + _new_text).strip() if _existing else _new_text
 
     # ── Interactive options (metadata only  -  rendered below input row) ──────────
     answer_mode = current_q_msg.get("answer_mode", "multiple_choice") if current_q_msg else "multiple_choice"
@@ -1563,18 +1564,15 @@ else:
         )
 
     with right_col:
-        with st.form(key=f"response_form_{gen}", clear_on_submit=True):
-            text_col, send_col = st.columns([9, 2])
-            with text_col:
-                typed = st.text_area(
-                    "response",
-                    key=draft_key,
-                    height=100,
-                    placeholder="Type your response here, or click 🎤 Speak to record...",
-                    label_visibility="collapsed",
-                )
-            with send_col:
-                send_clicked = st.form_submit_button("Send →", type="primary", use_container_width=True)
+        typed = st.text_area(
+            "response",
+            key=draft_key,
+            height=100,
+            placeholder="Type your response here, or click 🎤 Speak to record...",
+            label_visibility="collapsed",
+        )
+
+    send_clicked = False
 
     # Enter key sends (Shift+Enter = newline)
     components.html("""
@@ -1602,16 +1600,20 @@ else:
     </script>
     """, height=0)
 
-    # ── Suggested answers (hidden until toggled) ──────────────────────────────────────────
+    # ── MCO + Send ────────────────────────────────────────────────────────────
     if options:
         show_key = f"show_opts_{gen}_{q_key}"
         if show_key not in st.session_state:
             st.session_state[show_key] = False
 
         if not st.session_state[show_key]:
-            if st.button("Multiple Choice Options", key=f"show_opts_btn_{gen}_{q_key}"):
-                st.session_state[show_key] = True
-                st.rerun()
+            mco_col, send_col = st.columns([8, 2])
+            with mco_col:
+                if st.button("Multiple Choice Options", key=f"show_opts_btn_{gen}_{q_key}"):
+                    st.session_state[show_key] = True
+                    st.rerun()
+            with send_col:
+                send_clicked = st.button("Send →", type="primary", use_container_width=True, key=f"send_btn_{gen}_{q_key}")
         else:
             if answer_mode in ("multiple_choice", "ranking"):
                 grid_cols = st.columns(4)
@@ -1640,6 +1642,14 @@ else:
                         if st.button(opt["label"], key=f"ynopt_{gen}_{q_key}_{i}",
                                      use_container_width=True):
                             st.session_state[draft_key] = opt["label"]
+
+            _, send_col = st.columns([10, 2])
+            with send_col:
+                send_clicked = st.button("Send →", type="primary", use_container_width=True, key=f"send_open_{gen}_{q_key}")
+    else:
+        _, send_col = st.columns([10, 2])
+        with send_col:
+            send_clicked = st.button("Send →", type="primary", use_container_width=True, key=f"send_noopts_{gen}")
 
     if send_clicked:
         typed_text = (typed or st.session_state.get(draft_key) or "").strip()
