@@ -1328,7 +1328,7 @@ div[data-testid="stColumns"]:has(iframe) > div[data-testid="stColumn"]:last-chil
     height: 100px !important; min-height: 100px !important;
     width: 100% !important;
 }
-/* Multiple Choice Options toggle button */
+/* Suggested Phrases toggle button */
 div[data-testid="stButton"] button[kind="secondary"] {
     height: 100px !important;
     width: 100% !important;
@@ -1609,7 +1609,7 @@ else:
         if not st.session_state[show_key]:
             mco_col, send_col = st.columns([8, 2])
             with mco_col:
-                if st.button("Multiple Choice Options", key=f"show_opts_btn_{gen}_{q_key}"):
+                if st.button("Suggested Phrases", key=f"show_opts_btn_{gen}_{q_key}"):
                     st.session_state[show_key] = True
                     st.rerun()
             with send_col:
@@ -1617,21 +1617,20 @@ else:
         else:
             if answer_mode in ("multiple_choice", "ranking"):
                 grid_cols = st.columns(4)
-                _opt_toggled = False
+                _pick_key = f"phrase_picks_{gen}_{q_key}"
+                st.session_state.setdefault(_pick_key, set())
                 for i, opt in enumerate(options):
-                    sel_key = f"mopt_{gen}_{q_key}_{i}"
-                    if sel_key not in st.session_state:
-                        st.session_state[sel_key] = False
-                    is_sel = st.session_state[sel_key]
-                    label = f"\u2713  {opt['label']}" if is_sel else opt["label"]
                     with grid_cols[i % 4]:
-                        if st.button(label, key=f"mbtn_{gen}_{q_key}_{i}",
-                                     type="primary" if is_sel else "secondary",
+                        if st.button(opt["label"], key=f"mbtn_{gen}_{q_key}_{i}",
+                                     type="secondary",
                                      use_container_width=True):
-                            st.session_state[sel_key] = not is_sel
-                            _opt_toggled = True
-                if _opt_toggled:
-                    st.rerun()
+                            _phrase = opt["label"]
+                            _existing = st.session_state.get(draft_key, "").strip()
+                            st.session_state[draft_key] = (
+                                (_existing + "\n" + _phrase).strip() if _existing else _phrase
+                            )
+                            st.session_state[_pick_key].add(_phrase)
+                            st.rerun()
 
             elif answer_mode == "yes_no_plus_optional_text":
                 st.markdown("**Choose one (you can add details below):**")
@@ -1656,11 +1655,10 @@ else:
 
         selected = []
         if answer_mode in ("multiple_choice", "ranking"):
-            selected = [
-                opt["label"]
-                for i, opt in enumerate(options)
-                if st.session_state.get(f"mopt_{gen}_{q_key}_{i}")
-            ]
+            _pick_key = f"phrase_picks_{gen}_{q_key}"
+            _picks = st.session_state.get(_pick_key, set())
+            _draft = st.session_state.get(draft_key, "")
+            selected = [p for p in _picks if p in _draft]
 
         parts = []
         if selected:
