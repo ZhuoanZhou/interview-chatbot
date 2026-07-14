@@ -1625,11 +1625,8 @@ else:
                                      type="secondary",
                                      use_container_width=True):
                             _phrase = opt["label"]
-                            _existing = st.session_state.get(draft_key, "").strip()
-                            st.session_state[draft_key] = (
-                                (_existing + "\n" + _phrase).strip() if _existing else _phrase
-                            )
                             st.session_state[_pick_key].add(_phrase)
+                            st.session_state._prefill = _phrase
                             st.rerun()
 
             elif answer_mode == "yes_no_plus_optional_text":
