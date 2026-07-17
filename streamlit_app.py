@@ -1340,7 +1340,7 @@ div[data-testid="stButton"] button[kind="secondary"] {
 /* Option grid cards */
 div[data-testid="stColumn"] div[data-testid="stButton"] button[kind="secondary"],
 div[data-testid="stColumn"] div[data-testid="stButton"] button[kind="primary"] {
-    min-height: 60px !important; height: auto !important;
+    min-height: 90px !important; height: auto !important;
     white-space: normal !important; word-break: break-word !important;
     border-radius: 12px !important; font-size: 1rem !important;
     width: 100% !important;
