@@ -1319,11 +1319,6 @@ div[data-testid="stColumns"]:has(iframe) > div[data-testid="stColumn"]:first-chi
     min-width: 110px !important;
     max-width: 110px !important;
 }
-div[data-testid="stHorizontalBlock"]:has(iframe) > div[data-testid="stColumn"]:last-child,
-div[data-testid="stColumns"]:has(iframe) > div[data-testid="stColumn"]:last-child {
-    flex: 1 1 auto !important;
-    min-width: 0 !important;
-}
 [data-testid="stColumn"] iframe {
     height: 100px !important; min-height: 100px !important;
     width: 100% !important;
@@ -1557,7 +1552,7 @@ else:
     q_key = current_q_msg.get("question_id", "q") if current_q_msg else "q"
 
     # ── Speak | Text area | Send ────────────────────────────────────────────
-    mic_col, right_col = st.columns([1, 11])
+    mic_col, text_col, send_col = st.columns([1, 8, 2])
 
     with mic_col:
         audio = mic_recorder(
@@ -1568,7 +1563,7 @@ else:
             key="mic",
         )
 
-    with right_col:
+    with text_col:
         typed = st.text_area(
             "response",
             key=draft_key,
@@ -1577,7 +1572,8 @@ else:
             label_visibility="collapsed",
         )
 
-    send_clicked = False
+    with send_col:
+        send_clicked = st.button("Send →", type="primary", use_container_width=True, key=f"send_btn_{gen}")
 
     # Enter key sends (Shift+Enter = newline)
     components.html("""
@@ -1605,20 +1601,16 @@ else:
     </script>
     """, height=0)
 
-    # ── MCO + Send ────────────────────────────────────────────────────────────
+    # ── Suggested Phrases ────────────────────────────────────────────────────
     if options:
         show_key = f"show_opts_{gen}_{q_key}"
         if show_key not in st.session_state:
             st.session_state[show_key] = False
 
         if not st.session_state[show_key]:
-            mco_col, send_col = st.columns([8, 2])
-            with mco_col:
-                if st.button("Suggested Phrases", key=f"show_opts_btn_{gen}_{q_key}"):
-                    st.session_state[show_key] = True
-                    st.rerun()
-            with send_col:
-                send_clicked = st.button("Send →", type="primary", use_container_width=True, key=f"send_btn_{gen}_{q_key}")
+            if st.button("Suggested Phrases", key=f"show_opts_btn_{gen}_{q_key}"):
+                st.session_state[show_key] = True
+                st.rerun()
         else:
             if answer_mode in ("multiple_choice", "ranking"):
                 grid_cols = st.columns(4)
@@ -1643,14 +1635,6 @@ else:
                         if st.button(opt["label"], key=f"ynopt_{gen}_{q_key}_{i}",
                                      use_container_width=True):
                             st.session_state[draft_key] = opt["label"]
-
-            _, send_col = st.columns([10, 2])
-            with send_col:
-                send_clicked = st.button("Send →", type="primary", use_container_width=True, key=f"send_open_{gen}_{q_key}")
-    else:
-        _, send_col = st.columns([10, 2])
-        with send_col:
-            send_clicked = st.button("Send →", type="primary", use_container_width=True, key=f"send_noopts_{gen}")
 
     if send_clicked:
         typed_text = (typed or st.session_state.get(draft_key) or "").strip()
