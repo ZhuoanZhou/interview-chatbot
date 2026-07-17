@@ -1295,6 +1295,7 @@ if "phase" not in st.session_state:
 
 st.markdown("""
 <style>
+.block-container { padding-top: 1.5rem !important; padding-bottom: 1rem !important; }
 html, body, [class*="css"], .stMarkdown, .stChatMessage { font-size: 22px !important; }
 div[data-testid="stChatMessage"] p { font-size: 1.05rem !important; line-height: 1.7 !important; }
 div[data-testid="stTextArea"] textarea {
@@ -1340,7 +1341,7 @@ div[data-testid="stButton"] button[kind="secondary"] {
 /* Option grid cards */
 div[data-testid="stColumn"] div[data-testid="stButton"] button[kind="secondary"],
 div[data-testid="stColumn"] div[data-testid="stButton"] button[kind="primary"] {
-    min-height: 90px !important; height: auto !important;
+    min-height: 60px !important; height: auto !important;
     white-space: normal !important; word-break: break-word !important;
     border-radius: 12px !important; font-size: 1rem !important;
     width: 100% !important;
@@ -1544,7 +1545,10 @@ else:
     if "_prefill" in st.session_state:
         _new_text = st.session_state.pop("_prefill")
         _existing = st.session_state.get(draft_key, "")
-        if _existing and not _existing.endswith(" "):
+        if _existing:
+            _existing = _existing.rstrip()
+            if not _existing.endswith(";"):
+                _existing += ";"
             _existing += " "
         st.session_state[draft_key] = _existing + _new_text
 
