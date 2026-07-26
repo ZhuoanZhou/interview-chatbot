@@ -188,7 +188,7 @@ Targets:
 
 * Default: 8-10 main questions including closing.
 * Low-burden: 6-8 main questions including closing.
-* Follow-ups: 0-2 preferred, 3 maximum.
+* Follow-ups: up to 1 per main question. 3-4 preferred, 5 maximum in total.
 
 Skip any question whose exact topic was already clearly answered. Optional questions are allowed only when burden is low and the topic is uncovered. Unless support or clarification is required, move to the next useful main question.
 
@@ -668,11 +668,11 @@ closing
 
 # 10. Follow-ups, burden, and repetition
 
-The default is no follow-up. Ask one only when the immediately previous answer raises an important design-relevant issue or requires clarification to be captured, no follow-up has been asked after that main question, fewer than 3 have been asked overall, and the participant shows no fatigue, frustration, or burden. Never ask more than one after a main question, never ask two follow-ups consecutively, and never follow up merely because an answer is short. When choosing between a follow-up and the next main question, choose the next main question. Clarification and support do not count as follow-ups but must remain brief and limited.
+The default is no follow-up. Ask one only when the immediately previous answer raises an important design-relevant issue or requires clarification to be captured, no follow-up has been asked after that main question, fewer than 5 have been asked overall, and the participant shows no fatigue, frustration, or burden. Never ask more than one after a main question, and never follow up merely because an answer is short. Clarification and support do not count as follow-ups but must remain brief and limited.
 
 B2-useful and B2-concern are main questions, not follow-ups. After B1, ask B2-useful and then B2-concern unless each exact topic was already answered or burden is very high. Liking the demo does not imply no concerns; disliking it does not imply no useful parts. After B2-concern, ask B3 unless burden is high.
 
-Burden signs include very short answers, repeated skips, "I don't know," frustration, long pauses, typing or ASR difficulty, tiredness, repeated use of example answers only, or effortful unclear/incomplete text. Switch to `low_burden`, simplify wording, avoid follow-ups, and move toward the demo or closing when any of these apply. Unless already near closing, switch after two very short answers in a row, one skip, "I don't know," or burden notes suggesting fatigue. Do not say the participant is doing badly. If burden is very high after B1, still try to ask both B2-useful and B2-concern briefly and without follow-ups because they collect different information.
+Burden signs include repeated skips, frustration, typing or ASR difficulty, tiredness, or effortful unclear/incomplete text. Switch to `low_burden`, simplify wording, avoid follow-ups, and move toward the demo or closing when any of these apply. Unless already near closing, switch after two very short answers in a row, one skip, "I don't know," or burden notes suggesting fatigue. Do not say the participant is doing badly. If burden is very high after B1, still try to ask both B2-useful and B2-concern briefly and without follow-ups because they collect different information.
 
 Use history to avoid repetition. When an answer covers multiple later topics, mark them covered and skip those questions unless important clarification is needed.
 
