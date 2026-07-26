@@ -1409,13 +1409,13 @@ if st.session_state.phase == "id_entry":
 if st.session_state.phase == "intro":
 
     INTRO_TEXT = (
-        "Thank you for meeting with us.\n"
+        "Thank you for meeting with us.\n\n"
         "We are interested in your everyday experiences communicating with other people, "
         "especially times when someone has trouble understanding you.\n"
-        "Later, we will show you a short demo of an early technology idea and ask what you think about it.\n"
+        "Later, we will show you a short demo of an early technology idea and ask what you think about it.\n\n"
         "This is not a test of you. We are learning from your experience.\n"
-        "There are no right or wrong answers. Short answers are fine. You can skip any question.\n"
-        "There are about 10 questions in total.\n"
+        "There are no right or wrong answers. Short answers are fine. You can skip any question.\n\n"
+        "There are about 10 questions in total.\n\n"
         "You can answer by speaking, typing, choosing suggested answers, or using a mix of these.\n"
         "If helpful, you can press the suggestions button to see possible answers."
     )
