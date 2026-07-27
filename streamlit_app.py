@@ -1591,7 +1591,7 @@ else:
                     var start = ta.selectionStart, end = ta.selectionEnd, val = ta.value;
                     var setter = Object.getOwnPropertyDescriptor(
                         window.parent.HTMLTextAreaElement.prototype, 'value').set;
-                    setter.call(ta, val.slice(0, start) + '\n' + val.slice(end));
+                    setter.call(ta, val.slice(0, start) + String.fromCharCode(10) + val.slice(end));
                     ta.selectionStart = ta.selectionEnd = start + 1;
                     ta.dispatchEvent(new Event('input', {bubbles: true}));
                 } else if (e.key === 'Enter' && !e.shiftKey) {
