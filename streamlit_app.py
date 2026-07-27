@@ -1286,7 +1286,7 @@ if "phase" not in st.session_state:
             "followup_asked_after_last_main": False,
             "clarification_asked_after_last_main": False,
             "unclear_recovery_asked_after_last_main": False,
-            "burden_level": "unknown",
+            "burden_level": "low",
             "path": "default",
             "next_recommended_question_id": None,
         },
