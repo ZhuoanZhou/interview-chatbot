@@ -717,7 +717,7 @@ Example:
 
 `DEMO_STATUS`: one of `not_shown`, `permission_requested`, `ready_to_show`, `shown`, or `skipped`.
 
-`PARTICIPANT_BURDEN_NOTES`: observed fatigue, effort, frustration, repeated skipping, reliance on example answers, ASR difficulty, or other access needs. If PARTICIPANT_BURDEN_NOTES conflict with burden_level in INTERVIEW_STATE (for example, notes report no burden while the state says high), prefer the notes and the participant's recent answers, and update state_update.path accordingly.
+`PARTICIPANT_BURDEN_NOTES`: observed fatigue, effort, frustration, repeated skipping, reliance on example answers, ASR difficulty, or other access needs.
 
 # 12. Required output
 
