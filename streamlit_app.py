@@ -1584,7 +1584,17 @@ else:
             if (!ta || ta._enterBound) return;
             ta._enterBound = true;
             ta.addEventListener('keydown', function(e) {
-                if (e.key === 'Enter' && !e.shiftKey) {
+                if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
+                    // Ctrl+Enter = insert newline (block Streamlit's "apply")
+                    e.preventDefault();
+                    e.stopPropagation();
+                    var start = ta.selectionStart, end = ta.selectionEnd, val = ta.value;
+                    var setter = Object.getOwnPropertyDescriptor(
+                        window.parent.HTMLTextAreaElement.prototype, 'value').set;
+                    setter.call(ta, val.slice(0, start) + '\n' + val.slice(end));
+                    ta.selectionStart = ta.selectionEnd = start + 1;
+                    ta.dispatchEvent(new Event('input', {bubbles: true}));
+                } else if (e.key === 'Enter' && !e.shiftKey) {
                     e.preventDefault();
                     ta.blur();
                     setTimeout(function() {
@@ -1598,8 +1608,18 @@ else:
                 }
             });
         }
+        function fixHint() {
+            var hints = window.parent.document.querySelectorAll('[data-testid="InputInstructions"]');
+            for (var i = 0; i < hints.length; i++) {
+                if (hints[i].textContent.indexOf('Ctrl') !== -1) {
+                    hints[i].textContent = 'Press Enter to send';
+                }
+            }
+        }
         attach();
-        new MutationObserver(attach).observe(window.parent.document.body, {childList:true, subtree:true});
+        fixHint();
+        new MutationObserver(function() { attach(); fixHint(); })
+            .observe(window.parent.document.body, {childList:true, subtree:true, characterData:true});
     })();
     </script>
     """, height=0)
