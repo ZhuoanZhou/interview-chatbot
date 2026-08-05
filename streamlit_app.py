@@ -468,8 +468,8 @@ def _clarification_result(qid, clarification_text):
 
 
 def _base_qid(question_id):
-    """Strip _followup/_clarification suffixes."""
-    for suffix in ("_followup", "_clarification"):
+    """Strip _followup/_clarification/_support suffixes."""
+    for suffix in ("_followup", "_clarification", "_support"):
         if question_id.endswith(suffix):
             return question_id[: -len(suffix)]
     return question_id
