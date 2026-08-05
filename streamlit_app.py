@@ -159,6 +159,7 @@ INTERVIEW_GUIDE = {
                     "Not useful for me", "Other", "Skip"],
         "followup": None,
         "followup_options": [],
+        "no_followup": True,
     },
     "B2-useful": {
         "question": "What seems useful in the demo video?",
@@ -240,14 +241,15 @@ SEQUENCE_DEMO_SKIPPED = ["A1", "A2", "A3", "A4", "DemoConsent", "B4-general", "C
 _TURN_AGENT_SYSTEM = """\
 You are helping run an interview with a person with dysarthria about everyday communication and a technology demo. Participants may type slowly, use shorthand, or make typos. Be respectful and never pressure them.
 
-You are given: the current question, its research purpose, the participant's answer, a candidate follow-up question, a summary of the interview so far, and the participant's answering style.
+You are given: the current question, its research purpose, the participant's answer, a pre-written candidate follow-up, a summary of the interview so far, and the participant's answering style.
 
 Return JSON only:
-{"understood": true, "acknowledgment": "one short natural sentence acknowledging their answer", "ask_followup": false, "followup_question": "", "followup_reason": "one line"}
+{"understood": true, "acknowledgment": "one short natural sentence acknowledging their answer", "ask_followup": false, "followup_question": "", "followup_options": [], "followup_reason": "one line"}
 
 Rules:
-- Set ask_followup true only if the answer raises something design-relevant that a short follow-up could usefully deepen, and the interview summary does not already cover it. Never follow up just because an answer is short.
-- You may rephrase the candidate follow-up or write a better one, but keep it answerable in one word or short phrase. Do not ask for stories or "why?" questions.
+- Set ask_followup true only if the participant's answer raises something design-relevant that a short follow-up could usefully deepen, and the interview summary does not already cover it. Never follow up just because an answer is short.
+- The follow-up must respond to what the participant actually said, like a natural conversation. Use the candidate follow-up if it genuinely fits their answer; otherwise write your own that refers to their own words or topic. Either way it must be a complete, self-contained question, answerable in one word or short phrase. Do not ask for stories or "why?" questions, and do not pressure for detail.
+- When ask_followup is true, also provide followup_options: 4-6 short example answers that fit your follow-up question, plus "Other" and "Skip".
 - If the answer is impossible to interpret, set understood false and put a gentle check in followup_question following this pattern: "It sounds like you mean [brief interpretation]. Is that right?"
 - The acknowledgment must not mention internal question IDs.
 """
@@ -398,12 +400,13 @@ _SKIP_WORDS = {"skip", "skip it", "next", "pass", "i don't know", "i dont know",
                "idk", "dont know", "don't know", "no", "none", "nothing"}
 
 
-def _make_question_result(qid, ack="", is_followup=False, followup_text=None):
+def _make_question_result(qid, ack="", is_followup=False, followup_text=None,
+                          followup_options=None):
     """Build the result dict the UI expects for a guide question or its follow-up."""
     entry = INTERVIEW_GUIDE[qid]
     if is_followup:
         text = followup_text or entry["followup"]
-        options = entry["followup_options"]
+        options = followup_options if followup_options else entry["followup_options"]
         q_type = "follow_up"
         q_id = qid + "_followup"
     else:
@@ -587,7 +590,7 @@ def run_agent_turn():
     entry = INTERVIEW_GUIDE.get(base_id, {})
     followups_used = _count_followups(chat)
     quota_left = (followups_used < MAX_FOLLOWUPS_TOTAL
-                  and entry.get("followup") is not None)
+                  and not entry.get("no_followup", False))
     already_clarified = any(
         m.get("role") == "assistant" and m.get("question_id") == base_id + "_clarification"
         for m in chat
@@ -597,7 +600,7 @@ def run_agent_turn():
         f"CURRENT_QUESTION:\n{entry.get('question', last_q.get('content', ''))}\n\n"
         f"RESEARCH_PURPOSE:\n{entry.get('purpose', '')}\n\n"
         f"PARTICIPANT_ANSWER:\n{last_user.get('content', '')}\n\n"
-        f"CANDIDATE_FOLLOWUP:\n{entry.get('followup') or '(none - do not ask a follow-up)'}\n\n"
+        f"CANDIDATE_FOLLOWUP:\n{entry.get('followup') or '(none pre-written for this question)'}\n\n"
         f"INTERVIEW_SUMMARY_SO_FAR:\n{_get_summary(user_id) or '(interview just started)'}\n\n"
         f"ANSWER_STYLE:\n{_answer_style()}\n\n"
         f"FOLLOWUP_BUDGET:\n"
@@ -624,9 +627,15 @@ def run_agent_turn():
             return False, _clarification_result(base_id, clar)
 
     if quota_left and result.get("ask_followup") and result.get("followup_question"):
+        agent_opts = [o for o in (result.get("followup_options") or []) if isinstance(o, str) and o.strip()]
+        if agent_opts:
+            for extra in ("Other", "Skip"):
+                if extra not in agent_opts:
+                    agent_opts.append(extra)
         return False, _make_question_result(
             base_id, ack=ack, is_followup=True,
             followup_text=result["followup_question"].strip(),
+            followup_options=agent_opts,
         )
 
     return _next_main(ack=ack)
