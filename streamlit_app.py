@@ -290,7 +290,14 @@ def _call_llm_json(system_prompt, user_prompt, label="agent"):
         )
         raw_text = resp.choices[0].message.content
         result = _strip_controls(json.loads(raw_text))
-    except Exception:
+    except Exception as first_err:
+        if "agent_logs" in st.session_state:
+            st.session_state.agent_logs.append({
+                "timestamp": datetime.utcnow().isoformat() + "Z",
+                "label": label + "_first_attempt_error",
+                "error": f"{type(first_err).__name__}: {first_err}",
+                "raw_response": raw_text,
+            })
         resp = _openai_client.chat.completions.create(
             model=MODEL,
             messages=[
@@ -303,6 +310,15 @@ def _call_llm_json(system_prompt, user_prompt, label="agent"):
         if m:
             result = _strip_controls(json.loads(m.group()))
         else:
+            if "agent_logs" in st.session_state:
+                st.session_state.agent_logs.append({
+                    "timestamp": datetime.utcnow().isoformat() + "Z",
+                    "label": label + "_error",
+                    "system_prompt": system_prompt,
+                    "user_prompt": user_prompt,
+                    "raw_response": raw_text,
+                    "error": "No JSON found in response",
+                })
             raise ValueError(f"LLM did not return valid JSON. Raw: {raw_text[:300]}")
 
     if "agent_logs" in st.session_state:
@@ -353,8 +369,13 @@ def _update_summary_async(user_id, question_text, answer_text, prev_summary):
                 "raw_response": raw,
                 "parsed_response": result,
             })
-        except Exception:
-            pass
+        except Exception as e:
+            entry = _summary_store.setdefault(user_id, {"summary": "", "pending_logs": []})
+            entry["pending_logs"].append({
+                "timestamp": datetime.utcnow().isoformat() + "Z",
+                "label": "summarizer_error",
+                "error": f"{type(e).__name__}: {e}",
+            })
     threading.Thread(target=_run, daemon=True).start()
 
 
@@ -585,7 +606,14 @@ def run_agent_turn():
 
     try:
         result = _call_llm_json(_TURN_AGENT_SYSTEM, user_prompt, label="turn_agent")
-    except Exception:
+    except Exception as e:
+        if "agent_logs" in st.session_state:
+            st.session_state.agent_logs.append({
+                "timestamp": datetime.utcnow().isoformat() + "Z",
+                "label": "turn_agent_fallback",
+                "error": f"{type(e).__name__}: {e}",
+                "user_prompt": user_prompt,
+            })
         return _next_main()
 
     ack = (result.get("acknowledgment") or "Thanks.").strip()
