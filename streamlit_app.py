@@ -248,7 +248,7 @@ Return JSON only:
 
 Rules:
 - Set ask_followup true only if the participant's answer raises something design-relevant that a short follow-up could usefully deepen, and the interview summary does not already cover it. Never follow up just because an answer is short.
-- The follow-up must respond to what the participant actually said, like a natural conversation. Use the candidate follow-up if it genuinely fits their answer; otherwise write your own that refers to their own words or topic. Either way it must be a complete, self-contained question, answerable in one word or short phrase. Do not ask for stories or "why?" questions, and do not pressure for detail.
+- The follow-up must respond to what the participant actually said, like a natural conversation. Use the candidate follow-up if it fits their answer; otherwise write your own that refers to their own words or topic. Either way it must be a complete, self-contained question, answerable in one word or short phrase. Do not ask for stories or "why?" questions, and do not pressure for detail.
 - When ask_followup is true, also provide followup_options: 4-6 short example answers that fit your follow-up question, plus "Other" and "Skip".
 - If the answer is impossible to interpret, set understood false and put a gentle check in followup_question following this pattern: "It sounds like you mean [brief interpretation]. Is that right?"
 - The acknowledgment must not mention internal question IDs.
