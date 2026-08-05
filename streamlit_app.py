@@ -244,17 +244,26 @@ You are helping run an interview with a person with dysarthria about everyday co
 
 Interview purpose: We are designing a speech technology for people with dysarthria. The demo video shows an early idea: when a listener does not understand the speaker, the system transcribes the speaker's speech and lets the speaker quickly correct transcript errors (for example by picking the right word from a few choices) so the listener can read what they meant. The interview first explores the participant's everyday communication (who they talk to, what they do when misunderstood, what is hardest, what helps), then their reaction to the demo (first reaction, useful parts, concerns, easiest correction method, advice for the designers). Good follow-ups deepen our understanding of their lived experience or of how the technology should work to be genuinely useful and low-effort for them.
 
-You are given: the current question, its research purpose, the participant's answer, a pre-written candidate follow-up, a summary of the interview so far, and the participant's answering style.
+You are given: the current question, its research purpose, the participant's answer, a pre-written candidate follow-up, a summary of the interview so far, the participant's answering style, and how many questions remain.
+
+First classify the participant's message:
+- "answer": it answers the current question, fully or partly.
+- "question": it asks the interviewer something (how many questions left, privacy, whether an answer is okay, what the demo is, what happens next).
+- "burden": it signals fatigue, effort, frustration, or that the interview feels hard.
+- "stop": it clearly asks to stop the interview.
+- "unclear": it is impossible to interpret.
 
 Return JSON only:
-{"understood": true, "acknowledgment": "one short natural sentence acknowledging their answer", "ask_followup": false, "followup_question": "", "followup_options": [], "followup_reason": "one line"}
+{"message_type": "answer | question | burden | stop | unclear", "acknowledgment": "one short natural sentence acknowledging their message", "reply_to_participant": "", "ask_followup": false, "followup_question": "", "followup_options": [], "followup_reason": "one line"}
 
 Rules:
-- Set ask_followup true only if the participant's answer raises something design-relevant that a short follow-up could usefully deepen, and the interview summary does not already cover it. Never follow up just because an answer is short.
-- The follow-up must respond to what the participant actually said, like a natural conversation. Use the candidate follow-up if it fits their answer; otherwise write your own that refers to their own words or topic. Either way it must be a complete, self-contained question, answerable in one word or short phrase. Do not ask for stories or "why?" questions, and do not pressure for detail.
+- For "question": put a brief, direct answer in reply_to_participant (use QUESTIONS_REMAINING when relevant). Do not ask the next interview question yourself.
+- For "burden": put one kind sentence in reply_to_participant acknowledging the effort. Never say they are doing badly.
+- For "unclear": put a gentle check in reply_to_participant following this pattern: "It sounds like you mean [brief interpretation]. Is that right?"
+- For "answer": set ask_followup true only if the answer raises something design-relevant that a short follow-up could usefully deepen, and the interview summary does not already cover it. Never follow up just because an answer is short.
+- The follow-up must respond to what the participant actually said, like a natural conversation. Use the candidate follow-up if it genuinely fits their answer; otherwise write your own that refers to their own words or topic. Either way it must be a complete, self-contained question, answerable in one word or short phrase. Do not ask for stories or "why?" questions, and do not pressure for detail.
 - When ask_followup is true, also provide followup_options: 4-6 short example answers that fit your follow-up question, plus "Other" and "Skip".
-- If the answer is impossible to interpret, set understood false and put a gentle check in followup_question following this pattern: "It sounds like you mean [brief interpretation]. Is that right?"
-- The acknowledgment must not mention internal question IDs.
+- Acknowledgments and replies must not mention internal question IDs.
 """
 
 _SUMMARIZER_SYSTEM = """\
@@ -430,6 +439,24 @@ def _make_question_result(qid, ack="", is_followup=False, followup_text=None,
     }
 
 
+_SUPPORT_OPTIONS = ["Answer this question", "Skip this question",
+                    "Skip to the end", "Stop interview"]
+
+
+def _support_result(qid, reply_text, reason):
+    """Participant-care turn: answer their question / acknowledge burden, offer control."""
+    text = (reply_text.strip() + " Would you like to answer the question, "
+            "skip it, or stop?")
+    return {
+        "question_id": qid + "_support",
+        "question_text": text,
+        "question_type": "support",
+        "support_reason": reason,
+        "options": [{"label": o} for o in _SUPPORT_OPTIONS],
+        "answer_mode": "multiple_choice",
+    }
+
+
 def _clarification_result(qid, clarification_text):
     return {
         "question_id": qid + "_clarification",
@@ -574,6 +601,19 @@ def run_agent_turn():
                 base_id, ack="Sorry about that. Let's try again -")
         return _next_main()
 
+    # ---- Answer to a support turn: execute the chosen option ----
+    if q_type == "support":
+        ans = (last_user.get("content", "") or "").lower()
+        if "stop" in ans:
+            st.session_state.interview_ended = True
+            return False, None
+        if "skip to the end" in ans:
+            return False, _make_question_result("C1", ack="No problem.")
+        if "skip" in ans:
+            return _next_main(ack="No problem.")
+        # "Answer this question" or anything else: re-ask the current question
+        return False, _make_question_result(base_id, ack="Sure -")
+
     # ---- Answer to a follow-up: always advance ----
     if q_type == "follow_up":
         return _next_main()
@@ -595,8 +635,17 @@ def run_agent_turn():
     # ---- Typed input: consult the turn agent ----
     entry = INTERVIEW_GUIDE.get(base_id, {})
     followups_used = _count_followups(chat)
+    burden_signaled = any(
+        m.get("role") == "assistant" and m.get("support_reason") == "burden"
+        for m in chat
+    )
     quota_left = (followups_used < MAX_FOLLOWUPS_TOTAL
-                  and not entry.get("no_followup", False))
+                  and not entry.get("no_followup", False)
+                  and not burden_signaled)
+    try:
+        _remaining = max(0, len(sequence) - sequence.index(base_id) - 1)
+    except ValueError:
+        _remaining = 0
     already_clarified = any(
         m.get("role") == "assistant" and m.get("question_id") == base_id + "_clarification"
         for m in chat
@@ -609,6 +658,7 @@ def run_agent_turn():
         f"CANDIDATE_FOLLOWUP:\n{entry.get('followup') or '(none pre-written for this question)'}\n\n"
         f"INTERVIEW_SUMMARY_SO_FAR:\n{_get_summary(user_id) or '(interview just started)'}\n\n"
         f"ANSWER_STYLE:\n{_answer_style()}\n\n"
+        f"QUESTIONS_REMAINING:\nAbout {_remaining} questions remain in the interview.\n\n"
         f"FOLLOWUP_BUDGET:\n"
         f"{'A follow-up is allowed for this question.' if quota_left else 'Follow-ups are NOT allowed for this question - set ask_followup false.'}"
     )
@@ -626,9 +676,22 @@ def run_agent_turn():
         return _next_main()
 
     ack = (result.get("acknowledgment") or "Thanks.").strip()
+    msg_type = result.get("message_type", "answer")
+    reply = (result.get("reply_to_participant") or "").strip()
 
-    if not result.get("understood", True) and not already_clarified:
-        clar = (result.get("followup_question") or "").strip()
+    if msg_type == "stop":
+        st.session_state.interview_ended = True
+        return False, None
+
+    if msg_type == "question" and reply:
+        return False, _support_result(base_id, reply, reason="question")
+
+    if msg_type == "burden":
+        return False, _support_result(
+            base_id, reply or "This can take real effort - thank you.", reason="burden")
+
+    if msg_type == "unclear" and not already_clarified:
+        clar = reply or (result.get("followup_question") or "").strip()
         if clar:
             return False, _clarification_result(base_id, clar)
 
@@ -1130,7 +1193,7 @@ if st.session_state.waiting:
             "content": result["question_text"],
             "question_id": result.get("question_id", ""),
             "question_type": result.get("question_type", ""),
-            "participant_message_type": result.get("participant_message_type", ""),
+            "support_reason": result.get("support_reason", ""),
             "answer_mode": result.get("answer_mode", "multiple_choice"),
             "options": result.get("options", []),
             "timestamp": datetime.utcnow().isoformat() + "Z",
