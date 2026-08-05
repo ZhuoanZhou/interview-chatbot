@@ -18,6 +18,7 @@ import json
 import os
 import re
 import threading
+import time
 import unicodedata
 import uuid
 from datetime import datetime
@@ -346,6 +347,9 @@ _summary_store = {}  # {user_id: {"summary": str, "pending_logs": [..]}}
 
 
 def _update_summary_async(user_id, question_text, answer_text, prev_summary):
+    entry = _summary_store.setdefault(user_id, {"summary": "", "pending_logs": [], "inflight": 0})
+    entry["inflight"] = entry.get("inflight", 0) + 1
+
     def _run():
         try:
             user_prompt = (
@@ -363,7 +367,6 @@ def _update_summary_async(user_id, question_text, answer_text, prev_summary):
             )
             raw = resp.choices[0].message.content
             result = _strip_controls(json.loads(raw))
-            entry = _summary_store.setdefault(user_id, {"summary": "", "pending_logs": []})
             entry["summary"] = result.get("summary", prev_summary or "")
             entry["pending_logs"].append({
                 "timestamp": datetime.utcnow().isoformat() + "Z",
@@ -374,12 +377,13 @@ def _update_summary_async(user_id, question_text, answer_text, prev_summary):
                 "parsed_response": result,
             })
         except Exception as e:
-            entry = _summary_store.setdefault(user_id, {"summary": "", "pending_logs": []})
             entry["pending_logs"].append({
                 "timestamp": datetime.utcnow().isoformat() + "Z",
                 "label": "summarizer_error",
                 "error": f"{type(e).__name__}: {e}",
             })
+        finally:
+            entry["inflight"] = max(0, entry.get("inflight", 1) - 1)
     threading.Thread(target=_run, daemon=True).start()
 
 
@@ -1142,6 +1146,12 @@ elif st.session_state.get("interview_ended"):
     st.success("The interview has ended. Thank you for your time!")
     if not st.session_state.session_saved:
         with st.spinner("Saving your session to Google Drive..."):
+            # Wait briefly for the last background summarizer call so its log is saved too
+            for _ in range(20):
+                if _summary_store.get(user_id, {}).get("inflight", 0) == 0:
+                    break
+                time.sleep(0.5)
+            _drain_summary_logs(user_id)
             ok, save_msg = save_sync(user_id, st.session_state.chat, st.session_state.agent_logs, cfg)
         st.session_state.session_saved = True
         if ok:
