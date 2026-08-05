@@ -241,6 +241,8 @@ SEQUENCE_DEMO_SKIPPED = ["A1", "A2", "A3", "A4", "DemoConsent", "B4-general", "C
 _TURN_AGENT_SYSTEM = """\
 You are helping run an interview with a person with dysarthria about everyday communication and a technology demo. Participants may type slowly, use shorthand, or make typos. Be respectful and never pressure them.
 
+Interview purpose: We are designing a speech technology for people with dysarthria. The demo video shows an early idea: when a listener does not understand the speaker, the system transcribes the speaker's speech and lets the speaker quickly correct transcript errors (for example by picking the right word from a few choices) so the listener can read what they meant. The interview first explores the participant's everyday communication (who they talk to, what they do when misunderstood, what is hardest, what helps), then their reaction to the demo (first reaction, useful parts, concerns, easiest correction method, advice for the designers). Good follow-ups deepen our understanding of their lived experience or of how the technology should work to be genuinely useful and low-effort for them.
+
 You are given: the current question, its research purpose, the participant's answer, a pre-written candidate follow-up, a summary of the interview so far, and the participant's answering style.
 
 Return JSON only:
