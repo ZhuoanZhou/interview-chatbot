@@ -1,5 +1,6 @@
 """
-Interview Chatbot  -  Two-agent pipeline (Decision Maker + Question Generator)
+Interview Chatbot  -  Python-driven flow with targeted LLM calls
+(predefined questions; LLM consulted only for typed input + background summarizer)
 Run locally:   streamlit run streamlit_app.py
 Deploy:        push to GitHub -> connect Streamlit Community Cloud
 
@@ -85,678 +86,174 @@ CLOSING_MESSAGE = (
 
 
 # =============================================================================
-# Single-agent system prompt + user-message builder
+# Interview guide (Python-driven flow -- questions and options are predefined)
 # =============================================================================
 
-_AGENT_SYSTEM = """\
-You are an accessibility-aware semi-structured interview chatbot interviewing people with dysarthria about everyday communication and an early technology idea for times when others have difficulty understanding their speech.
-
-Participants may have motor, speech, typing, selection, ASR, or fatigue-related access needs. They may type slowly or use abbreviations, shorthand, partial words, spelling variants, ASR errors, or idiosyncratic phrasing. The goal is to understand their lived experience and reaction to the idea - not to elicit long answers. Keep the interview respectful, brief, flexible, and low-burden.
-
-# 1. Core interaction rules
-
-* Ask one question at a time, in plain language, with a short visible message.
-* Questions should be answerable with one word, a short phrase, one or more selected example answers, free text, "I don't know," or "skip." All are valid; free text is allowed but never required.
-* Accept short, partial, or uncertain answers without asking for expansion merely because they are short. Never pressure the participant to continue or provide more detail.
-* Do not ask for a story, a specific remembered event, a detailed imagined situation, or a sequence of events. Avoid "Can you think of a time...," "Tell me about a situation...," "What happened?," "Walk me through...," and standalone "Why?" questions.
-* Do not assume typing, repeating speech, ASR, or repeated attempts are easy or desirable. Do not assume speech is the participant's only method; they may use gesture, pointing, writing, typing, AAC, ASL/sign, saved messages, partner help, context, or decide to move on.
-* Do not use "repair" with participants. Say "when someone does not understand you," "help them understand," "make the message clearer," "correct the transcript," or "decide whether to keep trying."
-* Participant needs always override interview progress.
-
-# 2. Turn policy
-
-Apply this order every turn:
-
-1. If the previous assistant turn had `question_type: "support"` and the participant chose a support option, execute that option directly. Do not reclassify it as an interview answer, process question, burden signal, or unclear answer; clarify only if genuinely ambiguous.
-2. Otherwise classify the latest participant message as exactly one `participant_message_type`:
-   * `usable_answer`: directly answers the currently interview question and clear enough to continue.
-   * `attempted_unclear_answer`: appears to answer, but meaning is uncertain because of shorthand, spelling, partial words, ASR errors, or idiosyncratic phrasing.
-   * `clearly_unusable_input`: empty, accidental, unrelated, gibberish, garbled, or impossible to interpret as an answer.
-   * `skip_request`: asks to skip, pass, move on, not answer, or says "I don't know."
-   * `process_question`: asks about length, privacy, skipping, the demo, whether an answer is acceptable, or what happens next.
-   * `burden_signal`: indicates fatigue, effort, confusion, slow typing, interface frustration, or that the interview feels hard.
-   * `frustration_or_refusal`: expresses discomfort, refusal, or a wish to stop.
-   * `access_problem`: reports a microphone, typing, button, example-answer, or other technical/accessibility problem.
-   * `unknown`: no other category clearly applies.
-3. Address any non-usable message before asking another research question. Use `question_type: "support"` for participant-care turns that help the participant answer again, skip, pause, or stop. A support turn is neither a main question nor a follow-up.
-4. Use interview history, covered topics, burden, limits, and demo status to ask the next useful question.
-
-Handle categories as follows:
-
-* `usable_answer`: briefly acknowledge it when appropriate, mark all clearly covered topics, and move to the next useful main question  or ask a follow-up question when the answer raises something design-relevant worth deepening.
-* `attempted_unclear_answer`: do not discard it. Ask at most one brief clarification for that main question only when the uncertainty matters. After the reply - or if it remains unclear - record the best interpretation or mark it uncertain and move on.
-* `clearly_unusable_input`: do not treat it as an answer. Offer one low-effort recovery for that main question, with choices such as answer again, skip, or stop. If unusable input repeats after recovery, skip the question, switch to `low_burden`, and move forward. Treat a single unusable input as an accident, not a burden sign; switch to low_burden only when it repeats together with other burden signs.
-* `skip_request`: treat "skip," "skip it," "next," "pass," "don't know," and similar wording as skipping the current question. Say "No problem" for a skip or "That's okay" for "I don't know," then ask the next useful question without mentioning internal IDs.
-* `process_question`: answer briefly and directly, then offer a clear next-step choice. Do not ask the next research question in the same message unless the participant clearly asks to continue.
-* `burden_signal`: acknowledge the burden, offer control, switch to `low_burden`, and avoid follow-ups.
-* `access_problem`: acknowledge it and offer a simple available alternative - speaking, typing, example answers, skipping, or stopping. Do not treat the problem as an interview answer.
-* `frustration_or_refusal` or a stop request: stop immediately, ask no further interview question, and close politely.
-
-Support choices have these exact effects:
-
-* "Answer this question" or "Answer again": re-ask the current interview question once, with its example answers available.
-* "Skip this question": skip it and ask the next recommended main question.
-* "Skip to the end": move to C1 or the closing message, as appropriate.
-* "Stop interview": close politely.
-
-After executing a support choice, do not issue another support turn about the same problem. Avoid vague choices such as "Continue with the next questions" when it is unclear whether the current question will be answered or skipped. When the current main question remains unanswered, support choices should include "Answer this question" and "Skip this question." Do not invent extra support choices unless needed.
-
-Useful support wording includes:
-
-* "There are about <number of questions left> more questions. You can skip any question. Would you like to answer again, skip this question, or stop?"
-* "I may not have understood that. Would you like to answer again, skip this question, or stop?"
-* "No problem. We can skip this question."
-* "That's okay. We can stop here. Thank you for your answers."
-* "The demo is optional. You can watch it, skip it, or stop here."
-
-# 3. Acknowledgment, shorthand, and clarification
-
-When there is a previous participant answer, begin `message_to_participant` with one short, natural acknowledgment showing understanding, acceptance, or respect, then ask the next question in the same message when appropriate. Examples: "Got it - family and friends." "Thanks - typing can be hard." "Sure, let's move on." "No problem, we can skip that." "That's okay." "I understand." Do not invent feedback when there is no previous answer.
-
-Interpret obvious shorthand from context without clarification, such as "fam" = family, "frnds" = friends, "doc" = doctor, contextually clear "ppl" = people, and "typing hard" = typing is hard. Clarify only when an unfamiliar or ambiguous expression materially affects the recorded answer or next question.
-
-A clarification must:
-
-* ask only the clarification, not the next interview question;
-* use `question_type: "clarification"`;
-* use the current question ID plus `_clarification`;
-* follow: "It sounds like you mean [brief interpretation]. Is that right?";
-* provide exactly these example answers:
-  `[{"label":"Yes"},{"label":"No, I meant something else"}]`;
-* occur at most once for the same main question.
-
-# 4. Example answers and interface
-
-The interface has a textbox, microphone button, and example-answers button. Example answers are optional accessibility support, not expected or forced responses.
-
-Always return a nonempty `example_answers_if_requested` array. Do not put those answers inside `message_to_participant` unless the interface explicitly requests visible options. Participants may speak, type, select one or several examples, combine selections with speech/text, say "I don't know," or skip. Treat all as valid. Usually provide 4-6 substantive choices plus "Other" and "Skip"; use "None of these" when appropriate.
-
-# 5. Interview flow
-
-Ask the smallest set of questions needed to cover: communication partners; current strategies when misunderstood; what is hardest; helpful actions by others; first demo reaction; useful parts; concerns or non-useful parts; easiest correction/clarification method; design advice; and anything not asked.
-
-Default path:
-A1, A2, A3, A4, DemoConsent, B1, B2-useful, B2-concern, B3, B4, C1.
-
-Low-burden path:
-A1, A2, A3, DemoConsent, B1, B2-useful, B2-concern, B4, C1.
-
-If the demo is skipped:
-A1, A2, A3, A4 if burden allows, DemoConsent, B4-general, C1.
-
-Targets:
-
-* Default: 8-10 main questions including closing.
-* Low-burden: 6-8 main questions including closing.
-* Follow-ups: up to 1 per main question. 3-4 preferred, 5 maximum in total.
-
-Skip any question whose exact topic was already clearly answered. Optional questions are allowed only when burden is low and the topic is uncovered. Unless support or clarification is required, move to the next useful main question.
-
-# 6. Interview guide
-
-Use this guide flexibly. Skip questions that have already been answered. Ask optional questions only when burden is low and the topic has not already been covered.
-
-## A1. People they communicate with
-
-Main question:
-"Who do you communicate with most often?"
-
-Example answers:
-
-* Family
-* Friends
-* Caregivers or support workers
-* Doctors or health workers
-* People at work or school
-* Store or service workers
-* Other
-* Skip
-
-Research purpose:
-Understand the participant's everyday communication context.
-
-Possible follow-up only if truly useful and burden is low:
-"Who is easiest to communicate with?"
-
-Follow-up example answers:
-
-* Family
-* Friends
-* Caregivers or support workers
-* Doctors or health workers
-* People who know me well
-* No one is easy
-* Other
-* Skip
-
-## A2. Current ways of helping someone understand
-
-Main question:
-"When someone does not understand you, what do you usually do?"
-
-Example answers:
-
-* Say it again
-* Say it differently
-* Gesture or point
-* Type or write
-* Use AAC, sign, or another device
-* Ask someone else to help
-* Let it go
-* Other
-* Skip
-
-Research purpose:
-Learn the participant's own communication strategies without assuming that repeating speech is the main strategy.
-
-Possible follow-up only if truly useful and burden is low:
-"Do you usually use one way, or more than one?"
-
-Follow-up example answers:
-
-* One way
-* More than one
-* It depends
-* I am not sure
-* Other
-* Skip
-
-## A3. What is hardest
-
-Main question:
-"What is usually hardest when someone does not understand you?"
-
-Example answers:
-
-* Repeating myself
-* Saying it another way
-* Typing or using a device
-* Feeling rushed
-* The other person gets impatient
-* Losing what I wanted to say
-* Nothing is especially hard
-* Other
-* Skip
-
-Research purpose:
-Identify burdens that a new technology should reduce, not add to.
-
-Possible follow-up only if truly useful and burden is low:
-"Which one is hardest?"
-
-Follow-up example answers:
-
-* Repeating myself
-* Saying it another way
-* Typing or using a device
-* Feeling rushed
-* Other person gets impatient
-* Losing my thought
-* Other
-* Skip
-
-## A4. What other people can do that helps
-
-Main question:
-"What can other people do that helps you be understood?"
-
-Example answers:
-
-* Be patient
-* Wait longer
-* Ask yes/no questions
-* Guess from context
-* Watch my gestures
-* Read what I type or show
-* Move to a quieter place
-* Nothing helps much
-* Other
-* Skip
-
-Research purpose:
-Understand listener-side and environment-side supports.
-
-Possible follow-up only if truly useful and burden is low:
-"What is most helpful?"
-
-Follow-up example answers:
-
-* Patience
-* Waiting
-* Yes/no questions
-* Guessing from context
-* Watching gestures
-* Reading what I type or show
-* Other
-* Skip
-
-## A5. Optional: When it is harder
-
-Ask only if this has not already been covered and participant burden is low.
-
-Main question:
-"When is it harder for people to understand you?"
-
-Example answers:
-
-* With strangers
-* In noisy places
-* When people are rushed
-* When I am tired
-* On the phone or video call
-* In groups
-* It is about the same
-* Other
-* Skip
-
-Research purpose:
-Understand variation by listener, setting, fatigue, urgency, and communication channel.
-
-## A6. Optional: Desired support before demo
-
-Ask only if there is room before the demo and the participant has not already expressed this need.
-
-Main question:
-"What help would matter most in conversation?"
-
-Example answers:
-
-* Less repeating
-* Easier typing
-* Word choices
-* Saved messages
-* Help for the other person
-* Help in noisy places
-* I do not want technology help
-* I am not sure
-* Other
-* Skip
-
-Research purpose:
-Elicit participant-centered needs before showing the prototype.
-
-Do not ask a follow-up unless the answer is unclear and important.
-
-# 7. Demo handling
-
-Do not assume the participant has seen the demo just because they agreed to watch it.
-
-Use `DEMO_STATUS` and interview history.
-
-DEMO_STATUS values:
-
-* `not_shown`: the demo has not been shown yet.
-* `permission_requested`: the chatbot has asked whether the participant is ready to watch.
-* `ready_to_show`: the participant has agreed and the interface should show the demo next.
-* `shown`: the participant has watched the demo.
-* `skipped`: the participant skipped the demo or was not sure.
-
-If the next step is the demo and `DEMO_STATUS` is `not_shown`, ask:
-
-Question ID:
-DemoConsent
-
-Message:
-"Next, we would like to show a short demo video of an early idea. Is now an okay time to watch it?"
-
-Example answers:
-
-* Yes
-* Skip the demo
-* I'm not sure
-
-Question type:
-transition
-
-If the participant answers "Yes" to DemoConsent and the demo has not yet been shown, return a transition output with:
-
-* `question_id: "DemoShow"`
-* `question_type: "transition"`
-* `state_update.demo_action: "show_demo"`
-
-Message:
-"Great  -  please watch the short demo now. After that, we will ask a few questions."
-
-Example answers:
-
-* Done
-* Skip
-* I need help
-
-Do not ask B1 until `DEMO_STATUS` is `shown`.
-
-If the participant selects "Skip the demo" or "I'm not sure," set `state_update.demo_action: "skip_demo"` and skip Section B reaction questions. Move to B4-general, then C1.
-
-# 8. Reaction to demo
-
-Ask this section only after `DEMO_STATUS` is `shown`.
-
-## B1. First reaction
-
-Main question:
-"What is your first reaction to the demo?"
-
-Example answers:
-
-* I like it
-* I partly like it
-* I do not like it
-* Interesting, but I am not sure
-* Seems too much work
-* Not useful for me
-* Other
-* Skip
-
-Research purpose:
-Capture initial reaction without assuming the idea is good.
-
-After B1, do not branch based only on whether the participant likes or dislikes the idea.
-
-A participant who likes the idea may still have concerns. A participant who dislikes the idea may still see one useful part.
-
-Therefore, after B1, ask B2-useful first, then B2-concern.
-
-Do not ask "why?" as a follow-up. B2-useful and B2-concern are enough.
-
-## B2-useful. What seems useful, if anything
-
-Main question:
-"What seems useful in the demo video?"
-
-Example answers:
-
-* Transcript
-* Word choices
-* Less repeating
-* Helps the other person
-* Gives me control
-* Could save time
-* Nothing seems useful
-* I am not sure
-* Other
-* Skip
-
-Research purpose:
-Understand possible perceived benefits without forcing a positive reaction.
-
-Possible follow-up only if truly useful and burden is low:
-"Which part seems most useful?"
-
-Follow-up example answers:
-
-* Transcript
-* Word choices
-* Less repeating
-* Helps the other person
-* Control
-* Saving time
-* None
-* Other
-* Skip
-
-## B2-concern. What seems not useful or concerning, if anything
-
-Main question:
-"What seems not useful or concerning in the demo video?"
-
-Example answers:
-
-* Too slow
-* Too much effort
-* Transcript may be wrong
-* Hard to choose options
-* Typing is hard
-* Other person may not wait
-* I have better ways now
-* Nothing concerns me
-* I am not sure
-* Other
-* Skip
-
-Research purpose:
-Understand concerns, disliked parts, and possible barriers without assuming the participant dislikes the idea.
-
-Possible follow-up only if truly useful and burden is low:
-"Which concern matters most?"
-
-Follow-up example answers:
-
-* Too slow
-* Too much effort
-* Wrong transcript
-* Hard to choose
-* Typing is hard
-* Other person may not wait
-* None
-* Other
-* Skip
-
-## B3. Easiest correction or clarification
-
-Ask after B2-concern unless the participant is showing high burden. If burden is high, skip to B4.
-
-Main question:
-"If the system guessed wrong, what would be easiest?"
-
-Example answers:
-
-* Pick the right word
-* Pick from a few choices
-* Tap the wrong word
-* Type a short fix
-* Use a saved phrase
-* Gesture or point
-* Let the other person help
-* Do not fix it
-* Other
-* Skip
-
-Research purpose:
-Identify low-effort correction options without assuming that speaking again, typing, or detailed editing is easy.
-
-Possible follow-up only if truly useful and burden is low:
-"Which would take the least effort?"
-
-Follow-up example answers:
-
-* Pick the right word
-* Pick from choices
-* Tap the wrong word
-* Type a short fix
-* Use a saved phrase
-* Gesture or point
-* Other person helps
-* Skip
-
-## B4. What designers should remember
-
-Main question after demo:
-"What should the people making this remember?"
-
-Example answers:
-
-* Keep it low effort
-* Do not assume typing is easy
-* Do not assume speaking again works
-* Support gesture, AAC, or sign
-* Make it work in real conversations
-* Let the other person help
-* Give me control
-* Other
-* Skip
-
-Research purpose:
-Elicit participant-centered design implications.
-
-Possible follow-up only if truly useful and burden is low:
-"What is most important?"
-
-Follow-up example answers:
-
-* Low effort
-* Typing is not easy
-* Speaking again may not work
-* Support gesture, AAC, or sign
-* Real conversations
-* Other person can help
-* Control
-* Skip
-
-## B4-general. If demo is skipped
-
-If the demo is skipped, do not ask reaction questions about the demo.
-
-Instead ask:
-
-Main question:
-"What should people making communication technology remember?"
-
-Example answers:
-
-* Keep it low effort
-* Do not assume typing is easy
-* Do not assume speaking again works
-* Support gesture, AAC, or sign
-* Make it work in real conversations
-* Let the other person help
-* Give me control
-* Other
-* Skip
-
-Question type:
-main
-
-Then move to C1.
-
-# 9. Closing
-
-## C1. Anything missing
-
-Main question:
-"Is there anything important we did not ask?"
-
-Example answers:
-
-* Yes
-* No
-* I'm not sure
-* Other
-* Skip
-
-Research purpose:
-Allow participant-led concerns or insights not anticipated by the guide.
-
-Possible follow-up only if the participant selects "Yes" or clearly indicates there is something else:
-"What else should we know?"
-
-Follow-up example answers:
-
-* Something about communication
-* Something about the technology
-* Something about access or effort
-* Something about privacy
-* Something else
-* Skip
-
-After C1 is answered, close the interview.
-
-Closing message:
-"Thank you. Your answers are very helpful."
-
-Question type:
-closing
-
-# 10. Follow-ups, burden, and repetition
-
-Aim for 3-4 follow-ups across the interview. Ask one only when the immediately previous answer raises an important design-relevant issue or requires clarification to be captured, no follow-up has been asked after that main question, fewer than 5 have been asked overall, and the participant shows no fatigue, frustration, or burden. Never ask more than one after a main question, and never follow up merely because an answer is short. Clarification and support do not count as follow-ups but must remain brief and limited.
-
-B2-useful and B2-concern are main questions, not follow-ups. After B1, ask B2-useful and then B2-concern unless each exact topic was already answered or burden is very high. Liking the demo does not imply no concerns; disliking it does not imply no useful parts. After B2-concern, ask B3 unless burden is high.
-
-Burden signs include repeated skips, frustration, typing or ASR difficulty, tiredness, or effortful unclear/incomplete text. Switch to `low_burden`, simplify wording, avoid follow-ups, and move toward the demo or closing when any of these apply. Unless already near closing, switch after two skips, "I don't know," or burden notes suggesting fatigue. A single "I don't know," one skip, or one accidental/unusable input is not enough to switch. Do not say the participant is doing badly. If burden is very high after B1, still try to ask both B2-useful and B2-concern briefly and without follow-ups because they collect different information.
-
-Use history to avoid repetition. When an answer covers multiple later topics, mark them covered and skip those questions unless important clarification is needed.
-
-# 11. Opening and runtime inputs
-
-The interface already displayed the opening. Do not repeat it. The participant already knows this is not a test; there are no right or wrong answers; short answers are fine; any question may be skipped; answers may use speech, typing, example answers, or a mix; and the example-answers button shows possible answers.
-
-Each turn provides:
-
-`INTERVIEW_HISTORY`: compact records of prior question IDs, visible messages, question types, selected example answers, and free text/speech.
-
-Example:
-```json
-[
-  {
-    "question_id": "Ax",
-    "question_type": "main",
-    "message_to_participant": "<short acknowledge> <question text>",
-    "participant_response": {
-      "selected_example_answers": ["<selected answer>"],
-      "free_text": "<typed text>"
-    }
-  }
-]
-```
-
-`INTERVIEW_STATE`: use it if present; otherwise infer conservatively from history. Recommended fields:
-```json
-{
-  "covered_topics": [],
-  "total_main_questions_asked": 0,
-  "total_followups_asked": 0,
-  "last_main_question_id": null,
-  "followup_asked_after_last_main": false,
-  "clarification_asked_after_last_main": false,
-  "unclear_recovery_asked_after_last_main": false,
-  "burden_level": "low | medium | high | unknown",
-  "path": "default | low_burden",
-  "next_recommended_question_id": null
+MAX_FOLLOWUPS_TOTAL = 5
+MAX_FOLLOWUPS_PER_QUESTION = 1
+
+INTERVIEW_GUIDE = {
+    "A1": {
+        "question": "Who do you communicate with most often?",
+        "purpose": "Understand the participant's everyday communication context.",
+        "options": ["Family", "Friends", "Caregivers or support workers",
+                    "Doctors or health workers", "People at work or school",
+                    "Store or service workers", "Other", "Skip"],
+        "followup": "Who is easiest to communicate with?",
+        "followup_options": ["Family", "Friends", "Caregivers or support workers",
+                             "Doctors or health workers", "People who know me well",
+                             "No one is easy", "Other", "Skip"],
+    },
+    "A2": {
+        "question": "When someone does not understand you, what do you usually do?",
+        "purpose": "Learn the participant's own communication strategies without assuming that repeating speech is the main strategy.",
+        "options": ["Say it again", "Say it differently", "Gesture or point",
+                    "Type or write", "Use AAC, sign, or another device",
+                    "Ask someone else to help", "Let it go", "Other", "Skip"],
+        "followup": "Do you usually use one way, or more than one?",
+        "followup_options": ["One way", "More than one", "It depends",
+                             "I am not sure", "Other", "Skip"],
+    },
+    "A3": {
+        "question": "What is usually hardest when someone does not understand you?",
+        "purpose": "Identify burdens that a new technology should reduce, not add to.",
+        "options": ["Repeating myself", "Saying it another way", "Typing or using a device",
+                    "Feeling rushed", "The other person gets impatient",
+                    "Losing what I wanted to say", "Nothing is especially hard", "Other", "Skip"],
+        "followup": "Which one is hardest?",
+        "followup_options": ["Repeating myself", "Saying it another way",
+                             "Typing or using a device", "Feeling rushed",
+                             "Other person gets impatient", "Losing my thought", "Other", "Skip"],
+    },
+    "A4": {
+        "question": "What can other people do that helps you be understood?",
+        "purpose": "Understand listener-side and environment-side supports.",
+        "options": ["Be patient", "Wait longer", "Ask yes/no questions", "Guess from context",
+                    "Watch my gestures", "Read what I type or show", "Move to a quieter place",
+                    "Nothing helps much", "Other", "Skip"],
+        "followup": "What is most helpful?",
+        "followup_options": ["Patience", "Waiting", "Yes/no questions", "Guessing from context",
+                             "Watching gestures", "Reading what I type or show", "Other", "Skip"],
+    },
+    "DemoConsent": {
+        "question": "Next, we would like to show a short demo video of an early idea. Is now an okay time to watch it?",
+        "purpose": "Ask permission before showing the demo.",
+        "options": ["Yes", "Skip the demo", "I'm not sure"],
+        "followup": None,
+        "followup_options": [],
+        "type": "transition",
+    },
+    "DemoShow": {
+        "question": "Great - please watch the short demo now. After that, we will ask a few questions.",
+        "purpose": "Show the demo video.",
+        "options": ["Done", "Skip", "I need help"],
+        "followup": None,
+        "followup_options": [],
+        "type": "transition",
+    },
+    "B1": {
+        "question": "What is your first reaction to the demo?",
+        "purpose": "Capture initial reaction without assuming the idea is good.",
+        "options": ["I like it", "I partly like it", "I do not like it",
+                    "Interesting, but I am not sure", "Seems too much work",
+                    "Not useful for me", "Other", "Skip"],
+        "followup": None,
+        "followup_options": [],
+    },
+    "B2-useful": {
+        "question": "What seems useful in the demo video?",
+        "purpose": "Understand possible perceived benefits without forcing a positive reaction.",
+        "options": ["Transcript", "Word choices", "Less repeating", "Helps the other person",
+                    "Gives me control", "Could save time", "Nothing seems useful",
+                    "I am not sure", "Other", "Skip"],
+        "followup": "Which part seems most useful?",
+        "followup_options": ["Transcript", "Word choices", "Less repeating",
+                             "Helps the other person", "Control", "Saving time",
+                             "None", "Other", "Skip"],
+    },
+    "B2-concern": {
+        "question": "What seems not useful or concerning in the demo video?",
+        "purpose": "Understand concerns, disliked parts, and possible barriers without assuming the participant dislikes the idea.",
+        "options": ["Too slow", "Too much effort", "Transcript may be wrong",
+                    "Hard to choose options", "Typing is hard", "Other person may not wait",
+                    "I have better ways now", "Nothing concerns me", "I am not sure",
+                    "Other", "Skip"],
+        "followup": "Which concern matters most?",
+        "followup_options": ["Too slow", "Too much effort", "Wrong transcript", "Hard to choose",
+                             "Typing is hard", "Other person may not wait", "None",
+                             "Other", "Skip"],
+    },
+    "B3": {
+        "question": "If the system guessed wrong, what would be easiest?",
+        "purpose": "Identify low-effort correction options without assuming that speaking again, typing, or detailed editing is easy.",
+        "options": ["Pick the right word", "Pick from a few choices", "Tap the wrong word",
+                    "Type a short fix", "Use a saved phrase", "Gesture or point",
+                    "Let the other person help", "Do not fix it", "Other", "Skip"],
+        "followup": "Which would take the least effort?",
+        "followup_options": ["Pick the right word", "Pick from choices", "Tap the wrong word",
+                             "Type a short fix", "Use a saved phrase", "Gesture or point",
+                             "Other person helps", "Skip"],
+    },
+    "B4": {
+        "question": "What should the people making this remember?",
+        "purpose": "Elicit participant-centered design implications.",
+        "options": ["Keep it low effort", "Do not assume typing is easy",
+                    "Do not assume speaking again works", "Support gesture, AAC, or sign",
+                    "Make it work in real conversations", "Let the other person help",
+                    "Give me control", "Other", "Skip"],
+        "followup": "What is most important?",
+        "followup_options": ["Low effort", "Typing is not easy", "Speaking again may not work",
+                             "Support gesture, AAC, or sign", "Real conversations",
+                             "Other person can help", "Control", "Skip"],
+    },
+    "B4-general": {
+        "question": "What should people making communication technology remember?",
+        "purpose": "Elicit participant-centered design implications (demo skipped).",
+        "options": ["Keep it low effort", "Do not assume typing is easy",
+                    "Do not assume speaking again works", "Support gesture, AAC, or sign",
+                    "Make it work in real conversations", "Let the other person help",
+                    "Give me control", "Other", "Skip"],
+        "followup": None,
+        "followup_options": [],
+    },
+    "C1": {
+        "question": "Is there anything important we did not ask?",
+        "purpose": "Allow participant-led concerns or insights not anticipated by the guide.",
+        "options": ["Yes", "No", "I'm not sure", "Other", "Skip"],
+        "followup": "What else should we know?",
+        "followup_options": ["Something about communication", "Something about the technology",
+                             "Something about access or effort", "Something about privacy",
+                             "Something else", "Skip"],
+    },
 }
-```
 
-`DEMO_STATUS`: one of `not_shown`, `permission_requested`, `ready_to_show`, `shown`, or `skipped`.
+# Question order. DemoShow is inserted by the flow only when the demo is accepted.
+SEQUENCE_DEFAULT = ["A1", "A2", "A3", "A4", "DemoConsent", "DemoShow",
+                    "B1", "B2-useful", "B2-concern", "B3", "B4", "C1"]
+SEQUENCE_DEMO_SKIPPED = ["A1", "A2", "A3", "A4", "DemoConsent", "B4-general", "C1"]
 
-`PARTICIPANT_BURDEN_NOTES`: observed fatigue, effort, frustration, repeated skipping, reliance on example answers, ASR difficulty, or other access needs.
 
-# 12. Required output
+# =============================================================================
+# LLM prompts (short, focused)
+# =============================================================================
 
-Generate exactly one next interview turn. First execute any pending support choice; otherwise classify the latest participant message, resolve any participant need, update covered topics and state, and choose the next action based on history, burden, limits, demo status, and Section B ordering.
+_TURN_AGENT_SYSTEM = """\
+You are helping run an interview with a person with dysarthria about everyday communication and a technology demo. Participants may type slowly, use shorthand, or make typos. Be respectful and never pressure them.
 
-Return only valid JSON in this structure:
+You are given: the current question, its research purpose, the participant's answer, a candidate follow-up question, a summary of the interview so far, and the participant's answering style.
 
-```json
-{
-  "question_id": "...",
-  "message_to_participant": "...",
-  "example_answers_if_requested": [
-    {"label": "..."}
-  ],
-  "question_type": "main | follow_up | clarification | transition | support | closing",
-  "participant_message_type": "usable_answer | attempted_unclear_answer | clearly_unusable_input | skip_request | process_question | burden_signal | frustration_or_refusal | access_problem | unknown",
-  "state_update": {
-    "mark_covered": [],
-    "followup_used": false,
-    "clarification_used": false,
-    "unclear_recovery_used": false,
-    "demo_action": "none | show_demo | skip_demo",
-    "path": "default | low_burden",
-    "recommended_next": null
-  }
-}
-```
+Return JSON only:
+{"understood": true, "acknowledgment": "one short natural sentence acknowledging their answer", "ask_followup": false, "followup_question": "", "followup_reason": "one line"}
 
-Output constraints:
+Rules:
+- Set ask_followup true only if the answer raises something design-relevant that a short follow-up could usefully deepen, and the interview summary does not already cover it. Never follow up just because an answer is short.
+- You may rephrase the candidate follow-up or write a better one, but keep it answerable in one word or short phrase. Do not ask for stories or "why?" questions.
+- If the answer is impossible to interpret, set understood false and put a gentle check in followup_question following this pattern: "It sounds like you mean [brief interpretation]. Is that right?"
+- The acknowledgment must not mention internal question IDs.
+"""
 
-* Return JSON only, with no internal reasoning or surrounding text.
-* Internal question IDs and section labels must never appear in `message_to_participant`; the participant sees only that field.
-* `example_answers_if_requested` must never be empty and normally must not be copied into the visible message.
-* A support turn must use `question_type: "support"`, address only the immediate need, and not include a normal interview question unless the participant clearly asked to continue. Set `path` to `low_burden` when support is caused by burden, frustration, access difficulty, or repeated unusable input.
-* A clarification must follow the exact clarification rules in Section 3.
-* A demo-show transition must use `question_id: "DemoShow"`, `question_type: "transition"`, and `state_update.demo_action: "show_demo"`; do not ask a reaction question in that turn.
-* When the demo is skipped, set `demo_action: "skip_demo"`, omit Section B reaction questions, and proceed to B4-general.
-* After C1 or its one allowed follow-up is answered, return "Thank you. Your answers are very helpful." with `question_type: "closing"`.
-* If the participant asks for example answers, keep the current question when appropriate and return its examples; do not treat the request as failure.
+_SUMMARIZER_SYSTEM = """\
+Summarize what we have learned from this interview participant so far in 2-4 plain sentences: who they communicate with, their strategies, difficulties, and reactions to the technology demo. Also note their answering style (clicks suggestions, types short answers, or types full sentences). You are given the previous summary and the latest question and answer. Return JSON only: {"summary": "..."}
 """
 
 
@@ -821,191 +318,290 @@ def _call_llm_json(system_prompt, user_prompt, label="agent"):
     return result
 
 
-def _format_chat_for_prompt(chat):
-    lines = []
-    for msg in chat:
-        if msg.get("role") == "video":
-            lines.append("[Demo video was shown to the participant here]")
-        elif msg["role"] == "assistant":
-            lines.append(f"Interviewer: {msg['content']}")
-            if msg.get("options"):
-                opts = " | ".join(o["label"] for o in msg["options"])
-                lines.append(f"[Options shown: {opts}]")
-        elif msg["role"] == "user":
-            lines.append(f"Participant: {msg['content']}")
-    return "\n".join(lines) if lines else "(No conversation yet)"
+# =============================================================================
+# Background summarizer (runs in a thread; results read on the next turn)
+# =============================================================================
+
+_summary_store = {}  # {user_id: {"summary": str, "pending_logs": [..]}}
+
+
+def _update_summary_async(user_id, question_text, answer_text, prev_summary):
+    def _run():
+        try:
+            user_prompt = (
+                f"PREVIOUS_SUMMARY:\n{prev_summary or '(none yet)'}\n\n"
+                f"LATEST_QUESTION:\n{question_text}\n\n"
+                f"LATEST_ANSWER:\n{answer_text}"
+            )
+            resp = _openai_client.chat.completions.create(
+                model=MODEL,
+                messages=[
+                    {"role": "system", "content": _SUMMARIZER_SYSTEM},
+                    {"role": "user", "content": user_prompt},
+                ],
+                response_format={"type": "json_object"},
+            )
+            raw = resp.choices[0].message.content
+            result = _strip_controls(json.loads(raw))
+            entry = _summary_store.setdefault(user_id, {"summary": "", "pending_logs": []})
+            entry["summary"] = result.get("summary", prev_summary or "")
+            entry["pending_logs"].append({
+                "timestamp": datetime.utcnow().isoformat() + "Z",
+                "label": "summarizer",
+                "system_prompt": _SUMMARIZER_SYSTEM,
+                "user_prompt": user_prompt,
+                "raw_response": raw,
+                "parsed_response": result,
+            })
+        except Exception:
+            pass
+    threading.Thread(target=_run, daemon=True).start()
+
+
+def _get_summary(user_id):
+    return _summary_store.get(user_id, {}).get("summary", "")
+
+
+def _drain_summary_logs(user_id):
+    entry = _summary_store.get(user_id)
+    if entry and entry.get("pending_logs") and "agent_logs" in st.session_state:
+        st.session_state.agent_logs.extend(entry["pending_logs"])
+        entry["pending_logs"] = []
 
 
 # =============================================================================
-# Agent turn
+# Flow engine (Python drives the interview; LLM consulted only for typed input)
 # =============================================================================
 
-def _build_interview_history(chat):
-    """Build the compact INTERVIEW_HISTORY list the single agent expects."""
-    history = []
-    i = 0
-    msgs = [m for m in chat if m.get("role") in ("assistant", "user", "video")]
-    while i < len(msgs):
-        msg = msgs[i]
-        if msg.get("role") == "assistant":
-            entry = {
-                "question_id": msg.get("question_id", ""),
-                "question_type": msg.get("question_type", ""),
-                "message_to_participant": msg.get("content", ""),
-                "participant_response": None,
-            }
-            # Look for the immediately following user message
-            if i + 1 < len(msgs) and msgs[i + 1].get("role") == "user":
-                i += 1
-                user_msg = msgs[i]
-                # Read structured fields stored at submission time
-                selected = user_msg.get("selected_suggestions", [])
-                free = user_msg.get("free_text", user_msg.get("content", ""))
-                entry["participant_response"] = {
-                    "selected_example_answers": selected,
-                    "free_text": free,
-                }
-            history.append(entry)
-        i += 1
-    return history
+_SKIP_WORDS = {"skip", "skip it", "next", "pass", "i don't know", "i dont know",
+               "idk", "dont know", "don't know", "no", "none", "nothing"}
 
 
-# Regex to detect internal question IDs leaked into participant-facing text
-_QID_PATTERN = re.compile(
-    r'\b(A[1-4]|B[1-4](?:-useful|-concern|-general)?|C1|DemoConsent|DemoShow)\b'
-)
+def _make_question_result(qid, ack="", is_followup=False, followup_text=None):
+    """Build the result dict the UI expects for a guide question or its follow-up."""
+    entry = INTERVIEW_GUIDE[qid]
+    if is_followup:
+        text = followup_text or entry["followup"]
+        options = entry["followup_options"]
+        q_type = "follow_up"
+        q_id = qid + "_followup"
+    else:
+        text = entry["question"]
+        options = entry["options"]
+        q_type = entry.get("type", "main")
+        q_id = qid
+    content_text = (ack.strip() + " " + text).strip() if ack else text
+    return {
+        "question_id": q_id,
+        "question_text": content_text,
+        "question_type": q_type,
+        "options": [{"label": o} for o in options],
+        "answer_mode": "multiple_choice",
+    }
 
 
-_A1_RESULT = {
-    "question_id": "A1",
-    "message_to_participant": "Who do you communicate with most often?",
-    "example_answers_if_requested": [
-        {"label": "Family"},
-        {"label": "Friends"},
-        {"label": "Caregivers or support workers"},
-        {"label": "Doctors or health workers"},
-        {"label": "People at work or school"},
-        {"label": "Store or service workers"},
-        {"label": "Other"},
-        {"label": "Skip"},
-    ],
-    "question_type": "main",
-}
+def _clarification_result(qid, clarification_text):
+    return {
+        "question_id": qid + "_clarification",
+        "question_text": clarification_text,
+        "question_type": "clarification",
+        "options": [{"label": "Yes"}, {"label": "No, I meant something else"}],
+        "answer_mode": "multiple_choice",
+    }
+
+
+def _base_qid(question_id):
+    """Strip _followup/_clarification suffixes."""
+    for suffix in ("_followup", "_clarification"):
+        if question_id.endswith(suffix):
+            return question_id[: -len(suffix)]
+    return question_id
+
+
+def _get_sequence():
+    """Return the active question order, accounting for a skipped demo."""
+    chat = st.session_state.chat
+    for i, m in enumerate(chat):
+        if m.get("role") == "assistant" and m.get("question_id") == "DemoConsent":
+            if i + 1 < len(chat) and chat[i + 1].get("role") == "user":
+                ans = chat[i + 1].get("content", "").lower()
+                if "skip" in ans or "not sure" in ans:
+                    return SEQUENCE_DEMO_SKIPPED
+    return SEQUENCE_DEFAULT
+
+
+def _count_followups(chat):
+    return sum(1 for m in chat
+               if m.get("role") == "assistant" and m.get("question_type") == "follow_up")
+
+
+def _answer_style():
+    """Describe how the participant answers, from typed-residual lengths."""
+    lengths = st.session_state.get("typed_lengths", [])
+    if not lengths or max(lengths) == 0:
+        return "So far the participant only clicks suggested answers."
+    avg = sum(lengths) / len(lengths)
+    if avg < 30:
+        return "The participant types short answers (a few words)."
+    return "The participant is comfortable typing full sentences."
+
+
+def _typed_residual(user_msg):
+    """Return the part of the answer the participant actually typed
+    (free text minus clicked suggested phrases and separators)."""
+    free = user_msg.get("free_text", user_msg.get("content", "")) or ""
+    residual = free
+    for phrase in user_msg.get("selected_suggestions", []):
+        residual = residual.replace(phrase, "")
+    residual = re.sub(r"[;,.\s]+", " ", residual).strip()
+    return residual
+
+
+def _is_skip_answer(user_msg):
+    txt = (user_msg.get("content", "") or "").strip().lower().rstrip(".!")
+    return txt in _SKIP_WORDS or txt == ""
 
 
 def run_agent_turn():
+    """Decide and return the next interviewer turn: (show_video, result).
+
+    result=None with interview_ended set means the interview is over.
+    Derives all flow state from the chat history, so resumed sessions work.
+    """
     chat = st.session_state.chat
-    demo_status = st.session_state.get("demo_status", "not_shown")
+    user_id = st.session_state.get("user_id", "")
+    _drain_summary_logs(user_id)
 
-    # First question is always A1  -  no LLM call needed
+    # ---- First turn: serve A1, no LLM ----
     if not any(m.get("role") == "user" for m in chat):
-        result = _A1_RESULT.copy()
-    else:
-        # Count skips / short answers for burden notes
-        skip_count = sum(
-            1 for m in chat
-            if m.get("role") == "user" and m.get("content", "").lower().strip() in ("skip", "i don't know", "")
-        )
-        burden_notes = f"{skip_count} skip(s) or empty answers so far." if skip_count else "No signs of high burden observed."
+        return False, _make_question_result("A1")
 
-        history = _build_interview_history(chat)
-        interview_state = st.session_state.get("interview_state", {})
-        user_prompt = (
-            f"INTERVIEW_HISTORY:\n{json.dumps(history, indent=2)}\n\n"
-            f"INTERVIEW_STATE:\n{json.dumps(interview_state, indent=2)}\n\n"
-            f"DEMO_STATUS:\n{demo_status}\n\n"
-            f"PARTICIPANT_BURDEN_NOTES:\n{burden_notes}"
-        )
+    # ---- Identify the question just answered ----
+    last_q = None
+    for m in reversed(chat):
+        if m.get("role") == "assistant":
+            last_q = m
+            break
+    last_user = None
+    for m in reversed(chat):
+        if m.get("role") == "user":
+            last_user = m
+            break
+    q_id = last_q.get("question_id", "") if last_q else ""
+    q_type = last_q.get("question_type", "") if last_q else ""
+    base_id = _base_qid(q_id)
+    sequence = _get_sequence()
 
-        result = _call_llm_json(_AGENT_SYSTEM, user_prompt, label="agent")
+    # ---- Track answering style ----
+    residual = _typed_residual(last_user)
+    st.session_state.setdefault("typed_lengths", []).append(len(residual))
 
-        # Fallback: retry if message_to_participant leaks an internal question ID
-        for _retry in range(2):
-            leaked = _QID_PATTERN.findall(result.get("message_to_participant", ""))
-            if not leaked:
-                break
-            retry_prompt = (
-                user_prompt
-                + f"\n\nCORRECTION REQUIRED: Your previous response included the internal ID(s) {leaked} "
-                "inside `message_to_participant`. Question IDs must never appear in the participant-facing message. "
-                "Rewrite `message_to_participant` using natural wording only (e.g. 'this question', 'the demo', "
-                "or ask directly). Return the full corrected JSON."
-            )
-            result = _call_llm_json(_AGENT_SYSTEM, retry_prompt, label="agent_retry")
+    # ---- Kick off background summary update ----
+    _update_summary_async(
+        user_id,
+        last_q.get("content", "") if last_q else "",
+        last_user.get("content", "") if last_user else "",
+        _get_summary(user_id),
+    )
 
-        # Fallback: retry if example_answers_if_requested is missing or empty
-        for _retry in range(2):
-            if result.get("example_answers_if_requested"):
-                break
-            retry_prompt = (
-                user_prompt
-                + "\n\nCORRECTION REQUIRED: Your previous response had an empty or missing "
-                "`example_answers_if_requested`. This field must always contain at least one option. "
-                "Return the full corrected JSON with a non-empty `example_answers_if_requested` list."
-            )
-            result = _call_llm_json(_AGENT_SYSTEM, retry_prompt, label="agent_retry")
-
-    # Detect end-of-interview  -  closing type always ends after showing the message
-    q_type = result.get("question_type", "")
-    q_id = result.get("question_id", "")
-    if q_type == "closing":
-        # Show the closing message if present, then mark ended on next rerun
-        if not result.get("message_to_participant", "").strip():
+    def _next_main(ack="Thanks."):
+        """Serve the next main question after base_id (deterministic)."""
+        seq = _get_sequence()
+        try:
+            idx = seq.index(base_id)
+        except ValueError:
+            idx = -1
+        if idx + 1 >= len(seq):
             st.session_state.interview_ended = True
             return False, None
+        next_id = seq[idx + 1]
+        show_video = False
+        if next_id == "DemoShow":
+            show_video = True
+            st.session_state.demo_status = "shown"
+        return show_video, _make_question_result(next_id, ack=ack)
 
-    # Demo action from state_update (replaces old heuristic)
-    demo_action = result.get("state_update", {}).get("demo_action", "none")
-    show_video = False
-    if demo_action == "show_demo" and demo_status != "shown":
-        show_video = True
+    # ---- Demo consent: deterministic branch ----
+    if base_id == "DemoConsent":
+        ans = (last_user.get("content", "") or "").lower()
+        if "skip" in ans or "not sure" in ans:
+            st.session_state.demo_status = "skipped"
+            return False, _make_question_result("B4-general", ack="No problem.")
         st.session_state.demo_status = "shown"
-    elif demo_action == "skip_demo":
-        st.session_state.demo_status = "skipped"
+        return True, _make_question_result("DemoShow")
 
-    # Persist state_update fields into interview_state
-    istate = st.session_state.get("interview_state", {})
-    su = result.get("state_update", {})
-    for topic in su.get("mark_covered", []):
-        if topic not in istate.get("covered_topics", []):
-            istate.setdefault("covered_topics", []).append(topic)
-    if su.get("followup_used"):
-        istate["total_followups_asked"] = istate.get("total_followups_asked", 0) + 1
-        istate["followup_asked_after_last_main"] = True
-    if su.get("clarification_used"):
-        istate["clarification_asked_after_last_main"] = True
-    if su.get("unclear_recovery_used"):
-        istate["unclear_recovery_asked_after_last_main"] = True
-    if su.get("path"):
-        istate["path"] = su["path"]
-        if su["path"] == "low_burden":
-            istate["burden_level"] = "high"
-    if su.get("recommended_next") is not None:
-        istate["next_recommended_question_id"] = su["recommended_next"]
-    q_type = result.get("question_type", "")
-    if q_type == "main":
-        istate["total_main_questions_asked"] = istate.get("total_main_questions_asked", 0) + 1
-        istate["last_main_question_id"] = result.get("question_id")
-        istate["followup_asked_after_last_main"] = False
-        istate["clarification_asked_after_last_main"] = False
-        istate["unclear_recovery_asked_after_last_main"] = False
-    st.session_state.interview_state = istate
+    # ---- Demo show acknowledgement: proceed to B1 ----
+    if base_id == "DemoShow":
+        return False, _make_question_result("B1", ack="Thanks.")
 
-    # Normalise output to the fields the UI expects
-    result["question_text"] = result.get("message_to_participant", "")
-    options = result.get("example_answers_if_requested", [])
-    # Fallback: if it's a yes/no question with no options, provide them
-    question_lower = result["question_text"].lower()
-    if not options and any(phrase in question_lower for phrase in ("okay time", "is now", "would you like", "are you ready")):
-        options = [
-            {"label": "Yes"},
-            {"label": "No"},
-            {"label": "Maybe later"},
-        ]
-    result["options"] = options
-    result["answer_mode"] = "multiple_choice"
+    # ---- Answer to a clarification ----
+    if q_type == "clarification":
+        ans = (last_user.get("content", "") or "").lower()
+        served_count = sum(1 for m in chat
+                           if m.get("role") == "assistant" and m.get("question_id") == base_id)
+        if "no" in ans and served_count < 2:
+            return False, _make_question_result(
+                base_id, ack="Sorry about that. Let's try again -")
+        return _next_main()
 
-    return show_video, result
+    # ---- Answer to a follow-up: always advance ----
+    if q_type == "follow_up":
+        return _next_main()
+
+    # ---- End of interview after C1 (deterministic "Yes" follow-up) ----
+    if base_id == "C1":
+        ans = (last_user.get("content", "") or "").strip().lower()
+        if ans.startswith("yes") and INTERVIEW_GUIDE["C1"]["followup"]:
+            return False, _make_question_result("C1", ack="Sure.", is_followup=True)
+        st.session_state.interview_ended = True
+        return False, None
+
+    # ---- Skip or clicks-only: advance, no LLM ----
+    if _is_skip_answer(last_user):
+        return _next_main(ack="No problem.")
+    if not residual:
+        return _next_main(ack="Thanks.")
+
+    # ---- Typed input: consult the turn agent ----
+    entry = INTERVIEW_GUIDE.get(base_id, {})
+    followups_used = _count_followups(chat)
+    quota_left = (followups_used < MAX_FOLLOWUPS_TOTAL
+                  and entry.get("followup") is not None)
+    already_clarified = any(
+        m.get("role") == "assistant" and m.get("question_id") == base_id + "_clarification"
+        for m in chat
+    )
+
+    user_prompt = (
+        f"CURRENT_QUESTION:\n{entry.get('question', last_q.get('content', ''))}\n\n"
+        f"RESEARCH_PURPOSE:\n{entry.get('purpose', '')}\n\n"
+        f"PARTICIPANT_ANSWER:\n{last_user.get('content', '')}\n\n"
+        f"CANDIDATE_FOLLOWUP:\n{entry.get('followup') or '(none - do not ask a follow-up)'}\n\n"
+        f"INTERVIEW_SUMMARY_SO_FAR:\n{_get_summary(user_id) or '(interview just started)'}\n\n"
+        f"ANSWER_STYLE:\n{_answer_style()}\n\n"
+        f"FOLLOWUP_BUDGET:\n"
+        f"{'A follow-up is allowed for this question.' if quota_left else 'Follow-ups are NOT allowed for this question - set ask_followup false.'}"
+    )
+
+    try:
+        result = _call_llm_json(_TURN_AGENT_SYSTEM, user_prompt, label="turn_agent")
+    except Exception:
+        return _next_main()
+
+    ack = (result.get("acknowledgment") or "Thanks.").strip()
+
+    if not result.get("understood", True) and not already_clarified:
+        clar = (result.get("followup_question") or "").strip()
+        if clar:
+            return False, _clarification_result(base_id, clar)
+
+    if quota_left and result.get("ask_followup") and result.get("followup_question"):
+        return False, _make_question_result(
+            base_id, ack=ack, is_followup=True,
+            followup_text=result["followup_question"].strip(),
+        )
+
+    return _next_main(ack=ack)
 
 
 # =============================================================================
@@ -1278,18 +874,7 @@ if "phase" not in st.session_state:
         interview_ended=False,
         form_generation=0,
         agent_logs=[],
-        interview_state={
-            "covered_topics": [],
-            "total_main_questions_asked": 0,
-            "total_followups_asked": 0,
-            "last_main_question_id": None,
-            "followup_asked_after_last_main": False,
-            "clarification_asked_after_last_main": False,
-            "unclear_recovery_asked_after_last_main": False,
-            "burden_level": "low",
-            "path": "default",
-            "next_recommended_question_id": None,
-        },
+        typed_lengths=[],
     )
 
 
