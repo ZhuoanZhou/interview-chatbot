@@ -218,3 +218,10 @@ data/*/
 # OAuth helper files (contain credentials — never commit)
 client_secrets.json
 get_refresh_token.py
+
+# Local prompt/interview testers (never commit — contain local paths / API key refs)
+participant_simulator.ipynb
+participant_simulator_v2.ipynb
+interview_evaluator.ipynb
+prompt_tester.ipynb
+sim_transcripts/
