@@ -90,8 +90,16 @@ CLOSING_MESSAGE = (
 # Interview guide (Python-driven flow -- questions and options are predefined)
 # =============================================================================
 
-MAX_FOLLOWUPS_TOTAL = 5
 MAX_FOLLOWUPS_PER_QUESTION = 1
+
+# How many participant turns between background summary refreshes.
+# Everything after the summary's coverage point is passed to the turn agent verbatim,
+# so a lagging summary never loses information.
+SUMMARY_EVERY_N_TURNS = 2
+
+# How many upcoming guide questions to show the turn agent, so it can avoid
+# following up on something the guide is about to ask anyway.
+UPCOMING_QUESTIONS_SHOWN = 3
 
 INTERVIEW_GUIDE = {
     "A1": {
@@ -104,6 +112,7 @@ INTERVIEW_GUIDE = {
         "followup_options": ["Family", "Friends", "Caregivers or support workers",
                              "Doctors or health workers", "People who know me well",
                              "No one is easy", "Other", "Skip"],
+        "followup_trigger": "multi_select_fixed",
     },
     "A2": {
         "question": "When someone does not understand you, what do you usually do?",
@@ -111,9 +120,10 @@ INTERVIEW_GUIDE = {
         "options": ["Say it again", "Say it differently", "Gesture or point",
                     "Type or write", "Use AAC, sign, or another device",
                     "Ask someone else to help", "Let it go", "Other", "Skip"],
-        "followup": "Do you usually use one way, or more than one?",
-        "followup_options": ["One way", "More than one", "It depends",
+        "followup": "When that happens, do you use one way at a time, or mix a few together?",
+        "followup_options": ["One way at a time", "A few together", "It depends",
                              "I am not sure", "Other", "Skip"],
+        "followup_trigger": "multi_select_fixed",
     },
     "A3": {
         "question": "What is usually hardest when someone does not understand you?",
@@ -125,6 +135,7 @@ INTERVIEW_GUIDE = {
         "followup_options": ["Repeating myself", "Saying it another way",
                              "Typing or using a device", "Feeling rushed",
                              "Other person gets impatient", "Losing my thought", "Other", "Skip"],
+        "followup_trigger": "multi_select_narrow",
     },
     "A4": {
         "question": "What can other people do that helps you be understood?",
@@ -135,6 +146,7 @@ INTERVIEW_GUIDE = {
         "followup": "What is most helpful?",
         "followup_options": ["Patience", "Waiting", "Yes/no questions", "Guessing from context",
                              "Watching gestures", "Reading what I type or show", "Other", "Skip"],
+        "followup_trigger": "multi_select_narrow",
     },
     "DemoConsent": {
         "question": "Next, we would like to show a short demo video of an early idea. Is now an okay time to watch it?",
@@ -172,6 +184,7 @@ INTERVIEW_GUIDE = {
         "followup_options": ["Transcript", "Word choices", "Less repeating",
                              "Helps the other person", "Control", "Saving time",
                              "None", "Other", "Skip"],
+        "followup_trigger": "multi_select_narrow",
     },
     "B2-concern": {
         "question": "What seems not useful or concerning in the demo video?",
@@ -184,6 +197,7 @@ INTERVIEW_GUIDE = {
         "followup_options": ["Too slow", "Too much effort", "Wrong transcript", "Hard to choose",
                              "Typing is hard", "Other person may not wait", "None",
                              "Other", "Skip"],
+        "followup_trigger": "multi_select_narrow",
     },
     "B3": {
         "question": "If the system guessed wrong, what would be easiest?",
@@ -195,6 +209,7 @@ INTERVIEW_GUIDE = {
         "followup_options": ["Pick the right word", "Pick from choices", "Tap the wrong word",
                              "Type a short fix", "Use a saved phrase", "Gesture or point",
                              "Other person helps", "Skip"],
+        "followup_trigger": "multi_select_narrow",
     },
     "B4": {
         "question": "What should the people making this remember?",
@@ -207,6 +222,7 @@ INTERVIEW_GUIDE = {
         "followup_options": ["Low effort", "Typing is not easy", "Speaking again may not work",
                              "Support gesture, AAC, or sign", "Real conversations",
                              "Other person can help", "Control", "Skip"],
+        "followup_trigger": "multi_select_narrow",
     },
     "B4-general": {
         "question": "What should people making communication technology remember?",
@@ -352,19 +368,38 @@ def _call_llm_json(system_prompt, user_prompt, label="agent"):
 # Background summarizer (runs in a thread; results read on the next turn)
 # =============================================================================
 
-_summary_store = {}  # {user_id: {"summary": str, "pending_logs": [..]}}
+@st.cache_resource
+def _get_summary_store():
+    """Persistent store surviving Streamlit reruns.
+
+    Module-level variables are wiped on every rerun because Streamlit re-executes
+    the whole script; a cached resource is created once per server process.
+    {user_id: {"summary": str, "covered_upto": int, "pending_logs": [..], "inflight": int}}
+
+    "covered_upto" is the number of chat messages the summary reflects. Everything
+    after that index is handed to the turn agent verbatim, so the summary lagging
+    behind by a turn or two never loses information.
+    """
+    return {}
 
 
-def _update_summary_async(user_id, question_text, answer_text, prev_summary):
-    entry = _summary_store.setdefault(user_id, {"summary": "", "pending_logs": [], "inflight": 0})
+_summary_store = _get_summary_store()
+
+
+def _new_summary_entry():
+    return {"summary": "", "covered_upto": 0, "pending_logs": [], "inflight": 0}
+
+
+def _update_summary_async(user_id, chat_len, recent_exchanges, prev_summary):
+    entry = _summary_store.setdefault(user_id, _new_summary_entry())
     entry["inflight"] = entry.get("inflight", 0) + 1
 
     def _run():
         try:
             user_prompt = (
                 f"PREVIOUS_SUMMARY:\n{prev_summary or '(none yet)'}\n\n"
-                f"LATEST_QUESTION:\n{question_text}\n\n"
-                f"LATEST_ANSWER:\n{answer_text}"
+                f"RECENT_EXCHANGES:\n"
+                f"{json.dumps(recent_exchanges, ensure_ascii=False, indent=2)}"
             )
             resp = _openai_client.chat.completions.create(
                 model=MODEL,
@@ -376,7 +411,10 @@ def _update_summary_async(user_id, question_text, answer_text, prev_summary):
             )
             raw = resp.choices[0].message.content
             result = _strip_controls(json.loads(raw))
-            entry["summary"] = result.get("summary", prev_summary or "")
+            # Guard against a slow older call overwriting a newer summary.
+            if chat_len > entry.get("covered_upto", 0):
+                entry["summary"] = result.get("summary", prev_summary or "")
+                entry["covered_upto"] = chat_len
             entry["pending_logs"].append({
                 "timestamp": datetime.utcnow().isoformat() + "Z",
                 "label": "summarizer",
@@ -398,6 +436,11 @@ def _update_summary_async(user_id, question_text, answer_text, prev_summary):
 
 def _get_summary(user_id):
     return _summary_store.get(user_id, {}).get("summary", "")
+
+
+def _get_summary_coverage(user_id):
+    """How many chat messages the current summary reflects."""
+    return _summary_store.get(user_id, {}).get("covered_upto", 0)
 
 
 def _drain_summary_logs(user_id):
@@ -487,9 +530,65 @@ def _get_sequence():
     return SEQUENCE_DEFAULT
 
 
-def _count_followups(chat):
+def _followups_used_for(chat, base_id):
+    """Count follow-ups already served for one main question.
+
+    Follow-ups are stored as `<base_id>_followup`, so _base_qid maps them back.
+    Clarification and support turns carry their own question_type and therefore
+    never consume a question's follow-up allowance.
+    """
     return sum(1 for m in chat
-               if m.get("role") == "assistant" and m.get("question_type") == "follow_up")
+               if m.get("role") == "assistant"
+               and m.get("question_type") == "follow_up"
+               and _base_qid(m.get("question_id", "")) == base_id)
+
+
+def _render_exchanges(chat_slice):
+    """Structured, LLM-readable rendering of a run of chat messages."""
+    out = []
+    for m in chat_slice:
+        role = m.get("role")
+        if role == "assistant":
+            out.append({
+                "role": "interviewer",
+                "question_id": m.get("question_id", ""),
+                "question_type": m.get("question_type", ""),
+                "message_to_participant": m.get("content", ""),
+            })
+        elif role == "user":
+            out.append({
+                "role": "participant",
+                "selected_example_answers": m.get("selected_suggestions", []),
+                "free_text": m.get("free_text", m.get("content", "")),
+            })
+        elif role == "video":
+            out.append({"role": "system", "event": "demo video shown"})
+    return out
+
+
+def _structured_turn(last_q, last_user):
+    """The current question plus the participant's response, in the structured format."""
+    return {
+        "question_id": last_q.get("question_id", "") if last_q else "",
+        "question_type": last_q.get("question_type", "") if last_q else "",
+        "message_to_participant": last_q.get("content", "") if last_q else "",
+        "participant_response": {
+            "selected_example_answers": last_user.get("selected_suggestions", []),
+            "free_text": last_user.get("free_text", last_user.get("content", "")),
+        },
+    }
+
+
+def _upcoming_questions(sequence, base_id, n=UPCOMING_QUESTIONS_SHOWN):
+    """The next n guide questions, so the agent can avoid pre-empting them."""
+    try:
+        idx = sequence.index(base_id)
+    except ValueError:
+        return []
+    return [
+        {"question_id": qid, "question": INTERVIEW_GUIDE.get(qid, {}).get("question", "")}
+        for qid in sequence[idx + 1: idx + 1 + n]
+    ]
 
 
 def _answer_style():
@@ -553,13 +652,21 @@ def run_agent_turn():
     residual = _typed_residual(last_user)
     st.session_state.setdefault("typed_lengths", []).append(len(residual))
 
-    # ---- Kick off background summary update ----
-    _update_summary_async(
-        user_id,
-        last_q.get("content", "") if last_q else "",
-        last_user.get("content", "") if last_user else "",
-        _get_summary(user_id),
-    )
+    # ---- Snapshot the summary before touching it, so this turn reads a stable value ----
+    summary_text = _get_summary(user_id)
+    summary_covers = _get_summary_coverage(user_id)
+
+    # ---- Kick off background summary update every N participant turns ----
+    # Anything the summary does not yet cover is passed to the turn agent verbatim
+    # below, so refreshing less often costs no information.
+    _user_turns = sum(1 for m in chat if m.get("role") == "user")
+    if _user_turns % SUMMARY_EVERY_N_TURNS == 0:
+        _update_summary_async(
+            user_id,
+            len(chat),
+            _render_exchanges(chat[summary_covers:]),
+            summary_text,
+        )
 
     def _next_main(ack="Thanks."):
         """Serve the next main question after base_id (deterministic)."""
@@ -626,22 +733,38 @@ def run_agent_turn():
         st.session_state.interview_ended = True
         return False, None
 
-    # ---- Skip or clicks-only: advance, no LLM ----
-    if _is_skip_answer(last_user):
-        return _next_main(ack="No problem.")
-    if not residual:
-        return _next_main(ack="Thanks.")
-
-    # ---- Typed input: consult the turn agent ----
+    # ---- Follow-up allowance for this question (shared by both paths below) ----
     entry = INTERVIEW_GUIDE.get(base_id, {})
-    followups_used = _count_followups(chat)
     burden_signaled = any(
         m.get("role") == "assistant" and m.get("support_reason") == "burden"
         for m in chat
     )
-    quota_left = (followups_used < MAX_FOLLOWUPS_TOTAL
+    quota_left = (_followups_used_for(chat, base_id) < MAX_FOLLOWUPS_PER_QUESTION
                   and not entry.get("no_followup", False)
                   and not burden_signaled)
+
+    # ---- Explicit skip: advance, no LLM ----
+    if _is_skip_answer(last_user):
+        return _next_main(ack="No problem.")
+
+    # ---- Clicks-only (nothing typed): deterministic follow-up, still no LLM ----
+    # Picking several options leaves the most design-relevant question unanswered:
+    # which of them matters most. That is worth asking and needs no model call.
+    if not residual:
+        picks = last_user.get("selected_suggestions", [])
+        trigger = entry.get("followup_trigger")
+        if trigger and len(picks) >= 2 and quota_left and entry.get("followup"):
+            if trigger == "multi_select_narrow":
+                # Narrowing question: offer back exactly what they picked.
+                opts = list(picks) + ["Skip"]
+            else:
+                # Fixed answer space (A1, A2): the pre-written options still apply.
+                opts = entry.get("followup_options") or []
+            return False, _make_question_result(
+                base_id, ack="Thanks.", is_followup=True, followup_options=opts)
+        return _next_main(ack="Thanks.")
+
+    # ---- Typed input: consult the turn agent ----
     try:
         _remaining = max(0, len(sequence) - sequence.index(base_id) - 1)
     except ValueError:
@@ -651,12 +774,21 @@ def run_agent_turn():
         for m in chat
     )
 
+    # The summary covers chat[:summary_covers]; everything after it goes in verbatim,
+    # excluding the exchange being judged right now (that is CURRENT_TURN).
+    _since = _render_exchanges(chat[summary_covers:-2]) if summary_covers <= len(chat) - 2 else []
+
     user_prompt = (
         f"CURRENT_QUESTION:\n{entry.get('question', last_q.get('content', ''))}\n\n"
         f"RESEARCH_PURPOSE:\n{entry.get('purpose', '')}\n\n"
-        f"PARTICIPANT_ANSWER:\n{last_user.get('content', '')}\n\n"
+        f"CURRENT_TURN:\n"
+        f"{json.dumps(_structured_turn(last_q, last_user), ensure_ascii=False, indent=2)}\n\n"
         f"CANDIDATE_FOLLOWUP:\n{entry.get('followup') or '(none pre-written for this question)'}\n\n"
-        f"INTERVIEW_SUMMARY_SO_FAR:\n{_get_summary(user_id) or '(interview just started)'}\n\n"
+        f"INTERVIEW_SUMMARY_SO_FAR:\n{summary_text or '(interview just started)'}\n\n"
+        f"EXCHANGES_SINCE_SUMMARY:\n"
+        f"{json.dumps(_since, ensure_ascii=False, indent=2) if _since else '(the summary is up to date)'}\n\n"
+        f"UPCOMING_QUESTIONS:\n"
+        f"{json.dumps(_upcoming_questions(sequence, base_id), ensure_ascii=False, indent=2)}\n\n"
         f"ANSWER_STYLE:\n{_answer_style()}\n\n"
         f"QUESTIONS_REMAINING:\nAbout {_remaining} questions remain in the interview.\n\n"
         f"FOLLOWUP_BUDGET:\n"
@@ -829,7 +961,13 @@ def _do_save(user_id, chat, agent_logs, config):
     return True, "Saved."
 
 
-_drive_errors = []
+@st.cache_resource
+def _get_drive_errors():
+    """Persistent error list (see _get_summary_store docstring)."""
+    return []
+
+
+_drive_errors = _get_drive_errors()
 
 def save_async(user_id, chat, agent_logs, config):
     def _run():
@@ -1364,7 +1502,9 @@ else:
             _pick_key = f"phrase_picks_{gen}_{q_key}"
             _picks = st.session_state.get(_pick_key, set())
             _draft = st.session_state.get(draft_key, "")
-            selected = [p for p in _picks if p in _draft]
+            # Sort by position in the draft so picks keep click order -- they are
+            # shown back to the participant as follow-up options.
+            selected = sorted((p for p in _picks if p in _draft), key=_draft.index)
 
         answer = typed_text or None
 
