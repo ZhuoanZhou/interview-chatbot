@@ -151,7 +151,10 @@ INTERVIEW_GUIDE = {
     "DemoConsent": {
         "question": "Next, we would like to show a short demo video of an early idea. Is now an okay time to watch it?",
         "purpose": "Ask permission before showing the demo.",
-        "options": ["Yes", "Skip the demo", "I'm not sure"],
+        # Consent must be an explicit, unambiguous choice - single_choice hides the text
+        # box and mic so nothing typed can ever be read as agreement.
+        "options": ["Yes", "Skip the demo", "I have a question first"],
+        "input_mode": "single_choice",
         "followup": None,
         "followup_options": [],
         "type": "transition",
@@ -159,7 +162,8 @@ INTERVIEW_GUIDE = {
     "DemoShow": {
         "question": "Great - please watch the short demo now. After that, we will ask a few questions.",
         "purpose": "Show the demo video.",
-        "options": ["Done", "Skip", "I need help"],
+        "options": ["Done", "Skip"],
+        "input_mode": "single_choice",
         "followup": None,
         "followup_options": [],
         "type": "transition",
@@ -454,8 +458,13 @@ def _drain_summary_logs(user_id):
 # Flow engine (Python drives the interview; LLM consulted only for typed input)
 # =============================================================================
 
+# Typed answers matching one of these advance without an LLM call.
+# "no", "none" and "nothing" were removed: at questions like B2-concern ("Nothing
+# concerns me") they are substantive answers, and swallowing them threw away real data.
+# They now go to the classifier, which can tell a genuine answer from a question,
+# fatigue, or a request to stop.
 _SKIP_WORDS = {"skip", "skip it", "next", "pass", "i don't know", "i dont know",
-               "idk", "dont know", "don't know", "no", "none", "nothing"}
+               "idk", "dont know", "don't know"}
 
 
 def _make_question_result(qid, ack="", is_followup=False, followup_text=None,
@@ -479,6 +488,8 @@ def _make_question_result(qid, ack="", is_followup=False, followup_text=None,
         "question_type": q_type,
         "options": [{"label": o} for o in options],
         "answer_mode": "multiple_choice",
+        # Follow-ups are always free-form; only the main question can lock input down.
+        "input_mode": "free" if is_followup else entry.get("input_mode", "free"),
     }
 
 
@@ -497,6 +508,22 @@ def _support_result(qid, reply_text, reason):
         "support_reason": reason,
         "options": [{"label": o} for o in _SUPPORT_OPTIONS],
         "answer_mode": "multiple_choice",
+        "input_mode": "free",
+    }
+
+
+def _ask_what_they_want_to_know(qid):
+    """Invite a typed question. Used when a single-choice turn offers an
+    'I have a question first' escape hatch - that turn has no text box, so the
+    participant needs a free-text turn to actually ask."""
+    return {
+        "question_id": qid + "_support",
+        "question_text": "Of course - what would you like to know?",
+        "question_type": "support",
+        "support_reason": "question",
+        "options": [],
+        "answer_mode": "multiple_choice",
+        "input_mode": "free",
     }
 
 
@@ -507,6 +534,7 @@ def _clarification_result(qid, clarification_text):
         "question_type": "clarification",
         "options": [{"label": "Yes"}, {"label": "No, I meant something else"}],
         "answer_mode": "multiple_choice",
+        "input_mode": "free",
     }
 
 
@@ -518,15 +546,24 @@ def _base_qid(question_id):
     return question_id
 
 
-def _get_sequence():
-    """Return the active question order, accounting for a skipped demo."""
-    chat = st.session_state.chat
+def _demo_declined(chat):
+    """True if the participant chose to skip the demo.
+
+    DemoConsent can be served more than once (they may ask a question first, or need
+    a clarification), so only the *latest* answer to it counts.
+    """
+    latest = None
     for i, m in enumerate(chat):
         if m.get("role") == "assistant" and m.get("question_id") == "DemoConsent":
             if i + 1 < len(chat) and chat[i + 1].get("role") == "user":
-                ans = chat[i + 1].get("content", "").lower()
-                if "skip" in ans or "not sure" in ans:
-                    return SEQUENCE_DEMO_SKIPPED
+                latest = chat[i + 1].get("content", "").lower()
+    return bool(latest) and "skip" in latest
+
+
+def _get_sequence():
+    """Return the active question order, accounting for a skipped demo."""
+    if _demo_declined(st.session_state.chat):
+        return SEQUENCE_DEMO_SKIPPED
     return SEQUENCE_DEFAULT
 
 
@@ -685,17 +722,122 @@ def run_agent_turn():
             st.session_state.demo_status = "shown"
         return show_video, _make_question_result(next_id, ack=ack)
 
+    # ---- Follow-up allowance for this question (needed before the classifier) ----
+    entry = INTERVIEW_GUIDE.get(base_id, {})
+    burden_signaled = any(
+        m.get("role") == "assistant" and m.get("support_reason") == "burden"
+        for m in chat
+    )
+    quota_left = (_followups_used_for(chat, base_id) < MAX_FOLLOWUPS_PER_QUESTION
+                  and not entry.get("no_followup", False)
+                  and entry.get("type") != "transition"
+                  and not burden_signaled)
+    already_clarified = any(
+        m.get("role") == "assistant" and m.get("question_id") == base_id + "_clarification"
+        for m in chat
+    )
+
+    # =========================================================================
+    # Classify typed input BEFORE any deterministic branch consumes the turn.
+    #
+    # The branches below (demo consent, demo show, follow-up, C1) advance without
+    # looking at what was typed. Without this step a question, a request to stop,
+    # or gibberish is silently treated as an answer -- including at the consent
+    # question, where anything unrecognised used to be read as "yes".
+    #
+    # Clicks and explicit skips never reach here, so those turns stay LLM-free.
+    # =========================================================================
+    result = None
+    lead = None
+    if residual and not _is_skip_answer(last_user):
+        # On a follow-up turn the question actually asked is the follow-up text,
+        # not the parent main question that base_id resolves to.
+        current_question = (last_q.get("content", "") if q_type == "follow_up"
+                            else entry.get("question", last_q.get("content", "")))
+        try:
+            _remaining = max(0, len(sequence) - sequence.index(base_id) - 1)
+        except ValueError:
+            _remaining = 0
+
+        # The summary covers chat[:summary_covers]; everything after it goes in
+        # verbatim, excluding the exchange being judged now (that is CURRENT_TURN).
+        _since = _render_exchanges(chat[summary_covers:-2]) if summary_covers <= len(chat) - 2 else []
+
+        user_prompt = (
+            f"CURRENT_QUESTION:\n{current_question}\n\n"
+            f"RESEARCH_PURPOSE:\n{entry.get('purpose', '')}\n\n"
+            f"CURRENT_TURN:\n"
+            f"{json.dumps(_structured_turn(last_q, last_user), ensure_ascii=False, indent=2)}\n\n"
+            f"CANDIDATE_FOLLOWUP:\n{entry.get('followup') or '(none pre-written for this question)'}\n\n"
+            f"INTERVIEW_SUMMARY_SO_FAR:\n{summary_text or '(interview just started)'}\n\n"
+            f"EXCHANGES_SINCE_SUMMARY:\n"
+            f"{json.dumps(_since, ensure_ascii=False, indent=2) if _since else '(the summary is up to date)'}\n\n"
+            f"UPCOMING_QUESTIONS:\n"
+            f"{json.dumps(_upcoming_questions(sequence, base_id), ensure_ascii=False, indent=2)}\n\n"
+            f"ANSWER_STYLE:\n{_answer_style()}\n\n"
+            f"QUESTIONS_REMAINING:\nAbout {_remaining} questions remain in the interview.\n\n"
+            f"FOLLOWUP_BUDGET:\n"
+            f"{'A follow-up is allowed for this question.' if quota_left else 'Follow-ups are NOT allowed for this question - set ask_followup false.'}"
+        )
+
+        try:
+            result = _call_llm_json(_TURN_AGENT_SYSTEM, user_prompt, label="turn_agent")
+        except Exception as e:
+            if "agent_logs" in st.session_state:
+                st.session_state.agent_logs.append({
+                    "timestamp": datetime.utcnow().isoformat() + "Z",
+                    "label": "turn_agent_fallback",
+                    "error": f"{type(e).__name__}: {e}",
+                    "user_prompt": user_prompt,
+                })
+            result = None
+
+        if result:
+            msg_type = result.get("message_type", "answer")
+            reply = (result.get("reply_to_participant") or "").strip()
+            ack = (result.get("acknowledgment") or "Thanks.").strip()
+            # On an "answer" turn the agent often puts a reflective paraphrase of what
+            # the participant said in reply_to_participant ("Got it - you often try
+            # several things together") while acknowledgment stays generic. Lead with
+            # the paraphrase: it shows them they were heard and lets them correct a
+            # misreading. Falls back to the acknowledgment when it is blank.
+            lead = reply or ack
+
+            if msg_type == "stop":
+                st.session_state.interview_ended = True
+                return False, None
+
+            if msg_type == "question" and reply:
+                return False, _support_result(base_id, reply, reason="question")
+
+            if msg_type == "burden":
+                return False, _support_result(
+                    base_id, reply or "This can take real effort - thank you.", reason="burden")
+
+            if msg_type == "unclear" and not already_clarified:
+                clar = reply or (result.get("followup_question") or "").strip()
+                if clar:
+                    return False, _clarification_result(base_id, clar)
+            # Anything else is a genuine answer: fall through to the flow below.
+
     # ---- Demo consent: deterministic branch ----
-    if base_id == "DemoConsent":
+    # DemoConsent is single_choice, so `ans` is always one of its option labels.
+    # Consent is only ever inferred from an explicit "Yes" - never from a fallthrough.
+    if base_id == "DemoConsent" and q_type != "support":
         ans = (last_user.get("content", "") or "").lower()
-        if "skip" in ans or "not sure" in ans:
+        if "question" in ans:
+            return False, _ask_what_they_want_to_know(base_id)
+        if "skip" in ans:
             st.session_state.demo_status = "skipped"
             return False, _make_question_result("B4-general", ack="No problem.")
-        st.session_state.demo_status = "shown"
-        return True, _make_question_result("DemoShow")
+        if ans.startswith("yes"):
+            st.session_state.demo_status = "shown"
+            return True, _make_question_result("DemoShow")
+        # Anything unrecognised: re-ask rather than assume agreement.
+        return False, _make_question_result(base_id)
 
     # ---- Demo show acknowledgement: proceed to B1 ----
-    if base_id == "DemoShow":
+    if base_id == "DemoShow" and q_type != "support":
         return False, _make_question_result("B1", ack="Thanks.")
 
     # ---- Answer to a clarification ----
@@ -717,13 +859,20 @@ def run_agent_turn():
         if "skip to the end" in ans:
             return False, _make_question_result("C1", ack="No problem.")
         if "skip" in ans:
+            # Skipping the consent question means skipping the demo. Going through
+            # _next_main here would advance to DemoShow and play the video, i.e. treat
+            # a skip as consent.
+            if base_id == "DemoConsent":
+                st.session_state.demo_status = "skipped"
+                return False, _make_question_result("B4-general", ack="No problem.")
             return _next_main(ack="No problem.")
         # "Answer this question" or anything else: re-ask the current question
         return False, _make_question_result(base_id, ack="Sure -")
 
-    # ---- Answer to a follow-up: always advance ----
+    # ---- Genuine answer to a follow-up: advance ----
+    # (Questions, burden, stop and gibberish were already handled by the classifier.)
     if q_type == "follow_up":
-        return _next_main()
+        return _next_main(ack=lead or "Thanks.")
 
     # ---- End of interview after C1 (deterministic "Yes" follow-up) ----
     if base_id == "C1":
@@ -732,16 +881,6 @@ def run_agent_turn():
             return False, _make_question_result("C1", ack="Sure.", is_followup=True)
         st.session_state.interview_ended = True
         return False, None
-
-    # ---- Follow-up allowance for this question (shared by both paths below) ----
-    entry = INTERVIEW_GUIDE.get(base_id, {})
-    burden_signaled = any(
-        m.get("role") == "assistant" and m.get("support_reason") == "burden"
-        for m in chat
-    )
-    quota_left = (_followups_used_for(chat, base_id) < MAX_FOLLOWUPS_PER_QUESTION
-                  and not entry.get("no_followup", False)
-                  and not burden_signaled)
 
     # ---- Explicit skip: advance, no LLM ----
     if _is_skip_answer(last_user):
@@ -764,75 +903,11 @@ def run_agent_turn():
                 base_id, ack="Thanks.", is_followup=True, followup_options=opts)
         return _next_main(ack="Thanks.")
 
-    # ---- Typed input: consult the turn agent ----
-    try:
-        _remaining = max(0, len(sequence) - sequence.index(base_id) - 1)
-    except ValueError:
-        _remaining = 0
-    already_clarified = any(
-        m.get("role") == "assistant" and m.get("question_id") == base_id + "_clarification"
-        for m in chat
-    )
-
-    # The summary covers chat[:summary_covers]; everything after it goes in verbatim,
-    # excluding the exchange being judged right now (that is CURRENT_TURN).
-    _since = _render_exchanges(chat[summary_covers:-2]) if summary_covers <= len(chat) - 2 else []
-
-    user_prompt = (
-        f"CURRENT_QUESTION:\n{entry.get('question', last_q.get('content', ''))}\n\n"
-        f"RESEARCH_PURPOSE:\n{entry.get('purpose', '')}\n\n"
-        f"CURRENT_TURN:\n"
-        f"{json.dumps(_structured_turn(last_q, last_user), ensure_ascii=False, indent=2)}\n\n"
-        f"CANDIDATE_FOLLOWUP:\n{entry.get('followup') or '(none pre-written for this question)'}\n\n"
-        f"INTERVIEW_SUMMARY_SO_FAR:\n{summary_text or '(interview just started)'}\n\n"
-        f"EXCHANGES_SINCE_SUMMARY:\n"
-        f"{json.dumps(_since, ensure_ascii=False, indent=2) if _since else '(the summary is up to date)'}\n\n"
-        f"UPCOMING_QUESTIONS:\n"
-        f"{json.dumps(_upcoming_questions(sequence, base_id), ensure_ascii=False, indent=2)}\n\n"
-        f"ANSWER_STYLE:\n{_answer_style()}\n\n"
-        f"QUESTIONS_REMAINING:\nAbout {_remaining} questions remain in the interview.\n\n"
-        f"FOLLOWUP_BUDGET:\n"
-        f"{'A follow-up is allowed for this question.' if quota_left else 'Follow-ups are NOT allowed for this question - set ask_followup false.'}"
-    )
-
-    try:
-        result = _call_llm_json(_TURN_AGENT_SYSTEM, user_prompt, label="turn_agent")
-    except Exception as e:
-        if "agent_logs" in st.session_state:
-            st.session_state.agent_logs.append({
-                "timestamp": datetime.utcnow().isoformat() + "Z",
-                "label": "turn_agent_fallback",
-                "error": f"{type(e).__name__}: {e}",
-                "user_prompt": user_prompt,
-            })
+    # ---- Typed answer to a main question: decide on a follow-up ----
+    # The classifier above already ran and judged this a genuine answer; `result`
+    # holds its output. If the call failed, advance rather than stalling the interview.
+    if not result:
         return _next_main()
-
-    ack = (result.get("acknowledgment") or "Thanks.").strip()
-    msg_type = result.get("message_type", "answer")
-    reply = (result.get("reply_to_participant") or "").strip()
-
-    if msg_type == "stop":
-        st.session_state.interview_ended = True
-        return False, None
-
-    if msg_type == "question" and reply:
-        return False, _support_result(base_id, reply, reason="question")
-
-    if msg_type == "burden":
-        return False, _support_result(
-            base_id, reply or "This can take real effort - thank you.", reason="burden")
-
-    if msg_type == "unclear" and not already_clarified:
-        clar = reply or (result.get("followup_question") or "").strip()
-        if clar:
-            return False, _clarification_result(base_id, clar)
-
-    # On an "answer" turn the agent often puts a reflective paraphrase of what the
-    # participant said in reply_to_participant ("Got it - you often try several things
-    # together") while acknowledgment stays generic ("Thanks."). Lead with the paraphrase
-    # when there is one: it shows the participant they were heard and gives them a chance
-    # to correct a misreading. Falls back to the plain acknowledgment when it is blank.
-    lead = reply or ack
 
     if quota_left and result.get("ask_followup") and result.get("followup_question"):
         agent_opts = [o for o in (result.get("followup_options") or []) if isinstance(o, str) and o.strip()]
@@ -841,12 +916,12 @@ def run_agent_turn():
                 if extra not in agent_opts:
                     agent_opts.append(extra)
         return False, _make_question_result(
-            base_id, ack=lead, is_followup=True,
+            base_id, ack=lead or "Thanks.", is_followup=True,
             followup_text=result["followup_question"].strip(),
             followup_options=agent_opts,
         )
 
-    return _next_main(ack=lead)
+    return _next_main(ack=lead or "Thanks.")
 
 
 # =============================================================================
@@ -1340,6 +1415,7 @@ if st.session_state.waiting:
             "question_type": result.get("question_type", ""),
             "support_reason": result.get("support_reason", ""),
             "answer_mode": result.get("answer_mode", "multiple_choice"),
+            "input_mode": result.get("input_mode", "free"),
             "options": result.get("options", []),
             "timestamp": datetime.utcnow().isoformat() + "Z",
         })
@@ -1392,6 +1468,31 @@ else:
     answer_mode = current_q_msg.get("answer_mode", "multiple_choice") if current_q_msg else "multiple_choice"
     options = current_q_msg.get("options", []) if current_q_msg else []
     q_key = current_q_msg.get("question_id", "q") if current_q_msg else "q"
+    input_mode = current_q_msg.get("input_mode", "free") if current_q_msg else "free"
+
+    # ── Single-choice turns (demo consent / demo show) ───────────────────────
+    # Exactly one option, no text box and no mic, and the click submits straight away.
+    # Consent has to be an unambiguous act, so there is no free text that could be
+    # misread as agreement and no half-filled draft to leave behind.
+    if input_mode == "single_choice" and options:
+        st.markdown("**Please choose one:**")
+        n_cols = min(3, len(options))
+        choice_cols = st.columns(n_cols)
+        for i, opt in enumerate(options):
+            with choice_cols[i % n_cols]:
+                if st.button(opt["label"], key=f"single_{gen}_{q_key}_{i}",
+                             type="primary", use_container_width=True):
+                    st.session_state.form_generation += 1
+                    st.session_state.chat.append({
+                        "role": "user",
+                        "content": opt["label"],
+                        "selected_suggestions": [opt["label"]],
+                        "free_text": opt["label"],
+                        "timestamp": datetime.utcnow().isoformat() + "Z",
+                    })
+                    st.session_state.waiting = True
+                    st.rerun()
+        st.stop()
 
     # ── Speak | Text area | Send ────────────────────────────────────────────
     mic_col, text_col, send_col = st.columns([1, 8, 2])
