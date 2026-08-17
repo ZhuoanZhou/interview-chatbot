@@ -277,12 +277,15 @@ Return JSON only:
 {"message_type": "answer | question | burden | stop | unclear", "acknowledgment": "one short natural sentence acknowledging their message", "reply_to_participant": "", "candidate_already_answered": false, "followup_reason": "one line", "ask_followup": false, "followup_question": "", "followup_options": []}
 
 Rules:
-- For "question": put a brief, direct answer in reply_to_participant (use QUESTIONS_REMAINING when relevant). Do not ask the next interview question yourself.
+- For "question": put a brief, direct answer in reply_to_participant. Do not ask the next interview question yourself.
 - For "burden": put one kind sentence in reply_to_participant acknowledging the effort. Never say they are doing badly.
 - For "unclear": put a gentle check in reply_to_participant following this pattern: "It sounds like you mean [brief interpretation]. Is that right?"
-- For "answer": set ask_followup true only if the answer raises something design-relevant that a short follow-up could usefully deepen, and the interview summary does not already cover it. Never follow up just because an answer is short.
-- The follow-up must respond to what the participant actually said, like a natural conversation. Use the candidate follow-up if it genuinely fits their answer; otherwise write your own that refers to their own words or topic. Set candidate_already_answered true if their answer already tells you what the candidate asks, even in different words; when true, do not ask it. Either way it must be a complete, self-contained question, answerable in one word or short phrase. Do not ask for stories or "why?" questions, and do not pressure for detail.
-- When ask_followup is true, also provide followup_options: 4-6 short example answers that fit your follow-up question, plus "Other" and "Skip".
+- For "answer", decide in this order:
+    1. candidate_already_answered: true if their answer already tells you what CANDIDATE_FOLLOWUP asks.
+    2. followup_reason: name the one thing you still do not know that a short follow-up would reveal, or say there is nothing.
+    3. ask_followup: true only if step 2 named something design-relevant that is not already in INTERVIEW_SUMMARY_SO_FAR or in UPCOMING_QUESTIONS. Never follow up just because an answer is short.
+    4. followup_question: ask follow-up question only when ask_followup is true. Use CANDIDATE_FOLLOWUP only if step 1 was false; otherwise write your own from their words. It must respond to what they actually said, be self-contained, and be answerable in one word or short phrase. Do not ask for stories or "why?", and do not pressure for detail.
+    5. followup_options: when asking follow-up question, give 4-6 short example answers that fit your question, plus "Other" and "Skip".
 - Acknowledgments and replies must not mention internal question IDs.
 """
 
