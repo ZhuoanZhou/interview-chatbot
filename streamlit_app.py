@@ -270,14 +270,14 @@ First classify the participant's message:
 - "unclear": it is impossible to interpret.
 
 Return JSON only:
-{"message_type": "answer | question | burden | stop | unclear", "acknowledgment": "one short natural sentence acknowledging their message", "reply_to_participant": "", "ask_followup": false, "followup_question": "", "followup_options": [], "followup_reason": "one line"}
+{"message_type": "answer | question | burden | stop | unclear", "acknowledgment": "one short natural sentence acknowledging their message", "reply_to_participant": "", "candidate_already_answered": false, "followup_reason": "one line", "ask_followup": false, "followup_question": "", "followup_options": []}
 
 Rules:
 - For "question": put a brief, direct answer in reply_to_participant (use QUESTIONS_REMAINING when relevant). Do not ask the next interview question yourself.
 - For "burden": put one kind sentence in reply_to_participant acknowledging the effort. Never say they are doing badly.
 - For "unclear": put a gentle check in reply_to_participant following this pattern: "It sounds like you mean [brief interpretation]. Is that right?"
 - For "answer": set ask_followup true only if the answer raises something design-relevant that a short follow-up could usefully deepen, and the interview summary does not already cover it. Never follow up just because an answer is short.
-- The follow-up must respond to what the participant actually said, like a natural conversation. Use the candidate follow-up if it genuinely fits their answer; otherwise write your own that refers to their own words or topic. Either way it must be a complete, self-contained question, answerable in one word or short phrase. Do not ask for stories or "why?" questions, and do not pressure for detail.
+- The follow-up must respond to what the participant actually said, like a natural conversation. Use the candidate follow-up if it genuinely fits their answer; otherwise write your own that refers to their own words or topic. Set candidate_already_answered true if their answer already tells you what the candidate asks, even in different words; when true, do not ask it. Either way it must be a complete, self-contained question, answerable in one word or short phrase. Do not ask for stories or "why?" questions, and do not pressure for detail.
 - When ask_followup is true, also provide followup_options: 4-6 short example answers that fit your follow-up question, plus "Other" and "Skip".
 - Acknowledgments and replies must not mention internal question IDs.
 """
@@ -827,6 +827,13 @@ def run_agent_turn():
         if clar:
             return False, _clarification_result(base_id, clar)
 
+    # On an "answer" turn the agent often puts a reflective paraphrase of what the
+    # participant said in reply_to_participant ("Got it - you often try several things
+    # together") while acknowledgment stays generic ("Thanks."). Lead with the paraphrase
+    # when there is one: it shows the participant they were heard and gives them a chance
+    # to correct a misreading. Falls back to the plain acknowledgment when it is blank.
+    lead = reply or ack
+
     if quota_left and result.get("ask_followup") and result.get("followup_question"):
         agent_opts = [o for o in (result.get("followup_options") or []) if isinstance(o, str) and o.strip()]
         if agent_opts:
@@ -834,12 +841,12 @@ def run_agent_turn():
                 if extra not in agent_opts:
                     agent_opts.append(extra)
         return False, _make_question_result(
-            base_id, ack=ack, is_followup=True,
+            base_id, ack=lead, is_followup=True,
             followup_text=result["followup_question"].strip(),
             followup_options=agent_opts,
         )
 
-    return _next_main(ack=ack)
+    return _next_main(ack=lead)
 
 
 # =============================================================================
