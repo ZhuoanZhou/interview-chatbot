@@ -297,7 +297,6 @@ Budget:
 - At most 3 follow-ups on the topic the participant is most engaged with, and at most 1 on each other topic.
 - Aim to finish in about 12 questions in total.
 - Pace yourself against the topics still ahead in TOPICS. Do not spend the interview on the first thing that interests you and arrive at the later topics with nothing left. Save room for a good opportunity rather than taking the first one.
-- If an answer covers a topic you have not reached yet, record it in topics_covered and do not ask it again later.
 - It is acceptable to leave things uncollected. Anything missing is recorded for the researcher. Prefer moving on over drilling down.
 - One or two variables per topic is usually enough.
 
@@ -335,7 +334,7 @@ Respond with valid JSON and these keys only:
   "reply": "what the participant sees",
   "suggested_answers": ["exactly five short options when reply asks a question, otherwise empty"],
   "topic": "the topic id this turn belongs to, or empty",
-  "topics_covered": ["ids of every topic this answer covered, including ones answered incidentally"],
+  "topics_done": ["ids of topics you are finished with"],
   "engagement": "high | normal | low",
   "information_value": "high | medium | low",
   "wellbeing_flag": "short note, or empty",
@@ -511,17 +510,23 @@ def _signal_summary(chat):
 
 
 def _covered_topics(chat):
-    """Topic ids the agent has reported as covered, accumulated over the session."""
+    """Topic ids the agent has reported as finished, accumulated over the session.
+
+    "Done" means the agent would not ask about the topic again -- not merely that an
+    answer touched it. The prompt draws that distinction explicitly, because reading
+    "this answer was about T1" as "T1 is finished" is what sent the 23 Aug session
+    to the demo after two questions.
+    """
     out = set()
     for m in chat:
         if m.get("role") == "assistant":
-            out.update(m.get("topics_covered") or [])
+            out.update(m.get("topics_done") or [])
     return out
 
 
 def _coverage_report(chat):
     covered = _covered_topics(chat)
-    return {tid: ("covered" if tid in covered else "not yet")
+    return {tid: ("done" if tid in covered else "not yet")
             for tid in INTERVIEW_TOPICS}
 
 
@@ -571,10 +576,15 @@ def _phase(chat):
     return "post_demo" if _demo_settled(chat) else "pre_demo"
 
 
-def _pre_demo_ready(chat):
+def _pre_demo_ready(chat, extra=()):
+    """Whether it is time to offer the demo.
+
+    `extra` carries topic ids the current response has just marked done. Those are
+    not in `chat` yet, so without it this check would always be one turn behind.
+    """
     core = {t for t, e in INTERVIEW_TOPICS.items()
             if e["phase"] == "pre_demo" and e["priority"] == "core"}
-    if core and core <= _covered_topics(chat):
+    if core and core <= (_covered_topics(chat) | set(extra)):
         return True
     return _questions_asked(chat) >= PRE_DEMO_QUESTION_CAP
 
@@ -599,8 +609,6 @@ def _demo_step(chat, last_q, last_user):
         return False, None
     if qid == "DemoShow" and last_user is not None:
         return False, None
-    if _pre_demo_ready(chat):
-        return False, dict(DEMO_CONSENT)
     return False, None
 
 
@@ -710,6 +718,20 @@ def run_agent_turn():
             if extra not in opts:
                 opts.append(extra)
 
+    done = [t for t in (result.get("topics_done") or []) if t in INTERVIEW_TOPICS]
+
+    # Checked here, after the agent has seen the participant's answer -- not in
+    # _demo_step, which runs before the call. Triggering it there meant the demo
+    # interrupted on the turn *after* a question, so the answer to that question was
+    # never processed. The condition itself is unchanged.
+    if phase == "pre_demo" and _pre_demo_ready(chat, done):
+        consent = dict(DEMO_CONSENT)
+        # Carry the topics this turn finished onto the consent message. Without this
+        # they are dropped, and COVERAGE would keep reporting them unfinished for the
+        # rest of the interview.
+        consent["topics_done"] = done
+        return False, consent
+
     return False, {
         "question_id": (result.get("topic") or "").strip(),
         "question_text": reply or "Could you tell me a little more?",
@@ -717,8 +739,7 @@ def run_agent_turn():
         "options": [{"label": o} for o in opts],
         "answer_mode": "multiple_choice",
         "input_mode": "free",
-        "topics_covered": [t for t in (result.get("topics_covered") or [])
-                           if t in INTERVIEW_TOPICS],
+        "topics_done": done,
         "engagement": (result.get("engagement") or "").strip(),
         "information_value": (result.get("information_value") or "").strip(),
         "wellbeing_flag": (result.get("wellbeing_flag") or "").strip(),
@@ -1224,7 +1245,7 @@ if st.session_state.waiting:
             "options": result.get("options", []),
             # The agent's own judgements. Persisted so coverage survives a resumed
             # session and so the researcher can audit why each follow-up was asked.
-            "topics_covered": result.get("topics_covered", []),
+            "topics_done": result.get("topics_done", []),
             "engagement": result.get("engagement", ""),
             "information_value": result.get("information_value", ""),
             "wellbeing_flag": result.get("wellbeing_flag", ""),
