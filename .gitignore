@@ -222,6 +222,16 @@ get_refresh_token.py
 # Local prompt/interview testers (never commit — contain local paths / API key refs)
 participant_simulator.ipynb
 participant_simulator_v2.ipynb
-interview_evaluator.ipynb
 prompt_tester.ipynb
 sim_transcripts/
+
+# Local working notes and prompt drafts.
+# None of these are read by the app at runtime — the agent prompt lives inside
+# streamlit_app.py, so ignoring them does not affect the deployment.
+new_agent_prompt.md
+previous_agent_prompt.md
+topic_list.md
+adaptive_question_lists.md
+question_list_options.md
+chatbot_status_notes.md
+commit_msg.txt
