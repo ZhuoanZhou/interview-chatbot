@@ -1,6 +1,7 @@
 """
-Interview Chatbot  -  Python-driven flow with targeted LLM calls
-(predefined questions; LLM consulted only for typed input + background summarizer)
+Interview Chatbot  -  single adaptive agent, one call per turn
+(topics rather than fixed questions; the agent composes each question and its
+suggested answers, and decides where to follow up)
 Run locally:   streamlit run streamlit_app.py
 Deploy:        push to GitHub -> connect Streamlit Community Cloud
 
@@ -85,10 +86,6 @@ CLOSING_MESSAGE = (
     "the system should be improved to better fit the needs of people with dysarthria."
 )
 
-
-# =============================================================================
-# Interview guide (Python-driven flow -- questions and options are predefined)
-# =============================================================================
 
 # How many questions to aim for across the whole interview, including follow-ups.
 # A target, not a hard stop - the agent is told to prefer moving on over drilling down.
@@ -204,6 +201,40 @@ INTERVIEW_TOPICS = {
     },
 }
 
+# The interview always opens with this exact question, identically for everyone.
+#
+# Fixing it costs nothing - on the first turn there is no answer to adapt to, so
+# generating it would only introduce variation between participants for no gain -
+# and it buys three things: every transcript starts from the same place, the first
+# thing a participant sees can be checked in advance, and the opening turn needs no
+# model call.
+#
+# The wording is the one question that survived every round of the 16 Jun review and
+# appears in both refined guides. The option list is longer than the five the agent
+# is asked for elsewhere, deliberately: this is the moment where seeing the range
+# helps people recognise what they already do, which was Christine's point that
+# participants "may do stuff that they don't realise they do until they see it
+# listed out".
+OPENING_QUESTION = {
+    "question_id": "T1",
+    "question_text": "Thanks for talking with us. To start: when someone does not "
+                     "understand you, what do you usually do?",
+    "question_type": "main",
+    "options": [{"label": l} for l in (
+        "Say it again",
+        "Say it in a different way",
+        "Gesture or point",
+        "Type it",
+        "Use AAC or another device",
+        "Ask someone else to help",
+        "Let it go",
+        "Other",
+        "Skip",
+    )],
+    "answer_mode": "multiple_choice",
+    "input_mode": "free",
+}
+
 
 # =============================================================================
 # LLM prompts (short, focused)
@@ -222,12 +253,14 @@ Core objectives:
 This is not a test of the participant. There are no right answers. Never evaluate their communication or suggest they are answering badly.
 
 You are given each turn:
-- PHASE - pre_demo or post_demo. Only the topics for the current phase are listed.
-- TOPICS - what to cover now: each topic's priority, the things to collect under it, when to expand it, and anything you must not ask about.
+- PHASE - whether the demo video has been shown yet: pre_demo or post_demo.
+- TOPICS - every topic in this interview, with its phase, its priority, the things to collect under it, when to expand it, and anything you must not ask about. Ask only about topics whose phase matches PHASE. The rest are listed so you can pace yourself against what is still ahead, and so you can recognise when an answer has already covered something you will not reach until later.
 - COVERAGE - which topics are already covered. Do not re-open a covered topic.
 - TRANSCRIPT - the conversation so far. Suggestions the participant tapped are kept separate from what they typed, so you can tell a deliberate sentence from a tap.
 - SIGNALS - how this participant has been answering: typed words per answer against their own median, and typing speed. Use this to judge engagement. Never read it as an absolute measure of anything.
 - QUESTIONS_ASKED - how many questions so far, against the target.
+
+The interview opens with one fixed question, which has already been asked before you are first called: "when someone does not understand you, what do you usually do?". Start from the participant's answer to it. Do not repeat it or reintroduce yourself.
 
 Reading the participant:
 
@@ -263,6 +296,8 @@ Conversation rules:
 Budget:
 - At most 3 follow-ups on the topic the participant is most engaged with, and at most 1 on each other topic.
 - Aim to finish in about 12 questions in total.
+- Pace yourself against the topics still ahead in TOPICS. Do not spend the interview on the first thing that interests you and arrive at the later topics with nothing left. Save room for a good opportunity rather than taking the first one.
+- If an answer covers a topic you have not reached yet, record it in topics_covered and do not ask it again later.
 - It is acceptable to leave things uncollected. Anything missing is recorded for the researcher. Prefer moving on over drilling down.
 - One or two variables per topic is usually enough.
 
@@ -571,13 +606,18 @@ def _demo_step(chat, last_q, last_user):
 
 # ---- The agent turn ---------------------------------------------------------
 
-def _topics_for_prompt(phase):
-    keys = ("name", "priority", "collect", "parts", "expand_if", "do_not_collect", "note")
-    return {
-        tid: {k: e[k] for k in keys if e.get(k)}
-        for tid, e in INTERVIEW_TOPICS.items()
-        if e["phase"] == phase
-    }
+def _topics_for_prompt():
+    """Every topic, including ones for the other phase.
+
+    The agent needs the whole list even though it may only ask about the current
+    phase: it cannot pace its follow-up budget without knowing what is still ahead,
+    and it cannot notice that an answer has already covered a later topic if it does
+    not know that topic exists. The prompt gates asking on the phase field instead.
+    """
+    keys = ("name", "phase", "priority", "collect", "parts", "expand_if",
+            "do_not_collect", "note")
+    return {tid: {k: e[k] for k in keys if e.get(k)}
+            for tid, e in INTERVIEW_TOPICS.items()}
 
 
 def _transcript_for_prompt(chat):
@@ -600,7 +640,7 @@ def _transcript_for_prompt(chat):
 def _build_payload(chat, phase):
     return (
         f"PHASE:\n{phase}\n\n"
-        f"TOPICS:\n{json.dumps(_topics_for_prompt(phase), ensure_ascii=False, indent=2)}\n\n"
+        f"TOPICS:\n{json.dumps(_topics_for_prompt(), ensure_ascii=False, indent=2)}\n\n"
         f"COVERAGE:\n{json.dumps(_coverage_report(chat), ensure_ascii=False, indent=2)}\n\n"
         f"TRANSCRIPT:\n{json.dumps(_transcript_for_prompt(chat), ensure_ascii=False, indent=2)}\n\n"
         f"SIGNALS:\n{json.dumps(_signal_summary(chat), ensure_ascii=False, indent=2)}\n\n"
@@ -625,6 +665,11 @@ def run_agent_turn():
     All state is derived from the chat history, so resumed sessions work.
     """
     chat = st.session_state.chat
+
+    # ---- First turn: the fixed opener, no model call ----
+    if not any(m.get("role") == "user" for m in chat):
+        return False, dict(OPENING_QUESTION)
+
     last_q = next((m for m in reversed(chat) if m.get("role") == "assistant"), None)
     last_user = next((m for m in reversed(chat) if m.get("role") == "user"), None)
 
