@@ -543,8 +543,9 @@ DEMO_CONSENT = {
     "question_text": "Next, we would like to show a short demo video of an early idea. "
                      "Is now an okay time to watch it?",
     "question_type": "transition",
-    "options": [{"label": "Yes"}, {"label": "Skip the demo"},
-                {"label": "I have a question first"}],
+    # "I have a question first" was removed: there was no handling for it, and the
+    # turn has no text box, so a participant had no way to actually ask anything.
+    "options": [{"label": "Yes"}, {"label": "Skip the demo"}],
     "answer_mode": "multiple_choice",
     "input_mode": "single_choice",
 }
@@ -592,8 +593,10 @@ def _pre_demo_ready(chat, extra=()):
 def _demo_step(chat, last_q, last_user):
     """Take the turn if the demo needs handling, else (False, None) to let the agent run.
 
-    Consent is granted only by an explicit "Yes". "I have a question first" falls
-    through to the agent, which answers it; consent is then re-offered next turn.
+    Consent is granted only by an explicit "Yes". Since the consent turn is
+    single_choice, the answer is always one of its two labels; anything else means
+    something went wrong, and falling through leaves the demo unsettled so consent is
+    offered again rather than assumed.
     """
     if _demo_settled(chat):
         return False, None
