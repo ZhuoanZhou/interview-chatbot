@@ -93,7 +93,10 @@ MAX_QUESTIONS_TARGET = 12
 
 # Hard stop. The target above is what the agent aims at; this is what actually stops
 # the interview. A 23 Aug run reached 40 turns because the target was advisory only.
-MAX_TURNS_HARD_CAP = 20
+# Raised from 20: at 20 every run was still mid-conversation when the cap fired, so the
+# agent never set is_complete itself and whatever the participant said at the closing
+# question was discarded.
+MAX_TURNS_HARD_CAP = 24
 
 # One opening question plus three follow-ups. Counted per topic in Python, because
 # the same run showed the prompt's follow-up budget being spent entirely on T1.
