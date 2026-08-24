@@ -91,6 +91,14 @@ CLOSING_MESSAGE = (
 # A target, not a hard stop - the agent is told to prefer moving on over drilling down.
 MAX_QUESTIONS_TARGET = 12
 
+# Hard stop. The target above is what the agent aims at; this is what actually stops
+# the interview. A 23 Aug run reached 40 turns because the target was advisory only.
+MAX_TURNS_HARD_CAP = 20
+
+# One opening question plus three follow-ups. Counted per topic in Python, because
+# the same run showed the prompt's follow-up budget being spent entirely on T1.
+MAX_TURNS_PER_TOPIC = 4
+
 # Serve the demo once the core pre-demo topics are covered, or after this many
 # questions, whichever comes first. The cap stops the interview stalling before the
 # demo if the agent never marks a topic covered.
@@ -160,10 +168,13 @@ INTERVIEW_TOPICS = {
         "phase": "post_demo",
         "priority": "core",
         "collect": [
-            "for each part: does it seem useful, burdensome, or beside the point",
-            "which part carries the most value",
-            "which part carries the most burden",
+            "which part they would keep",
+            "which part they would drop, or found most effort",
+            "what makes that part worth it to them, or not",
         ],
+        "ask_as": "Offer the parts as the suggested answers in ONE question so they pick, "
+                  "then follow up on what they picked. Never walk through the parts one "
+                  "at a time - asking about each in turn is a survey, not an interview.",
         "parts": [
             "seeing a transcript of what they said",
             "fixing the transcript instead of typing from scratch",
@@ -198,6 +209,18 @@ INTERVIEW_TOPICS = {
             "the single most important change",
             "anything they expected to see and did not",
         ],
+    },
+    "T7": {
+        "name": "General design advice",
+        "phase": "demo_declined",
+        "priority": "core",
+        "collect": [
+            "what people building communication technology should keep in mind",
+            "what would help them most when they are not understood",
+        ],
+        "note": "For participants who declined the demo. They have seen nothing of the "
+                "prototype, so this replaces T3 to T6 entirely - never ask someone who "
+                "declined for their reaction to a video they did not watch.",
     },
 }
 
@@ -253,7 +276,7 @@ Core objectives:
 This is not a test of the participant. There are no right answers. Never evaluate their communication or suggest they are answering badly.
 
 You are given each turn:
-- PHASE - whether the demo video has been shown yet: pre_demo or post_demo.
+- PHASE - pre_demo, post_demo, or demo_declined. If the participant declined the demo they have seen nothing of the prototype, so ask only the topics for that phase and never for a reaction to the video.
 - TOPICS - every topic in this interview, with its phase, its priority, the things to collect under it, when to expand it, and anything you must not ask about. Ask only about topics whose phase matches PHASE. The rest are listed so you can pace yourself against what is still ahead, and so you can recognise when an answer has already covered something you will not reach until later.
 - COVERAGE - which topics are already covered. Do not re-open a covered topic.
 - TRANSCRIPT - the conversation so far. Suggestions the participant tapped are kept separate from what they typed, so you can tell a deliberate sentence from a tap.
@@ -287,10 +310,11 @@ Conversation rules:
 - Ask exactly one question per turn. One question means one thing. Do not join two questions with "and" or a comma.
 - Keep each message to one or two short sentences.
 - Acknowledge what they said before asking the next thing, briefly and specifically. Refer to their own words.
+- When the participant taps a suggested answer, that tells you which option they chose, not their words. Do not quote it back as something they said, and do not ask what made them say it — they picked from your list. Ask about the thing behind their choice instead.
 - Do not ask them to restate anything they have already told you, including whether something is easier, harder, better, worse, common or rare.
 - If they answer several topics at once, mark all of them covered and do not re-ask.
 - If they mention something interesting that belongs to a later topic, let them finish it now rather than making them repeat it later.
-- Do not ask "why" or ask for a story unless the participant has been writing freely.
+- A "why" question is fine when it can be answered in a short phrase or a tap. Do not ask for stories or extended explanations, and do not pressure for detail.
 - Never mention topic codes, variable names, or anything about how you are structured.
 
 Budget:
@@ -521,12 +545,30 @@ def _covered_topics(chat):
     for m in chat:
         if m.get("role") == "assistant":
             out.update(m.get("topics_done") or [])
+    # A topic that has used its whole turn budget counts as finished whether or not the
+    # agent said so. Without this the per-topic limit is advisory, and advisory limits
+    # did not hold: T1 took four turns of enumerating strategies in the 23 Aug run.
+    out |= {t for t, n in _topic_turns(chat).items() if n >= MAX_TURNS_PER_TOPIC}
     return out
+
+
+def _topic_turns(chat):
+    """How many interviewer turns each topic has used."""
+    counts = {}
+    for m in chat:
+        if m.get("role") == "assistant":
+            qid = m.get("question_id", "")
+            if qid in INTERVIEW_TOPICS:
+                counts[qid] = counts.get(qid, 0) + 1
+    return counts
 
 
 def _coverage_report(chat):
     covered = _covered_topics(chat)
-    return {tid: ("done" if tid in covered else "not yet")
+    turns = _topic_turns(chat)
+    return {tid: {"status": "done" if tid in covered else "not yet",
+                  "turns_used": turns.get(tid, 0),
+                  "turns_left": max(0, MAX_TURNS_PER_TOPIC - turns.get(tid, 0))}
             for tid in INTERVIEW_TOPICS}
 
 
@@ -573,8 +615,22 @@ def _demo_settled(chat):
     return False
 
 
+def _demo_watched(chat):
+    """True only if the video actually played. Declining also settles the demo."""
+    return any(m.get("role") == "video" for m in chat)
+
+
 def _phase(chat):
-    return "post_demo" if _demo_settled(chat) else "pre_demo"
+    """pre_demo, post_demo, or demo_declined.
+
+    The third value matters: a participant who declines has seen nothing of the
+    prototype, so T3-T6 are unanswerable for them and T7 replaces the lot. An earlier
+    version collapsed declined into post_demo and asked ten questions about a video
+    that was never watched.
+    """
+    if not _demo_settled(chat):
+        return "pre_demo"
+    return "post_demo" if _demo_watched(chat) else "demo_declined"
 
 
 def _pre_demo_ready(chat, extra=()):
@@ -655,8 +711,26 @@ def _build_payload(chat, phase):
         f"COVERAGE:\n{json.dumps(_coverage_report(chat), ensure_ascii=False, indent=2)}\n\n"
         f"TRANSCRIPT:\n{json.dumps(_transcript_for_prompt(chat), ensure_ascii=False, indent=2)}\n\n"
         f"SIGNALS:\n{json.dumps(_signal_summary(chat), ensure_ascii=False, indent=2)}\n\n"
-        f"QUESTIONS_ASKED:\n{_questions_asked(chat)} of about {MAX_QUESTIONS_TARGET}"
+        f"QUESTIONS_ASKED:\n{_questions_asked(chat)} so far. Aim for about "
+        f"{MAX_QUESTIONS_TARGET}. Hard maximum {MAX_TURNS_HARD_CAP}, after which the "
+        f"interview closes automatically."
     )
+
+
+FORCED_CLOSING = {
+    "question_id": "Closing",
+    "question_text": "Before we finish, is there anything important I did not ask about?",
+    "question_type": "main",
+    "options": [{"label": l} for l in
+                ("No, that's everything", "Yes, there is something", "Other", "Skip")],
+    "answer_mode": "multiple_choice",
+    "input_mode": "free",
+}
+
+
+def _closing_asked(chat):
+    return any(m.get("role") == "assistant" and m.get("question_id") == "Closing"
+               for m in chat)
 
 
 _RETRY_RESULT = {
@@ -722,6 +796,19 @@ def run_agent_turn():
                 opts.append(extra)
 
     done = [t for t in (result.get("topics_done") or []) if t in INTERVIEW_TOPICS]
+
+    # ---- Hard turn cap ----
+    # Checked before anything else so it always wins: better to close than to start a
+    # demo or a new topic at turn 20. The agent is told the cap in the payload and is
+    # expected to close itself; this is what happens when it does not.
+    asked = _questions_asked(chat)
+    if asked >= MAX_TURNS_HARD_CAP:
+        st.session_state.interview_ended = True
+        st.session_state.researcher_summary = (result.get("researcher_summary") or "").strip()
+        st.session_state.final_message = reply or CLOSING_MESSAGE
+        return False, None
+    if asked >= MAX_TURNS_HARD_CAP - 1 and not _closing_asked(chat):
+        return False, dict(FORCED_CLOSING)
 
     # Checked here, after the agent has seen the participant's answer -- not in
     # _demo_step, which runs before the call. Triggering it there meant the demo
@@ -1155,7 +1242,7 @@ if st.session_state.phase == "intro":
         "Later, we will show you a short demo of an early technology idea and ask what you think about it.\n\n"
         "This is not a test of you. We are learning from your experience.\n"
         "There are no right or wrong answers. Short answers are fine. You can skip any question.\n\n"
-        "There are about 10 questions in total.\n\n"
+        "It usually takes about 30 minutes.\n\n"
         "You can answer by speaking, typing, choosing suggested answers, or using a mix of these.\n"
         "If helpful, you can press the suggestions button to see possible answers."
     )
