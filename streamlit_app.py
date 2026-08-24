@@ -110,122 +110,148 @@ PRE_DEMO_QUESTION_CAP = 5
 # =============================================================================
 # Interview topics
 #
-# Topics, not questions. The agent composes the wording and the suggested answers
-# each turn; Python owns the order, the phase, and what counts as covered.
+# Topics, not questions, and deliberately thin. Each one says what we are trying to
+# learn and why - not a list of variables to obtain.
+#
+# An earlier version listed variables ("what they try first", "whether they use one
+# way at a time"). The agent worked down the list, so a participant who named one
+# strategy was asked which came first and whether they combined several. Both
+# presuppose strategies they had not mentioned, and by the fourth turn they had
+# produced three more. That data was an artefact of the questions.
+#
+# A list of variables can only return answers to questions we already wrote, which is
+# a survey. What an interviewer actually carries is: what am I here to learn, what do
+# I already know, and what would make me lean in.
 #
 # priority:
 #   core       - cover even if the participant is fading; ask in the cheapest form
 #   important  - cover unless they are clearly tiring
 #   optional   - only for participants who are still engaged
 #
-# "do_not_collect" records things earlier versions of the guide asked and that the
-# 16 Jun review cut, so the reasoning survives with the code.
+# "do_not_ask" records what the 16 Jun review with Christine cut, and why, so the
+# reasoning survives with the code rather than only in a meeting transcript.
 # =============================================================================
 
 INTERVIEW_TOPICS = {
+
     "T1": {
-        "name": "What they do now when they are not understood",
+        "name": "How they repair communication today",
         "phase": "pre_demo",
         "priority": "core",
-        "collect": [
-            "what they do when someone does not understand them (may be several things)",
-            "what they try first",
-            "whether they use one way at a time or mix a few together",
-        ],
-        "expand_if": "they name something not offered, or describe a specific person, "
-                     "place or situation",
-        "do_not_collect": [
-            "what decides their choice of strategy - already established in the literature",
+        "want_to_learn":
+            "How this person actually gets understood when their speech is not "
+            "understood - in enough detail to judge whether transcription plus editing "
+            "would sit alongside what they already do, or replace it, or get in the way.",
+        "already_known":
+            "That strategy choice depends on the listener, the importance of the message "
+            "and how tired they are. The literature covers this. Do not spend turns "
+            "confirming it.",
+        "worth_chasing":
+            "Anything specific - a named person, a place, a workaround they invented. "
+            "Specifics are where the surprises are. Categories are not.",
+        "do_not_ask": [
             "how often they are misunderstood, or who has trouble understanding them - "
-            "this is a severity proxy and is read from their own speech instead",
+            "a severity proxy, read from their own speech instead",
         ],
     },
+
     "T2": {
-        "name": "What repair costs them",
+        "name": "What repair costs them, and when they stop",
         "phase": "pre_demo",
         "priority": "optional",
-        "collect": [
-            "how much effort repair usually takes",
-            "what makes it easier or harder",
-            "when they decide it is not worth repairing",
-        ],
-        "expand_if": "they say it takes a lot of effort, or that it depends",
-        "note": "When there is only room for one of these, take the last one. When they "
-                "give up repairing is not in the literature and it decides whether anyone "
-                "would use this mid-conversation.",
+        "want_to_learn":
+            "What repair costs this person, and the point at which they decide it is not "
+            "worth it. That threshold decides whether anyone would reach for a tool "
+            "mid-conversation.",
+        "worth_chasing":
+            "The moment they give up. Nobody has written this down.",
     },
+
     "T3": {
         "name": "First reaction to the demo",
         "phase": "post_demo",
         "priority": "core",
-        "collect": [
-            "their overall reaction",
-            "what drove it",
+        "want_to_learn":
+            "What they actually thought, before we start asking about parts. Whether it "
+            "landed as useful, as more work, or as beside the point.",
+        "worth_chasing":
+            "Anything mixed or negative. Those are rarer and carry more design "
+            "information than enthusiasm does.",
+        "do_not_ask": [
+            "what made them say something they picked from your suggested answers - they "
+            "chose a label you wrote, so there is no reasoning to recover",
         ],
-        "expand_if": "the reaction is mixed or negative",
-        "note": "Probe mixed and negative reactions harder than positive ones. They are "
-                "rarer and carry more design information.",
     },
+
     "T4": {
-        "name": "Which parts of the demo seem worth it",
+        "name": "Which parts of it are worth the effort",
         "phase": "post_demo",
         "priority": "core",
-        "collect": [
-            "which part they would keep",
-            "which part they would drop, or found most effort",
-            "what makes that part worth it to them, or not",
-        ],
-        "ask_as": "Offer the parts as the suggested answers in ONE question so they pick, "
-                  "then follow up on what they picked. Never walk through the parts one "
-                  "at a time - asking about each in turn is a survey, not an interview.",
-        "parts": [
+        "want_to_learn":
+            "Which parts of what they saw would earn their effort and which would cost "
+            "more than they are worth - and what it is about those parts that decides it.",
+        "shown_in_the_demo": [
             "seeing a transcript of what they said",
             "fixing the transcript instead of typing from scratch",
             "correcting one word and letting it redo the rest",
             "showing the corrected text to the other person",
             "having it read the text aloud",
         ],
-        "note": "Ask about burden before value - what people would remove is more "
-                "actionable than what they would keep. These five are what the demo "
-                "video actually shows. Do not ask about anything it did not show.",
+        "worth_chasing":
+            "Any part they single out, in either direction. What makes it worth it to "
+            "them matters more than which one they picked.",
+        "do_not_ask": [
+            "about the parts one at a time - that is a survey, and there are five parts "
+            "and about three turns",
+            "about anything the demo did not show",
+        ],
     },
+
     "T5": {
         "name": "Whether it fits their life",
         "phase": "post_demo",
         "priority": "core",
-        "collect": [
-            "whether they would use it",
-            "in what situations",
-            "what would have to be true for them to use it",
-        ],
-        "expand_if": "they say maybe, or probably not",
-        "do_not_collect": [
-            "where they would not use it, as a separate question - whatever they do not "
-            "name as a fit can be treated as a non-fit",
+        "want_to_learn":
+            "Whether this would survive contact with their actual conversations, and "
+            "what would have to be true for it to.",
+        "worth_chasing":
+            "A concrete situation they picture themselves in, or the specific thing "
+            "stopping them.",
+        "do_not_ask": [
+            "separately where they would NOT use it - whatever they do not name as a fit "
+            "can be treated as a non-fit",
         ],
     },
+
     "T6": {
-        "name": "What would need to change",
+        "name": "What would have to change",
         "phase": "post_demo",
         "priority": "important",
-        "collect": [
-            "the single most important change",
-            "anything they expected to see and did not",
+        "want_to_learn":
+            "The one change that would matter most to them, in their words rather than "
+            "chosen from ours.",
+        "do_not_ask": [
+            "them to rank or prioritise a list of changes you wrote yourself",
         ],
     },
+
     "T7": {
         "name": "General design advice",
         "phase": "demo_declined",
         "priority": "core",
-        "collect": [
-            "what people building communication technology should keep in mind",
-            "what would help them most when they are not understood",
+        "want_to_learn":
+            "What someone building communication technology should understand about "
+            "their life. They have not seen the prototype, so this is the whole of the "
+            "post-decline conversation.",
+        "worth_chasing":
+            "Follow what they raise. This topic carries several turns on its own, so "
+            "depth on their concern beats breadth across ours.",
+        "do_not_ask": [
+            "about the demo, the prototype, or any of its parts - they have not seen it",
         ],
-        "note": "For participants who declined the demo. They have seen nothing of the "
-                "prototype, so this replaces T3 to T6 entirely - never ask someone who "
-                "declined for their reaction to a video they did not watch.",
     },
 }
+
 
 # The interview always opens with this exact question, identically for everyone.
 #
@@ -684,8 +710,8 @@ def _topics_for_prompt():
     and it cannot notice that an answer has already covered a later topic if it does
     not know that topic exists. The prompt gates asking on the phase field instead.
     """
-    keys = ("name", "phase", "priority", "collect", "parts", "expand_if",
-            "do_not_collect", "note")
+    keys = ("name", "phase", "priority", "want_to_learn", "already_known",
+            "worth_chasing", "shown_in_the_demo", "do_not_ask", "note")
     return {tid: {k: e[k] for k in keys if e.get(k)}
             for tid, e in INTERVIEW_TOPICS.items()}
 
