@@ -110,145 +110,188 @@ PRE_DEMO_QUESTION_CAP = 5
 # =============================================================================
 # Interview topics
 #
-# Topics, not questions, and deliberately thin. Each one says what we are trying to
-# learn and why - not a list of variables to obtain.
+# Topics, not questions. Each one is a screen followed by gated follow-ups:
 #
-# An earlier version listed variables ("what they try first", "whether they use one
-# way at a time"). The agent worked down the list, so a participant who named one
-# strategy was asked which came first and whether they combined several. Both
-# presuppose strategies they had not mentioned, and by the fourth turn they had
-# produced three more. That data was an artefact of the questions.
+#   screen  - the one thing always asked to open the topic
+#   then    - {condition: [what to ask only if that condition holds]}
+#   never   - prohibitions, each with its reason
 #
-# A list of variables can only return answers to questions we already wrote, which is
-# a survey. What an interviewer actually carries is: what am I here to learn, what do
-# I already know, and what would make me lean in.
+# Every item under "then" is conditional on what the participant actually said.
+# An earlier version listed variables unconditionally, and the agent worked down
+# the list: someone who named one repair strategy was asked which they tried
+# first and whether they combined several. Both presuppose strategies they had
+# not mentioned, and by the fourth turn they had produced three more. That data
+# was an artefact of the questions.
 #
 # priority:
 #   core       - cover even if the participant is fading; ask in the cheapest form
 #   important  - cover unless they are clearly tiring
 #   optional   - only for participants who are still engaged
 #
-# "do_not_ask" records what the 16 Jun review with Christine cut, and why, so the
+# "never" also records what the 16 Jun review with Christine cut, and why, so the
 # reasoning survives with the code rather than only in a meeting transcript.
 # =============================================================================
 
 INTERVIEW_TOPICS = {
-
     "T1": {
-        "name": "How they repair communication today",
+        "name": "What they do now when they are not understood",
         "phase": "pre_demo",
         "priority": "core",
-        "want_to_learn":
-            "How this person actually gets understood when their speech is not "
-            "understood - in enough detail to judge whether transcription plus editing "
-            "would sit alongside what they already do, or replace it, or get in the way.",
-        "already_known":
-            "That strategy choice depends on the listener, the importance of the message "
-            "and how tired they are. The literature covers this. Do not spend turns "
-            "confirming it.",
-        "worth_chasing":
-            "Anything specific - a named person, a place, a workaround they invented. "
-            "Specifics are where the surprises are. Categories are not.",
-        "do_not_ask": [
-            "how often they are misunderstood, or who has trouble understanding them - "
-            "a severity proxy, read from their own speech instead",
+        "screen": "what they do when someone does not understand them",
+        "then": {
+            "they named more than one thing": [
+                "which one they try first",
+                "whether they use them one at a time or together",
+            ],
+            "they named only one thing": [
+                "whether that usually works",
+            ],
+            "they described a specific person, place or situation": [
+                "one question about that situation",
+            ],
+        },
+        "never": [
+            "ask which they try first, or whether they combine strategies, when they "
+            "named only one - both presuppose strategies they have not mentioned, and "
+            "pressing invites them to invent one",
+            "ask what else they do after they have answered - if they had more to say "
+            "they would have said it",
+            "ask what decides their choice of strategy - already established in the "
+            "literature",
+            "ask how often they are misunderstood, or who has trouble understanding "
+            "them - a severity proxy, read from their own speech instead",
         ],
     },
-
     "T2": {
-        "name": "What repair costs them, and when they stop",
+        "name": "What repair costs them",
         "phase": "pre_demo",
         "priority": "optional",
-        "want_to_learn":
-            "What repair costs this person, and the point at which they decide it is not "
-            "worth it. That threshold decides whether anyone would reach for a tool "
-            "mid-conversation.",
-        "worth_chasing":
-            "The moment they give up. Nobody has written this down.",
+        "screen": "how much effort repair usually takes",
+        "then": {
+            "they said a lot of effort, or that it depends": [
+                "what makes it easier or harder",
+                "when they decide it is not worth repairing",
+            ],
+            "they said little effort": [
+                "when they decide it is not worth repairing",
+            ],
+        },
+        "never": [
+            "ask what makes repair harder when they have said it costs them little",
+        ],
+        "note": "When there is room for only one thing here, take when they give up. "
+                "That is not in the literature and it decides whether anyone would use "
+                "this mid-conversation.",
     },
-
     "T3": {
         "name": "First reaction to the demo",
         "phase": "post_demo",
         "priority": "core",
-        "want_to_learn":
-            "What they actually thought, before we start asking about parts. Whether it "
-            "landed as useful, as more work, or as beside the point.",
-        "worth_chasing":
-            "Anything mixed or negative. Those are rarer and carry more design "
-            "information than enthusiasm does.",
-        "do_not_ask": [
-            "what made them say something they picked from your suggested answers - they "
-            "chose a label you wrote, so there is no reasoning to recover",
+        "screen": "their overall reaction to the demo",
+        "then": {
+            "the reaction is mixed or negative": [
+                "what drove it",
+                "which part of the demo caused it",
+            ],
+            "the reaction is clearly positive": [
+                "what specifically appealed - one question, then move on",
+            ],
+            "they said they would need to try it first": [
+                "what they would be checking for",
+            ],
+        },
+        "never": [
+            "ask what made them say something when they picked it from your suggested "
+            "answers - they chose a label you wrote, so there is no reasoning to recover",
         ],
+        "note": "Probe mixed and negative reactions harder than positive ones. They are "
+                "rarer and carry more design information.",
     },
-
     "T4": {
-        "name": "Which parts of it are worth the effort",
+        "name": "Which parts of the demo seem worth it",
         "phase": "post_demo",
         "priority": "core",
-        "want_to_learn":
-            "Which parts of what they saw would earn their effort and which would cost "
-            "more than they are worth - and what it is about those parts that decides it.",
-        "shown_in_the_demo": [
+        "screen": "which of the parts they would keep - offer all five as the suggested "
+                  "answers in ONE question",
+        "then": {
+            "they picked one or more to keep": [
+                "what makes that part worth it to them",
+                "which part they would drop, or found the most effort",
+            ],
+            "they would keep none of it": [
+                "what would have to be different for any of it to be worth it",
+            ],
+        },
+        "parts": [
             "seeing a transcript of what they said",
             "fixing the transcript instead of typing from scratch",
             "correcting one word and letting it redo the rest",
             "showing the corrected text to the other person",
             "having it read the text aloud",
         ],
-        "worth_chasing":
-            "Any part they single out, in either direction. What makes it worth it to "
-            "them matters more than which one they picked.",
-        "do_not_ask": [
-            "about the parts one at a time - that is a survey, and there are five parts "
-            "and about three turns",
-            "about anything the demo did not show",
+        "never": [
+            "ask about the parts one at a time - there are five parts and about three "
+            "turns, so picking is how they tell you, not a checklist to walk",
+            "ask about a part they did not pick, unless they raise it themselves",
+            "ask about anything the demo video did not show",
         ],
     },
-
     "T5": {
         "name": "Whether it fits their life",
         "phase": "post_demo",
         "priority": "core",
-        "want_to_learn":
-            "Whether this would survive contact with their actual conversations, and "
-            "what would have to be true for it to.",
-        "worth_chasing":
-            "A concrete situation they picture themselves in, or the specific thing "
-            "stopping them.",
-        "do_not_ask": [
-            "separately where they would NOT use it - whatever they do not name as a fit "
-            "can be treated as a non-fit",
+        "screen": "whether they would use it",
+        "then": {
+            "yes or probably": [
+                "in what situations",
+            ],
+            "maybe, or probably not": [
+                "what would have to be true for them to use it",
+            ],
+            "a clear no": [
+                "what they would use instead - then move on",
+            ],
+        },
+        "never": [
+            "ask where they would use it after they have said they probably would not",
+            "ask separately where they would NOT use it - whatever they do not name as "
+            "a fit can be treated as a non-fit",
         ],
     },
-
     "T6": {
-        "name": "What would have to change",
+        "name": "What would need to change",
         "phase": "post_demo",
         "priority": "important",
-        "want_to_learn":
-            "The one change that would matter most to them, in their words rather than "
-            "chosen from ours.",
-        "do_not_ask": [
-            "them to rank or prioritise a list of changes you wrote yourself",
+        "screen": "the single most important change they would want",
+        "then": {
+            "they named something concrete": [
+                "what that would let them do that they cannot do now",
+            ],
+            "they are not sure": [
+                "anything they expected the demo to show and did not",
+            ],
+        },
+        "never": [
+            "ask them to rank or prioritise a list of changes you wrote yourself",
         ],
     },
-
     "T7": {
         "name": "General design advice",
         "phase": "demo_declined",
         "priority": "core",
-        "want_to_learn":
-            "What someone building communication technology should understand about "
-            "their life. They have not seen the prototype, so this is the whole of the "
-            "post-decline conversation.",
-        "worth_chasing":
-            "Follow what they raise. This topic carries several turns on its own, so "
-            "depth on their concern beats breadth across ours.",
-        "do_not_ask": [
-            "about the demo, the prototype, or any of its parts - they have not seen it",
+        "screen": "what people building communication technology should keep in mind",
+        "then": {
+            "they named something concrete": [
+                "what would help them most when they are not understood",
+                "what they would want such a tool never to do",
+            ],
+        },
+        "never": [
+            "ask about the demo, the prototype, or any of its parts - they have not "
+            "seen it",
         ],
+        "note": "This is the only post-decline topic, so it has to carry several turns. "
+                "Follow what they raise rather than pushing for more items.",
     },
 }
 
@@ -297,7 +340,7 @@ Role:
 You are a warm, patient research interviewer talking with a person who has dysarthria. Their speech is sometimes hard for others to understand. You are running a short formative interview about how they repair communication today, and what they think of an early prototype that transcribes their speech and lets them correct the text.
 
 Core objectives:
-- Cover the assigned topics and collect the variables listed under each.
+- Cover the assigned topics: ask each topic's screen, then only the follow-ups its conditions allow.
 - Adapt to how much this participant wants to give, and where their interest is.
 - Minimise burden. Never ask for something you already have.
 - Sound like a person having a conversation, not a form.
@@ -306,7 +349,7 @@ This is not a test of the participant. There are no right answers. Never evaluat
 
 You are given each turn:
 - PHASE - pre_demo, post_demo, or demo_declined. If the participant declined the demo they have seen nothing of the prototype, so ask only the topics for that phase and never for a reaction to the video.
-- TOPICS - every topic in this interview, with its phase, its priority, the things to collect under it, when to expand it, and anything you must not ask about. Ask only about topics whose phase matches PHASE. The rest are listed so you can pace yourself against what is still ahead, and so you can recognise when an answer has already covered something you will not reach until later.
+- TOPICS - every topic in this interview, with its phase, its priority, its "screen" (the one thing you always ask to open that topic), its "then" (follow-ups, each keyed to a condition that must already be true of what the participant said), and its "never" (things you must not ask, with the reason). Ask only about topics whose phase matches PHASE. The rest are listed so you can pace yourself against what is still ahead, and so you can recognise when an answer has already covered something you will not reach until later.
 - COVERAGE - which topics are already covered. Do not re-open a covered topic.
 - TRANSCRIPT - the conversation so far. Suggestions the participant tapped are kept separate from what they typed, so you can tell a deliberate sentence from a tap.
 - SIGNALS - how this participant has been answering: typed words per answer against their own median, and typing speed. Use this to judge engagement. Never read it as an absolute measure of anything.
@@ -350,8 +393,14 @@ Budget:
 - At most 3 follow-ups on the topic the participant is most engaged with, and at most 1 on each other topic.
 - Aim to finish in about 12 questions in total.
 - Pace yourself against the topics still ahead in TOPICS. Do not spend the interview on the first thing that interests you and arrive at the later topics with nothing left. Save room for a good opportunity rather than taking the first one.
-- It is acceptable to leave things uncollected. Anything missing is recorded for the researcher. Prefer moving on over drilling down.
-- One or two variables per topic is usually enough.
+- It is acceptable to leave things unasked. Anything missing is recorded for the researcher. Prefer moving on over drilling down.
+- One or two follow-ups per topic is usually enough.
+
+Using a topic:
+- Open the topic with its screen, in your own words.
+- Then read what the participant actually said against the conditions in "then". Ask only follow-ups whose condition is already true. If no condition holds, the topic is finished - move on.
+- "then" is not a checklist. Several conditions may hold; you still ask only what your follow-up budget allows.
+- Never ask a question that assumes something the participant has not said.
 
 Topic priority:
 - core topics must be covered even if the participant is fading. Ask them in their cheapest form.
@@ -391,8 +440,7 @@ Respond with valid JSON and these keys only:
   "engagement": "high | normal | low",
   "information_value": "high | medium | low",
   "wellbeing_flag": "short note, or empty",
-  "is_complete": true or false,
-  "researcher_summary": "3-4 sentences when complete, otherwise empty"
+  "is_complete": true or false
 }
 
 The participant sees only "reply" and "suggested_answers".
@@ -710,8 +758,7 @@ def _topics_for_prompt():
     and it cannot notice that an answer has already covered a later topic if it does
     not know that topic exists. The prompt gates asking on the phase field instead.
     """
-    keys = ("name", "phase", "priority", "want_to_learn", "already_known",
-            "worth_chasing", "shown_in_the_demo", "do_not_ask", "note")
+    keys = ("name", "phase", "priority", "screen", "then", "parts", "never", "note")
     return {tid: {k: e[k] for k in keys if e.get(k)}
             for tid, e in INTERVIEW_TOPICS.items()}
 
@@ -810,7 +857,6 @@ def run_agent_turn():
 
     if result.get("is_complete"):
         st.session_state.interview_ended = True
-        st.session_state.researcher_summary = (result.get("researcher_summary") or "").strip()
         if reply:
             st.session_state.final_message = reply
         return False, None
@@ -833,7 +879,6 @@ def run_agent_turn():
     asked = _questions_asked(chat)
     if asked >= MAX_TURNS_HARD_CAP:
         st.session_state.interview_ended = True
-        st.session_state.researcher_summary = (result.get("researcher_summary") or "").strip()
         st.session_state.final_message = reply or CLOSING_MESSAGE
         return False, None
     if asked >= MAX_TURNS_HARD_CAP - 1 and not _closing_asked(chat):
