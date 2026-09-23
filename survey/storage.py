@@ -1,7 +1,7 @@
 """Immutable save batches. Each batch contains events and an answer checkpoint.
 
-The same batch ID is safe to retry after an uncertain network response. Resume
-secrets are hashed before being used in folder names and are never in records.
+The same batch ID is safe to retry after an uncertain network response.
+Participant IDs resume surveys; older token-based survey folders remain readable.
 """
 import hashlib
 import io
@@ -20,14 +20,28 @@ def new_token():
     return secrets.token_urlsafe(32)
 
 
+def new_participant_id():
+    return 'P-' + secrets.token_hex(3).upper()
+
+
+def normalize_access(value):
+    value = value.strip() if isinstance(value, str) else ''
+    if re.fullmatch(r'P-(?:[A-F0-9]{6}|[A-F0-9]{12})', value.upper()):
+        return value.upper()
+    if re.fullmatch(r'[A-Za-z0-9_-]{43}', value):
+        return value  # compatibility with previously issued resume codes
+    raise ValueError('Please check your participant ID.')
+
+
 def folder_name(token):
-    if not isinstance(token, str) or not re.fullmatch(r'[A-Za-z0-9_-]{43}', token):
-        raise ValueError('Invalid resume code.')
+    token = normalize_access(token)
+    if token.startswith('P-') and len(token) in (8,14):
+        return 'survey_' + token
     return 'survey_' + hashlib.sha256(token.encode()).hexdigest()
 
 
-def new_record(version):
-    return {'participant_id':'P-' + secrets.token_hex(6).upper(),
+def new_record(version, participant_id=None):
+    return {'participant_id':participant_id or ('P-' + secrets.token_hex(6).upper()),
             'schema_version':version, 'created_at':utc_now(), 'revision':0,
             'state':{'page':'intro','answers':{},'status':'active'}, 'events':[]}
 
@@ -57,20 +71,35 @@ class LocalStore:
         self.root = Path(root)
 
     def create(self, token, version):
+        token = normalize_access(token)
         folder = self.root / folder_name(token)
         folder.mkdir(parents=True, exist_ok=False)
-        record = new_record(version)
+        record = new_record(version, token if token.startswith('P-') and len(token) in (8,14) else None)
         (folder/'000000000_initial.json').write_text(json.dumps(record),encoding='utf-8')
         return record
 
+    def _folder(self, token):
+        token = normalize_access(token)
+        direct = self.root / folder_name(token)
+        if direct.is_dir():
+            return direct
+        if token.startswith('P-') and len(token) in (8,14):
+            matches = []
+            for initial in self.root.glob('survey_*/000000000_initial.json'):
+                if json.loads(initial.read_text(encoding='utf-8')).get('participant_id') == token:
+                    matches.append(initial.parent)
+            if len(matches) == 1:
+                return matches[0]
+        raise ValueError('No survey found for this participant ID.')
+
     def load(self, token):
-        files = sorted((self.root / folder_name(token)).glob('*.json'))
+        files = sorted(self._folder(token).glob('*.json'))
         if not files:
-            raise ValueError('No survey found for this resume code.')
+            raise ValueError('No survey found for this participant ID.')
         return json.loads(files[-1].read_text(encoding='utf-8'))
 
     def save(self, token, packet):
-        folder = self.root / folder_name(token)
+        folder = self._folder(token)
         matches = list(folder.glob('*_' + packet.get('batch_id','invalid') + '.json'))
         if matches:
             return json.loads(matches[0].read_text(encoding='utf-8'))
@@ -91,16 +120,45 @@ class DriveStore:
                             token_uri='https://oauth2.googleapis.com/token')
         self.service = build('drive','v3',credentials=creds,cache_discovery=False)
         self.root = config['GDRIVE_FOLDER_ID']
+        self._folder_cache = {}
         if not re.fullmatch(r'[A-Za-z0-9_-]+',self.root):
             raise ValueError('Invalid Google Drive folder configuration.')
 
     def _folder(self,token):
+        token=normalize_access(token)
+        cache=getattr(self,'_folder_cache',{})
+        if token in cache:
+            return cache[token]
         name=folder_name(token)
         files=self.service.files().list(q=f"name='{name}' and '{self.root}' in parents and trashed=false",
                                          fields='files(id)',pageSize=2).execute().get('files',[])
-        if len(files)!=1:
-            raise ValueError('No unique survey found for this resume code.')
-        return files[0]['id']
+        if len(files)==1:
+            cache[token]=files[0]['id']
+            return files[0]['id']
+        if not files and token.startswith('P-') and len(token) in (8,14):
+            # Pre-update surveys used hashed token folder names. Their initial
+            # records contain the participant ID, so no answers need migration.
+            matches=[]
+            page_token=None
+            while True:
+                result=self.service.files().list(
+                    q=f"'{self.root}' in parents and mimeType='application/vnd.google-apps.folder' and trashed=false and name contains 'survey_'",
+                    fields='nextPageToken,files(id,name)',pageSize=1000,pageToken=page_token).execute()
+                for folder in result.get('files',[]):
+                    if not re.fullmatch(r'survey_[a-f0-9]{64}',folder['name']):
+                        continue
+                    initial=self.service.files().list(
+                        q=f"'{folder['id']}' in parents and name='000000000_initial.json' and trashed=false",
+                        fields='files(id)',pageSize=1).execute().get('files',[])
+                    if initial and self._read(initial[0]['id']).get('participant_id')==token:
+                        matches.append(folder['id'])
+                page_token=result.get('nextPageToken')
+                if not page_token:
+                    break
+            if len(matches)==1:
+                cache[token]=matches[0]
+                return matches[0]
+        raise ValueError('No unique survey found for this participant ID.')
 
     def _read(self,id):
         data=self.service.files().get_media(fileId=id).execute()
@@ -120,9 +178,15 @@ class DriveStore:
         return self._read(files[0]['id'])
 
     def create(self,token,version):
+        token=normalize_access(token)
+        existing=self.service.files().list(
+            q=f"name='{folder_name(token)}' and '{self.root}' in parents and trashed=false",
+            fields='files(id)',pageSize=1).execute().get('files',[])
+        if existing:
+            raise FileExistsError('Participant ID already exists. Please try starting again.')
         folder=self.service.files().create(body={'name':folder_name(token),
             'mimeType':'application/vnd.google-apps.folder','parents':[self.root]},fields='id').execute()['id']
-        record=new_record(version)
+        record=new_record(version,token if token.startswith('P-') and len(token) in (8,14) else None)
         self._write(folder,'000000000_initial.json',record)
         return record
 

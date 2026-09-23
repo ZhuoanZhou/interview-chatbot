@@ -105,17 +105,30 @@ Pending data is temporarily stored in this tab's sessionStorage to survive refre
 It is cleared after acknowledged completion. This includes deleted text: the
 interaction log is more sensitive than final survey answers. Pause is not deletion.
 Closing a tab/browser before acknowledgement can lose unsaved events; do not claim
-crash-proof or exactly-once capture. A warning and saved indicator communicate this.
+crash-proof or exactly-once capture. Errors remain visible; pause and completion
+screens indicate when saving has finished.
 
-A random 256-bit private resume code is required. Drive folder names contain its
-SHA-256 hash, not the secret. Participant IDs alone cannot resume surveys. Keep
-the resume code private. Use one active tab/device per participant: revision
+A participant ID is the sole resume credential, as requested for participant
+simplicity. New IDs use the previous short format, e.g. `P-ABC123`, and are shown
+above the survey. Choose “Return to your survey” and enter that ID to resume.
+Existing fixed-survey sessions with longer participant IDs can also be resumed
+using those IDs: the app finds their original token-based folders and continues
+the saved progress without moving or rewriting old batches. Previously issued
+long resume codes remain accepted for compatibility. Older adaptive-chatbot
+transcripts are not converted into fixed-survey answers.
+
+Keep participant IDs private; anyone with an ID can open that survey. Use one
+active tab/device per participant: revision
 checks detect sequential stale writes, but Google Drive provides no atomic
 compare-and-swap here, so simultaneous multi-device writing is not supported.
 
 The app inherits the configured Drive folder's permissions; it does not create
 public sharing permissions. It does not configure retention/deletion, encryption
 of exports, institutional consent, or hosting. Those remain deployment duties.
+
+Routine save diagnostics appear only in the browser console. Participants see a
+brief message if saving fails, and completion/pause screens confirm when it is
+safe to leave. Console diagnostics contain no IDs, answers, or credentials.
 
 ## Export
 

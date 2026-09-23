@@ -4,7 +4,7 @@ import unittest
 import uuid
 from unittest.mock import MagicMock
 from pathlib import Path
-from survey.storage import DriveStore, LocalStore, folder_name, new_token
+from survey.storage import DriveStore, LocalStore, folder_name, new_token, new_participant_id, normalize_access
 from scripts.export_survey import combine
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -45,12 +45,40 @@ class StorageTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'already ended'):
             self.store.save(self.token,self.packet(1))
 
-    def test_resume_uses_secret_not_participant_id(self):
-        with self.assertRaises(ValueError):
-            self.store.load(self.initial['participant_id'])
+    def test_old_survey_resumes_by_participant_id_and_keeps_progress(self):
+        first=self.store.save(self.token,self.packet())
+        pid=self.initial['participant_id']
+        self.assertEqual(self.store.load('  '+pid.lower()+'  '),first)
+        next_record=self.store.save(pid,self.packet(1))
+        self.assertEqual(self.store.load(self.token),next_record)
+        self.assertEqual(len(list(Path(self.temp.name).glob('survey_*'))),1)
         self.assertNotIn(self.token,folder_name(self.token))
         with self.assertRaises(ValueError):
             self.store.load('../outside')
+
+    def test_new_survey_uses_short_participant_id(self):
+        pid=new_participant_id()
+        self.assertRegex(pid,r'^P-[A-F0-9]{6}$')
+        created=self.store.create(pid,SCHEMA['version'])
+        self.assertEqual(created['participant_id'],pid)
+        self.assertEqual(normalize_access(' '+pid.lower()+' '),pid)
+        saved=self.store.save(pid,self.packet())
+        self.assertEqual(self.store.load(pid),saved)
+        with self.assertRaises(FileExistsError):
+            self.store.create(pid,SCHEMA['version'])
+
+    def test_drive_finds_existing_hashed_folder_by_participant_id(self):
+        drive=object.__new__(DriveStore)
+        drive.service=MagicMock();drive.root='root';drive._folder_cache={}
+        drive.service.files.return_value.list.return_value.execute.side_effect=[
+            {'files':[]},
+            {'files':[{'id':'older_folder','name':folder_name(self.token)}]},
+            {'files':[{'id':'initial_record'}]}]
+        drive._read=MagicMock(return_value=self.initial)
+        pid=self.initial['participant_id']
+        self.assertEqual(drive._folder(pid),'older_folder')
+        self.assertEqual(drive._folder(pid),'older_folder')
+        self.assertEqual(drive.service.files.return_value.list.call_count,3)
 
     def test_export_retains_edits_but_uses_last_answers(self):
         first=self.store.save(self.token,self.packet())

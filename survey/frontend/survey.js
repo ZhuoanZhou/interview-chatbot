@@ -9,6 +9,7 @@
   let events = [], inflight = null, cacheKey, timer, pausedView = false;
   let clientId = uuid(), lastSent = 0, lastSaved = '', storageAvailable = true;
   let saveError = '', lastAck = '', activeVideo = null;
+  let lastConsoleStatus = '';
 
   function bridge(type, extra = {}) {
     window.parent.postMessage({isStreamlitMessage: true, type, ...extra}, '*');
@@ -39,11 +40,15 @@
   function setStatus() {
     const el = $('save-status');
     const pending = events.length || inflight;
-    el.classList.toggle('warning', !!saveError || !storageAvailable);
-    if (saveError) el.textContent = 'Not saved yet. Keep this tab open. Retrying… ' + saveError;
-    else if (!storageAvailable && pending) el.textContent = 'Saving… Keep this tab open until saved.';
-    else el.textContent = pending ? 'Saving your changes…' : (args.preview ? 'Saved in local preview' : 'Saved to Google Drive');
-    if (!pending && lastSaved) el.title = 'Last saved: ' + lastSaved;
+    const warning = !!saveError || (!storageAvailable && !!pending);
+    el.classList.toggle('hidden', !warning);
+    el.classList.toggle('warning', warning);
+    el.textContent = saveError ? 'Your latest changes have not been saved yet. Please keep this tab open while we try again.'
+      : warning ? 'Please keep this tab open while your changes are saved.' : '';
+    const diagnostic = saveError ? 'Save failed; retry pending.' : pending ? 'Saving survey changes.' : 'Survey changes saved.';
+    if (diagnostic !== lastConsoleStatus) {
+      console.debug('[Survey]', diagnostic); lastConsoleStatus = diagnostic;
+    }
     const submit = $('submit-survey');
     if (submit) submit.disabled = !!pending;
   }
@@ -224,9 +229,9 @@
     }
     page.className = '';
     if (pausedView || state.status === 'paused') {
-      page.append(text('h1', 'Your survey is paused'), text('p', 'Take as much time as you need. Keep your private resume code if you want to return later.'));
+      page.append(text('h1', 'Your survey is paused'), text('p', 'Take as much time as you need. To return later, choose “Return to your survey” and enter your participant ID.'));
       const pending = events.length || inflight;
-      page.append(text('p', pending ? 'Please wait for saving to finish before closing this tab.' : 'Saved. You can leave this tab open or close it and use your resume code later.'));
+      page.append(text('p', pending ? 'Please wait a moment before closing this tab.' : 'You can now close this tab and return later using your participant ID.'));
       nav.append(button('Continue survey', () => {pausedView = false; state.status = 'active'; record('resume', state.page); render(); flush();}, 'primary'));
       setStatus(); resize(); return;
     }

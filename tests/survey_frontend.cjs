@@ -70,7 +70,7 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  await page.evaluate(()=>{window.failSaves=true;});
  await input.pressSequentially('pending');
  await page.waitForTimeout(3300);
- await app.getByText(/Not saved yet/).waitFor();
+ await app.getByText(/Your latest changes have not been saved yet/).waitFor();
  await page.evaluate(()=>{window.failSaves=false;document.getElementById('app').contentWindow.location.reload();});
  await app.getByRole('textbox').waitFor();
  assert.equal(await app.getByRole('textbox').inputValue(),'abxypending');
