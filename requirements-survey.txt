@@ -1,3 +1,6 @@
-streamlit>=1.40,<2
+streamlit==1.64.0
+# Use Cloud's Arrow 24 fallback directly, avoiding its install/downgrade cycle.
+# https://github.com/apache/arrow/issues/50471
+pyarrow==24.0.0
 google-api-python-client>=2,<3
 google-auth>=2,<3

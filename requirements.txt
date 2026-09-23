@@ -1,2 +1,2 @@
-# Production uses the fixed survey; the old AI/audio dependencies are unnecessary.
+# Fixed survey deployment with pinned Streamlit and PyArrow runtime versions.
 -r requirements-survey.txt
