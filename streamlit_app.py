@@ -1,12 +1,20 @@
 """Fixed survey. Run with streamlit run streamlit_app.py. No AI API calls."""
 import base64
 import hashlib
+import importlib
 import json
 import os
 from pathlib import Path
 
 import streamlit as st
 import streamlit.components.v1 as components
+import survey.storage as _storage
+
+# Cloud can rerun this entry point during a Git update while retaining imported
+# modules from the previous release. Refresh only when its required API is stale.
+if not all(hasattr(_storage, name) for name in ('normalize_access', 'new_participant_id')):
+    importlib.invalidate_caches()
+    importlib.reload(_storage)
 from survey.storage import DriveStore, LocalStore, normalize_access, new_participant_id
 
 ROOT = Path(__file__).resolve().parent
@@ -42,7 +50,8 @@ elif not all(config.get(key) for key in KEYS):
 
 
 def store():
-    if '_survey_store' not in st.session_state:
+    expected_type = LocalStore if PREVIEW else DriveStore
+    if not isinstance(st.session_state.get('_survey_store'), expected_type):
         st.session_state._survey_store = LocalStore(ROOT/'.survey-preview') if PREVIEW else DriveStore(config)
     return st.session_state._survey_store
 
