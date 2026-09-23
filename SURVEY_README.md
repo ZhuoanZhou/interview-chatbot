@@ -110,7 +110,7 @@ screens indicate when saving has finished.
 
 A participant ID is the sole resume credential, as requested for participant
 simplicity. New IDs use the previous short format, e.g. `P-ABC123`, and are shown
-above the survey. Choose “Return to your survey” and enter that ID to resume.
+in the left sidebar. Choose “Return to your survey” and enter that ID to resume.
 Existing fixed-survey sessions with longer participant IDs can also be resumed
 using those IDs: the app finds their original token-based folders and continues
 the saved progress without moving or rewriting old batches. Previously issued

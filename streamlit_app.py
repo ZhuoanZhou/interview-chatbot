@@ -23,7 +23,7 @@ PREVIEW = os.environ.get('SURVEY_PREVIEW') == '1'
 KEYS = ['GDRIVE_FOLDER_ID','GDRIVE_CLIENT_ID','GDRIVE_CLIENT_SECRET','GDRIVE_REFRESH_TOKEN']
 DEFAULT_DEMO_ID = '1FCfzZslMnuyQAPhcZoiACrx0sWaYskxV'
 survey_component = components.declare_component('fixed_communication_survey', path=str(ROOT/'survey/frontend'))
-st.set_page_config(page_title='Communication experiences survey',page_icon='💬',layout='centered',initial_sidebar_state='collapsed')
+st.set_page_config(page_title='Communication experiences survey',page_icon='💬',layout='centered',initial_sidebar_state='auto')
 st.markdown('''<style>
  [data-testid="stAppViewContainer"]{background:#f5f8f8}
  .block-container{padding-top:1rem;max-width:960px}
@@ -91,9 +91,10 @@ if 'survey_record' not in st.session_state:
 
 token = st.session_state.survey_token
 record = st.session_state.survey_record
-st.markdown('**Your participant ID**')
-st.code(record['participant_id'],language=None)
-st.caption('Keep this ID to return later. Choose “Return to your survey” on the start screen and enter it. Keep it private.')
+with st.sidebar:
+    st.markdown('**Your participant ID**')
+    st.code(record['participant_id'],language=None)
+    st.caption('Keep this ID to return later. Choose “Return to your survey” on the start screen and enter it. Keep it private.')
 
 # Retrieve only the existing demonstration, only on its screen. Preview does not
 # read secrets or fetch video from Drive.
