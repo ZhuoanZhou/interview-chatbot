@@ -1,10 +1,20 @@
 """Fixed survey. Run with streamlit run streamlit_app.py. No AI API calls."""
 import base64
+import faulthandler
 import hashlib
 import importlib
 import json
 import os
 from pathlib import Path
+
+# Keep native crash traces in server logs (no response values or local variables).
+faulthandler.enable()
+# Streamlit reruns scripts on new threads. Avoid Arrow's bundled allocator for
+# this workload, including when Arrow was imported before this script ran.
+# https://github.com/apache/arrow/issues/50471
+os.environ['ARROW_DEFAULT_MEMORY_POOL'] = 'system'
+import pyarrow as pa
+pa.set_memory_pool(pa.system_memory_pool())
 
 import streamlit as st
 import streamlit.components.v1 as components
