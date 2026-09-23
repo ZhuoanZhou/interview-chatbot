@@ -6,7 +6,7 @@
   const uuid = () => crypto.randomUUID();
   const terminal = s => ['submitted', 'ended'].includes(s.status);
   let schema, state, args, initialized = false, revision = 0, seq = 0;
-  let events = [], inflight = null, cacheKey, timer, pausedView = false;
+  let events = [], inflight = null, saveQueue = [], cacheKey, pausedView = false;
   let clientId = uuid(), lastSent = 0, lastSaved = '', storageAvailable = true;
   let saveError = '', lastAck = '', activeVideo = null;
   let lastConsoleStatus = '';
@@ -19,7 +19,7 @@
   }
   function cache() {
     try {
-      sessionStorage.setItem(cacheKey, JSON.stringify({state, events, inflight, revision, seq, clientId, lastSaved}));
+      sessionStorage.setItem(cacheKey, JSON.stringify({state, events, inflight, saveQueue, revision, seq, clientId, lastSaved}));
     } catch (_) { storageAvailable = false; }
   }
   function record(type, field, details = {}, event) {
@@ -31,33 +31,35 @@
     events.push(entry);
     cache();
     setStatus();
-    schedule();
-  }
-  function schedule() {
-    clearTimeout(timer);
-    timer = setTimeout(flush, 1200);
   }
   function setStatus() {
     const el = $('save-status');
-    const pending = events.length || inflight;
+    const saving = inflight || saveQueue.length;
+    const pending = events.length || saving;
     const warning = !!saveError || (!storageAvailable && !!pending);
     el.classList.toggle('hidden', !warning);
     el.classList.toggle('warning', warning);
     el.textContent = saveError ? 'Your latest changes have not been saved yet. Please keep this tab open while we try again.'
-      : warning ? 'Please keep this tab open while your changes are saved.' : '';
-    const diagnostic = saveError ? 'Save failed; retry pending.' : pending ? 'Saving survey changes.' : 'Survey changes saved.';
+      : warning ? 'Please choose Next or Save and take a break before closing this tab. Your changes are only held in memory until saved.' : '';
+    const diagnostic = saveError ? 'Save failed; retry pending.' : saving ? 'Saving requested survey changes.' : events.length ? 'Changes buffered until navigation or save.' : 'Survey changes saved.';
     if (diagnostic !== lastConsoleStatus) {
       console.debug('[Survey]', diagnostic); lastConsoleStatus = diagnostic;
     }
-    const submit = $('submit-survey');
-    if (submit) submit.disabled = !!pending;
   }
-  function flush() {
-    clearTimeout(timer);
-    if (!initialized || (!inflight && !events.length)) return;
+  function requestSave() {
+    if (!initialized) return;
+    // Freeze exactly what the participant requested to save. Edits on the next
+    // question must not be swept into this save when an earlier batch completes.
+    saveQueue.push({batch_id: uuid(), state: clone(state), events: events.splice(0)});
+    cache();
+    if (!inflight) sendPending();
+    setStatus();
+  }
+  function sendPending() {
+    if (!initialized) return;
     if (!inflight) {
-      // Freeze the batch. Later edits stay in events until this exact batch is acknowledged.
-      inflight = {batch_id: uuid(), base_revision: revision, state: clone(state), events: events.splice(0)};
+      if (!saveQueue.length) return;
+      inflight = {...saveQueue.shift(), base_revision: revision};
       cache();
     }
     lastSent = Date.now();
@@ -104,7 +106,7 @@
   function go(id, type = 'next') {
     record('navigation', state.page, {action: type, destination: id});
     state.page = id; cache(); render();
-    record('page_view', id); flush(); focusHeading();
+    record('page_view', id); requestSave(); focusHeading();
   }
   function next() {
     const list = visiblePages(), i = list.findIndex(p => p.id === state.page);
@@ -222,7 +224,7 @@
     $('progress').style.width = `${Math.round(100 * pos / Math.max(1, list.length - 1))}%`;
     if (terminal(state)) {
       page.className = 'complete';
-      const pending = events.length || inflight;
+      const pending = events.length || inflight || saveQueue.length;
       page.append(text('h1', pending ? 'Saving your survey…' : 'Thank you for sharing your experiences.'));
       page.append(text('p', pending ? 'Please keep this tab open until saving is complete.' : 'Your responses have been saved. You can now close this tab.'));
       setStatus(); resize(); return;
@@ -230,9 +232,9 @@
     page.className = '';
     if (pausedView || state.status === 'paused') {
       page.append(text('h1', 'Your survey is paused'), text('p', 'Take as much time as you need. To return later, choose “Return to your survey” and enter your participant ID.'));
-      const pending = events.length || inflight;
+      const pending = events.length || inflight || saveQueue.length;
       page.append(text('p', pending ? 'Please wait a moment before closing this tab.' : 'You can now close this tab and return later using your participant ID.'));
-      nav.append(button('Continue survey', () => {pausedView = false; state.status = 'active'; record('resume', state.page); render(); flush();}, 'primary'));
+      nav.append(button('Continue survey', () => {pausedView = false; state.status = 'active'; record('resume', state.page); render(); requestSave();}, 'primary'));
       setStatus(); resize(); return;
     }
     if (p.group) page.append(text('p', p.group, 'group-label'));
@@ -247,6 +249,7 @@
     }
     const heading = text('h1', p.title); heading.id = 'question-title'; heading.tabIndex = -1; page.append(heading);
     (p.paragraphs || []).forEach((s, i) => page.append(text('p', s, p.id === 'intro' && i === 3 ? 'notice' : '')));
+    if (p.id === 'intro') page.append(text('p', 'Your answers are saved when you move between questions. Before leaving, choose “Save and take a break.”', 'help'));
     if (p.item) page.append(text('p', p.item, 'item'));
     if (p.help) page.append(text('p', p.help, 'help'));
     if (['single', 'multi'].includes(p.kind)) {
@@ -289,7 +292,7 @@
       if (p.kind === 'video') nav.lastChild.disabled = !args.demo_data;
     }
     foot.append(button('Save and take a break', () => {
-      state.status = 'paused'; pausedView = true; record('pause', state.page); render(); flush();
+      state.status = 'paused'; pausedView = true; record('pause', state.page); render(); requestSave();
     }));
     foot.append(button('End my survey now', () => {
       const heading = text('h1', 'End your survey now?'); heading.tabIndex = -1;
@@ -300,7 +303,7 @@
     setStatus(); resize();
   }
   function finish(status) {
-    state.status = status; record('survey_' + status, state.page); render(); flush();
+    state.status = status; record('survey_' + status, state.page); render(); requestSave();
   }
   function mountVideo() {
     const host = $('video-host'); if (!host || activeVideo) return;
@@ -326,14 +329,14 @@
   // Keyboard navigation and activations on choice/navigation controls are also
   // recorded. Text-area keys have their own handler with selection positions.
   for (const kind of ['keydown', 'keyup']) $('survey').addEventListener(kind, e => {
-    if (!initialized || terminal(state) || !e.target.matches('input,button,summary')) return;
+    if (!initialized || state.status !== 'active' || !e.target.matches('input,button,summary')) return;
     const field = e.target.dataset.question || e.target.id || state.page;
     record(kind, field, {key:e.key, code:e.code, repeat:e.repeat, is_composing:e.isComposing,
       ctrl:e.ctrlKey, alt:e.altKey, shift:e.shiftKey, meta:e.metaKey,
       control:e.target.tagName.toLowerCase()}, e);
   });
   $('survey').addEventListener('click', e => {
-    if (!initialized || terminal(state)) return;
+    if (!initialized || state.status !== 'active') return;
     const control = e.target.closest('button,input');
     if (control) record('control_click', control.dataset.question || state.page,
       {control:control.tagName.toLowerCase(), label:control.value || control.textContent}, e);
@@ -349,6 +352,7 @@
         // A different server revision is authoritative unless it is precisely our pending batch.
         if (cached && (cached.revision === revision || cached.inflight?.batch_id === args.record.batch_id)) {
           ({state, events, inflight, seq, clientId} = cached);
+          saveQueue = cached.saveQueue || [];
           revision = cached.revision;
           lastSaved = cached.lastSaved || '';
           if (inflight?.batch_id === args.record.batch_id) {
@@ -357,36 +361,40 @@
         }
       } catch (_) { storageAvailable = false; }
       initialized = true; render();
-      if (!terminal(state)) record('session_open', state.page, {schema_version:schema.version, time_origin_ms: performance.timeOrigin});
-      else if (!events.length && !inflight) {
+      if (state.status === 'active') record('session_open', state.page, {schema_version:schema.version, time_origin_ms: performance.timeOrigin});
+      else if (terminal(state) && !events.length && !inflight && !saveQueue.length) {
         try {sessionStorage.removeItem(cacheKey);} catch (_) {}
       }
-      if (events.length || inflight) flush();
+      // Restore only previously requested saves; ordinary drafts stay local.
+      // Older cached pause/submit records can have an unsent final event buffer.
+      if (state.status !== 'active' && events.length) requestSave();
+      else sendPending();
     }
     if (args.ack && args.ack !== lastAck) {
       lastAck = args.ack;
       if (inflight && inflight.batch_id === args.ack) {
         revision = args.revision; inflight = null; saveError = ''; lastSaved = args.saved_at;
+        sendPending();
         cache(); setStatus();
         if (terminal(state) || state.status === 'paused') render();
-        if (terminal(state) && !events.length) {
+        if (terminal(state) && !events.length && !inflight && !saveQueue.length) {
           try {sessionStorage.removeItem(cacheKey);} catch (_) {}
-        } else if (events.length) schedule();
+        }
       }
     }
     if (args.error) { saveError = args.error; setStatus(); }
     if (state.page === 'demo_video') mountVideo();
   });
   document.addEventListener('visibilitychange', () => {
-    if (!initialized || terminal(state)) return;
-    record('visibility_change', state.page, {visibility: document.visibilityState}); flush();
+    if (!initialized || state.status !== 'active') return;
+    record('visibility_change', state.page, {visibility: document.visibilityState});
   });
   window.addEventListener('beforeunload', e => {
-    if (events.length || inflight) {cache(); flush(); e.preventDefault(); e.returnValue = '';}
+    if (events.length || inflight || saveQueue.length) {cache(); e.preventDefault(); e.returnValue = '';}
   });
-  window.addEventListener('pagehide', () => {if (initialized) {cache(); flush();}});
+  window.addEventListener('pagehide', () => {if (initialized) cache();});
   // Retry the identical in-flight batch; deduplication is performed before server acknowledgement.
-  setInterval(() => {if (inflight && Date.now() - lastSent > 12000) flush(); else if (events.length && !inflight) flush();}, 3000);
+  setInterval(() => {if (inflight && Date.now() - lastSent > 12000) sendPending();}, 3000);
   new ResizeObserver(resize).observe(document.body);
   bridge('streamlit:componentReady', {apiVersion: 1});
   resize();

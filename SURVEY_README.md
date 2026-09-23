@@ -95,18 +95,28 @@ per-character times. There is a 10,000-character limit per text area.
 
 ## Saving, resuming, and limitations
 
-The browser buffers events and sends immutable batches approximately every 1–3
-seconds or on navigation. While a save is in flight, further events stay in a
-separate buffer. The server acknowledges only after Drive accepts the batch.
-Retries use the same batch ID. Each batch contains an answer checkpoint plus new
-events, so prior changes are not overwritten by later edits.
+The browser timestamps and buffers interactions locally while participants answer.
+It requests a Drive save only on navigation (Next, Back, Skip, and Continue),
+Save and take a break, or confirmed submission/ending. Starting a new survey
+still creates its initial Drive record. Typing, selections, idle time, tab
+visibility changes, and page closing do not trigger uploads.
+
+Each requested save freezes an answer checkpoint and its collected events. Rapid
+navigation queues these snapshots while a previous save is in flight; new edits
+stay local until the next save action. The server acknowledges only after Drive
+accepts the batch. Unacknowledged requested batches retry with the same ID after
+12 seconds (checked every 3 seconds) and on refresh. These retries do not include
+later, unsaved edits. No timer initiates saves of ordinary drafts.
 
 Pending data is temporarily stored in this tab's sessionStorage to survive refresh.
 It is cleared after acknowledged completion. This includes deleted text: the
 interaction log is more sensitive than final survey answers. Pause is not deletion.
-Closing a tab/browser before acknowledgement can lose unsaved events; do not claim
-crash-proof or exactly-once capture. Errors remain visible; pause and completion
-screens indicate when saving has finished.
+Refreshing restores a compatible local draft without uploading it automatically.
+Closing the tab/browser before a save action or before acknowledgement can lose
+unsaved answers and events. Participants should use Save and take a break before
+leaving; a browser exit warning is requested when data remains unsaved, but browsers
+may suppress it. Do not claim crash-proof or exactly-once capture. Errors remain
+visible; pause and completion screens confirm only after all requested saves finish.
 
 A participant ID is the sole resume credential, as requested for participant
 simplicity. New IDs use the previous short format, e.g. `P-ABC123`, and are shown
