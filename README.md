@@ -1,5 +1,13 @@
 # Interview Chatbot
 
+## Current fixed-question survey
+
+`streamlit_app.py` now runs the September 22 fixed survey with optional Other text,
+conditional questions, and timestamped interaction logs saved to Google Drive.
+No OpenAI key is required. See [survey setup and logging details](SURVEY_README.md).
+The previous adaptive version is preserved in `legacy_interview_app.py`.
+The setup below describes that older version.
+
 A web-based interview chatbot for research with dysarthria populations, built on top of [SparkMe](https://github.com/SALT-NLP/SparkMe).
 
 ## Attribution

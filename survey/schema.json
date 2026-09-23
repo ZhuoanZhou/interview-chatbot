@@ -1,0 +1,1851 @@
+{
+  "version": "2026-09-22-v1",
+  "title": "Communication experiences survey",
+  "source": "refined_question_list_9.22.2026.docx",
+  "source_sha256": "ba05e31bb34ca6c99bfb647a75bb5a0a19852f673b9ddab346f4c34e90c9ead6",
+  "sections": [
+    "Welcome",
+    "Your experiences",
+    "Example situations",
+    "After the demonstration",
+    "Closing"
+  ],
+  "pages": [
+    {
+      "id": "intro",
+      "section": 0,
+      "title": "Your communication experiences",
+      "kind": "info",
+      "paragraphs": [
+        "We want to understand what helps you when someone has difficulty understanding your speech. We will also ask about using speech recognition to help with conversations, messages, or writing.",
+        "You can choose answers instead of typing. When you want to write, a few words are enough. You can skip questions, take a break, or stop. There are no right or wrong answers.",
+        "Please allow up to 60 minutes. You can pause and return later.",
+        "We record your survey selections and changes, including text you type or delete and the time of each action. This happens only inside this survey. Deleted or unsubmitted text may remain in the research interaction log."
+      ],
+      "next_label": "Start survey",
+      "source_paragraphs": [
+        45,
+        46
+      ]
+    },
+    {
+      "id": "people",
+      "section": 1,
+      "title": "Who do you communicate with often?",
+      "kind": "multi",
+      "options": [
+        "Family",
+        "Friends",
+        "Coworkers or classmates",
+        "People I do not know well",
+        "Other"
+      ],
+      "source_paragraphs": [
+        51
+      ]
+    },
+    {
+      "id": "places",
+      "section": 1,
+      "title": "Where do you usually communicate with them?",
+      "kind": "multi",
+      "options": [
+        "At home",
+        "At work or school",
+        "In shops, services, or other community settings",
+        "On phone or video calls",
+        "Through text messages or email",
+        "Other"
+      ],
+      "source_paragraphs": [
+        58
+      ]
+    },
+    {
+      "id": "asr",
+      "section": 1,
+      "title": "Have you used a phone or computer to turn your speech into text? E.g. Siri, Alexa, Google, voice typing, captions?",
+      "kind": "single",
+      "options": [
+        "Yes, I use it now",
+        "Yes, I tried but stopped",
+        "No, never tried",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        66
+      ]
+    },
+    {
+      "id": "asr_stopped",
+      "section": 1,
+      "title": "What made you stop?",
+      "kind": "text",
+      "when": {
+        "question": "asr",
+        "values": [
+          "Yes, I tried but stopped"
+        ]
+      },
+      "source_paragraphs": [
+        70
+      ]
+    },
+    {
+      "id": "asr_uses",
+      "section": 1,
+      "title": "What do you use it for?",
+      "kind": "text",
+      "when": {
+        "question": "asr",
+        "values": [
+          "Yes, I use it now"
+        ]
+      },
+      "source_paragraphs": [
+        72
+      ]
+    },
+    {
+      "id": "aac",
+      "section": 1,
+      "title": "Do you use an app, device, or communication board to help you communicate?",
+      "kind": "single",
+      "options": [
+        "Yes",
+        "No",
+        "Other"
+      ],
+      "source_paragraphs": [
+        73
+      ]
+    },
+    {
+      "id": "aac_name",
+      "section": 1,
+      "title": "What is it?",
+      "kind": "text",
+      "when": {
+        "question": "aac",
+        "values": [
+          "Yes"
+        ]
+      },
+      "source_paragraphs": [
+        75
+      ]
+    },
+    {
+      "id": "aac_carry",
+      "section": 1,
+      "title": "How did you carry or hold it?",
+      "kind": "multi",
+      "when": {
+        "question": "aac",
+        "values": [
+          "Yes"
+        ]
+      },
+      "options": [
+        "Held in my hand",
+        "Mounted on my chair or a stand",
+        "In a bag, taken out when needed",
+        "On a table only",
+        "I would not carry it"
+      ],
+      "source_paragraphs": [
+        76
+      ]
+    },
+    {
+      "id": "text_input",
+      "section": 1,
+      "title": "How do you usually enter text?",
+      "kind": "multi",
+      "exclusive": [
+        "I do not enter text"
+      ],
+      "options": [
+        "One hand or finger",
+        "Two hands",
+        "A stylus or typing aid",
+        "Eye gaze, switches, or another access method",
+        "Speech input",
+        "Someone helps me",
+        "I do not enter text",
+        "Other"
+      ],
+      "source_paragraphs": [
+        79
+      ]
+    },
+    {
+      "id": "story",
+      "section": 1,
+      "title": "Think of a recent time someone had trouble understanding your speech. Who were you talking with, and where were you?",
+      "kind": "group",
+      "fields": [
+        {
+          "id": "person",
+          "title": "Who were you talking with?",
+          "options": [
+            "Family",
+            "Friends",
+            "Coworkers or classmates",
+            "People I do not know well",
+            "Other"
+          ]
+        },
+        {
+          "id": "place",
+          "title": "Where were you?",
+          "options": [
+            "At home",
+            "At work or school",
+            "In shops, services, or other community settings",
+            "On phone or video calls",
+            "Through text messages or email",
+            "Other"
+          ]
+        }
+      ],
+      "help": "Choose one in each group. If no example comes to mind, choose Skip.",
+      "source_paragraphs": [
+        89,
+        91,
+        92
+      ]
+    },
+    {
+      "id": "first_repair",
+      "section": 1,
+      "title": "What did you try first to help them understand?",
+      "kind": "single",
+      "when": {
+        "answered": "story"
+      },
+      "options": [
+        "Said it again",
+        "Said it in a different way",
+        "Typed or wrote something",
+        "Used my communication aid",
+        "Used gestures or signs",
+        "Asked someone to help",
+        "Continued without another attempt",
+        "Stopped trying to communicate the message",
+        "Other"
+      ],
+      "source_paragraphs": [
+        99
+      ]
+    },
+    {
+      "id": "understood",
+      "section": 1,
+      "title": "Did they understand what you meant after that?",
+      "kind": "single",
+      "when": {
+        "all": [
+          {
+            "answered": "story"
+          },
+          {
+            "question": "first_repair",
+            "values": [
+              "Said it again",
+              "Said it in a different way",
+              "Typed or wrote something",
+              "Used my communication aid",
+              "Used gestures or signs",
+              "Asked someone to help",
+              "Other"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Yes",
+        "Partly",
+        "No",
+        "Maybe"
+      ],
+      "source_paragraphs": [
+        111
+      ]
+    },
+    {
+      "id": "next_repair",
+      "section": 1,
+      "title": "What did you do next?",
+      "kind": "single",
+      "when": {
+        "all": [
+          {
+            "answered": "story"
+          },
+          {
+            "question": "first_repair",
+            "values": [
+              "Said it again",
+              "Said it in a different way",
+              "Typed or wrote something",
+              "Used my communication aid",
+              "Used gestures or signs",
+              "Asked someone to help",
+              "Other"
+            ]
+          },
+          {
+            "question": "understood",
+            "values": [
+              "Partly",
+              "No"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Tried the same method again",
+        "Used a different method",
+        "Continued without more repair",
+        "Stopped trying",
+        "Other"
+      ],
+      "source_paragraphs": [
+        113
+      ]
+    },
+    {
+      "id": "different_repair",
+      "section": 1,
+      "title": "What did you use?",
+      "kind": "single",
+      "when": {
+        "all": [
+          {
+            "answered": "story"
+          },
+          {
+            "question": "next_repair",
+            "values": [
+              "Used a different method"
+            ]
+          }
+        ]
+      },
+      "exclude_selected_from": "first_repair",
+      "options": [
+        "Said it again",
+        "Said it in a different way",
+        "Typed or wrote something",
+        "Used my communication aid",
+        "Used gestures or signs",
+        "Asked someone to help",
+        "Continued without another attempt",
+        "Stopped trying to communicate the message",
+        "Other"
+      ],
+      "source_paragraphs": [
+        120
+      ]
+    },
+    {
+      "id": "stop_reason",
+      "section": 1,
+      "title": "What made you stop?",
+      "kind": "multi",
+      "when": {
+        "all": [
+          {
+            "answered": "story"
+          },
+          {
+            "any": [
+              {
+                "question": "first_repair",
+                "values": [
+                  "Stopped trying to communicate the message"
+                ]
+              },
+              {
+                "question": "next_repair",
+                "values": [
+                  "Stopped trying"
+                ]
+              },
+              {
+                "question": "different_repair",
+                "values": [
+                  "Stopped trying to communicate the message"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "exclusive": [
+        "Not sure"
+      ],
+      "options": [
+        "It was taking too long",
+        "It was too difficult or tiring",
+        "They understood enough",
+        "The message was no longer needed",
+        "The conversation had moved on",
+        "Other",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        132
+      ]
+    },
+    {
+      "id": "partner_action",
+      "section": 1,
+      "title": "What did the other person do while you were trying to get your message across?",
+      "kind": "multi",
+      "when": {
+        "answered": "story"
+      },
+      "exclusive": [
+        "Do not remember"
+      ],
+      "options": [
+        "Waited",
+        "Asked questions or checked what I meant",
+        "Suggested words or finished my sentence",
+        "Interrupted or moved on",
+        "Helped with my device or took it",
+        "Other",
+        "Do not remember"
+      ],
+      "source_paragraphs": [
+        141
+      ]
+    },
+    {
+      "id": "detect",
+      "section": 1,
+      "title": "Can you usually tell if a person does not understand your speech?",
+      "kind": "single",
+      "options": [
+        "Usually",
+        "Sometimes",
+        "Rarely or never",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        150
+      ]
+    },
+    {
+      "id": "detect_cues",
+      "section": 1,
+      "title": "What helps you tell?",
+      "kind": "multi",
+      "when": {
+        "question": "detect",
+        "values": [
+          "Usually",
+          "Sometimes"
+        ]
+      },
+      "options": [
+        "They tell me or ask me to repeat",
+        "Their answer or action does not fit what I meant",
+        "Their face or behavior suggests confusion",
+        "I ask them to check",
+        "I find out later",
+        "Other"
+      ],
+      "source_paragraphs": [
+        156
+      ]
+    },
+    {
+      "id": "pretended",
+      "section": 1,
+      "title": "Has someone seemed to understand you, but you later found out they had not?",
+      "kind": "single",
+      "options": [
+        "Yes",
+        "No",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        164
+      ]
+    },
+    {
+      "id": "tell_when",
+      "section": 1,
+      "title": "If someone does not understand, when would you like them to tell you?",
+      "kind": "single",
+      "options": [
+        "Straight away, even if I am still speaking",
+        "After I finish speaking",
+        "It depends",
+        "No preference",
+        "Other"
+      ],
+      "source_paragraphs": [
+        166
+      ]
+    },
+    {
+      "id": "scenarios_intro",
+      "section": 2,
+      "title": "Example situations",
+      "kind": "info",
+      "paragraphs": [
+        "Imagine that you are talking to someone and your device can show you what they understood. We will show you a few examples and ask what you would do next.",
+        "For each example, choose what you would do. You can skip any example."
+      ],
+      "source_paragraphs": [
+        177
+      ]
+    },
+    {
+      "id": "s1_action",
+      "section": 2,
+      "title": "What would you do first in this situation?",
+      "kind": "single",
+      "scenario": {
+        "title": "Example 1 — At a pharmacy",
+        "situation": "You are at a pharmacy counter. You do not know the staff member, and people are waiting behind you.",
+        "meant": "“I’m picking up the prescription for Mara Klein.”",
+        "shown": "“I’m picking up the prescription for Mark Line.”"
+      },
+      "options": [
+        "Continue with the text as it is",
+        "Say it again",
+        "Say it in a different way",
+        "Change the text and show it",
+        "Type or write a new message",
+        "Use my own communication aid",
+        "Ask someone to help",
+        "Stop trying to communicate this message",
+        "Other",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        179,
+        205
+      ]
+    },
+    {
+      "id": "s1_extent",
+      "section": 2,
+      "title": "What would you change?",
+      "kind": "single",
+      "when": {
+        "question": "s1_action",
+        "values": [
+          "Change the text and show it"
+        ]
+      },
+      "scenario": {
+        "title": "Example 1 — At a pharmacy",
+        "situation": "You are at a pharmacy counter. You do not know the staff member, and people are waiting behind you.",
+        "meant": "“I’m picking up the prescription for Mara Klein.”",
+        "shown": "“I’m picking up the prescription for Mark Line.”"
+      },
+      "options": [
+        "Only the parts that could cause misunderstanding",
+        "All differences from what I meant to say",
+        "Replace it with a shorter or different message",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        218
+      ]
+    },
+    {
+      "id": "s1_words",
+      "section": 2,
+      "title": "Which words would you change?",
+      "kind": "text",
+      "when": {
+        "question": "s1_action",
+        "values": [
+          "Change the text and show it"
+        ]
+      },
+      "scenario": {
+        "title": "Example 1 — At a pharmacy",
+        "situation": "You are at a pharmacy counter. You do not know the staff member, and people are waiting behind you.",
+        "meant": "“I’m picking up the prescription for Mara Klein.”",
+        "shown": "“I’m picking up the prescription for Mark Line.”"
+      },
+      "source_paragraphs": [
+        224
+      ]
+    },
+    {
+      "id": "s1_leave",
+      "section": 2,
+      "title": "Why would you leave it as it is?",
+      "kind": "multi",
+      "when": {
+        "question": "s1_action",
+        "values": [
+          "Continue with the text as it is"
+        ]
+      },
+      "scenario": {
+        "title": "Example 1 — At a pharmacy",
+        "situation": "You are at a pharmacy counter. You do not know the staff member, and people are waiting behind you.",
+        "meant": "“I’m picking up the prescription for Mara Klein.”",
+        "shown": "“I’m picking up the prescription for Mark Line.”"
+      },
+      "exclusive": [
+        "Not sure"
+      ],
+      "options": [
+        "It gets my meaning across",
+        "Changing it would take too much effort or time",
+        "The conversation would move on",
+        "Other",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        226
+      ]
+    },
+    {
+      "id": "s2_action",
+      "section": 2,
+      "title": "What would you do first in this situation?",
+      "kind": "single",
+      "scenario": {
+        "title": "Example 2 — Asking for directions",
+        "situation": "You are asking someone in a shopping mall for directions.",
+        "meant": "“Can you tell me where the elevator is?”",
+        "shown": "“Can you tell me there the letter of us?”"
+      },
+      "options": [
+        "Continue with the text as it is",
+        "Say it again",
+        "Say it in a different way",
+        "Change the text and show it",
+        "Type or write a new message",
+        "Use my own communication aid",
+        "Ask someone to help",
+        "Stop trying to communicate this message",
+        "Other",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        184,
+        205
+      ]
+    },
+    {
+      "id": "s2_extent",
+      "section": 2,
+      "title": "What would you change?",
+      "kind": "single",
+      "when": {
+        "question": "s2_action",
+        "values": [
+          "Change the text and show it"
+        ]
+      },
+      "scenario": {
+        "title": "Example 2 — Asking for directions",
+        "situation": "You are asking someone in a shopping mall for directions.",
+        "meant": "“Can you tell me where the elevator is?”",
+        "shown": "“Can you tell me there the letter of us?”"
+      },
+      "options": [
+        "Only the parts that could cause misunderstanding",
+        "All differences from what I meant to say",
+        "Replace it with a shorter or different message",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        218
+      ]
+    },
+    {
+      "id": "s2_words",
+      "section": 2,
+      "title": "Which words would you change?",
+      "kind": "text",
+      "when": {
+        "question": "s2_action",
+        "values": [
+          "Change the text and show it"
+        ]
+      },
+      "scenario": {
+        "title": "Example 2 — Asking for directions",
+        "situation": "You are asking someone in a shopping mall for directions.",
+        "meant": "“Can you tell me where the elevator is?”",
+        "shown": "“Can you tell me there the letter of us?”"
+      },
+      "source_paragraphs": [
+        224
+      ]
+    },
+    {
+      "id": "s2_leave",
+      "section": 2,
+      "title": "Why would you leave it as it is?",
+      "kind": "multi",
+      "when": {
+        "question": "s2_action",
+        "values": [
+          "Continue with the text as it is"
+        ]
+      },
+      "scenario": {
+        "title": "Example 2 — Asking for directions",
+        "situation": "You are asking someone in a shopping mall for directions.",
+        "meant": "“Can you tell me where the elevator is?”",
+        "shown": "“Can you tell me there the letter of us?”"
+      },
+      "exclusive": [
+        "Not sure"
+      ],
+      "options": [
+        "It gets my meaning across",
+        "Changing it would take too much effort or time",
+        "The conversation would move on",
+        "Other",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        226
+      ]
+    },
+    {
+      "id": "s3_action",
+      "section": 2,
+      "title": "What would you do first in this situation?",
+      "kind": "single",
+      "scenario": {
+        "title": "Example 3 — Talking at home",
+        "situation": "You are talking with your partner or a family member.",
+        "meant": "“My appointment is on Tuesday morning.”",
+        "shown": "“My appointment is on Tuesday in the morning.”"
+      },
+      "options": [
+        "Continue with the text as it is",
+        "Say it again",
+        "Say it in a different way",
+        "Change the text and show it",
+        "Type or write a new message",
+        "Use my own communication aid",
+        "Ask someone to help",
+        "Stop trying to communicate this message",
+        "Other",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        189,
+        205
+      ]
+    },
+    {
+      "id": "s3_extent",
+      "section": 2,
+      "title": "What would you change?",
+      "kind": "single",
+      "when": {
+        "question": "s3_action",
+        "values": [
+          "Change the text and show it"
+        ]
+      },
+      "scenario": {
+        "title": "Example 3 — Talking at home",
+        "situation": "You are talking with your partner or a family member.",
+        "meant": "“My appointment is on Tuesday morning.”",
+        "shown": "“My appointment is on Tuesday in the morning.”"
+      },
+      "options": [
+        "Only the parts that could cause misunderstanding",
+        "All differences from what I meant to say",
+        "Replace it with a shorter or different message",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        218
+      ]
+    },
+    {
+      "id": "s3_words",
+      "section": 2,
+      "title": "Which words would you change?",
+      "kind": "text",
+      "when": {
+        "question": "s3_action",
+        "values": [
+          "Change the text and show it"
+        ]
+      },
+      "scenario": {
+        "title": "Example 3 — Talking at home",
+        "situation": "You are talking with your partner or a family member.",
+        "meant": "“My appointment is on Tuesday morning.”",
+        "shown": "“My appointment is on Tuesday in the morning.”"
+      },
+      "source_paragraphs": [
+        224
+      ]
+    },
+    {
+      "id": "s3_leave",
+      "section": 2,
+      "title": "Why would you leave it as it is?",
+      "kind": "multi",
+      "when": {
+        "question": "s3_action",
+        "values": [
+          "Continue with the text as it is"
+        ]
+      },
+      "scenario": {
+        "title": "Example 3 — Talking at home",
+        "situation": "You are talking with your partner or a family member.",
+        "meant": "“My appointment is on Tuesday morning.”",
+        "shown": "“My appointment is on Tuesday in the morning.”"
+      },
+      "exclusive": [
+        "Not sure"
+      ],
+      "options": [
+        "It gets my meaning across",
+        "Changing it would take too much effort or time",
+        "The conversation would move on",
+        "Other",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        226
+      ]
+    },
+    {
+      "id": "s4_action",
+      "section": 2,
+      "title": "What would you do first in this situation?",
+      "kind": "single",
+      "scenario": {
+        "title": "Example 4 — Ordering food",
+        "situation": "You are ordering food at a counter.",
+        "meant": "“No peanuts, please—I’m allergic.”",
+        "shown": "“Some peanuts, please, I’m a little sick.”"
+      },
+      "options": [
+        "Continue with the text as it is",
+        "Say it again",
+        "Say it in a different way",
+        "Change the text and show it",
+        "Type or write a new message",
+        "Use my own communication aid",
+        "Ask someone to help",
+        "Stop trying to communicate this message",
+        "Other",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        194,
+        205
+      ]
+    },
+    {
+      "id": "s4_extent",
+      "section": 2,
+      "title": "What would you change?",
+      "kind": "single",
+      "when": {
+        "question": "s4_action",
+        "values": [
+          "Change the text and show it"
+        ]
+      },
+      "scenario": {
+        "title": "Example 4 — Ordering food",
+        "situation": "You are ordering food at a counter.",
+        "meant": "“No peanuts, please—I’m allergic.”",
+        "shown": "“Some peanuts, please, I’m a little sick.”"
+      },
+      "options": [
+        "Only the parts that could cause misunderstanding",
+        "All differences from what I meant to say",
+        "Replace it with a shorter or different message",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        218
+      ]
+    },
+    {
+      "id": "s4_words",
+      "section": 2,
+      "title": "Which words would you change?",
+      "kind": "text",
+      "when": {
+        "question": "s4_action",
+        "values": [
+          "Change the text and show it"
+        ]
+      },
+      "scenario": {
+        "title": "Example 4 — Ordering food",
+        "situation": "You are ordering food at a counter.",
+        "meant": "“No peanuts, please—I’m allergic.”",
+        "shown": "“Some peanuts, please, I’m a little sick.”"
+      },
+      "source_paragraphs": [
+        224
+      ]
+    },
+    {
+      "id": "s4_leave",
+      "section": 2,
+      "title": "Why would you leave it as it is?",
+      "kind": "multi",
+      "when": {
+        "question": "s4_action",
+        "values": [
+          "Continue with the text as it is"
+        ]
+      },
+      "scenario": {
+        "title": "Example 4 — Ordering food",
+        "situation": "You are ordering food at a counter.",
+        "meant": "“No peanuts, please—I’m allergic.”",
+        "shown": "“Some peanuts, please, I’m a little sick.”"
+      },
+      "exclusive": [
+        "Not sure"
+      ],
+      "options": [
+        "It gets my meaning across",
+        "Changing it would take too much effort or time",
+        "The conversation would move on",
+        "Other",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        226
+      ]
+    },
+    {
+      "id": "s5_action",
+      "section": 2,
+      "title": "What would you do first in this situation?",
+      "kind": "single",
+      "scenario": {
+        "title": "Example 5 — Talking with a friend",
+        "situation": "You are telling a friend how you feel about something they did.",
+        "meant": "“I’m proud of you, that was a big deal.”",
+        "shown": "“I’m crowded too, that was a big deal.”"
+      },
+      "options": [
+        "Continue with the text as it is",
+        "Say it again",
+        "Say it in a different way",
+        "Change the text and show it",
+        "Type or write a new message",
+        "Use my own communication aid",
+        "Ask someone to help",
+        "Stop trying to communicate this message",
+        "Other",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        199,
+        205
+      ]
+    },
+    {
+      "id": "s5_extent",
+      "section": 2,
+      "title": "What would you change?",
+      "kind": "single",
+      "when": {
+        "question": "s5_action",
+        "values": [
+          "Change the text and show it"
+        ]
+      },
+      "scenario": {
+        "title": "Example 5 — Talking with a friend",
+        "situation": "You are telling a friend how you feel about something they did.",
+        "meant": "“I’m proud of you, that was a big deal.”",
+        "shown": "“I’m crowded too, that was a big deal.”"
+      },
+      "options": [
+        "Only the parts that could cause misunderstanding",
+        "All differences from what I meant to say",
+        "Replace it with a shorter or different message",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        218
+      ]
+    },
+    {
+      "id": "s5_words",
+      "section": 2,
+      "title": "Which words would you change?",
+      "kind": "text",
+      "when": {
+        "question": "s5_action",
+        "values": [
+          "Change the text and show it"
+        ]
+      },
+      "scenario": {
+        "title": "Example 5 — Talking with a friend",
+        "situation": "You are telling a friend how you feel about something they did.",
+        "meant": "“I’m proud of you, that was a big deal.”",
+        "shown": "“I’m crowded too, that was a big deal.”"
+      },
+      "source_paragraphs": [
+        224
+      ]
+    },
+    {
+      "id": "s5_leave",
+      "section": 2,
+      "title": "Why would you leave it as it is?",
+      "kind": "multi",
+      "when": {
+        "question": "s5_action",
+        "values": [
+          "Continue with the text as it is"
+        ]
+      },
+      "scenario": {
+        "title": "Example 5 — Talking with a friend",
+        "situation": "You are telling a friend how you feel about something they did.",
+        "meant": "“I’m proud of you, that was a big deal.”",
+        "shown": "“I’m crowded too, that was a big deal.”"
+      },
+      "exclusive": [
+        "Not sure"
+      ],
+      "options": [
+        "It gets my meaning across",
+        "Changing it would take too much effort or time",
+        "The conversation would move on",
+        "Other",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        226
+      ]
+    },
+    {
+      "id": "break",
+      "section": 2,
+      "title": "Take a break if you would like",
+      "kind": "info",
+      "paragraphs": [
+        "Next is a short demonstration. You can pause here and come back when you are ready."
+      ],
+      "next_label": "Continue to demonstration"
+    },
+    {
+      "id": "demo_consent",
+      "section": 3,
+      "title": "Would you like to watch the demonstration?",
+      "kind": "single",
+      "paragraphs": [
+        "We will show a possible way to use speech recognition. A person speaks, sees the text, and corrects a word. The system then produces a new version of the remaining text. The new text may still contain mistakes.",
+        "You can pause or skip the demonstration."
+      ],
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "source_paragraphs": [
+        235,
+        237,
+        238
+      ]
+    },
+    {
+      "id": "demo_video",
+      "section": 3,
+      "title": "Demonstration",
+      "kind": "video",
+      "when": {
+        "question": "demo_consent",
+        "values": [
+          "Yes"
+        ]
+      },
+      "help": "You can pause the video, watch it again, or skip it.",
+      "next_label": "I have watched the demonstration",
+      "source_paragraphs": [
+        235
+      ]
+    },
+    {
+      "id": "feature_1",
+      "section": 3,
+      "title": "How useful do you think this part of the system would be?",
+      "kind": "single",
+      "item": "Seeing the transcript.",
+      "group": "Parts of the system · 1 of 6",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Very useful",
+        "Somewhat useful",
+        "Neutral",
+        "Not very useful",
+        "Not useful at all",
+        "N/A"
+      ],
+      "source_paragraphs": [
+        240,
+        244
+      ]
+    },
+    {
+      "id": "feature_2",
+      "section": 3,
+      "title": "How useful do you think this part of the system would be?",
+      "kind": "single",
+      "item": "Editing the transcript.",
+      "group": "Parts of the system · 2 of 6",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Very useful",
+        "Somewhat useful",
+        "Neutral",
+        "Not very useful",
+        "Not useful at all",
+        "N/A"
+      ],
+      "source_paragraphs": [
+        240,
+        246
+      ]
+    },
+    {
+      "id": "feature_3",
+      "section": 3,
+      "title": "How useful do you think this part of the system would be?",
+      "kind": "single",
+      "item": "Choosing a suggested word instead of typing a correction.",
+      "group": "Parts of the system · 3 of 6",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Very useful",
+        "Somewhat useful",
+        "Neutral",
+        "Not very useful",
+        "Not useful at all",
+        "N/A"
+      ],
+      "source_paragraphs": [
+        240,
+        248
+      ]
+    },
+    {
+      "id": "feature_4",
+      "section": 3,
+      "title": "How useful do you think this part of the system would be?",
+      "kind": "single",
+      "item": "Regenerating after a correction.",
+      "group": "Parts of the system · 4 of 6",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Very useful",
+        "Somewhat useful",
+        "Neutral",
+        "Not very useful",
+        "Not useful at all",
+        "N/A"
+      ],
+      "source_paragraphs": [
+        240,
+        250
+      ]
+    },
+    {
+      "id": "feature_5",
+      "section": 3,
+      "title": "How useful do you think this part of the system would be?",
+      "kind": "single",
+      "item": "Using text to help another person understand you.",
+      "group": "Parts of the system · 5 of 6",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Very useful",
+        "Somewhat useful",
+        "Neutral",
+        "Not very useful",
+        "Not useful at all",
+        "N/A"
+      ],
+      "source_paragraphs": [
+        240,
+        252
+      ]
+    },
+    {
+      "id": "feature_6",
+      "section": 3,
+      "title": "How useful do you think this part of the system would be?",
+      "kind": "single",
+      "item": "Having a starting point instead of typing everything from scratch.",
+      "group": "Parts of the system · 6 of 6",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Very useful",
+        "Somewhat useful",
+        "Neutral",
+        "Not very useful",
+        "Not useful at all",
+        "N/A"
+      ],
+      "source_paragraphs": [
+        240,
+        254
+      ]
+    },
+    {
+      "id": "candidates_compare",
+      "section": 3,
+      "title": "For you, how would choosing a suggested word compare with typing it?",
+      "kind": "single",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Usually easier",
+        "Easier for some words",
+        "About the same",
+        "Usually harder",
+        "I would rather type",
+        "I cannot judge without trying it"
+      ],
+      "source_paragraphs": [
+        257
+      ]
+    },
+    {
+      "id": "candidate_missing",
+      "section": 3,
+      "title": "If the word you wanted was not in the list, what would you do?",
+      "kind": "multi",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "exclusive": [
+        "Not sure"
+      ],
+      "options": [
+        "Type the correction myself",
+        "Say the word or message again",
+        "Use another way to communicate",
+        "Leave the text unchanged",
+        "Other",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        266
+      ]
+    },
+    {
+      "id": "failed_repair",
+      "section": 3,
+      "title": "Imagine you tried making a new version, but it was still wrong. What would you do next?",
+      "kind": "single",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Change another word and try a new version again",
+        "Fix the remaining mistakes myself",
+        "Type or write a new message",
+        "Say it again or in a different way",
+        "Use my own communication aid",
+        "Ask someone to help",
+        "Use the text as it is",
+        "Stop trying",
+        "Other",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        275
+      ]
+    },
+    {
+      "id": "retry_count",
+      "section": 3,
+      "title": "After that first unsuccessful try, how many more tries would you be willing to make?",
+      "kind": "single",
+      "when": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "demo_consent",
+                "values": [
+                  "Yes"
+                ]
+              },
+              {
+                "question": "demo_video",
+                "values": [
+                  "watched"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "failed_repair",
+            "values": [
+              "Change another word and try a new version again"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "One more",
+        "Two more",
+        "Three or more",
+        "It depends on whether the text improves",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        288
+      ]
+    },
+    {
+      "id": "difficulty",
+      "section": 3,
+      "title": "What would be hardest for you when using this approach?",
+      "kind": "multi",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "exclusive": [
+        "Nothing seems difficult",
+        "I cannot judge without trying it"
+      ],
+      "options": [
+        "Reading the text",
+        "Noticing what is wrong",
+        "Deciding what to change",
+        "Selecting or typing a correction",
+        "Checking the new text",
+        "Following the conversation while using the screen",
+        "Holding or operating the device",
+        "Nothing seems difficult",
+        "I cannot judge without trying it",
+        "Other"
+      ],
+      "source_paragraphs": [
+        296
+      ]
+    },
+    {
+      "id": "look_when",
+      "section": 3,
+      "title": "During a conversation, when would you look at the text?",
+      "kind": "multi",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "exclusive": [
+        "I would not want to look at the text",
+        "I would only use this for messages or writing",
+        "Not sure"
+      ],
+      "options": [
+        "While I am still speaking",
+        "After I finish speaking",
+        "When the other person seems confused",
+        "When they ask me to repeat",
+        "I would not want to look at the text",
+        "I would only use this for messages or writing",
+        "Other",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        309
+      ]
+    },
+    {
+      "id": "situation_1",
+      "section": 3,
+      "title": "How useful do you think the process could be in this situation?",
+      "kind": "single",
+      "item": "The message is important and the exact meaning matters.",
+      "group": "Situations · 1 of 7",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Very useful",
+        "Somewhat useful",
+        "Neutral",
+        "Not very useful",
+        "Not useful at all",
+        "N/A"
+      ],
+      "source_paragraphs": [
+        320,
+        324
+      ]
+    },
+    {
+      "id": "situation_2",
+      "section": 3,
+      "title": "How useful do you think the process could be in this situation?",
+      "kind": "single",
+      "item": "You are talking with someone unfamiliar with your speech.",
+      "group": "Situations · 2 of 7",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Very useful",
+        "Somewhat useful",
+        "Neutral",
+        "Not very useful",
+        "Not useful at all",
+        "N/A"
+      ],
+      "source_paragraphs": [
+        320,
+        326
+      ]
+    },
+    {
+      "id": "situation_3",
+      "section": 3,
+      "title": "How useful do you think the process could be in this situation?",
+      "kind": "single",
+      "item": "You are in a public or service interaction.",
+      "group": "Situations · 3 of 7",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Very useful",
+        "Somewhat useful",
+        "Neutral",
+        "Not very useful",
+        "Not useful at all",
+        "N/A"
+      ],
+      "source_paragraphs": [
+        320,
+        328
+      ]
+    },
+    {
+      "id": "situation_4",
+      "section": 3,
+      "title": "How useful do you think the process could be in this situation?",
+      "kind": "single",
+      "item": "The conversation is moving quickly or includes several people.",
+      "group": "Situations · 4 of 7",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Very useful",
+        "Somewhat useful",
+        "Neutral",
+        "Not very useful",
+        "Not useful at all",
+        "N/A"
+      ],
+      "source_paragraphs": [
+        320,
+        330
+      ]
+    },
+    {
+      "id": "situation_5",
+      "section": 3,
+      "title": "How useful do you think the process could be in this situation?",
+      "kind": "single",
+      "item": "You are tired or your speech/typing is harder than usual.",
+      "group": "Situations · 5 of 7",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Very useful",
+        "Somewhat useful",
+        "Neutral",
+        "Not very useful",
+        "Not useful at all",
+        "N/A"
+      ],
+      "source_paragraphs": [
+        320,
+        332
+      ]
+    },
+    {
+      "id": "situation_6",
+      "section": 3,
+      "title": "How useful do you think the process could be in this situation?",
+      "kind": "single",
+      "item": "You are talking with a familiar person who usually understands you.",
+      "group": "Situations · 6 of 7",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Very useful",
+        "Somewhat useful",
+        "Neutral",
+        "Not very useful",
+        "Not useful at all",
+        "N/A"
+      ],
+      "source_paragraphs": [
+        320,
+        334
+      ]
+    },
+    {
+      "id": "situation_7",
+      "section": 3,
+      "title": "How useful do you think the process could be in this situation?",
+      "kind": "single",
+      "item": "Repeating or rephrasing has already failed.",
+      "group": "Situations · 7 of 7",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Very useful",
+        "Somewhat useful",
+        "Neutral",
+        "Not very useful",
+        "Not useful at all",
+        "N/A"
+      ],
+      "source_paragraphs": [
+        320,
+        336
+      ]
+    },
+    {
+      "id": "partner_expected",
+      "section": 3,
+      "title": "Think of the person from your earlier shared experience. What do you think they would do while you were fixing the text?",
+      "kind": "multi",
+      "when": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "demo_consent",
+                "values": [
+                  "Yes"
+                ]
+              },
+              {
+                "question": "demo_video",
+                "values": [
+                  "watched"
+                ]
+              }
+            ]
+          },
+          {
+            "answered": "story"
+          }
+        ]
+      },
+      "exclusive": [
+        "Not sure"
+      ],
+      "options": [
+        "Wait",
+        "Ask questions or check what I meant",
+        "Suggest words or finish my sentence",
+        "Interrupt or move on",
+        "Help with the device or take it",
+        "Other",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        339
+      ]
+    },
+    {
+      "id": "closing",
+      "section": 4,
+      "title": "Is there anything else you want us to know, or anything that would need to change for this approach to work for you?",
+      "kind": "text",
+      "help": "A few words are enough. You can also leave this blank.",
+      "source_paragraphs": [
+        351
+      ]
+    },
+    {
+      "id": "finish",
+      "section": 4,
+      "title": "Ready to finish?",
+      "kind": "finish",
+      "paragraphs": [
+        "You can go back to change an answer, or submit your survey now.",
+        "Thank you for sharing your experiences and ideas."
+      ]
+    }
+  ]
+}

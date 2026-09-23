@@ -238,3 +238,8 @@ chatbot_status_notes.md
 how_it_works.md
 changes_since_aug20.md
 commit_msg.txt
+
+# Fixed survey preview, local environments, and researcher exports
+.venv-survey/
+.survey-preview/
+survey_exports/
