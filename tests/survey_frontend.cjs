@@ -38,7 +38,10 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  });
  async function start(pageId,answers={}){
   await page.goto('http://127.0.0.1:8512/harness');
-  await page.evaluate(([schema,pageId,answers])=>start(schema,{revision:0,schema_version:schema.version,state:{page:pageId,status:'active',answers}}),[schema,pageId,answers]);
+  await page.evaluate(([schema,pageId,answers])=>{
+   sessionStorage.clear();
+   start(schema,{revision:0,schema_version:schema.version,state:{page:pageId,status:'active',answers}});
+  },[schema,pageId,answers]);
   const app=page.frameLocator('#app');
   await app.locator('#question-title').waitFor();return app;
  }
@@ -114,7 +117,33 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  assert.equal(final.answers.feature_6.choices[0],'Somewhat useful');
  assert.equal(final.answers.situation_7.choices[0],'N/A');
  assert.equal(final.status,'submitted');
+ // Ending early requires confirmation and preserves answers when cancelled.
+ app=await start('closing');
+ await app.getByRole('textbox').fill('Please keep this answer');
+ for (const width of [900, 360]) {
+  await page.locator('#app').evaluate((el,width)=>{el.style.width=width+'px';},width);
+  const pause=await app.getByRole('button',{name:'Save and take a break',exact:true}).boundingBox();
+  const end=await app.getByRole('button',{name:'End my survey now',exact:true}).boundingBox();
+  const footer=await app.locator('#footer').boundingBox();
+  assert(pause.height>=60 && end.height>=60);
+  assert(Math.abs(pause.width-footer.width)<1 && Math.abs(end.width-footer.width)<1);
+  assert(end.y>=pause.y+pause.height+12);
+ }
+ await app.getByRole('button',{name:'End my survey now',exact:true}).click();
+ await app.getByText(/You will not be able to return to answer more questions/).waitFor();
+ assert.equal(await app.getByRole('heading',{name:'End your survey now?'}).evaluate(el=>el===document.activeElement),true);
+ await app.getByRole('button',{name:'Keep going',exact:true}).click();
+ assert.equal(await app.getByRole('textbox').inputValue(),'Please keep this answer');
+ await app.getByRole('button',{name:'Save and take a break',exact:true}).click();
+ await app.getByText('You can now close this tab and return later using your participant ID.',{exact:true}).waitFor();
+ await app.getByRole('button',{name:'Continue survey',exact:true}).click();
+ await app.getByRole('button',{name:'End my survey now',exact:true}).click();
+ await app.getByRole('button',{name:'End and submit survey',exact:true}).click();
+ await app.getByText('Your responses have been saved. You can now close this tab.').waitFor();
+ batches=await page.evaluate(()=>batches);
+ assert.equal(batches.at(-1).state.status,'ended');
+ assert.equal(batches.at(-1).state.answers.closing.text,'Please keep this answer');
  assert.deepEqual(errors,[]);
- console.log('PASS: demo ratings, Other fields, input focus, paste/deletion, failed-save recovery and pending-event refresh.');
+ console.log('PASS: demo ratings, Other fields, input focus, paste/deletion, failed-save recovery, pending-event refresh, desktop/mobile action buttons, pause and confirmed early submission.');
  await browser.close();
 })().catch(e=>{console.error(e);process.exit(1);});

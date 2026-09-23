@@ -291,10 +291,11 @@
     foot.append(button('Save and take a break', () => {
       state.status = 'paused'; pausedView = true; record('pause', state.page); render(); flush();
     }));
-    foot.append(button('Finish early', () => {
-      page.replaceChildren(text('h1', 'Finish the survey now?'), text('p', 'Your responses so far will be saved. You can also keep going or take a break.'));
-      nav.replaceChildren(button('Keep going', render),button('Finish and save', () => finish('ended'), 'primary'));
-      foot.replaceChildren(); resize();
+    foot.append(button('End my survey now', () => {
+      const heading = text('h1', 'End your survey now?'); heading.tabIndex = -1;
+      page.replaceChildren(heading, text('p', 'Your responses so far will be saved and submitted. You will not be able to return to answer more questions. If you want to return later, choose “Keep going,” then “Save and take a break.”'));
+      nav.replaceChildren(button('Keep going', render),button('End and submit survey', () => finish('ended'), 'primary'));
+      foot.replaceChildren(); resize(); heading.focus();
     }));
     setStatus(); resize();
   }
