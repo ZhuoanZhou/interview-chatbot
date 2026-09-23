@@ -125,9 +125,10 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
   const pause=await app.getByRole('button',{name:'Save and take a break',exact:true}).boundingBox();
   const end=await app.getByRole('button',{name:'End my survey now',exact:true}).boundingBox();
   const footer=await app.locator('#footer').boundingBox();
-  assert(pause.height>=60 && end.height>=60);
-  assert(Math.abs(pause.width-footer.width)<1 && Math.abs(end.width-footer.width)<1);
-  assert(end.y>=pause.y+pause.height+12);
+  assert(pause.height>=52 && end.height>=52);
+  assert(Math.abs(pause.y-end.y)<1,'Secondary actions share one row');
+  assert(end.x>=pause.x+pause.width+10);
+  assert(end.x+end.width<=footer.x+footer.width+1,'Actions fit without horizontal scrolling');
  }
  await app.getByRole('button',{name:'End my survey now',exact:true}).click();
  await app.getByText(/You will not be able to return to answer more questions/).waitFor();
