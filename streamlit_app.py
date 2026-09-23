@@ -38,6 +38,26 @@ st.markdown('''<style>
  [data-testid="stAppViewContainer"]{background:#f5f8f8}
  .block-container{padding-top:1rem;max-width:960px}
  header[data-testid="stHeader"]{background:transparent}
+ /* Match the native start/resume controls to the survey component's text size. */
+ [data-testid="stMain"] [data-testid="stMarkdownContainer"] p,
+ [data-testid="stMain"] [data-testid="stWidgetLabel"] p{font-size:20px;line-height:1.5}
+ [data-testid="stMain"] [data-testid="stCaptionContainer"] p{font-size:18px;color:#49626b}
+ [data-testid="stMain"] [data-testid="stButton"] button,
+ [data-testid="stMain"] [data-testid="stFormSubmitButton"] button{
+   min-height:56px;padding:12px 24px;font-size:20px;border-radius:9px}
+ [data-testid="stMain"] [data-testid="stTextInput"] input{
+   min-height:56px;padding:12px 16px;font-size:20px}
+ [data-testid="stMain"] [data-testid="stTextInputRootElement"]{min-height:56px;height:auto}
+ [data-testid="stMain"] [data-testid="stTabs"] [role="tab"]{
+   min-height:60px;height:auto;padding:12px 16px;white-space:normal}
+ [data-testid="stMain"] [data-testid="stTabs"] [role="tab"] p{
+   font-size:20px;white-space:normal;text-align:center}
+ [data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p{font-size:18px}
+ [data-testid="stSidebar"] [data-testid="stCaptionContainer"] p{font-size:16px;line-height:1.5}
+ [data-testid="stSidebar"] [data-testid="stCode"] code{font-size:18px}
+ @media(max-width:520px){
+   [data-testid="stMain"] [data-testid="stTabs"] [role="tab"]{flex:1;min-width:0;padding:10px 8px}
+ }
  </style>''',unsafe_allow_html=True)
 
 
