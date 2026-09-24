@@ -46,17 +46,19 @@ schema records the source document SHA-256. The Word file remains unchanged.
 - All questions are skippable. Back, clear answer, pause/resume, and finish early
   are supported. No response is preselected. Single choices can be cleared.
 - Mutually exclusive options such as “Not sure” clear incompatible choices.
-- The survey fills the available screen below Streamlit's header. Navigation and
-  pause/end controls remain in a reserved bottom panel; only the question area
-  scrolls for longer content. Moving between questions resets that area's scroll.
-  Controls remain readable on narrow/short screens. Same-origin hosts also follow
+- The survey uses the full available width below Streamlit's header, with the
+  participant-ID sidebar initially collapsed (open it from the top-left control).
+  Answer choices use two or three columns on wider screens; story fields and
+  scenario context sit side by side. Expanded Other fields use spare side space.
+  Navigation, clear-answer, and pause/end controls remain
+  in a reserved bottom panel and share a row on desktop.
+- The question scrollbar and “Show more below” button are removed. Compact
+  spacing and wider layouts reduce the need to scroll; on narrow/short screens,
+  with enlarged text, or with expanded content, the question area still supports
+  touch, mouse-wheel, and keyboard scrolling so no answers are inaccessible.
+  Moving between questions resets its scroll. Same-origin hosts also follow
   visual viewport resizing; actual mobile keyboard behavior should be checked on
   participants' target devices before the study.
-- Overflowing questions use a contrasting scrollbar and a “Show more below”
-  button inside the question panel. The button scrolls half a panel, disappears
-  at the bottom, and returns when content remains below. It respects reduced
-  motion, does not cover answers, and never blocks Next or Skip. Using it only
-  buffers its interaction event; it does not request a Drive save.
 - If no story is supplied, its follow-ups and the later specific-partner question
   are skipped. Each rating is shown separately for easier selection.
 
@@ -165,5 +167,8 @@ positions in this specific Word version; it is not a general DOCX converter. If 
 guide changes, review the mapping and bump the schema version before collecting.
 `python -m unittest discover -s tests -p "test_survey*.py"` tests saves and exports.
 The frontend browser test uses a separate fake-data harness; it never contacts Drive.
-`tests/survey_layout.cjs` checks the embedded fixed navigation at desktop, phone,
-and short-window sizes against a local `SURVEY_PREVIEW=1` server on port 8511.
+`tests/survey_layout.cjs` checks the full-width host against a local
+`SURVEY_PREVIEW=1` server on port 8511, then checks every question (including
+expanded Other fields) in an isolated harness at 1280×720, 1366×768, and
+1920×1080. It also checks fixed navigation and reachable overflow on phone and
+short-window sizes.

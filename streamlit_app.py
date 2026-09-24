@@ -33,10 +33,10 @@ PREVIEW = os.environ.get('SURVEY_PREVIEW') == '1'
 KEYS = ['GDRIVE_FOLDER_ID','GDRIVE_CLIENT_ID','GDRIVE_CLIENT_SECRET','GDRIVE_REFRESH_TOKEN']
 DEFAULT_DEMO_ID = '1FCfzZslMnuyQAPhcZoiACrx0sWaYskxV'
 survey_component = components.declare_component('fixed_communication_survey', path=str(ROOT/'survey/frontend'))
-st.set_page_config(page_title='Communication experiences survey',page_icon='💬',layout='centered',initial_sidebar_state='auto')
+st.set_page_config(page_title='Communication experiences survey',page_icon='💬',layout='wide',initial_sidebar_state='collapsed')
 st.markdown('''<style>
  [data-testid="stAppViewContainer"]{background:#f5f8f8}
- .block-container{padding-top:1rem;max-width:960px}
+ .block-container{padding-top:1rem;max-width:none;padding-left:1rem;padding-right:1rem}
  header[data-testid="stHeader"]{background:transparent}
  /* Keep the component below Streamlit's header and inside the visible screen. */
  [data-testid="stMain"]:has(iframe[title*="fixed_communication_survey"]){overflow:hidden}

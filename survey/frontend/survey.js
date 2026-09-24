@@ -11,32 +11,6 @@
   let saveError = '', lastAck = '', activeVideo = null;
   let lastConsoleStatus = '';
   let lastFrameHeight = 0;
-  let scrollCueFrame = 0;
-
-  function updateScrollCue() {
-    scrollCueFrame = 0;
-    const page = $('page'), cue = $('scroll-cue'), button = $('scroll-more');
-    // Test against the full panel height so the cue itself cannot create overflow.
-    // Its row is separate from the scroll area and never covers an answer.
-    const available = page.clientHeight + (cue.classList.contains('hidden') ? 0 : cue.offsetHeight);
-    const overflow = page.scrollHeight > available + 2;
-    page.classList.toggle('has-overflow', overflow);
-    const moreBelow = overflow && page.scrollHeight - page.clientHeight - page.scrollTop > 2;
-    if (!moreBelow && document.activeElement === button) page.focus({preventScroll:true});
-    cue.classList.toggle('hidden', !moreBelow);
-  }
-  function scheduleScrollCue() {
-    if (!scrollCueFrame) scrollCueFrame = requestAnimationFrame(updateScrollCue);
-  }
-  $('page').addEventListener('scroll', scheduleScrollCue, {passive:true});
-  $('scroll-more').addEventListener('click', () => {
-    const page = $('page');
-    page.scrollBy({top: page.clientHeight * .5,
-      behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
-  });
-  const scrollObserver = new ResizeObserver(scheduleScrollCue);
-  scrollObserver.observe($('page'));
-  scrollObserver.observe($('page-content'));
 
   function bridge(type, extra = {}) {
     window.parent.postMessage({isStreamlitMessage: true, type, ...extra}, '*');
@@ -237,6 +211,7 @@
   }
   function optionList(p, options, group) {
     const container = document.createElement('div');
+    container.className = 'answer-options';
     const list = document.createElement('div'); list.className = 'options' + (options.every(v => v.length < 27) ? ' short' : '');
     if (!group) list.setAttribute('aria-labelledby', 'question-title');
     options.forEach((v, i) => {
@@ -259,7 +234,6 @@
     const page = $('page-content'), nav = $('navigation'), foot = $('footer');
     page.replaceChildren(); nav.replaceChildren(); foot.replaceChildren();
     $('page').scrollTop = 0;
-    scheduleScrollCue();
     const p = currentPage() || schema.pages[0], list = visiblePages();
     $('section').textContent = p.section ? `Part ${p.section} of 4 · ${schema.sections[p.section]}` : 'Welcome';
     const pos = list.findIndex(x => x.id === p.id);
@@ -279,6 +253,8 @@
       nav.append(button('Continue survey', () => {pausedView = false; state.status = 'active'; record('resume', state.page); render(); requestSave();}, 'primary'));
       setStatus(); resize(); return;
     }
+    page.classList.toggle('with-scenario', !!p.scenario);
+    page.classList.toggle('with-groups', p.kind === 'group');
     if (p.group) page.append(text('p', p.group, 'group-label'));
     if (p.scenario) {
       const box = document.createElement('section'); box.className = 'scenario';
@@ -311,11 +287,19 @@
     } else if (p.kind === 'video') {
       const host = document.createElement('div'); host.id = 'video-host'; page.append(host); mountVideo();
     }
-    if (['single', 'multi', 'group', 'text'].includes(p.kind)) page.append(button('Clear answer', () => {
+    if (['single', 'multi', 'group', 'text'].includes(p.kind)) nav.append(button('Clear answer', () => {
       const previous = answer(p.id) || null; delete state.answers[p.id];
       record('clear_answer', p.id, {previous}); prune(); render();
     }, 'small'));
-    if (pos > 0) nav.append(button('Back', () => go(list[pos - 1].id, 'back')));
+    if (p.scenario) {
+      const scenario = page.querySelector('.scenario');
+      const response = document.createElement('div'); response.className = 'scenario-response';
+      const other = page.querySelector('[id^="other-"]');
+      response.append(...Array.from(page.children).filter(el => el !== scenario));
+      page.append(response);
+      if (other) {other.className = 'scenario-other'; page.append(other);}
+    }
+    if (pos > 0) nav.prepend(button('Back', () => go(list[pos - 1].id, 'back')));
     if (p.kind === 'finish') {
       const submit = button('Submit survey', () => finish('submitted'), 'primary'); submit.id = 'submit-survey'; nav.append(submit);
     } else {
@@ -338,9 +322,10 @@
     }));
     foot.append(button('End my survey now', () => {
       const heading = text('h1', 'End your survey now?'); heading.tabIndex = -1;
+      page.className = '';
       page.replaceChildren(heading, text('p', 'Your responses so far will be saved and submitted. You will not be able to return to answer more questions. If you want to return later, choose “Keep going,” then “Save and take a break.”'));
       nav.replaceChildren(button('Keep going', render),button('End and submit survey', () => finish('ended'), 'primary'));
-      foot.replaceChildren(); $('page').scrollTop = 0; scheduleScrollCue(); resize(); heading.focus({preventScroll:true});
+      foot.replaceChildren(); $('page').scrollTop = 0; resize(); heading.focus({preventScroll:true});
     }));
     setStatus(); resize();
   }
