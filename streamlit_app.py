@@ -38,6 +38,11 @@ st.markdown('''<style>
  [data-testid="stAppViewContainer"]{background:#f5f8f8}
  .block-container{padding-top:1rem;max-width:960px}
  header[data-testid="stHeader"]{background:transparent}
+ /* Keep the component below Streamlit's header and inside the visible screen. */
+ [data-testid="stMain"]:has(iframe[title*="fixed_communication_survey"]){overflow:hidden}
+ [data-testid="stMainBlockContainer"]:has(iframe[title*="fixed_communication_survey"]){padding-top:3.5rem;padding-bottom:.5rem}
+ [data-testid="stMainBlockContainer"]:has(iframe[title*="fixed_communication_survey"]) > [data-testid="stVerticalBlock"]{gap:0}
+ iframe[title*="fixed_communication_survey"]{display:block;height:calc(100vh - 4rem)!important;height:calc(100dvh - 4rem)!important}
  /* Match the native start/resume controls to the survey component's text size. */
  [data-testid="stMain"] [data-testid="stMarkdownContainer"] p,
  [data-testid="stMain"] [data-testid="stWidgetLabel"] p{font-size:20px;line-height:1.5}
@@ -72,7 +77,8 @@ def settings():
 
 config = settings()
 if PREVIEW:
-    st.info('Preview only — uses local test files and makes no Google Drive or AI calls.')
+    with st.sidebar:
+        st.info('Preview only — uses local test files and makes no Google Drive or AI calls.')
 elif not all(config.get(key) for key in KEYS):
     st.error('Survey storage is not configured. Please contact the researcher.')
     st.caption('Researcher: configure the four GDRIVE settings in Streamlit Secrets. See SURVEY_README.md.')

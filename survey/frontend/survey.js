@@ -10,12 +10,26 @@
   let clientId = uuid(), lastSent = 0, lastSaved = '', storageAvailable = true;
   let saveError = '', lastAck = '', activeVideo = null;
   let lastConsoleStatus = '';
+  let lastFrameHeight = 0;
 
   function bridge(type, extra = {}) {
     window.parent.postMessage({isStreamlitMessage: true, type, ...extra}, '*');
   }
   function resize() {
-    bridge('streamlit:setFrameHeight', {height: Math.ceil(document.documentElement.scrollHeight)});
+    let height = window.innerHeight;
+    // The host CSS supplies a viewport-sized frame. When same-origin access is
+    // available, also follow the visual viewport (including an on-screen keyboard).
+    try {
+      const frame = window.frameElement, viewport = window.parent.visualViewport;
+      if (frame && viewport) {
+        height = Math.max(160, Math.floor(viewport.height + viewport.offsetTop - frame.getBoundingClientRect().top - 8));
+        frame.style.setProperty('height', height + 'px', 'important');
+      }
+    } catch (_) { /* Cross-origin hosts retain the CSS-sized frame. */ }
+    if (height !== lastFrameHeight) {
+      lastFrameHeight = height;
+      bridge('streamlit:setFrameHeight', {height});
+    }
   }
   function cache() {
     try {
@@ -101,7 +115,7 @@
     const el = document.createElement(tag); el.textContent = content; el.className = cls; return el;
   }
   function focusHeading() {
-    requestAnimationFrame(() => { const h = $('question-title'); h?.focus({preventScroll: true}); window.scrollTo(0, 0); resize(); });
+    requestAnimationFrame(() => { const h = $('question-title'); h?.focus({preventScroll: true}); $('page').scrollTop = 0; resize(); });
   }
   function go(id, type = 'next') {
     record('navigation', state.page, {action: type, destination: id});
@@ -218,6 +232,7 @@
     activeVideo = null;
     const page = $('page'), nav = $('navigation'), foot = $('footer');
     page.replaceChildren(); nav.replaceChildren(); foot.replaceChildren();
+    page.scrollTop = 0;
     const p = currentPage() || schema.pages[0], list = visiblePages();
     $('section').textContent = p.section ? `Part ${p.section} of 4 · ${schema.sections[p.section]}` : 'Welcome';
     const pos = list.findIndex(x => x.id === p.id);
@@ -298,7 +313,7 @@
       const heading = text('h1', 'End your survey now?'); heading.tabIndex = -1;
       page.replaceChildren(heading, text('p', 'Your responses so far will be saved and submitted. You will not be able to return to answer more questions. If you want to return later, choose “Keep going,” then “Save and take a break.”'));
       nav.replaceChildren(button('Keep going', render),button('End and submit survey', () => finish('ended'), 'primary'));
-      foot.replaceChildren(); resize(); heading.focus();
+      foot.replaceChildren(); page.scrollTop = 0; resize(); heading.focus({preventScroll:true});
     }));
     setStatus(); resize();
   }
@@ -396,6 +411,16 @@
   // Retry the identical in-flight batch; deduplication is performed before server acknowledgement.
   setInterval(() => {if (inflight && Date.now() - lastSent > 12000) sendPending();}, 3000);
   new ResizeObserver(resize).observe(document.body);
+  window.addEventListener('resize', resize);
+  try {
+    const viewport = window.parent.visualViewport;
+    viewport?.addEventListener('resize', resize);
+    viewport?.addEventListener('scroll', resize);
+    window.addEventListener('pagehide', () => {
+      viewport?.removeEventListener('resize', resize);
+      viewport?.removeEventListener('scroll', resize);
+    }, {once:true});
+  } catch (_) { /* The host's viewport CSS remains the fallback. */ }
   bridge('streamlit:componentReady', {apiVersion: 1});
   resize();
 })();

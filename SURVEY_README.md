@@ -46,6 +46,12 @@ schema records the source document SHA-256. The Word file remains unchanged.
 - All questions are skippable. Back, clear answer, pause/resume, and finish early
   are supported. No response is preselected. Single choices can be cleared.
 - Mutually exclusive options such as “Not sure” clear incompatible choices.
+- The survey fills the available screen below Streamlit's header. Navigation and
+  pause/end controls remain in a reserved bottom panel; only the question area
+  scrolls for longer content. Moving between questions resets that area's scroll.
+  Controls remain readable on narrow/short screens. Same-origin hosts also follow
+  visual viewport resizing; actual mobile keyboard behavior should be checked on
+  participants' target devices before the study.
 - If no story is supplied, its follow-ups and the later specific-partner question
   are skipped. Each rating is shown separately for easier selection.
 
@@ -154,3 +160,5 @@ positions in this specific Word version; it is not a general DOCX converter. If 
 guide changes, review the mapping and bump the schema version before collecting.
 `python -m unittest discover -s tests -p "test_survey*.py"` tests saves and exports.
 The frontend browser test uses a separate fake-data harness; it never contacts Drive.
+`tests/survey_layout.cjs` checks the embedded fixed navigation at desktop, phone,
+and short-window sizes against a local `SURVEY_PREVIEW=1` server on port 8511.
