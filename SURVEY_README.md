@@ -52,6 +52,11 @@ schema records the source document SHA-256. The Word file remains unchanged.
   Controls remain readable on narrow/short screens. Same-origin hosts also follow
   visual viewport resizing; actual mobile keyboard behavior should be checked on
   participants' target devices before the study.
+- Overflowing questions use a contrasting scrollbar and a “Show more below”
+  button inside the question panel. The button scrolls half a panel, disappears
+  at the bottom, and returns when content remains below. It respects reduced
+  motion, does not cover answers, and never blocks Next or Skip. Using it only
+  buffers its interaction event; it does not request a Drive save.
 - If no story is supplied, its follow-ups and the later specific-partner question
   are skipped. Each rating is shown separately for easier selection.
 

@@ -16,7 +16,15 @@ html,body{height:100%;overflow:hidden}
 main{height:100%;display:flex;flex-direction:column;padding-top:12px;padding-bottom:8px}
 header,#save-status,#controls{flex-shrink:0}
 #save-status{max-height:20%;overflow-y:auto;min-height:0}
-#page{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable;scroll-padding:16px}
+#question-panel{flex:1;min-height:0;display:flex;flex-direction:column;overflow:hidden;background:#fff;border:1px solid #dce5e7;border-radius:18px;box-shadow:0 6px 24px #143d4610}
+#page{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable;scroll-padding:16px;border:0;box-shadow:none;border-radius:0;scrollbar-width:auto}
+#page.has-overflow{overflow-y:scroll}
+#page::-webkit-scrollbar{width:14px}
+#page::-webkit-scrollbar-track{background:#e3eded}
+#page::-webkit-scrollbar-thumb{background:#567d80;border:3px solid #e3eded;border-radius:8px}
+@supports not selector(::-webkit-scrollbar){#page{scrollbar-color:#567d80 #e3eded}}
+#scroll-cue{flex-shrink:0;display:flex;justify-content:center;padding:8px 12px;border-top:1px solid #dce5e7;background:#f1f7f6}
+#scroll-more{min-height:44px;padding:6px 18px;font-size:1rem;font-weight:600;color:#245852;background:white;border-color:#7caaa5}
 #page:focus-visible{outline:3px solid #bf6500;outline-offset:-3px}
 #controls{background:#f5f8f8;padding-top:12px}
 #controls:has(nav:empty):has(footer:empty){display:none}
@@ -25,6 +33,7 @@ nav:empty{display:none}
 footer{margin-top:10px;padding-top:10px}
 @media(max-width:520px){
   main{padding:8px}
+  #question-panel{border-radius:12px}
   nav{gap:8px}
   nav button{min-width:0;padding:10px;flex:1}
   nav .primary{flex-basis:auto;margin-left:0}

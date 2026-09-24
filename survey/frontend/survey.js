@@ -11,6 +11,32 @@
   let saveError = '', lastAck = '', activeVideo = null;
   let lastConsoleStatus = '';
   let lastFrameHeight = 0;
+  let scrollCueFrame = 0;
+
+  function updateScrollCue() {
+    scrollCueFrame = 0;
+    const page = $('page'), cue = $('scroll-cue'), button = $('scroll-more');
+    // Test against the full panel height so the cue itself cannot create overflow.
+    // Its row is separate from the scroll area and never covers an answer.
+    const available = page.clientHeight + (cue.classList.contains('hidden') ? 0 : cue.offsetHeight);
+    const overflow = page.scrollHeight > available + 2;
+    page.classList.toggle('has-overflow', overflow);
+    const moreBelow = overflow && page.scrollHeight - page.clientHeight - page.scrollTop > 2;
+    if (!moreBelow && document.activeElement === button) page.focus({preventScroll:true});
+    cue.classList.toggle('hidden', !moreBelow);
+  }
+  function scheduleScrollCue() {
+    if (!scrollCueFrame) scrollCueFrame = requestAnimationFrame(updateScrollCue);
+  }
+  $('page').addEventListener('scroll', scheduleScrollCue, {passive:true});
+  $('scroll-more').addEventListener('click', () => {
+    const page = $('page');
+    page.scrollBy({top: page.clientHeight * .5,
+      behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
+  });
+  const scrollObserver = new ResizeObserver(scheduleScrollCue);
+  scrollObserver.observe($('page'));
+  scrollObserver.observe($('page-content'));
 
   function bridge(type, extra = {}) {
     window.parent.postMessage({isStreamlitMessage: true, type, ...extra}, '*');
@@ -230,9 +256,10 @@
   }
   function render() {
     activeVideo = null;
-    const page = $('page'), nav = $('navigation'), foot = $('footer');
+    const page = $('page-content'), nav = $('navigation'), foot = $('footer');
     page.replaceChildren(); nav.replaceChildren(); foot.replaceChildren();
-    page.scrollTop = 0;
+    $('page').scrollTop = 0;
+    scheduleScrollCue();
     const p = currentPage() || schema.pages[0], list = visiblePages();
     $('section').textContent = p.section ? `Part ${p.section} of 4 · ${schema.sections[p.section]}` : 'Welcome';
     const pos = list.findIndex(x => x.id === p.id);
@@ -313,7 +340,7 @@
       const heading = text('h1', 'End your survey now?'); heading.tabIndex = -1;
       page.replaceChildren(heading, text('p', 'Your responses so far will be saved and submitted. You will not be able to return to answer more questions. If you want to return later, choose “Keep going,” then “Save and take a break.”'));
       nav.replaceChildren(button('Keep going', render),button('End and submit survey', () => finish('ended'), 'primary'));
-      foot.replaceChildren(); page.scrollTop = 0; resize(); heading.focus({preventScroll:true});
+      foot.replaceChildren(); $('page').scrollTop = 0; scheduleScrollCue(); resize(); heading.focus({preventScroll:true});
     }));
     setStatus(); resize();
   }
