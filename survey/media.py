@@ -23,7 +23,7 @@ def demo_url(data):
     # This is the same media manager used by st.video in pinned Streamlit 1.64.
     # Register on EVERY rerun: caching the URL would lose the session reference
     # and allow Streamlit to remove the media while a participant is watching.
-    url = runtime.get_instance().media_file_mgr.add(
+    # The browser adds the external app prefix. Python's baseUrlPath does not
+    # include reverse-proxy prefixes used by hosted deployments.
+    return runtime.get_instance().media_file_mgr.add(
         data, 'video/mp4', 'survey.demo')
-    base = st.get_option('server.baseUrlPath').strip('/')
-    return '/' + '/'.join(part for part in (base, url.lstrip('/')) if part)

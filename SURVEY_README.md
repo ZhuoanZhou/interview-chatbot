@@ -85,6 +85,9 @@ this uses the media manager from the pinned Streamlit version. No Drive sharing
 permissions change. Video interaction logging stays in the survey player, and
 confirmation remains disabled until video data is playable. Load errors keep the
 skip option available. Preview mode still never downloads the demonstration.
+Media paths resolve against the component's external app prefix, preserving
+hosting proxy routes as well as a configured base path; no deployment hostname
+is hard-coded.
 
 ## Interaction log
 
@@ -190,3 +193,5 @@ loading, failure, logging, and player preservation. For real HTTP media checks,
 run `node tests/survey_media_browser.cjs --fixture`, start
 `python -m streamlit run tests/survey_media_app.py --server.port 8514 --server.baseUrlPath study`,
 then run `node tests/survey_media_browser.cjs`. These checks never contact Drive.
+`node tests/survey_media_routing.cjs` checks root, base-path, proxy-prefix, and
+combined routing with a playable generated clip and origin-only referrers.

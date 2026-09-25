@@ -332,6 +332,18 @@
   function finish(status) {
     state.status = status; record('survey_' + status, state.page); render(); requestSave();
   }
+  function mediaUrl(path) {
+    // Local components are served under <external app prefix>/component/...
+    // That prefix includes both baseUrlPath and any hosting proxy route. A
+    // root-relative URL or document.referrer can discard the latter (and the
+    // referrer can be origin-only). Resolve against our own component route.
+    const here = new URL(window.location.href);
+    const component = here.pathname.lastIndexOf('/component/');
+    const base = component >= 0
+      ? here.origin + here.pathname.slice(0, component + 1)
+      : new URL('.', document.referrer || here.href).href;
+    return new URL(path.replace(/^\/(?!\/)/, ''), base).href;
+  }
   function mountVideo() {
     const host = $('video-host'); if (!host || activeVideo) return;
     host.replaceChildren();
@@ -339,9 +351,7 @@
       host.append(text('p', args.demo_error || 'Loading the demonstration…', 'help')); return;
     }
     activeVideo = document.createElement('video'); activeVideo.controls = true; activeVideo.preload = 'auto';
-    // Root-relative media paths must resolve against the app host, not the
-    // component's /component/... URL (including apps under a baseUrlPath).
-    activeVideo.src = new URL(args.demo_url, document.referrer || window.location.href).href;
+    activeVideo.src = mediaUrl(args.demo_url);
     activeVideo.setAttribute('aria-label', 'Speech recognition and correction demonstration');
     if (args.demo_captions) {
       const track = document.createElement('track'); track.kind = 'captions'; track.srclang = 'en'; track.label = 'English'; track.default = true;

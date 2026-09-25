@@ -16,9 +16,16 @@ const fs=require('node:fs');
   const app=p.frameLocator('iframe[title*="survey_media_test"]');
   const video=app.locator('video');
   await video.waitFor();
-  await video.evaluate(el=>new Promise(resolve=>{if(el.readyState>=2)resolve();else el.addEventListener('loadeddata',resolve,{once:true})}));
   const url=await video.getAttribute('src');
   assert.match(url,/^http:\/\/127\.0\.0\.1:8514\/study\/media\/[^/]+\.mp4$/);
+  await video.evaluate(el=>new Promise((resolve,reject)=>{
+   const timeout=setTimeout(()=>reject(new Error('Video load timed out')),10000);
+   const ready=()=>{clearTimeout(timeout);resolve()};
+   const failed=()=>{clearTimeout(timeout);reject(new Error('Video load failed'))};
+   if(el.error)failed();else if(el.readyState>=2)ready();else{
+    el.addEventListener('loadeddata',ready,{once:true});el.addEventListener('error',failed,{once:true});
+   }
+  }));
   const response=await p.request.get(url,{headers:{Range:'bytes=0-31'}});
   assert.equal(response.status(),206);
   assert.equal((await response.body()).length,32);
