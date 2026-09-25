@@ -11,7 +11,6 @@
   let saveError = '', lastAck = '', activeVideo = null;
   let lastConsoleStatus = '';
   let lastFrameHeight = 0;
-  let videoCleanup = () => {}, nativeAccess = true;
 
   function bridge(type, extra = {}) {
     window.parent.postMessage({isStreamlitMessage: true, type, ...extra}, '*');
@@ -231,7 +230,7 @@
     return container;
   }
   function render() {
-    releaseVideo();
+    activeVideo = null;
     const page = $('page-content'), nav = $('navigation'), foot = $('footer');
     page.replaceChildren(); nav.replaceChildren(); foot.replaceChildren();
     $('page').scrollTop = 0;
@@ -244,7 +243,7 @@
       const pending = events.length || inflight || saveQueue.length;
       page.append(text('h1', pending ? 'Saving your survey…' : 'Thank you for sharing your experiences.'));
       page.append(text('p', pending ? 'Please keep this tab open until saving is complete.' : 'Your responses have been saved. You can now close this tab.'));
-      setStatus(); syncNativeVideo(); resize(); return;
+      setStatus(); resize(); return;
     }
     page.className = '';
     if (pausedView || state.status === 'paused') {
@@ -252,7 +251,7 @@
       const pending = events.length || inflight || saveQueue.length;
       page.append(text('p', pending ? 'Please wait a moment before closing this tab.' : 'You can now close this tab and return later using your participant ID.'));
       nav.append(button('Continue survey', () => {pausedView = false; state.status = 'active'; record('resume', state.page); render(); requestSave();}, 'primary'));
-      setStatus(); syncNativeVideo(); resize(); return;
+      setStatus(); resize(); return;
     }
     page.classList.toggle('with-scenario', !!p.scenario);
     page.classList.toggle('with-groups', p.kind === 'group');
@@ -307,7 +306,7 @@
       if (p.kind !== 'info') nav.append(button(p.kind === 'video' ? 'Skip demonstration' : 'Skip', skip));
       nav.append(button(p.next_label || 'Next', () => {
         if (p.kind === 'video') {
-          if (!videoReady()) return;
+          if (!activeVideo || activeVideo.readyState < 2 || activeVideo.error) return;
           state.answers[p.id] = {status: 'answered', choices: ['watched']};
           record('demo_confirmed', p.id);
         } else if (['single','multi','text','group'].includes(p.kind) && !answer(p.id)) {
@@ -316,7 +315,7 @@
         }
         next();
       }, 'primary'));
-      if (p.kind === 'video') nav.lastChild.disabled = !videoReady();
+      if (p.kind === 'video') nav.lastChild.disabled = !activeVideo || activeVideo.readyState < 2 || !!activeVideo.error;
     }
     foot.append(button('Save and take a break', () => {
       state.status = 'paused'; pausedView = true; record('pause', state.page); render(); requestSave();
@@ -326,80 +325,61 @@
       page.className = '';
       page.replaceChildren(heading, text('p', 'Your responses so far will be saved and submitted. You will not be able to return to answer more questions. If you want to return later, choose “Keep going,” then “Save and take a break.”'));
       nav.replaceChildren(button('Keep going', render),button('End and submit survey', () => finish('ended'), 'primary'));
-      foot.replaceChildren(); $('page').scrollTop = 0; syncNativeVideo(); resize(); heading.focus({preventScroll:true});
+      foot.replaceChildren(); $('page').scrollTop = 0; resize(); heading.focus({preventScroll:true});
     }));
-    setStatus(); syncNativeVideo(); resize();
+    setStatus(); resize();
   }
   function finish(status) {
     state.status = status; record('survey_' + status, state.page); render(); requestSave();
   }
+  function mediaUrl(path) {
+    // Local components are served under <external app prefix>/component/...
+    // That prefix includes both baseUrlPath and any hosting proxy route. A
+    // root-relative URL or document.referrer can discard the latter (and the
+    // referrer can be origin-only). Resolve against our own component route.
+    const here = new URL(window.location.href);
+    const component = here.pathname.lastIndexOf('/component/');
+    const base = component >= 0
+      ? here.origin + here.pathname.slice(0, component + 1)
+      : new URL('.', document.referrer || here.href).href;
+    return new URL(path.replace(/^\/(?!\/)/, ''), base).href;
+  }
   function mountVideo() {
-    const host = $('video-host'); if (!host) return;
-    if (!host.firstChild) {
-      const status = text('p', '', 'help'); status.id = 'video-status'; status.setAttribute('role', 'status');
-      host.append(status);
+    const host = $('video-host'); if (!host || activeVideo) return;
+    host.replaceChildren();
+    if (!args.demo_url) {
+      host.append(text('p', args.demo_error || 'Loading the demonstration…', 'help')); return;
     }
-    if (args.demo_transcript && !host.querySelector('details')) {
+    activeVideo = document.createElement('video'); activeVideo.controls = true; activeVideo.preload = 'auto';
+    activeVideo.src = mediaUrl(args.demo_url);
+    activeVideo.setAttribute('aria-label', 'Speech recognition and correction demonstration');
+    if (args.demo_captions) {
+      const track = document.createElement('track'); track.kind = 'captions'; track.srclang = 'en'; track.label = 'English'; track.default = true;
+      track.src = 'data:text/vtt;base64,' + args.demo_captions; activeVideo.append(track);
+    }
+    for (const kind of ['play','pause','seeked','ended']) activeVideo.addEventListener(kind, e => record('video_' + kind, 'demo_video', {video_seconds: activeVideo.currentTime}, e));
+    const status = text('p', 'Loading the demonstration… You can skip it if you prefer.', 'help');
+    status.setAttribute('role', 'status');
+    const video = activeVideo;
+    const setReady = () => {
+      if (activeVideo !== video) return;
+      const ready = video.readyState >= 2 && !video.error;
+      status.classList.toggle('hidden', ready);
+      const nav = $('navigation'); if (nav.lastChild) nav.lastChild.disabled = !ready;
+    };
+    video.addEventListener('loadeddata', setReady);
+    video.addEventListener('canplay', setReady);
+    video.addEventListener('error', () => {
+      if (activeVideo !== video) return;
+      status.textContent = 'The video could not be loaded. You can skip it or go Back and try again.';
+      setReady();
+    });
+    host.append(video, status);
+    if (args.demo_transcript) {
       const details = document.createElement('details'); details.append(text('summary','Read the demonstration transcript'),text('p',args.demo_transcript)); host.append(details);
     }
-    syncNativeVideo();
     resize();
   }
-  function releaseVideo() {
-    videoCleanup(); videoCleanup = () => {};
-    if (activeVideo) activeVideo.pause();
-    activeVideo = null;
-  }
-  function videoReady() {
-    return nativeAccess ? !!activeVideo && activeVideo.readyState >= 2 && !activeVideo.error : !!args.demo_available;
-  }
-  function syncNativeVideo() {
-    if (!initialized) return;
-    const host = $('video-host');
-    const wanted = !!host && state.page === 'demo_video' && state.status === 'active';
-    try {
-      const slot = window.parent.document.querySelector('.st-key-survey-demo');
-      if (slot && slot.style.display !== (wanted ? '' : 'none')) slot.style.display = wanted ? '' : 'none';
-      const video = wanted ? slot?.querySelector('video') : null;
-      if (video !== activeVideo) {
-        releaseVideo(); activeVideo = video;
-        if (video) {
-          video.setAttribute('aria-label', 'Speech recognition and correction demonstration');
-          const listeners = [];
-          const listen = (kind, fn) => {video.addEventListener(kind, fn); listeners.push([kind, fn]);};
-          for (const kind of ['play','pause','seeked','ended']) listen(kind, e => {
-            if (state.page === 'demo_video' && state.status === 'active' && $('video-host'))
-              record('video_' + kind, 'demo_video', {video_seconds: video.currentTime,
-                browser_time_origin_ms: window.parent.performance.timeOrigin}, e);
-          });
-          for (const kind of ['loadeddata','canplay','error','emptied']) listen(kind, syncNativeVideo);
-          videoCleanup = () => listeners.forEach(([kind, fn]) => video.removeEventListener(kind, fn));
-        }
-      }
-      nativeAccess = true;
-    } catch (_) {
-      // Native playback remains usable on a cross-origin host. Confirmation is
-      // then the participant's self-report; browser video events are unavailable.
-      nativeAccess = false;
-    }
-    const status = $('video-status');
-    if (status) {
-      const message = args.demo_error || (activeVideo?.error
-        ? 'The video could not be loaded. You can skip it or go Back and try again.'
-        : videoReady() ? 'Watch the video above, then continue when you are ready.'
-        : 'Loading the demonstration above… You can skip it if you prefer.');
-      if (status.textContent !== message) status.textContent = message;
-      const next = $('navigation').querySelector('.primary'); if (next) next.disabled = !videoReady();
-    }
-    resize();
-  }
-  try {
-    // Observe only enough host layout to find the survey's keyed native player;
-    // no event listeners are attached to other media or page controls.
-    const nativeObserver = new MutationObserver(syncNativeVideo);
-    nativeObserver.observe(window.parent.document.body, {childList:true, subtree:true});
-    window.addEventListener('pagehide', () => {nativeObserver.disconnect(); releaseVideo();}, {once:true});
-  } catch (_) {nativeAccess = false;}
   // Keyboard navigation and activations on choice/navigation controls are also
   // recorded. Text-area keys have their own handler with selection positions.
   for (const kind of ['keydown', 'keyup']) $('survey').addEventListener(kind, e => {

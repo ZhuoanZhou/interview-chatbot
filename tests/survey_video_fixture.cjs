@@ -11,8 +11,7 @@ module.exports = async function videoFixture(browser) {
    recorder.ondataavailable=e=>chunks.push(e.data);
    const stopped=new Promise(resolve=>recorder.onstop=resolve);
    recorder.start();
-   let frame=0;
-   const draw=setInterval(()=>{ctx.fillStyle='teal';ctx.fillRect(0,0,160,90);ctx.fillStyle='white';ctx.fillRect((frame++*10)%140,30,20,20)},50);
+   const draw=setInterval(()=>{ctx.fillStyle='teal';ctx.fillRect(0,0,160,90)},50);
    await new Promise(resolve=>setTimeout(resolve,600));recorder.stop();await stopped;
    clearInterval(draw);stream.getTracks().forEach(track=>track.stop());
    return {type,bytes:Array.from(new Uint8Array(await new Blob(chunks).arrayBuffer()))};

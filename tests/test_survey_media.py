@@ -2,7 +2,7 @@
 import unittest
 from unittest.mock import MagicMock, patch
 
-from survey.media import credential_scope, load_demo
+from survey.media import credential_scope, demo_url, load_demo
 from survey.storage import DriveStore
 
 
@@ -41,6 +41,15 @@ class DemoTests(unittest.TestCase):
         for key in config:
             self.assertNotEqual(before, credential_scope({**config, key: 'changed'}))
         self.assertNotIn('fake-secret', before)
+
+    def test_media_is_registered_on_each_rerun_without_guessing_external_prefix(self):
+        with patch('survey.media.runtime.get_instance') as runtime:
+            manager = runtime.return_value.media_file_mgr
+            manager.add.return_value = '/media/fixture.mp4'
+            self.assertEqual(demo_url(b'video'), '/media/fixture.mp4')
+            self.assertEqual(demo_url(b'video'), '/media/fixture.mp4')
+            self.assertEqual(manager.add.call_count, 2)
+            manager.add.assert_called_with(b'video', 'video/mp4', 'survey.demo')
 
     def test_chunked_download_assembles_all_bytes_and_retries_transient_errors(self):
         store = object.__new__(DriveStore)

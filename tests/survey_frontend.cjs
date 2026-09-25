@@ -5,7 +5,7 @@ const path=require('node:path');
 const assert=require('node:assert/strict');
 const schema=JSON.parse(fs.readFileSync('survey/schema.json','utf8'));
 
-const harness=`<!doctype html><div class="st-key-survey-demo"><video controls src="/media/fixture.mp4"></video></div><iframe id="app" title="survey" style="width:900px;height:1200px;border:0"></iframe>
+const harness=`<!doctype html><iframe id="app" title="survey" style="width:900px;height:1200px;border:0"></iframe>
 <script>
 window.batches=[];window.attempts=[];window.failSaves=false;window.delay=40;window.args=null;
 const frame=document.getElementById('app');
@@ -22,7 +22,7 @@ window.addEventListener('message',e=>{
   },window.delay);
  }
 });
-window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview:true,demo_available:true,demo_error:''};frame.src='/survey/frontend/index.html';};
+window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview:true,demo_url:'/media/fixture.mp4',demo_error:''};frame.src='/survey/frontend/index.html';};
 </script>`;
 
 (async()=>{
@@ -135,12 +135,11 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  assert.equal(await page.evaluate(()=>batches.at(-1).state.answers.closing.text),'new unsaved answer');
  // The complete demo branch preserves both rating tables and retry branching.
  app=await start('demo_video',{demo_consent:{status:'answered',choices:['Yes']}});
- const nativeVideo=page.locator('.st-key-survey-demo video');
- await nativeVideo.evaluate(video=>new Promise(resolve=>{if(video.readyState>=2)resolve();else video.addEventListener('loadeddata',resolve,{once:true})}));
- assert.equal(await app.locator('video').count(),0,'Only the host owns a player');
- await nativeVideo.evaluate(video=>{video.dataset.original='true';video.dispatchEvent(new Event('play'))});
+ await app.locator('video').evaluate(video=>new Promise(resolve=>{if(video.readyState>=2)resolve();else video.addEventListener('loadeddata',resolve,{once:true})}));
+ assert.equal(await app.locator('video').getAttribute('src'),'http://127.0.0.1:8512/media/fixture.mp4');
+ await app.locator('video').evaluate(video=>{video.dataset.original='true';video.dispatchEvent(new Event('play'))});
  await page.evaluate(()=>render());
- assert.equal(await nativeVideo.getAttribute('data-original'),'true','Save acknowledgements must not restart playback');
+ assert.equal(await app.locator('video').getAttribute('data-original'),'true','Save acknowledgements must not restart playback');
  await app.getByRole('button',{name:'Skip demonstration',exact:true}).click();
  await page.waitForFunction(()=>batches.length===1);
  assert((await page.evaluate(()=>batches[0].events)).some(e=>e.type==='video_play'));

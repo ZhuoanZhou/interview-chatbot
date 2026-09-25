@@ -1,4 +1,5 @@
 """Fixed survey. Run with streamlit run streamlit_app.py. No AI API calls."""
+import base64
 import faulthandler
 import hashlib
 import importlib
@@ -25,7 +26,7 @@ if not all(hasattr(_storage, name) for name in ('normalize_access', 'new_partici
     importlib.invalidate_caches()
     importlib.reload(_storage)
 from survey.storage import DriveStore, LocalStore, normalize_access, new_participant_id
-from survey.media import credential_scope, load_demo
+from survey.media import credential_scope, load_demo, demo_url
 
 ROOT = Path(__file__).resolve().parent
 SCHEMA = json.loads((ROOT / 'survey/schema.json').read_text(encoding='utf-8'))
@@ -43,11 +44,6 @@ st.markdown('''<style>
  [data-testid="stMainBlockContainer"]:has(iframe[title*="fixed_communication_survey"]){padding-top:3.5rem;padding-bottom:.5rem}
  [data-testid="stMainBlockContainer"]:has(iframe[title*="fixed_communication_survey"]) > [data-testid="stVerticalBlock"]{gap:0}
  iframe[title*="fixed_communication_survey"]{display:block;height:calc(100vh - 4rem)!important;height:calc(100dvh - 4rem)!important}
- /* The native player gets the upper part of the demo screen; the component
-    measures the remaining viewport for its question and navigation controls. */
- .st-key-survey-demo:not(:has(video)){display:none}
- .st-key-survey-demo video{height:auto;max-height:clamp(80px,calc(100dvh - 370px),460px);object-fit:contain;background:#172f38}
- @media(max-width:600px){.st-key-survey-demo video{max-height:clamp(70px,calc(100dvh - 430px),320px)}}
  /* Match the native start/resume controls to the survey component's text size. */
  [data-testid="stMain"] [data-testid="stMarkdownContainer"] p,
  [data-testid="stMain"] [data-testid="stWidgetLabel"] p{font-size:20px;line-height:1.5}
@@ -140,36 +136,31 @@ with st.sidebar:
 # Retrieve only the existing demonstration, only on its screen. Preview does not
 # read secrets or fetch video from Drive.
 demo_error = ''
-video = None
-if record['state']['page'] == 'demo_video' and record['state']['status'] == 'active':
+video_url = ''
+if record['state']['page'] == 'demo_video':
     if PREVIEW:
         demo_error = 'The video is not loaded in local preview. You can skip the demonstration.'
     else:
         try:
             video = load_demo(config.get('DEMO_VIDEO_FILE_ID') or DEFAULT_DEMO_ID,
                               credential_scope(config), store())
+            video_url = demo_url(video)
         except Exception:
             demo_error = 'The video is unavailable. You can skip it or contact the researcher.'
 
-captions = None
-if video is not None and config.get('DEMO_CAPTIONS_PATH'):
+captions = ''
+if config.get('DEMO_CAPTIONS_PATH') and record['state']['page']=='demo_video':
     try:
-        captions = Path(config['DEMO_CAPTIONS_PATH']).read_text(encoding='utf-8')
-    except (OSError, UnicodeError):
+        captions=base64.b64encode(Path(config['DEMO_CAPTIONS_PATH']).read_bytes()).decode('ascii')
+    except OSError:
         pass
-
-# Keep this slot present on every page so the component's position stays stable.
-# Streamlit owns the player, media URLs, captions, and hosted routing.
-with st.container(key='survey-demo'):
-    if video is not None:
-        st.video(video, format='video/mp4', subtitles=captions)
 
 packet = survey_component(
     schema=SCHEMA,record=record,session_key=hashlib.sha256(token.encode()).hexdigest(),
     ack=st.session_state.get('survey_ack'),revision=record['revision'],saved_at=record.get('saved_at'),
     error=st.session_state.get('survey_error',''),preview=PREVIEW,
-    demo_available=video is not None,
-    demo_error=demo_error,demo_transcript=config.get('DEMO_TRANSCRIPT',''),
+    demo_url=video_url,
+    demo_error=demo_error,demo_transcript=config.get('DEMO_TRANSCRIPT',''),demo_captions=captions,
     key='survey_'+record['participant_id'],default=None)
 
 if packet and packet.get('attempt') != st.session_state.get('survey_attempt'):
