@@ -77,17 +77,20 @@ No demonstration transcript or captions have been invented.
 The demo is downloaded on its screen in 8 MB chunks, with transient-error retries,
 and cached across participants for one hour (keyed by file ID and Drive credentials).
 The first load after a server restart/cache expiry still waits for Drive. Failed
-downloads are not cached. The browser receives a short Streamlit media URL rather
-than the entire video encoded into each survey message. This restores the old
-chatbot's cached media delivery and supports byte-range playback and seeking.
-The media URL is registered again on each demo-screen rerun so it stays available;
-this uses the media manager from the pinned Streamlit version. No Drive sharing
-permissions change. Video interaction logging stays in the survey player, and
-confirmation remains disabled until video data is playable. Load errors keep the
-skip option available. Preview mode still never downloads the demonstration.
-Media paths resolve against the component's external app prefix, preserving
-hosting proxy routes as well as a configured base path; no deployment hostname
-is hard-coded.
+downloads are not cached. The demo uses `st.video()`, as in the earlier chatbot.
+Streamlit owns the player, media delivery, seeking, captions, and hosted URL
+routing. No video bytes or media URL are sent through the survey component, and
+no deployment hostname is hard-coded. No Drive sharing permissions change.
+The native player appears above the survey controls; it is paused and hidden
+when leaving the demo or taking a break. Preview mode never downloads the demo.
+
+On the supported same-origin host, the component observes only the native player
+inside the `survey-demo` container to log play/pause/seek/end events and enable
+confirmation once video data is playable. Listener cleanup prevents duplicates
+on reruns, and load errors keep skipping available. If hosted cross-origin,
+native playback still works, but browser video events cannot be observed and
+confirmation relies on the participant's explicit self-report. Check the target
+deployment before collecting data.
 
 ## Interaction log
 
@@ -120,6 +123,10 @@ character edits. Mobile keyboards, dictation, IMEs, paste and assistive tools ca
 insert multiple characters per input event without exposing individual physical
 keystrokes. The app records what the browser actually supplies; it does not invent
 per-character times. There is a 10,000-character limit per text area.
+
+Native video events also include `browser_time_origin_ms`, the host window's
+time origin for `browser_event_ms`; other event timestamps retain the survey
+frame's time origin. `elapsed_ms` is always measured inside the survey frame.
 
 ## Saving, resuming, and limitations
 
@@ -187,11 +194,13 @@ The frontend browser test uses a separate fake-data harness; it never contacts D
 expanded Other fields) in an isolated harness at 1280×720, 1366×768, and
 1920×1080. It also checks fixed navigation and reachable overflow on phone and
 short-window sizes.
-`tests/test_survey_media.py` checks shared caching, invalidation, retries, and media
-registration. `tests/survey_frontend.cjs` generates a tiny local clip to check video
+`tests/test_survey_media.py` checks shared caching, invalidation, and retries.
+Startup tests check native video rendering and preview isolation.
+`tests/survey_frontend.cjs` generates a tiny local clip to check video
 loading, failure, logging, and player preservation. For real HTTP media checks,
 run `node tests/survey_media_browser.cjs --fixture`, start
 `python -m streamlit run tests/survey_media_app.py --server.port 8514 --server.baseUrlPath study`,
-then run `node tests/survey_media_browser.cjs`. These checks never contact Drive.
-`node tests/survey_media_routing.cjs` checks root, base-path, proxy-prefix, and
-combined routing with a playable generated clip and origin-only referrers.
+then run `node tests/survey_media_browser.cjs`. The fixture runs the actual survey
+entry point with an in-memory store and fake credentials, checking native video
+playback, byte ranges, video event logging, reruns, navigation/pause, and five
+desktop/mobile viewport sizes. These checks never contact Drive.
