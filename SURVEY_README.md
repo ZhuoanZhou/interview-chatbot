@@ -74,6 +74,18 @@ readable alternative and `DEMO_CAPTIONS_PATH` points to a server-side WebVTT fil
 Configure captions/a transcript if the video does not already have usable captions.
 No demonstration transcript or captions have been invented.
 
+The demo is downloaded on its screen in 8 MB chunks, with transient-error retries,
+and cached across participants for one hour (keyed by file ID and Drive credentials).
+The first load after a server restart/cache expiry still waits for Drive. Failed
+downloads are not cached. The browser receives a short Streamlit media URL rather
+than the entire video encoded into each survey message. This restores the old
+chatbot's cached media delivery and supports byte-range playback and seeking.
+The media URL is registered again on each demo-screen rerun so it stays available;
+this uses the media manager from the pinned Streamlit version. No Drive sharing
+permissions change. Video interaction logging stays in the survey player, and
+confirmation remains disabled until video data is playable. Load errors keep the
+skip option available. Preview mode still never downloads the demonstration.
+
 ## Interaction log
 
 Listeners attach to survey controls only. They do not capture the resume-code
@@ -172,3 +184,9 @@ The frontend browser test uses a separate fake-data harness; it never contacts D
 expanded Other fields) in an isolated harness at 1280×720, 1366×768, and
 1920×1080. It also checks fixed navigation and reachable overflow on phone and
 short-window sizes.
+`tests/test_survey_media.py` checks shared caching, invalidation, retries, and media
+registration. `tests/survey_frontend.cjs` generates a tiny local clip to check video
+loading, failure, logging, and player preservation. For real HTTP media checks,
+run `node tests/survey_media_browser.cjs --fixture`, start
+`python -m streamlit run tests/survey_media_app.py --server.port 8514 --server.baseUrlPath study`,
+then run `node tests/survey_media_browser.cjs`. These checks never contact Drive.

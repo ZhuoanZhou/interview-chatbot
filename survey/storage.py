@@ -210,4 +210,11 @@ class DriveStore:
     def demo_bytes(self,file_id):
         if not re.fullmatch(r'[A-Za-z0-9_-]+',file_id):
             raise ValueError('Invalid demo file ID.')
-        return self.service.files().get_media(fileId=file_id).execute()
+        from googleapiclient.http import MediaIoBaseDownload
+        buffer = io.BytesIO()
+        downloader = MediaIoBaseDownload(buffer,
+            self.service.files().get_media(fileId=file_id), chunksize=8 * 1024 * 1024)
+        done = False
+        while not done:
+            _, done = downloader.next_chunk(num_retries=2)
+        return buffer.getvalue()

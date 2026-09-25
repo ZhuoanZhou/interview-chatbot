@@ -306,7 +306,7 @@
       if (p.kind !== 'info') nav.append(button(p.kind === 'video' ? 'Skip demonstration' : 'Skip', skip));
       nav.append(button(p.next_label || 'Next', () => {
         if (p.kind === 'video') {
-          if (!args.demo_data) return;
+          if (!activeVideo || activeVideo.readyState < 2 || activeVideo.error) return;
           state.answers[p.id] = {status: 'answered', choices: ['watched']};
           record('demo_confirmed', p.id);
         } else if (['single','multi','text','group'].includes(p.kind) && !answer(p.id)) {
@@ -315,7 +315,7 @@
         }
         next();
       }, 'primary'));
-      if (p.kind === 'video') nav.lastChild.disabled = !args.demo_data;
+      if (p.kind === 'video') nav.lastChild.disabled = !activeVideo || activeVideo.readyState < 2 || !!activeVideo.error;
     }
     foot.append(button('Save and take a break', () => {
       state.status = 'paused'; pausedView = true; record('pause', state.page); render(); requestSave();
@@ -335,22 +335,39 @@
   function mountVideo() {
     const host = $('video-host'); if (!host || activeVideo) return;
     host.replaceChildren();
-    if (!args.demo_data) {
+    if (!args.demo_url) {
       host.append(text('p', args.demo_error || 'Loading the demonstration…', 'help')); return;
     }
-    activeVideo = document.createElement('video'); activeVideo.controls = true; activeVideo.preload = 'metadata';
-    activeVideo.src = 'data:video/mp4;base64,' + args.demo_data;
+    activeVideo = document.createElement('video'); activeVideo.controls = true; activeVideo.preload = 'auto';
+    // Root-relative media paths must resolve against the app host, not the
+    // component's /component/... URL (including apps under a baseUrlPath).
+    activeVideo.src = new URL(args.demo_url, document.referrer || window.location.href).href;
     activeVideo.setAttribute('aria-label', 'Speech recognition and correction demonstration');
     if (args.demo_captions) {
       const track = document.createElement('track'); track.kind = 'captions'; track.srclang = 'en'; track.label = 'English'; track.default = true;
       track.src = 'data:text/vtt;base64,' + args.demo_captions; activeVideo.append(track);
     }
     for (const kind of ['play','pause','seeked','ended']) activeVideo.addEventListener(kind, e => record('video_' + kind, 'demo_video', {video_seconds: activeVideo.currentTime}, e));
-    host.append(activeVideo);
+    const status = text('p', 'Loading the demonstration… You can skip it if you prefer.', 'help');
+    status.setAttribute('role', 'status');
+    const video = activeVideo;
+    const setReady = () => {
+      if (activeVideo !== video) return;
+      const ready = video.readyState >= 2 && !video.error;
+      status.classList.toggle('hidden', ready);
+      const nav = $('navigation'); if (nav.lastChild) nav.lastChild.disabled = !ready;
+    };
+    video.addEventListener('loadeddata', setReady);
+    video.addEventListener('canplay', setReady);
+    video.addEventListener('error', () => {
+      if (activeVideo !== video) return;
+      status.textContent = 'The video could not be loaded. You can skip it or go Back and try again.';
+      setReady();
+    });
+    host.append(video, status);
     if (args.demo_transcript) {
       const details = document.createElement('details'); details.append(text('summary','Read the demonstration transcript'),text('p',args.demo_transcript)); host.append(details);
     }
-    const nav = $('navigation'); if (nav.lastChild) nav.lastChild.disabled = false;
     resize();
   }
   // Keyboard navigation and activations on choice/navigation controls are also

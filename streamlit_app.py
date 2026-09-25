@@ -26,6 +26,7 @@ if not all(hasattr(_storage, name) for name in ('normalize_access', 'new_partici
     importlib.invalidate_caches()
     importlib.reload(_storage)
 from survey.storage import DriveStore, LocalStore, normalize_access, new_participant_id
+from survey.media import credential_scope, load_demo, demo_url
 
 ROOT = Path(__file__).resolve().parent
 SCHEMA = json.loads((ROOT / 'survey/schema.json').read_text(encoding='utf-8'))
@@ -135,13 +136,15 @@ with st.sidebar:
 # Retrieve only the existing demonstration, only on its screen. Preview does not
 # read secrets or fetch video from Drive.
 demo_error = ''
-if record['state']['page'] == 'demo_video' and not st.session_state.get('survey_demo'):
+video_url = ''
+if record['state']['page'] == 'demo_video':
     if PREVIEW:
         demo_error = 'The video is not loaded in local preview. You can skip the demonstration.'
     else:
         try:
-            video = store().demo_bytes(config.get('DEMO_VIDEO_FILE_ID') or DEFAULT_DEMO_ID)
-            st.session_state.survey_demo = base64.b64encode(video).decode('ascii')
+            video = load_demo(config.get('DEMO_VIDEO_FILE_ID') or DEFAULT_DEMO_ID,
+                              credential_scope(config), store())
+            video_url = demo_url(video)
         except Exception:
             demo_error = 'The video is unavailable. You can skip it or contact the researcher.'
 
@@ -156,7 +159,7 @@ packet = survey_component(
     schema=SCHEMA,record=record,session_key=hashlib.sha256(token.encode()).hexdigest(),
     ack=st.session_state.get('survey_ack'),revision=record['revision'],saved_at=record.get('saved_at'),
     error=st.session_state.get('survey_error',''),preview=PREVIEW,
-    demo_data=st.session_state.get('survey_demo','') if record['state']['page']=='demo_video' else '',
+    demo_url=video_url,
     demo_error=demo_error,demo_transcript=config.get('DEMO_TRANSCRIPT',''),demo_captions=captions,
     key='survey_'+record['participant_id'],default=None)
 

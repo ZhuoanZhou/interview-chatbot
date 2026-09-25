@@ -22,16 +22,18 @@ window.addEventListener('message',e=>{
   },window.delay);
  }
 });
-window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview:true,demo_data:btoa('fixture'),demo_error:''};frame.src='/survey/frontend/index.html';};
+window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview:true,demo_url:'/media/fixture.mp4',demo_error:''};frame.src='/survey/frontend/index.html';};
 </script>`;
 
 (async()=>{
  const browser=await chromium.launch({headless:true,channel:'msedge'});
+ const clip=await require('./survey_video_fixture.cjs')(browser);
  const page=await browser.newPage();
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.route('http://127.0.0.1:8512/**',route=>{
   const url=new URL(route.request().url());
   if(url.pathname==='/harness')return route.fulfill({contentType:'text/html',body:harness});
+  if(url.pathname==='/media/fixture.mp4')return route.fulfill({contentType:clip.type,body:clip.bytes});
   const file=path.join(process.cwd(),url.pathname);
   const type=file.endsWith('.js')?'application/javascript':file.endsWith('.css')?'text/css':'text/html';
   return route.fulfill({contentType:type,body:fs.readFileSync(file)});
@@ -132,6 +134,22 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  assert.equal(await page.evaluate(()=>batches.at(-1).batch_id),retryId);
  assert.equal(await page.evaluate(()=>batches.at(-1).state.answers.closing.text),'new unsaved answer');
  // The complete demo branch preserves both rating tables and retry branching.
+ app=await start('demo_video',{demo_consent:{status:'answered',choices:['Yes']}});
+ await app.locator('video').evaluate(video=>new Promise(resolve=>{if(video.readyState>=2)resolve();else video.addEventListener('loadeddata',resolve,{once:true})}));
+ assert.equal(await app.locator('video').getAttribute('src'),'http://127.0.0.1:8512/media/fixture.mp4');
+ await app.locator('video').evaluate(video=>{video.dataset.original='true';video.dispatchEvent(new Event('play'))});
+ await page.evaluate(()=>render());
+ assert.equal(await app.locator('video').getAttribute('data-original'),'true','Save acknowledgements must not restart playback');
+ await app.getByRole('button',{name:'Skip demonstration',exact:true}).click();
+ await page.waitForFunction(()=>batches.length===1);
+ assert((await page.evaluate(()=>batches[0].events)).some(e=>e.type==='video_play'));
+ // A failed media request stays skippable and cannot count as watching.
+ await page.route('**/media/fixture.mp4',route=>route.fulfill({status:503,body:'Unavailable'}));
+ app=await start('demo_video');
+ await app.getByText(/The video could not be loaded/).waitFor();
+ assert.equal(await app.getByRole('button',{name:'I have watched the demonstration',exact:true}).isEnabled(),false);
+ assert.equal(await app.getByRole('button',{name:'Skip demonstration',exact:true}).isEnabled(),true);
+ await page.unroute('**/media/fixture.mp4');
  app=await start('demo_consent');
  await app.getByLabel('Yes',{exact:true}).check();
  await app.getByRole('button',{name:'Next',exact:true}).click();
