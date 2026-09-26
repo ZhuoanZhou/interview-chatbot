@@ -50,7 +50,15 @@ window.start=(schema,pageId,answers)=>{args={schema,record:{revision:0,state:{pa
     if(metrics.content>metrics.height+2)overflow.push({size,page:q.id,...metrics});
     assert.equal(await app.locator('#scroll-more').count(),0);
     assert(await app.locator('body').evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
-    if(size.width===1366&&['story','s1_action'].includes(q.id))await p.screenshot({path:`tmp/survey-qa/wide-${q.id}.png`});
+    for(const container of await app.locator('.answer-options:has(.other-row)').all()){
+     const labels=await container.locator('.choice span').allTextContents();
+     assert.equal(labels.at(-1),'Other');
+     assert(await container.getByRole('textbox').isVisible());
+     const other=await container.locator('.other-row').boundingBox();
+     const grid=await container.locator('.options').boundingBox();
+     assert(other.y>=grid.y+grid.height,'Other follows all other choices');
+    }
+    if(size.width===1366&&['story','s1_action','feature_1','situation_1'].includes(q.id))await p.screenshot({path:`tmp/survey-qa/wide-${q.id}.png`});
    }
   }
   for(const size of [{width:390,height:844},{width:844,height:390},{width:390,height:420}]){

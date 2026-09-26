@@ -88,8 +88,17 @@
     if (c.answered) return answer(c.answered)?.status === 'answered';
     return (answer(c.question)?.choices || []).some(v => c.values.includes(v));
   }
-  function visiblePages() { return schema.pages.filter(p => condition(p.when)); }
-  function currentPage() { return schema.pages.find(p => p.id === state.page); }
+  function questionItems(p) {
+    return p.rating_group ? schema.pages.filter(item => item.rating_group === p.rating_group) : [p];
+  }
+  function visiblePages() {
+    return schema.pages.filter(p => condition(p.when) && questionItems(p)[0].id === p.id);
+  }
+  function currentPage() {
+    const p = schema.pages.find(p => p.id === state.page);
+    // Old saved sessions can resume on any item in a now-combined question.
+    return p && questionItems(p)[0];
+  }
   function prune() {
     // Document order is parent-before-child, so deleting a hidden parent also hides its descendants.
     for (const p of schema.pages) {
@@ -123,15 +132,18 @@
     record('page_view', id); requestSave(); focusHeading();
   }
   function next() {
-    const list = visiblePages(), i = list.findIndex(p => p.id === state.page);
+    const list = visiblePages(), i = list.findIndex(p => p.id === currentPage()?.id);
     if (i >= 0 && i < list.length - 1) go(list[i + 1].id);
   }
   function skip() {
-    const p = currentPage(), previous = answer(p.id) || null;
-    state.answers[p.id] = {status: 'skipped'};
-    record('skip', p.id, {previous}); prune(); next();
+    for (const p of questionItems(currentPage())) {
+      const previous = answer(p.id) || null;
+      state.answers[p.id] = {status: 'skipped'};
+      record('skip', p.id, {previous});
+    }
+    prune(); next();
   }
-  function choicesChanged(p, group, value, checked, event) {
+  function choicesChanged(p, group, value, checked, event, source = 'participant') {
     const old = clone(answer(p.id) || {choices: [], other: {}, groups: {}});
     const a = clone(old); a.status = 'answered';
     if (group) {
@@ -151,19 +163,23 @@
       record('option_deselected', group ? `${p.id}.${group}` : p.id,
         {option: v, source: v === value ? 'participant' : 'exclusive_choice'}, event);
     for (const v of after.filter(v => !before.includes(v)))
-      record('option_selected', group ? `${p.id}.${group}` : p.id, {option: v, source: 'participant'}, event);
+      record('option_selected', group ? `${p.id}.${group}` : p.id, {option: v, source}, event);
     // Other explanations are final answers only while Other is selected; edits remain in the event log.
     const otherKey = group || 'other';
     if (!after.includes('Other') && a.other[otherKey]) {
-      record('other_hidden', `${p.id}.${otherKey}`, {previous_text: a.other[otherKey], source: 'option_change'});
+      record('other_cleared', `${p.id}.${otherKey}`, {previous_text: a.other[otherKey], source: 'option_change'});
       delete a.other[otherKey];
+      const ta = $('text-' + p.id + '.' + otherKey);
+      if (ta) { ta.value = ''; ta.dispatchEvent(new Event('survey-text-reset')); }
     }
     prune(); cache();
     // Update controls in place; do not destroy keyboard focus on the chosen option.
     document.querySelectorAll('input[data-question]').forEach(input => {
-      input.checked = input.dataset.group ? a.groups?.[input.dataset.group] === input.value : a.choices.includes(input.value);
+      if (input.dataset.question !== p.id) return;
+      input.checked = input.dataset.group ? a.groups?.[input.dataset.group] === input.value : (a.choices || []).includes(input.value);
     });
     updateOther(p, group); setStatus(); resize();
+    if (p.rating_group) document.querySelector('#label-' + p.id)?.parentElement.querySelector('.legacy-rating')?.remove();
   }
   function delta(before, after) {
     let start = 0;
@@ -180,6 +196,7 @@
     ta.maxLength = 10000; ta.setAttribute('aria-describedby', 'typing-help-' + field);
     const help = text('p', 'Optional. A few words are enough.', 'help'); help.id = 'typing-help-' + field;
     let previous = ta.value;
+    ta.addEventListener('survey-text-reset', () => { previous = ta.value; });
     for (const kind of ['keydown', 'keyup']) ta.addEventListener(kind, e => {
       record(kind, field, {key: e.key, code: e.code, repeat: e.repeat, is_composing: e.isComposing,
         ctrl: e.ctrlKey, alt: e.altKey, shift: e.shiftKey, meta: e.metaKey,
@@ -190,7 +207,7 @@
       selection_start: ta.selectionStart, selection_end: ta.selectionEnd}, e));
     ta.addEventListener('input', e => {
       const change = delta(previous, ta.value); previous = ta.value;
-      onValue(ta.value);
+      onValue(ta.value, e);
       record('text_input', field, {...change, input_type: e.inputType || 'unknown', is_composing: e.isComposing || false,
         value_after: ta.value, selection_start: ta.selectionStart, selection_end: ta.selectionEnd}, e);
     });
@@ -202,10 +219,13 @@
     const key = group || 'other', host = $('other-' + p.id + '-' + key);
     if (!host) return;
     const a = answer(p.id);
-    const selected = group ? a?.groups?.[group] === 'Other' : a?.choices?.includes('Other');
-    if (!selected) { host.replaceChildren(); return; }
     if (host.firstChild) return;
-    host.append(textarea(p, `${p.id}.${key}`, a?.other?.[key], value => {
+    host.append(textarea(p, `${p.id}.${key}`, a?.other?.[key], (value, event) => {
+      const current = answer(p.id);
+      const selected = group ? current?.groups?.[group] === 'Other' : current?.choices?.includes('Other');
+      if (!selected && !value.trim()) return;
+      if (!selected && value.trim()) choicesChanged(p, group, 'Other', true, event, 'other_text');
+      if (!state.answers[p.id]) return;
       state.answers[p.id].other ||= {}; state.answers[p.id].other[key] = value;
     }, 'Other — tell us more if you would like'));
   }
@@ -214,18 +234,21 @@
     container.className = 'answer-options';
     const list = document.createElement('div'); list.className = 'options' + (options.every(v => v.length < 27) ? ' short' : '');
     if (!group) list.setAttribute('aria-labelledby', 'question-title');
-    options.forEach((v, i) => {
+    const otherRow = document.createElement('div'); otherRow.className = 'other-row';
+    [...options.filter(v => v !== 'Other'), ...options.filter(v => v === 'Other')].forEach(v => {
       const label = document.createElement('label'); label.className = 'choice';
       const input = document.createElement('input'); input.type = p.kind === 'multi' ? 'checkbox' : 'radio';
       input.name = group ? p.id + '-' + group : p.id; input.value = v;
       input.dataset.question = p.id; if (group) input.dataset.group = group;
       input.checked = group ? answer(p.id)?.groups?.[group] === v : !!answer(p.id)?.choices?.includes(v);
       input.addEventListener('change', e => choicesChanged(p, group, v, input.checked, e));
-      label.append(input, text('span', v)); list.append(label);
+      label.append(input, text('span', v));
+      (v === 'Other' ? otherRow : list).append(label);
     });
     container.append(list);
     if (options.includes('Other')) {
-      const other = document.createElement('div'); other.id = 'other-' + p.id + '-' + (group || 'other'); container.append(other);
+      const other = document.createElement('div'); other.id = 'other-' + p.id + '-' + (group || 'other');
+      otherRow.append(other); container.append(otherRow);
     }
     return container;
   }
@@ -255,6 +278,7 @@
     }
     page.classList.toggle('with-scenario', !!p.scenario);
     page.classList.toggle('with-groups', p.kind === 'group');
+    page.classList.toggle('with-ratings', !!p.rating_group);
     if (p.group) page.append(text('p', p.group, 'group-label'));
     if (p.scenario) {
       const box = document.createElement('section'); box.className = 'scenario';
@@ -268,9 +292,22 @@
     const heading = text('h1', p.title); heading.id = 'question-title'; heading.tabIndex = -1; page.append(heading);
     (p.paragraphs || []).forEach((s, i) => page.append(text('p', s, p.id === 'intro' && i === 3 ? 'notice' : '')));
     if (p.id === 'intro') page.append(text('p', 'Your answers are saved when you move between questions. Before leaving, choose “Save and take a break.”', 'help'));
-    if (p.item) page.append(text('p', p.item, 'item'));
+    if (p.item && !p.rating_group) page.append(text('p', p.item, 'item'));
     if (p.help) page.append(text('p', p.help, 'help'));
-    if (['single', 'multi'].includes(p.kind)) {
+    if (p.rating_group) {
+      page.append(text('p', 'Choose one rating for each statement.', 'help'));
+      for (const item of questionItems(p)) {
+        const row = document.createElement('div'); row.className = 'rating-row';
+        row.setAttribute('role', 'group'); row.setAttribute('aria-labelledby', 'label-' + item.id);
+        const label = text('p', item.item, 'rating-statement'); label.id = 'label-' + item.id;
+        const options = optionList(item, item.options);
+        options.querySelector('.options').setAttribute('aria-labelledby', label.id);
+        row.append(label, options);
+        // Preserve historical N/A answers without silently recoding research data.
+        if (answer(item.id)?.choices?.includes('N/A')) row.append(text('p', 'Previously answered: N/A. Choose a rating to change it.', 'help legacy-rating'));
+        page.append(row);
+      }
+    } else if (['single', 'multi'].includes(p.kind)) {
       page.append(text('p', p.kind === 'multi' ? 'Choose all that apply.' : 'Choose one.', 'help'));
       let options = p.options;
       if (p.exclude_selected_from) options = options.filter(v => !answer(p.exclude_selected_from)?.choices?.includes(v));
@@ -288,16 +325,17 @@
       const host = document.createElement('div'); host.id = 'video-host'; page.append(host); mountVideo();
     }
     if (['single', 'multi', 'group', 'text'].includes(p.kind)) nav.append(button('Clear answer', () => {
-      const previous = answer(p.id) || null; delete state.answers[p.id];
-      record('clear_answer', p.id, {previous}); prune(); render();
+      for (const item of questionItems(p)) {
+        const previous = answer(item.id) || null; delete state.answers[item.id];
+        record('clear_answer', item.id, {previous});
+      }
+      prune(); render();
     }, 'small'));
     if (p.scenario) {
       const scenario = page.querySelector('.scenario');
       const response = document.createElement('div'); response.className = 'scenario-response';
-      const other = page.querySelector('[id^="other-"]');
       response.append(...Array.from(page.children).filter(el => el !== scenario));
       page.append(response);
-      if (other) {other.className = 'scenario-other'; page.append(other);}
     }
     if (pos > 0) nav.prepend(button('Back', () => go(list[pos - 1].id, 'back')));
     if (p.kind === 'finish') {
@@ -309,9 +347,11 @@
           if (!activeVideo || activeVideo.readyState < 2 || activeVideo.error) return;
           state.answers[p.id] = {status: 'answered', choices: ['watched']};
           record('demo_confirmed', p.id);
-        } else if (['single','multi','text','group'].includes(p.kind) && !answer(p.id)) {
-          state.answers[p.id] = {status:'unanswered'};
-          record('unanswered_next',p.id);
+        } else if (['single','multi','text','group'].includes(p.kind)) {
+          for (const item of questionItems(p)) if (!answer(item.id)) {
+            state.answers[item.id] = {status:'unanswered'};
+            record('unanswered_next',item.id);
+          }
         }
         next();
       }, 'primary'));

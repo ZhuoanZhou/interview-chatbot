@@ -95,10 +95,10 @@ demo=has('demo_consent','Yes')
 page('demo_video',3,'Demonstration','video',when=demo,source=235,
      help='You can pause the video, watch it again, or skip it.',next_label='I have watched the demonstration')
 watched=all_of(demo,has('demo_video','watched'))
-ratings=['Very useful','Somewhat useful','Neutral','Not very useful','Not useful at all','N/A']
+ratings=['Very useful','Somewhat useful','Neutral','Not very useful','Not useful at all','Not sure']
 for number,i in enumerate(range(244,255,2),1):
-    page(f'feature_{number}',3,'How useful do you think this part of the system would be?',options=ratings,source=[240,i],
-         item=txt(i),group=f'Parts of the system · {number} of 6',when=watched)
+    page(f'feature_{number}',3,'How useful do you think each part of the system would be?',options=ratings,source=[240,i],
+         item=txt(i),group='Q1 · Parts of the system',rating_group='features',when=watched)
 page('candidates_compare',3,txt(257).removeprefix('Q2. '),options=opts(*range(259,265)),source=257,when=watched)
 page('candidate_missing',3,txt(266).removeprefix('Q3. '),'multi',opts(*range(268,274)),266,when=watched,exclusive=['Not sure'])
 page('failed_repair',3,txt(275).removeprefix('Q4. '),options=opts(*range(277,287)),source=275,when=watched)
@@ -109,8 +109,8 @@ page('difficulty',3,txt(296).removeprefix('Q5. '),'multi',opts(*range(298,308)),
 page('look_when',3,txt(309).removeprefix('Q6. '),'multi',opts(*range(311,319)),309,when=watched,
      exclusive=['I would not want to look at the text','I would only use this for messages or writing','Not sure'])
 for number,i in enumerate(range(324,337,2),1):
-    page(f'situation_{number}',3,'How useful do you think the process could be in this situation?',options=ratings,source=[320,i],
-         item=txt(i),group=f'Situations · {number} of 7',when=watched)
+    page(f'situation_{number}',3,'How useful do you think the process could be in each situation?',options=ratings,source=[320,i],
+         item=txt(i),group='Q7 · Situations',rating_group='situations',when=watched)
 page('partner_expected',3,txt(339).removeprefix('Q8. '),'multi',opts(*range(341,348)),339,
      when=all_of(watched,story),exclusive=['Not sure'])
 page('closing',4,txt(351).removeprefix('Q1. '),'text',source=351,help='A few words are enough. You can also leave this blank.')

@@ -34,9 +34,15 @@ in the September 22 guide. Study purposes and researcher instructions are not
 shown. Every sourced screen has a zero-based `source_paragraphs` locator, and the
 schema records the source document SHA-256. The Word file remains unchanged.
 
-- Each Other choice reveals an optional text area, including the two story fields.
-- Both usefulness tables are presented one item per screen with the original six
-  rating choices (five usefulness levels and N/A). All five scenarios remain.
+- Each Other choice is last, with an optional text area always visible beside or
+  below it, including the two story fields. Typing selects Other automatically;
+  deselecting it clears its explanation (the interaction log retains the edits).
+- Part 3 Q1 and Q7 each appear on one screen, with a rating row per statement:
+  five usefulness levels and Not sure. The original per-item answer IDs remain
+  unchanged, so existing sessions and exports stay compatible. Older sessions
+  resume on the combined question; historical N/A responses are preserved and
+  labeled until changed. Clear answer and Skip apply to the whole rating set;
+  Next preserves completed rows and records unanswered rows. All five scenarios remain.
 - The post-demo section depends on agreeing to and confirming the demo.
   Skipping/unavailable video does not count as watching it.
 - Repair outcome, second strategy, stopping, detection cues, and retry questions
@@ -49,7 +55,7 @@ schema records the source document SHA-256. The Word file remains unchanged.
 - The survey uses the full available width below Streamlit's header, with the
   participant-ID sidebar initially collapsed (open it from the top-left control).
   Answer choices use two or three columns on wider screens; story fields and
-  scenario context sit side by side. Expanded Other fields use spare side space.
+  scenario context sit side by side. Other fields follow the option grid.
   Navigation, clear-answer, and pause/end controls remain
   in a reserved bottom panel and share a row on desktop.
 - The question scrollbar and “Show more below” button are removed. Compact
@@ -60,7 +66,7 @@ schema records the source document SHA-256. The Word file remains unchanged.
   visual viewport resizing; actual mobile keyboard behavior should be checked on
   participants' target devices before the study.
 - If no story is supplied, its follow-ups and the later specific-partner question
-  are skipped. Each rating is shown separately for easier selection.
+  are skipped.
 
 The scenario introduction is preserved from the supplied document. It describes
 the device as showing what the partner understood; this is a hypothetical premise,

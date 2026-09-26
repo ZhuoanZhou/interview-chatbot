@@ -47,16 +47,17 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
   const app=page.frameLocator('#app');
   await app.locator('#question-title').waitFor();return app;
  }
- // Every Other in the schema must reveal optional input, also for radio and grouped fields.
+ // Other input is always visible; typing selects Other and deselection clears it.
  let app=await start('aac');
- await app.getByLabel('Other',{exact:true}).check();
+ assert.equal(await app.getByRole('textbox').count(),1);
  await app.getByRole('textbox').fill('communication board');
+ assert(await app.getByLabel('Other',{exact:true}).isChecked());
  await app.getByLabel('No',{exact:true}).check();
- assert.equal(await app.getByRole('textbox').count(),0);
+ assert.equal(await app.getByRole('textbox').inputValue(),'');
  await app.getByLabel('Other',{exact:true}).check();
  assert.equal(await app.getByRole('textbox').inputValue(),'');
  await app.getByRole('button',{name:'Clear answer',exact:true}).click();
- assert.equal(await app.getByRole('textbox').count(),0);
+ assert.equal(await app.getByRole('textbox').count(),1);
  // Editing, idle time, visibility changes and draft refresh must not upload.
  await page.waitForTimeout(3300);
  assert.equal(await page.evaluate(()=>attempts.length),0,'Choices and clearing stay local');
@@ -155,10 +156,11 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  await app.getByRole('button',{name:'Next',exact:true}).click();
  await app.getByRole('button',{name:'I have watched the demonstration',exact:true}).click();
  for(let i=1;i<=6;i++){
-  await app.getByText('Parts of the system · '+i+' of 6',{exact:true}).waitFor();
-  await app.getByLabel('Somewhat useful',{exact:true}).check();
-  await app.getByRole('button',{name:'Next',exact:true}).click();
+  await app.locator(`input[name="feature_${i}"][value="Somewhat useful"]`).check();
  }
+ assert.equal(await app.locator('.rating-row').count(),6);
+ assert.equal(await app.locator('.rating-row input:checked').count(),6);
+ await app.getByRole('button',{name:'Next',exact:true}).click();
  await app.getByLabel('Usually easier',{exact:true}).check();
  await app.getByRole('button',{name:'Next',exact:true}).click();
  await app.getByLabel('Other',{exact:true}).check();
@@ -171,10 +173,11 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  await app.getByRole('button',{name:'Skip',exact:true}).click();
  await app.getByRole('button',{name:'Skip',exact:true}).click();
  for(let i=1;i<=7;i++){
-  await app.getByText('Situations · '+i+' of 7',{exact:true}).waitFor();
-  await app.getByLabel('N/A',{exact:true}).check();
-  await app.getByRole('button',{name:'Next',exact:true}).click();
+  await app.locator(`input[name="situation_${i}"][value="Not sure"]`).check();
  }
+ assert.equal(await app.locator('.rating-row').count(),7);
+ assert.equal(await app.locator('.rating-row input:checked').count(),7);
+ await app.getByRole('button',{name:'Next',exact:true}).click();
  await app.getByRole('textbox').fill('done');
  await app.getByRole('button',{name:'Next',exact:true}).click();
  await app.getByRole('button',{name:'Submit survey',exact:true}).click();
@@ -183,8 +186,46 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  const final=batches.at(-1).state;
  assert.equal(final.answers.retry_count.choices[0],'Two more');
  assert.equal(final.answers.feature_6.choices[0],'Somewhat useful');
- assert.equal(final.answers.situation_7.choices[0],'N/A');
+ assert.equal(final.answers.situation_7.choices[0],'Not sure');
  assert.equal(final.status,'submitted');
+ // Resume from an old item, retain historical values, and navigate the whole set.
+ const watched={demo_consent:{status:'answered',choices:['Yes']},demo_video:{status:'answered',choices:['watched']}};
+ app=await start('feature_4',{...watched,feature_4:{status:'answered',choices:['N/A']}});
+ assert.equal(await app.locator('.rating-row').count(),6);
+ await app.getByText('Previously answered: N/A. Choose a rating to change it.',{exact:true}).waitFor();
+ await app.locator('input[name="feature_1"][value="Very useful"]').check();
+ await app.getByRole('button',{name:'Next',exact:true}).click();
+ await page.waitForFunction(()=>batches.length===1);
+ let resumed=await page.evaluate(()=>batches[0].state.answers);
+ assert.equal(resumed.feature_4.choices[0],'N/A');
+ assert.equal(resumed.feature_1.choices[0],'Very useful');
+ assert.equal(resumed.feature_2.status,'unanswered');
+ await app.getByRole('button',{name:'Back',exact:true}).click();
+ assert.equal(await app.locator('.rating-row').count(),6);
+ await app.locator('input[name="feature_4"][value="Not sure"]').check();
+ assert.equal(await app.locator('.legacy-rating').count(),0);
+ await app.getByRole('button',{name:'Clear answer',exact:true}).click();
+ assert.equal(await app.locator('.rating-row input:checked').count(),0);
+ await app.getByRole('button',{name:'Skip',exact:true}).click();
+ await page.waitForFunction(()=>batches.length===3);
+ resumed=await page.evaluate(()=>batches.at(-1).state.answers);
+ for(let i=1;i<=6;i++)assert.equal(resumed['feature_'+i].status,'skipped');
+ // Typing Other in one story group must not change the other group.
+ app=await start('story');
+ await app.locator('fieldset').nth(0).getByRole('textbox').fill('a neighbour');
+ await app.locator('fieldset').nth(1).getByRole('textbox').fill('the park');
+ assert.equal(await app.locator('input:checked').count(),2);
+ await app.getByRole('button',{name:'Next',exact:true}).click();
+ await page.waitForFunction(()=>batches.length===1);
+ const story=await page.evaluate(()=>batches[0].state.answers.story);
+ assert.deepEqual(story.groups,{person:'Other',place:'Other'});
+ assert.deepEqual(story.other,{person:'a neighbour',place:'the park'});
+ // Typing Other respects exclusive answers on multiple-choice questions.
+ app=await start('text_input');
+ await app.getByLabel('I do not enter text',{exact:true}).check();
+ await app.getByRole('textbox').fill('eye tracking');
+ assert.equal(await app.getByLabel('I do not enter text',{exact:true}).isChecked(),false);
+ assert(await app.getByLabel('Other',{exact:true}).isChecked());
  // Ending early requires confirmation and preserves answers when cancelled.
  app=await start('closing');
  await app.getByRole('textbox').fill('Please keep this answer');
