@@ -220,14 +220,20 @@
     if (!host) return;
     const a = answer(p.id);
     if (host.firstChild) return;
-    host.append(textarea(p, `${p.id}.${key}`, a?.other?.[key], (value, event) => {
+    const field = textarea(p, `${p.id}.${key}`, a?.other?.[key], (value, event) => {
       const current = answer(p.id);
       const selected = group ? current?.groups?.[group] === 'Other' : current?.choices?.includes('Other');
       if (!selected && !value.trim()) return;
       if (!selected && value.trim()) choicesChanged(p, group, 'Other', true, event, 'other_text');
       if (!state.answers[p.id]) return;
       state.answers[p.id].other ||= {}; state.answers[p.id].other[key] = value;
-    }, 'Other — tell us more if you would like'));
+    }, 'Other details (optional)');
+    field.querySelector('label').className = 'other-text-label';
+    field.querySelector('.help').remove();
+    const input = field.querySelector('textarea');
+    input.removeAttribute('aria-describedby');
+    input.rows = 2; input.placeholder = 'Please specify';
+    host.append(field);
   }
   function optionList(p, options, group) {
     const container = document.createElement('div');
@@ -243,6 +249,11 @@
       input.checked = group ? answer(p.id)?.groups?.[group] === v : !!answer(p.id)?.choices?.includes(v);
       input.addEventListener('change', e => choicesChanged(p, group, v, input.checked, e));
       label.append(input, text('span', v));
+      if (v === 'Other') {
+        input.setAttribute('aria-label', 'Other');
+        const optional = text('small', '(optional details)');
+        optional.setAttribute('aria-hidden', 'true'); label.append(optional);
+      }
       (v === 'Other' ? otherRow : list).append(label);
     });
     container.append(list);

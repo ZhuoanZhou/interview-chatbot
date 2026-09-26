@@ -34,9 +34,10 @@ in the September 22 guide. Study purposes and researcher instructions are not
 shown. Every sourced screen has a zero-based `source_paragraphs` locator, and the
 schema records the source document SHA-256. The Word file remains unchanged.
 
-- Each Other choice is last, with an optional text area always visible beside or
-  below it, including the two story fields. Typing selects Other automatically;
-  deselecting it clears its explanation (the interaction log retains the edits).
+- Each Other choice is last, in a full-width bordered block with an optional text
+  area always visible below its label, including the two story fields. Typing
+  selects Other automatically; deselecting it clears its explanation (the
+  interaction log retains the edits).
 - Part 3 Q1 and Q7 each appear on one screen, with a rating row per statement:
   five usefulness levels and Not sure. The original per-item answer IDs remain
   unchanged, so existing sessions and exports stay compatible. Older sessions

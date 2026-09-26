@@ -57,6 +57,10 @@ window.start=(schema,pageId,answers)=>{args={schema,record:{revision:0,state:{pa
      const other=await container.locator('.other-row').boundingBox();
      const grid=await container.locator('.options').boundingBox();
      assert(other.y>=grid.y+grid.height,'Other follows all other choices');
+     const label=await container.locator('.other-row>.choice').boundingBox();
+     const textbox=await container.getByRole('textbox').boundingBox();
+     assert(textbox.y>=label.y+label.height,'Other text box is stacked below its label');
+     assert(Math.abs(textbox.x-label.x)<2,'Other label and text box share a left edge');
     }
     if(size.width===1366&&['story','s1_action','feature_1','situation_1'].includes(q.id))await p.screenshot({path:`tmp/survey-qa/wide-${q.id}.png`});
    }

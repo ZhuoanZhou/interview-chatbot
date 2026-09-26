@@ -85,13 +85,16 @@ video{max-height:calc(100dvh - 240px)}
   footer{margin-top:6px;padding-top:6px}
 }
 
-/* Other always follows the entire option grid, with its explanation beside it. */
-.other-row{display:grid;grid-template-columns:minmax(130px,1fr) minmax(0,3fr);gap:12px;align-items:start}
-.other-row>.choice{margin-top:0}
+/* One full-width Other option, with an always-visible field below its label. */
+.other-row{display:grid;grid-template-columns:1fr;gap:4px;padding:8px;border:2px solid #d6e1e3;border-radius:10px;background:#fff}
+.other-row:has(input:checked){border-color:#16736f;background:#eaf5f3}
+.other-row>.choice{margin:0;padding:0;border:0;border-radius:0;min-height:32px;background:transparent}
+.other-row>.choice span{flex:0 0 auto}
+.other-row>.choice small{font-size:.78rem;color:#49626b}
 .other-row .other-wrap{margin:0}
-.other-row .other-wrap label{font-size:.82rem;margin-bottom:4px}
-.other-row .help{font-size:.75rem}
-.other-row textarea{height:58px;min-height:58px}
+.other-row .other-text-label{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.other-row textarea{height:76px;min-height:76px}
+.other-row textarea::placeholder{color:#49626b;opacity:1}
 /* One screen per rating question; each statement has its own radio group. */
 .with-ratings .group-label{margin-bottom:4px}
 .rating-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.6fr);gap:12px;align-items:center;padding:8px 0;border-top:1px solid #dce5e7}
@@ -104,8 +107,8 @@ video{max-height:calc(100dvh - 240px)}
   .rating-row{padding:3px 0}
   .rating-row .choice{min-height:44px;padding:2px 6px}
 }
-@media(min-width:1000px) and (max-height:700px){
-  .other-row textarea{height:46px;min-height:46px}
+@media(min-width:1200px){
+  .with-scenario .options{grid-template-columns:repeat(3,minmax(0,1fr))}
 }
 @media(max-width:999px){
   .rating-row{grid-template-columns:1fr;gap:8px;padding:12px 0}
@@ -113,6 +116,6 @@ video{max-height:calc(100dvh - 240px)}
   .rating-row .choice{font-size:.9rem}
 }
 @media(max-width:520px){
-  .other-row{grid-template-columns:1fr;gap:8px}
+  .other-row>.choice{min-height:44px}
   #page-content.with-ratings .options{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
