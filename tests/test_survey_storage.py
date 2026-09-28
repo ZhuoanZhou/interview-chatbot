@@ -99,6 +99,21 @@ class StorageTests(unittest.TestCase):
         self.assertNotIn('Notes to myself',json.dumps(pages))
         self.assertLess(max(i for p in pages for i in p.get('source_paragraphs',[0])),354)
 
+    def test_post_demo_examples_follow_video_and_reuse_scenarios(self):
+        pages=SCHEMA['pages'];ids=[p['id'] for p in pages]
+        edits=[p for p in pages if p['kind']=='edit']
+        self.assertEqual([p['id'] for p in edits],[f'e{i}_edit' for i in range(1,6)])
+        start=ids.index('demo_video')+1
+        self.assertEqual(ids[start:start+5],[p['id'] for p in edits])
+        self.assertEqual(ids[start+5],'feature_1')
+        watched=next(p for p in pages if p['id']=='feature_1')['when']
+        for number,page in enumerate(edits,1):
+            scenario=next(p for p in pages if p['id']==f's{number}_action')['scenario']
+            self.assertEqual(page['when'],watched)
+            self.assertEqual(page['title'],scenario['title'])
+            self.assertEqual(page['meant'],scenario['meant'])
+            self.assertEqual('“'+page['transcript']+'”',scenario['shown'])
+
     def test_drive_retry_after_uncertain_upload_reuses_saved_batch(self):
         drive=object.__new__(DriveStore)
         drive.service=MagicMock()

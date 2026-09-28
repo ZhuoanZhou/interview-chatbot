@@ -290,6 +290,7 @@
     page.classList.toggle('with-scenario', !!p.scenario);
     page.classList.toggle('with-groups', p.kind === 'group');
     page.classList.toggle('with-ratings', !!p.rating_group);
+    page.classList.toggle('with-edit', p.kind === 'edit');
     if (p.group) page.append(text('p', p.group, 'group-label'));
     if (p.scenario) {
       const box = document.createElement('section'); box.className = 'scenario';
@@ -334,6 +335,22 @@
       }, 'Your answer'));
     } else if (p.kind === 'video') {
       const host = document.createElement('div'); host.id = 'video-host'; page.append(host); mountVideo();
+    } else if (p.kind === 'edit') {
+      // Post-demonstration example: the participant may edit the transcript.
+      // The shared textarea helper records keys, input deltas, focus and composition.
+      const task = document.createElement('section'); task.className = 'edit-task';
+      task.append(text('h2', 'Conversation context'), text('p', p.situation, 'context'));
+      const meant = document.createElement('div'); meant.className = 'meant';
+      meant.append(text('h3', 'What you meant to say'), text('p', p.meant));
+      task.append(meant);
+      const field = textarea(p, p.id, answer(p.id)?.text ?? p.transcript, value => {
+        state.answers[p.id] = {status: 'answered', text: value, original: p.transcript, edited: value !== p.transcript};
+      }, 'Transcript');
+      field.className = 'transcript-wrap';
+      const label = field.querySelector('label'); label.className = 'transcript-label';
+      const help = field.querySelector('.help'); help.textContent = 'You can change the text below, or leave it as it is.';
+      label.after(help);
+      task.append(field); page.append(task);
     }
     if (['single', 'multi', 'group', 'text'].includes(p.kind)) nav.append(button('Clear answer', () => {
       for (const item of questionItems(p)) {
@@ -341,6 +358,10 @@
         record('clear_answer', item.id, {previous});
       }
       prune(); render();
+    }, 'small'));
+    if (p.kind === 'edit') nav.append(button('Reset text', () => {
+      const previous = answer(p.id) || null; delete state.answers[p.id];
+      record('transcript_reset', p.id, {previous}); render();
     }, 'small'));
     if (p.scenario) {
       const scenario = page.querySelector('.scenario');
@@ -353,11 +374,18 @@
       const submit = button('Submit survey', () => finish('submitted'), 'primary'); submit.id = 'submit-survey'; nav.append(submit);
     } else {
       if (p.kind !== 'info') nav.append(button(p.kind === 'video' ? 'Skip demonstration' : 'Skip', skip));
+      if (p.counter) nav.append(text('span', p.counter, 'example-counter'));
       nav.append(button(p.next_label || 'Next', () => {
         if (p.kind === 'video') {
           if (!activeVideo || activeVideo.readyState < 2 || activeVideo.error) return;
           state.answers[p.id] = {status: 'answered', choices: ['watched']};
           record('demo_confirmed', p.id);
+        } else if (p.kind === 'edit') {
+          // Leaving the transcript as it is counts as an answer.
+          if (answer(p.id)?.status !== 'answered') {
+            state.answers[p.id] = {status: 'answered', text: p.transcript, original: p.transcript, edited: false};
+            record('transcript_unchanged', p.id);
+          }
         } else if (['single','multi','text','group'].includes(p.kind)) {
           for (const item of questionItems(p)) if (!answer(item.id)) {
             state.answers[item.id] = {status:'unanswered'};

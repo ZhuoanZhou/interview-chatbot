@@ -1087,6 +1087,171 @@
       ]
     },
     {
+      "id": "e1_edit",
+      "section": 3,
+      "title": "Example 1 — At a pharmacy",
+      "kind": "edit",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "situation": "You are at a pharmacy counter. You do not know the staff member, and people are waiting behind you.",
+      "meant": "“I’m picking up the prescription for Mara Klein.”",
+      "transcript": "I’m picking up the prescription for Mark Line.",
+      "counter": "Example 1 of 5",
+      "next_label": "Next example",
+      "source_paragraphs": [
+        179,
+        180,
+        181,
+        182
+      ]
+    },
+    {
+      "id": "e2_edit",
+      "section": 3,
+      "title": "Example 2 — Asking for directions",
+      "kind": "edit",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "situation": "You are asking someone in a shopping mall for directions.",
+      "meant": "“Can you tell me where the elevator is?”",
+      "transcript": "Can you tell me there the letter of us?",
+      "counter": "Example 2 of 5",
+      "next_label": "Next example",
+      "source_paragraphs": [
+        184,
+        185,
+        186,
+        187
+      ]
+    },
+    {
+      "id": "e3_edit",
+      "section": 3,
+      "title": "Example 3 — Talking at home",
+      "kind": "edit",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "situation": "You are talking with your partner or a family member.",
+      "meant": "“My appointment is on Tuesday morning.”",
+      "transcript": "My appointment is on Tuesday in the morning.",
+      "counter": "Example 3 of 5",
+      "next_label": "Next example",
+      "source_paragraphs": [
+        189,
+        190,
+        191,
+        192
+      ]
+    },
+    {
+      "id": "e4_edit",
+      "section": 3,
+      "title": "Example 4 — Ordering food",
+      "kind": "edit",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "situation": "You are ordering food at a counter.",
+      "meant": "“No peanuts, please—I’m allergic.”",
+      "transcript": "Some peanuts, please, I’m a little sick.",
+      "counter": "Example 4 of 5",
+      "next_label": "Next example",
+      "source_paragraphs": [
+        194,
+        195,
+        196,
+        197
+      ]
+    },
+    {
+      "id": "e5_edit",
+      "section": 3,
+      "title": "Example 5 — Talking with a friend",
+      "kind": "edit",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "situation": "You are telling a friend how you feel about something they did.",
+      "meant": "“I’m proud of you, that was a big deal.”",
+      "transcript": "I’m crowded too, that was a big deal.",
+      "counter": "Example 5 of 5",
+      "next_label": "Next",
+      "source_paragraphs": [
+        199,
+        200,
+        201,
+        202
+      ]
+    },
+    {
       "id": "feature_1",
       "section": 3,
       "title": "How useful do you think each part of the system would be?",

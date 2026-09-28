@@ -73,6 +73,22 @@ The scenario introduction is preserved from the supplied document. It describes
 the device as showing what the partner understood; this is a hypothetical premise,
 not a factual claim about ASR capability. Review this wording before piloting.
 
+## Post-demonstration editing examples
+
+Right after the demonstration (only for participants who agreed to watch it and
+confirmed watching), the five Part 2 examples return as `e1_edit`–`e5_edit`. Each
+screen shows the conversation context and what the participant meant to say, and an
+editable transcript pre-filled with the misrecognized text. No question follows the
+edit; "Next example" moves on. These screens are not in the Word guide; they are
+added by `scripts/build_survey_schema.py` from the same example text, so a rebuild
+keeps them. The Part 2 examples are unchanged.
+
+The answer stores the final `text`, the `original` transcript, and `edited`
+(whether they differ). Pressing Next without editing records the transcript as left
+unchanged (`transcript_unchanged` event); Skip records `skipped`; "Reset text"
+restores the original (`transcript_reset` event). Keystrokes, input deltas, focus and
+composition are logged by the same text-area code as every other text field.
+
 ## Demonstration
 
 The app reuses the previous app's Drive video ID. Override it with

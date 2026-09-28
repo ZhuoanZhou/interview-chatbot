@@ -112,6 +112,7 @@ const path = require('node:path');
   assert.equal(final.state.answers.people.other.other,'friend');
   assert.equal(final.state.answers.asr_stopped,undefined);
   assert.equal(final.state.answers.feature_1,undefined);
+  assert.equal(final.state.answers.e1_edit,undefined);
   assert.equal(final.state.answers.s1_words.text,'Mara Klein');
   assert(events.some(e=>e.type==='text_input' && e.deleted==='d'));
   assert(events.some(e=>e.type==='text_input' && e.input_type==='historyUndo'));

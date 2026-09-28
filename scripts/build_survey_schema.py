@@ -77,11 +77,13 @@ page('pretended',1,txt(164),options=['Yes','No','Not sure'],source=164)
 page('tell_when',1,txt(166),options=opts(*range(168,173)),source=166)
 page('scenarios_intro',2,'Example situations','info',source=177,paragraphs=[txt(177),
      'For each example, choose what you would do. You can skip any example.'])
+scenarios=[]
 for number, start in enumerate([179,184,189,194,199],1):
     prefix=f's{number}'
     scenario={'title':txt(start),'situation':txt(start+1),
               'meant':txt(start+2).split(':',1)[1].strip(),
               'shown':txt(start+3).split(':',1)[1].strip()}
+    scenarios.append((start,scenario))
     page(prefix+'_action',2,'What would you do first in this situation?',options=opts(*range(207,217)),source=[start,205],scenario=scenario)
     edit=has(prefix+'_action','Change the text and show it')
     page(prefix+'_extent',2,'What would you change?',options=opts(*range(220,224)),source=218,when=edit,scenario=scenario)
@@ -95,6 +97,12 @@ demo=has('demo_consent','Yes')
 page('demo_video',3,'Demonstration','video',when=demo,source=235,
      help='You can pause the video, watch it again, or skip it.',next_label='I have watched the demonstration')
 watched=all_of(demo,has('demo_video','watched'))
+# After the demonstration, the same five examples return as editable transcripts
+# (added 2026-09 at the researcher's request; not a question in the Word guide).
+for number,(start,scenario) in enumerate(scenarios,1):
+    page(f'e{number}_edit',3,scenario['title'],'edit',source=list(range(start,start+4)),when=watched,
+         situation=scenario['situation'],meant=scenario['meant'],transcript=scenario['shown'].strip('“”"'),
+         counter=f'Example {number} of {len(scenarios)}',next_label='Next example' if number<len(scenarios) else 'Next')
 ratings=['Very useful','Somewhat useful','Neutral','Not very useful','Not useful at all','Not sure']
 for number,i in enumerate(range(244,255,2),1):
     page(f'feature_{number}',3,'How useful do you think each part of the system would be?',options=ratings,source=[240,i],

@@ -155,6 +155,31 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  await app.getByLabel('Yes',{exact:true}).check();
  await app.getByRole('button',{name:'Next',exact:true}).click();
  await app.getByRole('button',{name:'I have watched the demonstration',exact:true}).click();
+ // The five examples return with an editable transcript, before the ratings.
+ await app.getByRole('heading',{name:'Example 1 — At a pharmacy'}).waitFor();
+ assert(await app.getByText('Example 1 of 5',{exact:true}).isVisible());
+ assert(await app.getByText('What you meant to say',{exact:true}).isVisible());
+ let transcript=app.getByRole('textbox',{name:'Transcript'});
+ assert.equal(await transcript.inputValue(),'I’m picking up the prescription for Mark Line.');
+ await transcript.click();await transcript.press('End');
+ for(let i=0;i<'Mark Line.'.length;i++)await transcript.press('Backspace');
+ await transcript.pressSequentially('Mara Klein.',{delay:20});
+ await app.getByRole('button',{name:'Next example',exact:true}).click();
+ assert.equal(await app.getByRole('textbox',{name:'Transcript'}).inputValue(),'Can you tell me there the letter of us?');
+ await app.getByRole('button',{name:'Next example',exact:true}).click();
+ await app.getByRole('button',{name:'Skip',exact:true}).click();
+ await app.getByRole('textbox',{name:'Transcript'}).fill('No peanuts');
+ await app.getByRole('button',{name:'Reset text',exact:true}).click();
+ assert.equal(await app.getByRole('textbox',{name:'Transcript'}).inputValue(),'Some peanuts, please, I’m a little sick.');
+ await app.getByRole('button',{name:'Next example',exact:true}).click();
+ assert(await app.getByText('Example 5 of 5',{exact:true}).isVisible());
+ await app.getByRole('button',{name:'Back',exact:true}).click();
+ await app.getByRole('button',{name:'Back',exact:true}).click();
+ await app.getByRole('button',{name:'Back',exact:true}).click();
+ await app.getByRole('button',{name:'Back',exact:true}).click();
+ assert.equal(await app.getByRole('textbox',{name:'Transcript'}).inputValue(),'I’m picking up the prescription for Mara Klein.','Edits persist after Back');
+ for(let i=0;i<4;i++)await app.getByRole('button',{name:'Next example',exact:true}).click();
+ await app.getByRole('button',{name:'Next',exact:true}).click();
  for(let i=1;i<=6;i++){
   await app.locator(`input[name="feature_${i}"][value="Somewhat useful"]`).check();
  }
@@ -184,6 +209,18 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  await app.getByText('Your responses have been saved. You can now close this tab.').waitFor();
  batches=await page.evaluate(()=>batches);
  const final=batches.at(-1).state;
+ assert.deepEqual(final.answers.e1_edit,{status:'answered',text:'I’m picking up the prescription for Mara Klein.',original:'I’m picking up the prescription for Mark Line.',edited:true});
+ assert.equal(final.answers.e2_edit.edited,false);assert.equal(final.answers.e2_edit.status,'answered');
+ // Example 3 was skipped, then passed with Next on the way forward again: kept as it is.
+ assert.equal(final.answers.e3_edit.edited,false);
+ assert(batches.flatMap(b=>b.events).some(e=>e.field_id==='e3_edit'&&e.type==='skip'));
+ assert.equal(final.answers.e4_edit.text,'Some peanuts, please, I’m a little sick.');assert.equal(final.answers.e4_edit.edited,false);
+ assert.equal(final.answers.e5_edit.status,'answered');
+ const demoEvents=batches.flatMap(b=>b.events);
+ assert(demoEvents.some(e=>e.field_id==='e1_edit'&&e.type==='keydown'&&e.key==='Backspace'&&Number.isFinite(e.elapsed_ms)));
+ assert(demoEvents.some(e=>e.field_id==='e1_edit'&&e.type==='text_input'&&e.deleted==='.'));
+ assert(demoEvents.some(e=>e.field_id==='e4_edit'&&e.type==='transcript_reset'&&e.previous.text==='No peanuts'));
+ assert(demoEvents.some(e=>e.field_id==='e2_edit'&&e.type==='transcript_unchanged'));
  assert.equal(final.answers.retry_count.choices[0],'Two more');
  assert.equal(final.answers.feature_6.choices[0],'Somewhat useful');
  assert.equal(final.answers.situation_7.choices[0],'Not sure');
