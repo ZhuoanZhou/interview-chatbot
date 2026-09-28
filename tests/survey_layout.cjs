@@ -22,7 +22,9 @@ window.start=(schema,pageId,answers)=>{args={schema,record:{revision:0,state:{pa
   await live.getByRole('button',{name:'Start survey',exact:true}).click();
   await live.getByLabel('Other',{exact:true}).check();
   const box=await frame.boundingBox();
-  assert(box.width>1280,'Streamlit must use the available desktop width');
+  // The participant-ID panel is open by default; the survey fills the space beside it.
+  const main=await p.getByTestId('stMain').boundingBox();
+  assert(box.width>=main.width-64,'Streamlit must use the available desktop width');
   assert(box.y+box.height<=769,'Frame fits visible screen');
   await p.screenshot({path:'tmp/survey-qa/wide-live.png'});
   await p.route('http://127.0.0.1:8512/**',route=>{
@@ -55,14 +57,22 @@ window.start=(schema,pageId,answers)=>{args={schema,record:{revision:0,state:{pa
      assert.equal(labels.at(-1),'Other');
      assert(await container.getByRole('textbox').isVisible());
      const other=await container.locator('.other-row').boundingBox();
-     const grid=await container.locator('.options').boundingBox();
-     assert(other.y>=grid.y+grid.height,'Other follows all other choices');
+     if(await container.locator('.option-groups').count()){
+      // Grouped actions: Other shares the last line with Not sure, after every group.
+      assert.equal(await container.locator('.option-group').last().locator('.other-row').count(),1);
+      const groupCount=await container.locator('.option-group').count();
+      const lastGroup=await container.locator('.option-group').nth(groupCount-2).boundingBox();
+      assert(other.y>=lastGroup.y+lastGroup.height,'Other follows all grouped choices');
+     }else{
+      const grid=await container.locator('.options').boundingBox();
+      assert(other.y>=grid.y+grid.height,'Other follows all other choices');
+     }
      const label=await container.locator('.other-row>.choice').boundingBox();
      const textbox=await container.getByRole('textbox').boundingBox();
      assert(textbox.y>=label.y+label.height,'Other text box is stacked below its label');
      assert(Math.abs(textbox.x-label.x)<2,'Other label and text box share a left edge');
     }
-    if(size.width===1366&&['story','s1_action','feature_1','situation_1'].includes(q.id))await p.screenshot({path:`tmp/survey-qa/wide-${q.id}.png`});
+    if(size.width===1366&&['story','s1_action','e1_action','e1_edit','edit_intro','feature_1','situation_1'].includes(q.id))await p.screenshot({path:`tmp/survey-qa/wide-${q.id}.png`});
    }
   }
   for(const size of [{width:390,height:844},{width:844,height:390},{width:390,height:420}]){

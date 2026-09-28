@@ -1,15 +1,17 @@
 """Demo delivery tests use fabricated bytes; no credentials or network access."""
+import threading
 import unittest
 from unittest.mock import MagicMock, patch
 
-from survey.media import credential_scope, demo_url, load_demo
+import survey.media as media
+from survey.media import clear_demo_cache, credential_scope, demo_url, load_demo, prefetch_demo
 from survey.storage import DriveStore
 
 
 class DemoTests(unittest.TestCase):
     def setUp(self):
-        load_demo.clear()
-        self.addCleanup(load_demo.clear)
+        clear_demo_cache()
+        self.addCleanup(clear_demo_cache)
 
     def test_demo_download_is_shared_between_participant_stores(self):
         first = MagicMock()
@@ -33,6 +35,43 @@ class DemoTests(unittest.TestCase):
         with self.assertRaises(OSError):
             load_demo('demo', 'account', store)
         self.assertEqual(load_demo('demo', 'account', store), b'recovered')
+
+    def test_background_prefetch_is_reused_on_the_demo_screen(self):
+        release = threading.Event()
+        background = MagicMock()
+        background.demo_bytes.side_effect = lambda file_id: release.wait(5) and b'prefetched'
+        prefetch_demo('demo', 'account', lambda: background)
+        prefetch_demo('demo', 'account', lambda: background)  # already loading: no second download
+        participant = MagicMock()
+        result = []
+        waiter = threading.Thread(target=lambda: result.append(load_demo('demo', 'account', participant)))
+        waiter.start()
+        release.set()
+        waiter.join(5)
+        self.assertEqual(result, [b'prefetched'])
+        background.demo_bytes.assert_called_once_with('demo')
+        participant.demo_bytes.assert_not_called()
+
+    def test_failed_prefetch_is_retried_on_the_demo_screen(self):
+        background = MagicMock()
+        background.demo_bytes.side_effect = OSError('unavailable')
+        prefetch_demo('demo', 'account', lambda: background)
+        for thread in threading.enumerate():
+            if thread.name == 'survey-demo-prefetch':
+                thread.join(5)
+        store = MagicMock()
+        store.demo_bytes.return_value = b'recovered'
+        self.assertEqual(load_demo('demo', 'account', store), b'recovered')
+
+    def test_cached_demo_expires_after_an_hour(self):
+        store = MagicMock()
+        store.demo_bytes.side_effect = [b'old', b'new']
+        with patch('survey.media.time.monotonic', return_value=1000.0):
+            self.assertEqual(load_demo('demo', 'account', store), b'old')
+        with patch('survey.media.time.monotonic', return_value=1000.0 + media.TTL_SECONDS - 1):
+            self.assertEqual(load_demo('demo', 'account', store), b'old')
+        with patch('survey.media.time.monotonic', return_value=1000.0 + media.TTL_SECONDS + 1):
+            self.assertEqual(load_demo('demo', 'account', store), b'new')
 
     def test_scope_changes_with_drive_credentials(self):
         config = dict(GDRIVE_CLIENT_ID='fake-id', GDRIVE_CLIENT_SECRET='fake-secret',

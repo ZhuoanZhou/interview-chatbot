@@ -53,8 +53,10 @@ schema records the source document SHA-256. The Word file remains unchanged.
 - All questions are skippable. Back, clear answer, pause/resume, and finish early
   are supported. No response is preselected. Single choices can be cleared.
 - Mutually exclusive options such as “Not sure” clear incompatible choices.
-- The survey uses the full available width below Streamlit's header, with the
-  participant-ID sidebar initially collapsed (open it from the top-left control).
+- The participant-ID side panel opens by default on computers and tablets
+  (Streamlit's `auto` setting keeps it collapsed on phones, where it would cover the
+  survey). Its show/hide arrow is always visible, not only on hover, and the first
+  screen tells participants where the ID is. The survey uses the remaining width.
   Answer choices use two or three columns on wider screens; story fields and
   scenario context sit side by side. Other fields follow the option grid.
   Navigation, clear-answer, and pause/end controls remain
@@ -73,28 +75,36 @@ The scenario introduction is preserved from the supplied document. It describes
 the device as showing what the partner understood; this is a hypothetical premise,
 not a factual claim about ASR capability. Review this wording before piloting.
 
-## Post-demonstration editing examples
+## "What would you do first?" and the post-demonstration examples
 
-Right after the demonstration (only for participants who agreed to watch it and
-confirmed watching), the five Part 2 examples return as `e1_edit`–`e5_edit`. Each
-screen shows the conversation context and what the participant meant to say, and an
-editable transcript pre-filled with the misrecognized text. No question follows the
-edit; "Next example" moves on. These screens are not in the Word guide; they are
-added by `scripts/build_survey_schema.py` from the same example text, so a rebuild
-keeps them.
+The choices for the ten example questions are grouped, one line per group
+(`option_groups` in the schema): Keep the text · Use my voice again · Fix the text ·
+Don't use the tool, then Not sure and Other on the last line. `options` still lists
+every choice. These replace the Word guide's flat list (September 2026 meeting).
 
-The Part 2 examples before the demonstration ask only "What would you do first?".
-Their follow-ups (What would you change? / Which words? / Why leave it?) were removed
-because the editable examples cover them. `retired_pages` in the schema sends a
-session saved on a removed screen back to its example. Answers already given to the
-removed questions stay in the saved records and `responses.json`, but no longer
-appear as rows in `answers.csv`.
+Part 2 examples (`s1_action`–`s5_action`) ask only this question. Their follow-ups
+(What would you change? / Which words? / Why leave it?) were removed; `retired_pages`
+in the schema sends a session saved on a removed screen back to its example. Answers
+already given to removed questions, or with the previous choice wording, stay in the
+saved records and `responses.json`; removed questions no longer appear as rows in
+`answers.csv`.
 
-The answer stores the final `text`, the `original` transcript, and `edited`
-(whether they differ). Pressing Next without editing records the transcript as left
-unchanged (`transcript_unchanged` event); Skip records `skipped`; "Reset text"
-restores the original (`transcript_reset` event). Keystrokes, input deltas, focus and
-composition are logged by the same text-area code as every other text field.
+Part 3 order, for participants who agreed to and confirmed watching the video:
+Q1 ratings, then an intro screen (`edit_intro`), then the five examples in two steps:
+
+1. `e1_action`–`e5_action`: the same grouped question as Part 2.
+2. `e1_edit`–`e5_edit`: only if they chose "Change the text" or "Delete it and type a
+   new message". The transcript is editable, pre-filled with the misrecognized text,
+   with a "Delete all" button to start over.
+
+The edit answer stores the final `text`, the `original` transcript, and `edited`.
+Next without editing records `unanswered`; keeping the text is the explicit choice
+"Continue with the text as it is". "Delete all" logs a `delete_all` event plus a
+`text_input` event with `input_type` `deleteAllButton`. Changing the choice to a
+non-editing one removes the edit answer (`answer_invalidated`). Keystrokes, input
+deltas, focus and composition use the same text-area logging as every other field.
+These screens are not in the Word guide; `scripts/build_survey_schema.py` generates
+them, so a rebuild keeps them. The remaining Part 3 questions follow the examples.
 
 ## Demonstration
 
@@ -104,9 +114,11 @@ readable alternative and `DEMO_CAPTIONS_PATH` points to a server-side WebVTT fil
 Configure captions/a transcript if the video does not already have usable captions.
 No demonstration transcript or captions have been invented.
 
-The demo is downloaded on its screen in 8 MB chunks, with transient-error retries,
-and cached across participants for one hour (keyed by file ID and Drive credentials).
-The first load after a server restart/cache expiry still waits for Drive. Failed
+The demo starts downloading in a background thread as soon as a participant starts
+or resumes the survey (with its own Drive client), in 8 MB chunks with transient-error
+retries, and is cached across participants for one hour (keyed by file ID and Drive
+credentials). The demo screen waits for a download already in progress rather than
+starting another, so it only waits for Drive if the download has not finished yet. Failed
 downloads are not cached. The browser receives a short Streamlit media URL rather
 than the entire video encoded into each survey message. This restores the old
 chatbot's cached media delivery and supports byte-range playback and seeking.

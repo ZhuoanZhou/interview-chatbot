@@ -142,3 +142,18 @@ nav .example-counter+.primary{margin-left:0}
   .meant{padding:10px 14px}
   nav .example-counter{flex-basis:100%;order:-1;margin:0;text-align:right}
 }
+/* "What would you do first?": one line per group of related actions. */
+.option-groups{display:grid;gap:6px;margin:10px 0}
+.option-group{display:grid;grid-template-columns:1fr;gap:4px}
+.option-group-label{margin:0;font-size:.8rem;font-weight:700;color:#376b71;line-height:1.25}
+#page-content .option-group .options{margin:0;grid-template-columns:1fr;gap:6px}
+.option-group .choice{min-height:48px;padding:6px 10px;font-size:.92rem;line-height:1.25}
+.option-group .other-row textarea{height:52px;min-height:52px}
+@media(min-width:720px){
+  .option-group{grid-template-columns:7.5rem minmax(0,1fr);align-items:center;gap:10px}
+  .option-group.unlabeled .options{grid-column:2}
+  #page-content .option-group .options{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .option-group .other-row.in-group{grid-column:span 2}
+}
+.transcript-wrap .delete-all{margin-top:10px}
+.option-group.unlabeled .choice{align-self:start}

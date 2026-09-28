@@ -77,6 +77,15 @@ page('pretended',1,txt(164),options=['Yes','No','Not sure'],source=164)
 page('tell_when',1,txt(166),options=opts(*range(168,173)),source=166)
 page('scenarios_intro',2,'Example situations','info',source=177,paragraphs=[txt(177),
      'For each example, choose what you would do. You can skip any example.'])
+# "What would you do first?" choices, regrouped in 2026-09 (meeting with Slobodan);
+# they replace the guide's flat list. Each group is shown on its own line.
+ACTION_GROUPS=[{'label':'Keep the text','options':['Continue with the text as it is']},
+               {'label':'Use my voice again','options':['Say it again the same way','Say it in a different way']},
+               {'label':'Fix the text','options':['Change the text','Delete it and type a new message']},
+               {'label':"Don't use the tool",'options':['Use my AAC device or board','Ask someone to help','Stop trying and move on']},
+               {'label':'','options':['Not sure']}]
+ACTION_OPTIONS=[o for g in ACTION_GROUPS[:4] for o in g['options']]+['Other','Not sure']
+EDIT_CHOICES=['Change the text','Delete it and type a new message']
 scenarios=[]
 for number, start in enumerate([179,184,189,194,199],1):
     prefix=f's{number}'
@@ -84,7 +93,8 @@ for number, start in enumerate([179,184,189,194,199],1):
               'meant':txt(start+2).split(':',1)[1].strip(),
               'shown':txt(start+3).split(':',1)[1].strip()}
     scenarios.append((start,scenario))
-    page(prefix+'_action',2,'What would you do first in this situation?',options=opts(*range(207,217)),source=[start,205],scenario=scenario)
+    page(prefix+'_action',2,'What would you do first in this situation?',options=ACTION_OPTIONS,source=[start,205],
+         scenario=scenario,option_groups=ACTION_GROUPS)
     # The guide's follow-ups (what/which words to change, why leave it) were removed
     # in 2026-09: the editable post-demonstration examples now cover them.
 page('break',2,'Take a break if you would like','info',paragraphs=[
@@ -94,16 +104,23 @@ demo=has('demo_consent','Yes')
 page('demo_video',3,'Demonstration','video',when=demo,source=235,
      help='You can pause the video, watch it again, or skip it.',next_label='I have watched the demonstration')
 watched=all_of(demo,has('demo_video','watched'))
-# After the demonstration, the same five examples return as editable transcripts
-# (added 2026-09 at the researcher's request; not a question in the Word guide).
-for number,(start,scenario) in enumerate(scenarios,1):
-    page(f'e{number}_edit',3,scenario['title'],'edit',source=list(range(start,start+4)),when=watched,
-         situation=scenario['situation'],meant=scenario['meant'],transcript=scenario['shown'].strip('“”"'),
-         counter=f'Example {number} of {len(scenarios)}',next_label='Next example' if number<len(scenarios) else 'Next')
 ratings=['Very useful','Somewhat useful','Neutral','Not very useful','Not useful at all','Not sure']
 for number,i in enumerate(range(244,255,2),1):
     page(f'feature_{number}',3,'How useful do you think each part of the system would be?',options=ratings,source=[240,i],
          item=txt(i),group='Q1 · Parts of the system',rating_group='features',when=watched)
+# After Q1, the same five examples return (added 2026-09; not in the Word guide).
+# Each asks what they would do; only a "Fix the text" choice opens the editable transcript.
+page('edit_intro',3,'Examples with the tool','info',when=watched,paragraphs=[
+    "Now imagine you are using this tool. For each example you'll see what you meant to say and what the tool heard. "
+    "Tell us what you would do. If you'd fix the text, you can try it. You don't need to match the sentence exactly."])
+for number,(start,scenario) in enumerate(scenarios,1):
+    counter=f'Example {number} of {len(scenarios)}'
+    page(f'e{number}_action',3,'What would you do first in this situation?',options=ACTION_OPTIONS,
+         source=list(range(start,start+4)),when=watched,scenario=scenario,counter=counter,option_groups=ACTION_GROUPS)
+    page(f'e{number}_edit',3,scenario['title'],'edit',source=list(range(start,start+4)),
+         when=all_of(watched,has(f'e{number}_action',*EDIT_CHOICES)),
+         situation=scenario['situation'],meant=scenario['meant'],transcript=scenario['shown'].strip('“”"'),
+         counter=counter,next_label='Next example' if number<len(scenarios) else 'Next')
 page('candidates_compare',3,txt(257).removeprefix('Q2. '),options=opts(*range(259,265)),source=257,when=watched)
 page('candidate_missing',3,txt(266).removeprefix('Q3. '),'multi',opts(*range(268,274)),266,when=watched,exclusive=['Not sure'])
 page('failed_repair',3,txt(275).removeprefix('Q4. '),options=opts(*range(277,287)),source=275,when=watched)

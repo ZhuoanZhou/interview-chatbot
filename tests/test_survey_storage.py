@@ -1,4 +1,5 @@
 import json
+import re
 import tempfile
 import unittest
 import uuid
@@ -99,20 +100,34 @@ class StorageTests(unittest.TestCase):
         self.assertNotIn('Notes to myself',json.dumps(pages))
         self.assertLess(max(i for p in pages for i in p.get('source_paragraphs',[0])),354)
 
-    def test_post_demo_examples_follow_video_and_reuse_scenarios(self):
-        pages=SCHEMA['pages'];ids=[p['id'] for p in pages]
-        edits=[p for p in pages if p['kind']=='edit']
-        self.assertEqual([p['id'] for p in edits],[f'e{i}_edit' for i in range(1,6)])
-        start=ids.index('demo_video')+1
-        self.assertEqual(ids[start:start+5],[p['id'] for p in edits])
-        self.assertEqual(ids[start+5],'feature_1')
-        watched=next(p for p in pages if p['id']=='feature_1')['when']
-        for number,page in enumerate(edits,1):
-            scenario=next(p for p in pages if p['id']==f's{number}_action')['scenario']
-            self.assertEqual(page['when'],watched)
-            self.assertEqual(page['title'],scenario['title'])
-            self.assertEqual(page['meant'],scenario['meant'])
-            self.assertEqual('“'+page['transcript']+'”',scenario['shown'])
+    def test_post_demo_examples_follow_q1_in_two_steps(self):
+        pages=SCHEMA['pages'];ids=[p['id'] for p in pages];P={p['id']:p for p in pages}
+        watched=P['feature_1']['when']
+        start=ids.index('feature_6')+1
+        expected=['edit_intro']+[f'e{n}_{k}' for n in range(1,6) for k in ('action','edit')]
+        self.assertEqual(ids[start:start+11],expected)
+        self.assertEqual(ids[start+11],'candidates_compare')
+        self.assertEqual(P['edit_intro']['when'],watched)
+        self.assertIn("You don't need to match the sentence exactly.",P['edit_intro']['paragraphs'][0])
+        for n in range(1,6):
+            action,edit,part2=P[f'e{n}_action'],P[f'e{n}_edit'],P[f's{n}_action']
+            self.assertEqual(action['when'],watched)
+            self.assertEqual(action['scenario'],part2['scenario'])
+            self.assertEqual(action['options'],part2['options'])
+            self.assertEqual(edit['when'],{'all':[watched,{'question':f'e{n}_action',
+                'values':['Change the text','Delete it and type a new message']}]})
+            self.assertEqual('“'+edit['transcript']+'”',part2['scenario']['shown'])
+
+    def test_action_choices_are_grouped_on_separate_lines(self):
+        for page in SCHEMA['pages']:
+            if not re.fullmatch(r'[se][1-5]_action',page['id']):
+                continue
+            groups=page['option_groups']
+            self.assertEqual([g['label'] for g in groups],
+                ['Keep the text','Use my voice again','Fix the text',"Don't use the tool",''])
+            grouped=[o for g in groups for o in g['options']]
+            self.assertEqual(sorted(grouped+['Other']),sorted(page['options']))
+            self.assertEqual(len(grouped),len(set(grouped)))
 
     def test_pre_demo_examples_have_no_follow_ups_and_old_screens_resume(self):
         ids={p['id'] for p in SCHEMA['pages']}

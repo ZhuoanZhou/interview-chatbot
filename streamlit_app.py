@@ -18,6 +18,7 @@ pa.set_memory_pool(pa.system_memory_pool())
 
 import streamlit as st
 import streamlit.components.v1 as components
+import survey.media as _media
 import survey.storage as _storage
 
 # Cloud can rerun this entry point during a Git update while retaining imported
@@ -25,8 +26,11 @@ import survey.storage as _storage
 if not all(hasattr(_storage, name) for name in ('normalize_access', 'new_participant_id')):
     importlib.invalidate_caches()
     importlib.reload(_storage)
+if not hasattr(_media, 'prefetch_demo'):
+    importlib.invalidate_caches()
+    importlib.reload(_media)
 from survey.storage import DriveStore, LocalStore, normalize_access, new_participant_id
-from survey.media import credential_scope, load_demo, demo_url
+from survey.media import credential_scope, load_demo, demo_url, prefetch_demo
 
 ROOT = Path(__file__).resolve().parent
 SCHEMA = json.loads((ROOT / 'survey/schema.json').read_text(encoding='utf-8'))
@@ -34,7 +38,7 @@ PREVIEW = os.environ.get('SURVEY_PREVIEW') == '1'
 KEYS = ['GDRIVE_FOLDER_ID','GDRIVE_CLIENT_ID','GDRIVE_CLIENT_SECRET','GDRIVE_REFRESH_TOKEN']
 DEFAULT_DEMO_ID = '1FCfzZslMnuyQAPhcZoiACrx0sWaYskxV'
 survey_component = components.declare_component('fixed_communication_survey', path=str(ROOT/'survey/frontend'))
-st.set_page_config(page_title='Communication experiences survey',page_icon='💬',layout='wide',initial_sidebar_state='collapsed')
+st.set_page_config(page_title='Communication experiences survey',page_icon='💬',layout='wide',initial_sidebar_state='auto')
 st.markdown('''<style>
  [data-testid="stAppViewContainer"]{background:#f5f8f8}
  .block-container{padding-top:1rem;max-width:none;padding-left:1rem;padding-right:1rem}
@@ -58,6 +62,11 @@ st.markdown('''<style>
    min-height:60px;height:auto;padding:12px 16px;white-space:normal}
  [data-testid="stMain"] [data-testid="stTabs"] [role="tab"] p{
    font-size:20px;white-space:normal;text-align:center}
+ /* Keep the participant-ID panel's show/hide arrows visible, not only on hover. */
+ [data-testid="stSidebarCollapseButton"]{visibility:visible!important;opacity:1!important}
+ [data-testid="stSidebarCollapseButton"] button,[data-testid="stExpandSidebarButton"]{
+   width:40px;height:40px;color:#126d68!important;background:#fff!important;
+   border:1px solid #7caaa5!important;border-radius:8px}
  [data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p{font-size:18px}
  [data-testid="stSidebar"] [data-testid="stCaptionContainer"] p{font-size:16px;line-height:1.5}
  [data-testid="stSidebar"] [data-testid="stCode"] code{font-size:18px}
@@ -128,6 +137,11 @@ if 'survey_record' not in st.session_state:
 
 token = st.session_state.survey_token
 record = st.session_state.survey_record
+# Start downloading the shared demonstration in the background as soon as the
+# survey starts, with its own Drive client, so it is usually ready by Part 3.
+if not PREVIEW and record['state'].get('status') in ('active', 'paused'):
+    prefetch_demo(config.get('DEMO_VIDEO_FILE_ID') or DEFAULT_DEMO_ID,
+                  credential_scope(config), lambda: DriveStore(config))
 with st.sidebar:
     st.markdown('**Your participant ID**')
     st.code(record['participant_id'],language=None)

@@ -243,7 +243,7 @@
     const list = document.createElement('div'); list.className = 'options' + (options.every(v => v.length < 27) ? ' short' : '');
     if (!group) list.setAttribute('aria-labelledby', 'question-title');
     const otherRow = document.createElement('div'); otherRow.className = 'other-row';
-    [...options.filter(v => v !== 'Other'), ...options.filter(v => v === 'Other')].forEach(v => {
+    const choice = v => {
       const label = document.createElement('label'); label.className = 'choice';
       const input = document.createElement('input'); input.type = p.kind === 'multi' ? 'checkbox' : 'radio';
       input.name = group ? p.id + '-' + group : p.id; input.value = v;
@@ -256,12 +256,36 @@
         const optional = text('small', '(optional details)');
         optional.setAttribute('aria-hidden', 'true'); label.append(optional);
       }
-      (v === 'Other' ? otherRow : list).append(label);
-    });
-    container.append(list);
+      return label;
+    };
+    if (p.option_groups && !group) {
+      // One line per group of related actions (schema option_groups).
+      const groups = document.createElement('div'); groups.className = 'option-groups';
+      groups.setAttribute('role', 'radiogroup'); groups.setAttribute('aria-labelledby', 'question-title');
+      p.option_groups.forEach((g, i) => {
+        const shown = g.options.filter(v => v !== 'Other' && options.includes(v));
+        if (!shown.length) return;
+        const row = document.createElement('div'); row.className = 'option-group' + (g.label ? '' : ' unlabeled');
+        if (g.label) {
+          const heading = text('p', g.label, 'option-group-label'); heading.id = `group-${p.id}-${i}`;
+          row.setAttribute('role', 'group'); row.setAttribute('aria-labelledby', heading.id); row.append(heading);
+        }
+        const rowList = document.createElement('div'); rowList.className = 'options';
+        shown.forEach(v => rowList.append(choice(v)));
+        row.append(rowList); groups.append(row);
+      });
+      container.append(groups);
+      // The unlabeled last line holds "Not sure" and Other together.
+      const last = groups.querySelector('.option-group.unlabeled .options');
+      if (last && options.includes('Other')) { otherRow.classList.add('in-group'); last.append(otherRow); }
+    } else {
+      options.filter(v => v !== 'Other').forEach(v => list.append(choice(v)));
+      container.append(list);
+    }
     if (options.includes('Other')) {
+      otherRow.append(choice('Other'));
       const other = document.createElement('div'); other.id = 'other-' + p.id + '-' + (group || 'other');
-      otherRow.append(other); container.append(otherRow);
+      otherRow.append(other); if (!otherRow.parentNode) container.append(otherRow);
     }
     return container;
   }
@@ -305,7 +329,8 @@
     }
     const heading = text('h1', p.title); heading.id = 'question-title'; heading.tabIndex = -1; page.append(heading);
     (p.paragraphs || []).forEach((s, i) => page.append(text('p', s, p.id === 'intro' && i === 3 ? 'notice' : '')));
-    if (p.id === 'intro') page.append(text('p', 'Your answers are saved when you move between questions. Before leaving, choose “Save and take a break.”', 'help'));
+    if (p.id === 'intro') page.append(text('p', 'Your answers are saved when you move between questions. Before leaving, choose “Save and take a break.”', 'help'),
+      text('p', 'Your participant ID is in the side panel on the left. Use the arrow button at the top left to show or hide it. Keep your ID so you can return later.', 'help'));
     if (p.item && !p.rating_group) page.append(text('p', p.item, 'item'));
     if (p.help) page.append(text('p', p.help, 'help'));
     if (p.rating_group) {
@@ -350,8 +375,21 @@
       }, 'Transcript');
       field.className = 'transcript-wrap';
       const label = field.querySelector('label'); label.className = 'transcript-label';
-      const help = field.querySelector('.help'); help.textContent = 'You can change the text below, or leave it as it is.';
+      const help = field.querySelector('.help');
+      help.textContent = 'Change the text the way you would fix it. You don’t need to match the sentence exactly. To start over, choose “Delete all”.';
       label.after(help);
+      const input = field.querySelector('textarea');
+      const clearAll = button('Delete all', () => {
+        if (!input.value) return;
+        record('delete_all', p.id, {previous_text: input.value});
+        input.focus(); input.value = '';
+        // Logged by the shared text_input handler, like any other deletion. Browsers
+        // blank non-standard inputType values on synthetic events, so set it directly.
+        const event = new InputEvent('input', {bubbles: true});
+        Object.defineProperty(event, 'inputType', {value: 'deleteAllButton'});
+        input.dispatchEvent(event);
+      }, 'small delete-all');
+      field.append(clearAll);
       task.append(field); page.append(task);
     }
     if (['single', 'multi', 'group', 'text'].includes(p.kind)) nav.append(button('Clear answer', () => {
@@ -360,10 +398,6 @@
         record('clear_answer', item.id, {previous});
       }
       prune(); render();
-    }, 'small'));
-    if (p.kind === 'edit') nav.append(button('Reset text', () => {
-      const previous = answer(p.id) || null; delete state.answers[p.id];
-      record('transcript_reset', p.id, {previous}); render();
     }, 'small'));
     if (p.scenario) {
       const scenario = page.querySelector('.scenario');
@@ -382,13 +416,7 @@
           if (!activeVideo || activeVideo.readyState < 2 || activeVideo.error) return;
           state.answers[p.id] = {status: 'answered', choices: ['watched']};
           record('demo_confirmed', p.id);
-        } else if (p.kind === 'edit') {
-          // Leaving the transcript as it is counts as an answer.
-          if (answer(p.id)?.status !== 'answered') {
-            state.answers[p.id] = {status: 'answered', text: p.transcript, original: p.transcript, edited: false};
-            record('transcript_unchanged', p.id);
-          }
-        } else if (['single','multi','text','group'].includes(p.kind)) {
+        } else if (['single','multi','text','group','edit'].includes(p.kind)) {
           for (const item of questionItems(p)) if (!answer(item.id)) {
             state.answers[item.id] = {status:'unanswered'};
             record('unanswered_next',item.id);
