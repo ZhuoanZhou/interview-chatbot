@@ -534,85 +534,6 @@
       ]
     },
     {
-      "id": "s1_extent",
-      "section": 2,
-      "title": "What would you change?",
-      "kind": "single",
-      "when": {
-        "question": "s1_action",
-        "values": [
-          "Change the text and show it"
-        ]
-      },
-      "scenario": {
-        "title": "Example 1 — At a pharmacy",
-        "situation": "You are at a pharmacy counter. You do not know the staff member, and people are waiting behind you.",
-        "meant": "“I’m picking up the prescription for Mara Klein.”",
-        "shown": "“I’m picking up the prescription for Mark Line.”"
-      },
-      "options": [
-        "Only the parts that could cause misunderstanding",
-        "All differences from what I meant to say",
-        "Replace it with a shorter or different message",
-        "Not sure"
-      ],
-      "source_paragraphs": [
-        218
-      ]
-    },
-    {
-      "id": "s1_words",
-      "section": 2,
-      "title": "Which words would you change?",
-      "kind": "text",
-      "when": {
-        "question": "s1_action",
-        "values": [
-          "Change the text and show it"
-        ]
-      },
-      "scenario": {
-        "title": "Example 1 — At a pharmacy",
-        "situation": "You are at a pharmacy counter. You do not know the staff member, and people are waiting behind you.",
-        "meant": "“I’m picking up the prescription for Mara Klein.”",
-        "shown": "“I’m picking up the prescription for Mark Line.”"
-      },
-      "source_paragraphs": [
-        224
-      ]
-    },
-    {
-      "id": "s1_leave",
-      "section": 2,
-      "title": "Why would you leave it as it is?",
-      "kind": "multi",
-      "when": {
-        "question": "s1_action",
-        "values": [
-          "Continue with the text as it is"
-        ]
-      },
-      "scenario": {
-        "title": "Example 1 — At a pharmacy",
-        "situation": "You are at a pharmacy counter. You do not know the staff member, and people are waiting behind you.",
-        "meant": "“I’m picking up the prescription for Mara Klein.”",
-        "shown": "“I’m picking up the prescription for Mark Line.”"
-      },
-      "exclusive": [
-        "Not sure"
-      ],
-      "options": [
-        "It gets my meaning across",
-        "Changing it would take too much effort or time",
-        "The conversation would move on",
-        "Other",
-        "Not sure"
-      ],
-      "source_paragraphs": [
-        226
-      ]
-    },
-    {
       "id": "s2_action",
       "section": 2,
       "title": "What would you do first in this situation?",
@@ -638,85 +559,6 @@
       "source_paragraphs": [
         184,
         205
-      ]
-    },
-    {
-      "id": "s2_extent",
-      "section": 2,
-      "title": "What would you change?",
-      "kind": "single",
-      "when": {
-        "question": "s2_action",
-        "values": [
-          "Change the text and show it"
-        ]
-      },
-      "scenario": {
-        "title": "Example 2 — Asking for directions",
-        "situation": "You are asking someone in a shopping mall for directions.",
-        "meant": "“Can you tell me where the elevator is?”",
-        "shown": "“Can you tell me there the letter of us?”"
-      },
-      "options": [
-        "Only the parts that could cause misunderstanding",
-        "All differences from what I meant to say",
-        "Replace it with a shorter or different message",
-        "Not sure"
-      ],
-      "source_paragraphs": [
-        218
-      ]
-    },
-    {
-      "id": "s2_words",
-      "section": 2,
-      "title": "Which words would you change?",
-      "kind": "text",
-      "when": {
-        "question": "s2_action",
-        "values": [
-          "Change the text and show it"
-        ]
-      },
-      "scenario": {
-        "title": "Example 2 — Asking for directions",
-        "situation": "You are asking someone in a shopping mall for directions.",
-        "meant": "“Can you tell me where the elevator is?”",
-        "shown": "“Can you tell me there the letter of us?”"
-      },
-      "source_paragraphs": [
-        224
-      ]
-    },
-    {
-      "id": "s2_leave",
-      "section": 2,
-      "title": "Why would you leave it as it is?",
-      "kind": "multi",
-      "when": {
-        "question": "s2_action",
-        "values": [
-          "Continue with the text as it is"
-        ]
-      },
-      "scenario": {
-        "title": "Example 2 — Asking for directions",
-        "situation": "You are asking someone in a shopping mall for directions.",
-        "meant": "“Can you tell me where the elevator is?”",
-        "shown": "“Can you tell me there the letter of us?”"
-      },
-      "exclusive": [
-        "Not sure"
-      ],
-      "options": [
-        "It gets my meaning across",
-        "Changing it would take too much effort or time",
-        "The conversation would move on",
-        "Other",
-        "Not sure"
-      ],
-      "source_paragraphs": [
-        226
       ]
     },
     {
@@ -748,85 +590,6 @@
       ]
     },
     {
-      "id": "s3_extent",
-      "section": 2,
-      "title": "What would you change?",
-      "kind": "single",
-      "when": {
-        "question": "s3_action",
-        "values": [
-          "Change the text and show it"
-        ]
-      },
-      "scenario": {
-        "title": "Example 3 — Talking at home",
-        "situation": "You are talking with your partner or a family member.",
-        "meant": "“My appointment is on Tuesday morning.”",
-        "shown": "“My appointment is on Tuesday in the morning.”"
-      },
-      "options": [
-        "Only the parts that could cause misunderstanding",
-        "All differences from what I meant to say",
-        "Replace it with a shorter or different message",
-        "Not sure"
-      ],
-      "source_paragraphs": [
-        218
-      ]
-    },
-    {
-      "id": "s3_words",
-      "section": 2,
-      "title": "Which words would you change?",
-      "kind": "text",
-      "when": {
-        "question": "s3_action",
-        "values": [
-          "Change the text and show it"
-        ]
-      },
-      "scenario": {
-        "title": "Example 3 — Talking at home",
-        "situation": "You are talking with your partner or a family member.",
-        "meant": "“My appointment is on Tuesday morning.”",
-        "shown": "“My appointment is on Tuesday in the morning.”"
-      },
-      "source_paragraphs": [
-        224
-      ]
-    },
-    {
-      "id": "s3_leave",
-      "section": 2,
-      "title": "Why would you leave it as it is?",
-      "kind": "multi",
-      "when": {
-        "question": "s3_action",
-        "values": [
-          "Continue with the text as it is"
-        ]
-      },
-      "scenario": {
-        "title": "Example 3 — Talking at home",
-        "situation": "You are talking with your partner or a family member.",
-        "meant": "“My appointment is on Tuesday morning.”",
-        "shown": "“My appointment is on Tuesday in the morning.”"
-      },
-      "exclusive": [
-        "Not sure"
-      ],
-      "options": [
-        "It gets my meaning across",
-        "Changing it would take too much effort or time",
-        "The conversation would move on",
-        "Other",
-        "Not sure"
-      ],
-      "source_paragraphs": [
-        226
-      ]
-    },
-    {
       "id": "s4_action",
       "section": 2,
       "title": "What would you do first in this situation?",
@@ -855,85 +618,6 @@
       ]
     },
     {
-      "id": "s4_extent",
-      "section": 2,
-      "title": "What would you change?",
-      "kind": "single",
-      "when": {
-        "question": "s4_action",
-        "values": [
-          "Change the text and show it"
-        ]
-      },
-      "scenario": {
-        "title": "Example 4 — Ordering food",
-        "situation": "You are ordering food at a counter.",
-        "meant": "“No peanuts, please—I’m allergic.”",
-        "shown": "“Some peanuts, please, I’m a little sick.”"
-      },
-      "options": [
-        "Only the parts that could cause misunderstanding",
-        "All differences from what I meant to say",
-        "Replace it with a shorter or different message",
-        "Not sure"
-      ],
-      "source_paragraphs": [
-        218
-      ]
-    },
-    {
-      "id": "s4_words",
-      "section": 2,
-      "title": "Which words would you change?",
-      "kind": "text",
-      "when": {
-        "question": "s4_action",
-        "values": [
-          "Change the text and show it"
-        ]
-      },
-      "scenario": {
-        "title": "Example 4 — Ordering food",
-        "situation": "You are ordering food at a counter.",
-        "meant": "“No peanuts, please—I’m allergic.”",
-        "shown": "“Some peanuts, please, I’m a little sick.”"
-      },
-      "source_paragraphs": [
-        224
-      ]
-    },
-    {
-      "id": "s4_leave",
-      "section": 2,
-      "title": "Why would you leave it as it is?",
-      "kind": "multi",
-      "when": {
-        "question": "s4_action",
-        "values": [
-          "Continue with the text as it is"
-        ]
-      },
-      "scenario": {
-        "title": "Example 4 — Ordering food",
-        "situation": "You are ordering food at a counter.",
-        "meant": "“No peanuts, please—I’m allergic.”",
-        "shown": "“Some peanuts, please, I’m a little sick.”"
-      },
-      "exclusive": [
-        "Not sure"
-      ],
-      "options": [
-        "It gets my meaning across",
-        "Changing it would take too much effort or time",
-        "The conversation would move on",
-        "Other",
-        "Not sure"
-      ],
-      "source_paragraphs": [
-        226
-      ]
-    },
-    {
       "id": "s5_action",
       "section": 2,
       "title": "What would you do first in this situation?",
@@ -959,85 +643,6 @@
       "source_paragraphs": [
         199,
         205
-      ]
-    },
-    {
-      "id": "s5_extent",
-      "section": 2,
-      "title": "What would you change?",
-      "kind": "single",
-      "when": {
-        "question": "s5_action",
-        "values": [
-          "Change the text and show it"
-        ]
-      },
-      "scenario": {
-        "title": "Example 5 — Talking with a friend",
-        "situation": "You are telling a friend how you feel about something they did.",
-        "meant": "“I’m proud of you, that was a big deal.”",
-        "shown": "“I’m crowded too, that was a big deal.”"
-      },
-      "options": [
-        "Only the parts that could cause misunderstanding",
-        "All differences from what I meant to say",
-        "Replace it with a shorter or different message",
-        "Not sure"
-      ],
-      "source_paragraphs": [
-        218
-      ]
-    },
-    {
-      "id": "s5_words",
-      "section": 2,
-      "title": "Which words would you change?",
-      "kind": "text",
-      "when": {
-        "question": "s5_action",
-        "values": [
-          "Change the text and show it"
-        ]
-      },
-      "scenario": {
-        "title": "Example 5 — Talking with a friend",
-        "situation": "You are telling a friend how you feel about something they did.",
-        "meant": "“I’m proud of you, that was a big deal.”",
-        "shown": "“I’m crowded too, that was a big deal.”"
-      },
-      "source_paragraphs": [
-        224
-      ]
-    },
-    {
-      "id": "s5_leave",
-      "section": 2,
-      "title": "Why would you leave it as it is?",
-      "kind": "multi",
-      "when": {
-        "question": "s5_action",
-        "values": [
-          "Continue with the text as it is"
-        ]
-      },
-      "scenario": {
-        "title": "Example 5 — Talking with a friend",
-        "situation": "You are telling a friend how you feel about something they did.",
-        "meant": "“I’m proud of you, that was a big deal.”",
-        "shown": "“I’m crowded too, that was a big deal.”"
-      },
-      "exclusive": [
-        "Not sure"
-      ],
-      "options": [
-        "It gets my meaning across",
-        "Changing it would take too much effort or time",
-        "The conversation would move on",
-        "Other",
-        "Not sure"
-      ],
-      "source_paragraphs": [
-        226
       ]
     },
     {
@@ -2025,5 +1630,22 @@
         "Thank you for sharing your experiences and ideas."
       ]
     }
-  ]
+  ],
+  "retired_pages": {
+    "s1_extent": "s1_action",
+    "s1_words": "s1_action",
+    "s1_leave": "s1_action",
+    "s2_extent": "s2_action",
+    "s2_words": "s2_action",
+    "s2_leave": "s2_action",
+    "s3_extent": "s3_action",
+    "s3_words": "s3_action",
+    "s3_leave": "s3_action",
+    "s4_extent": "s4_action",
+    "s4_words": "s4_action",
+    "s4_leave": "s4_action",
+    "s5_extent": "s5_action",
+    "s5_words": "s5_action",
+    "s5_leave": "s5_action"
+  }
 }

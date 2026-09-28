@@ -247,6 +247,14 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  await page.waitForFunction(()=>batches.length===3);
  resumed=await page.evaluate(()=>batches.at(-1).state.answers);
  for(let i=1;i<=6;i++)assert.equal(resumed['feature_'+i].status,'skipped');
+ // A session saved on a removed follow-up screen resumes on its example; old answers are kept.
+ app=await start('s2_words',{s2_action:{status:'answered',choices:['Change the text and show it']},s2_words:{status:'answered',text:'elevator'}});
+ await app.getByText('Example 2 — Asking for directions',{exact:true}).waitFor();
+ assert(await app.getByLabel('Change the text and show it',{exact:true}).isChecked());
+ await app.getByRole('button',{name:'Next',exact:true}).click();
+ await app.getByText('Example 3 — Talking at home',{exact:true}).waitFor();
+ await page.waitForFunction(()=>batches.length===1);
+ assert.equal(await page.evaluate(()=>batches[0].state.answers.s2_words.text),'elevator');
  // Typing Other in one story group must not change the other group.
  app=await start('story');
  await app.locator('fieldset').nth(0).getByRole('textbox').fill('a neighbour');

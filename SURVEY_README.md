@@ -81,7 +81,14 @@ screen shows the conversation context and what the participant meant to say, and
 editable transcript pre-filled with the misrecognized text. No question follows the
 edit; "Next example" moves on. These screens are not in the Word guide; they are
 added by `scripts/build_survey_schema.py` from the same example text, so a rebuild
-keeps them. The Part 2 examples are unchanged.
+keeps them.
+
+The Part 2 examples before the demonstration ask only "What would you do first?".
+Their follow-ups (What would you change? / Which words? / Why leave it?) were removed
+because the editable examples cover them. `retired_pages` in the schema sends a
+session saved on a removed screen back to its example. Answers already given to the
+removed questions stay in the saved records and `responses.json`, but no longer
+appear as rows in `answers.csv`.
 
 The answer stores the final `text`, the `original` transcript, and `edited`
 (whether they differ). Pressing Next without editing records the transcript as left

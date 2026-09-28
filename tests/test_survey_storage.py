@@ -114,6 +114,15 @@ class StorageTests(unittest.TestCase):
             self.assertEqual(page['meant'],scenario['meant'])
             self.assertEqual('“'+page['transcript']+'”',scenario['shown'])
 
+    def test_pre_demo_examples_have_no_follow_ups_and_old_screens_resume(self):
+        ids={p['id'] for p in SCHEMA['pages']}
+        for n in range(1,6):
+            self.assertIn(f's{n}_action',ids)
+            for kind in ('extent','words','leave'):
+                self.assertNotIn(f's{n}_{kind}',ids)
+                self.assertEqual(SCHEMA['retired_pages'][f's{n}_{kind}'],f's{n}_action')
+        self.assertTrue(set(SCHEMA['retired_pages'].values())<=ids)
+
     def test_drive_retry_after_uncertain_upload_reuses_saved_batch(self):
         drive=object.__new__(DriveStore)
         drive.service=MagicMock()

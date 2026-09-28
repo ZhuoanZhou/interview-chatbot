@@ -95,7 +95,9 @@
     return schema.pages.filter(p => condition(p.when) && questionItems(p)[0].id === p.id);
   }
   function currentPage() {
-    const p = schema.pages.find(p => p.id === state.page);
+    // Sessions saved on a removed screen resume on its replacement.
+    const id = schema.pages.some(p => p.id === state.page) ? state.page : schema.retired_pages?.[state.page];
+    const p = schema.pages.find(p => p.id === id);
     // Old saved sessions can resume on any item in a now-combined question.
     return p && questionItems(p)[0];
   }

@@ -85,11 +85,8 @@ for number, start in enumerate([179,184,189,194,199],1):
               'shown':txt(start+3).split(':',1)[1].strip()}
     scenarios.append((start,scenario))
     page(prefix+'_action',2,'What would you do first in this situation?',options=opts(*range(207,217)),source=[start,205],scenario=scenario)
-    edit=has(prefix+'_action','Change the text and show it')
-    page(prefix+'_extent',2,'What would you change?',options=opts(*range(220,224)),source=218,when=edit,scenario=scenario)
-    page(prefix+'_words',2,txt(224),'text',source=224,when=edit,scenario=scenario)
-    page(prefix+'_leave',2,'Why would you leave it as it is?','multi',opts(*range(228,233)),226,
-         when=has(prefix+'_action','Continue with the text as it is'),scenario=scenario,exclusive=['Not sure'])
+    # The guide's follow-ups (what/which words to change, why leave it) were removed
+    # in 2026-09: the editable post-demonstration examples now cover them.
 page('break',2,'Take a break if you would like','info',paragraphs=[
     'Next is a short demonstration. You can pause here and come back when you are ready.'],next_label='Continue to demonstration')
 page('demo_consent',3,'Would you like to watch the demonstration?',options=['Yes','No'],source=[235,237,238],paragraphs=[txt(237),txt(238)])
@@ -128,7 +125,9 @@ page('finish',4,'Ready to finish?','finish',paragraphs=[
 schema={'version':'2026-09-22-v1','title':'Communication experiences survey',
         'source':SOURCE.name,'source_sha256':hashlib.sha256(SOURCE.read_bytes()).hexdigest(),
         'sections':['Welcome','Your experiences','Example situations','After the demonstration','Closing'],
-        'pages':pages}
+        'pages':pages,
+        # Removed screens -> where a session saved on one of them resumes.
+        'retired_pages':{f's{n}_{kind}':f's{n}_action' for n in range(1,6) for kind in ('extent','words','leave')}}
 target=Path(__file__).resolve().parents[1]/'survey'/'schema.json'
 target.parent.mkdir(exist_ok=True)
 target.write_text(json.dumps(schema,ensure_ascii=False,indent=2),encoding='utf-8')
