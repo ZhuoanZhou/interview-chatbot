@@ -394,11 +394,11 @@
         if (!input.value) return;
         record('delete_all', p.id, {previous_text: input.value});
         setText('', 'deleteAllButton');
-      }, 'small'), button('Reset', () => {
+      }), button('Reset', () => {
         if (input.value === p.transcript) return;
         record('transcript_reset', p.id, {previous_text: input.value});
         setText(p.transcript, 'resetButton');
-      }, 'small'));
+      }));
       // Decisions record what they would do instead of fixing the text, then move on.
       const decisions = document.createElement('div'); decisions.className = 'decisions';
       decisions.setAttribute('role', 'group'); decisions.setAttribute('aria-labelledby', 'decisions-' + p.id);

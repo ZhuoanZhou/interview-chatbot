@@ -156,21 +156,20 @@ nav .example-counter+.primary{margin-left:0}
   .option-group .other-row.in-group{grid-column:span 2}
 }
 .option-group.unlabeled .choice{align-self:start}
-/* Edit screen: text tools under the box, then what they would do instead. */
-.edit-tools{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
-.edit-tools button{min-height:40px;padding:6px 14px}
+/* Edit screen: text tools under the box, then what they would do instead.
+   Both rows use the same button size and style. */
+.edit-tools{display:flex;flex-wrap:wrap;gap:8px 10px;margin-top:8px}
 .decisions{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;margin-top:10px}
 .decisions-label{margin:0 4px 0 0;font-weight:700;font-size:.9rem}
-.decisions button{min-height:48px;padding:8px 16px;border-color:#7caaa5;color:#1d4f55;font-weight:600}
+.edit-tools button,.decisions button{min-height:48px;padding:8px 16px;border-color:#7caaa5;color:#1d4f55;font-weight:600}
 .decisions button[aria-pressed="true"]{background:#eaf5f3;border-color:#16736f}
 @media(min-width:1000px) and (max-height:800px){
-  .with-edit .transcript-wrap textarea{height:84px;min-height:72px}
+  .with-edit .transcript-wrap textarea{height:76px;min-height:68px}
   .edit-tools{margin-top:6px}
-  .edit-tools button{min-height:36px;padding:4px 12px}
   .decisions{margin-top:8px}
-  .decisions button{min-height:44px;padding:6px 14px}
+  .edit-tools button,.decisions button{min-height:44px;padding:6px 14px}
 }
 @media(max-width:520px){
   .decisions-label{flex-basis:100%}
-  .decisions button{flex:1 1 40%;padding:8px 6px}
+  .edit-tools button,.decisions button{flex:1 1 40%;padding:8px 6px}
 }
