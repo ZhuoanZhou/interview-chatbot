@@ -85,6 +85,9 @@ ACTION_GROUPS=[{'label':'Keep the text','options':['Continue with the text as it
                {'label':"Don't use the tool",'options':['Use my AAC device or board','Ask someone to help','Stop trying and move on']},
                {'label':'','options':['Not sure']}]
 ACTION_OPTIONS=[o for g in ACTION_GROUPS[:4] for o in g['options']]+['Other','Not sure']
+# Six hand-written word candidates per transcript word (prototype stimuli, not ASR
+# output), shown around a clicked word on the post-demonstration edit screens.
+CANDIDATES=json.loads((Path(__file__).resolve().parents[1]/'survey'/'word_candidates.json').read_text(encoding='utf-8'))
 scenarios=[]
 for number, start in enumerate([179,184,189,194,199],1):
     prefix=f's{number}'
@@ -117,6 +120,7 @@ for number,(start,scenario) in enumerate(scenarios,1):
     counter=f'Example {number} of {len(scenarios)}'
     page(f'e{number}_edit',3,scenario['title'],'edit',source=list(range(start,start+4)),when=watched,
          situation=scenario['situation'],meant=scenario['meant'],transcript=scenario['shown'].strip('“”"'),
+         candidates=CANDIDATES[f'e{number}_edit'],
          counter=counter,next_label='Next example' if number<len(scenarios) else 'Next')
 page('candidates_compare',3,txt(257).removeprefix('Q2. '),options=opts(*range(259,265)),source=257,when=watched)
 page('candidate_missing',3,txt(266).removeprefix('Q3. '),'multi',opts(*range(268,274)),266,when=watched,exclusive=['Not sure'])

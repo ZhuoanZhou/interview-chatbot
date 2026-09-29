@@ -101,10 +101,27 @@ transcript, pre-filled and editable. Under it:
 - Delete all / Reset: empty the text, or restore the original transcript. Each logs
   its own event (`delete_all`, `transcript_reset`) plus a `text_input` event with
   `input_type` `deleteAllButton` / `resetButton`.
-- Keep as is / Say it again / Abandon: record the decision (`decision` event) and move
+- Keep as is / Say it again / Switch to my AAC / Ask for help / Abandon / Not sure:
+  record the decision (`decision` event) and move
   straight to the next screen. Going Back shows the chosen button as pressed.
 
-The answer stores `decision` (`edited`, `kept`, `say_again` or `abandoned`), the final
+Word candidates: clicking or tapping a word in the transcript shows six suggestions,
+three above and three below it, with the word outlined. Choosing one replaces the
+word (punctuation kept) and leaves the text box focused; typing still works as
+before and closes the suggestions, as do Escape, scrolling and clicking elsewhere.
+The candidates are hand-written prototype stimuli, not ASR output, stored in
+`survey/word_candidates.json` (six per transcript word, fixed positions) and copied
+into the schema by `scripts/build_survey_schema.py`. Current words are matched to the
+original transcript with a word-level alignment, so a word the participant retyped
+still shows the candidates for the word it replaced; newly inserted words have none.
+After a candidate is chosen, clicking it again shows the same six positions with the
+original word in the chosen one's place. Events: `candidates_shown` (position, word,
+options), `candidate_selected` (from, to, option_index, options), `candidates_closed`
+(reason: typing, escape, scroll, outside, other_word, ...), and the replacement itself
+as a `text_input` event with `input_type` `candidateSelected`.
+
+The answer stores `decision` (`edited`, `kept`, `say_again`, `switch_aac`,
+`ask_help`, `abandoned` or `not_sure`), the final
 `text`, the `original` transcript, and `edited` (whether the text differs). Next after
 an edit saves `decision: edited`; Next with no edit and no decision (including after
 Reset) is `unanswered`; Skip is `skipped`. Typing after choosing a decision changes it

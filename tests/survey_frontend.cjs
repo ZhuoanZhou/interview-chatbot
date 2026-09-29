@@ -286,6 +286,57 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  await page.waitForFunction(()=>batches.length===1);
  assert.equal(await page.evaluate(()=>batches[0].state.answers.e1_edit.status),'unanswered');
  assert.equal(await page.evaluate(()=>batches[0].state.answers.e1_action.choices[0]),'Change the text','Old answers are kept');
+ // The other decisions also record and move straight on.
+ app=await start('e1_edit',watchedOnly);
+ for(const [n,name] of [[1,'Switch to my AAC'],[2,'Ask for help'],[3,'Not sure']]){
+  await app.getByText(`Example ${n} of 5`,{exact:true}).waitFor();
+  await app.getByRole('button',{name,exact:true}).click();
+ }
+ await app.getByText('Example 4 of 5',{exact:true}).waitFor();
+ await page.waitForFunction(()=>batches.length===3);
+ const decided=await page.evaluate(()=>batches.at(-1).state.answers);
+ assert.deepEqual([1,2,3].map(n=>decided[`e${n}_edit`].decision),['switch_aac','ask_help','not_sure']);
+ // Word candidates: click a word for six suggestions (three above, three below).
+ app=await start('e1_edit',watchedOnly);
+ const ta=app.getByRole('textbox',{name:'Transcript'});
+ const clickWord=word=>ta.evaluate((el,word)=>{const i=el.value.indexOf(word)+1;el.focus();el.setSelectionRange(i,i);el.dispatchEvent(new MouseEvent('click',{bubbles:true}));},word);
+ const shown=()=>app.locator('.candidate-row:not(.hidden) .candidate').allTextContents();
+ await clickWord('Mark');
+ assert.deepEqual(await shown(),['Mike','Mara','Marc','Mary','Matt','Martin']);
+ assert.equal(await app.locator('.candidate-row.above:not(.hidden) .candidate').count(),3);
+ const above=await app.locator('.candidate-row.above').boundingBox(), below=await app.locator('.candidate-row.below').boundingBox(), word=await app.locator('.word-highlight').boundingBox();
+ assert(above.y+above.height<=word.y+2 && below.y>=word.y+word.height-2,'Rows sit above and below the word');
+ await app.getByRole('button',{name:'Mara',exact:true}).click();
+ assert.equal(await ta.inputValue(),'I’m picking up the prescription for Mara Line.');
+ assert.equal(await ta.evaluate(el=>el===el.ownerDocument.activeElement),true,'Text box keeps focus');
+ assert.equal(await app.locator('.candidate-row:not(.hidden)').count(),0);
+ await clickWord('Mara');
+ assert.deepEqual(await shown(),['Mike','Mark','Marc','Mary','Matt','Martin'],'Original swapped into the chosen slot');
+ // Typing still works, closes the suggestions, and a retyped word keeps its slot's candidates.
+ await ta.evaluate(el=>{const i=el.value.indexOf('Line');el.setSelectionRange(i,i+4);});
+ await ta.pressSequentially('Klien',{delay:20});
+ assert.equal(await app.locator('.candidate-row:not(.hidden)').count(),0);
+ await clickWord('Klien');
+ assert.deepEqual(await shown(),['Lane','Lyon','Klein','Lynn','Lime','Link']);
+ await app.getByRole('button',{name:'Klein',exact:true}).click();
+ assert.equal(await ta.inputValue(),'I’m picking up the prescription for Mara Klein.','Punctuation kept');
+ // Punctuation and apostrophes: the first word, clicked with the real mouse.
+ const box=await ta.boundingBox();
+ await ta.click({position:{x:26,y:Math.min(28,box.height/2)}});
+ assert.deepEqual(await shown(),['I’ll','I’ve','I’d','we’re','you’re','he’s']);
+ await ta.press('Escape');
+ assert.equal(await app.locator('.candidate-row:not(.hidden)').count(),0);
+ await app.getByRole('button',{name:'Next example',exact:true}).click();
+ await page.waitForFunction(()=>batches.length===1);
+ const cand=await page.evaluate(()=>batches[0]);
+ assert.equal(cand.state.answers.e1_edit.text,'I’m picking up the prescription for Mara Klein.');
+ const ce=cand.events;
+ assert(ce.some(e=>e.type==='candidates_shown'&&e.position===7&&e.word==='Mark'&&e.options.length===6));
+ assert(ce.some(e=>e.type==='candidate_selected'&&e.from==='Mark'&&e.to==='Mara'&&e.option_index===1&&Number.isFinite(e.elapsed_ms)));
+ assert(ce.some(e=>e.type==='text_input'&&e.input_type==='candidateSelected'&&e.deleted==='k'&&e.inserted==='a'));
+ assert(ce.some(e=>e.type==='candidates_closed'&&e.reason==='typing'));
+ assert(ce.some(e=>e.type==='candidates_closed'&&e.reason==='escape'));
+ assert(ce.some(e=>e.type==='text_input'&&e.inserted==='Klien'||e.type==='text_input'&&e.value_after?.includes('Klien')));
  // Typing Other in one story group must not change the other group.
  app=await start('story');
  await app.locator('fieldset').nth(0).getByRole('textbox').fill('a neighbour');

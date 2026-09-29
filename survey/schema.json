@@ -1142,6 +1142,96 @@
       "situation": "You are at a pharmacy counter. You do not know the staff member, and people are waiting behind you.",
       "meant": "“I’m picking up the prescription for Mara Klein.”",
       "transcript": "I’m picking up the prescription for Mark Line.",
+      "candidates": [
+        {
+          "word": "I’m",
+          "options": [
+            "I’ll",
+            "I’ve",
+            "I’d",
+            "we’re",
+            "you’re",
+            "he’s"
+          ]
+        },
+        {
+          "word": "picking",
+          "options": [
+            "packing",
+            "taking",
+            "looking",
+            "getting",
+            "checking",
+            "bringing"
+          ]
+        },
+        {
+          "word": "up",
+          "options": [
+            "out",
+            "in",
+            "off",
+            "over",
+            "on",
+            "back"
+          ]
+        },
+        {
+          "word": "the",
+          "options": [
+            "a",
+            "this",
+            "that",
+            "my",
+            "your",
+            "their"
+          ]
+        },
+        {
+          "word": "prescription",
+          "options": [
+            "description",
+            "subscription",
+            "medication",
+            "prescriptions",
+            "instruction",
+            "permission"
+          ]
+        },
+        {
+          "word": "for",
+          "options": [
+            "from",
+            "to",
+            "with",
+            "of",
+            "at",
+            "before"
+          ]
+        },
+        {
+          "word": "Mark",
+          "options": [
+            "Mike",
+            "Mara",
+            "Marc",
+            "Mary",
+            "Matt",
+            "Martin"
+          ]
+        },
+        {
+          "word": "Line",
+          "options": [
+            "Lane",
+            "Lyon",
+            "Klein",
+            "Lynn",
+            "Lime",
+            "Link"
+          ]
+        }
+      ],
       "counter": "Example 1 of 5",
       "next_label": "Next example",
       "source_paragraphs": [
@@ -1175,6 +1265,107 @@
       "situation": "You are asking someone in a shopping mall for directions.",
       "meant": "“Can you tell me where the elevator is?”",
       "transcript": "Can you tell me there the letter of us?",
+      "candidates": [
+        {
+          "word": "Can",
+          "options": [
+            "Could",
+            "Will",
+            "Would",
+            "May",
+            "Can’t",
+            "Did"
+          ]
+        },
+        {
+          "word": "you",
+          "options": [
+            "your",
+            "you’ll",
+            "you’d",
+            "we",
+            "he",
+            "they"
+          ]
+        },
+        {
+          "word": "tell",
+          "options": [
+            "show",
+            "told",
+            "call",
+            "sell",
+            "help",
+            "give"
+          ]
+        },
+        {
+          "word": "me",
+          "options": [
+            "my",
+            "we",
+            "him",
+            "them",
+            "us",
+            "you"
+          ]
+        },
+        {
+          "word": "there",
+          "options": [
+            "their",
+            "then",
+            "where",
+            "here",
+            "they’re",
+            "that"
+          ]
+        },
+        {
+          "word": "the",
+          "options": [
+            "a",
+            "that",
+            "this",
+            "an",
+            "our",
+            "your"
+          ]
+        },
+        {
+          "word": "letter",
+          "options": [
+            "later",
+            "elevator",
+            "litter",
+            "ladder",
+            "level",
+            "leather"
+          ]
+        },
+        {
+          "word": "of",
+          "options": [
+            "off",
+            "on",
+            "for",
+            "is",
+            "at",
+            "to"
+          ]
+        },
+        {
+          "word": "us",
+          "options": [
+            "up",
+            "as",
+            "is",
+            "it",
+            "his",
+            "this"
+          ]
+        }
+      ],
       "counter": "Example 2 of 5",
       "next_label": "Next example",
       "source_paragraphs": [
@@ -1208,6 +1399,96 @@
       "situation": "You are talking with your partner or a family member.",
       "meant": "“My appointment is on Tuesday morning.”",
       "transcript": "My appointment is on Tuesday in the morning.",
+      "candidates": [
+        {
+          "word": "My",
+          "options": [
+            "Our",
+            "Your",
+            "The",
+            "His",
+            "Her",
+            "Their"
+          ]
+        },
+        {
+          "word": "appointment",
+          "options": [
+            "apartment",
+            "assignment",
+            "arrangement",
+            "meeting",
+            "commitment",
+            "treatment"
+          ]
+        },
+        {
+          "word": "is",
+          "options": [
+            "was",
+            "it’s",
+            "has",
+            "will",
+            "seems",
+            "looks"
+          ]
+        },
+        {
+          "word": "on",
+          "options": [
+            "in",
+            "at",
+            "by",
+            "for",
+            "from",
+            "until"
+          ]
+        },
+        {
+          "word": "Tuesday",
+          "options": [
+            "Thursday",
+            "Monday",
+            "Wednesday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ]
+        },
+        {
+          "word": "in",
+          "options": [
+            "on",
+            "at",
+            "by",
+            "during",
+            "after",
+            "before"
+          ]
+        },
+        {
+          "word": "the",
+          "options": [
+            "a",
+            "this",
+            "that",
+            "each",
+            "our",
+            "my"
+          ]
+        },
+        {
+          "word": "morning",
+          "options": [
+            "evening",
+            "afternoon",
+            "night",
+            "meeting",
+            "warning",
+            "tomorrow"
+          ]
+        }
+      ],
       "counter": "Example 3 of 5",
       "next_label": "Next example",
       "source_paragraphs": [
@@ -1241,6 +1522,85 @@
       "situation": "You are ordering food at a counter.",
       "meant": "“No peanuts, please—I’m allergic.”",
       "transcript": "Some peanuts, please, I’m a little sick.",
+      "candidates": [
+        {
+          "word": "Some",
+          "options": [
+            "More",
+            "No",
+            "Any",
+            "One",
+            "Two",
+            "Several"
+          ]
+        },
+        {
+          "word": "peanuts",
+          "options": [
+            "peanut",
+            "pecans",
+            "peas",
+            "cashews",
+            "almonds",
+            "walnuts"
+          ]
+        },
+        {
+          "word": "please",
+          "options": [
+            "pleas",
+            "thanks",
+            "kindly",
+            "pleased",
+            "now",
+            "yes"
+          ]
+        },
+        {
+          "word": "I’m",
+          "options": [
+            "I’ll",
+            "I’ve",
+            "I’d",
+            "we’re",
+            "you’re",
+            "he’s"
+          ]
+        },
+        {
+          "word": "a",
+          "options": [
+            "the",
+            "an",
+            "one",
+            "so",
+            "very",
+            "quite"
+          ]
+        },
+        {
+          "word": "little",
+          "options": [
+            "slightly",
+            "really",
+            "very",
+            "quite",
+            "mildly",
+            "seriously"
+          ]
+        },
+        {
+          "word": "sick",
+          "options": [
+            "ill",
+            "sore",
+            "allergic",
+            "sad",
+            "tired",
+            "weak"
+          ]
+        }
+      ],
       "counter": "Example 4 of 5",
       "next_label": "Next example",
       "source_paragraphs": [
@@ -1274,6 +1634,96 @@
       "situation": "You are telling a friend how you feel about something they did.",
       "meant": "“I’m proud of you, that was a big deal.”",
       "transcript": "I’m crowded too, that was a big deal.",
+      "candidates": [
+        {
+          "word": "I’m",
+          "options": [
+            "I’ve",
+            "I’ll",
+            "we’re",
+            "I’d",
+            "you’re",
+            "he’s"
+          ]
+        },
+        {
+          "word": "crowded",
+          "options": [
+            "clouded",
+            "grounded",
+            "proud",
+            "rounded",
+            "crowding",
+            "crowning"
+          ]
+        },
+        {
+          "word": "too",
+          "options": [
+            "to",
+            "two",
+            "through",
+            "you",
+            "of",
+            "though"
+          ]
+        },
+        {
+          "word": "that",
+          "options": [
+            "this",
+            "it",
+            "what",
+            "there",
+            "they",
+            "which"
+          ]
+        },
+        {
+          "word": "was",
+          "options": [
+            "is",
+            "has",
+            "were",
+            "seems",
+            "felt",
+            "meant"
+          ]
+        },
+        {
+          "word": "a",
+          "options": [
+            "the",
+            "one",
+            "an",
+            "some",
+            "another",
+            "that"
+          ]
+        },
+        {
+          "word": "big",
+          "options": [
+            "good",
+            "huge",
+            "major",
+            "small",
+            "real",
+            "great"
+          ]
+        },
+        {
+          "word": "deal",
+          "options": [
+            "day",
+            "meal",
+            "detail",
+            "thing",
+            "achievement",
+            "change"
+          ]
+        }
+      ],
       "counter": "Example 5 of 5",
       "next_label": "Next",
       "source_paragraphs": [

@@ -289,6 +289,130 @@
     }
     return container;
   }
+  // ---- Word candidates on the post-demonstration edit screens ----
+  // Words are compared by their letters; surrounding punctuation stays in place.
+  function wordTokens(value) {
+    // Letters/digits with internal apostrophes, so dashes and punctuation separate words.
+    return [...value.matchAll(/[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*/gu)]
+      .map(m => ({start: m.index, end: m.index + m[0].length, word: m[0]}));
+  }
+  function similarity(a, b) {
+    // Dice coefficient on letter pairs, 0 (unrelated) to 1 (same).
+    const pairs = w => { const out = []; for (let i = 0; i < w.length - 1; i++) out.push(w.slice(i, i + 2)); return out; };
+    const x = pairs(a.toLowerCase()), y = pairs(b.toLowerCase());
+    if (!x.length || !y.length) return a.toLowerCase() === b.toLowerCase() ? 1 : 0;
+    let shared = 0; const rest = [...y];
+    for (const pair of x) { const i = rest.indexOf(pair); if (i >= 0) { shared++; rest.splice(i, 1); } }
+    return 2 * shared / (x.length + y.length);
+  }
+  function alignSlots(words, entries) {
+    // Weighted word-level edit distance. Each current word maps to the original word
+    // it matches or replaced; inserted words map to -1 and get no candidates. A
+    // replacement is cheap when the new word is one of that slot's candidates or is
+    // spelled similarly, so deletions elsewhere do not shift words to the wrong slot.
+    const n = words.length, m = entries.length;
+    const sub = (w, e) => w.toLowerCase() === e.word.toLowerCase() ? 0
+      : e.options.some(o => o.toLowerCase() === w.toLowerCase()) ? 0.2 : 1 - 0.5 * similarity(w, e.word);
+    const d = Array.from({length: n + 1}, (_, i) => Array.from({length: m + 1}, (_, j) => i + j));
+    for (let i = 1; i <= n; i++) for (let j = 1; j <= m; j++)
+      d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + sub(words[i - 1], entries[j - 1]));
+    const slot = new Array(n).fill(-1), close = (a, b) => Math.abs(a - b) < 1e-9;
+    for (let i = n, j = m; i > 0 && j > 0;) {
+      if (close(d[i][j], d[i - 1][j - 1] + sub(words[i - 1], entries[j - 1]))) { slot[i - 1] = j - 1; i--; j--; }
+      else if (close(d[i][j], d[i - 1][j] + 1)) i--;
+      else j--;
+    }
+    return slot;
+  }
+  function candidateOptions(entry, word) {
+    // Same six positions; a chosen candidate is swapped for the original word.
+    const list = [...entry.options];
+    if (word.toLowerCase() !== entry.word.toLowerCase()) {
+      const i = list.findIndex(o => o.toLowerCase() === word.toLowerCase());
+      if (i >= 0) list[i] = entry.word;
+    }
+    return list;
+  }
+  function wordRect(ta, start, end) {
+    // Measure a word inside the text box with an invisible copy of its text layout.
+    const cs = getComputedStyle(ta), mirror = document.createElement('div');
+    for (const k of ['fontFamily', 'fontSize', 'fontWeight', 'fontStyle', 'fontVariant', 'letterSpacing', 'wordSpacing',
+      'lineHeight', 'textTransform', 'textIndent', 'tabSize', 'paddingTop', 'paddingLeft', 'paddingRight']) mirror.style[k] = cs[k];
+    Object.assign(mirror.style, {position: 'absolute', visibility: 'hidden', top: '0', left: '0', whiteSpace: 'pre-wrap',
+      overflowWrap: 'break-word', boxSizing: 'content-box', border: '0',
+      width: (ta.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight)) + 'px'});
+    const span = document.createElement('span'); span.textContent = ta.value.slice(start, end);
+    mirror.append(ta.value.slice(0, start), span, ta.value.slice(end));
+    document.body.append(mirror);
+    const rect = {left: ta.offsetLeft + parseFloat(cs.borderLeftWidth) + span.offsetLeft,
+      top: ta.offsetTop + parseFloat(cs.borderTopWidth) + span.offsetTop - ta.scrollTop,
+      width: span.offsetWidth, height: span.offsetHeight};
+    mirror.remove();
+    return rect;
+  }
+  function mountCandidates(p, input, setText) {
+    const box = document.createElement('div'); box.className = 'transcript-box';
+    input.before(box); box.append(input);
+    const highlight = document.createElement('div'); highlight.className = 'word-highlight hidden';
+    const rows = ['above', 'below'].map(side => {
+      const row = document.createElement('div'); row.className = `candidate-row ${side} hidden`;
+      row.setAttribute('role', 'group'); return row;
+    });
+    box.append(highlight, ...rows);
+    let open = null;
+    const hide = () => { open = null; highlight.classList.add('hidden'); rows.forEach(r => r.classList.add('hidden')); };
+    const close = reason => {
+      if (!open) return;
+      record('candidates_closed', p.id, {position: open.slot + 1, word: open.word, reason});
+      hide();
+    };
+    const choose = (option, index) => {
+      const o = open; if (!o) return;
+      record('candidate_selected', p.id, {position: o.slot + 1, from: o.word, to: option, option_index: index, options: o.options});
+      hide();
+      const before = input.value;
+      setText(before.slice(0, o.start) + option + before.slice(o.end), 'candidateSelected');
+      input.setSelectionRange(o.start + option.length, o.start + option.length);
+    };
+    const show = () => {
+      if (input.selectionStart !== input.selectionEnd) return close('text_selected');
+      const pos = input.selectionStart, toks = wordTokens(input.value);
+      const i = toks.findIndex(t => t.start <= pos && pos <= t.end);
+      const slot = i < 0 ? -1 : alignSlots(toks.map(t => t.word), p.candidates)[i];
+      if (slot < 0) return close('no_candidates');
+      const tok = toks[i];
+      if (open && open.start === tok.start && open.word === tok.word) return;
+      close('other_word');
+      const options = candidateOptions(p.candidates[slot], tok.word);
+      open = {slot, start: tok.start, end: tok.end, word: tok.word, options};
+      const r = wordRect(input, tok.start, tok.end);
+      Object.assign(highlight.style, {left: r.left - 4 + 'px', top: r.top - 2 + 'px', width: r.width + 8 + 'px', height: r.height + 4 + 'px'});
+      highlight.classList.remove('hidden');
+      rows.forEach((row, k) => {
+        row.replaceChildren(...options.slice(k * 3, k * 3 + 3).map((option, j) => {
+          const b = button(option, () => choose(option, k * 3 + j), 'candidate');
+          b.addEventListener('mousedown', e => e.preventDefault()); // keep the text box focused
+          return b;
+        }));
+        row.setAttribute('aria-label', `Suggestions for ${tok.word}`);
+        row.classList.remove('hidden');
+        row.style.top = (k ? r.top + r.height + 8 : r.top - 8) + 'px';
+        row.style.left = Math.max(0, Math.min(box.clientWidth - row.offsetWidth, r.left + r.width / 2 - row.offsetWidth / 2)) + 'px';
+      });
+      record('candidates_shown', p.id, {position: slot + 1, word: tok.word, options});
+      // Keep both suggestion rows inside the scrollable question area.
+      const page = $('page'), pr = page.getBoundingClientRect();
+      const above = rows[0].getBoundingClientRect(), below = rows[1].getBoundingClientRect();
+      if (above.top < pr.top) page.scrollTop -= pr.top - above.top + 4;
+      else if (below.bottom > pr.bottom) page.scrollTop += Math.min(below.bottom - pr.bottom + 4, above.top - pr.top);
+    };
+    input.addEventListener('click', show);
+    input.addEventListener('input', () => close('typing'));
+    input.addEventListener('scroll', () => close('scroll'));
+    input.addEventListener('keydown', e => { if (e.key === 'Escape') close('escape'); });
+    new ResizeObserver(() => close('resize')).observe(input);
+    return close;
+  }
   function render() {
     activeVideo = null;
     const page = $('page-content'), nav = $('navigation'), foot = $('footer');
@@ -377,7 +501,9 @@
       field.className = 'transcript-wrap';
       const label = field.querySelector('label'); label.className = 'transcript-label';
       const help = field.querySelector('.help');
-      help.textContent = 'Change the text the way you would fix it, then choose Next. You don’t need to match the sentence exactly.';
+      help.textContent = p.candidates
+        ? 'Click a word to see suggestions, or type to change the text. Then choose Next. You don’t need to match the sentence exactly.'
+        : 'Change the text the way you would fix it, then choose Next. You don’t need to match the sentence exactly.';
       label.after(help);
       const input = field.querySelector('textarea');
       // Tool buttons change the text; the shared text_input handler logs the change
@@ -417,6 +543,10 @@
       }
       // Under the text box: the text tools, then the decisions on their own line.
       field.append(tools, decisions);
+      if (p.candidates) {
+        const closeCandidates = mountCandidates(p, input, setText);
+        task.addEventListener('pointerdown', e => { if (!e.target.closest('.transcript-box')) closeCandidates('outside'); });
+      }
       task.append(field); page.append(task);
     }
     if (['single', 'multi', 'group', 'text'].includes(p.kind)) nav.append(button('Clear answer', () => {

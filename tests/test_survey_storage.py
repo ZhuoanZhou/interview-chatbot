@@ -116,6 +116,17 @@ class StorageTests(unittest.TestCase):
             self.assertEqual(edit['title'],part2['scenario']['title'])
             self.assertEqual('“'+edit['transcript']+'”',part2['scenario']['shown'])
 
+    def test_every_transcript_word_has_six_candidates(self):
+        for page in SCHEMA['pages']:
+            if page['kind']!='edit':
+                continue
+            words=[re.sub(r"^[^\w’']+|[^\w’']+$","",t) for t in page['transcript'].split()]
+            self.assertEqual([c['word'] for c in page['candidates']],words)
+            for c in page['candidates']:
+                self.assertEqual(len(c['options']),6)
+                self.assertEqual(len(set(c['options'])),6)
+                self.assertNotIn(c['word'],c['options'])
+
     def test_action_choices_are_grouped_on_separate_lines(self):
         for page in SCHEMA['pages']:
             if not re.fullmatch(r's[1-5]_action',page['id']):

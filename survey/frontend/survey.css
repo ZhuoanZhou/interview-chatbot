@@ -173,3 +173,12 @@ nav .example-counter+.primary{margin-left:0}
   .decisions-label{flex-basis:100%}
   .edit-tools button,.decisions button{flex:1 1 40%;padding:8px 6px}
 }
+/* Word candidates: three suggestions above and three below the clicked word. */
+.transcript-box{position:relative}
+.word-highlight{position:absolute;z-index:1;border:2px solid #5b4fc7;border-radius:8px;background:rgba(91,79,199,.08);pointer-events:none}
+.candidate-row{position:absolute;z-index:5;display:flex;gap:6px;padding:5px;background:#fff;border:1px solid #d9dcef;border-radius:12px;box-shadow:0 4px 16px rgba(40,40,90,.16)}
+.candidate-row.above{transform:translateY(-100%)}
+.candidate-row .candidate{min-height:46px;min-width:96px;padding:6px 16px;border:1.5px solid #5b4fc7;border-radius:9px;background:#fff;color:#4a3fb8;font-size:1rem;font-weight:500;white-space:nowrap}
+.candidate-row .candidate:hover{background:#f0eefc}
+.candidate-row .candidate:focus-visible{outline:3px solid #bf6500;outline-offset:2px}
+@media(max-width:520px){.candidate-row .candidate{min-width:0;padding:6px 10px}}
