@@ -11,11 +11,16 @@
   let saveError = '', lastAck = '', activeVideo = null;
   let lastConsoleStatus = '';
   let lastFrameHeight = 0;
+  // Two hosts: inside Streamlit (an iframe component), or a standalone web page
+  // (html-survey/) that calls window.startSurvey() and saves through its own API.
+  let standalone = null, requestOpen = false;
 
   function bridge(type, extra = {}) {
+    if (standalone) return;
     window.parent.postMessage({isStreamlitMessage: true, type, ...extra}, '*');
   }
   function resize() {
+    if (standalone) return;
     let height = window.innerHeight;
     // The host CSS supplies a viewport-sized frame. When same-origin access is
     // available, also follow the visual viewport (including an on-screen keyboard).
@@ -77,8 +82,22 @@
       cache();
     }
     lastSent = Date.now();
-    bridge('streamlit:setComponentValue', {value: {...inflight, attempt: uuid()}, dataType: 'json'});
+    if (standalone) sendStandalone({...inflight, attempt: uuid()});
+    else bridge('streamlit:setComponentValue', {value: {...inflight, attempt: uuid()}, dataType: 'json'});
     setStatus();
+  }
+  function sendStandalone(packet) {
+    // One request at a time; the retry timer resends the identical batch, and the
+    // server returns the already-saved record when it has seen this batch ID.
+    if (requestOpen) return;
+    requestOpen = true;
+    standalone.save(packet).then(saved => {
+      requestOpen = false;
+      receive({...args, ack: packet.batch_id, revision: saved.revision, saved_at: saved.saved_at, error: ''});
+    }, error => {
+      requestOpen = false;
+      receive({...args, error: (error && error.message) || 'The storage service could not be reached.'});
+    });
   }
   function answer(id) { return state.answers[id]; }
   // The choice that has an optional text field: "Other" unless a question names another.
@@ -612,6 +631,7 @@
     state.status = status; record('survey_' + status, state.page); render(); requestSave();
   }
   function mediaUrl(path) {
+    if (standalone) return new URL(path, window.location.href).href;
     // Local components are served under <external app prefix>/component/...
     // That prefix includes both baseUrlPath and any hosting proxy route. A
     // root-relative URL or document.referrer can discard the latter (and the
@@ -675,8 +695,18 @@
       {control:control.tagName.toLowerCase(), label:control.value || control.textContent}, e);
   }, true);
   window.addEventListener('message', e => {
-    if (e.source !== window.parent || e.data?.type !== 'streamlit:render') return;
-    args = e.data.args;
+    if (standalone || e.source !== window.parent || e.data?.type !== 'streamlit:render') return;
+    receive(e.data.args);
+  });
+  // Standalone page entry point: options = {schema, record, session_key, demo_url,
+  // demo_transcript, demo_captions, save(packet) -> Promise<saved record>}.
+  window.startSurvey = options => {
+    if (initialized) return;
+    standalone = {save: options.save};
+    receive(options);
+  };
+  function receive(a) {
+    args = a;
     if (!initialized) {
       schema = args.schema; state = clone(args.record.state); revision = args.record.revision;
       cacheKey = 'communication-survey:' + args.session_key;
@@ -717,7 +747,7 @@
     }
     if (args.error) { saveError = args.error; setStatus(); }
     if (state.page === 'demo_video') mountVideo();
-  });
+  }
   document.addEventListener('visibilitychange', () => {
     if (!initialized || state.status !== 'active') return;
     record('visibility_change', state.page, {visibility: document.visibilityState});
@@ -739,6 +769,8 @@
       viewport?.removeEventListener('scroll', resize);
     }, {once:true});
   } catch (_) { /* The host's viewport CSS remains the fallback. */ }
-  bridge('streamlit:componentReady', {apiVersion: 1});
-  resize();
+  if (!window.SURVEY_STANDALONE) {
+    bridge('streamlit:componentReady', {apiVersion: 1});
+    resize();
+  }
 })();

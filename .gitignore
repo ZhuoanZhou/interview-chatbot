@@ -243,3 +243,11 @@ commit_msg.txt
 .venv-survey/
 .survey-preview/
 survey_exports/
+
+# HTML survey version: kept local only (not pushed to GitHub), with its helper
+# script and tests, plus any local or deployed survey data.
+html-survey/
+survey-data/
+scripts/build_html_survey.py
+tests/test_html_survey.py
+tests/html_survey_e2e.cjs
