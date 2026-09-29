@@ -85,7 +85,6 @@ ACTION_GROUPS=[{'label':'Keep the text','options':['Continue with the text as it
                {'label':"Don't use the tool",'options':['Use my AAC device or board','Ask someone to help','Stop trying and move on']},
                {'label':'','options':['Not sure']}]
 ACTION_OPTIONS=[o for g in ACTION_GROUPS[:4] for o in g['options']]+['Other','Not sure']
-EDIT_CHOICES=['Change the text','Delete it and type a new message']
 scenarios=[]
 for number, start in enumerate([179,184,189,194,199],1):
     prefix=f's{number}'
@@ -108,17 +107,15 @@ ratings=['Very useful','Somewhat useful','Neutral','Not very useful','Not useful
 for number,i in enumerate(range(244,255,2),1):
     page(f'feature_{number}',3,'How useful do you think each part of the system would be?',options=ratings,source=[240,i],
          item=txt(i),group='Q1 · Parts of the system',rating_group='features',when=watched)
-# After Q1, the same five examples return (added 2026-09; not in the Word guide).
-# Each asks what they would do; only a "Fix the text" choice opens the editable transcript.
+# After Q1, the same five examples return as editable transcripts (added 2026-09;
+# not in the Word guide). Buttons under the text record Keep as is / Say it again /
+# Abandon; Delete all and Reset help with editing.
 page('edit_intro',3,'Examples with the tool','info',when=watched,paragraphs=[
     "Now imagine you are using this tool. For each example you'll see what you meant to say and what the tool heard. "
     "Tell us what you would do. If you'd fix the text, you can try it. You don't need to match the sentence exactly."])
 for number,(start,scenario) in enumerate(scenarios,1):
     counter=f'Example {number} of {len(scenarios)}'
-    page(f'e{number}_action',3,'What would you do first in this situation?',options=ACTION_OPTIONS,
-         source=list(range(start,start+4)),when=watched,scenario=scenario,counter=counter,option_groups=ACTION_GROUPS)
-    page(f'e{number}_edit',3,scenario['title'],'edit',source=list(range(start,start+4)),
-         when=all_of(watched,has(f'e{number}_action',*EDIT_CHOICES)),
+    page(f'e{number}_edit',3,scenario['title'],'edit',source=list(range(start,start+4)),when=watched,
          situation=scenario['situation'],meant=scenario['meant'],transcript=scenario['shown'].strip('“”"'),
          counter=counter,next_label='Next example' if number<len(scenarios) else 'Next')
 page('candidates_compare',3,txt(257).removeprefix('Q2. '),options=opts(*range(259,265)),source=257,when=watched)
@@ -144,7 +141,8 @@ schema={'version':'2026-09-22-v1','title':'Communication experiences survey',
         'sections':['Welcome','Your experiences','Example situations','After the demonstration','Closing'],
         'pages':pages,
         # Removed screens -> where a session saved on one of them resumes.
-        'retired_pages':{f's{n}_{kind}':f's{n}_action' for n in range(1,6) for kind in ('extent','words','leave')}}
+        'retired_pages':{**{f's{n}_{kind}':f's{n}_action' for n in range(1,6) for kind in ('extent','words','leave')},
+                         **{f'e{n}_action':f'e{n}_edit' for n in range(1,6)}}}
 target=Path(__file__).resolve().parents[1]/'survey'/'schema.json'
 target.parent.mkdir(exist_ok=True)
 target.write_text(json.dumps(schema,ensure_ascii=False,indent=2),encoding='utf-8')

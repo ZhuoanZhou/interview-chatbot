@@ -371,25 +371,50 @@
       meant.append(text('h3', 'What you meant to say'), text('p', p.meant));
       task.append(meant);
       const field = textarea(p, p.id, answer(p.id)?.text ?? p.transcript, value => {
-        state.answers[p.id] = {status: 'answered', text: value, original: p.transcript, edited: value !== p.transcript};
+        state.answers[p.id] = {status: 'answered', decision: 'edited', text: value, original: p.transcript, edited: value !== p.transcript};
+        task.querySelectorAll('.decisions button').forEach(b => b.setAttribute('aria-pressed', 'false'));
       }, 'Transcript');
       field.className = 'transcript-wrap';
       const label = field.querySelector('label'); label.className = 'transcript-label';
       const help = field.querySelector('.help');
-      help.textContent = 'Change the text the way you would fix it. You don’t need to match the sentence exactly. To start over, choose “Delete all”.';
+      help.textContent = 'Change the text the way you would fix it, then choose Next. You don’t need to match the sentence exactly.';
       label.after(help);
       const input = field.querySelector('textarea');
-      const clearAll = button('Delete all', () => {
+      // Tool buttons change the text; the shared text_input handler logs the change
+      // like any other edit. Browsers blank non-standard inputType values on
+      // synthetic events, so the source is set directly.
+      const setText = (value, inputType) => {
+        input.focus(); input.value = value;
+        const event = new InputEvent('input', {bubbles: true});
+        Object.defineProperty(event, 'inputType', {value: inputType});
+        input.dispatchEvent(event);
+      };
+      const tools = document.createElement('div'); tools.className = 'edit-tools';
+      tools.append(button('Delete all', () => {
         if (!input.value) return;
         record('delete_all', p.id, {previous_text: input.value});
-        input.focus(); input.value = '';
-        // Logged by the shared text_input handler, like any other deletion. Browsers
-        // blank non-standard inputType values on synthetic events, so set it directly.
-        const event = new InputEvent('input', {bubbles: true});
-        Object.defineProperty(event, 'inputType', {value: 'deleteAllButton'});
-        input.dispatchEvent(event);
-      }, 'small delete-all');
-      field.append(clearAll);
+        setText('', 'deleteAllButton');
+      }, 'small'), button('Reset', () => {
+        if (input.value === p.transcript) return;
+        record('transcript_reset', p.id, {previous_text: input.value});
+        setText(p.transcript, 'resetButton');
+      }, 'small'));
+      // Decisions record what they would do instead of fixing the text, then move on.
+      const decisions = document.createElement('div'); decisions.className = 'decisions';
+      decisions.setAttribute('role', 'group'); decisions.setAttribute('aria-labelledby', 'decisions-' + p.id);
+      const decisionsLabel = text('p', 'Instead of fixing the text:', 'decisions-label'); decisionsLabel.id = 'decisions-' + p.id;
+      decisions.append(decisionsLabel);
+      for (const [labelText, decision] of [['Keep as is', 'kept'], ['Say it again', 'say_again'], ['Abandon', 'abandoned']]) {
+        const b = button(labelText, () => {
+          state.answers[p.id] = {status: 'answered', decision, text: input.value, original: p.transcript, edited: input.value !== p.transcript};
+          record('decision', p.id, {decision, text: input.value});
+          next();
+        }, 'decision');
+        b.setAttribute('aria-pressed', String(answer(p.id)?.decision === decision));
+        decisions.append(b);
+      }
+      const actions = document.createElement('div'); actions.className = 'edit-actions';
+      actions.append(tools, decisions); field.append(actions);
       task.append(field); page.append(task);
     }
     if (['single', 'multi', 'group', 'text'].includes(p.kind)) nav.append(button('Clear answer', () => {
@@ -416,7 +441,14 @@
           if (!activeVideo || activeVideo.readyState < 2 || activeVideo.error) return;
           state.answers[p.id] = {status: 'answered', choices: ['watched']};
           record('demo_confirmed', p.id);
-        } else if (['single','multi','text','group','edit'].includes(p.kind)) {
+        } else if (p.kind === 'edit') {
+          // Next saves an edit; with no edit and no decision the example is unanswered.
+          const a = answer(p.id);
+          if (!a || (a.decision === 'edited' && !a.edited)) {
+            state.answers[p.id] = {status: 'unanswered'};
+            record('unanswered_next', p.id);
+          }
+        } else if (['single','multi','text','group'].includes(p.kind)) {
           for (const item of questionItems(p)) if (!answer(item.id)) {
             state.answers[item.id] = {status:'unanswered'};
             record('unanswered_next',item.id);

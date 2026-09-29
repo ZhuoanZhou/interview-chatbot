@@ -100,27 +100,25 @@ class StorageTests(unittest.TestCase):
         self.assertNotIn('Notes to myself',json.dumps(pages))
         self.assertLess(max(i for p in pages for i in p.get('source_paragraphs',[0])),354)
 
-    def test_post_demo_examples_follow_q1_in_two_steps(self):
+    def test_post_demo_examples_follow_q1_as_edit_screens(self):
         pages=SCHEMA['pages'];ids=[p['id'] for p in pages];P={p['id']:p for p in pages}
         watched=P['feature_1']['when']
         start=ids.index('feature_6')+1
-        expected=['edit_intro']+[f'e{n}_{k}' for n in range(1,6) for k in ('action','edit')]
-        self.assertEqual(ids[start:start+11],expected)
-        self.assertEqual(ids[start+11],'candidates_compare')
+        self.assertEqual(ids[start:start+6],['edit_intro']+[f'e{n}_edit' for n in range(1,6)])
+        self.assertEqual(ids[start+6],'candidates_compare')
         self.assertEqual(P['edit_intro']['when'],watched)
         self.assertIn("You don't need to match the sentence exactly.",P['edit_intro']['paragraphs'][0])
         for n in range(1,6):
-            action,edit,part2=P[f'e{n}_action'],P[f'e{n}_edit'],P[f's{n}_action']
-            self.assertEqual(action['when'],watched)
-            self.assertEqual(action['scenario'],part2['scenario'])
-            self.assertEqual(action['options'],part2['options'])
-            self.assertEqual(edit['when'],{'all':[watched,{'question':f'e{n}_action',
-                'values':['Change the text','Delete it and type a new message']}]})
+            edit,part2=P[f'e{n}_edit'],P[f's{n}_action']
+            self.assertNotIn(f'e{n}_action',ids)
+            self.assertEqual(SCHEMA['retired_pages'][f'e{n}_action'],f'e{n}_edit')
+            self.assertEqual(edit['when'],watched)
+            self.assertEqual(edit['title'],part2['scenario']['title'])
             self.assertEqual('“'+edit['transcript']+'”',part2['scenario']['shown'])
 
     def test_action_choices_are_grouped_on_separate_lines(self):
         for page in SCHEMA['pages']:
-            if not re.fullmatch(r'[se][1-5]_action',page['id']):
+            if not re.fullmatch(r's[1-5]_action',page['id']):
                 continue
             groups=page['option_groups']
             self.assertEqual([g['label'] for g in groups],

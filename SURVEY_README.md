@@ -90,21 +90,27 @@ saved records and `responses.json`; removed questions no longer appear as rows i
 `answers.csv`.
 
 Part 3 order, for participants who agreed to and confirmed watching the video:
-Q1 ratings, then an intro screen (`edit_intro`), then the five examples in two steps:
+Q1 ratings, then an intro screen (`edit_intro`), then the five examples as editable
+transcripts (`e1_edit`–`e5_edit`), then the remaining Part 3 questions. There is no
+"What would you do first?" step after the demonstration; a session saved on that
+removed step (`e1_action`–`e5_action`) resumes on its edit screen.
 
-1. `e1_action`–`e5_action`: the same grouped question as Part 2.
-2. `e1_edit`–`e5_edit`: only if they chose "Change the text" or "Delete it and type a
-   new message". The transcript is editable, pre-filled with the misrecognized text,
-   with a "Delete all" button to start over.
+Each edit screen shows the context, what they meant to say, and the misrecognized
+transcript, pre-filled and editable. Under it:
 
-The edit answer stores the final `text`, the `original` transcript, and `edited`.
-Next without editing records `unanswered`; keeping the text is the explicit choice
-"Continue with the text as it is". "Delete all" logs a `delete_all` event plus a
-`text_input` event with `input_type` `deleteAllButton`. Changing the choice to a
-non-editing one removes the edit answer (`answer_invalidated`). Keystrokes, input
-deltas, focus and composition use the same text-area logging as every other field.
-These screens are not in the Word guide; `scripts/build_survey_schema.py` generates
-them, so a rebuild keeps them. The remaining Part 3 questions follow the examples.
+- Delete all / Reset: empty the text, or restore the original transcript. Each logs
+  its own event (`delete_all`, `transcript_reset`) plus a `text_input` event with
+  `input_type` `deleteAllButton` / `resetButton`.
+- Keep as is / Say it again / Abandon: record the decision (`decision` event) and move
+  straight to the next screen. Going Back shows the chosen button as pressed.
+
+The answer stores `decision` (`edited`, `kept`, `say_again` or `abandoned`), the final
+`text`, the `original` transcript, and `edited` (whether the text differs). Next after
+an edit saves `decision: edited`; Next with no edit and no decision (including after
+Reset) is `unanswered`; Skip is `skipped`. Typing after choosing a decision changes it
+back to `edited`. Keystrokes, input deltas, focus and composition use the same
+text-area logging as every other field. These screens are not in the Word guide;
+`scripts/build_survey_schema.py` generates them, so a rebuild keeps them.
 
 ## Demonstration
 

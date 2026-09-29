@@ -72,7 +72,7 @@ window.start=(schema,pageId,answers)=>{args={schema,record:{revision:0,state:{pa
      assert(textbox.y>=label.y+label.height,'Other text box is stacked below its label');
      assert(Math.abs(textbox.x-label.x)<2,'Other label and text box share a left edge');
     }
-    if(size.width===1366&&['story','s1_action','e1_action','e1_edit','edit_intro','feature_1','situation_1'].includes(q.id))await p.screenshot({path:`tmp/survey-qa/wide-${q.id}.png`});
+    if(size.width===1366&&['story','s1_action','e1_edit','edit_intro','feature_1','situation_1'].includes(q.id))await p.screenshot({path:`tmp/survey-qa/wide-${q.id}.png`});
    }
   }
   for(const size of [{width:390,height:844},{width:844,height:390},{width:390,height:420}]){

@@ -155,5 +155,17 @@ nav .example-counter+.primary{margin-left:0}
   #page-content .option-group .options{grid-template-columns:repeat(3,minmax(0,1fr))}
   .option-group .other-row.in-group{grid-column:span 2}
 }
-.transcript-wrap .delete-all{margin-top:10px}
 .option-group.unlabeled .choice{align-self:start}
+/* Edit screen: tools for the text, then what they would do instead. */
+.edit-actions{display:flex;flex-wrap:wrap;align-items:center;gap:10px 24px;margin-top:10px}
+.edit-tools{display:flex;flex-wrap:wrap;gap:10px}
+.decisions{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.decisions-label{margin:0 4px 0 0;font-weight:700;font-size:.9rem}
+.decisions button{min-height:48px;padding:8px 18px;border-color:#7caaa5;color:#1d4f55;font-weight:600}
+.decisions button[aria-pressed="true"]{background:#eaf5f3;border-color:#16736f}
+@media(min-width:1000px){.decisions{padding-left:24px;border-left:1px solid #d6e1e3}}
+@media(max-width:999px){.decisions{flex-basis:100%;padding-top:10px;border-top:1px solid #d6e1e3}}
+@media(max-width:520px){
+  .decisions-label{flex-basis:100%}
+  .decisions button{flex:1;padding:8px 6px}
+}
