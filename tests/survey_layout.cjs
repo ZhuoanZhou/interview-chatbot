@@ -37,7 +37,8 @@ window.start=(schema,pageId,answers)=>{args={schema,record:{revision:0,state:{pa
    await p.goto('http://127.0.0.1:8512/harness');
    const answers={};
    for(const q of schema.pages){
-    if(q.options?.includes('Other'))answers[q.id]={status:'answered',choices:['Other'],other:{other:'Sample answer'}};
+    const other=q.other_option||'Other';
+    if(q.options?.includes(other))answers[q.id]={status:'answered',choices:[other],other:{other:'Sample answer'}};
     if(q.fields)answers[q.id]={status:'answered',groups:Object.fromEntries(q.fields.map(f=>[f.id,'Other'])),other:Object.fromEntries(q.fields.map(f=>[f.id,'Sample answer']))};
    }
    await p.evaluate(([s,id,a])=>{sessionStorage.clear();start(s,id,a)},[schema,id,answers]);
@@ -54,7 +55,7 @@ window.start=(schema,pageId,answers)=>{args={schema,record:{revision:0,state:{pa
     assert(await app.locator('body').evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
     for(const container of await app.locator('.answer-options:has(.other-row)').all()){
      const labels=await container.locator('.choice span').allTextContents();
-     assert.equal(labels.at(-1),'Other');
+     assert(['Other','It depends on something else'].includes(labels.at(-1)));
      assert(await container.getByRole('textbox').isVisible());
      const other=await container.locator('.other-row').boundingBox();
      if(await container.locator('.option-groups').count()){
@@ -72,11 +73,11 @@ window.start=(schema,pageId,answers)=>{args={schema,record:{revision:0,state:{pa
      assert(textbox.y>=label.y+label.height,'Other text box is stacked below its label');
      assert(Math.abs(textbox.x-label.x)<2,'Other label and text box share a left edge');
     }
-    if(size.width===1366&&['story','s1_action','e1_edit','edit_intro','feature_1','situation_1'].includes(q.id))await p.screenshot({path:`tmp/survey-qa/wide-${q.id}.png`});
+    if(size.width===1366&&['stop_trying','s1_action','e1_edit','edit_intro','feature_1','situation_1'].includes(q.id))await p.screenshot({path:`tmp/survey-qa/wide-${q.id}.png`});
    }
   }
   for(const size of [{width:390,height:844},{width:844,height:390},{width:390,height:420}]){
-   await p.setViewportSize(size);const app=await start('story');
+   await p.setViewportSize(size);const app=await start('stop_trying');
    const question=await app.locator('#page').boundingBox(), controls=await app.locator('#controls').boundingBox();
    assert(question.height>40&&question.y+question.height<=controls.y+1);
    for(const name of ['Next','Skip','Save and take a break','End my survey now']){

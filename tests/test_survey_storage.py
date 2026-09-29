@@ -100,21 +100,42 @@ class StorageTests(unittest.TestCase):
         self.assertNotIn('Notes to myself',json.dumps(pages))
         self.assertLess(max(i for p in pages for i in p.get('source_paragraphs',[0])),354)
 
-    def test_post_demo_examples_follow_q1_as_edit_screens(self):
+    def test_optional_exercise_ends_part_3(self):
         pages=SCHEMA['pages'];ids=[p['id'] for p in pages];P={p['id']:p for p in pages}
         watched=P['feature_1']['when']
-        start=ids.index('feature_6')+1
+        start=ids.index('edit_intro')
+        self.assertEqual(ids[start-1],'situation_7')
         self.assertEqual(ids[start:start+6],['edit_intro']+[f'e{n}_edit' for n in range(1,6)])
-        self.assertEqual(ids[start+6],'candidates_compare')
-        self.assertEqual(P['edit_intro']['when'],watched)
-        self.assertIn("You don't need to match the sentence exactly.",P['edit_intro']['paragraphs'][0])
+        self.assertEqual(ids[start+6],'closing')
+        intro=P['edit_intro']
+        self.assertEqual((intro['title'],intro['kind'],intro['when']),('Try the example situations','single',watched))
+        self.assertEqual(intro['options'],['Yes, I’d like to try','No, skip the examples'])
+        self.assertEqual(len(intro['paragraphs']),3)
+        self.assertIn('“Re-check” function shown in the video',intro['paragraphs'][1])
         for n in range(1,6):
             edit,part2=P[f'e{n}_edit'],P[f's{n}_action']
             self.assertNotIn(f'e{n}_action',ids)
             self.assertEqual(SCHEMA['retired_pages'][f'e{n}_action'],f'e{n}_edit')
-            self.assertEqual(edit['when'],watched)
+            self.assertEqual(edit['when'],{'all':[watched,{'question':'edit_intro','values':['Yes, I’d like to try']}]})
             self.assertEqual(edit['title'],part2['scenario']['title'])
             self.assertEqual('“'+edit['transcript']+'”',part2['scenario']['shown'])
+
+    def test_questions_follow_the_september_29_guide(self):
+        ids=[p['id'] for p in SCHEMA['pages']];P={p['id']:p for p in SCHEMA['pages']}
+        self.assertEqual(SCHEMA['version'],'2026-09-29-v1')
+        self.assertEqual(SCHEMA['source'],'refined_question_list_9.29.2026.docx')
+        for gone in ['aac_carry','story','first_repair','understood','next_repair','different_repair',
+                     'stop_reason','partner_action','partner_expected']:
+            self.assertNotIn(gone,ids)
+        self.assertEqual(ids[ids.index('text_input')+1:ids.index('text_input')+3],['stop_trying','detect'])
+        self.assertEqual(P['stop_trying']['exclusive'],['I have not stopped trying','Not sure'])
+        self.assertEqual(P['text_input']['options'][:2],['Keyboard','A typing aid'])
+        self.assertEqual(P['retry_count']['other_option'],'It depends on something else')
+        self.assertEqual(P['retry_count']['when']['all'][1]['values'],[P['failed_repair']['options'][0]])
+        self.assertTrue(P['look_when']['title'].startswith('Imagine you are using the tool shown in the demo video during a conversation.'))
+        for p in SCHEMA['pages']:
+            for o in p.get('options',[]):
+                self.assertNotRegex(o,r'^- |_{2,}|:\s*$')
 
     def test_scenario_intro_wording(self):
         page=next(p for p in SCHEMA['pages'] if p['id']=='scenarios_intro')

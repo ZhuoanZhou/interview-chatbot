@@ -1,8 +1,8 @@
 {
-  "version": "2026-09-22-v1",
+  "version": "2026-09-29-v1",
   "title": "Communication experiences survey",
-  "source": "refined_question_list_9.22.2026.docx",
-  "source_sha256": "ba05e31bb34ca6c99bfb647a75bb5a0a19852f673b9ddab346f4c34e90c9ead6",
+  "source": "refined_question_list_9.29.2026.docx",
+  "source_sha256": "67fe705a26349e42a159bd5344b90e2cb06461ebd9a84c8c588c24739018eeff",
   "sections": [
     "Welcome",
     "Your experiences",
@@ -73,7 +73,8 @@
         "Not sure"
       ],
       "source_paragraphs": [
-        66
+        68,
+        69
       ]
     },
     {
@@ -88,7 +89,7 @@
         ]
       },
       "source_paragraphs": [
-        70
+        72
       ]
     },
     {
@@ -103,7 +104,7 @@
         ]
       },
       "source_paragraphs": [
-        72
+        74
       ]
     },
     {
@@ -117,7 +118,8 @@
         "Other"
       ],
       "source_paragraphs": [
-        73
+        78,
+        79
       ]
     },
     {
@@ -132,43 +134,20 @@
         ]
       },
       "source_paragraphs": [
-        75
-      ]
-    },
-    {
-      "id": "aac_carry",
-      "section": 1,
-      "title": "How did you carry or hold it?",
-      "kind": "multi",
-      "when": {
-        "question": "aac",
-        "values": [
-          "Yes"
-        ]
-      },
-      "options": [
-        "Held in my hand",
-        "Mounted on my chair or a stand",
-        "In a bag, taken out when needed",
-        "On a table only",
-        "I would not carry it"
-      ],
-      "source_paragraphs": [
-        76
+        80
       ]
     },
     {
       "id": "text_input",
       "section": 1,
-      "title": "How do you usually enter text?",
+      "title": "If you have to type a message, how do you usually enter text?",
       "kind": "multi",
       "exclusive": [
         "I do not enter text"
       ],
       "options": [
-        "One hand or finger",
-        "Two hands",
-        "A stylus or typing aid",
+        "Keyboard",
+        "A typing aid",
         "Eye gaze, switches, or another access method",
         "Speech input",
         "Someone helps me",
@@ -176,214 +155,17 @@
         "Other"
       ],
       "source_paragraphs": [
-        79
+        83
       ]
     },
     {
-      "id": "story",
+      "id": "stop_trying",
       "section": 1,
-      "title": "Think of a recent time someone had trouble understanding your speech. Who were you talking with, and where were you?",
-      "kind": "group",
-      "fields": [
-        {
-          "id": "person",
-          "title": "Who were you talking with?",
-          "options": [
-            "Family",
-            "Friends",
-            "Coworkers or classmates",
-            "People I do not know well",
-            "Other"
-          ]
-        },
-        {
-          "id": "place",
-          "title": "Where were you?",
-          "options": [
-            "At home",
-            "At work or school",
-            "In shops, services, or other community settings",
-            "On phone or video calls",
-            "Through text messages or email",
-            "Other"
-          ]
-        }
-      ],
-      "help": "Choose one in each group. If no example comes to mind, choose Skip.",
-      "source_paragraphs": [
-        89,
-        91,
-        92
-      ]
-    },
-    {
-      "id": "first_repair",
-      "section": 1,
-      "title": "What did you try first to help them understand?",
-      "kind": "single",
-      "when": {
-        "answered": "story"
-      },
-      "options": [
-        "Said it again",
-        "Said it in a different way",
-        "Typed or wrote something",
-        "Used my communication aid",
-        "Used gestures or signs",
-        "Asked someone to help",
-        "Continued without another attempt",
-        "Stopped trying to communicate the message",
-        "Other"
-      ],
-      "source_paragraphs": [
-        99
-      ]
-    },
-    {
-      "id": "understood",
-      "section": 1,
-      "title": "Did they understand what you meant after that?",
-      "kind": "single",
-      "when": {
-        "all": [
-          {
-            "answered": "story"
-          },
-          {
-            "question": "first_repair",
-            "values": [
-              "Said it again",
-              "Said it in a different way",
-              "Typed or wrote something",
-              "Used my communication aid",
-              "Used gestures or signs",
-              "Asked someone to help",
-              "Other"
-            ]
-          }
-        ]
-      },
-      "options": [
-        "Yes",
-        "Partly",
-        "No",
-        "Maybe"
-      ],
-      "source_paragraphs": [
-        111
-      ]
-    },
-    {
-      "id": "next_repair",
-      "section": 1,
-      "title": "What did you do next?",
-      "kind": "single",
-      "when": {
-        "all": [
-          {
-            "answered": "story"
-          },
-          {
-            "question": "first_repair",
-            "values": [
-              "Said it again",
-              "Said it in a different way",
-              "Typed or wrote something",
-              "Used my communication aid",
-              "Used gestures or signs",
-              "Asked someone to help",
-              "Other"
-            ]
-          },
-          {
-            "question": "understood",
-            "values": [
-              "Partly",
-              "No"
-            ]
-          }
-        ]
-      },
-      "options": [
-        "Tried the same method again",
-        "Used a different method",
-        "Continued without more repair",
-        "Stopped trying",
-        "Other"
-      ],
-      "source_paragraphs": [
-        113
-      ]
-    },
-    {
-      "id": "different_repair",
-      "section": 1,
-      "title": "What did you use?",
-      "kind": "single",
-      "when": {
-        "all": [
-          {
-            "answered": "story"
-          },
-          {
-            "question": "next_repair",
-            "values": [
-              "Used a different method"
-            ]
-          }
-        ]
-      },
-      "exclude_selected_from": "first_repair",
-      "options": [
-        "Said it again",
-        "Said it in a different way",
-        "Typed or wrote something",
-        "Used my communication aid",
-        "Used gestures or signs",
-        "Asked someone to help",
-        "Continued without another attempt",
-        "Stopped trying to communicate the message",
-        "Other"
-      ],
-      "source_paragraphs": [
-        120
-      ]
-    },
-    {
-      "id": "stop_reason",
-      "section": 1,
-      "title": "What made you stop?",
+      "title": "When someone has had trouble understanding your speech, what has made you stop trying to get that message across?",
       "kind": "multi",
-      "when": {
-        "all": [
-          {
-            "answered": "story"
-          },
-          {
-            "any": [
-              {
-                "question": "first_repair",
-                "values": [
-                  "Stopped trying to communicate the message"
-                ]
-              },
-              {
-                "question": "next_repair",
-                "values": [
-                  "Stopped trying"
-                ]
-              },
-              {
-                "question": "different_repair",
-                "values": [
-                  "Stopped trying to communicate the message"
-                ]
-              }
-            ]
-          }
-        ]
-      },
+      "help": "If this has not happened to you, choose “I have not stopped trying.”",
       "exclusive": [
+        "I have not stopped trying",
         "Not sure"
       ],
       "options": [
@@ -392,35 +174,13 @@
         "They understood enough",
         "The message was no longer needed",
         "The conversation had moved on",
+        "I have not stopped trying",
         "Other",
         "Not sure"
       ],
       "source_paragraphs": [
-        132
-      ]
-    },
-    {
-      "id": "partner_action",
-      "section": 1,
-      "title": "What did the other person do while you were trying to get your message across?",
-      "kind": "multi",
-      "when": {
-        "answered": "story"
-      },
-      "exclusive": [
-        "Do not remember"
-      ],
-      "options": [
-        "Waited",
-        "Asked questions or checked what I meant",
-        "Suggested words or finished my sentence",
-        "Interrupted or moved on",
-        "Helped with my device or took it",
-        "Other",
-        "Do not remember"
-      ],
-      "source_paragraphs": [
-        141
+        94,
+        95
       ]
     },
     {
@@ -435,7 +195,7 @@
         "Not sure"
       ],
       "source_paragraphs": [
-        150
+        105
       ]
     },
     {
@@ -451,7 +211,6 @@
         ]
       },
       "options": [
-        "They tell me or ask me to repeat",
         "Their answer or action does not fit what I meant",
         "Their face or behavior suggests confusion",
         "I ask them to check",
@@ -459,7 +218,7 @@
         "Other"
       ],
       "source_paragraphs": [
-        156
+        111
       ]
     },
     {
@@ -473,7 +232,7 @@
         "Not sure"
       ],
       "source_paragraphs": [
-        164
+        120
       ]
     },
     {
@@ -489,7 +248,7 @@
         "Other"
       ],
       "source_paragraphs": [
-        166
+        124
       ]
     },
     {
@@ -502,7 +261,7 @@
         "You will see what you meant to say and what the other person understood. Choose what you would do first in each situation. You can skip any example."
       ],
       "source_paragraphs": [
-        177
+        137
       ]
     },
     {
@@ -570,8 +329,8 @@
         "Not sure"
       ],
       "source_paragraphs": [
-        179,
-        205
+        139,
+        165
       ]
     },
     {
@@ -639,8 +398,8 @@
         "Not sure"
       ],
       "source_paragraphs": [
-        184,
-        205
+        144,
+        165
       ]
     },
     {
@@ -708,8 +467,8 @@
         "Not sure"
       ],
       "source_paragraphs": [
-        189,
-        205
+        149,
+        165
       ]
     },
     {
@@ -777,8 +536,8 @@
         "Not sure"
       ],
       "source_paragraphs": [
-        194,
-        205
+        154,
+        165
       ]
     },
     {
@@ -846,8 +605,8 @@
         "Not sure"
       ],
       "source_paragraphs": [
-        199,
-        205
+        159,
+        165
       ]
     },
     {
@@ -874,9 +633,9 @@
         "No"
       ],
       "source_paragraphs": [
-        235,
-        237,
-        238
+        179,
+        181,
+        182
       ]
     },
     {
@@ -893,16 +652,17 @@
       "help": "You can pause the video, watch it again, or skip it.",
       "next_label": "I have watched the demonstration",
       "source_paragraphs": [
-        235
+        179
       ]
     },
     {
       "id": "feature_1",
       "section": 3,
-      "title": "How useful do you think each part of the system would be?",
+      "title": "How useful do you think the parts of the system shown in the demo video will be?",
       "kind": "single",
       "item": "Seeing the transcript.",
       "group": "Q1 · Parts of the system",
+      "rating_group": "features",
       "when": {
         "all": [
           {
@@ -928,18 +688,18 @@
         "Not sure"
       ],
       "source_paragraphs": [
-        240,
-        244
-      ],
-      "rating_group": "features"
+        184,
+        188
+      ]
     },
     {
       "id": "feature_2",
       "section": 3,
-      "title": "How useful do you think each part of the system would be?",
+      "title": "How useful do you think the parts of the system shown in the demo video will be?",
       "kind": "single",
       "item": "Editing the transcript.",
       "group": "Q1 · Parts of the system",
+      "rating_group": "features",
       "when": {
         "all": [
           {
@@ -965,18 +725,18 @@
         "Not sure"
       ],
       "source_paragraphs": [
-        240,
-        246
-      ],
-      "rating_group": "features"
+        184,
+        190
+      ]
     },
     {
       "id": "feature_3",
       "section": 3,
-      "title": "How useful do you think each part of the system would be?",
+      "title": "How useful do you think the parts of the system shown in the demo video will be?",
       "kind": "single",
       "item": "Choosing a suggested word instead of typing a correction.",
       "group": "Q1 · Parts of the system",
+      "rating_group": "features",
       "when": {
         "all": [
           {
@@ -1002,18 +762,18 @@
         "Not sure"
       ],
       "source_paragraphs": [
-        240,
-        248
-      ],
-      "rating_group": "features"
+        184,
+        192
+      ]
     },
     {
       "id": "feature_4",
       "section": 3,
-      "title": "How useful do you think each part of the system would be?",
+      "title": "How useful do you think the parts of the system shown in the demo video will be?",
       "kind": "single",
       "item": "Regenerating after a correction.",
       "group": "Q1 · Parts of the system",
+      "rating_group": "features",
       "when": {
         "all": [
           {
@@ -1039,18 +799,18 @@
         "Not sure"
       ],
       "source_paragraphs": [
-        240,
-        250
-      ],
-      "rating_group": "features"
+        184,
+        194
+      ]
     },
     {
       "id": "feature_5",
       "section": 3,
-      "title": "How useful do you think each part of the system would be?",
+      "title": "How useful do you think the parts of the system shown in the demo video will be?",
       "kind": "single",
       "item": "Using text to help another person understand you.",
       "group": "Q1 · Parts of the system",
+      "rating_group": "features",
       "when": {
         "all": [
           {
@@ -1076,18 +836,18 @@
         "Not sure"
       ],
       "source_paragraphs": [
-        240,
-        252
-      ],
-      "rating_group": "features"
+        184,
+        196
+      ]
     },
     {
       "id": "feature_6",
       "section": 3,
-      "title": "How useful do you think each part of the system would be?",
+      "title": "How useful do you think the parts of the system shown in the demo video will be?",
       "kind": "single",
       "item": "Having a starting point instead of typing everything from scratch.",
       "group": "Q1 · Parts of the system",
+      "rating_group": "features",
       "when": {
         "all": [
           {
@@ -1113,16 +873,505 @@
         "Not sure"
       ],
       "source_paragraphs": [
-        240,
-        254
+        184,
+        198
+      ]
+    },
+    {
+      "id": "candidates_compare",
+      "section": 3,
+      "title": "Imagine you need to correct a word in the transcript. The word you want is in the list of suggestions. Which do you think would be easier for you?",
+      "kind": "single",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Choosing the word from the suggestions",
+        "Typing the word myself",
+        "Both would be about equally easy",
+        "It depends on the word or situation",
+        "I cannot judge without trying both"
       ],
-      "rating_group": "features"
+      "source_paragraphs": [
+        201
+      ]
+    },
+    {
+      "id": "candidate_missing",
+      "section": 3,
+      "title": "Imagine using the approach shown in the video. You need to correct a word in the transcript, but the word you want is not in the list of suggestions. What might you do?",
+      "kind": "multi",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "exclusive": [
+        "Not sure"
+      ],
+      "options": [
+        "Type the word I want",
+        "Say the word or message again",
+        "Use another way to communicate, such as my communication aid or gestures",
+        "Continue with the text as it is",
+        "Other",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        209
+      ]
+    },
+    {
+      "id": "failed_repair",
+      "section": 3,
+      "title": "Imagine using the approach shown in the video. You correct a word and choose “Re-check” to update the rest of the transcript. The updated text still has mistakes. What would you do next?",
+      "kind": "single",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Correct another word and use Re-check again",
+        "Correct the remaining mistakes without using Re-check",
+        "Type or write a new message",
+        "Say the message again, using the same or different words",
+        "Use my AAC device",
+        "Ask someone to help",
+        "Use the text as it is",
+        "Stop trying to get this message across",
+        "Other",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        218
+      ]
+    },
+    {
+      "id": "retry_count",
+      "section": 3,
+      "title": "You have already used Re-check once. If the text continued to have mistakes, how many more times would you be willing to use Re-check for this message?",
+      "kind": "single",
+      "when": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "demo_consent",
+                "values": [
+                  "Yes"
+                ]
+              },
+              {
+                "question": "demo_video",
+                "values": [
+                  "watched"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "failed_repair",
+            "values": [
+              "Correct another word and use Re-check again"
+            ]
+          }
+        ]
+      },
+      "other_option": "It depends on something else",
+      "options": [
+        "One more time",
+        "Two more times",
+        "Three or more times",
+        "It depends on how much the text improves",
+        "It depends on something else",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        230,
+        231
+      ]
+    },
+    {
+      "id": "difficulty",
+      "section": 3,
+      "title": "Based on the video, which parts of this process do you think would be difficult for you?",
+      "kind": "multi",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "exclusive": [
+        "Nothing seems difficult",
+        "I cannot judge without trying it"
+      ],
+      "options": [
+        "Reading the text",
+        "Noticing what is wrong",
+        "Deciding what to change",
+        "Selecting or typing a correction",
+        "Checking the new text",
+        "Following the conversation while using the screen",
+        "Holding or operating the device",
+        "Nothing seems difficult",
+        "I cannot judge without trying it",
+        "Other"
+      ],
+      "source_paragraphs": [
+        240
+      ]
+    },
+    {
+      "id": "look_when",
+      "section": 3,
+      "title": "Imagine you are using the tool shown in the demo video during a conversation. When would you look at the text?",
+      "kind": "multi",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "exclusive": [
+        "I would not want to look at the text",
+        "I would only use this for messages or writing",
+        "Not sure"
+      ],
+      "options": [
+        "While I am still speaking",
+        "After I finish speaking",
+        "When the other person seems confused",
+        "When they ask me to repeat",
+        "I would not want to look at the text",
+        "I would only use this for messages or writing",
+        "Other",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        253
+      ]
+    },
+    {
+      "id": "situation_1",
+      "section": 3,
+      "title": "How useful do you think the process could be in each of the following situations?",
+      "kind": "single",
+      "item": "The message is important and the exact meaning matters.",
+      "group": "Q7 · Situations",
+      "rating_group": "situations",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Very useful",
+        "Somewhat useful",
+        "Neutral",
+        "Not very useful",
+        "Not useful at all",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        264,
+        268
+      ]
+    },
+    {
+      "id": "situation_2",
+      "section": 3,
+      "title": "How useful do you think the process could be in each of the following situations?",
+      "kind": "single",
+      "item": "You are talking with someone unfamiliar with your speech.",
+      "group": "Q7 · Situations",
+      "rating_group": "situations",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Very useful",
+        "Somewhat useful",
+        "Neutral",
+        "Not very useful",
+        "Not useful at all",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        264,
+        270
+      ]
+    },
+    {
+      "id": "situation_3",
+      "section": 3,
+      "title": "How useful do you think the process could be in each of the following situations?",
+      "kind": "single",
+      "item": "You are in a public or service interaction.",
+      "group": "Q7 · Situations",
+      "rating_group": "situations",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Very useful",
+        "Somewhat useful",
+        "Neutral",
+        "Not very useful",
+        "Not useful at all",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        264,
+        272
+      ]
+    },
+    {
+      "id": "situation_4",
+      "section": 3,
+      "title": "How useful do you think the process could be in each of the following situations?",
+      "kind": "single",
+      "item": "The conversation is moving quickly or includes several people.",
+      "group": "Q7 · Situations",
+      "rating_group": "situations",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Very useful",
+        "Somewhat useful",
+        "Neutral",
+        "Not very useful",
+        "Not useful at all",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        264,
+        274
+      ]
+    },
+    {
+      "id": "situation_5",
+      "section": 3,
+      "title": "How useful do you think the process could be in each of the following situations?",
+      "kind": "single",
+      "item": "You are tired or your speech/typing is harder than usual.",
+      "group": "Q7 · Situations",
+      "rating_group": "situations",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Very useful",
+        "Somewhat useful",
+        "Neutral",
+        "Not very useful",
+        "Not useful at all",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        264,
+        276
+      ]
+    },
+    {
+      "id": "situation_6",
+      "section": 3,
+      "title": "How useful do you think the process could be in each of the following situations?",
+      "kind": "single",
+      "item": "You are talking with a familiar person who usually understands you.",
+      "group": "Q7 · Situations",
+      "rating_group": "situations",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Very useful",
+        "Somewhat useful",
+        "Neutral",
+        "Not very useful",
+        "Not useful at all",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        264,
+        278
+      ]
+    },
+    {
+      "id": "situation_7",
+      "section": 3,
+      "title": "How useful do you think the process could be in each of the following situations?",
+      "kind": "single",
+      "item": "Repeating or rephrasing has already failed.",
+      "group": "Q7 · Situations",
+      "rating_group": "situations",
+      "when": {
+        "all": [
+          {
+            "question": "demo_consent",
+            "values": [
+              "Yes"
+            ]
+          },
+          {
+            "question": "demo_video",
+            "values": [
+              "watched"
+            ]
+          }
+        ]
+      },
+      "options": [
+        "Very useful",
+        "Somewhat useful",
+        "Neutral",
+        "Not very useful",
+        "Not useful at all",
+        "Not sure"
+      ],
+      "source_paragraphs": [
+        264,
+        280
+      ]
     },
     {
       "id": "edit_intro",
       "section": 3,
-      "title": "Examples with the tool",
-      "kind": "info",
+      "title": "Try the example situations",
+      "kind": "single",
       "when": {
         "all": [
           {
@@ -1140,7 +1389,13 @@
         ]
       },
       "paragraphs": [
-        "Now imagine you are using this tool. For each example you'll see what you meant to say and what the tool heard. Tell us what you would do. If you'd fix the text, you can try it. You don't need to match the sentence exactly."
+        "Would you like to try an exercise with the five example situations you saw earlier? You can change the example text or choose another response.",
+        "This exercise includes text editing and suggested words. It does not include speech-to-text or the “Re-check” function shown in the video. You will work with prepared transcripts rather than speaking, and the system will not generate a new transcript after a correction.",
+        "This is optional. You can skip any example or stop the exercise at any time."
+      ],
+      "options": [
+        "Yes, I’d like to try",
+        "No, skip the examples"
       ]
     },
     {
@@ -1151,15 +1406,25 @@
       "when": {
         "all": [
           {
-            "question": "demo_consent",
-            "values": [
-              "Yes"
+            "all": [
+              {
+                "question": "demo_consent",
+                "values": [
+                  "Yes"
+                ]
+              },
+              {
+                "question": "demo_video",
+                "values": [
+                  "watched"
+                ]
+              }
             ]
           },
           {
-            "question": "demo_video",
+            "question": "edit_intro",
             "values": [
-              "watched"
+              "Yes, I’d like to try"
             ]
           }
         ]
@@ -1260,10 +1525,10 @@
       "counter": "Example 1 of 5",
       "next_label": "Next example",
       "source_paragraphs": [
-        179,
-        180,
-        181,
-        182
+        139,
+        140,
+        141,
+        142
       ]
     },
     {
@@ -1274,15 +1539,25 @@
       "when": {
         "all": [
           {
-            "question": "demo_consent",
-            "values": [
-              "Yes"
+            "all": [
+              {
+                "question": "demo_consent",
+                "values": [
+                  "Yes"
+                ]
+              },
+              {
+                "question": "demo_video",
+                "values": [
+                  "watched"
+                ]
+              }
             ]
           },
           {
-            "question": "demo_video",
+            "question": "edit_intro",
             "values": [
-              "watched"
+              "Yes, I’d like to try"
             ]
           }
         ]
@@ -1394,10 +1669,10 @@
       "counter": "Example 2 of 5",
       "next_label": "Next example",
       "source_paragraphs": [
-        184,
-        185,
-        186,
-        187
+        144,
+        145,
+        146,
+        147
       ]
     },
     {
@@ -1408,15 +1683,25 @@
       "when": {
         "all": [
           {
-            "question": "demo_consent",
-            "values": [
-              "Yes"
+            "all": [
+              {
+                "question": "demo_consent",
+                "values": [
+                  "Yes"
+                ]
+              },
+              {
+                "question": "demo_video",
+                "values": [
+                  "watched"
+                ]
+              }
             ]
           },
           {
-            "question": "demo_video",
+            "question": "edit_intro",
             "values": [
-              "watched"
+              "Yes, I’d like to try"
             ]
           }
         ]
@@ -1517,10 +1802,10 @@
       "counter": "Example 3 of 5",
       "next_label": "Next example",
       "source_paragraphs": [
-        189,
-        190,
-        191,
-        192
+        149,
+        150,
+        151,
+        152
       ]
     },
     {
@@ -1531,15 +1816,25 @@
       "when": {
         "all": [
           {
-            "question": "demo_consent",
-            "values": [
-              "Yes"
+            "all": [
+              {
+                "question": "demo_consent",
+                "values": [
+                  "Yes"
+                ]
+              },
+              {
+                "question": "demo_video",
+                "values": [
+                  "watched"
+                ]
+              }
             ]
           },
           {
-            "question": "demo_video",
+            "question": "edit_intro",
             "values": [
-              "watched"
+              "Yes, I’d like to try"
             ]
           }
         ]
@@ -1629,10 +1924,10 @@
       "counter": "Example 4 of 5",
       "next_label": "Next example",
       "source_paragraphs": [
-        194,
-        195,
-        196,
-        197
+        154,
+        155,
+        156,
+        157
       ]
     },
     {
@@ -1643,15 +1938,25 @@
       "when": {
         "all": [
           {
-            "question": "demo_consent",
-            "values": [
-              "Yes"
+            "all": [
+              {
+                "question": "demo_consent",
+                "values": [
+                  "Yes"
+                ]
+              },
+              {
+                "question": "demo_video",
+                "values": [
+                  "watched"
+                ]
+              }
             ]
           },
           {
-            "question": "demo_video",
+            "question": "edit_intro",
             "values": [
-              "watched"
+              "Yes, I’d like to try"
             ]
           }
         ]
@@ -1752,542 +2057,10 @@
       "counter": "Example 5 of 5",
       "next_label": "Next",
       "source_paragraphs": [
-        199,
-        200,
-        201,
-        202
-      ]
-    },
-    {
-      "id": "candidates_compare",
-      "section": 3,
-      "title": "For you, how would choosing a suggested word compare with typing it?",
-      "kind": "single",
-      "when": {
-        "all": [
-          {
-            "question": "demo_consent",
-            "values": [
-              "Yes"
-            ]
-          },
-          {
-            "question": "demo_video",
-            "values": [
-              "watched"
-            ]
-          }
-        ]
-      },
-      "options": [
-        "Usually easier",
-        "Easier for some words",
-        "About the same",
-        "Usually harder",
-        "I would rather type",
-        "I cannot judge without trying it"
-      ],
-      "source_paragraphs": [
-        257
-      ]
-    },
-    {
-      "id": "candidate_missing",
-      "section": 3,
-      "title": "If the word you wanted was not in the list, what would you do?",
-      "kind": "multi",
-      "when": {
-        "all": [
-          {
-            "question": "demo_consent",
-            "values": [
-              "Yes"
-            ]
-          },
-          {
-            "question": "demo_video",
-            "values": [
-              "watched"
-            ]
-          }
-        ]
-      },
-      "exclusive": [
-        "Not sure"
-      ],
-      "options": [
-        "Type the correction myself",
-        "Say the word or message again",
-        "Use another way to communicate",
-        "Leave the text unchanged",
-        "Other",
-        "Not sure"
-      ],
-      "source_paragraphs": [
-        266
-      ]
-    },
-    {
-      "id": "failed_repair",
-      "section": 3,
-      "title": "Imagine you tried making a new version, but it was still wrong. What would you do next?",
-      "kind": "single",
-      "when": {
-        "all": [
-          {
-            "question": "demo_consent",
-            "values": [
-              "Yes"
-            ]
-          },
-          {
-            "question": "demo_video",
-            "values": [
-              "watched"
-            ]
-          }
-        ]
-      },
-      "options": [
-        "Change another word and try a new version again",
-        "Fix the remaining mistakes myself",
-        "Type or write a new message",
-        "Say it again or in a different way",
-        "Use my own communication aid",
-        "Ask someone to help",
-        "Use the text as it is",
-        "Stop trying",
-        "Other",
-        "Not sure"
-      ],
-      "source_paragraphs": [
-        275
-      ]
-    },
-    {
-      "id": "retry_count",
-      "section": 3,
-      "title": "After that first unsuccessful try, how many more tries would you be willing to make?",
-      "kind": "single",
-      "when": {
-        "all": [
-          {
-            "all": [
-              {
-                "question": "demo_consent",
-                "values": [
-                  "Yes"
-                ]
-              },
-              {
-                "question": "demo_video",
-                "values": [
-                  "watched"
-                ]
-              }
-            ]
-          },
-          {
-            "question": "failed_repair",
-            "values": [
-              "Change another word and try a new version again"
-            ]
-          }
-        ]
-      },
-      "options": [
-        "One more",
-        "Two more",
-        "Three or more",
-        "It depends on whether the text improves",
-        "Not sure"
-      ],
-      "source_paragraphs": [
-        288
-      ]
-    },
-    {
-      "id": "difficulty",
-      "section": 3,
-      "title": "What would be hardest for you when using this approach?",
-      "kind": "multi",
-      "when": {
-        "all": [
-          {
-            "question": "demo_consent",
-            "values": [
-              "Yes"
-            ]
-          },
-          {
-            "question": "demo_video",
-            "values": [
-              "watched"
-            ]
-          }
-        ]
-      },
-      "exclusive": [
-        "Nothing seems difficult",
-        "I cannot judge without trying it"
-      ],
-      "options": [
-        "Reading the text",
-        "Noticing what is wrong",
-        "Deciding what to change",
-        "Selecting or typing a correction",
-        "Checking the new text",
-        "Following the conversation while using the screen",
-        "Holding or operating the device",
-        "Nothing seems difficult",
-        "I cannot judge without trying it",
-        "Other"
-      ],
-      "source_paragraphs": [
-        296
-      ]
-    },
-    {
-      "id": "look_when",
-      "section": 3,
-      "title": "During a conversation, when would you look at the text?",
-      "kind": "multi",
-      "when": {
-        "all": [
-          {
-            "question": "demo_consent",
-            "values": [
-              "Yes"
-            ]
-          },
-          {
-            "question": "demo_video",
-            "values": [
-              "watched"
-            ]
-          }
-        ]
-      },
-      "exclusive": [
-        "I would not want to look at the text",
-        "I would only use this for messages or writing",
-        "Not sure"
-      ],
-      "options": [
-        "While I am still speaking",
-        "After I finish speaking",
-        "When the other person seems confused",
-        "When they ask me to repeat",
-        "I would not want to look at the text",
-        "I would only use this for messages or writing",
-        "Other",
-        "Not sure"
-      ],
-      "source_paragraphs": [
-        309
-      ]
-    },
-    {
-      "id": "situation_1",
-      "section": 3,
-      "title": "How useful do you think the process could be in each situation?",
-      "kind": "single",
-      "item": "The message is important and the exact meaning matters.",
-      "group": "Q7 · Situations",
-      "when": {
-        "all": [
-          {
-            "question": "demo_consent",
-            "values": [
-              "Yes"
-            ]
-          },
-          {
-            "question": "demo_video",
-            "values": [
-              "watched"
-            ]
-          }
-        ]
-      },
-      "options": [
-        "Very useful",
-        "Somewhat useful",
-        "Neutral",
-        "Not very useful",
-        "Not useful at all",
-        "Not sure"
-      ],
-      "source_paragraphs": [
-        320,
-        324
-      ],
-      "rating_group": "situations"
-    },
-    {
-      "id": "situation_2",
-      "section": 3,
-      "title": "How useful do you think the process could be in each situation?",
-      "kind": "single",
-      "item": "You are talking with someone unfamiliar with your speech.",
-      "group": "Q7 · Situations",
-      "when": {
-        "all": [
-          {
-            "question": "demo_consent",
-            "values": [
-              "Yes"
-            ]
-          },
-          {
-            "question": "demo_video",
-            "values": [
-              "watched"
-            ]
-          }
-        ]
-      },
-      "options": [
-        "Very useful",
-        "Somewhat useful",
-        "Neutral",
-        "Not very useful",
-        "Not useful at all",
-        "Not sure"
-      ],
-      "source_paragraphs": [
-        320,
-        326
-      ],
-      "rating_group": "situations"
-    },
-    {
-      "id": "situation_3",
-      "section": 3,
-      "title": "How useful do you think the process could be in each situation?",
-      "kind": "single",
-      "item": "You are in a public or service interaction.",
-      "group": "Q7 · Situations",
-      "when": {
-        "all": [
-          {
-            "question": "demo_consent",
-            "values": [
-              "Yes"
-            ]
-          },
-          {
-            "question": "demo_video",
-            "values": [
-              "watched"
-            ]
-          }
-        ]
-      },
-      "options": [
-        "Very useful",
-        "Somewhat useful",
-        "Neutral",
-        "Not very useful",
-        "Not useful at all",
-        "Not sure"
-      ],
-      "source_paragraphs": [
-        320,
-        328
-      ],
-      "rating_group": "situations"
-    },
-    {
-      "id": "situation_4",
-      "section": 3,
-      "title": "How useful do you think the process could be in each situation?",
-      "kind": "single",
-      "item": "The conversation is moving quickly or includes several people.",
-      "group": "Q7 · Situations",
-      "when": {
-        "all": [
-          {
-            "question": "demo_consent",
-            "values": [
-              "Yes"
-            ]
-          },
-          {
-            "question": "demo_video",
-            "values": [
-              "watched"
-            ]
-          }
-        ]
-      },
-      "options": [
-        "Very useful",
-        "Somewhat useful",
-        "Neutral",
-        "Not very useful",
-        "Not useful at all",
-        "Not sure"
-      ],
-      "source_paragraphs": [
-        320,
-        330
-      ],
-      "rating_group": "situations"
-    },
-    {
-      "id": "situation_5",
-      "section": 3,
-      "title": "How useful do you think the process could be in each situation?",
-      "kind": "single",
-      "item": "You are tired or your speech/typing is harder than usual.",
-      "group": "Q7 · Situations",
-      "when": {
-        "all": [
-          {
-            "question": "demo_consent",
-            "values": [
-              "Yes"
-            ]
-          },
-          {
-            "question": "demo_video",
-            "values": [
-              "watched"
-            ]
-          }
-        ]
-      },
-      "options": [
-        "Very useful",
-        "Somewhat useful",
-        "Neutral",
-        "Not very useful",
-        "Not useful at all",
-        "Not sure"
-      ],
-      "source_paragraphs": [
-        320,
-        332
-      ],
-      "rating_group": "situations"
-    },
-    {
-      "id": "situation_6",
-      "section": 3,
-      "title": "How useful do you think the process could be in each situation?",
-      "kind": "single",
-      "item": "You are talking with a familiar person who usually understands you.",
-      "group": "Q7 · Situations",
-      "when": {
-        "all": [
-          {
-            "question": "demo_consent",
-            "values": [
-              "Yes"
-            ]
-          },
-          {
-            "question": "demo_video",
-            "values": [
-              "watched"
-            ]
-          }
-        ]
-      },
-      "options": [
-        "Very useful",
-        "Somewhat useful",
-        "Neutral",
-        "Not very useful",
-        "Not useful at all",
-        "Not sure"
-      ],
-      "source_paragraphs": [
-        320,
-        334
-      ],
-      "rating_group": "situations"
-    },
-    {
-      "id": "situation_7",
-      "section": 3,
-      "title": "How useful do you think the process could be in each situation?",
-      "kind": "single",
-      "item": "Repeating or rephrasing has already failed.",
-      "group": "Q7 · Situations",
-      "when": {
-        "all": [
-          {
-            "question": "demo_consent",
-            "values": [
-              "Yes"
-            ]
-          },
-          {
-            "question": "demo_video",
-            "values": [
-              "watched"
-            ]
-          }
-        ]
-      },
-      "options": [
-        "Very useful",
-        "Somewhat useful",
-        "Neutral",
-        "Not very useful",
-        "Not useful at all",
-        "Not sure"
-      ],
-      "source_paragraphs": [
-        320,
-        336
-      ],
-      "rating_group": "situations"
-    },
-    {
-      "id": "partner_expected",
-      "section": 3,
-      "title": "Think of the person from your earlier shared experience. What do you think they would do while you were fixing the text?",
-      "kind": "multi",
-      "when": {
-        "all": [
-          {
-            "all": [
-              {
-                "question": "demo_consent",
-                "values": [
-                  "Yes"
-                ]
-              },
-              {
-                "question": "demo_video",
-                "values": [
-                  "watched"
-                ]
-              }
-            ]
-          },
-          {
-            "answered": "story"
-          }
-        ]
-      },
-      "exclusive": [
-        "Not sure"
-      ],
-      "options": [
-        "Wait",
-        "Ask questions or check what I meant",
-        "Suggest words or finish my sentence",
-        "Interrupt or move on",
-        "Help with the device or take it",
-        "Other",
-        "Not sure"
-      ],
-      "source_paragraphs": [
-        339
+        159,
+        160,
+        161,
+        162
       ]
     },
     {
@@ -2297,7 +2070,7 @@
       "kind": "text",
       "help": "A few words are enough. You can also leave this blank.",
       "source_paragraphs": [
-        351
+        302
       ]
     },
     {

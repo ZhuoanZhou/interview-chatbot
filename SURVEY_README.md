@@ -1,6 +1,7 @@
 # Fixed communication survey
 
-`streamlit_app.py` runs the fixed survey from `refined_question_list_9.22.2026.docx`.
+`streamlit_app.py` runs the fixed survey from `refined_question_list_9.29.2026.docx`
+(question version `2026-09-29-v1`).
 The previous adaptive app is preserved in `legacy_interview_app.py`. The survey
 does not import it, call an LLM, transcribe speech, or record audio.
 
@@ -30,14 +31,16 @@ mode for study collection.
 ## Questions and branching
 
 `survey/schema.json` contains all participant questions before “Notes to myself”
-in the September 22 guide. Study purposes and researcher instructions are not
-shown. Every sourced screen has a zero-based `source_paragraphs` locator, and the
+in the September 29 guide, with the September 2026 changes to Part 2 and the
+post-demonstration exercise described below. Study purposes, researcher notes and
+instructions are not shown. Part 3 Q6 is lightly reworded for grammar. Every sourced screen has a zero-based `source_paragraphs` locator, and the
 schema records the source document SHA-256. The Word file remains unchanged.
 
 - Each Other choice is last, in a full-width bordered block with an optional text
-  area always visible below its label, including the two story fields. Typing
-  selects Other automatically; deselecting it clears its explanation (the
-  interaction log retains the edits).
+  area always visible below its label. Typing selects Other automatically;
+  deselecting it clears its explanation (the interaction log retains the edits).
+  A question can name a different free-text choice with `other_option` (the Re-check
+  retry question uses "It depends on something else").
 - Part 3 Q1 and Q7 each appear on one screen, with a rating row per statement:
   five usefulness levels and Not sure. The original per-item answer IDs remain
   unchanged, so existing sessions and exports stay compatible. Older sessions
@@ -46,10 +49,12 @@ schema records the source document SHA-256. The Word file remains unchanged.
   Next preserves completed rows and records unanswered rows. All five scenarios remain.
 - The post-demo section depends on agreeing to and confirming the demo.
   Skipping/unavailable video does not count as watching it.
-- Repair outcome, second strategy, stopping, detection cues, and retry questions
-  follow the source conditions. The first repair strategy is excluded when asking
-  about a different strategy. Changing a parent answer clears inapplicable child
-  answers from the final response checkpoint; the event log retains the change.
+- Speech-to-text follow-ups, the AAC name, detection cues, and the Re-check retry
+  question follow the source conditions. Changing a parent answer clears inapplicable
+  child answers from the final response checkpoint; the event log retains the change.
+- The September 29 guide removed the "recent time" story and its follow-ups, the
+  AAC carrying question, and Part 3 Q8, and added "what has made you stop trying"
+  (`stop_trying`; "I have not stopped trying" and "Not sure" are exclusive).
 - All questions are skippable. Back, clear answer, pause/resume, and finish early
   are supported. No response is preselected. Single choices can be cleared.
 - Mutually exclusive options such as “Not sure” clear incompatible choices.
@@ -57,8 +62,8 @@ schema records the source document SHA-256. The Word file remains unchanged.
   (Streamlit's `auto` setting keeps it collapsed on phones, where it would cover the
   survey). Its show/hide arrow is always visible, not only on hover, and the first
   screen tells participants where the ID is. The survey uses the remaining width.
-  Answer choices use two or three columns on wider screens; story fields and
-  scenario context sit side by side. Other fields follow the option grid.
+  Answer choices use two or three columns on wider screens; scenario context sits
+  beside its question. Other fields follow the option grid.
   Navigation, clear-answer, and pause/end controls remain
   in a reserved bottom panel and share a row on desktop.
 - The question scrollbar and “Show more below” button are removed. Compact
@@ -68,8 +73,6 @@ schema records the source document SHA-256. The Word file remains unchanged.
   Moving between questions resets its scroll. Same-origin hosts also follow
   visual viewport resizing; actual mobile keyboard behavior should be checked on
   participants' target devices before the study.
-- If no story is supplied, its follow-ups and the later specific-partner question
-  are skipped.
 
 The scenario introduction is preserved from the supplied document. It describes
 the device as showing what the partner understood; this is a hypothetical premise,
@@ -90,11 +93,18 @@ already given to removed questions, or with the previous choice wording, stay in
 saved records and `responses.json`; removed questions no longer appear as rows in
 `answers.csv`.
 
-Part 3 order, for participants who agreed to and confirmed watching the video:
-Q1 ratings, then an intro screen (`edit_intro`), then the five examples as editable
-transcripts (`e1_edit`–`e5_edit`), then the remaining Part 3 questions. There is no
-"What would you do first?" step after the demonstration; a session saved on that
-removed step (`e1_action`–`e5_action`) resumes on its edit screen.
+Part 3 order, for participants who agreed to and confirmed watching the video: the
+Part 3 questions (Q1–Q8), then an optional exercise at the end of Part 3. Its intro
+(`edit_intro`, "Try the example situations") explains that it includes text editing
+and suggested words but not speech-to-text or the "Re-check" function, and asks
+"Yes, I’d like to try" / "No, skip the examples". Only "Yes" shows the five examples
+as editable transcripts (`e1_edit`–`e5_edit`); No, Skip or no answer goes on to the
+closing question. A session saved on the removed question step
+(`e1_action`–`e5_action`) resumes on its edit screen.
+
+"Stop the exercise" on each example leaves the exercise: examples not yet answered
+from that point are saved as `{status: skipped, stopped: true}`, answered ones are
+kept, and an `exercise_stopped` event lists the skipped examples.
 
 Each edit screen shows the context, what they meant to say, and the misrecognized
 transcript, pre-filled and editable. Under it:
@@ -246,6 +256,9 @@ and Google Drive options. Skipped, unanswered and inapplicable questions are dis
 `scripts/build_survey_schema.py <source.docx>` rebuilds the schema using paragraph
 positions in this specific Word version; it is not a general DOCX converter. If the
 guide changes, review the mapping and bump the schema version before collecting.
+The export only combines sessions saved under the current version; to export
+surveys saved under `2026-09-22-v1`, use `survey/schema.json` from before the
+September 29 update.
 `python -m unittest discover -s tests -p "test_survey*.py"` tests saves and exports.
 The frontend browser test uses a separate fake-data harness; it never contacts Drive.
 `tests/survey_layout.cjs` checks the full-width host against a local

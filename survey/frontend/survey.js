@@ -81,6 +81,8 @@
     setStatus();
   }
   function answer(id) { return state.answers[id]; }
+  // The choice that has an optional text field: "Other" unless a question names another.
+  function otherOf(p) { return p.other_option || 'Other'; }
   function condition(c) {
     if (!c) return true;
     if (c.all) return c.all.every(condition);
@@ -109,13 +111,6 @@
         delete state.answers[p.id];
         record('answer_invalidated', p.id, {source: 'branch_change', previous});
       }
-    }
-    const different = answer('different_repair');
-    const first = answer('first_repair')?.choices?.[0];
-    if (different?.choices?.includes(first)) {
-      delete state.answers.different_repair;
-      record('answer_invalidated', 'different_repair', {source: 'excluded_previous_method', previous: different});
-      prune();
     }
   }
   function button(text, fn, cls = '') {
@@ -168,7 +163,7 @@
       record('option_selected', group ? `${p.id}.${group}` : p.id, {option: v, source}, event);
     // Other explanations are final answers only while Other is selected; edits remain in the event log.
     const otherKey = group || 'other';
-    if (!after.includes('Other') && a.other[otherKey]) {
+    if (!after.includes(otherOf(p)) && a.other[otherKey]) {
       record('other_cleared', `${p.id}.${otherKey}`, {previous_text: a.other[otherKey], source: 'option_change'});
       delete a.other[otherKey];
       const ta = $('text-' + p.id + '.' + otherKey);
@@ -224,9 +219,9 @@
     if (host.firstChild) return;
     const field = textarea(p, `${p.id}.${key}`, a?.other?.[key], (value, event) => {
       const current = answer(p.id);
-      const selected = group ? current?.groups?.[group] === 'Other' : current?.choices?.includes('Other');
+      const selected = group ? current?.groups?.[group] === otherOf(p) : current?.choices?.includes(otherOf(p));
       if (!selected && !value.trim()) return;
-      if (!selected && value.trim()) choicesChanged(p, group, 'Other', true, event, 'other_text');
+      if (!selected && value.trim()) choicesChanged(p, group, otherOf(p), true, event, 'other_text');
       if (!state.answers[p.id]) return;
       state.answers[p.id].other ||= {}; state.answers[p.id].other[key] = value;
     }, 'Other details (optional)');
@@ -251,8 +246,8 @@
       input.checked = group ? answer(p.id)?.groups?.[group] === v : !!answer(p.id)?.choices?.includes(v);
       input.addEventListener('change', e => choicesChanged(p, group, v, input.checked, e));
       label.append(input, text('span', v));
-      if (v === 'Other') {
-        input.setAttribute('aria-label', 'Other');
+      if (v === otherOf(p)) {
+        input.setAttribute('aria-label', v);
         const optional = text('small', '(optional details)');
         optional.setAttribute('aria-hidden', 'true'); label.append(optional);
       }
@@ -263,7 +258,7 @@
       const groups = document.createElement('div'); groups.className = 'option-groups';
       groups.setAttribute('role', 'radiogroup'); groups.setAttribute('aria-labelledby', 'question-title');
       p.option_groups.forEach((g, i) => {
-        const shown = g.options.filter(v => v !== 'Other' && options.includes(v));
+        const shown = g.options.filter(v => v !== otherOf(p) && options.includes(v));
         if (!shown.length) return;
         const row = document.createElement('div'); row.className = 'option-group' + (g.label ? '' : ' unlabeled');
         if (g.label) {
@@ -277,13 +272,13 @@
       container.append(groups);
       // The unlabeled last line holds "Not sure" and Other together.
       const last = groups.querySelector('.option-group.unlabeled .options');
-      if (last && options.includes('Other')) { otherRow.classList.add('in-group'); last.append(otherRow); }
+      if (last && options.includes(otherOf(p))) { otherRow.classList.add('in-group'); last.append(otherRow); }
     } else {
-      options.filter(v => v !== 'Other').forEach(v => list.append(choice(v)));
+      options.filter(v => v !== otherOf(p)).forEach(v => list.append(choice(v)));
       container.append(list);
     }
-    if (options.includes('Other')) {
-      otherRow.append(choice('Other'));
+    if (options.includes(otherOf(p))) {
+      otherRow.append(choice(otherOf(p)));
       const other = document.createElement('div'); other.id = 'other-' + p.id + '-' + (group || 'other');
       otherRow.append(other); if (!otherRow.parentNode) container.append(otherRow);
     }
@@ -549,6 +544,17 @@
       }
       task.append(field); page.append(task);
     }
+    if (p.kind === 'edit') nav.append(button('Stop the exercise', () => {
+      // Leave the optional exercise: unanswered remaining examples are skipped.
+      const list = visiblePages(), edits = list.filter(q => q.kind === 'edit');
+      const skipped = [];
+      for (const q of edits.slice(edits.findIndex(q => q.id === p.id))) {
+        if (answer(q.id)?.status !== 'answered') { state.answers[q.id] = {status: 'skipped', stopped: true}; skipped.push(q.id); }
+      }
+      record('exercise_stopped', p.id, {skipped});
+      const after = list[list.indexOf(edits.at(-1)) + 1];
+      if (after) go(after.id);
+    }, 'small stop-exercise'));
     if (['single', 'multi', 'group', 'text'].includes(p.kind)) nav.append(button('Clear answer', () => {
       for (const item of questionItems(p)) {
         const previous = answer(item.id) || null; delete state.answers[item.id];

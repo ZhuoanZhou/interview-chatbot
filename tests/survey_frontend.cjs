@@ -155,14 +155,34 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  await app.getByLabel('Yes',{exact:true}).check();
  await app.getByRole('button',{name:'Next',exact:true}).click();
  await app.getByRole('button',{name:'I have watched the demonstration',exact:true}).click();
- // Q1 ratings come first, then the intro and the two-step examples.
+ // Q1 ratings, then the other Part 3 questions; the optional exercise comes last.
  for(let i=1;i<=6;i++){
   await app.locator(`input[name="feature_${i}"][value="Somewhat useful"]`).check();
  }
  assert.equal(await app.locator('.rating-row').count(),6);
  assert.equal(await app.locator('.rating-row input:checked').count(),6);
  await app.getByRole('button',{name:'Next',exact:true}).click();
- await app.getByText(/Now imagine you are using this tool/).waitFor();
+ await app.getByLabel('Typing the word myself',{exact:true}).check();
+ await app.getByRole('button',{name:'Next',exact:true}).click();
+ await app.getByLabel('Other',{exact:true}).check();
+ await app.getByRole('textbox').fill('point');
+ await app.getByRole('button',{name:'Next',exact:true}).click();
+ await app.getByLabel('Correct another word and use Re-check again',{exact:true}).check();
+ await app.getByRole('button',{name:'Next',exact:true}).click();
+ await app.getByLabel('Two more times',{exact:true}).check();
+ await app.getByRole('button',{name:'Next',exact:true}).click();
+ await app.getByRole('button',{name:'Skip',exact:true}).click();
+ await app.getByRole('button',{name:'Skip',exact:true}).click();
+ for(let i=1;i<=7;i++){
+  await app.locator(`input[name="situation_${i}"][value="Not sure"]`).check();
+ }
+ assert.equal(await app.locator('.rating-row').count(),7);
+ assert.equal(await app.locator('.rating-row input:checked').count(),7);
+ await app.getByRole('button',{name:'Next',exact:true}).click();
+ // Optional exercise at the end of Part 3.
+ await app.getByRole('heading',{name:'Try the example situations'}).waitFor();
+ assert(await app.getByText(/It does not include speech-to-text or the “Re-check” function shown in the video/).isVisible());
+ await app.getByLabel('Yes, I’d like to try',{exact:true}).check();
  await app.getByRole('button',{name:'Next',exact:true}).click();
  // Example 1: edit the transcript directly, then Next.
  await app.getByRole('heading',{name:'Example 1 — At a pharmacy'}).waitFor();
@@ -192,32 +212,15 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  await app.getByRole('button',{name:'Delete all',exact:true}).click();
  await transcript.pressSequentially('No peanuts please',{delay:20});
  await app.getByRole('button',{name:'Next example',exact:true}).click();
- // Example 5: start editing, then Abandon: moves on to the next question.
+ // Example 5: start editing, then Abandon: moves on to the closing question.
  await app.getByRole('heading',{name:'Example 5 — Talking with a friend'}).waitFor();
  await app.getByRole('textbox',{name:'Transcript'}).fill('I’m proud');
  await app.getByRole('button',{name:'Abandon',exact:true}).click();
- await app.getByLabel('Usually easier',{exact:true}).waitFor();
+ await app.getByText(/Is there anything else you want us to know/).waitFor();
  // Going back shows the recorded decision.
  await app.getByRole('button',{name:'Back',exact:true}).click();
  assert.equal(await app.getByRole('button',{name:'Abandon',exact:true}).getAttribute('aria-pressed'),'true');
  assert.equal(await app.getByRole('button',{name:'Keep as is',exact:true}).getAttribute('aria-pressed'),'false');
- await app.getByRole('button',{name:'Next',exact:true}).click();
- await app.getByLabel('Usually easier',{exact:true}).check();
- await app.getByRole('button',{name:'Next',exact:true}).click();
- await app.getByLabel('Other',{exact:true}).check();
- await app.getByRole('textbox').fill('point');
- await app.getByRole('button',{name:'Next',exact:true}).click();
- await app.getByLabel('Change another word and try a new version again',{exact:true}).check();
- await app.getByRole('button',{name:'Next',exact:true}).click();
- await app.getByLabel('Two more',{exact:true}).check();
- await app.getByRole('button',{name:'Next',exact:true}).click();
- await app.getByRole('button',{name:'Skip',exact:true}).click();
- await app.getByRole('button',{name:'Skip',exact:true}).click();
- for(let i=1;i<=7;i++){
-  await app.locator(`input[name="situation_${i}"][value="Not sure"]`).check();
- }
- assert.equal(await app.locator('.rating-row').count(),7);
- assert.equal(await app.locator('.rating-row input:checked').count(),7);
  await app.getByRole('button',{name:'Next',exact:true}).click();
  await app.getByRole('textbox').fill('done');
  await app.getByRole('button',{name:'Next',exact:true}).click();
@@ -241,7 +244,8 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  assert(demoEvents.some(e=>e.field_id==='e4_edit'&&e.type==='text_input'&&e.input_type==='resetButton'&&e.inserted===P));
  for(const [n,d] of [[2,'kept'],[3,'say_again'],[5,'abandoned']])
   assert(demoEvents.some(e=>e.field_id===`e${n}_edit`&&e.type==='decision'&&e.decision===d&&Number.isFinite(e.elapsed_ms)));
- assert.equal(final.answers.retry_count.choices[0],'Two more');
+ assert.equal(final.answers.retry_count.choices[0],'Two more times');
+ assert.equal(final.answers.candidates_compare.choices[0],'Typing the word myself');
  assert.equal(final.answers.feature_6.choices[0],'Somewhat useful');
  assert.equal(final.answers.situation_7.choices[0],'Not sure');
  assert.equal(final.status,'submitted');
@@ -279,7 +283,8 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  assert.equal(await page.evaluate(()=>batches[0].state.answers.s2_words.text),'elevator');
  // Next without editing or choosing is unanswered; a session saved on the removed
  // question step resumes on its edit screen.
- const watchedOnly={demo_consent:{status:'answered',choices:['Yes']},demo_video:{status:'answered',choices:['watched']}};
+ const watchedOnly={demo_consent:{status:'answered',choices:['Yes']},demo_video:{status:'answered',choices:['watched']},
+  edit_intro:{status:'answered',choices:['Yes, I’d like to try']}};
  app=await start('e1_action',{...watchedOnly,e1_action:{status:'answered',choices:['Change the text']}});
  await app.getByRole('heading',{name:'Example 1 — At a pharmacy'}).waitFor();
  await app.getByRole('textbox',{name:'Transcript'}).fill('changed');
@@ -339,16 +344,33 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  assert(ce.some(e=>e.type==='candidates_closed'&&e.reason==='typing'));
  assert(ce.some(e=>e.type==='candidates_closed'&&e.reason==='escape'));
  assert(ce.some(e=>e.type==='text_input'&&e.inserted==='Klien'||e.type==='text_input'&&e.value_after?.includes('Klien')));
- // Typing Other in one story group must not change the other group.
- app=await start('story');
- await app.locator('fieldset').nth(0).getByRole('textbox').fill('a neighbour');
- await app.locator('fieldset').nth(1).getByRole('textbox').fill('the park');
- assert.equal(await app.locator('input:checked').count(),2);
+ // "No, skip the examples" goes straight to the closing question.
+ app=await start('edit_intro',{...watchedOnly,edit_intro:undefined});
+ await app.getByLabel('No, skip the examples',{exact:true}).check();
+ await app.getByRole('button',{name:'Next',exact:true}).click();
+ await app.getByText(/Is there anything else you want us to know/).waitFor();
+ // Stop the exercise: remaining unanswered examples are skipped; answered ones stay.
+ app=await start('e2_edit',{...watchedOnly,e1_edit:{status:'answered',decision:'kept',text:'x',original:'x',edited:false},
+  e3_edit:{status:'answered',decision:'say_again',text:'y',original:'y',edited:false}});
+ await app.getByRole('button',{name:'Stop the exercise',exact:true}).click();
+ await app.getByText(/Is there anything else you want us to know/).waitFor();
+ await page.waitForFunction(()=>batches.length===1);
+ const stopped=await page.evaluate(()=>batches[0]);
+ assert.equal(stopped.state.answers.e1_edit.decision,'kept');
+ assert.equal(stopped.state.answers.e3_edit.decision,'say_again');
+ for(const n of [2,4,5])assert.deepEqual(stopped.state.answers[`e${n}_edit`],{status:'skipped',stopped:true});
+ assert(stopped.events.some(e=>e.type==='exercise_stopped'&&e.field_id==='e2_edit'&&e.skipped.join()==='e2_edit,e4_edit,e5_edit'));
+ // A question can name its own free-text choice (retry: "It depends on something else").
+ app=await start('retry_count',{...watched,failed_repair:{status:'answered',choices:['Correct another word and use Re-check again']}});
+ await app.getByRole('textbox').fill('how busy it is');
+ assert(await app.getByLabel('It depends on something else',{exact:true}).isChecked());
+ await app.getByLabel('One more time',{exact:true}).check();
+ assert.equal(await app.getByRole('textbox').inputValue(),'','Deselecting clears its text');
+ await app.getByRole('textbox').fill('the setting');
  await app.getByRole('button',{name:'Next',exact:true}).click();
  await page.waitForFunction(()=>batches.length===1);
- const story=await page.evaluate(()=>batches[0].state.answers.story);
- assert.deepEqual(story.groups,{person:'Other',place:'Other'});
- assert.deepEqual(story.other,{person:'a neighbour',place:'the park'});
+ const retry=await page.evaluate(()=>batches[0].state.answers.retry_count);
+ assert.deepEqual([retry.status,retry.choices,retry.other],['answered',['It depends on something else'],{other:'the setting'}]);
  // Typing Other respects exclusive answers on multiple-choice questions.
  app=await start('text_input');
  await app.getByLabel('I do not enter text',{exact:true}).check();
