@@ -404,7 +404,9 @@
       decisions.setAttribute('role', 'group'); decisions.setAttribute('aria-labelledby', 'decisions-' + p.id);
       const decisionsLabel = text('p', 'Instead of fixing the text:', 'decisions-label'); decisionsLabel.id = 'decisions-' + p.id;
       decisions.append(decisionsLabel);
-      for (const [labelText, decision] of [['Keep as is', 'kept'], ['Say it again', 'say_again'], ['Abandon', 'abandoned']]) {
+      for (const [labelText, decision] of [
+        ['Keep as is', 'kept'], ['Say it again', 'say_again'], ['Switch to my AAC', 'switch_aac'],
+        ['Ask for help', 'ask_help'], ['Abandon', 'abandoned'], ['Not sure', 'not_sure']]) {
         const b = button(labelText, () => {
           state.answers[p.id] = {status: 'answered', decision, text: input.value, original: p.transcript, edited: input.value !== p.transcript};
           record('decision', p.id, {decision, text: input.value});
@@ -413,8 +415,8 @@
         b.setAttribute('aria-pressed', String(answer(p.id)?.decision === decision));
         decisions.append(b);
       }
-      const actions = document.createElement('div'); actions.className = 'edit-actions';
-      actions.append(tools, decisions); field.append(actions);
+      // Under the text box: the text tools, then the decisions on their own line.
+      field.append(tools, decisions);
       task.append(field); page.append(task);
     }
     if (['single', 'multi', 'group', 'text'].includes(p.kind)) nav.append(button('Clear answer', () => {
