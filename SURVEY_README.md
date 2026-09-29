@@ -49,8 +49,9 @@ schema records the source document SHA-256. The Word file remains unchanged.
   Next preserves completed rows and records unanswered rows. All five scenarios remain.
 - The post-demo section depends on agreeing to and confirming the demo.
   Skipping/unavailable video does not count as watching it.
-- Speech-to-text follow-ups, the AAC name, detection cues, and the Re-check retry
-  question follow the source conditions. Changing a parent answer clears inapplicable
+- The AAC name, detection cues, and the Re-check retry question follow the source
+  conditions. The speech-to-text question has no follow-ups (the guide's two are
+  left out). Changing a parent answer clears inapplicable
   child answers from the final response checkpoint; the event log retains the change.
 - The September 29 guide removed the "recent time" story and its follow-ups, the
   AAC carrying question, and Part 3 Q8, and added "what has made you stop trying"

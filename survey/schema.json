@@ -78,36 +78,6 @@
       ]
     },
     {
-      "id": "asr_stopped",
-      "section": 1,
-      "title": "What made you stop?",
-      "kind": "text",
-      "when": {
-        "question": "asr",
-        "values": [
-          "Yes, I tried but stopped"
-        ]
-      },
-      "source_paragraphs": [
-        72
-      ]
-    },
-    {
-      "id": "asr_uses",
-      "section": 1,
-      "title": "What do you use it for?",
-      "kind": "text",
-      "when": {
-        "question": "asr",
-        "values": [
-          "Yes, I use it now"
-        ]
-      },
-      "source_paragraphs": [
-        74
-      ]
-    },
-    {
       "id": "aac",
       "section": 1,
       "title": "Do you use an app, device, or communication board to help you communicate?",

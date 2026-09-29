@@ -53,8 +53,7 @@ page('intro',0,'Your communication experiences', 'info', source=[45,46],
 page('people',1,txt(51),'multi',people,51)
 page('places',1,txt(58),'multi',places,58)
 page('asr',1,txt(68),options=['Yes, I use it now','Yes, I tried but stopped','No, never tried','Not sure'],source=[68,69])
-page('asr_stopped',1,txt(72),'text',source=72,when=has('asr','Yes, I tried but stopped'))
-page('asr_uses',1,txt(74),'text',source=74,when=has('asr','Yes, I use it now'))
+# The guide's two follow-ups (paragraphs 72 and 74) are left out at the researcher's request.
 page('aac',1,txt(78),options=['Yes','No','Other'],source=[78,79])
 page('aac_name',1,'What is it?','text',source=80,when=has('aac','Yes'))
 page('text_input',1,txt(83),'multi',opts(*range(85,92)),83,exclusive=['I do not enter text'])

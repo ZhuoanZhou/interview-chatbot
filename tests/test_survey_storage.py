@@ -89,7 +89,7 @@ class StorageTests(unittest.TestCase):
         _,rows,events=combine([second,self.initial,first],SCHEMA)
         self.assertEqual(len(events),2)
         self.assertEqual(next(r for r in rows if r['question_id']=='people')['status'],'skipped')
-        self.assertEqual(next(r for r in rows if r['question_id']=='asr_uses')['status'],'not_applicable')
+        self.assertEqual(next(r for r in rows if r['question_id']=='aac_name')['status'],'not_applicable')
 
     def test_schema_keeps_ratings_and_scenarios_excludes_notes(self):
         pages=SCHEMA['pages'];ids=[p['id'] for p in pages]
@@ -124,10 +124,11 @@ class StorageTests(unittest.TestCase):
         ids=[p['id'] for p in SCHEMA['pages']];P={p['id']:p for p in SCHEMA['pages']}
         self.assertEqual(SCHEMA['version'],'2026-09-29-v1')
         self.assertEqual(SCHEMA['source'],'refined_question_list_9.29.2026.docx')
-        for gone in ['aac_carry','story','first_repair','understood','next_repair','different_repair',
+        for gone in ['asr_stopped','asr_uses','aac_carry','story','first_repair','understood','next_repair','different_repair',
                      'stop_reason','partner_action','partner_expected']:
             self.assertNotIn(gone,ids)
         self.assertEqual(ids[ids.index('text_input')+1:ids.index('text_input')+3],['stop_trying','detect'])
+        self.assertEqual(ids[ids.index('asr')+1],'aac')
         self.assertEqual(P['stop_trying']['exclusive'],['I have not stopped trying','Not sure'])
         self.assertEqual(P['text_input']['options'][:2],['Keyboard','A typing aid'])
         self.assertEqual(P['retry_count']['other_option'],'It depends on something else')
