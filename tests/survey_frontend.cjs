@@ -268,9 +268,11 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  resumed=await page.evaluate(()=>batches.at(-1).state.answers);
  for(let i=1;i<=6;i++)assert.equal(resumed['feature_'+i].status,'skipped');
  // A session saved on a removed follow-up screen resumes on its example; old answers are kept.
- app=await start('s2_words',{s2_action:{status:'answered',choices:['Change the text']},s2_words:{status:'answered',text:'elevator'}});
+ app=await start('s2_words',{s2_action:{status:'answered',choices:['Change parts of the text']},s2_words:{status:'answered',text:'elevator'}});
  await app.getByText('Example 2 — Asking for directions',{exact:true}).waitFor();
- assert(await app.getByLabel('Change the text',{exact:true}).isChecked());
+ assert(await app.getByLabel('Change parts of the text',{exact:true}).isChecked());
+ assert.deepEqual(await app.locator('.option-group-label').allTextContents(),
+  ['Continue the conversation','Use my voice again','Use text','Use another way to communicate','Stop trying']);
  await app.getByRole('button',{name:'Next',exact:true}).click();
  await app.getByText('Example 3 — Talking at home',{exact:true}).waitFor();
  await page.waitForFunction(()=>batches.length===1);

@@ -116,6 +116,13 @@ class StorageTests(unittest.TestCase):
             self.assertEqual(edit['title'],part2['scenario']['title'])
             self.assertEqual('“'+edit['transcript']+'”',part2['scenario']['shown'])
 
+    def test_scenario_intro_wording(self):
+        page=next(p for p in SCHEMA['pages'] if p['id']=='scenarios_intro')
+        self.assertEqual(page['title'],'Example situations')
+        self.assertEqual(page['paragraphs'],[
+            'Imagine you are talking to someone. For these examples, suppose a device could show you the words the other person understood.',
+            'You will see what you meant to say and what the other person understood. Choose what you would do first in each situation. You can skip any example.'])
+
     def test_every_transcript_word_has_six_candidates(self):
         for page in SCHEMA['pages']:
             if page['kind']!='edit':
@@ -133,7 +140,8 @@ class StorageTests(unittest.TestCase):
                 continue
             groups=page['option_groups']
             self.assertEqual([g['label'] for g in groups],
-                ['Keep the text','Use my voice again','Fix the text',"Don't use the tool",''])
+                ['Continue the conversation','Use my voice again','Use text',
+                 'Use another way to communicate','Stop trying',''])
             grouped=[o for g in groups for o in g['options']]
             self.assertEqual(sorted(grouped+['Other']),sorted(page['options']))
             self.assertEqual(len(grouped),len(set(grouped)))

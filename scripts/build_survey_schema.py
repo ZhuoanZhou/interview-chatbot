@@ -75,16 +75,19 @@ page('detect',1,txt(150),options=opts(*range(152,156)),source=150)
 page('detect_cues',1,'What helps you tell?','multi',opts(*range(158,164)),156,when=has('detect','Usually','Sometimes'))
 page('pretended',1,txt(164),options=['Yes','No','Not sure'],source=164)
 page('tell_when',1,txt(166),options=opts(*range(168,173)),source=166)
-page('scenarios_intro',2,'Example situations','info',source=177,paragraphs=[txt(177),
-     'For each example, choose what you would do. You can skip any example.'])
+# Intro reworded in 2026-09 (replaces the guide's paragraph 177).
+page('scenarios_intro',2,'Example situations','info',source=177,paragraphs=[
+     'Imagine you are talking to someone. For these examples, suppose a device could show you the words the other person understood.',
+     'You will see what you meant to say and what the other person understood. Choose what you would do first in each situation. You can skip any example.'])
 # "What would you do first?" choices, regrouped in 2026-09 (meeting with Slobodan);
 # they replace the guide's flat list. Each group is shown on its own line.
-ACTION_GROUPS=[{'label':'Keep the text','options':['Continue with the text as it is']},
+ACTION_GROUPS=[{'label':'Continue the conversation','options':['Accept the text and continue the conversation']},
                {'label':'Use my voice again','options':['Say it again the same way','Say it in a different way']},
-               {'label':'Fix the text','options':['Change the text','Delete it and type a new message']},
-               {'label':"Don't use the tool",'options':['Use my AAC device or board','Ask someone to help','Stop trying and move on']},
+               {'label':'Use text','options':['Change parts of the text','Type a new message']},
+               {'label':'Use another way to communicate','options':['Use my AAC device','Use gestures or signs']},
+               {'label':'Stop trying','options':['Stop trying to get this message across']},
                {'label':'','options':['Not sure']}]
-ACTION_OPTIONS=[o for g in ACTION_GROUPS[:4] for o in g['options']]+['Other','Not sure']
+ACTION_OPTIONS=[o for g in ACTION_GROUPS[:-1] for o in g['options']]+['Other','Not sure']
 # Six hand-written word candidates per transcript word (prototype stimuli, not ASR
 # output), shown around a clicked word on the post-demonstration edit screens.
 CANDIDATES=json.loads((Path(__file__).resolve().parents[1]/'survey'/'word_candidates.json').read_text(encoding='utf-8'))

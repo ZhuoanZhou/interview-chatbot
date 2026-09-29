@@ -78,8 +78,9 @@ not a factual claim about ASR capability. Review this wording before piloting.
 ## "What would you do first?" and the post-demonstration examples
 
 The choices for the ten example questions are grouped, one line per group
-(`option_groups` in the schema): Keep the text · Use my voice again · Fix the text ·
-Don't use the tool, then Not sure and Other on the last line. `options` still lists
+(`option_groups` in the schema): Continue the conversation · Use my voice again · Use
+text · Use another way to communicate · Stop trying, then Not sure and Other on the
+last line (two columns; single options span the row). `options` still lists
 every choice. These replace the Word guide's flat list (September 2026 meeting).
 
 Part 2 examples (`s1_action`–`s5_action`) ask only this question. Their follow-ups

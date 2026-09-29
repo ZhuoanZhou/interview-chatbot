@@ -498,8 +498,8 @@
       "title": "Example situations",
       "kind": "info",
       "paragraphs": [
-        "Imagine that you are talking to someone and your device can show you what they understood. We will show you a few examples and ask what you would do next.",
-        "For each example, choose what you would do. You can skip any example."
+        "Imagine you are talking to someone. For these examples, suppose a device could show you the words the other person understood.",
+        "You will see what you meant to say and what the other person understood. Choose what you would do first in each situation. You can skip any example."
       ],
       "source_paragraphs": [
         177
@@ -518,9 +518,9 @@
       },
       "option_groups": [
         {
-          "label": "Keep the text",
+          "label": "Continue the conversation",
           "options": [
-            "Continue with the text as it is"
+            "Accept the text and continue the conversation"
           ]
         },
         {
@@ -531,18 +531,23 @@
           ]
         },
         {
-          "label": "Fix the text",
+          "label": "Use text",
           "options": [
-            "Change the text",
-            "Delete it and type a new message"
+            "Change parts of the text",
+            "Type a new message"
           ]
         },
         {
-          "label": "Don't use the tool",
+          "label": "Use another way to communicate",
           "options": [
-            "Use my AAC device or board",
-            "Ask someone to help",
-            "Stop trying and move on"
+            "Use my AAC device",
+            "Use gestures or signs"
+          ]
+        },
+        {
+          "label": "Stop trying",
+          "options": [
+            "Stop trying to get this message across"
           ]
         },
         {
@@ -553,14 +558,14 @@
         }
       ],
       "options": [
-        "Continue with the text as it is",
+        "Accept the text and continue the conversation",
         "Say it again the same way",
         "Say it in a different way",
-        "Change the text",
-        "Delete it and type a new message",
-        "Use my AAC device or board",
-        "Ask someone to help",
-        "Stop trying and move on",
+        "Change parts of the text",
+        "Type a new message",
+        "Use my AAC device",
+        "Use gestures or signs",
+        "Stop trying to get this message across",
         "Other",
         "Not sure"
       ],
@@ -582,9 +587,9 @@
       },
       "option_groups": [
         {
-          "label": "Keep the text",
+          "label": "Continue the conversation",
           "options": [
-            "Continue with the text as it is"
+            "Accept the text and continue the conversation"
           ]
         },
         {
@@ -595,18 +600,23 @@
           ]
         },
         {
-          "label": "Fix the text",
+          "label": "Use text",
           "options": [
-            "Change the text",
-            "Delete it and type a new message"
+            "Change parts of the text",
+            "Type a new message"
           ]
         },
         {
-          "label": "Don't use the tool",
+          "label": "Use another way to communicate",
           "options": [
-            "Use my AAC device or board",
-            "Ask someone to help",
-            "Stop trying and move on"
+            "Use my AAC device",
+            "Use gestures or signs"
+          ]
+        },
+        {
+          "label": "Stop trying",
+          "options": [
+            "Stop trying to get this message across"
           ]
         },
         {
@@ -617,14 +627,14 @@
         }
       ],
       "options": [
-        "Continue with the text as it is",
+        "Accept the text and continue the conversation",
         "Say it again the same way",
         "Say it in a different way",
-        "Change the text",
-        "Delete it and type a new message",
-        "Use my AAC device or board",
-        "Ask someone to help",
-        "Stop trying and move on",
+        "Change parts of the text",
+        "Type a new message",
+        "Use my AAC device",
+        "Use gestures or signs",
+        "Stop trying to get this message across",
         "Other",
         "Not sure"
       ],
@@ -646,9 +656,9 @@
       },
       "option_groups": [
         {
-          "label": "Keep the text",
+          "label": "Continue the conversation",
           "options": [
-            "Continue with the text as it is"
+            "Accept the text and continue the conversation"
           ]
         },
         {
@@ -659,18 +669,23 @@
           ]
         },
         {
-          "label": "Fix the text",
+          "label": "Use text",
           "options": [
-            "Change the text",
-            "Delete it and type a new message"
+            "Change parts of the text",
+            "Type a new message"
           ]
         },
         {
-          "label": "Don't use the tool",
+          "label": "Use another way to communicate",
           "options": [
-            "Use my AAC device or board",
-            "Ask someone to help",
-            "Stop trying and move on"
+            "Use my AAC device",
+            "Use gestures or signs"
+          ]
+        },
+        {
+          "label": "Stop trying",
+          "options": [
+            "Stop trying to get this message across"
           ]
         },
         {
@@ -681,14 +696,14 @@
         }
       ],
       "options": [
-        "Continue with the text as it is",
+        "Accept the text and continue the conversation",
         "Say it again the same way",
         "Say it in a different way",
-        "Change the text",
-        "Delete it and type a new message",
-        "Use my AAC device or board",
-        "Ask someone to help",
-        "Stop trying and move on",
+        "Change parts of the text",
+        "Type a new message",
+        "Use my AAC device",
+        "Use gestures or signs",
+        "Stop trying to get this message across",
         "Other",
         "Not sure"
       ],
@@ -710,9 +725,9 @@
       },
       "option_groups": [
         {
-          "label": "Keep the text",
+          "label": "Continue the conversation",
           "options": [
-            "Continue with the text as it is"
+            "Accept the text and continue the conversation"
           ]
         },
         {
@@ -723,18 +738,23 @@
           ]
         },
         {
-          "label": "Fix the text",
+          "label": "Use text",
           "options": [
-            "Change the text",
-            "Delete it and type a new message"
+            "Change parts of the text",
+            "Type a new message"
           ]
         },
         {
-          "label": "Don't use the tool",
+          "label": "Use another way to communicate",
           "options": [
-            "Use my AAC device or board",
-            "Ask someone to help",
-            "Stop trying and move on"
+            "Use my AAC device",
+            "Use gestures or signs"
+          ]
+        },
+        {
+          "label": "Stop trying",
+          "options": [
+            "Stop trying to get this message across"
           ]
         },
         {
@@ -745,14 +765,14 @@
         }
       ],
       "options": [
-        "Continue with the text as it is",
+        "Accept the text and continue the conversation",
         "Say it again the same way",
         "Say it in a different way",
-        "Change the text",
-        "Delete it and type a new message",
-        "Use my AAC device or board",
-        "Ask someone to help",
-        "Stop trying and move on",
+        "Change parts of the text",
+        "Type a new message",
+        "Use my AAC device",
+        "Use gestures or signs",
+        "Stop trying to get this message across",
         "Other",
         "Not sure"
       ],
@@ -774,9 +794,9 @@
       },
       "option_groups": [
         {
-          "label": "Keep the text",
+          "label": "Continue the conversation",
           "options": [
-            "Continue with the text as it is"
+            "Accept the text and continue the conversation"
           ]
         },
         {
@@ -787,18 +807,23 @@
           ]
         },
         {
-          "label": "Fix the text",
+          "label": "Use text",
           "options": [
-            "Change the text",
-            "Delete it and type a new message"
+            "Change parts of the text",
+            "Type a new message"
           ]
         },
         {
-          "label": "Don't use the tool",
+          "label": "Use another way to communicate",
           "options": [
-            "Use my AAC device or board",
-            "Ask someone to help",
-            "Stop trying and move on"
+            "Use my AAC device",
+            "Use gestures or signs"
+          ]
+        },
+        {
+          "label": "Stop trying",
+          "options": [
+            "Stop trying to get this message across"
           ]
         },
         {
@@ -809,14 +834,14 @@
         }
       ],
       "options": [
-        "Continue with the text as it is",
+        "Accept the text and continue the conversation",
         "Say it again the same way",
         "Say it in a different way",
-        "Change the text",
-        "Delete it and type a new message",
-        "Use my AAC device or board",
-        "Ask someone to help",
-        "Stop trying and move on",
+        "Change parts of the text",
+        "Type a new message",
+        "Use my AAC device",
+        "Use gestures or signs",
+        "Stop trying to get this message across",
         "Other",
         "Not sure"
       ],
