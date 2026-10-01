@@ -466,7 +466,19 @@
       page.append(box);
     }
     const heading = text('h1', p.title); heading.id = 'question-title'; heading.tabIndex = -1; page.append(heading);
-    (p.paragraphs || []).forEach((s, i) => page.append(text('p', s, p.id === 'intro' && i === 3 ? 'notice' : '')));
+    (p.paragraphs || []).forEach(s => page.append(text('p', s)));
+    // Structured text (the introduction): bold headings, paragraphs, bullet lists.
+    for (const block of p.blocks || []) {
+      const section = document.createElement('section'); section.className = 'text-block' + (block.notice ? ' notice' : '');
+      if (block.heading) section.append(text('h2', block.heading));
+      (block.paragraphs || []).forEach(s => section.append(text('p', s)));
+      if (block.bullets) {
+        const list = document.createElement('ul');
+        block.bullets.forEach(s => list.append(text('li', s)));
+        section.append(list);
+      }
+      page.append(section);
+    }
     if (p.id === 'intro') page.append(text('p', 'Your answers are saved when you move between questions. Before leaving, choose “Save and take a break.”', 'help'),
       text('p', 'Your participant ID is in the side panel on the left. Use the arrow button at the top left to show or hide it. Keep your ID so you can return later.', 'help'));
     if (p.item && !p.rating_group) page.append(text('p', p.item, 'item'));

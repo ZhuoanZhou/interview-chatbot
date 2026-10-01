@@ -46,9 +46,20 @@ def page(id, section, title, kind='single', options=None, source=None, **kw):
 
 people = opts(53,54,55,56,57)
 places = opts(60,61,62,63,64,65)
-page('intro',0,'Your communication experiences', 'info', source=[45,46],
-     paragraphs=[txt(45),txt(46),'Please allow up to 60 minutes. You can pause and return later.',
-     'We record your survey selections and changes, including text you type or delete and the time of each action. This happens only inside this survey. Deleted or unsubmitted text may remain in the research interaction log.'],
+# Introduction reworded in 2026-10 (based on guide paragraphs 45-46): bold headings,
+# a bullet list, and the recording notice in its own highlighted block.
+page('intro',0,'Your communication experiences', 'info', source=[45,46], blocks=[
+    {'heading':'Why we’re asking','paragraphs':[
+        'We want to understand what helps when someone has trouble understanding your speech. '
+        'We’ll also ask about speech-to-text tools for conversations, messages, and writing.']},
+    {'heading':'Taking the survey','bullets':[
+        'You can choose answers instead of typing. When you write, a few words are enough.',
+        'You can skip questions, take a break and return, or end the survey early.',
+        'There are no right or wrong answers.']},
+    {'heading':'Time','paragraphs':['Please allow up to 60 minutes.']},
+    {'heading':'What we record','notice':True,'paragraphs':[
+        'We record your choices and changes, including text you type or delete and the time of each action. '
+        'This happens only inside this survey. Deleted or unsubmitted text may remain in the research interaction log.']}],
      next_label='Start survey')
 page('people',1,txt(51),'multi',people,51)
 page('places',1,txt(58),'multi',places,58)

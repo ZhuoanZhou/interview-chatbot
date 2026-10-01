@@ -16,11 +16,34 @@
       "section": 0,
       "title": "Your communication experiences",
       "kind": "info",
-      "paragraphs": [
-        "We want to understand what helps you when someone has difficulty understanding your speech. We will also ask about using speech recognition to help with conversations, messages, or writing.",
-        "You can choose answers instead of typing. When you want to write, a few words are enough. You can skip questions, take a break, or stop. There are no right or wrong answers.",
-        "Please allow up to 60 minutes. You can pause and return later.",
-        "We record your survey selections and changes, including text you type or delete and the time of each action. This happens only inside this survey. Deleted or unsubmitted text may remain in the research interaction log."
+      "blocks": [
+        {
+          "heading": "Why we’re asking",
+          "paragraphs": [
+            "We want to understand what helps when someone has trouble understanding your speech. We’ll also ask about speech-to-text tools for conversations, messages, and writing."
+          ]
+        },
+        {
+          "heading": "Taking the survey",
+          "bullets": [
+            "You can choose answers instead of typing. When you write, a few words are enough.",
+            "You can skip questions, take a break and return, or end the survey early.",
+            "There are no right or wrong answers."
+          ]
+        },
+        {
+          "heading": "Time",
+          "paragraphs": [
+            "Please allow up to 60 minutes."
+          ]
+        },
+        {
+          "heading": "What we record",
+          "notice": true,
+          "paragraphs": [
+            "We record your choices and changes, including text you type or delete and the time of each action. This happens only inside this survey. Deleted or unsubmitted text may remain in the research interaction log."
+          ]
+        }
       ],
       "next_label": "Start survey",
       "source_paragraphs": [

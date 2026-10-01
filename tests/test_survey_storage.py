@@ -138,6 +138,16 @@ class StorageTests(unittest.TestCase):
             for o in p.get('options',[]):
                 self.assertNotRegex(o,r'^- |_{2,}|:\s*$')
 
+    def test_introduction_has_headings_and_bullets(self):
+        intro=SCHEMA['pages'][0]
+        self.assertEqual(intro['id'],'intro')
+        self.assertNotIn('paragraphs',intro)
+        self.assertEqual([b['heading'] for b in intro['blocks']],
+                         ['Why we’re asking','Taking the survey','Time','What we record'])
+        self.assertEqual(len(intro['blocks'][1]['bullets']),3)
+        self.assertEqual(intro['blocks'][2]['paragraphs'],['Please allow up to 60 minutes.'])
+        self.assertTrue(intro['blocks'][3]['notice'])
+
     def test_scenario_intro_wording(self):
         page=next(p for p in SCHEMA['pages'] if p['id']=='scenarios_intro')
         self.assertEqual(page['title'],'Example situations')
