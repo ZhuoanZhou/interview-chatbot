@@ -38,12 +38,12 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
   const type=file.endsWith('.js')?'application/javascript':file.endsWith('.css')?'text/css':'text/html';
   return route.fulfill({contentType:type,body:fs.readFileSync(file)});
  });
- async function start(pageId,answers={}){
+ async function start(pageId,answers={},s=schema){
   await page.goto('http://127.0.0.1:8512/harness');
   await page.evaluate(([schema,pageId,answers])=>{
    sessionStorage.clear();
    start(schema,{revision:0,schema_version:schema.version,state:{page:pageId,status:'active',answers}});
-  },[schema,pageId,answers]);
+  },[s,pageId,answers]);
   const app=page.frameLocator('#app');
   await app.locator('#question-title').waitFor();return app;
  }
@@ -164,14 +164,11 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  await app.getByRole('button',{name:'Next',exact:true}).click();
  await app.getByLabel('Typing the word myself',{exact:true}).check();
  await app.getByRole('button',{name:'Next',exact:true}).click();
+ // Q3, Q4 and the Re-check retry question were removed: Q2 is followed by Q5.
+ await app.getByText('Based on the video, which parts of this process do you think would be difficult for you?').waitFor();
  await app.getByLabel('Other',{exact:true}).check();
  await app.getByRole('textbox').fill('point');
  await app.getByRole('button',{name:'Next',exact:true}).click();
- await app.getByLabel('Correct another word and use Re-check again',{exact:true}).check();
- await app.getByRole('button',{name:'Next',exact:true}).click();
- await app.getByLabel('Two more times',{exact:true}).check();
- await app.getByRole('button',{name:'Next',exact:true}).click();
- await app.getByRole('button',{name:'Skip',exact:true}).click();
  await app.getByRole('button',{name:'Skip',exact:true}).click();
  for(let i=1;i<=7;i++){
   await app.locator(`input[name="situation_${i}"][value="Not sure"]`).check();
@@ -244,7 +241,7 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  assert(demoEvents.some(e=>e.field_id==='e4_edit'&&e.type==='text_input'&&e.input_type==='resetButton'&&e.inserted===P));
  for(const [n,d] of [[2,'kept'],[3,'say_again'],[5,'abandoned']])
   assert(demoEvents.some(e=>e.field_id===`e${n}_edit`&&e.type==='decision'&&e.decision===d&&Number.isFinite(e.elapsed_ms)));
- assert.equal(final.answers.retry_count.choices[0],'Two more times');
+ assert.equal(final.answers.difficulty.other.other,'point');
  assert.equal(final.answers.candidates_compare.choices[0],'Typing the word myself');
  assert.equal(final.answers.feature_6.choices[0],'Somewhat useful');
  assert.equal(final.answers.situation_7.choices[0],'Not sure');
@@ -360,8 +357,11 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  assert.equal(stopped.state.answers.e3_edit.decision,'say_again');
  for(const n of [2,4,5])assert.deepEqual(stopped.state.answers[`e${n}_edit`],{status:'skipped',stopped:true});
  assert(stopped.events.some(e=>e.type==='exercise_stopped'&&e.field_id==='e2_edit'&&e.skipped.join()==='e2_edit,e4_edit,e5_edit'));
- // A question can name its own free-text choice (retry: "It depends on something else").
- app=await start('retry_count',{...watched,failed_repair:{status:'answered',choices:['Correct another word and use Re-check again']}});
+ // A question can name its own free-text choice (other_option); tested with a test-only question.
+ const custom=JSON.parse(JSON.stringify(schema));
+ custom.pages.splice(custom.pages.findIndex(q=>q.id==='closing'),0,{id:'retry_count',section:3,title:'Test question',kind:'single',
+  options:['One more time','Two more times','It depends on something else','Not sure'],other_option:'It depends on something else'});
+ app=await start('retry_count',{},custom);
  await app.getByRole('textbox').fill('how busy it is');
  assert(await app.getByLabel('It depends on something else',{exact:true}).isChecked());
  await app.getByLabel('One more time',{exact:true}).check();

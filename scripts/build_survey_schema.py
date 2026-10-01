@@ -117,12 +117,8 @@ for number,i in enumerate(range(188,199,2),1):
     page(f'feature_{number}',3,txt(184).removeprefix('Q1. '),options=ratings,source=[184,i],
          item=txt(i),group='Q1 · Parts of the system',rating_group='features',when=watched)
 page('candidates_compare',3,txt(201).removeprefix('Q2. '),options=opts(*range(203,208)),source=201,when=watched)
-page('candidate_missing',3,txt(209).removeprefix('Q3. '),'multi',opts(*range(211,217)),209,when=watched,exclusive=['Not sure'])
-recheck=opts(*range(220,230))
-page('failed_repair',3,txt(218).removeprefix('Q4. '),options=recheck,source=218,when=watched)
-# "It depends on something else: ___" is this question's free-text choice.
-page('retry_count',3,txt(231),options=opts(*range(233,239)),source=[230,231],
-     when=all_of(watched,has('failed_repair',recheck[0])),other_option='It depends on something else')
+# Q3 (word not in the suggestions) and Q4 with its Re-check retry follow-up
+# (guide paragraphs 209-238) were removed in 2026-10 at the researcher's request.
 page('difficulty',3,txt(240).removeprefix('Q5. '),'multi',opts(*range(242,252)),240,when=watched,
      exclusive=['Nothing seems difficult','I cannot judge without trying it'])
 # Q6 wording smoothed for participants (guide paragraph 253).

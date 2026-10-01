@@ -39,8 +39,8 @@ schema records the source document SHA-256. The Word file remains unchanged.
 - Each Other choice is last, in a full-width bordered block with an optional text
   area always visible below its label. Typing selects Other automatically;
   deselecting it clears its explanation (the interaction log retains the edits).
-  A question can name a different free-text choice with `other_option` (the Re-check
-  retry question uses "It depends on something else").
+  A question can name a different free-text choice with `other_option` (no
+  current question uses it).
 - Part 3 Q1 and Q7 each appear on one screen, with a rating row per statement:
   five usefulness levels and Not sure. The original per-item answer IDs remain
   unchanged, so existing sessions and exports stay compatible. Older sessions
@@ -49,13 +49,14 @@ schema records the source document SHA-256. The Word file remains unchanged.
   Next preserves completed rows and records unanswered rows. All five scenarios remain.
 - The post-demo section depends on agreeing to and confirming the demo.
   Skipping/unavailable video does not count as watching it.
-- The AAC name, detection cues, and the Re-check retry question follow the source
-  conditions. The speech-to-text question has no follow-ups (the guide's two are
+- The AAC name and detection cues follow the source conditions. The speech-to-text question has no follow-ups (the guide's two are
   left out). Changing a parent answer clears inapplicable
   child answers from the final response checkpoint; the event log retains the change.
 - The September 29 guide removed the "recent time" story and its follow-ups, the
   AAC carrying question, and Part 3 Q8, and added "what has made you stop trying"
-  (`stop_trying`; "I have not stopped trying" and "Not sure" are exclusive).
+  (`stop_trying`; "I have not stopped trying" and "Not sure" are exclusive). Part 3
+  Q3 (word not in the suggestions) and Q4 with its Re-check retry follow-up were
+  later removed as well.
 - All questions are skippable. Back, clear answer, pause/resume, and finish early
   are supported. No response is preselected. Single choices can be cleared.
 - Mutually exclusive options such as “Not sure” clear incompatible choices.

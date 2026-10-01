@@ -131,8 +131,9 @@ class StorageTests(unittest.TestCase):
         self.assertEqual(ids[ids.index('asr')+1],'aac')
         self.assertEqual(P['stop_trying']['exclusive'],['I have not stopped trying','Not sure'])
         self.assertEqual(P['text_input']['options'][:2],['Keyboard','A typing aid'])
-        self.assertEqual(P['retry_count']['other_option'],'It depends on something else')
-        self.assertEqual(P['retry_count']['when']['all'][1]['values'],[P['failed_repair']['options'][0]])
+        for gone in ['candidate_missing','failed_repair','retry_count']:
+            self.assertNotIn(gone,ids)
+        self.assertEqual(ids[ids.index('candidates_compare')+1],'difficulty')
         self.assertTrue(P['look_when']['title'].startswith('Imagine you are using the tool shown in the demo video during a conversation.'))
         for p in SCHEMA['pages']:
             for o in p.get('options',[]):
