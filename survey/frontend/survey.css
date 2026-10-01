@@ -206,5 +206,4 @@ nav .example-counter+.primary{margin-left:0}
   .text-block p{margin-bottom:4px}
   .text-block li{margin-bottom:1px}
   .text-block.notice{padding:8px 14px}
-  .text-block~.help{line-height:1.35;margin-bottom:6px}
 }

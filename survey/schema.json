@@ -39,9 +39,14 @@
         },
         {
           "heading": "What we record",
-          "notice": true,
           "paragraphs": [
             "We record your choices and changes, including text you type or delete and the time of each action. This happens only inside this survey. Deleted or unsubmitted text may remain in the research interaction log."
+          ]
+        },
+        {
+          "heading": "How to come back",
+          "paragraphs": [
+            "Your participant ID is in the side panel on the left. Use the arrow button at the top left to show or hide it. Keep your ID so you can return later."
           ]
         }
       ],

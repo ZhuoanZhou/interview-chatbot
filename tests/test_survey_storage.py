@@ -143,10 +143,11 @@ class StorageTests(unittest.TestCase):
         self.assertEqual(intro['id'],'intro')
         self.assertNotIn('paragraphs',intro)
         self.assertEqual([b['heading'] for b in intro['blocks']],
-                         ['Why we’re asking','Taking the survey','Time','What we record'])
+                         ['Why we’re asking','Taking the survey','Time','What we record','How to come back'])
         self.assertEqual(len(intro['blocks'][1]['bullets']),3)
         self.assertEqual(intro['blocks'][2]['paragraphs'],['Please allow up to 60 minutes.'])
-        self.assertTrue(intro['blocks'][3]['notice'])
+        self.assertFalse(any(b.get('notice') for b in intro['blocks']))
+        self.assertTrue(intro['blocks'][4]['paragraphs'][0].startswith('Your participant ID is in the side panel on the left.'))
 
     def test_scenario_intro_wording(self):
         page=next(p for p in SCHEMA['pages'] if p['id']=='scenarios_intro')

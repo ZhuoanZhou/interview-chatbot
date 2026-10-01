@@ -46,8 +46,8 @@ def page(id, section, title, kind='single', options=None, source=None, **kw):
 
 people = opts(53,54,55,56,57)
 places = opts(60,61,62,63,64,65)
-# Introduction reworded in 2026-10 (based on guide paragraphs 45-46): bold headings,
-# a bullet list, and the recording notice in its own highlighted block.
+# Introduction reworded in 2026-10 (based on guide paragraphs 45-46): bold headings
+# and a bullet list. "How to come back" explains the participant-ID panel.
 page('intro',0,'Your communication experiences', 'info', source=[45,46], blocks=[
     {'heading':'Why we’re asking','paragraphs':[
         'We want to understand what helps when someone has trouble understanding your speech. '
@@ -57,9 +57,12 @@ page('intro',0,'Your communication experiences', 'info', source=[45,46], blocks=
         'You can skip questions, take a break and return, or end the survey early.',
         'There are no right or wrong answers.']},
     {'heading':'Time','paragraphs':['Please allow up to 60 minutes.']},
-    {'heading':'What we record','notice':True,'paragraphs':[
+    {'heading':'What we record','paragraphs':[
         'We record your choices and changes, including text you type or delete and the time of each action. '
-        'This happens only inside this survey. Deleted or unsubmitted text may remain in the research interaction log.']}],
+        'This happens only inside this survey. Deleted or unsubmitted text may remain in the research interaction log.']},
+    {'heading':'How to come back','paragraphs':[
+        'Your participant ID is in the side panel on the left. Use the arrow button at the top left to show or hide it. '
+        'Keep your ID so you can return later.']}],
      next_label='Start survey')
 page('people',1,txt(51),'multi',people,51)
 page('places',1,txt(58),'multi',places,58)

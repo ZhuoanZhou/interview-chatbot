@@ -479,8 +479,6 @@
       }
       page.append(section);
     }
-    if (p.id === 'intro') page.append(text('p', 'Your answers are saved when you move between questions. Before leaving, choose “Save and take a break.”', 'help'),
-      text('p', 'Your participant ID is in the side panel on the left. Use the arrow button at the top left to show or hide it. Keep your ID so you can return later.', 'help'));
     if (p.item && !p.rating_group) page.append(text('p', p.item, 'item'));
     if (p.help) page.append(text('p', p.help, 'help'));
     if (p.rating_group) {
