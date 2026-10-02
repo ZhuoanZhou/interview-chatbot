@@ -194,7 +194,7 @@
       if (input.dataset.question !== p.id) return;
       input.checked = input.dataset.group ? a.groups?.[input.dataset.group] === input.value : (a.choices || []).includes(input.value);
     });
-    updateOther(p, group); setStatus(); resize();
+    updateOther(p, group); if (p.ways) syncWays(p); setStatus(); resize();
     if (p.rating_group) document.querySelector('#label-' + p.id)?.parentElement.querySelector('.legacy-rating')?.remove();
   }
   function delta(before, after) {
@@ -251,6 +251,87 @@
     input.rows = 2; input.placeholder = 'Please specify';
     host.append(field);
   }
+  // ---- Follow-up "ways" under one choice (Part 2): selectable only while that
+  // choice is selected. Ticked ways are kept (grayed) if another choice is made.
+  function waysBlock(p) {
+    const w = p.ways, block = document.createElement('div');
+    block.className = 'ways'; block.id = 'ways-' + p.id;
+    block.setAttribute('role', 'group'); block.setAttribute('aria-labelledby', 'ways-title-' + p.id);
+    const title = text('p', w.title, 'ways-title'); title.id = 'ways-title-' + p.id;
+    block.append(title, text('p', w.help, 'help'));
+    const box = (v) => {
+      const label = document.createElement('label'); label.className = 'choice';
+      const input = document.createElement('input'); input.type = 'checkbox'; input.value = v;
+      input.dataset.question = p.id + '.ways';
+      input.checked = !!answer(p.id)?.ways?.includes(v);
+      input.addEventListener('change', e => waysChanged(p, v, input.checked, e));
+      label.append(input, text('span', v));
+      return label;
+    };
+    const list = document.createElement('div'); list.className = 'options fit';
+    w.options.filter(v => v !== w.other_option).forEach(v => list.append(box(v)));
+    block.append(list);
+    if (w.other_option) {
+      const row = document.createElement('div'); row.className = 'ways-other-row';
+      const label = box(w.other_option);
+      const optional = text('small', '(optional details)'); optional.setAttribute('aria-hidden', 'true'); label.append(optional);
+      const field = textarea(p, p.id + '.ways_other', answer(p.id)?.other?.ways, (value, event) => {
+        const current = answer(p.id);
+        if (!current?.choices?.includes(w.parent)) return;
+        if (!current.ways?.includes(w.other_option) && value.trim()) waysChanged(p, w.other_option, true, event, 'other_text');
+        state.answers[p.id].other ||= {}; state.answers[p.id].other.ways = value;
+      }, w.other_option + ' details (optional)');
+      field.querySelector('label').className = 'other-text-label';
+      field.querySelector('.help').remove();
+      const input = field.querySelector('textarea');
+      input.removeAttribute('aria-describedby'); input.rows = 1; input.placeholder = 'Please specify';
+      row.append(label, field); list.append(row);
+    }
+    return block;
+  }
+  function waysChanged(p, value, checked, event, source = 'participant') {
+    const w = p.ways, a = clone(answer(p.id) || {choices: [], other: {}});
+    a.other ||= {};
+    const ways = new Set(a.ways || []);
+    if (checked) ways.add(value); else ways.delete(value);
+    a.ways = w.options.filter(v => ways.has(v));
+    state.answers[p.id] = a;
+    record(checked ? 'option_selected' : 'option_deselected', p.id + '.ways', {option: value, source}, event);
+    if (value === w.other_option && !checked && a.other.ways) {
+      record('other_cleared', p.id + '.ways_other', {previous_text: a.other.ways, source: 'option_change'});
+      delete a.other.ways;
+      const ta = $('text-' + p.id + '.ways_other');
+      if (ta) { ta.value = ''; ta.dispatchEvent(new Event('survey-text-reset')); }
+    }
+    document.querySelectorAll(`input[data-question="${p.id}.ways"]`).forEach(input => { input.checked = a.ways.includes(input.value); });
+    cache(); setStatus();
+  }
+  function syncWays(p) {
+    const block = $('ways-' + p.id); if (!block) return;
+    const enabled = !!answer(p.id)?.choices?.includes(p.ways.parent);
+    block.classList.toggle('disabled', !enabled);
+    block.setAttribute('aria-disabled', String(!enabled));
+    block.querySelectorAll('input, textarea').forEach(el => { el.disabled = !enabled; });
+  }
+  function fitColumns() {
+    // Use the fewest columns (1 = a vertical list) that avoid scrolling the question.
+    // .fit lists fill columns top to bottom; a .fit-rows list (Part 2, with the nested
+    // ways block spanning the width) fills rows and uses at most two columns.
+    const page = $('page'), lists = [...page.querySelectorAll('.options.fit, .options.fit-rows')];
+    if (!lists.length) return;
+    const apply = cols => lists.forEach(list => {
+      const byRows = list.classList.contains('fit-rows');
+      const n = list.children.length, c = Math.max(1, Math.min(cols, byRows ? 2 : n));
+      list.style.gridTemplateColumns = `repeat(${c}, minmax(0, 1fr))`;
+      list.style.gridTemplateRows = byRows ? '' : `repeat(${Math.ceil(n / c)}, auto)`;
+      list.style.gridAutoFlow = byRows ? 'row' : 'column';
+      if (byRows) list.querySelectorAll(':scope > .span-all').forEach(el => { el.style.gridColumn = '1 / -1'; });
+    });
+    let cols = 1; apply(cols);
+    if (window.innerWidth < 720) return; // phones: one column; the question area scrolls
+    const max = window.innerWidth >= 1500 ? 4 : 3;
+    while (page.scrollHeight > page.clientHeight + 1 && cols < max) apply(++cols);
+  }
   function optionList(p, options, group) {
     const container = document.createElement('div');
     container.className = 'answer-options';
@@ -272,34 +353,24 @@
       }
       return label;
     };
-    if (p.option_groups && !group) {
-      // One line per group of related actions (schema option_groups).
-      const groups = document.createElement('div'); groups.className = 'option-groups';
-      groups.setAttribute('role', 'radiogroup'); groups.setAttribute('aria-labelledby', 'question-title');
-      p.option_groups.forEach((g, i) => {
-        const shown = g.options.filter(v => v !== otherOf(p) && options.includes(v));
-        if (!shown.length) return;
-        const row = document.createElement('div'); row.className = 'option-group' + (g.label ? '' : ' unlabeled');
-        if (g.label) {
-          const heading = text('p', g.label, 'option-group-label'); heading.id = `group-${p.id}-${i}`;
-          row.setAttribute('role', 'group'); row.setAttribute('aria-labelledby', heading.id); row.append(heading);
-        }
-        const rowList = document.createElement('div'); rowList.className = 'options';
-        shown.forEach(v => rowList.append(choice(v)));
-        row.append(rowList); groups.append(row);
-      });
-      container.append(groups);
-      // The unlabeled last line holds "Not sure" and Other together.
-      const last = groups.querySelector('.option-group.unlabeled .options');
-      if (last && options.includes(otherOf(p))) { otherRow.classList.add('in-group'); last.append(otherRow); }
-    } else {
-      options.filter(v => v !== otherOf(p)).forEach(v => list.append(choice(v)));
-      container.append(list);
-    }
+    options.filter(v => v !== otherOf(p)).forEach(v => {
+      const item = choice(v); list.append(item);
+      if (!group && p.ways && v === p.ways.parent) {
+        // The choice and its ways block always span the full width, in reading order.
+        const block = waysBlock(p);
+        item.classList.add('span-all'); block.classList.add('span-all');
+        list.append(block);
+      }
+    });
+    // Options are listed vertically; fitColumns() adds columns only to avoid scrolling.
+    if (p.ways && !group) list.classList.add('fit-rows');
+    else if (!p.rating_group && !group) list.classList.add('fit');
+    container.append(list);
     if (options.includes(otherOf(p))) {
       otherRow.append(choice(otherOf(p)));
       const other = document.createElement('div'); other.id = 'other-' + p.id + '-' + (group || 'other');
-      otherRow.append(other); if (!otherRow.parentNode) container.append(otherRow);
+      otherRow.append(other);
+      (p.ways && !group ? list : container).append(otherRow);
     }
     return container;
   }
@@ -498,7 +569,7 @@
       page.append(text('p', p.kind === 'multi' ? 'Choose all that apply.' : 'Choose one.', 'help'));
       let options = p.options;
       if (p.exclude_selected_from) options = options.filter(v => !answer(p.exclude_selected_from)?.choices?.includes(v));
-      page.append(optionList(p, options)); updateOther(p);
+      page.append(optionList(p, options)); updateOther(p); if (p.ways) syncWays(p);
     } else if (p.kind === 'group') {
       for (const field of p.fields) {
         const fs = document.createElement('fieldset'); fs.append(text('legend', field.title), optionList(p, field.options, field.id));
@@ -635,7 +706,7 @@
       nav.replaceChildren(button('Keep going', render),button('End and submit survey', () => finish('ended'), 'primary'));
       foot.replaceChildren(); $('page').scrollTop = 0; resize(); heading.focus({preventScroll:true});
     }));
-    setStatus(); resize();
+    fitColumns(); setStatus(); resize();
   }
   function finish(status) {
     state.status = status; record('survey_' + status, state.page); render(); requestSave();
@@ -769,6 +840,13 @@
   // Retry the identical in-flight batch; deduplication is performed before server acknowledgement.
   setInterval(() => {if (inflight && Date.now() - lastSent > 12000) sendPending();}, 3000);
   new ResizeObserver(resize).observe(document.body);
+  // Re-fit option columns when the available space changes (window, zoom, host frame).
+  let fitPending = false;
+  new ResizeObserver(() => {
+    if (fitPending || !initialized) return;
+    fitPending = true;
+    requestAnimationFrame(() => { fitPending = false; fitColumns(); });
+  }).observe($('question-panel'));
   window.addEventListener('resize', resize);
   try {
     const viewport = window.parent.visualViewport;

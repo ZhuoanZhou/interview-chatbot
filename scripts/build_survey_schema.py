@@ -82,15 +82,16 @@ page('tell_when',1,txt(124),options=opts(*range(126,131)),source=124)
 page('scenarios_intro',2,'Example situations','info',source=137,paragraphs=[
      'Imagine you are talking to someone. For these examples, suppose a device could show you the words the other person understood.',
      'You will see what you meant to say and what the other person understood. Choose what you would do first in each situation. You can skip any example.'])
-# "What would you do first?" choices, regrouped in 2026-09 (meeting with Slobodan);
-# they replace the guide's flat list. Each group is shown on its own line.
-ACTION_GROUPS=[{'label':'Continue the conversation','options':['Accept the text and continue the conversation']},
-               {'label':'Use my voice again','options':['Say it again the same way','Say it in a different way']},
-               {'label':'Use text','options':['Change parts of the text','Type a new message']},
-               {'label':'Use another way to communicate','options':['Use my AAC device','Use gestures or signs']},
-               {'label':'Stop trying','options':['Stop trying to get this message across']},
-               {'label':'','options':['Not sure']}]
-ACTION_OPTIONS=[o for g in ACTION_GROUPS[:-1] for o in g['options']]+['Other','Not sure']
+# "What would you do first?" for the Part 2 examples (revised 2026-10). One choice;
+# "Try to help ..." has follow-up ways (choose all) that are only selectable while
+# it is chosen. "Do something else" and "Try another way" have optional details.
+HELP_CHOICE='Try to help the other person understand what I meant'
+ACTION_OPTIONS=['Continue the conversation without correcting the text','Stop trying to get this message across',
+                HELP_CHOICE,'Not sure','Do something else']
+ACTION_WAYS={'parent':HELP_CHOICE,'title':'If you chose this, which ways might you try?',
+             'help':'Choose all you might consider.','other_option':'Try another way',
+             'options':['Say it again, using the same or different words','Correct part of the text','Type a new message',
+                        'Use a communication app, device, or board I already use','Use gestures or signs','Try another way']}
 # Six hand-written word candidates per transcript word (prototype stimuli, not ASR
 # output), shown around a clicked word on the post-demonstration edit screens.
 CANDIDATES=json.loads((Path(__file__).resolve().parents[1]/'survey'/'word_candidates.json').read_text(encoding='utf-8'))
@@ -102,7 +103,7 @@ for number, start in enumerate([139,144,149,154,159],1):
               'shown':txt(start+3).split(':',1)[1].strip()}
     scenarios.append((start,scenario))
     page(prefix+'_action',2,'What would you do first in this situation?',options=ACTION_OPTIONS,source=[start,165],
-         scenario=scenario,option_groups=ACTION_GROUPS)
+         scenario=scenario,other_option='Do something else',ways=ACTION_WAYS)
     # The guide's follow-ups (what/which words to change, why leave it) were removed
     # in 2026-09: the editable post-demonstration examples now cover them.
 page('break',2,'Take a break if you would like','info',paragraphs=[

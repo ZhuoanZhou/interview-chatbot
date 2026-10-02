@@ -43,6 +43,9 @@ def combine(records, schema):
           'status':a.get('status','not_reached') if applies(p.get('when'),answers) else 'not_applicable',
           'choices':json.dumps(a.get('choices',[]),ensure_ascii=False),
           'groups':json.dumps(a.get('groups',{}),ensure_ascii=False),
+          # Part 2 follow-up ways (kept even if another choice was made later; read them
+          # only when "choices" contains the question's ways parent).
+          'ways':json.dumps(a.get('ways',[]),ensure_ascii=False),
           'text':a.get('text',''),'other_text':json.dumps(a.get('other',{}),ensure_ascii=False)})
     events=[]
     seen=set()

@@ -64,8 +64,10 @@ schema records the source document SHA-256. The Word file remains unchanged.
   (Streamlit's `auto` setting keeps it collapsed on phones, where it would cover the
   survey). Its show/hide arrow is always visible, not only on hover, and the first
   screen tells participants where the ID is. The survey uses the remaining width.
-  Answer choices use two or three columns on wider screens; scenario context sits
-  beside its question. Other fields follow the option grid.
+  Answer choices are listed vertically. If a single column would make the question
+  scroll, survey.js switches to two columns (three or four on very wide screens),
+  filled top to bottom; phones always use one column. Scenario context sits beside
+  its question. Other fields follow the options. The rating tables are unchanged.
   Navigation, clear-answer, and pause/end controls remain
   in a reserved bottom panel and share a row on desktop.
 - The question scrollbar and “Show more below” button are removed. Compact
@@ -82,11 +84,16 @@ not a factual claim about ASR capability. Review this wording before piloting.
 
 ## "What would you do first?" and the post-demonstration examples
 
-The choices for the ten example questions are grouped, one line per group
-(`option_groups` in the schema): Continue the conversation · Use my voice again · Use
-text · Use another way to communicate · Stop trying, then Not sure and Other on the
-last line (two columns; single options span the row). `options` still lists
-every choice. These replace the Word guide's flat list (September 2026 meeting).
+The Part 2 examples offer one choice: Continue the conversation without correcting
+the text · Stop trying to get this message across · Try to help the other person
+understand what I meant · Not sure · Do something else (optional details). Under
+"Try to help ..." is a follow-up (`ways` in the schema): "If you chose this, which
+ways might you try?" (choose all), with "Try another way" taking optional details.
+The ways are grayed out and cannot be selected unless "Try to help ..." is chosen;
+ticks already made are kept (grayed) if another choice is made, and come back if it
+is chosen again. The answer stores `choices`, `ways`, and `other` (`other` for "Do
+something else", `ways` for "Try another way"); the export has a `ways` column, to be
+read only when the choice is "Try to help ...". These replace the Word guide's list.
 
 Part 2 examples (`s1_action`–`s5_action`) ask only this question. Their follow-ups
 (What would you change? / Which words? / Why leave it?) were removed; `retired_pages`

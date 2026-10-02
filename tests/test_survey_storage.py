@@ -168,17 +168,21 @@ class StorageTests(unittest.TestCase):
                 self.assertEqual(len(set(c['options'])),6)
                 self.assertNotIn(c['word'],c['options'])
 
-    def test_action_choices_are_grouped_on_separate_lines(self):
+    def test_part_2_choices_with_follow_up_ways(self):
+        help_choice='Try to help the other person understand what I meant'
         for page in SCHEMA['pages']:
             if not re.fullmatch(r's[1-5]_action',page['id']):
                 continue
-            groups=page['option_groups']
-            self.assertEqual([g['label'] for g in groups],
-                ['Continue the conversation','Use my voice again','Use text',
-                 'Use another way to communicate','Stop trying',''])
-            grouped=[o for g in groups for o in g['options']]
-            self.assertEqual(sorted(grouped+['Other']),sorted(page['options']))
-            self.assertEqual(len(grouped),len(set(grouped)))
+            self.assertEqual(page['options'],['Continue the conversation without correcting the text',
+                'Stop trying to get this message across',help_choice,'Not sure','Do something else'])
+            self.assertEqual(page['other_option'],'Do something else')
+            self.assertNotIn('option_groups',page)
+            ways=page['ways']
+            self.assertEqual(ways['parent'],help_choice)
+            self.assertEqual(ways['title'],'If you chose this, which ways might you try?')
+            self.assertEqual(ways['help'],'Choose all you might consider.')
+            self.assertEqual(ways['options'][-1],ways['other_option'])
+            self.assertEqual(len(ways['options']),6)
 
     def test_pre_demo_examples_have_no_follow_ups_and_old_screens_resume(self):
         ids={p['id'] for p in SCHEMA['pages']}

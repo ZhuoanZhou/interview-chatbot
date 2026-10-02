@@ -55,23 +55,22 @@ window.start=(schema,pageId,answers)=>{args={schema,record:{revision:0,state:{pa
     assert(await app.locator('body').evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
     for(const container of await app.locator('.answer-options:has(.other-row)').all()){
      const labels=await container.locator('.choice span').allTextContents();
-     assert(['Other','It depends on something else'].includes(labels.at(-1)));
-     assert(await container.getByRole('textbox').isVisible());
+     assert(['Other','It depends on something else','Do something else'].includes(labels.at(-1)));
+     const otherBox=container.locator('.other-row textarea');
+     assert(await otherBox.isVisible());
      const other=await container.locator('.other-row').boundingBox();
-     if(await container.locator('.option-groups').count()){
-      // Grouped actions: Other shares the last line with Not sure, after every group.
-      assert.equal(await container.locator('.option-group').last().locator('.other-row').count(),1);
-      const groupCount=await container.locator('.option-group').count();
-      const lastGroup=await container.locator('.option-group').nth(groupCount-2).boundingBox();
-      assert(other.y>=lastGroup.y+lastGroup.height,'Other follows all grouped choices');
-     }else{
-      const grid=await container.locator('.options').boundingBox();
-      assert(other.y>=grid.y+grid.height,'Other follows all other choices');
-     }
      const label=await container.locator('.other-row>.choice').boundingBox();
-     const textbox=await container.getByRole('textbox').boundingBox();
-     assert(textbox.y>=label.y+label.height,'Other text box is stacked below its label');
-     assert(Math.abs(textbox.x-label.x)<2,'Other label and text box share a left edge');
+     const textbox=await otherBox.boundingBox();
+     if(await container.locator(':scope > .options.fit-rows').count()){
+      // Part 2: "Do something else" is the last cell of the answer grid, its text box on the same line.
+      assert(await container.locator(':scope > .options.fit-rows > .other-row:last-child').count()===1,'Do something else is last');
+      assert(textbox.x>=label.x+label.width-2,'Text box follows its label on the same line');
+     }else{
+      const grid=await container.locator(':scope > .options').boundingBox();
+      assert(other.y>=grid.y+grid.height,'Other follows all other choices');
+      assert(textbox.y>=label.y+label.height,'Other text box is stacked below its label');
+      assert(Math.abs(textbox.x-label.x)<2,'Other label and text box share a left edge');
+     }
     }
     if(size.width===1366&&['stop_trying','s1_action','e1_edit','edit_intro','feature_1','situation_1'].includes(q.id))await p.screenshot({path:`tmp/survey-qa/wide-${q.id}.png`});
    }

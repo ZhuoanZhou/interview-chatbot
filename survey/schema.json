@@ -273,58 +273,27 @@
         "meant": "“I’m picking up the prescription for Mara Klein.”",
         "shown": "“I’m picking up the prescription for Mark Line.”"
       },
-      "option_groups": [
-        {
-          "label": "Continue the conversation",
-          "options": [
-            "Accept the text and continue the conversation"
-          ]
-        },
-        {
-          "label": "Use my voice again",
-          "options": [
-            "Say it again the same way",
-            "Say it in a different way"
-          ]
-        },
-        {
-          "label": "Use text",
-          "options": [
-            "Change parts of the text",
-            "Type a new message"
-          ]
-        },
-        {
-          "label": "Use another way to communicate",
-          "options": [
-            "Use my AAC device",
-            "Use gestures or signs"
-          ]
-        },
-        {
-          "label": "Stop trying",
-          "options": [
-            "Stop trying to get this message across"
-          ]
-        },
-        {
-          "label": "",
-          "options": [
-            "Not sure"
-          ]
-        }
-      ],
+      "other_option": "Do something else",
+      "ways": {
+        "parent": "Try to help the other person understand what I meant",
+        "title": "If you chose this, which ways might you try?",
+        "help": "Choose all you might consider.",
+        "other_option": "Try another way",
+        "options": [
+          "Say it again, using the same or different words",
+          "Correct part of the text",
+          "Type a new message",
+          "Use a communication app, device, or board I already use",
+          "Use gestures or signs",
+          "Try another way"
+        ]
+      },
       "options": [
-        "Accept the text and continue the conversation",
-        "Say it again the same way",
-        "Say it in a different way",
-        "Change parts of the text",
-        "Type a new message",
-        "Use my AAC device",
-        "Use gestures or signs",
+        "Continue the conversation without correcting the text",
         "Stop trying to get this message across",
-        "Other",
-        "Not sure"
+        "Try to help the other person understand what I meant",
+        "Not sure",
+        "Do something else"
       ],
       "source_paragraphs": [
         139,
@@ -342,58 +311,27 @@
         "meant": "“Can you tell me where the elevator is?”",
         "shown": "“Can you tell me there the letter of us?”"
       },
-      "option_groups": [
-        {
-          "label": "Continue the conversation",
-          "options": [
-            "Accept the text and continue the conversation"
-          ]
-        },
-        {
-          "label": "Use my voice again",
-          "options": [
-            "Say it again the same way",
-            "Say it in a different way"
-          ]
-        },
-        {
-          "label": "Use text",
-          "options": [
-            "Change parts of the text",
-            "Type a new message"
-          ]
-        },
-        {
-          "label": "Use another way to communicate",
-          "options": [
-            "Use my AAC device",
-            "Use gestures or signs"
-          ]
-        },
-        {
-          "label": "Stop trying",
-          "options": [
-            "Stop trying to get this message across"
-          ]
-        },
-        {
-          "label": "",
-          "options": [
-            "Not sure"
-          ]
-        }
-      ],
+      "other_option": "Do something else",
+      "ways": {
+        "parent": "Try to help the other person understand what I meant",
+        "title": "If you chose this, which ways might you try?",
+        "help": "Choose all you might consider.",
+        "other_option": "Try another way",
+        "options": [
+          "Say it again, using the same or different words",
+          "Correct part of the text",
+          "Type a new message",
+          "Use a communication app, device, or board I already use",
+          "Use gestures or signs",
+          "Try another way"
+        ]
+      },
       "options": [
-        "Accept the text and continue the conversation",
-        "Say it again the same way",
-        "Say it in a different way",
-        "Change parts of the text",
-        "Type a new message",
-        "Use my AAC device",
-        "Use gestures or signs",
+        "Continue the conversation without correcting the text",
         "Stop trying to get this message across",
-        "Other",
-        "Not sure"
+        "Try to help the other person understand what I meant",
+        "Not sure",
+        "Do something else"
       ],
       "source_paragraphs": [
         144,
@@ -411,58 +349,27 @@
         "meant": "“My appointment is on Tuesday morning.”",
         "shown": "“My appointment is on Tuesday in the morning.”"
       },
-      "option_groups": [
-        {
-          "label": "Continue the conversation",
-          "options": [
-            "Accept the text and continue the conversation"
-          ]
-        },
-        {
-          "label": "Use my voice again",
-          "options": [
-            "Say it again the same way",
-            "Say it in a different way"
-          ]
-        },
-        {
-          "label": "Use text",
-          "options": [
-            "Change parts of the text",
-            "Type a new message"
-          ]
-        },
-        {
-          "label": "Use another way to communicate",
-          "options": [
-            "Use my AAC device",
-            "Use gestures or signs"
-          ]
-        },
-        {
-          "label": "Stop trying",
-          "options": [
-            "Stop trying to get this message across"
-          ]
-        },
-        {
-          "label": "",
-          "options": [
-            "Not sure"
-          ]
-        }
-      ],
+      "other_option": "Do something else",
+      "ways": {
+        "parent": "Try to help the other person understand what I meant",
+        "title": "If you chose this, which ways might you try?",
+        "help": "Choose all you might consider.",
+        "other_option": "Try another way",
+        "options": [
+          "Say it again, using the same or different words",
+          "Correct part of the text",
+          "Type a new message",
+          "Use a communication app, device, or board I already use",
+          "Use gestures or signs",
+          "Try another way"
+        ]
+      },
       "options": [
-        "Accept the text and continue the conversation",
-        "Say it again the same way",
-        "Say it in a different way",
-        "Change parts of the text",
-        "Type a new message",
-        "Use my AAC device",
-        "Use gestures or signs",
+        "Continue the conversation without correcting the text",
         "Stop trying to get this message across",
-        "Other",
-        "Not sure"
+        "Try to help the other person understand what I meant",
+        "Not sure",
+        "Do something else"
       ],
       "source_paragraphs": [
         149,
@@ -480,58 +387,27 @@
         "meant": "“No peanuts, please—I’m allergic.”",
         "shown": "“Some peanuts, please, I’m a little sick.”"
       },
-      "option_groups": [
-        {
-          "label": "Continue the conversation",
-          "options": [
-            "Accept the text and continue the conversation"
-          ]
-        },
-        {
-          "label": "Use my voice again",
-          "options": [
-            "Say it again the same way",
-            "Say it in a different way"
-          ]
-        },
-        {
-          "label": "Use text",
-          "options": [
-            "Change parts of the text",
-            "Type a new message"
-          ]
-        },
-        {
-          "label": "Use another way to communicate",
-          "options": [
-            "Use my AAC device",
-            "Use gestures or signs"
-          ]
-        },
-        {
-          "label": "Stop trying",
-          "options": [
-            "Stop trying to get this message across"
-          ]
-        },
-        {
-          "label": "",
-          "options": [
-            "Not sure"
-          ]
-        }
-      ],
+      "other_option": "Do something else",
+      "ways": {
+        "parent": "Try to help the other person understand what I meant",
+        "title": "If you chose this, which ways might you try?",
+        "help": "Choose all you might consider.",
+        "other_option": "Try another way",
+        "options": [
+          "Say it again, using the same or different words",
+          "Correct part of the text",
+          "Type a new message",
+          "Use a communication app, device, or board I already use",
+          "Use gestures or signs",
+          "Try another way"
+        ]
+      },
       "options": [
-        "Accept the text and continue the conversation",
-        "Say it again the same way",
-        "Say it in a different way",
-        "Change parts of the text",
-        "Type a new message",
-        "Use my AAC device",
-        "Use gestures or signs",
+        "Continue the conversation without correcting the text",
         "Stop trying to get this message across",
-        "Other",
-        "Not sure"
+        "Try to help the other person understand what I meant",
+        "Not sure",
+        "Do something else"
       ],
       "source_paragraphs": [
         154,
@@ -549,58 +425,27 @@
         "meant": "“I’m proud of you, that was a big deal.”",
         "shown": "“I’m crowded too, that was a big deal.”"
       },
-      "option_groups": [
-        {
-          "label": "Continue the conversation",
-          "options": [
-            "Accept the text and continue the conversation"
-          ]
-        },
-        {
-          "label": "Use my voice again",
-          "options": [
-            "Say it again the same way",
-            "Say it in a different way"
-          ]
-        },
-        {
-          "label": "Use text",
-          "options": [
-            "Change parts of the text",
-            "Type a new message"
-          ]
-        },
-        {
-          "label": "Use another way to communicate",
-          "options": [
-            "Use my AAC device",
-            "Use gestures or signs"
-          ]
-        },
-        {
-          "label": "Stop trying",
-          "options": [
-            "Stop trying to get this message across"
-          ]
-        },
-        {
-          "label": "",
-          "options": [
-            "Not sure"
-          ]
-        }
-      ],
+      "other_option": "Do something else",
+      "ways": {
+        "parent": "Try to help the other person understand what I meant",
+        "title": "If you chose this, which ways might you try?",
+        "help": "Choose all you might consider.",
+        "other_option": "Try another way",
+        "options": [
+          "Say it again, using the same or different words",
+          "Correct part of the text",
+          "Type a new message",
+          "Use a communication app, device, or board I already use",
+          "Use gestures or signs",
+          "Try another way"
+        ]
+      },
       "options": [
-        "Accept the text and continue the conversation",
-        "Say it again the same way",
-        "Say it in a different way",
-        "Change parts of the text",
-        "Type a new message",
-        "Use my AAC device",
-        "Use gestures or signs",
+        "Continue the conversation without correcting the text",
         "Stop trying to get this message across",
-        "Other",
-        "Not sure"
+        "Try to help the other person understand what I meant",
+        "Not sure",
+        "Do something else"
       ],
       "source_paragraphs": [
         159,

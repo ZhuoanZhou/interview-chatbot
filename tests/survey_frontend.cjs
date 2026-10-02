@@ -269,15 +269,48 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  resumed=await page.evaluate(()=>batches.at(-1).state.answers);
  for(let i=1;i<=6;i++)assert.equal(resumed['feature_'+i].status,'skipped');
  // A session saved on a removed follow-up screen resumes on its example; old answers are kept.
- app=await start('s2_words',{s2_action:{status:'answered',choices:['Change parts of the text']},s2_words:{status:'answered',text:'elevator'}});
+ app=await start('s2_words',{s2_action:{status:'answered',choices:['Not sure']},s2_words:{status:'answered',text:'elevator'}});
  await app.getByText('Example 2 — Asking for directions',{exact:true}).waitFor();
- assert(await app.getByLabel('Change parts of the text',{exact:true}).isChecked());
- assert.deepEqual(await app.locator('.option-group-label').allTextContents(),
-  ['Continue the conversation','Use my voice again','Use text','Use another way to communicate','Stop trying']);
+ assert(await app.getByLabel('Not sure',{exact:true}).isChecked());
  await app.getByRole('button',{name:'Next',exact:true}).click();
  await app.getByText('Example 3 — Talking at home',{exact:true}).waitFor();
  await page.waitForFunction(()=>batches.length===1);
  assert.equal(await page.evaluate(()=>batches[0].state.answers.s2_words.text),'elevator');
+ // Part 2: the ways under "Try to help ..." are only selectable while it is chosen;
+ // ticked ways stay ticked (grayed) when another answer is chosen.
+ app=await start('s1_action');
+ const HELP='Try to help the other person understand what I meant';
+ const way=name=>app.getByRole('checkbox',{name,exact:true});
+ assert.equal(await way('Correct part of the text').isDisabled(),true,'Ways start grayed');
+ assert.equal(await app.getByRole('textbox',{name:'Try another way details (optional)'}).isDisabled(),true);
+ assert(await app.locator('.ways.disabled').isVisible());
+ await app.getByLabel(HELP,{exact:true}).check();
+ assert.equal(await way('Correct part of the text').isEnabled(),true);
+ assert.equal(await app.locator('.ways.disabled').count(),0);
+ await way('Correct part of the text').check();
+ await way('Use gestures or signs').check();
+ await app.getByRole('textbox',{name:'Try another way details (optional)'}).fill('point at a sign');
+ assert(await way('Try another way').isChecked(),'Typing details ticks Try another way');
+ await app.getByLabel('Not sure',{exact:true}).check();
+ assert.equal(await way('Correct part of the text').isDisabled(),true,'Grayed again');
+ assert(await way('Correct part of the text').isChecked(),'Ticks are kept while grayed');
+ assert.equal(await app.getByRole('textbox',{name:'Try another way details (optional)'}).inputValue(),'point at a sign');
+ await app.getByLabel(HELP,{exact:true}).check();
+ await way('Use gestures or signs').uncheck();
+ await app.getByRole('textbox',{name:'Other details (optional)'}).fill('write it down');
+ assert(await app.getByLabel('Do something else',{exact:true}).isChecked(),'Typing details selects Do something else');
+ assert.equal(await way('Type a new message').isDisabled(),true);
+ await app.getByLabel(HELP,{exact:true}).check();
+ await app.getByRole('button',{name:'Next',exact:true}).click();
+ await page.waitForFunction(()=>batches.length===1);
+ const helpAnswer=await page.evaluate(()=>batches[0].state.answers.s1_action);
+ assert.deepEqual(helpAnswer.choices,[HELP]);
+ assert.deepEqual(helpAnswer.ways,['Correct part of the text','Try another way']);
+ assert.equal(helpAnswer.other.ways,'point at a sign');
+ assert.equal(helpAnswer.other.other,undefined,'Do something else details cleared when deselected');
+ const wayEvents=await page.evaluate(()=>batches[0].events.filter(e=>e.field_id==='s1_action.ways'&&e.type.startsWith('option_')).map(e=>e.type+':'+e.option));
+ assert.deepEqual(wayEvents,['option_selected:Correct part of the text','option_selected:Use gestures or signs',
+  'option_selected:Try another way','option_deselected:Use gestures or signs']);
  // Next without editing or choosing is unanswered; a session saved on the removed
  // question step resumes on its edit screen.
  const watchedOnly={demo_consent:{status:'answered',choices:['Yes']},demo_video:{status:'answered',choices:['watched']},
