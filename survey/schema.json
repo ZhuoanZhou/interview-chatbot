@@ -836,9 +836,9 @@
     {
       "id": "situation_1",
       "section": 3,
-      "title": "How useful do you think the process could be in each of the following situations?",
+      "title": "How useful would using the tool shown in the demonstration video be for you in each situation?",
       "kind": "single",
-      "item": "The message is important and the exact meaning matters.",
+      "item": "You need to communicate something important, and a misunderstanding would matter.",
       "group": "Q7 · Situations",
       "rating_group": "situations",
       "when": {
@@ -873,7 +873,7 @@
     {
       "id": "situation_2",
       "section": 3,
-      "title": "How useful do you think the process could be in each of the following situations?",
+      "title": "How useful would using the tool shown in the demonstration video be for you in each situation?",
       "kind": "single",
       "item": "You are talking with someone unfamiliar with your speech.",
       "group": "Q7 · Situations",
@@ -910,9 +910,9 @@
     {
       "id": "situation_3",
       "section": 3,
-      "title": "How useful do you think the process could be in each of the following situations?",
+      "title": "How useful would using the tool shown in the demonstration video be for you in each situation?",
       "kind": "single",
-      "item": "You are in a public or service interaction.",
+      "item": "You are talking with someone in a public place, such as a shop or service counter.",
       "group": "Q7 · Situations",
       "rating_group": "situations",
       "when": {
@@ -947,9 +947,9 @@
     {
       "id": "situation_4",
       "section": 3,
-      "title": "How useful do you think the process could be in each of the following situations?",
+      "title": "How useful would using the tool shown in the demonstration video be for you in each situation?",
       "kind": "single",
-      "item": "The conversation is moving quickly or includes several people.",
+      "item": "The conversation is moving quickly, or several people are talking.",
       "group": "Q7 · Situations",
       "rating_group": "situations",
       "when": {
@@ -984,9 +984,9 @@
     {
       "id": "situation_5",
       "section": 3,
-      "title": "How useful do you think the process could be in each of the following situations?",
+      "title": "How useful would using the tool shown in the demonstration video be for you in each situation?",
       "kind": "single",
-      "item": "You are tired or your speech/typing is harder than usual.",
+      "item": "You are tired, or speaking or typing is harder than usual.",
       "group": "Q7 · Situations",
       "rating_group": "situations",
       "when": {
@@ -1021,7 +1021,7 @@
     {
       "id": "situation_6",
       "section": 3,
-      "title": "How useful do you think the process could be in each of the following situations?",
+      "title": "How useful would using the tool shown in the demonstration video be for you in each situation?",
       "kind": "single",
       "item": "You are talking with a familiar person who usually understands you.",
       "group": "Q7 · Situations",
@@ -1058,9 +1058,9 @@
     {
       "id": "situation_7",
       "section": 3,
-      "title": "How useful do you think the process could be in each of the following situations?",
+      "title": "How useful would using the tool shown in the demonstration video be for you in each situation?",
       "kind": "single",
-      "item": "Repeating or rephrasing has already failed.",
+      "item": "You have tried repeating or saying it differently, but the other person still does not understand.",
       "group": "Q7 · Situations",
       "rating_group": "situations",
       "when": {

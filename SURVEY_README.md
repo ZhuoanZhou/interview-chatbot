@@ -47,6 +47,9 @@ schema records the source document SHA-256. The Word file remains unchanged.
   resume on the combined question; historical N/A responses are preserved and
   labeled until changed. Clear answer and Skip apply to the whole rating set;
   Next preserves completed rows and records unanswered rows. All five scenarios remain.
+- Q7's question and situations use the researcher's revised wording (2026-10),
+  set in `scripts/build_survey_schema.py` (`SITUATIONS`) rather than taken from
+  the Word guide. Answer IDs (`situation_1`–`situation_7`) are unchanged.
 - The post-demo section depends on agreeing to and confirming the demo.
   Skipping/unavailable video does not count as watching it.
 - The AAC name and detection cues follow the source conditions. The speech-to-text question has no follow-ups (the guide's two are

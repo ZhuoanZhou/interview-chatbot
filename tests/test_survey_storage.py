@@ -100,6 +100,20 @@ class StorageTests(unittest.TestCase):
         self.assertNotIn('Notes to myself',json.dumps(pages))
         self.assertLess(max(i for p in pages for i in p.get('source_paragraphs',[0])),354)
 
+    def test_situation_ratings_use_revised_wording(self):
+        pages=[p for p in SCHEMA['pages'] if p['id'].startswith('situation_')]
+        self.assertEqual({p['title'] for p in pages},
+                         {'How useful would using the tool shown in the demonstration video be for you in each situation?'})
+        self.assertEqual([p['item'] for p in pages],[
+            'You need to communicate something important, and a misunderstanding would matter.',
+            'You are talking with someone unfamiliar with your speech.',
+            'You are talking with someone in a public place, such as a shop or service counter.',
+            'The conversation is moving quickly, or several people are talking.',
+            'You are tired, or speaking or typing is harder than usual.',
+            'You are talking with a familiar person who usually understands you.',
+            'You have tried repeating or saying it differently, but the other person still does not understand.'])
+        self.assertTrue(all(p['rating_group']=='situations' and p['options'][0]=='Very useful' for p in pages))
+
     def test_optional_exercise_ends_part_3(self):
         pages=SCHEMA['pages'];ids=[p['id'] for p in pages];P={p['id']:p for p in pages}
         watched=P['feature_1']['when']

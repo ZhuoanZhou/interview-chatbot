@@ -126,9 +126,18 @@ page('difficulty',3,txt(240).removeprefix('Q5. '),'multi',opts(*range(242,252)),
 page('look_when',3,'Imagine you are using the tool shown in the demo video during a conversation. When would you look at the text?',
      'multi',opts(*range(255,263)),253,when=watched,
      exclusive=['I would not want to look at the text','I would only use this for messages or writing','Not sure'])
-for number,i in enumerate(range(268,281,2),1):
-    page(f'situation_{number}',3,txt(264).removeprefix('Q7. '),options=ratings,source=[264,i],
-         item=txt(i),group='Q7 · Situations',rating_group='situations',when=watched)
+# Q7 question and situations reworded in 2026-10 at the researcher's request
+# (guide paragraphs 264 and 268-280; situations 2 and 6 unchanged).
+SITUATIONS=['You need to communicate something important, and a misunderstanding would matter.',
+            'You are talking with someone unfamiliar with your speech.',
+            'You are talking with someone in a public place, such as a shop or service counter.',
+            'The conversation is moving quickly, or several people are talking.',
+            'You are tired, or speaking or typing is harder than usual.',
+            'You are talking with a familiar person who usually understands you.',
+            'You have tried repeating or saying it differently, but the other person still does not understand.']
+for number,(i,item) in enumerate(zip(range(268,281,2),SITUATIONS),1):
+    page(f'situation_{number}',3,'How useful would using the tool shown in the demonstration video be for you in each situation?',
+         options=ratings,source=[264,i],item=item,group='Q7 · Situations',rating_group='situations',when=watched)
 TRY_YES='Yes, I’d like to try'
 # At the end of Part 3, an optional exercise: the same five examples as editable
 # transcripts (added 2026-09; not in the Word guide), only after "Yes" on the intro.
