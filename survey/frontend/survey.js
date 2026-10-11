@@ -251,7 +251,8 @@
     input.rows = 2; input.placeholder = 'Please specify';
     host.append(field);
   }
-  // ---- Follow-up "ways" under one choice (Part 2): selectable only while that
+  // ---- Follow-up "ways" under one choice (used by the former Part 2 examples;
+  // no current question uses it): selectable only while that
   // choice is selected. Ticked ways are kept (grayed) if another choice is made.
   function waysBlock(p) {
     const w = p.ways, block = document.createElement('div');
@@ -315,7 +316,7 @@
   }
   function fitColumns() {
     // Use the fewest columns (1 = a vertical list) that avoid scrolling the question.
-    // .fit lists fill columns top to bottom; a .fit-rows list (Part 2, with the nested
+    // .fit lists fill columns top to bottom; a .fit-rows list (a question with a nested
     // ways block spanning the width) fills rows and uses at most two columns.
     const page = $('page'), lists = [...page.querySelectorAll('.options.fit, .options.fit-rows')];
     if (!lists.length) return;
@@ -504,7 +505,7 @@
     page.replaceChildren(); nav.replaceChildren(); foot.replaceChildren();
     $('page').scrollTop = 0;
     const p = currentPage() || schema.pages[0], list = visiblePages();
-    $('section').textContent = p.section ? `Part ${p.section} of 4 · ${schema.sections[p.section]}` : 'Welcome';
+    $('section').textContent = p.section ? `Part ${p.section} of ${schema.sections.length - 1} · ${schema.sections[p.section]}` : 'Welcome';
     const pos = list.findIndex(x => x.id === p.id);
     $('progress').style.width = `${Math.round(100 * pos / Math.max(1, list.length - 1))}%`;
     if (terminal(state)) {
@@ -644,17 +645,6 @@
       }
       task.append(field); page.append(task);
     }
-    if (p.kind === 'edit') nav.append(button('Stop the exercise', () => {
-      // Leave the optional exercise: unanswered remaining examples are skipped.
-      const list = visiblePages(), edits = list.filter(q => q.kind === 'edit');
-      const skipped = [];
-      for (const q of edits.slice(edits.findIndex(q => q.id === p.id))) {
-        if (answer(q.id)?.status !== 'answered') { state.answers[q.id] = {status: 'skipped', stopped: true}; skipped.push(q.id); }
-      }
-      record('exercise_stopped', p.id, {skipped});
-      const after = list[list.indexOf(edits.at(-1)) + 1];
-      if (after) go(after.id);
-    }, 'small stop-exercise'));
     if (['single', 'multi', 'group', 'text'].includes(p.kind)) nav.append(button('Clear answer', () => {
       for (const item of questionItems(p)) {
         const previous = answer(item.id) || null; delete state.answers[item.id];

@@ -96,7 +96,7 @@ class StorageTests(unittest.TestCase):
         self.assertEqual(len(ids),len(set(ids)))
         self.assertEqual(sum(i.startswith('feature_') for i in ids),6)
         self.assertEqual(sum(i.startswith('situation_') for i in ids),7)
-        self.assertEqual(sum(i.startswith('s') and i.endswith('_action') for i in ids),5)
+        self.assertEqual(sum(i.endswith('_edit') for i in ids),5)
         self.assertNotIn('Notes to myself',json.dumps(pages))
         self.assertLess(max(i for p in pages for i in p.get('source_paragraphs',[0])),354)
 
@@ -114,7 +114,7 @@ class StorageTests(unittest.TestCase):
             'You have tried repeating or saying it differently, but the other person still does not understand.'])
         self.assertTrue(all(p['rating_group']=='situations' and p['options'][0]=='Very useful' for p in pages))
 
-    def test_optional_exercise_ends_part_3(self):
+    def test_exercise_ends_part_2_and_cannot_be_declined(self):
         pages=SCHEMA['pages'];ids=[p['id'] for p in pages];P={p['id']:p for p in pages}
         watched=P['feature_1']['when']
         start=ids.index('edit_intro')
@@ -122,21 +122,40 @@ class StorageTests(unittest.TestCase):
         self.assertEqual(ids[start:start+6],['edit_intro']+[f'e{n}_edit' for n in range(1,6)])
         self.assertEqual(ids[start+6],'closing')
         intro=P['edit_intro']
-        self.assertEqual((intro['title'],intro['kind'],intro['when']),('Try the example situations','single',watched))
-        self.assertEqual(intro['options'],['Yes, I’d like to try','No, skip the examples'])
-        self.assertEqual(len(intro['paragraphs']),3)
+        self.assertEqual((intro['title'],intro['kind'],intro['when'],intro['next_label']),
+                         ('Try the example situations','info',watched,'Start the examples'))
+        self.assertNotIn('options',intro)
+        self.assertEqual(intro['paragraphs'][0],'Next are five example situations. Each one shows what you meant to say and '
+                         'a transcript of what you said. Change the transcript the way you would fix it, or choose another response.')
         self.assertIn('“Re-check” function shown in the video',intro['paragraphs'][1])
+        self.assertEqual(len(intro['paragraphs']),2)
+        self.assertNotIn('optional',json.dumps(intro).lower())
+        titles=['Example 1 — At a pharmacy','Example 2 — Asking for directions','Example 3 — Talking at home',
+                'Example 4 — Ordering food','Example 5 — Talking with a friend']
         for n in range(1,6):
-            edit,part2=P[f'e{n}_edit'],P[f's{n}_action']
+            edit=P[f'e{n}_edit']
             self.assertNotIn(f'e{n}_action',ids)
             self.assertEqual(SCHEMA['retired_pages'][f'e{n}_action'],f'e{n}_edit')
-            self.assertEqual(edit['when'],{'all':[watched,{'question':'edit_intro','values':['Yes, I’d like to try']}]})
-            self.assertEqual(edit['title'],part2['scenario']['title'])
-            self.assertEqual('“'+edit['transcript']+'”',part2['scenario']['shown'])
+            self.assertEqual(edit['when'],watched)
+            self.assertEqual((edit['title'],edit['section'],edit['counter']),(titles[n-1],2,f'Example {n} of 5'))
+        self.assertEqual(P['e1_edit']['transcript'],'I’m picking up the prescription for Mark Line.')
+        self.assertEqual(P['e1_edit']['meant'],'“I’m picking up the prescription for Mara Klein.”')
+
+    def test_part_2_examples_removed_and_parts_renumbered(self):
+        P={p['id']:p for p in SCHEMA['pages']}
+        self.assertEqual(SCHEMA['version'],'2026-10-11-v1')
+        self.assertEqual(SCHEMA['sections'],['Welcome','Your experiences','After the demonstration','Closing'])
+        for gone in ['scenarios_intro','break']+[f's{n}_action' for n in range(1,6)]:
+            self.assertNotIn(gone,P)
+            self.assertEqual(SCHEMA['retired_pages'][gone],'demo_consent')
+        self.assertFalse(any('ways' in p or 'scenario' in p for p in P.values()))
+        ids=[p['id'] for p in SCHEMA['pages']]
+        self.assertEqual(ids[ids.index('tell_when')+1],'demo_consent')
+        self.assertEqual({p['section'] for p in SCHEMA['pages']},{0,1,2,3})
+        self.assertEqual((P['tell_when']['section'],P['demo_consent']['section'],P['e5_edit']['section'],P['closing']['section']),(1,2,2,3))
 
     def test_questions_follow_the_september_29_guide(self):
         ids=[p['id'] for p in SCHEMA['pages']];P={p['id']:p for p in SCHEMA['pages']}
-        self.assertEqual(SCHEMA['version'],'2026-09-29-v1')
         self.assertEqual(SCHEMA['source'],'refined_question_list_9.29.2026.docx')
         for gone in ['asr_stopped','asr_uses','aac_carry','story','first_repair','understood','next_repair','different_repair',
                      'stop_reason','partner_action','partner_expected']:
@@ -164,13 +183,6 @@ class StorageTests(unittest.TestCase):
         self.assertFalse(any(b.get('notice') for b in intro['blocks']))
         self.assertTrue(intro['blocks'][4]['paragraphs'][0].startswith('Your participant ID is in the side panel on the left.'))
 
-    def test_scenario_intro_wording(self):
-        page=next(p for p in SCHEMA['pages'] if p['id']=='scenarios_intro')
-        self.assertEqual(page['title'],'Example situations')
-        self.assertEqual(page['paragraphs'],[
-            'Imagine you are talking to someone. For these examples, suppose a device could show you the words the other person understood.',
-            'You will see what you meant to say and what the other person understood. Choose what you would do first in each situation. You can skip any example.'])
-
     def test_every_transcript_word_has_six_candidates(self):
         for page in SCHEMA['pages']:
             if page['kind']!='edit':
@@ -182,29 +194,12 @@ class StorageTests(unittest.TestCase):
                 self.assertEqual(len(set(c['options'])),6)
                 self.assertNotIn(c['word'],c['options'])
 
-    def test_part_2_choices_with_follow_up_ways(self):
-        help_choice='Try to help the other person understand what I meant'
-        for page in SCHEMA['pages']:
-            if not re.fullmatch(r's[1-5]_action',page['id']):
-                continue
-            self.assertEqual(page['options'],['Continue the conversation without correcting the text',
-                'Stop trying to get this message across',help_choice,'Not sure','Do something else'])
-            self.assertEqual(page['other_option'],'Do something else')
-            self.assertNotIn('option_groups',page)
-            ways=page['ways']
-            self.assertEqual(ways['parent'],help_choice)
-            self.assertEqual(ways['title'],'If you chose this, which ways might you try?')
-            self.assertEqual(ways['help'],'Choose all you might consider.')
-            self.assertEqual(ways['options'][-1],ways['other_option'])
-            self.assertEqual(len(ways['options']),6)
-
-    def test_pre_demo_examples_have_no_follow_ups_and_old_screens_resume(self):
+    def test_removed_screens_resume_on_existing_pages(self):
         ids={p['id'] for p in SCHEMA['pages']}
         for n in range(1,6):
-            self.assertIn(f's{n}_action',ids)
-            for kind in ('extent','words','leave'):
+            for kind in ('action','extent','words','leave'):
                 self.assertNotIn(f's{n}_{kind}',ids)
-                self.assertEqual(SCHEMA['retired_pages'][f's{n}_{kind}'],f's{n}_action')
+                self.assertEqual(SCHEMA['retired_pages'][f's{n}_{kind}'],'demo_consent')
         self.assertTrue(set(SCHEMA['retired_pages'].values())<=ids)
 
     def test_drive_retry_after_uncertain_upload_reuses_saved_batch(self):

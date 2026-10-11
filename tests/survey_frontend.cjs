@@ -176,14 +176,18 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  assert.equal(await app.locator('.rating-row').count(),7);
  assert.equal(await app.locator('.rating-row input:checked').count(),7);
  await app.getByRole('button',{name:'Next',exact:true}).click();
- // Optional exercise at the end of Part 3.
+ // The exercise at the end of Part 2 has no yes/no choice: an information screen, then the examples.
  await app.getByRole('heading',{name:'Try the example situations'}).waitFor();
  assert(await app.getByText(/It does not include speech-to-text or the “Re-check” function shown in the video/).isVisible());
- await app.getByLabel('Yes, I’d like to try',{exact:true}).check();
- await app.getByRole('button',{name:'Next',exact:true}).click();
+ assert.equal(await app.getByRole('radio').count(),0,'No choice to skip the examples');
+ assert.equal(await app.getByText(/optional/i).count(),0);
+ assert(await app.getByText('Part 2 of 3 · After the demonstration',{exact:true}).isVisible());
+ await app.getByRole('button',{name:'Start the examples',exact:true}).click();
  // Example 1: edit the transcript directly, then Next.
  await app.getByRole('heading',{name:'Example 1 — At a pharmacy'}).waitFor();
  assert(await app.getByText('Example 1 of 5',{exact:true}).isVisible());
+ assert.equal(await app.getByRole('button',{name:'Stop the exercise'}).count(),0,'No Stop the exercise button');
+ assert(await app.getByRole('button',{name:'Skip',exact:true}).isVisible(),'Each example can still be skipped');
  assert.equal(await app.getByText('What would you do first in this situation?').count(),0,'No question step after the demo');
  let transcript=app.getByRole('textbox',{name:'Transcript'});
  assert.equal(await transcript.inputValue(),'I’m picking up the prescription for Mark Line.');
@@ -268,17 +272,20 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  await page.waitForFunction(()=>batches.length===3);
  resumed=await page.evaluate(()=>batches.at(-1).state.answers);
  for(let i=1;i<=6;i++)assert.equal(resumed['feature_'+i].status,'skipped');
- // A session saved on a removed follow-up screen resumes on its example; old answers are kept.
+ // A session saved on a removed Part 2 screen resumes on the demonstration question; old answers are kept.
  app=await start('s2_words',{s2_action:{status:'answered',choices:['Not sure']},s2_words:{status:'answered',text:'elevator'}});
- await app.getByText('Example 2 — Asking for directions',{exact:true}).waitFor();
- assert(await app.getByLabel('Not sure',{exact:true}).isChecked());
+ await app.getByText('Would you like to watch the demonstration?',{exact:true}).waitFor();
+ await app.getByLabel('No',{exact:true}).check();
  await app.getByRole('button',{name:'Next',exact:true}).click();
- await app.getByText('Example 3 — Talking at home',{exact:true}).waitFor();
+ await app.getByText(/Is there anything else you want us to know/).waitFor();
  await page.waitForFunction(()=>batches.length===1);
  assert.equal(await page.evaluate(()=>batches[0].state.answers.s2_words.text),'elevator');
- // Part 2: the ways under "Try to help ..." are only selectable while it is chosen;
+ // Follow-up ways (formerly Part 2; tested with a test-only copy of that question):
+ // the ways under "Try to help ..." are only selectable while it is chosen;
  // ticked ways stay ticked (grayed) when another answer is chosen.
- app=await start('s1_action');
+ const withWays=JSON.parse(JSON.stringify(schema));
+ withWays.pages.splice(withWays.pages.findIndex(q=>q.id==='demo_consent'),0,{"id": "s1_action", "section": 1, "title": "What would you do first in this situation?", "kind": "single", "scenario": {"title": "Example 1 — At a pharmacy", "situation": "You are at a pharmacy counter. You do not know the staff member, and people are waiting behind you.", "meant": "“I’m picking up the prescription for Mara Klein.”", "shown": "“I’m picking up the prescription for Mark Line.”"}, "other_option": "Do something else", "ways": {"parent": "Try to help the other person understand what I meant", "title": "If you chose this, which ways might you try?", "help": "Choose all you might consider.", "other_option": "Try another way", "options": ["Say it again, using the same or different words", "Correct part of the text", "Type a new message", "Use a communication app, device, or board I already use", "Use gestures or signs", "Try another way"]}, "options": ["Continue the conversation without correcting the text", "Stop trying to get this message across", "Try to help the other person understand what I meant", "Not sure", "Do something else"]});
+ app=await start('s1_action',{},withWays);
  const HELP='Try to help the other person understand what I meant';
  const way=name=>app.getByRole('checkbox',{name,exact:true});
  assert.equal(await way('Correct part of the text').isDisabled(),true,'Ways start grayed');
@@ -313,8 +320,7 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
   'option_selected:Try another way','option_deselected:Use gestures or signs']);
  // Next without editing or choosing is unanswered; a session saved on the removed
  // question step resumes on its edit screen.
- const watchedOnly={demo_consent:{status:'answered',choices:['Yes']},demo_video:{status:'answered',choices:['watched']},
-  edit_intro:{status:'answered',choices:['Yes, I’d like to try']}};
+ const watchedOnly={demo_consent:{status:'answered',choices:['Yes']},demo_video:{status:'answered',choices:['watched']}};
  app=await start('e1_action',{...watchedOnly,e1_action:{status:'answered',choices:['Change the text']}});
  await app.getByRole('heading',{name:'Example 1 — At a pharmacy'}).waitFor();
  await app.getByRole('textbox',{name:'Transcript'}).fill('changed');
@@ -374,25 +380,18 @@ window.start=(schema,record)=>{args={schema,record,session_key:'fixture',preview
  assert(ce.some(e=>e.type==='candidates_closed'&&e.reason==='typing'));
  assert(ce.some(e=>e.type==='candidates_closed'&&e.reason==='escape'));
  assert(ce.some(e=>e.type==='text_input'&&e.inserted==='Klien'||e.type==='text_input'&&e.value_after?.includes('Klien')));
- // "No, skip the examples" goes straight to the closing question.
- app=await start('edit_intro',{...watchedOnly,edit_intro:undefined});
- await app.getByLabel('No, skip the examples',{exact:true}).check();
- await app.getByRole('button',{name:'Next',exact:true}).click();
+ // Skip moves to the next example; skipping the last one goes to the closing question.
+ app=await start('e4_edit',watchedOnly);
+ await app.getByRole('button',{name:'Skip',exact:true}).click();
+ await app.getByText('Example 5 of 5',{exact:true}).waitFor();
+ await app.getByRole('button',{name:'Skip',exact:true}).click();
  await app.getByText(/Is there anything else you want us to know/).waitFor();
- // Stop the exercise: remaining unanswered examples are skipped; answered ones stay.
- app=await start('e2_edit',{...watchedOnly,e1_edit:{status:'answered',decision:'kept',text:'x',original:'x',edited:false},
-  e3_edit:{status:'answered',decision:'say_again',text:'y',original:'y',edited:false}});
- await app.getByRole('button',{name:'Stop the exercise',exact:true}).click();
- await app.getByText(/Is there anything else you want us to know/).waitFor();
- await page.waitForFunction(()=>batches.length===1);
- const stopped=await page.evaluate(()=>batches[0]);
- assert.equal(stopped.state.answers.e1_edit.decision,'kept');
- assert.equal(stopped.state.answers.e3_edit.decision,'say_again');
- for(const n of [2,4,5])assert.deepEqual(stopped.state.answers[`e${n}_edit`],{status:'skipped',stopped:true});
- assert(stopped.events.some(e=>e.type==='exercise_stopped'&&e.field_id==='e2_edit'&&e.skipped.join()==='e2_edit,e4_edit,e5_edit'));
+ await page.waitForFunction(()=>batches.at(-1)?.state.answers.e5_edit?.status==='skipped');
+ const skippedEx=await page.evaluate(()=>batches.at(-1).state.answers);
+ assert.equal(skippedEx.e4_edit.status,'skipped');assert.equal(skippedEx.e5_edit.status,'skipped');
  // A question can name its own free-text choice (other_option); tested with a test-only question.
  const custom=JSON.parse(JSON.stringify(schema));
- custom.pages.splice(custom.pages.findIndex(q=>q.id==='closing'),0,{id:'retry_count',section:3,title:'Test question',kind:'single',
+ custom.pages.splice(custom.pages.findIndex(q=>q.id==='closing'),0,{id:'retry_count',section:2,title:'Test question',kind:'single',
   options:['One more time','Two more times','It depends on something else','Not sure'],other_option:'It depends on something else'});
  app=await start('retry_count',{},custom);
  await app.getByRole('textbox').fill('how busy it is');

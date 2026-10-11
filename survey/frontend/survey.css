@@ -168,11 +168,6 @@ nav .example-counter+.primary{margin-left:0}
 .candidate-row .candidate:hover{background:#f0eefc}
 .candidate-row .candidate:focus-visible{outline:3px solid #bf6500;outline-offset:2px}
 @media(max-width:520px){.candidate-row .candidate{min-width:0;padding:6px 10px}}
-/* Phones: "Stop the exercise" and the example counter share the first line. */
-@media(max-width:520px){
-  nav .stop-exercise{order:-2;flex:1 1 55%;min-height:44px}
-  nav .stop-exercise~.example-counter{order:-1;flex:1 1 35%;margin:0;text-align:right}
-}
 /* Structured text blocks (introduction): bold headings, paragraphs, bullets. */
 .text-block{margin:0 0 12px}
 .text-block h2{font-size:1rem;margin:0 0 4px}

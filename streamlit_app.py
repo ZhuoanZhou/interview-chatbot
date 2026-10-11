@@ -138,7 +138,7 @@ if 'survey_record' not in st.session_state:
 token = st.session_state.survey_token
 record = st.session_state.survey_record
 # Start downloading the shared demonstration in the background as soon as the
-# survey starts, with its own Drive client, so it is usually ready by Part 3.
+# survey starts, with its own Drive client, so it is usually ready by Part 2.
 if not PREVIEW and record['state'].get('status') in ('active', 'paused'):
     prefetch_demo(config.get('DEMO_VIDEO_FILE_ID') or DEFAULT_DEMO_ID,
                   credential_scope(config), lambda: DriveStore(config))

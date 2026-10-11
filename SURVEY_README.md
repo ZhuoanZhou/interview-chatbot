@@ -1,7 +1,7 @@
 # Fixed communication survey
 
 `streamlit_app.py` runs the fixed survey from `refined_question_list_9.29.2026.docx`
-(question version `2026-09-29-v1`).
+(question version `2026-10-11-v1`).
 The previous adaptive app is preserved in `legacy_interview_app.py`. The survey
 does not import it, call an LLM, transcribe speech, or record audio.
 
@@ -31,8 +31,11 @@ mode for study collection.
 ## Questions and branching
 
 `survey/schema.json` contains all participant questions before “Notes to myself”
-in the September 29 guide, with the September 2026 changes to Part 2 and the
-post-demonstration exercise described below. Study purposes, researcher notes and
+in the September 29 guide, with the 2026 changes described below. The guide's
+Part 2 (example situations before the demonstration) has been removed, so the
+survey has three parts: Your experiences, After the demonstration, and Closing.
+Below, "Part 3 Q1" and similar refer to the guide's numbering; in the survey that
+section is Part 2. Study purposes, researcher notes and
 instructions are not shown. Part 3 Q6 is lightly reworded for grammar. Every sourced screen has a zero-based `source_paragraphs` locator, and the
 schema records the source document SHA-256. The Word file remains unchanged.
 
@@ -46,7 +49,7 @@ schema records the source document SHA-256. The Word file remains unchanged.
   unchanged, so existing sessions and exports stay compatible. Older sessions
   resume on the combined question; historical N/A responses are preserved and
   labeled until changed. Clear answer and Skip apply to the whole rating set;
-  Next preserves completed rows and records unanswered rows. All five scenarios remain.
+  Next preserves completed rows and records unanswered rows.
 - Q7's question and situations use the researcher's revised wording (2026-10),
   set in `scripts/build_survey_schema.py` (`SITUATIONS`) rather than taken from
   the Word guide. Answer IDs (`situation_1`–`situation_7`) are unchanged.
@@ -69,8 +72,7 @@ schema records the source document SHA-256. The Word file remains unchanged.
   screen tells participants where the ID is. The survey uses the remaining width.
   Answer choices are listed vertically. If a single column would make the question
   scroll, survey.js switches to two columns (three or four on very wide screens),
-  filled top to bottom; phones always use one column. Scenario context sits beside
-  its question. Other fields follow the options. The rating tables are unchanged.
+  filled top to bottom; phones always use one column. Other fields follow the options. The rating tables are unchanged.
   Navigation, clear-answer, and pause/end controls remain
   in a reserved bottom panel and share a row on desktop.
 - The question scrollbar and “Show more below” button are removed. Compact
@@ -81,42 +83,28 @@ schema records the source document SHA-256. The Word file remains unchanged.
   visual viewport resizing; actual mobile keyboard behavior should be checked on
   participants' target devices before the study.
 
-The scenario introduction is preserved from the supplied document. It describes
-the device as showing what the partner understood; this is a hypothetical premise,
-not a factual claim about ASR capability. Review this wording before piloting.
+## Removed Part 2 and the example exercise
 
-## "What would you do first?" and the post-demonstration examples
+The guide's Part 2 was removed in 2026-10 so that participants reach the
+demonstration sooner: its intro (`scenarios_intro`), the five "What would you do
+first?" examples (`s1_action`–`s5_action`) and the break screen before the
+demonstration (`break`). Part 1 now goes straight to "Would you like to watch the
+demonstration?". The schema version changed to `2026-10-11-v1`, so sessions started
+under an earlier version cannot be resumed. `retired_pages` still sends a session
+saved on a removed screen to the demonstration question. The frontend keeps its
+support for a choice with follow-up `ways` (only selectable while that choice is
+picked; ticks kept, grayed, otherwise) and the export keeps its `ways` column, but
+no current question uses them.
 
-The Part 2 examples offer one choice: Continue the conversation without correcting
-the text · Stop trying to get this message across · Try to help the other person
-understand what I meant · Not sure · Do something else (optional details). Under
-"Try to help ..." is a follow-up (`ways` in the schema): "If you chose this, which
-ways might you try?" (choose all), with "Try another way" taking optional details.
-The ways are grayed out and cannot be selected unless "Try to help ..." is chosen;
-ticks already made are kept (grayed) if another choice is made, and come back if it
-is chosen again. The answer stores `choices`, `ways`, and `other` (`other` for "Do
-something else", `ways` for "Try another way"); the export has a `ways` column, to be
-read only when the choice is "Try to help ...". These replace the Word guide's list.
-
-Part 2 examples (`s1_action`–`s5_action`) ask only this question. Their follow-ups
-(What would you change? / Which words? / Why leave it?) were removed; `retired_pages`
-in the schema sends a session saved on a removed screen back to its example. Answers
-already given to removed questions, or with the previous choice wording, stay in the
-saved records and `responses.json`; removed questions no longer appear as rows in
-`answers.csv`.
-
-Part 3 order, for participants who agreed to and confirmed watching the video: the
-Part 3 questions (Q1–Q8), then an optional exercise at the end of Part 3. Its intro
-(`edit_intro`, "Try the example situations") explains that it includes text editing
-and suggested words but not speech-to-text or the "Re-check" function, and asks
-"Yes, I’d like to try" / "No, skip the examples". Only "Yes" shows the five examples
-as editable transcripts (`e1_edit`–`e5_edit`); No, Skip or no answer goes on to the
-closing question. A session saved on the removed question step
+The five examples are now used only in the exercise at the end of the
+post-demonstration part, for participants who agreed to and confirmed watching the
+video. The exercise is not optional: its intro (`edit_intro`, "Try the example
+situations") is an information screen with a "Start the examples" button. It says
+the exercise includes text editing and suggested words but not speech-to-text or the
+"Re-check" function. The five examples follow as editable transcripts
+(`e1_edit`–`e5_edit`). There is no "Stop the exercise" button; each example can still
+be skipped, like every question. A session saved on the removed question step
 (`e1_action`–`e5_action`) resumes on its edit screen.
-
-"Stop the exercise" on each example leaves the exercise: examples not yet answered
-from that point are saved as `{status: skipped, stopped: true}`, answered ones are
-kept, and an `exercise_stopped` event lists the skipped examples.
 
 Each edit screen shows the context, what they meant to say, and the misrecognized
 transcript, pre-filled and editable. Under it:

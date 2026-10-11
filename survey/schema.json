@@ -1,12 +1,11 @@
 {
-  "version": "2026-09-29-v1",
+  "version": "2026-10-11-v1",
   "title": "Communication experiences survey",
   "source": "refined_question_list_9.29.2026.docx",
   "source_sha256": "67fe705a26349e42a159bd5344b90e2cb06461ebd9a84c8c588c24739018eeff",
   "sections": [
     "Welcome",
     "Your experiences",
-    "Example situations",
     "After the demonstration",
     "Closing"
   ],
@@ -250,221 +249,8 @@
       ]
     },
     {
-      "id": "scenarios_intro",
-      "section": 2,
-      "title": "Example situations",
-      "kind": "info",
-      "paragraphs": [
-        "Imagine you are talking to someone. For these examples, suppose a device could show you the words the other person understood.",
-        "You will see what you meant to say and what the other person understood. Choose what you would do first in each situation. You can skip any example."
-      ],
-      "source_paragraphs": [
-        137
-      ]
-    },
-    {
-      "id": "s1_action",
-      "section": 2,
-      "title": "What would you do first in this situation?",
-      "kind": "single",
-      "scenario": {
-        "title": "Example 1 — At a pharmacy",
-        "situation": "You are at a pharmacy counter. You do not know the staff member, and people are waiting behind you.",
-        "meant": "“I’m picking up the prescription for Mara Klein.”",
-        "shown": "“I’m picking up the prescription for Mark Line.”"
-      },
-      "other_option": "Do something else",
-      "ways": {
-        "parent": "Try to help the other person understand what I meant",
-        "title": "If you chose this, which ways might you try?",
-        "help": "Choose all you might consider.",
-        "other_option": "Try another way",
-        "options": [
-          "Say it again, using the same or different words",
-          "Correct part of the text",
-          "Type a new message",
-          "Use a communication app, device, or board I already use",
-          "Use gestures or signs",
-          "Try another way"
-        ]
-      },
-      "options": [
-        "Continue the conversation without correcting the text",
-        "Stop trying to get this message across",
-        "Try to help the other person understand what I meant",
-        "Not sure",
-        "Do something else"
-      ],
-      "source_paragraphs": [
-        139,
-        165
-      ]
-    },
-    {
-      "id": "s2_action",
-      "section": 2,
-      "title": "What would you do first in this situation?",
-      "kind": "single",
-      "scenario": {
-        "title": "Example 2 — Asking for directions",
-        "situation": "You are asking someone in a shopping mall for directions.",
-        "meant": "“Can you tell me where the elevator is?”",
-        "shown": "“Can you tell me there the letter of us?”"
-      },
-      "other_option": "Do something else",
-      "ways": {
-        "parent": "Try to help the other person understand what I meant",
-        "title": "If you chose this, which ways might you try?",
-        "help": "Choose all you might consider.",
-        "other_option": "Try another way",
-        "options": [
-          "Say it again, using the same or different words",
-          "Correct part of the text",
-          "Type a new message",
-          "Use a communication app, device, or board I already use",
-          "Use gestures or signs",
-          "Try another way"
-        ]
-      },
-      "options": [
-        "Continue the conversation without correcting the text",
-        "Stop trying to get this message across",
-        "Try to help the other person understand what I meant",
-        "Not sure",
-        "Do something else"
-      ],
-      "source_paragraphs": [
-        144,
-        165
-      ]
-    },
-    {
-      "id": "s3_action",
-      "section": 2,
-      "title": "What would you do first in this situation?",
-      "kind": "single",
-      "scenario": {
-        "title": "Example 3 — Talking at home",
-        "situation": "You are talking with your partner or a family member.",
-        "meant": "“My appointment is on Tuesday morning.”",
-        "shown": "“My appointment is on Tuesday in the morning.”"
-      },
-      "other_option": "Do something else",
-      "ways": {
-        "parent": "Try to help the other person understand what I meant",
-        "title": "If you chose this, which ways might you try?",
-        "help": "Choose all you might consider.",
-        "other_option": "Try another way",
-        "options": [
-          "Say it again, using the same or different words",
-          "Correct part of the text",
-          "Type a new message",
-          "Use a communication app, device, or board I already use",
-          "Use gestures or signs",
-          "Try another way"
-        ]
-      },
-      "options": [
-        "Continue the conversation without correcting the text",
-        "Stop trying to get this message across",
-        "Try to help the other person understand what I meant",
-        "Not sure",
-        "Do something else"
-      ],
-      "source_paragraphs": [
-        149,
-        165
-      ]
-    },
-    {
-      "id": "s4_action",
-      "section": 2,
-      "title": "What would you do first in this situation?",
-      "kind": "single",
-      "scenario": {
-        "title": "Example 4 — Ordering food",
-        "situation": "You are ordering food at a counter.",
-        "meant": "“No peanuts, please—I’m allergic.”",
-        "shown": "“Some peanuts, please, I’m a little sick.”"
-      },
-      "other_option": "Do something else",
-      "ways": {
-        "parent": "Try to help the other person understand what I meant",
-        "title": "If you chose this, which ways might you try?",
-        "help": "Choose all you might consider.",
-        "other_option": "Try another way",
-        "options": [
-          "Say it again, using the same or different words",
-          "Correct part of the text",
-          "Type a new message",
-          "Use a communication app, device, or board I already use",
-          "Use gestures or signs",
-          "Try another way"
-        ]
-      },
-      "options": [
-        "Continue the conversation without correcting the text",
-        "Stop trying to get this message across",
-        "Try to help the other person understand what I meant",
-        "Not sure",
-        "Do something else"
-      ],
-      "source_paragraphs": [
-        154,
-        165
-      ]
-    },
-    {
-      "id": "s5_action",
-      "section": 2,
-      "title": "What would you do first in this situation?",
-      "kind": "single",
-      "scenario": {
-        "title": "Example 5 — Talking with a friend",
-        "situation": "You are telling a friend how you feel about something they did.",
-        "meant": "“I’m proud of you, that was a big deal.”",
-        "shown": "“I’m crowded too, that was a big deal.”"
-      },
-      "other_option": "Do something else",
-      "ways": {
-        "parent": "Try to help the other person understand what I meant",
-        "title": "If you chose this, which ways might you try?",
-        "help": "Choose all you might consider.",
-        "other_option": "Try another way",
-        "options": [
-          "Say it again, using the same or different words",
-          "Correct part of the text",
-          "Type a new message",
-          "Use a communication app, device, or board I already use",
-          "Use gestures or signs",
-          "Try another way"
-        ]
-      },
-      "options": [
-        "Continue the conversation without correcting the text",
-        "Stop trying to get this message across",
-        "Try to help the other person understand what I meant",
-        "Not sure",
-        "Do something else"
-      ],
-      "source_paragraphs": [
-        159,
-        165
-      ]
-    },
-    {
-      "id": "break",
-      "section": 2,
-      "title": "Take a break if you would like",
-      "kind": "info",
-      "paragraphs": [
-        "Next is a short demonstration. You can pause here and come back when you are ready."
-      ],
-      "next_label": "Continue to demonstration"
-    },
-    {
       "id": "demo_consent",
-      "section": 3,
+      "section": 2,
       "title": "Would you like to watch the demonstration?",
       "kind": "single",
       "paragraphs": [
@@ -483,7 +269,7 @@
     },
     {
       "id": "demo_video",
-      "section": 3,
+      "section": 2,
       "title": "Demonstration",
       "kind": "video",
       "when": {
@@ -500,7 +286,7 @@
     },
     {
       "id": "feature_1",
-      "section": 3,
+      "section": 2,
       "title": "How useful do you think the parts of the system shown in the demo video will be?",
       "kind": "single",
       "item": "Seeing the transcript.",
@@ -537,7 +323,7 @@
     },
     {
       "id": "feature_2",
-      "section": 3,
+      "section": 2,
       "title": "How useful do you think the parts of the system shown in the demo video will be?",
       "kind": "single",
       "item": "Editing the transcript.",
@@ -574,7 +360,7 @@
     },
     {
       "id": "feature_3",
-      "section": 3,
+      "section": 2,
       "title": "How useful do you think the parts of the system shown in the demo video will be?",
       "kind": "single",
       "item": "Choosing a suggested word instead of typing a correction.",
@@ -611,7 +397,7 @@
     },
     {
       "id": "feature_4",
-      "section": 3,
+      "section": 2,
       "title": "How useful do you think the parts of the system shown in the demo video will be?",
       "kind": "single",
       "item": "Regenerating after a correction.",
@@ -648,7 +434,7 @@
     },
     {
       "id": "feature_5",
-      "section": 3,
+      "section": 2,
       "title": "How useful do you think the parts of the system shown in the demo video will be?",
       "kind": "single",
       "item": "Using text to help another person understand you.",
@@ -685,7 +471,7 @@
     },
     {
       "id": "feature_6",
-      "section": 3,
+      "section": 2,
       "title": "How useful do you think the parts of the system shown in the demo video will be?",
       "kind": "single",
       "item": "Having a starting point instead of typing everything from scratch.",
@@ -722,7 +508,7 @@
     },
     {
       "id": "candidates_compare",
-      "section": 3,
+      "section": 2,
       "title": "Imagine you need to correct a word in the transcript. The word you want is in the list of suggestions. Which do you think would be easier for you?",
       "kind": "single",
       "when": {
@@ -754,7 +540,7 @@
     },
     {
       "id": "difficulty",
-      "section": 3,
+      "section": 2,
       "title": "Based on the video, which parts of this process do you think would be difficult for you?",
       "kind": "multi",
       "when": {
@@ -795,7 +581,7 @@
     },
     {
       "id": "look_when",
-      "section": 3,
+      "section": 2,
       "title": "Imagine you are using the tool shown in the demo video during a conversation. When would you look at the text?",
       "kind": "multi",
       "when": {
@@ -835,7 +621,7 @@
     },
     {
       "id": "situation_1",
-      "section": 3,
+      "section": 2,
       "title": "How useful would using the tool shown in the demonstration video be for you in each situation?",
       "kind": "single",
       "item": "You need to communicate something important, and a misunderstanding would matter.",
@@ -872,7 +658,7 @@
     },
     {
       "id": "situation_2",
-      "section": 3,
+      "section": 2,
       "title": "How useful would using the tool shown in the demonstration video be for you in each situation?",
       "kind": "single",
       "item": "You are talking with someone unfamiliar with your speech.",
@@ -909,7 +695,7 @@
     },
     {
       "id": "situation_3",
-      "section": 3,
+      "section": 2,
       "title": "How useful would using the tool shown in the demonstration video be for you in each situation?",
       "kind": "single",
       "item": "You are talking with someone in a public place, such as a shop or service counter.",
@@ -946,7 +732,7 @@
     },
     {
       "id": "situation_4",
-      "section": 3,
+      "section": 2,
       "title": "How useful would using the tool shown in the demonstration video be for you in each situation?",
       "kind": "single",
       "item": "The conversation is moving quickly, or several people are talking.",
@@ -983,7 +769,7 @@
     },
     {
       "id": "situation_5",
-      "section": 3,
+      "section": 2,
       "title": "How useful would using the tool shown in the demonstration video be for you in each situation?",
       "kind": "single",
       "item": "You are tired, or speaking or typing is harder than usual.",
@@ -1020,7 +806,7 @@
     },
     {
       "id": "situation_6",
-      "section": 3,
+      "section": 2,
       "title": "How useful would using the tool shown in the demonstration video be for you in each situation?",
       "kind": "single",
       "item": "You are talking with a familiar person who usually understands you.",
@@ -1057,7 +843,7 @@
     },
     {
       "id": "situation_7",
-      "section": 3,
+      "section": 2,
       "title": "How useful would using the tool shown in the demonstration video be for you in each situation?",
       "kind": "single",
       "item": "You have tried repeating or saying it differently, but the other person still does not understand.",
@@ -1094,9 +880,9 @@
     },
     {
       "id": "edit_intro",
-      "section": 3,
+      "section": 2,
       "title": "Try the example situations",
-      "kind": "single",
+      "kind": "info",
       "when": {
         "all": [
           {
@@ -1113,43 +899,29 @@
           }
         ]
       },
+      "next_label": "Start the examples",
       "paragraphs": [
-        "Would you like to try an exercise with the five example situations you saw earlier? You can change the example text or choose another response.",
-        "This exercise includes text editing and suggested words. It does not include speech-to-text or the “Re-check” function shown in the video. You will work with prepared transcripts rather than speaking, and the system will not generate a new transcript after a correction.",
-        "This is optional. You can skip any example or stop the exercise at any time."
-      ],
-      "options": [
-        "Yes, I’d like to try",
-        "No, skip the examples"
+        "Next are five example situations. Each one shows what you meant to say and a transcript of what you said. Change the transcript the way you would fix it, or choose another response.",
+        "This exercise includes text editing and suggested words. It does not include speech-to-text or the “Re-check” function shown in the video. You will work with prepared transcripts rather than speaking, and the system will not generate a new transcript after a correction."
       ]
     },
     {
       "id": "e1_edit",
-      "section": 3,
+      "section": 2,
       "title": "Example 1 — At a pharmacy",
       "kind": "edit",
       "when": {
         "all": [
           {
-            "all": [
-              {
-                "question": "demo_consent",
-                "values": [
-                  "Yes"
-                ]
-              },
-              {
-                "question": "demo_video",
-                "values": [
-                  "watched"
-                ]
-              }
+            "question": "demo_consent",
+            "values": [
+              "Yes"
             ]
           },
           {
-            "question": "edit_intro",
+            "question": "demo_video",
             "values": [
-              "Yes, I’d like to try"
+              "watched"
             ]
           }
         ]
@@ -1258,31 +1030,21 @@
     },
     {
       "id": "e2_edit",
-      "section": 3,
+      "section": 2,
       "title": "Example 2 — Asking for directions",
       "kind": "edit",
       "when": {
         "all": [
           {
-            "all": [
-              {
-                "question": "demo_consent",
-                "values": [
-                  "Yes"
-                ]
-              },
-              {
-                "question": "demo_video",
-                "values": [
-                  "watched"
-                ]
-              }
+            "question": "demo_consent",
+            "values": [
+              "Yes"
             ]
           },
           {
-            "question": "edit_intro",
+            "question": "demo_video",
             "values": [
-              "Yes, I’d like to try"
+              "watched"
             ]
           }
         ]
@@ -1402,31 +1164,21 @@
     },
     {
       "id": "e3_edit",
-      "section": 3,
+      "section": 2,
       "title": "Example 3 — Talking at home",
       "kind": "edit",
       "when": {
         "all": [
           {
-            "all": [
-              {
-                "question": "demo_consent",
-                "values": [
-                  "Yes"
-                ]
-              },
-              {
-                "question": "demo_video",
-                "values": [
-                  "watched"
-                ]
-              }
+            "question": "demo_consent",
+            "values": [
+              "Yes"
             ]
           },
           {
-            "question": "edit_intro",
+            "question": "demo_video",
             "values": [
-              "Yes, I’d like to try"
+              "watched"
             ]
           }
         ]
@@ -1535,31 +1287,21 @@
     },
     {
       "id": "e4_edit",
-      "section": 3,
+      "section": 2,
       "title": "Example 4 — Ordering food",
       "kind": "edit",
       "when": {
         "all": [
           {
-            "all": [
-              {
-                "question": "demo_consent",
-                "values": [
-                  "Yes"
-                ]
-              },
-              {
-                "question": "demo_video",
-                "values": [
-                  "watched"
-                ]
-              }
+            "question": "demo_consent",
+            "values": [
+              "Yes"
             ]
           },
           {
-            "question": "edit_intro",
+            "question": "demo_video",
             "values": [
-              "Yes, I’d like to try"
+              "watched"
             ]
           }
         ]
@@ -1657,31 +1399,21 @@
     },
     {
       "id": "e5_edit",
-      "section": 3,
+      "section": 2,
       "title": "Example 5 — Talking with a friend",
       "kind": "edit",
       "when": {
         "all": [
           {
-            "all": [
-              {
-                "question": "demo_consent",
-                "values": [
-                  "Yes"
-                ]
-              },
-              {
-                "question": "demo_video",
-                "values": [
-                  "watched"
-                ]
-              }
+            "question": "demo_consent",
+            "values": [
+              "Yes"
             ]
           },
           {
-            "question": "edit_intro",
+            "question": "demo_video",
             "values": [
-              "Yes, I’d like to try"
+              "watched"
             ]
           }
         ]
@@ -1790,7 +1522,7 @@
     },
     {
       "id": "closing",
-      "section": 4,
+      "section": 3,
       "title": "Is there anything else you want us to know, or anything that would need to change for this approach to work for you?",
       "kind": "text",
       "help": "A few words are enough. You can also leave this blank.",
@@ -1800,7 +1532,7 @@
     },
     {
       "id": "finish",
-      "section": 4,
+      "section": 3,
       "title": "Ready to finish?",
       "kind": "finish",
       "paragraphs": [
@@ -1810,21 +1542,28 @@
     }
   ],
   "retired_pages": {
-    "s1_extent": "s1_action",
-    "s1_words": "s1_action",
-    "s1_leave": "s1_action",
-    "s2_extent": "s2_action",
-    "s2_words": "s2_action",
-    "s2_leave": "s2_action",
-    "s3_extent": "s3_action",
-    "s3_words": "s3_action",
-    "s3_leave": "s3_action",
-    "s4_extent": "s4_action",
-    "s4_words": "s4_action",
-    "s4_leave": "s4_action",
-    "s5_extent": "s5_action",
-    "s5_words": "s5_action",
-    "s5_leave": "s5_action",
+    "s1_action": "demo_consent",
+    "s1_extent": "demo_consent",
+    "s1_words": "demo_consent",
+    "s1_leave": "demo_consent",
+    "s2_action": "demo_consent",
+    "s2_extent": "demo_consent",
+    "s2_words": "demo_consent",
+    "s2_leave": "demo_consent",
+    "s3_action": "demo_consent",
+    "s3_extent": "demo_consent",
+    "s3_words": "demo_consent",
+    "s3_leave": "demo_consent",
+    "s4_action": "demo_consent",
+    "s4_extent": "demo_consent",
+    "s4_words": "demo_consent",
+    "s4_leave": "demo_consent",
+    "s5_action": "demo_consent",
+    "s5_extent": "demo_consent",
+    "s5_words": "demo_consent",
+    "s5_leave": "demo_consent",
+    "scenarios_intro": "demo_consent",
+    "break": "demo_consent",
     "e1_action": "e1_edit",
     "e2_action": "e2_edit",
     "e3_action": "e3_edit",
