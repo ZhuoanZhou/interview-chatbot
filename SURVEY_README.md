@@ -2,6 +2,8 @@
 
 `streamlit_app.py` runs the fixed survey from `refined_question_list_9.29.2026.docx`
 (question version `2026-10-11-v1`).
+This Streamlit version is frozen as of October 2026. Later survey changes are made
+only to a separate HTML version hosted on a Temple server (not in this repository).
 The previous adaptive app is preserved in `legacy_interview_app.py`. The survey
 does not import it, call an LLM, transcribe speech, or record audio.
 
